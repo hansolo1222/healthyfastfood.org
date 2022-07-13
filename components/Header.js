@@ -163,14 +163,14 @@ const Header = () => {
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                         alt="Workflow"
                       /> */}
-                    <a href="/">
+                    <Link href="/">
 
                       <img
                         className="block h-10 w-auto"
                         src="/logo.svg"
                         alt="Workflow"
                       />
-                      </a>
+                      </Link>
                     </div>
                     <div className="hidden sm:block sm:ml-6">
                       <div className="flex space-x-4">
