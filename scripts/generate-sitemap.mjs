@@ -49,28 +49,17 @@ async function generate() {
       return completePath
     })
 
-    const miners = await prisma.miner.findMany({
-      where: {
-        type: "ASIC"
-      }
-    })
+  
+    // const brands = await prisma.manufacturer.findMany()
 
-    const gpus = await prisma.miner.findMany({
-      where: {
-        type: "GPU"
-      }
-    })
+    // const minerPaths = miners.map((entry)=>(`${BASE_URL}/miner/${entry.slug}`))
 
-    const brands = await prisma.manufacturer.findMany()
+    // const gpuPaths = gpus.map((entry)=>(`${BASE_URL}/gpu/${entry.slug}`))
 
-    const minerPaths = miners.map((entry)=>(`${BASE_URL}/miner/${entry.slug}`))
-
-    const gpuPaths = gpus.map((entry)=>(`${BASE_URL}/gpu/${entry.slug}`))
-
-    const brandPaths = brands.map((entry)=>(`${BASE_URL}/brand/${entry.slug}`))
+    // const brandPaths = brands.map((entry)=>(`${BASE_URL}/brand/${entry.slug}`))
 
 
-    const allPaths = [...staticPaths, ...minerPaths, ...gpuPaths, ...brandPaths]
+    const allPaths = [...staticPaths]
 
     const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>

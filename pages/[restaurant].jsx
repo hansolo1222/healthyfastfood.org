@@ -9,6 +9,7 @@ import { useFilteredData } from "../components/UseFilteredData";
 //let glob = require( 'glob' ), path = require( 'path' );
 //import recursiveReaddirFiles from 'recursive-readdir-files';
 import Link from "next/link";
+import { MealRow } from ".";
 
 export const getServerSideProps = async (context) => {
 
@@ -348,53 +349,53 @@ const categoryTag = (category) => {
   }
 };
 
-const MealRow = ({ meal }) => {
-  return (
-    <tr className="minerDataRow">
-      <td className="whitespace-nowrap px-3 py-1.5 text-md text-gray-900">
-        <div className="flex items-center">
-          <Image
-            className=" flex-shrink-0 rounded-full mr-2"
-            src={`/images/restaurant_logos/${meal.restaurant_slug}.svg`}
-            alt={`${meal.restaurant_name} Logo`}
-            width="24"
-            height="24"
-          />
-            <div className="ml-2">
-              <a href={`/${meal.restaurant_slug}/${meal.slug}`} className="hover:text-red-500">
-                <>
-                <span className="">{meal.restaurant_name}</span>{" "}
-                <span className="font-medium">{meal.meal_name}</span>
-                </>
-              </a>
-            </div>
-        </div>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {categoryTag(meal.category)}
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.calories} <span className="text-gray-500 text-sm">cal</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.protein} <span className="text-gray-500 text-sm">g</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.total_carbohydrates}{" "}
-        <span className="text-gray-500 text-sm">g</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.total_fat} <span className="text-gray-500 text-sm">g</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.cholesterol} <span className="text-gray-500 text-sm">mg</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.sodium} <span className="text-gray-500 text-sm">mg</span>
-      </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.sugar} <span className="text-gray-500 text-sm">g</span>
-      </td>
-    </tr>
-  );
-};
+// const MealRow = ({ meal }) => {
+//   return (
+//     <tr className="minerDataRow">
+//       <td className="whitespace-nowrap px-3 py-1.5 text-md text-gray-900">
+//         <div className="flex items-center">
+//           <Image
+//             className=" flex-shrink-0 rounded-full mr-2"
+//             src={`/images/restaurant_logos/${meal.restaurant_slug}.svg`}
+//             alt={`${meal.restaurant_name} Logo`}
+//             width="24"
+//             height="24"
+//           />
+//             <div className="ml-2">
+//               <a href={`/${meal.restaurant_slug}/${meal.slug}`} className="hover:text-red-500">
+//                 <>
+//                 <span className="">{meal.restaurant_name}</span>{" "}
+//                 <span className="font-medium">{meal.meal_name}</span>
+//                 </>
+//               </a>
+//             </div>
+//         </div>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {categoryTag(meal.category)}
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.calories} <span className="text-gray-500 text-sm">cal</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.protein} <span className="text-gray-500 text-sm">g</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.total_carbohydrates}{" "}
+//         <span className="text-gray-500 text-sm">g</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.total_fat} <span className="text-gray-500 text-sm">g</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.cholesterol} <span className="text-gray-500 text-sm">mg</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.sodium} <span className="text-gray-500 text-sm">mg</span>
+//       </td>
+//       <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+//         {meal.sugar} <span className="text-gray-500 text-sm">g</span>
+//       </td>
+//     </tr>
+//   );
+// };

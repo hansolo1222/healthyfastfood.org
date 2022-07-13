@@ -326,7 +326,7 @@ const categoryTag = (category) => {
   }
 };
 
-const MealRow = ({ meal }) => {
+export const MealRow = ({ meal }) => {
   return (
     <tr className="minerDataRow">
       <td className="whitespace-nowrap px-3 py-1.5 text-md text-gray-900">
