@@ -110,7 +110,7 @@ export default function Restaurant(props) {
       <Layout>
       <h1 className="text-3xl font-medium mt-4">All Menu Items At {meals[0].restaurant_name}</h1>
 
-        <div className="flex space-x-2 mt-4 mb-4">
+        {/* <div className="flex space-x-2 mt-4 mb-4">
           <div>
           <input
                 id="burgers"
@@ -181,8 +181,8 @@ export default function Restaurant(props) {
             >
               Condiments
             </label>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
         <table className="min-w-full divide-y divide-gray-300 rounded-lg">
           <thead className="bg-gray-50 rounded-t-lg">
             <tr>

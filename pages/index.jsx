@@ -86,9 +86,9 @@ export default function Home() {
       <Layout>
         <RestaurantCloud />
 
-        <h2 className="text-3xl font-bold text-center mb-4 mt-8">Most popular meals</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 mt-8">Most popular meals</h2>
 
-        <div className="flex space-x-2 mt-4 mb-4">
+        {/* <div className="flex space-x-2 mt-4 mb-4">
           <div>
           <input
                 id="burgers"
@@ -160,7 +160,7 @@ export default function Home() {
               Condiments
             </label>
           </div>
-        </div>
+        </div> */}
         <table className="min-w-full divide-y divide-gray-300 rounded-lg">
           <thead className="bg-gray-50 rounded-t-lg">
             <tr>

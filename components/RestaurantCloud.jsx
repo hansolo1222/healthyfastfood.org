@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 export default function RestaurantCloud() {
   return (
     <div className="bg-white">
@@ -7,9 +7,9 @@ export default function RestaurantCloud() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
 
-          <a href="/mcdonalds" className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
+          <Link href="/mcdonalds" className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
             <img className="h-16" src="/images/logos_large/mcdonalds.png" alt="Tuple" />
-          </a>
+          </Link>
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
             <img className="h-20" src="/images/logos_large/starbucks.png" alt="Mirage" />
           </div>
@@ -48,7 +48,7 @@ export default function RestaurantCloud() {
         </div>
       </div>
       <div className="flex justify-center">
-      <button class="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
+      <button className="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
         See All Restaurants
       </button>
       </div>
