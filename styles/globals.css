@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,109 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+input {
+  display: none;
+}
+
+input + label {
+  background-color: rgb(249 250 251);
+  border: 1px solid #ccc;
+
+  color: #999;
+}
+
+input:checked + label {
+  background-color: red;
+  border: red;
+  color: white;
+}
+
+
+
+.performance-facts {
+  float: left;
+  font-family: Helvetica;
+}
+
+.performance-facts__title {
+  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+}
+.performance-facts__header {
+  border-bottom: 10px solid rgb(104, 104, 104);
+  
+}
+
+.performance-facts__header p {
+  margin: 0;
+}
+
+.performance-facts__table {
+  width: 100%;
+}
+.performance-facts__table th, .performance-facts__table td {
+  font-weight: normal;
+  text-align: left;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-top: 1px solid rgb(104, 104, 104); 
+  white-space: nowrap;
+}
+td:last-child {
+  text-align: right;
+}
+  .blank-cell {
+    width: 1rem;
+    border-top: 0;
+  }
+  .thick-row th {
+      border-top-width: 5px;
+    }
+  
+
+.small-info {
+  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+}
+
+.performance-facts__table--small {
+  @extend .performance-facts__table;
+  border-bottom: 1px solid #999;
+  margin: 0 0 0.5rem 0;
+  
+}
+
+/* thead {
+  tr {
+    border-bottom: 1px solid black; 
+  }
+}
+td {
+  &:last-child {
+    text-align: left;
+  }
+}
+th, td {
+  border: 0;
+  padding: 0;
+} */
+
+.performance-facts__table--dots 
+  td:last-child {
+    text-align: left;
+    ;
+  }
+
+.performance-facts__table--dots 
+  td:last-child:before {
+    font-weight: bold;
+    margin: 0 0.25rem 0 0;
+  }
+  
+  
+.thick-end {
+  border-bottom: 8px solid rgb(104, 104, 104);
+}
+.thin-end {
+  border-bottom: 1px solid rgb(104, 104, 104);
 }
