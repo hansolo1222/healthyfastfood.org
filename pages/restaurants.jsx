@@ -31,9 +31,9 @@ export default function Restaurants(props) {
         <div className="flex">
           <div className="hidden lg:inline z-20 inset-0
            pb-10 overflow-y-auto">
-            <nav class="lg:text-sm lg:leading-6 w-full">
-              <div class="mt-8">
-                <h4 class="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">All Restaurants</h4>
+            <nav className="lg:text-sm lg:leading-6 w-full">
+              <div className="mt-8">
+                <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">All Restaurants</h4>
               <div className="grid grid-cols-8">
                {restaurants.default.map((e)=>(
                 <div className="col-span-1 border">

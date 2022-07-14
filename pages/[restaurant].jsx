@@ -183,9 +183,9 @@ export default function Restaurant(props) {
           <div className="hidden lg:inline z-20 inset-0 top-[3.8125rem]
            right-auto w-[19.5rem] pr-8
            pb-10 overflow-y-auto">
-            <nav class="lg:text-sm lg:leading-6 w-full">
-              <div class="mt-8">
-                <h4 class="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Popular Restaurants</h4>
+            <nav className="lg:text-sm lg:leading-6 w-full">
+              <div className="mt-8">
+                <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Popular Restaurants</h4>
                <ul>
                {restaurants.default.map((e)=>(
                 <li>
