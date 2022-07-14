@@ -7,7 +7,6 @@ import path from 'path'
 
 // const context = require.context('../public', true, /.json$/);
 
-console.log(context)
 
 const BASE_URL = 'https://healthfastfood.org';
 
