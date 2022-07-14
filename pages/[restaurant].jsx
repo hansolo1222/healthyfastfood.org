@@ -214,7 +214,7 @@ export default function Restaurant(props) {
         
                   <div className="inline-block">
                   {categories.map((category)=>{
-                    return <div className="inline-block mr-1 mb-1"><input
+                    return <div className="inline-block mr-1 mb-1" key={category}><input
                       id={category}
                       type="checkbox"
                       checked={filters.includes(category)}
