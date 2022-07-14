@@ -16,10 +16,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 export const getServerSideProps = async (context) => {
   // const router = useRouter()
 
-  // console.log(router.query)
-
-  console.log(context);
-
+  
   const restaurant_slug = context.resolvedUrl.split("/")[1];
 
   const slug = context.params?.slug;

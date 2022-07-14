@@ -5,7 +5,7 @@ import prettier from 'prettier';
 // const prisma = new PrismaClient()
 import path from 'path'
 
-const context = require.context('../public', true, /.json$/);
+// const context = require.context('../public', true, /.json$/);
 
 console.log(context)
 

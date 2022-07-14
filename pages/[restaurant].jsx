@@ -25,10 +25,6 @@ export const getStaticProps = async (context) => {
       notFound: true,
     };
   }
-  const data2 = require("../public/data/arbys.json");
-
-
-  console.log( "here")
 
   const data = require("../public/data/" + slug + ".json");
 
@@ -105,7 +101,6 @@ export default function Restaurant(props) {
   const { meals } = props;
 
   let categories = [...new Set(meals.map((item)=>(item.category)) )];
-  console.log(categories)
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
     { name: meals[0].restaurant_name, href: `/${meals[0].restaurant_slug}`},
@@ -131,11 +126,9 @@ export default function Restaurant(props) {
   const [filters, setFilters] = useState(categories);
 
   const handleFilter = (filter) => {
-    console.log(filter, "being added");
     filters.includes(filter)
       ? setFilters(filters.filter((value) => value !== filter))
       : setFilters(filters.concat(filter));
-    console.log(filters);
   };
 
   let {

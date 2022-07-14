@@ -19,8 +19,6 @@ export default function Home() {
 
   let combined = [...mcdonalds];
 
-  console.log(combined);
-
   let data = combined.map((m) => {
     if (m.variants) {
       // const meal_name = `${m.meal_name} `;
