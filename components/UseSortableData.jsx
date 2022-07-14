@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { ArrowDownIcon, ArrowUpIcon, QuestionMarkCircleIcon } from "@heroicons/react/solid";
+import { ArrowDownIcon, ArrowUpIcon, ChevronDownIcon, ChevronUpIcon, QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 
 export const useSortableData = (items, config = null) => {
@@ -84,17 +84,18 @@ export const useSortableData = (items, config = null) => {
   const SortableTableHeader = ({ name, colKey}) => {
     return (
       <a className="sortable-table-header" type="button" onClick={() => requestSort(colKey)}>
-        <div className="group inline-flex cursor-pointer">
+        <div className={`group inline-flex items-center cursor-pointer text-xs uppercase
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}>
           {name}
           <span
-            className={`ml-1 flex-none rounded ${
-              isActive(colKey) ? "text-gray-900" : "text-gray-300"
+            className={`flex-none rounded ${
+              isActive(colKey) ? "text-stone-900" : "text-stone-300"
             } group-hover:visible group-focus:visible`}
           >
             {getDirectionForCol(colKey) == "ascending" ? (
-              <ArrowUpIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
             ) : (
-              <ArrowDownIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
             )}
           </span>
         </div>
@@ -106,17 +107,18 @@ export const useSortableData = (items, config = null) => {
   const SortableTableHeaderInverse = ({ name, colKey }) => {
     return (
       <a type="button" onClick={() => requestSort(colKey)}>
-        <div className="group inline-flex cursor-pointer">
+        <div className={`group inline-flex cursor-pointer text-xs uppercase
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}>
           {name}
           <span
-            className={`ml-1 flex-none rounded ${
-              isActive(colKey) ? "text-gray-900" : "text-gray-300"
+            className={`flex-none rounded ${
+              isActive(colKey) ? "text-stone-900" : "text-stone-300"
             } group-hover:visible group-focus:visible`}
           >
             {getDirectionForCol(colKey) == "descending" ? (
-              <ArrowUpIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
             ) : (
-              <ArrowDownIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
             )}
           </span>
         </div>

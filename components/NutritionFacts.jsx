@@ -1,12 +1,16 @@
 import React from 'react';
 
+function formatAsPercent(num) {
+    return Number(num).toLocaleString(undefined,{style: 'percent', minimumFractionDigits:0}); 
+  }
+
 const NutritionFacts = ({data}) => {
     console.log(data,"this")
   return (
-    <section classNameName="performance-facts border bg-white shadow-lg w-full mr-5 p-5 rounded-lg">
-      <header classNameName="performance-facts__header m-0 pb-1">
-        <h1 classNameName="performance-facts__title text-3xl leading-none m-0 p-0">Nutrition Facts</h1>
-        <p classNameName="leading-extratight text-sm">Serving Size 1 Burger</p>
+    <section className="performance-facts bg-stone-50  w-full mr-5 p-6 rounded-lg">
+      <header className="performance-facts__header m-0 pb-1">
+        <h1 className="performance-facts__title text-3xl leading-none m-0 p-0 font-extrabold">Nutrition Facts</h1>
+        <p className="leading-extratight text-sm">{data.meal_name}</p>
       </header>
       <table className="performance-facts__table">
         <thead>
@@ -19,12 +23,11 @@ const NutritionFacts = ({data}) => {
         <tbody>
             <tr>
               <th colSpan="2">
-                <span classNameName="font-black">Calories </span>
+                <span className="font-black">Calories </span>
                 {data.calories}
               </th>
               <td>
-                Calories from Fat
-                111
+                
               </td>
             </tr>
             <tr className="thick-row">
@@ -38,11 +41,11 @@ const NutritionFacts = ({data}) => {
           <tbody>
             <tr>
               <th colSpan="2">
-              <span classNameName="font-black">Total Fat </span>
+              <span className="font-black">Total Fat </span>
               {data.total_fat}g
               </th>
               <td>
-              <span classNameName="font-black">22%</span>
+              <span className="font-black">{formatAsPercent(data.total_fat/78)}</span>
               </td>
             </tr>
             <tr>
@@ -53,7 +56,7 @@ const NutritionFacts = ({data}) => {
                 {data.saturated_fat}g
               </th>
               <td>
-                <b>22%</b>
+                <b>{formatAsPercent(data.saturated_fat/20)}</b>
               </td>
             </tr>
             <tr>
@@ -68,29 +71,29 @@ const NutritionFacts = ({data}) => {
             </tr>
             <tr>
               <th colSpan="2">
-              <span classNameName="font-black">Cholesterol </span>
+              <span className="font-black">Cholesterol </span>
               {data.cholesterol}mg
             </th>
             <td>
-            <span classNameName="font-black">18%</span>
+            <span className="font-black">{formatAsPercent(data.cholesterol/300)}</span>
               </td>
             </tr>
             <tr>
               <th colSpan="2">
-                <span classNameName="font-black">Sodium </span>
+                <span className="font-black">Sodium </span>
                 {data.sodium}mg
               </th>
               <td>
-              <span classNameName="font-black">2%</span>
+              <span className="font-black">{formatAsPercent(data.sodium/2300)}</span>
               </td>
             </tr>
             <tr>
               <th colSpan="2">
-              <span classNameName="font-black">Total Carbs </span>
+              <span className="font-black">Total Carbs </span>
                 {data.total_carbohydrates}g
               </th>
               <td>
-              <span classNameName="font-black">6%</span>
+              <span className="font-black">{formatAsPercent(data.total_carbohydrates/275)}</span>
               </td>
             </tr>
             <tr>
@@ -101,7 +104,7 @@ const NutritionFacts = ({data}) => {
                 {data.dietary_fiber}g
              </th>
               <td>
-                <b>4%</b>
+                <b>{formatAsPercent(data.dietary_fiber/28)}</b>
               </td>
             </tr>
             <tr>
@@ -116,7 +119,7 @@ const NutritionFacts = ({data}) => {
             </tr>
             <tr className="thick-end">
               <th colSpan="2">
-              <span classNameName="font-black">Protein </span>
+              <span className="font-black">Protein </span>
               {data.protein}g
             </th>
               <td>
@@ -128,24 +131,24 @@ const NutritionFacts = ({data}) => {
         <table className="performance-facts__table performance-facts__table--dots">
           <tbody>
             <tr>
-              <td classNameName="w-1/3">
-                Vitamin A
+              <td className="w-1/3">
+                <span>Vitamin A </span>
                 {data.vitamin_a}%
               </td>
-              <td classNameName="text-center w-1/3">•</td>
-              <td classNameName="w-1/3">
-                Vitamin C
+              <td className="text-center w-1/3">•</td>
+              <td className="w-1/3">
+              <span>Vitamin C </span>
                 {data.vitamin_c}%
               </td>
             </tr>
             <tr className="thin-end">
               <td colSpan="">
-                Calcium
+                <span>Calcium </span>
                 {data.calcium}%
               </td>
-              <td classNameName="text-center">•</td>
-              <td classNameName="">
-                Iron
+              <td className="text-center">•</td>
+              <td className="">
+                <span>Iron </span>
                 {data.iron}%
               </td>
             </tr>

@@ -697,6 +697,7 @@
         "restaurant_slug": "mcdonalds",
         "meal_name": "Coca-Cola Classic",
         "category": "Beverages",
+        "slug": "coca-cola-classic",
         "variants": [
             {
                 "calories": 110,
@@ -766,8 +767,7 @@
                 "iron": 0,
                 "variant_name": "Large"
             }
-        ],
-        "slug": "coca-cola-classic"
+        ]
     },
     {
         "restaurant_name": "McDonald's",
@@ -1225,6 +1225,7 @@
     {
         "restaurant_name": "McDonald's",
         "restaurant_slug": "mcdonalds",
+        "slug": "frozen-sprite-lymonade",
         "meal_name": "Frozen Sprite Lymonade",
         "category": "Beverages",
         "variants": [
@@ -1279,8 +1280,8 @@
                 "iron": 0,
                 "variant_name": "Large"
             }
-        ],
-        "slug": "frozen-sprite-lymonade"
+        ]
+        
     },
     {
         "restaurant_name": "McDonald's",

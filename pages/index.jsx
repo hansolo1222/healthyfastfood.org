@@ -12,18 +12,24 @@ const starbucks = require("/public/data/starbucks.json");
 const taco_bell = require("/public/data/taco-bell.json");
 
 import RestaurantCloud from "../components/RestaurantCloud";
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const router = useRouter();
 
-  let combined = [...mcdonalds, ...starbucks, ...taco_bell]
+  let combined = [...mcdonalds];
+
+  console.log(combined);
 
   let data = combined.map((m) => {
     if (m.variants) {
-      const meal_name = `${m.meal_name} `;
+      // const meal_name = `${m.meal_name} `;
       const merge = {
         restaurant_name: m.restaurant_name,
+        restaurant_slug: m.restaurant_slug,
         meal_name: m.meal_name,
         category: m.category,
+        slug: m.slug,
         ...m.variants[0],
       };
 
@@ -59,7 +65,8 @@ export default function Home() {
   const filtereditems = items.filter(
     (item) =>
       (filters.includes("Beverages") && item.category === "Beverages") ||
-      (filters.includes("Burgers & Sandwiches") && item.category === "Burgers & Sandwiches") ||
+      (filters.includes("Burgers & Sandwiches") &&
+        item.category === "Burgers & Sandwiches") ||
       (filters.includes("Breakfast") && item.category === "Breakfast") ||
       (filters.includes("Salads") && item.category === "Salads") ||
       (filters.includes("Salads") && item.category === "Condiments")
@@ -86,7 +93,9 @@ export default function Home() {
       <Layout>
         <RestaurantCloud />
 
-        <h2 className="text-3xl font-bold text-center mb-8 mt-8">Most popular meals</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 mt-8">
+          Most popular meals
+        </h2>
 
         {/* <div className="flex space-x-2 mt-4 mb-4">
           <div>
@@ -161,18 +170,18 @@ export default function Home() {
             </label>
           </div>
         </div> */}
-        <table className="min-w-full divide-y divide-gray-300 rounded-lg">
-          <thead className="bg-gray-50 rounded-t-lg">
+        <table className="min-w-full divide-y divide-stone-300 rounded-lg">
+          <thead className="bg-stone-50 rounded-t-lg">
             <tr>
               {/* <th
                       scope="col"
-                      className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                      className="px-3 py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
                       
                     </th> */}
               <th
                 scope="col"
-                className="px-3 py-3.5 text-sm font-semibold text-greeny-600 text-left"
+                className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
               >
                 <div className="flex items-center">
                   <div className="ml-8">
@@ -188,25 +197,25 @@ export default function Home() {
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-sm font-semibold text-gray-900"
+                className="px-3 py-0.5 text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader colKey="category" name="Type" />
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-sm font-semibold text-gray-900"
+                className="px-3 py-0.5 text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader colKey="calories" name="Calories" />
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-right text-sm font-semibold text-gray-900"
+                className=" py-0.5 text-right text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader colKey="protein" name="Protein" />
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader
                   colKey="total_carbohydrates"
@@ -215,13 +224,13 @@ export default function Home() {
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className="py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader colKey="total_fat" name="Total Fat" />
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeaderInverse
                   colKey="cholesterol"
@@ -230,21 +239,21 @@ export default function Home() {
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeaderInverse colKey="sodium" name="Sodium" />
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeaderInverse colKey="sugar" name="Sugar" />
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 bg-white">
+          <tbody className="divide-y divide-stone-200 bg-white">
             {items.map((meal) => (
-              <MealRow meal={meal} key={meal.name} />
+              <MealRow meal={meal} key={meal.name} router={router}/>
             ))}
           </tbody>
         </table>
@@ -257,7 +266,7 @@ const categoryTag = (category) => {
   if (category == "Burgers & Sandwiches") {
     return (
       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
-        🍔 Burgers & Sandwiches
+        🍔 Sandwiches
       </span>
     );
   }
@@ -319,59 +328,64 @@ const categoryTag = (category) => {
   }
   if (category.includes("Hacks")) {
     return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-stone-100 text-stone-800">
         🎁 Limited Edition
       </span>
     );
   }
 };
 
-export const MealRow = ({ meal }) => {
+
+export const MealRow = ({ meal, router }) => {
+
   return (
-    <tr className="minerDataRow">
-      <td className="whitespace-nowrap px-3 py-1.5 text-md text-gray-900">
+
+    <tr className="mealRow cursor-pointer hover:bg-stone-50" onClick={()=>router.push(`/${meal.restaurant_slug}/${meal.slug}`)}>
+      <td className=" py-1.5 text-md text-stone-900">
         <div className="flex items-center">
-        <a href={`/${meal.restaurant_slug}`}>
-          <Image
-            className=" flex-shrink-0 rounded-full mr-2"
-            src={`/images/restaurant_logos/${meal.restaurant_slug}.webp`}
-            alt={`${meal.restaurant_name} Logo`}
-            width="24"
-            height="24"
-          />
+          <a href={`/${meal.restaurant_slug}`} className="flex items-center">
+            <Image
+              className=" flex-shrink-0 rounded-full mr-2"
+              src={`/images/restaurant_logos/${meal.restaurant_slug}.webp`}
+              alt={`${meal.restaurant_name} Logo`}
+              width="24"
+              height="24"
+            />
           </a>
-          <div className="ml-2">
-          <a href={`/${meal.restaurant_slug}/${meal.slug}`} className="hover:text-red-500">
-            <span className="">{meal.restaurant_name}</span>{" "}
-            <span className="font-medium">{meal.meal_name}</span>
-            </a>
-          </div>
+
+          <a
+            href={`/${meal.restaurant_slug}/${meal.slug}`}
+            className="hover:text-red-500 ml-3"
+          >
+            <div className="text-xs text-stone-500">{meal.restaurant_name}</div>{" "}
+            <span className="">{meal.meal_name}</span>
+          </a>
         </div>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
         {categoryTag(meal.category)}
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.calories} <span className="text-gray-500 text-sm">cal</span>
+      <td className=" py-1 text-md text-stone-900 text-center">
+        {meal.calories} <span className="text-stone-500 text-sm">cal</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.protein} <span className="text-gray-500 text-sm">g</span>
+      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+        {meal.protein} <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
+      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
         {meal.total_carbohydrates}{" "}
-        <span className="text-gray-500 text-sm">g</span>
+        <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.total_fat} <span className="text-gray-500 text-sm">g</span>
+      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+        {meal.total_fat} <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.cholesterol} <span className="text-gray-500 text-sm">mg</span>
+      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+        {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.sodium} <span className="text-gray-500 text-sm">mg</span>
+      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+        {meal.sodium} <span className="text-stone-500 text-sm">mg</span>
       </td>
-      <td className="whitespace-nowrap px-3 py-1 text-md text-gray-900 text-center">
-        {meal.sugar} <span className="text-gray-500 text-sm">g</span>
+      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+        {meal.sugar} <span className="text-stone-500 text-sm">g</span>
       </td>
     </tr>
   );

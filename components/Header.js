@@ -32,8 +32,8 @@ const Header = () => {
   let right = null;
 
   const navigation = [
-    { name: "All Restaurants", href: "/" },
-    { name: "Blog", href: "/blog" },
+    { name: "All Restaurants", href: "/restaurants" },
+    // { name: "Blog", href: "/blog" },
     // {
     //   name: "BTC Profitability Calculator",
     //   href: "/bitcoin-profitability-calculator",
@@ -43,19 +43,15 @@ const Header = () => {
 //   if (!session) {
     right = (
       <div>
-      {/* <Link href="/login">
-          <a className="text-base font-medium  hover:text-blue-600 mr-6">
-            Log In
-          </a>
-        </Link> */}
-      <Link href="/api/auth/signin">
+   
+      {/* <Link href="/api/auth/signin">
         <a
          
-          className="inline-block bg-blue-500 py-1 px-4 border border-transparent rounded-md text-md font-medium text-white hover:bg-opacity-75"
+          className="inline-block bg-red-500 py-1 px-4 border border-transparent rounded-md text-md font-medium text-white hover:bg-opacity-75"
         >
           Sign Up
         </a>
-      </Link>
+      </Link> */}
       </div>
     );
 //   }
@@ -70,7 +66,7 @@ const Header = () => {
 //                     <a
 //                       type="button"
 //                       href="/watchlist"
-//                       className="bg-gray-100 p-1.5 rounded-full text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+//                       className="bg-stone-100 p-1.5 rounded-full text-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-stone-800 focus:ring-white"
 //                     >
 //                       <span className="sr-only">View notifications</span>
 //                       <BellIcon className="h-6 w-6" aria-hidden="true" />
@@ -79,7 +75,7 @@ const Header = () => {
 //                     {/* Profile dropdown */}
 //                     <Menu as="div" className="ml-3 relative z-50">
 //                       <div>
-//                         <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none ">
+//                         <Menu.Button className="bg-stone-800 flex text-sm rounded-full focus:outline-none ">
 //                           <span className="sr-only">Open user menu</span>
 //                           <div className="profile-bubble h-8 w-8 rounded-full flex align-middle justify-center text-white text-base">
 //                             <span className="mt-1">{firstLetter}</span>
@@ -105,7 +101,7 @@ const Header = () => {
 //                             {({ active }) => (
 //                               <a
 //                                 href="/account"
-//                                 className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+//                                 className={classNames(active ? 'bg-stone-100' : '', 'block px-4 py-2 text-sm text-stone-700')}
 //                               >
 //                                 Account Settings
 //                               </a>
@@ -115,7 +111,7 @@ const Header = () => {
 //                             {({ active }) => (
 //                               <a
 //                                 href="#"
-//                                 className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+//                                 className={classNames(active ? 'bg-stone-100' : '', 'block px-4 py-2 text-sm text-stone-700')}
 //                               >
 //                                 Settings
 //                               </a>
@@ -126,7 +122,7 @@ const Header = () => {
 //                               <a
 //                                 href="#"
 //                                 onClick={() => signOut()}
-//                                 className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+//                                 className={classNames(active ? 'bg-stone-100' : '', 'block px-4 py-2 text-sm text-stone-700')}
 //                               >
 //                                 Sign out
 //                               </a>
@@ -143,11 +139,11 @@ const Header = () => {
         <Disclosure as="nav" className="bg-white border-b">
           {({ open }) => (
             <>
-              <div className="max-w-8xl mx-auto px-3 sm:px-6 md:px-12">
+              <div className="max-w-8xl mx-auto px-3 sm:px-6 md:px-12 bg-white">
                 <div className="relative flex items-center justify-between h-16">
                   <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     {/* Mobile menu button*/}
-                    <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                    <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-stone-400 hover:text-stone-600 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                       <span className="sr-only">Open main menu</span>
                       {open ? (
                         <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -163,23 +159,23 @@ const Header = () => {
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                         alt="Workflow"
                       /> */}
-                    <Link href="/">
+                    <a href="/">
 
                       <img
-                        className="block h-10 w-auto"
+                        className="block h-12 w-auto"
                         src="/logo.svg"
                         alt="Workflow"
                       />
-                      </Link>
+                      </a>
                     </div>
-                    <div className="hidden sm:block sm:ml-6">
-                      <div className="flex space-x-4">
+                    {/* <div className="hidden sm:block sm:ml-6"> */}
+                      <div className="sm:flex space-x-4 items-center ml-6 hidden">
                         {navigation.map((item) => (
                           <a
                             key={item.name}
                             href={item.href}
                             className={classNames(
-                              'text-gray-900 hover:bg-gray-100',
+                              'text-stone-900 hover:bg-stone-100',
                               'px-3 py-2 rounded-md text-sm font-medium'
                             )}
                             aria-current={'page'}
@@ -188,7 +184,7 @@ const Header = () => {
                           </a>
                         ))}
                       </div>
-                    </div>
+                    {/* </div> */}
                   </div>
                   {right}
                 </div>
@@ -202,7 +198,7 @@ const Header = () => {
                       as="a"
                       href={item.href}
                       className={classNames(
-                         'text-gray-900 hover:bg-gray-100 ',
+                         'text-stone-900 hover:bg-stone-100 ',
                         'block px-3 py-2 rounded-md text-base font-medium'
                       )}
                       aria-current={'page'}

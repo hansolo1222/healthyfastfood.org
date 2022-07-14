@@ -5,7 +5,13 @@ import prettier from 'prettier';
 // const prisma = new PrismaClient()
 import path from 'path'
 
+const context = require.context('../public', true, /.json$/);
+
+console.log(context)
+
 const BASE_URL = 'https://healthfastfood.org';
+
+import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 
 const createSitemap = (posts) => `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -29,12 +35,13 @@ async function generate() {
       'pages/*.ts',
       'pages/*.js',
       'data/**/*.mdx',
-      '!pages/_app.tsx',
-      '!pages/_document.tsx',
+      '!pages/_app.jsx',
+      '!pages/_document.jsx',
       '!data/*.mdx',
       '!pages/_*.js',
       '!pages/api',
       '!pages/404.tsx',
+      '!pages/[restaurant].jsx'
     ]);
 
     const staticPaths =  pages.map((page) => {
@@ -42,15 +49,16 @@ async function generate() {
         .replace('pages', '')
         .replace('data', '')
         .replace('.js', '')
+        .replace('.jsx', '')
         .replace('.mdx', '')
         .replace('.tsx', '');
       const route = path === '/index' ? '' : path;
         const completePath = `${BASE_URL}${route}`
       return completePath
     })
-
+    //console.log(restaurants.default)
   
-    // const brands = await prisma.manufacturer.findMany()
+    const restaurantPaths = restaurants.default.map((e)=>(`${BASE_URL}/${e.slug}`))
 
     // const minerPaths = miners.map((entry)=>(`${BASE_URL}/miner/${entry.slug}`))
 
@@ -58,8 +66,7 @@ async function generate() {
 
     // const brandPaths = brands.map((entry)=>(`${BASE_URL}/brand/${entry.slug}`))
 
-
-    const allPaths = [...staticPaths]
+    const allPaths = [...staticPaths, ...restaurantPaths]
 
     const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
