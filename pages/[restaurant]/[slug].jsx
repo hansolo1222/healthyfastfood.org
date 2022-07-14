@@ -119,7 +119,7 @@ export default function Meal(props) {
                         href={`/${e.slug}`}
                         className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 "
                       >
-                        {e.slug}
+                        {e.restaurant_name}
                       </a>
                     </li>
                   ))}

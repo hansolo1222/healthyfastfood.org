@@ -40,7 +40,7 @@ export const getStaticProps = async (context) => {
 };
 
 const formatCategoryName = (category) => {
-  if (category == "Burgers & Sandwiches") {
+  if (category == "Burgers & Sandwiches" || category == "Sandwiches & Burgers") {
     return "🍔 Sandwiches"
   }
   if (category == "Beverages") {
@@ -49,6 +49,16 @@ const formatCategoryName = (category) => {
   if (category == "Breakfast") {
     return "🍳 Breakfast"
   }
+  if (category == "Seafood") {
+    return "🍤 Seafood"
+  }
+  if (category == "Breads") {
+    return "🍞 Breads"
+  }
+  if (category == "Sauces") {
+    return "🥫 Sauces"
+  }
+  
   if (category == "Chicken Nuggets and Strips") {
     return "🐔 Chicken"
   }
@@ -58,8 +68,8 @@ const formatCategoryName = (category) => {
   if (category == "Desserts") {
     return "🍦 Desserts"
   }
-  if (category == "Happy Meals") {
-    return "👶 Happy Meals"
+  if (category == "Happy Meals" || category == "Kids Menu") {
+    return "👶 " + category
   }
   if (category == "McCafe Coffee") {
     return "☕ Coffee"
@@ -70,8 +80,8 @@ const formatCategoryName = (category) => {
   if (category == "Salads") {
     return "🥗 Salads"
   }
-  if (category == "Snacks & Sides") {
-    return "🍟 Sides"
+  if (category == "Snacks & Sides" || category == "Sides") {
+    return "🥔 Sides"
   } else {
     return category
   }
@@ -141,9 +151,9 @@ export default function Restaurant(props) {
   const filtereditems = items.filter(
     (item) => {
       
-      console.log(categories.map((c)=> 
-        {return (filters.includes(c) && item.category === c)}
-      ).includes(true))
+      // console.log(categories.map((c)=> 
+      //   {return (filters.includes(c) && item.category === c)}
+      // ).includes(true))
       return categories.map((c)=> 
         {return (filters.includes(c) && item.category === c)}
       ).includes(true)
@@ -157,13 +167,6 @@ export default function Restaurant(props) {
     }
   );
 
-  // filter applied after sort
-  // let {
-  //   filteritems,
-  //   requestFilter,
-  //   requestFilterPreserveFilter,
-  //   filterConfig,
-  // } = useFilteredData(items, selectedMeals);
 
   return (
     <div className="">
@@ -187,7 +190,7 @@ export default function Restaurant(props) {
                {restaurants.default.map((e)=>(
                 <li>
                   <a href={`/${e.slug}`} className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 ">
-                  {e.slug}
+                  {e.restaurant_name}
                   </a>
                 </li>
                 ))} 
@@ -195,7 +198,7 @@ export default function Restaurant(props) {
               </div>
             </nav>
            </div>
-          <div className="">
+          <main className="">
             <div className="mt-8">
               <Breadcrumbs pages={pages}/>
               <h1 className="text-3xl font-bold mt-4">
@@ -208,20 +211,7 @@ export default function Restaurant(props) {
               </p>
               <div className="inline-block">
                 <div className="flex space-x-1 mt-4 mb-4">
-                  {/* <div>
-                    <input
-                      id="burgers"
-                      type="checkbox"
-                      checked={filters.includes("Burgers & Sandwiches")}
-                      onChange={() => handleFilter("Burgers & Sandwiches")}
-                    />
-                    <label
-                      htmlFor="burgers"
-                      className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-md text-sm font-medium"
-                    >
-                      Burgers & Sandwiches
-                    </label>
-                  </div> */}
+        
                   <div className="inline-block">
                   {categories.map((category)=>{
                     return <div className="inline-block mr-1 mb-1"><input
@@ -232,67 +222,13 @@ export default function Restaurant(props) {
                     />
                     <label
                       htmlFor={category}
-                      className="cursor-pointer inline-flex whitespace-nowrap items-center px-3.5 py-0.5 rounded-md text-sm font-medium "
+                      className="cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-1 rounded-md text-sm font-medium "
                     >
                       {formatCategoryName(category)}
                     </label></div>
                   })}
                   </div>
-                    {/* <input
-                      id="breakfast"
-                      type="checkbox"
-                      checked={filters.includes("Breakfast")}
-                      onChange={() => handleFilter("Breakfast")}
-                    />
-                    <label
-                      htmlFor="breakfast"
-                      className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-md text-sm font-medium "
-                    >
-                      Breakfast
-                    </label>
-                  </div>
-                  <div>
-                    <input
-                      id="salads"
-                      type="checkbox"
-                      checked={filters.includes("Salads")}
-                      onChange={() => handleFilter("Salads")}
-                    />
-                    <label
-                      htmlFor="salads"
-                      className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-md text-sm font-medium "
-                    >
-                      Salads
-                    </label>
-                  </div>
-                  <div>
-                    <input
-                      id="beverages"
-                      type="checkbox"
-                      checked={filters.includes("Beverages")}
-                      onChange={() => handleFilter("Beverages")}
-                    />
-                    <label
-                      htmlFor="beverages"
-                      className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-md text-sm font-medium "
-                    >
-                      Beverages
-                    </label>
-                  </div>
-                  <div>
-                    <input
-                      id="condiments"
-                      type="checkbox"
-                      checked={filters.includes("Condiments")}
-                      onChange={() => handleFilter("Condiments")}
-                    />
-                    <label
-                      htmlFor="condiments"
-                      className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-md text-sm font-medium "
-                    >
-                      Condiments
-                    </label>
-                  </div> */}
+ 
                 </div>
                 <table className="w-full divide-y divide-stone-300 rounded-lg min-w-full">
                   <thead className="rounded-t-lg">
@@ -398,60 +334,9 @@ export default function Restaurant(props) {
                 </table>
               </div>
             </div>
-          </div>
+          </main>
         </div>
       </Layout>
     </div>
   );
 }
-
-// const MealRow = ({ meal }) => {
-//   return (
-//     <tr className="minerDataRow">
-//       <td className="whitespace-nowrap px-3 py-1.5 text-md text-stone-900">
-//         <div className="flex items-center">
-//           <Image
-//             className=" flex-shrink-0 rounded-full mr-2"
-//             src={`/images/restaurant_logos/${meal.restaurant_slug}.svg`}
-//             alt={`${meal.restaurant_name} Logo`}
-//             width="24"
-//             height="24"
-//           />
-//             <div className="ml-2">
-//               <a href={`/${meal.restaurant_slug}/${meal.slug}`} className="hover:text-red-500">
-//                 <>
-//                 <span className="">{meal.restaurant_name}</span>{" "}
-//                 <span className="font-medium">{meal.meal_name}</span>
-//                 </>
-//               </a>
-//             </div>
-//         </div>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {categoryTag(meal.category)}
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.protein} <span className="text-stone-500 text-sm">g</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.total_carbohydrates}{" "}
-//         <span className="text-stone-500 text-sm">g</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.total_fat} <span className="text-stone-500 text-sm">g</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.sodium} <span className="text-stone-500 text-sm">mg</span>
-//       </td>
-//       <td className="whitespace-nowrap px-3 py-1 text-md text-stone-900 text-center">
-//         {meal.sugar} <span className="text-stone-500 text-sm">g</span>
-//       </td>
-//     </tr>
-//   );
-// };

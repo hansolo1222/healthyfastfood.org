@@ -1,618 +1,772 @@
 [
     {
         "link": "https://fastfoodnutrition.org/7-eleven",
-        "slug": "7-eleven"
+        "slug": "7-eleven",
+        "restaurant_name": "7-Eleven"
     },
     {
         "link": "https://fastfoodnutrition.org/applebees",
-        "slug": "applebees"
+        "slug": "applebees",
+        "restaurant_name": "Applebee's"
     },
     {
         "link": "https://fastfoodnutrition.org/arbys",
-        "slug": "arbys"
+        "slug": "arbys",
+        "restaurant_name": "Arby's"
     },
     {
         "link": "https://fastfoodnutrition.org/au-bon-pain",
-        "slug": "au-bon-pain"
+        "slug": "au-bon-pain",
+        "restaurant_name": "Au Bon Pain"
     },
     {
         "link": "https://fastfoodnutrition.org/auntie-annes",
-        "slug": "auntie-annes"
+        "slug": "auntie-annes",
+        "restaurant_name": "Auntie Anne's"
     },
     {
         "link": "https://fastfoodnutrition.org/baja-fresh",
-        "slug": "baja-fresh"
+        "slug": "baja-fresh",
+        "restaurant_name": "Baja Fresh"
     },
     {
         "link": "https://fastfoodnutrition.org/baskin-robbins",
-        "slug": "baskin-robbins"
+        "slug": "baskin-robbins",
+        "restaurant_name": "Baskin-Robbins"
     },
     {
         "link": "https://fastfoodnutrition.org/bibibop",
-        "slug": "bibibop"
+        "slug": "bibibop",
+        "restaurant_name": "Bibibop"
     },
     {
         "link": "https://fastfoodnutrition.org/bjs",
-        "slug": "bjs"
+        "slug": "bjs",
+        "restaurant_name": "BJ's"
     },
     {
         "link": "https://fastfoodnutrition.org/blaze-pizza",
-        "slug": "blaze-pizza"
+        "slug": "blaze-pizza",
+        "restaurant_name": "Blaze Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/blimpie",
-        "slug": "blimpie"
+        "slug": "blimpie",
+        "restaurant_name": "Blimpie"
     },
     {
         "link": "https://fastfoodnutrition.org/bob-evans",
-        "slug": "bob-evans"
+        "slug": "bob-evans",
+        "restaurant_name": "Bob Evans"
     },
     {
         "link": "https://fastfoodnutrition.org/bojangles",
-        "slug": "bojangles"
+        "slug": "bojangles",
+        "restaurant_name": "Bojangles"
     },
     {
         "link": "https://fastfoodnutrition.org/boston-market",
-        "slug": "boston-market"
+        "slug": "boston-market",
+        "restaurant_name": "Boston Market"
     },
     {
         "link": "https://fastfoodnutrition.org/brueggers",
-        "slug": "brueggers"
+        "slug": "brueggers",
+        "restaurant_name": "Bruegger's"
     },
     {
         "link": "https://fastfoodnutrition.org/buffalo-wild-wings",
-        "slug": "buffalo-wild-wings"
+        "slug": "buffalo-wild-wings",
+        "restaurant_name": "Buffalo Wild Wings"
     },
     {
         "link": "https://fastfoodnutrition.org/burger-king",
-        "slug": "burger-king"
+        "slug": "burger-king",
+        "restaurant_name": "Burger King"
     },
     {
         "link": "https://fastfoodnutrition.org/burgerfi",
-        "slug": "burgerfi"
+        "slug": "burgerfi",
+        "restaurant_name": "BurgerFi"
     },
     {
         "link": "https://fastfoodnutrition.org/cafe-rio",
-        "slug": "cafe-rio"
+        "slug": "cafe-rio",
+        "restaurant_name": "Cafe Rio"
     },
     {
         "link": "https://fastfoodnutrition.org/california-pizza-kitchen",
-        "slug": "california-pizza-kitchen"
+        "slug": "california-pizza-kitchen",
+        "restaurant_name": "California Pizza Kitchen"
     },
     {
         "link": "https://fastfoodnutrition.org/captain-ds",
-        "slug": "captain-ds"
+        "slug": "captain-ds",
+        "restaurant_name": "Captain D's"
     },
     {
         "link": "https://fastfoodnutrition.org/caribou-coffee",
-        "slug": "caribou-coffee"
+        "slug": "caribou-coffee",
+        "restaurant_name": "Caribou Coffee"
     },
     {
         "link": "https://fastfoodnutrition.org/carls-jr",
-        "slug": "carls-jr"
+        "slug": "carls-jr",
+        "restaurant_name": "Carl's Jr"
     },
     {
         "link": "https://fastfoodnutrition.org/carrabbas",
-        "slug": "carrabbas"
+        "slug": "carrabbas",
+        "restaurant_name": "Carrabba's"
     },
     {
         "link": "https://fastfoodnutrition.org/caseys",
-        "slug": "caseys"
+        "slug": "caseys",
+        "restaurant_name": "Casey's"
     },
     {
         "link": "https://fastfoodnutrition.org/cava",
-        "slug": "cava"
+        "slug": "cava",
+        "restaurant_name": "Cava"
     },
     {
         "link": "https://fastfoodnutrition.org/checkers",
-        "slug": "checkers"
+        "slug": "checkers",
+        "restaurant_name": "Checkers"
     },
     {
         "link": "https://fastfoodnutrition.org/cheesecake-factory",
-        "slug": "cheesecake-factory"
+        "slug": "cheesecake-factory",
+        "restaurant_name": "The Cheesecake Factory"
     },
     {
         "link": "https://fastfoodnutrition.org/chick-fil-a",
-        "slug": "chick-fil-a"
+        "slug": "chick-fil-a",
+        "restaurant_name": "Chick-fil-A"
     },
     {
         "link": "https://fastfoodnutrition.org/chicken-express",
-        "slug": "chicken-express"
+        "slug": "chicken-express",
+        "restaurant_name": "Chicken Express"
     },
     {
         "link": "https://fastfoodnutrition.org/chicken-salad-chick",
-        "slug": "chicken-salad-chick"
+        "slug": "chicken-salad-chick",
+        "restaurant_name": "Chicken Salad Chick"
     },
     {
         "link": "https://fastfoodnutrition.org/chilis",
-        "slug": "chilis"
+        "slug": "chilis",
+        "restaurant_name": "Chili's"
     },
     {
         "link": "https://fastfoodnutrition.org/chipotle",
-        "slug": "chipotle"
+        "slug": "chipotle",
+        "restaurant_name": "Chipotle"
     },
     {
         "link": "https://fastfoodnutrition.org/churchs-chicken",
-        "slug": "churchs-chicken"
+        "slug": "churchs-chicken",
+        "restaurant_name": "Church's Chicken"
     },
     {
         "link": "https://fastfoodnutrition.org/chuys",
-        "slug": "chuys"
+        "slug": "chuys",
+        "restaurant_name": "Chuy's"
     },
     {
         "link": "https://fastfoodnutrition.org/cinnabon",
-        "slug": "cinnabon"
+        "slug": "cinnabon",
+        "restaurant_name": "Cinnabon"
     },
     {
         "link": "https://fastfoodnutrition.org/cold-stone-creamery",
-        "slug": "cold-stone-creamery"
+        "slug": "cold-stone-creamery",
+        "restaurant_name": "Cold Stone Creamery"
     },
     {
         "link": "https://fastfoodnutrition.org/cookout",
-        "slug": "cookout"
+        "slug": "cookout",
+        "restaurant_name": "Cookout"
     },
     {
         "link": "https://fastfoodnutrition.org/corner-bakery",
-        "slug": "corner-bakery"
+        "slug": "corner-bakery",
+        "restaurant_name": "Corner Bakery"
     },
     {
         "link": "https://fastfoodnutrition.org/costa-vida",
-        "slug": "costa-vida"
+        "slug": "costa-vida",
+        "restaurant_name": "Costa Vida"
     },
     {
         "link": "https://fastfoodnutrition.org/costco",
-        "slug": "costco"
+        "slug": "costco",
+        "restaurant_name": "Costco Food Court"
     },
     {
         "link": "https://fastfoodnutrition.org/cracker-barrel",
-        "slug": "cracker-barrel"
+        "slug": "cracker-barrel",
+        "restaurant_name": "Cracker Barrel"
     },
     {
         "link": "https://fastfoodnutrition.org/culvers",
-        "slug": "culvers"
+        "slug": "culvers",
+        "restaurant_name": "Culvers"
     },
     {
         "link": "https://fastfoodnutrition.org/dairy-queen",
-        "slug": "dairy-queen"
+        "slug": "dairy-queen",
+        "restaurant_name": "Dairy Queen"
     },
     {
         "link": "https://fastfoodnutrition.org/del-taco",
-        "slug": "del-taco"
+        "slug": "del-taco",
+        "restaurant_name": "Del Taco"
     },
     {
         "link": "https://fastfoodnutrition.org/dennys",
-        "slug": "dennys"
+        "slug": "dennys",
+        "restaurant_name": "Denny's"
     },
     {
         "link": "https://fastfoodnutrition.org/dominos-pizza",
-        "slug": "dominos-pizza"
+        "slug": "dominos-pizza",
+        "restaurant_name": "Domino's Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/donatos",
-        "slug": "donatos"
+        "slug": "donatos",
+        "restaurant_name": "Donatos"
     },
     {
         "link": "https://fastfoodnutrition.org/dunkin-donuts",
-        "slug": "dunkin-donuts"
+        "slug": "dunkin-donuts",
+        "restaurant_name": "Dunkin Donuts"
     },
     {
         "link": "https://fastfoodnutrition.org/el-pollo-loco",
-        "slug": "el-pollo-loco"
+        "slug": "el-pollo-loco",
+        "restaurant_name": "El Pollo Loco"
     },
     {
         "link": "https://fastfoodnutrition.org/famous-daves",
-        "slug": "famous-daves"
+        "slug": "famous-daves",
+        "restaurant_name": "Famous Dave's"
     },
     {
         "link": "https://fastfoodnutrition.org/fazolis",
-        "slug": "fazolis"
+        "slug": "fazolis",
+        "restaurant_name": "Fazoli's"
     },
     {
         "link": "https://fastfoodnutrition.org/firehouse-subs",
-        "slug": "firehouse-subs"
+        "slug": "firehouse-subs",
+        "restaurant_name": "Firehouse Subs"
     },
     {
         "link": "https://fastfoodnutrition.org/first-watch",
-        "slug": "first-watch"
+        "slug": "first-watch",
+        "restaurant_name": "First Watch"
     },
     {
         "link": "https://fastfoodnutrition.org/five-guys",
-        "slug": "five-guys"
+        "slug": "five-guys",
+        "restaurant_name": "Five Guys"
     },
     {
         "link": "https://fastfoodnutrition.org/freddys",
-        "slug": "freddys"
+        "slug": "freddys",
+        "restaurant_name": "Freddy's"
     },
     {
         "link": "https://fastfoodnutrition.org/freebirds",
-        "slug": "freebirds"
+        "slug": "freebirds",
+        "restaurant_name": "Freebirds"
     },
     {
         "link": "https://fastfoodnutrition.org/freshii",
-        "slug": "freshii"
+        "slug": "freshii",
+        "restaurant_name": "Freshii"
     },
     {
         "link": "https://fastfoodnutrition.org/fuddruckers",
-        "slug": "fuddruckers"
+        "slug": "fuddruckers",
+        "restaurant_name": "Fuddruckers"
     },
     {
         "link": "https://fastfoodnutrition.org/godfathers-pizza",
-        "slug": "godfathers-pizza"
+        "slug": "godfathers-pizza",
+        "restaurant_name": "Godfather's Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/golden-corral",
-        "slug": "golden-corral"
+        "slug": "golden-corral",
+        "restaurant_name": "Golden Corral"
     },
     {
         "link": "https://fastfoodnutrition.org/habit",
-        "slug": "habit"
+        "slug": "habit",
+        "restaurant_name": "The Habit"
     },
     {
         "link": "https://fastfoodnutrition.org/hardees",
-        "slug": "hardees"
+        "slug": "hardees",
+        "restaurant_name": "Hardee's"
     },
     {
         "link": "https://fastfoodnutrition.org/hooters",
-        "slug": "hooters"
+        "slug": "hooters",
+        "restaurant_name": "Hooters"
     },
     {
         "link": "https://fastfoodnutrition.org/hungry-howies",
-        "slug": "hungry-howies"
+        "slug": "hungry-howies",
+        "restaurant_name": "Hungry Howie's"
     },
     {
         "link": "https://fastfoodnutrition.org/ihop",
-        "slug": "ihop"
+        "slug": "ihop",
+        "restaurant_name": "IHOP"
     },
     {
         "link": "https://fastfoodnutrition.org/in-n-out-burger",
-        "slug": "in-n-out-burger"
+        "slug": "in-n-out-burger",
+        "restaurant_name": "In-N-Out Burger"
     },
     {
         "link": "https://fastfoodnutrition.org/jack-in-the-box",
-        "slug": "jack-in-the-box"
+        "slug": "jack-in-the-box",
+        "restaurant_name": "Jack in the Box"
     },
     {
         "link": "https://fastfoodnutrition.org/jamba-juice",
-        "slug": "jamba-juice"
+        "slug": "jamba-juice",
+        "restaurant_name": "Jamba Juice"
     },
     {
         "link": "https://fastfoodnutrition.org/jasons-deli",
-        "slug": "jasons-deli"
+        "slug": "jasons-deli",
+        "restaurant_name": "Jason's Deli"
     },
     {
         "link": "https://fastfoodnutrition.org/jersey-mikes",
-        "slug": "jersey-mikes"
+        "slug": "jersey-mikes",
+        "restaurant_name": "Jersey Mike's"
     },
     {
         "link": "https://fastfoodnutrition.org/jets-pizza",
-        "slug": "jets-pizza"
+        "slug": "jets-pizza",
+        "restaurant_name": "Jet's Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/jimmy-johns",
-        "slug": "jimmy-johns"
+        "slug": "jimmy-johns",
+        "restaurant_name": "Jimmy Johns"
     },
     {
         "link": "https://fastfoodnutrition.org/kfc",
-        "slug": "kfc"
+        "slug": "kfc",
+        "restaurant_name": "KFC"
     },
     {
         "link": "https://fastfoodnutrition.org/krispy-kreme",
-        "slug": "krispy-kreme"
+        "slug": "krispy-kreme",
+        "restaurant_name": "Krispy Kreme"
     },
     {
         "link": "https://fastfoodnutrition.org/krystal",
-        "slug": "krystal"
+        "slug": "krystal",
+        "restaurant_name": "Krystal"
     },
     {
         "link": "https://fastfoodnutrition.org/kwik-trip",
-        "slug": "kwik-trip"
+        "slug": "kwik-trip",
+        "restaurant_name": "Kwik Trip"
     },
     {
         "link": "https://fastfoodnutrition.org/la-madeleine",
-        "slug": "la-madeleine"
+        "slug": "la-madeleine",
+        "restaurant_name": "La Madeleine"
     },
     {
         "link": "https://fastfoodnutrition.org/little-caesars",
-        "slug": "little-caesars"
+        "slug": "little-caesars",
+        "restaurant_name": "Little Caesars"
     },
     {
         "link": "https://fastfoodnutrition.org/long-john-silvers",
-        "slug": "long-john-silvers"
+        "slug": "long-john-silvers",
+        "restaurant_name": "Long John Silver's"
     },
     {
         "link": "https://fastfoodnutrition.org/longhorn",
-        "slug": "longhorn"
+        "slug": "longhorn",
+        "restaurant_name": "Longhorn"
     },
     {
         "link": "https://fastfoodnutrition.org/manchu-wok",
-        "slug": "manchu-wok"
+        "slug": "manchu-wok",
+        "restaurant_name": "Manchu Wok"
     },
     {
         "link": "https://fastfoodnutrition.org/marcos-pizza",
-        "slug": "marcos-pizza"
+        "slug": "marcos-pizza",
+        "restaurant_name": "Marco's Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/mcalisters-deli",
-        "slug": "mcalisters-deli"
+        "slug": "mcalisters-deli",
+        "restaurant_name": "McAlister's"
     },
     {
         "link": "https://fastfoodnutrition.org/mcdonalds",
-        "slug": "mcdonalds"
+        "slug": "mcdonalds",
+        "restaurant_name": "McDonald's"
     },
     {
         "link": "https://fastfoodnutrition.org/mellow-mushroom",
-        "slug": "mellow-mushroom"
+        "slug": "mellow-mushroom",
+        "restaurant_name": "Mellow Mushroom"
     },
     {
         "link": "https://fastfoodnutrition.org/mission-bbq",
-        "slug": "mission-bbq"
+        "slug": "mission-bbq",
+        "restaurant_name": "Mission BBQ"
     },
     {
         "link": "https://fastfoodnutrition.org/mod-pizza",
-        "slug": "mod-pizza"
+        "slug": "mod-pizza",
+        "restaurant_name": "Mod Pizza"
     },
     {
         "link": "https://fastfoodnutrition.org/moes",
-        "slug": "moes"
+        "slug": "moes",
+        "restaurant_name": "Moe's"
     },
     {
         "link": "https://fastfoodnutrition.org/newks-eatery",
-        "slug": "newks-eatery"
+        "slug": "newks-eatery",
+        "restaurant_name": "Newk's"
     },
     {
         "link": "https://fastfoodnutrition.org/noodles-company",
-        "slug": "noodles-company"
+        "slug": "noodles-company",
+        "restaurant_name": "Noodles & Company"
     },
     {
         "link": "https://fastfoodnutrition.org/nothing-bundt-cakes",
-        "slug": "nothing-bundt-cakes"
+        "slug": "nothing-bundt-cakes",
+        "restaurant_name": "Nothing Bundt Cakes"
     },
     {
         "link": "https://fastfoodnutrition.org/o-charleys",
-        "slug": "o-charleys"
+        "slug": "o-charleys",
+        "restaurant_name": "O'Charley's"
     },
     {
         "link": "https://fastfoodnutrition.org/olive-garden",
-        "slug": "olive-garden"
+        "slug": "olive-garden",
+        "restaurant_name": "Olive Garden"
     },
     {
         "link": "https://fastfoodnutrition.org/on-the-border",
-        "slug": "on-the-border"
+        "slug": "on-the-border",
+        "restaurant_name": "On The Border"
     },
     {
         "link": "https://fastfoodnutrition.org/outback",
-        "slug": "outback"
+        "slug": "outback",
+        "restaurant_name": "Outback"
     },
     {
         "link": "https://fastfoodnutrition.org/panda-express",
-        "slug": "panda-express"
+        "slug": "panda-express",
+        "restaurant_name": "Panda Express"
     },
     {
         "link": "https://fastfoodnutrition.org/panera-bread",
-        "slug": "panera-bread"
+        "slug": "panera-bread",
+        "restaurant_name": "Panera"
     },
     {
         "link": "https://fastfoodnutrition.org/papa-johns",
-        "slug": "papa-johns"
+        "slug": "papa-johns",
+        "restaurant_name": "Papa John's"
     },
     {
         "link": "https://fastfoodnutrition.org/papa-murphys",
-        "slug": "papa-murphys"
+        "slug": "papa-murphys",
+        "restaurant_name": "Papa Murphy's"
     },
     {
         "link": "https://fastfoodnutrition.org/pdq",
-        "slug": "pdq"
+        "slug": "pdq",
+        "restaurant_name": "PDQ"
     },
     {
         "link": "https://fastfoodnutrition.org/pei-wei",
-        "slug": "pei-wei"
+        "slug": "pei-wei",
+        "restaurant_name": "Pei Wei"
     },
     {
         "link": "https://fastfoodnutrition.org/penn-station",
-        "slug": "penn-station"
+        "slug": "penn-station",
+        "restaurant_name": "Penn Station"
     },
     {
         "link": "https://fastfoodnutrition.org/perkins",
-        "slug": "perkins"
+        "slug": "perkins",
+        "restaurant_name": "Perkin's"
     },
     {
         "link": "https://fastfoodnutrition.org/pf-changs",
-        "slug": "pf-changs"
+        "slug": "pf-changs",
+        "restaurant_name": "P.F. Chang's"
     },
     {
         "link": "https://fastfoodnutrition.org/pinkberry",
-        "slug": "pinkberry"
+        "slug": "pinkberry",
+        "restaurant_name": "Pinkberry"
     },
     {
         "link": "https://fastfoodnutrition.org/pita-pit",
-        "slug": "pita-pit"
+        "slug": "pita-pit",
+        "restaurant_name": "Pita Pit"
     },
     {
         "link": "https://fastfoodnutrition.org/pizza-hut",
-        "slug": "pizza-hut"
+        "slug": "pizza-hut",
+        "restaurant_name": "Pizza Hut"
     },
     {
         "link": "https://fastfoodnutrition.org/pizza-ranch",
-        "slug": "pizza-ranch"
+        "slug": "pizza-ranch",
+        "restaurant_name": "Pizza Ranch"
     },
     {
         "link": "https://fastfoodnutrition.org/pollo-tropical",
-        "slug": "pollo-tropical"
+        "slug": "pollo-tropical",
+        "restaurant_name": "Pollo Tropical"
     },
     {
         "link": "https://fastfoodnutrition.org/popeyes",
-        "slug": "popeyes"
+        "slug": "popeyes",
+        "restaurant_name": "Popeyes"
     },
     {
         "link": "https://fastfoodnutrition.org/portillos",
-        "slug": "portillos"
+        "slug": "portillos",
+        "restaurant_name": "Portillo's"
     },
     {
         "link": "https://fastfoodnutrition.org/potbelly",
-        "slug": "potbelly"
+        "slug": "potbelly",
+        "restaurant_name": "Potbelly"
     },
     {
         "link": "https://fastfoodnutrition.org/qdoba",
-        "slug": "qdoba"
+        "slug": "qdoba",
+        "restaurant_name": "Qdoba"
     },
     {
         "link": "https://fastfoodnutrition.org/quiznos",
-        "slug": "quiznos"
+        "slug": "quiznos",
+        "restaurant_name": "Quiznos"
     },
     {
         "link": "https://fastfoodnutrition.org/raising-canes",
-        "slug": "raising-canes"
+        "slug": "raising-canes",
+        "restaurant_name": "Raising Cane's"
     },
     {
         "link": "https://fastfoodnutrition.org/red-lobster",
-        "slug": "red-lobster"
+        "slug": "red-lobster",
+        "restaurant_name": "Red Lobster"
     },
     {
         "link": "https://fastfoodnutrition.org/red-robin",
-        "slug": "red-robin"
+        "slug": "red-robin",
+        "restaurant_name": "Red Robin"
     },
     {
         "link": "https://fastfoodnutrition.org/rubios",
-        "slug": "rubios"
+        "slug": "rubios",
+        "restaurant_name": "Rubio's"
     },
     {
         "link": "https://fastfoodnutrition.org/ruby-tuesday",
-        "slug": "ruby-tuesday"
+        "slug": "ruby-tuesday",
+        "restaurant_name": "Ruby Tuesday"
     },
     {
         "link": "https://fastfoodnutrition.org/saladworks",
-        "slug": "saladworks"
+        "slug": "saladworks",
+        "restaurant_name": "Saladworks"
     },
     {
         "link": "https://fastfoodnutrition.org/salsaritas",
-        "slug": "salsaritas"
+        "slug": "salsaritas",
+        "restaurant_name": "Salsarita's"
     },
     {
         "link": "https://fastfoodnutrition.org/sbarro",
-        "slug": "sbarro"
+        "slug": "sbarro",
+        "restaurant_name": "Sbarro"
     },
     {
         "link": "https://fastfoodnutrition.org/schlotzskys",
-        "slug": "schlotzskys"
+        "slug": "schlotzskys",
+        "restaurant_name": "Schlotzsky's"
     },
     {
         "link": "https://fastfoodnutrition.org/shake-shack",
-        "slug": "shake-shack"
+        "slug": "shake-shack",
+        "restaurant_name": "Shake Shack"
     },
     {
         "link": "https://fastfoodnutrition.org/sheetz",
-        "slug": "sheetz"
+        "slug": "sheetz",
+        "restaurant_name": "Sheetz"
     },
     {
         "link": "https://fastfoodnutrition.org/smashburger",
-        "slug": "smashburger"
+        "slug": "smashburger",
+        "restaurant_name": "Smashburger"
     },
     {
         "link": "https://fastfoodnutrition.org/smoothie-king",
-        "slug": "smoothie-king"
+        "slug": "smoothie-king",
+        "restaurant_name": "Smoothie King"
     },
     {
         "link": "https://fastfoodnutrition.org/sonic",
-        "slug": "sonic"
+        "slug": "sonic",
+        "restaurant_name": "Sonic"
     },
     {
         "link": "https://fastfoodnutrition.org/starbucks",
-        "slug": "starbucks"
+        "slug": "starbucks",
+        "restaurant_name": "Starbucks"
     },
     {
         "link": "https://fastfoodnutrition.org/steak-n-shake",
-        "slug": "steak-n-shake"
+        "slug": "steak-n-shake",
+        "restaurant_name": "Steak 'n Shake"
     },
     {
         "link": "https://fastfoodnutrition.org/subway",
-        "slug": "subway"
+        "slug": "subway",
+        "restaurant_name": "Subway"
     },
     {
         "link": "https://fastfoodnutrition.org/sweetgreen",
-        "slug": "sweetgreen"
+        "slug": "sweetgreen",
+        "restaurant_name": "Sweetgreen"
     },
     {
         "link": "https://fastfoodnutrition.org/taco-bell",
-        "slug": "taco-bell"
+        "slug": "taco-bell",
+        "restaurant_name": "Taco Bell"
     },
     {
         "link": "https://fastfoodnutrition.org/taco-cabana",
-        "slug": "taco-cabana"
+        "slug": "taco-cabana",
+        "restaurant_name": "Taco Cabana"
     },
     {
         "link": "https://fastfoodnutrition.org/taco-johns",
-        "slug": "taco-johns"
+        "slug": "taco-johns",
+        "restaurant_name": "Taco John's"
     },
     {
         "link": "https://fastfoodnutrition.org/taco-time",
-        "slug": "taco-time"
+        "slug": "taco-time",
+        "restaurant_name": "Taco Time"
     },
     {
         "link": "https://fastfoodnutrition.org/texas-roadhouse",
-        "slug": "texas-roadhouse"
+        "slug": "texas-roadhouse",
+        "restaurant_name": "Texas Roadhouse"
     },
     {
         "link": "https://fastfoodnutrition.org/tgi-fridays",
-        "slug": "tgi-fridays"
+        "slug": "tgi-fridays",
+        "restaurant_name": "TGI Fridays"
     },
     {
         "link": "https://fastfoodnutrition.org/tijuana-flats",
-        "slug": "tijuana-flats"
+        "slug": "tijuana-flats",
+        "restaurant_name": "Tijuana Flats"
     },
     {
         "link": "https://fastfoodnutrition.org/tim-hortons",
-        "slug": "tim-hortons"
+        "slug": "tim-hortons",
+        "restaurant_name": "Tim Hortons"
     },
     {
         "link": "https://fastfoodnutrition.org/tropical-smoothie-cafe",
-        "slug": "tropical-smoothie-cafe"
+        "slug": "tropical-smoothie-cafe",
+        "restaurant_name": "Tropical Smoothie Cafe"
     },
     {
         "link": "https://fastfoodnutrition.org/waba-grill",
-        "slug": "waba-grill"
+        "slug": "waba-grill",
+        "restaurant_name": "WaBa Grill"
     },
     {
         "link": "https://fastfoodnutrition.org/waffle-house",
-        "slug": "waffle-house"
+        "slug": "waffle-house",
+        "restaurant_name": "Waffle House"
     },
     {
         "link": "https://fastfoodnutrition.org/wawa",
-        "slug": "wawa"
+        "slug": "wawa",
+        "restaurant_name": "Wawa"
     },
     {
         "link": "https://fastfoodnutrition.org/wendys",
-        "slug": "wendys"
+        "slug": "wendys",
+        "restaurant_name": "Wendy's"
     },
     {
         "link": "https://fastfoodnutrition.org/whataburger",
-        "slug": "whataburger"
+        "slug": "whataburger",
+        "restaurant_name": "Whataburger"
     },
     {
         "link": "https://fastfoodnutrition.org/which-wich",
-        "slug": "which-wich"
+        "slug": "which-wich",
+        "restaurant_name": "Which Wich"
     },
     {
         "link": "https://fastfoodnutrition.org/white-castle",
-        "slug": "white-castle"
+        "slug": "white-castle",
+        "restaurant_name": "White Castle"
     },
     {
         "link": "https://fastfoodnutrition.org/wienerschnitzel",
-        "slug": "wienerschnitzel"
+        "slug": "wienerschnitzel",
+        "restaurant_name": "Wienerschnitzel"
     },
     {
         "link": "https://fastfoodnutrition.org/wingstop",
-        "slug": "wingstop"
+        "slug": "wingstop",
+        "restaurant_name": "Wingstop"
     },
     {
         "link": "https://fastfoodnutrition.org/yard-house",
-        "slug": "yard-house"
+        "slug": "yard-house",
+        "restaurant_name": "Yard House"
     },
     {
         "link": "https://fastfoodnutrition.org/zaxbys",
-        "slug": "zaxbys"
+        "slug": "zaxbys",
+        "restaurant_name": "Zaxby's"
     },
     {
         "link": "https://fastfoodnutrition.org/zoes-kitchen",
-        "slug": "zoes-kitchen"
+        "slug": "zoes-kitchen",
+        "restaurant_name": "Zoes Kitchen"
     }
 ]
