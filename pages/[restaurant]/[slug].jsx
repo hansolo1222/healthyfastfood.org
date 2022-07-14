@@ -114,7 +114,7 @@ export default function Meal(props) {
                 </h4>
                 <ul>
                   {restaurants.default.map((e) => (
-                    <li>
+                    <li key={e.slug}>
                       <a
                         href={`/${e.slug}`}
                         className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 "

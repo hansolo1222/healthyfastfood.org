@@ -188,7 +188,7 @@ export default function Restaurant(props) {
                 <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Popular Restaurants</h4>
                <ul>
                {restaurants.default.map((e)=>(
-                <li>
+                <li key={e.slug}>
                   <a href={`/${e.slug}`} className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 ">
                   {e.restaurant_name}
                   </a>

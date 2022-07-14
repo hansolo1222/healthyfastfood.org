@@ -36,7 +36,7 @@ export default function Restaurants(props) {
                 <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">All Restaurants</h4>
               <div className="grid grid-cols-8">
                {restaurants.default.map((e)=>(
-                <div className="col-span-1 border">
+                <div className="col-span-1 border" key={e.slug}>
                   <a href={`/${e.slug}`} className="cursor-pointer block  pl-4 -ml-px   text-slate-600 hover:text-slate-900 ">
                   {e.restaurant_name}
                   </a>
