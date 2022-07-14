@@ -164,7 +164,7 @@ export default function Restaurant(props) {
   return (
     <div className="">
       <Head>
-        <title>{meals[0].restaurant_name} Nutrtion | Healthy Fast Food</title>
+        <title>{meals[0].restaurant_name} Nutrition | Healthy Fast Food</title>
         <meta
           name="description"
           content=""

@@ -8,7 +8,7 @@ import path from 'path'
 // const context = require.context('../public', true, /.json$/);
 
 
-const BASE_URL = 'https://healthfastfood.org';
+const BASE_URL = 'https://healthyfastfood.org';
 
 import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 
@@ -47,7 +47,6 @@ async function generate() {
       const path = page
         .replace('pages', '')
         .replace('data', '')
-        .replace('.js', '')
         .replace('.jsx', '')
         .replace('.mdx', '')
         .replace('.tsx', '');

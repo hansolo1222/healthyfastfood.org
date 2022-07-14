@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://healthfastfood.org/[restaurant]x</loc>
+    <loc>https://healthfastfood.org</loc>
   </url>
 
   <url>
-    <loc>https://healthfastfood.org/_appx</loc>
-  </url>
-
-  <url>
-    <loc>https://healthfastfood.org/indexx</loc>
+    <loc>https://healthfastfood.org/restaurants</loc>
   </url>
 
   <url>
