@@ -12,6 +12,8 @@ const BASE_URL = 'https://healthyfastfood.org';
 
 import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 
+import * as mcdonalds from '../public/data/mcdonalds.json' assert {type: "json"};
+
 const createSitemap = (posts) => `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         ${posts
@@ -54,17 +56,13 @@ async function generate() {
         const completePath = `${BASE_URL}${route}`
       return completePath
     })
-    //console.log(restaurants.default)
   
     const restaurantPaths = restaurants.default.map((e)=>(`${BASE_URL}/${e.slug}`))
 
-    // const minerPaths = miners.map((entry)=>(`${BASE_URL}/miner/${entry.slug}`))
+    const mcdonaldsPaths = restaurants.default.map((e)=>(`${BASE_URL}/${e.restaurant_slug}/${e.slug}`))
 
-    // const gpuPaths = gpus.map((entry)=>(`${BASE_URL}/gpu/${entry.slug}`))
 
-    // const brandPaths = brands.map((entry)=>(`${BASE_URL}/brand/${entry.slug}`))
-
-    const allPaths = [...staticPaths, ...restaurantPaths]
+    const allPaths = [...staticPaths, ...restaurantPaths, ...mcdonaldsPaths]
 
     const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
