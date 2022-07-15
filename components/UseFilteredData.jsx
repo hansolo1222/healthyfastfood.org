@@ -6,7 +6,6 @@ export const useFilteredData = (items,selectedCoins) => {
   const filteredItems = React.useMemo(()=>{
     let filteredItems = [...items]
 
-
     if (filterConfig.active == true){
       filteredItems = filteredItems.filter((item)=> filterConfig.values.includes(item['topCoin']) )
     }

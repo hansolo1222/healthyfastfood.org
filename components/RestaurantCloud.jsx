@@ -30,6 +30,7 @@ export default function RestaurantCloud() {
             />
           </div>
           </Link>
+          <Link href="/burger-king" >
           <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1 cursor-pointer">
             <img
               className="h-16"
@@ -37,21 +38,33 @@ export default function RestaurantCloud() {
               alt="Workcation"
             />
           </div>
+          </Link>
+          <Link href="/subway" >
+
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
-            <img className="h-8" src="/images/logos_large/subway.png" alt="Tuple" />
+            <img className="h-8" src="/images/logos_large/subway.png" alt="Subway" />
           </div>
+          </Link>
+          <Link href="/wendys" >
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
-            <img className="h-16" src="/images/logos_large/wendys.png" alt="Tuple" />
+            <img className="h-16" src="/images/logos_large/wendys.png" alt="Wendy's" />
           </div>
+          </Link>
+          <Link href="/dunkin-donuts" >
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
-            <img className="h-16" src="/images/logos_large/dunkin-donuts.png" alt="Tuple" />
+            <img className="h-16" src="/images/logos_large/dunkin-donuts.png" alt="Dunkin' Donuts" />
           </div>
+          </Link>
+          <Link href="/dominos" >
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
             <img className="h-16" src="/images/logos_large/dominos.png" alt="Tuple" />
           </div>
+          </Link>
+          <Link href="/panera-bread" >
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
             <img className="h-16" src="/images/logos_large/panera-bread.png" alt="Tuple" />
           </div>
+          </Link>
         </div>
       </div>
       <div className="flex justify-center">

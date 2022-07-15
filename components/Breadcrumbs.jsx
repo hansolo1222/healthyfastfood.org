@@ -13,9 +13,11 @@ export const Breadcrumbs = ({pages}) => {
             <div>
               <Link
                   href="/"
-                  className="text-sm font-medium text-stone-400 hover:text-stone-700" 
+                  
                 >
+                <div className="text-sm font-medium text-stone-400 hover:text-stone-700 cursor-pointer">
                  <HomeIcon className="w-5 h-5"/>
+                 </div>
                 </Link>
             </div>
           </li>
@@ -25,10 +27,12 @@ export const Breadcrumbs = ({pages}) => {
                 <ChevronRightIcon className="flex-shrink-0 h-5 w-5 text-stone-400" aria-hidden="true" />
                 <Link
                   href={page.href}
-                  className="ml-4 text-sm font-medium text-stone-400 hover:text-stone-700"
+                  
                   aria-current={page.current ? 'page' : undefined}
                 >
+                <div className="ml-4 text-sm font-medium text-stone-400 hover:text-stone-700 cursor-pointer">
                   {page.name}
+                  </div>
                 </Link>
               </div>
             </li>

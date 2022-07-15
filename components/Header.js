@@ -162,7 +162,7 @@ const Header = () => {
                     <Link href="/">
 
                       <img
-                        className="block h-12 w-auto"
+                        className="block h-12 w-auto cursor-pointer"
                         src="/logo.svg"
                         alt="Workflow"
                       />

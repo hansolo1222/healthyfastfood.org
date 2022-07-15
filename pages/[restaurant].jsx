@@ -106,6 +106,29 @@ export default function Restaurant(props) {
     { name: meals[0].restaurant_name, href: `/${meals[0].restaurant_slug}`},
   ]
 
+  const sort_by = (field, reverse, primer) => {
+
+    const key = primer ?
+      function(x) {
+        return primer(x[field])
+      } :
+      function(x) {
+        return x[field]
+      };
+  
+    reverse = !reverse ? 1 : -1;
+  
+    return function(a, b) {
+      return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+    }
+  }
+  
+console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, b) {
+  return parseInt(b.rank) - parseInt(a.rank);
+}))
+
+ //console.log(sort_by(restaurants.default, true, false))
+
   let data = meals.map((m) => {
     if (m.variants) {
       const meal_name = `${m.meal_name} `;
@@ -174,20 +197,24 @@ export default function Restaurant(props) {
       <Layout>
         <div className="flex">
           <div className="hidden lg:inline z-20 inset-0 top-[3.8125rem]
-           right-auto w-[19.5rem] pr-8
-           pb-10 overflow-y-auto">
+           right-auto w-[19.5rem] pr-8 overflow-hidden
+           pb-10 overflow-y-hidden">
             <nav className="lg:text-sm lg:leading-6 w-full">
               <div className="mt-8">
                 <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Popular Restaurants</h4>
-               <ul>
-               {restaurants.default.map((e)=>(
-                <li key={e.slug}>
+               <ol>
+               {restaurants.default
+               .filter((item)=>"rank" in item)
+               .sort(function(a, b) {
+                  return parseInt(a.rank) - parseInt(b.rank);
+                }).map((e)=>(
+                <li key={e.slug} className="list-decimal">
                   <a href={`/${e.slug}`} className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 ">
                   {e.restaurant_name}
                   </a>
                 </li>
                 ))} 
-                </ul>
+                </ol>
               </div>
             </nav>
            </div>

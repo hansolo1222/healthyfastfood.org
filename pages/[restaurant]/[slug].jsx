@@ -25,6 +25,8 @@ export const getServerSideProps = async (context) => {
 
   const meal = data.find((d) => d.slug == slug);
 
+  const meals_in_category =  data.filter((d) => d.category == meal.category && d.meal_name !== meal.meal_name);
+
   if (meal == undefined) {
     return {
       notFound: true,
@@ -33,12 +35,13 @@ export const getServerSideProps = async (context) => {
   return {
     props: {
       meal: meal,
+      mealsInCategory: meals_in_category
     },
   };
 };
 
 export default function Meal(props) {
-  const { meal } = props;
+  const { meal, mealsInCategory } = props;
 
    const pages = [
     { name: "All Restaurants", href: `/restaurants` },
@@ -101,22 +104,40 @@ export default function Meal(props) {
         <div className="flex">
           <div
             className="hidden lg:inline z-20 inset-0 top-[3.8125rem]
-           right-auto w-[19.5rem] pr-8
+           right-auto w-[21.5rem] pr-8
            pb-10 overflow-y-auto"
           >
             <nav className="lg:text-sm lg:leading-6 w-full">
               <div className="mt-8">
                 <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">
-                  Popular Restaurants
+                👩🏻‍🍳 Popular Restaurants
                 </h4>
                 <ul>
-                  {restaurants.default.map((e) => (
+                  {restaurants.default.filter((item)=>"rank" in item)
+                    .sort(function(a, b) {
+                        return parseInt(a.rank) - parseInt(b.rank);
+                      }).slice(0,10).map((e) => (
                     <li key={e.slug}>
                       <a
                         href={`/${e.slug}`}
                         className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 "
                       >
                         {e.restaurant_name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <h4 className="mb-8 mt-4 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">
+                🍽️ Similar Items
+                </h4>
+                <ul>
+                  {mealsInCategory.slice(0,15).map((e) => (
+                    <li key={e.slug}>
+                      <a
+                        href={`/${e.restaurant_slug}/${e.slug}`}
+                        className="whitespace-nowrap cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 "
+                      >
+                        {e.meal_name}
                       </a>
                     </li>
                   ))}

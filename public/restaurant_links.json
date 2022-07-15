@@ -7,22 +7,26 @@
     {
         "link": "https://fastfoodnutrition.org/applebees",
         "slug": "applebees",
-        "restaurant_name": "Applebee's"
+        "restaurant_name": "Applebee's",
+        "rank": 21
     },
     {
         "link": "https://fastfoodnutrition.org/arbys",
         "slug": "arbys",
-        "restaurant_name": "Arby's"
+        "restaurant_name": "Arby's",
+        "rank": 18
     },
     {
         "link": "https://fastfoodnutrition.org/au-bon-pain",
         "slug": "au-bon-pain",
-        "restaurant_name": "Au Bon Pain"
+        "restaurant_name": "Au Bon Pain",
+        "rank": 182
     },
     {
         "link": "https://fastfoodnutrition.org/auntie-annes",
         "slug": "auntie-annes",
-        "restaurant_name": "Auntie Anne's"
+        "restaurant_name": "Auntie Anne's",
+        "rank": 81
     },
     {
         "link": "https://fastfoodnutrition.org/baja-fresh",
@@ -32,7 +36,8 @@
     {
         "link": "https://fastfoodnutrition.org/baskin-robbins",
         "slug": "baskin-robbins",
-        "restaurant_name": "Baskin-Robbins"
+        "restaurant_name": "Baskin-Robbins",
+        "rank": 70
     },
     {
         "link": "https://fastfoodnutrition.org/bibibop",
@@ -42,12 +47,14 @@
     {
         "link": "https://fastfoodnutrition.org/bjs",
         "slug": "bjs",
-        "restaurant_name": "BJ's"
+        "restaurant_name": "BJ's",
+        "rank": 49
     },
     {
         "link": "https://fastfoodnutrition.org/blaze-pizza",
         "slug": "blaze-pizza",
-        "restaurant_name": "Blaze Pizza"
+        "restaurant_name": "Blaze Pizza",
+        "rank": 117
     },
     {
         "link": "https://fastfoodnutrition.org/blimpie",
@@ -57,17 +64,20 @@
     {
         "link": "https://fastfoodnutrition.org/bob-evans",
         "slug": "bob-evans",
-        "restaurant_name": "Bob Evans"
+        "restaurant_name": "Bob Evans",
+        "rank": 68
     },
     {
         "link": "https://fastfoodnutrition.org/bojangles",
         "slug": "bojangles",
-        "restaurant_name": "Bojangles"
+        "restaurant_name": "Bojangles",
+        "rank": 45
     },
     {
         "link": "https://fastfoodnutrition.org/boston-market",
         "slug": "boston-market",
-        "restaurant_name": "Boston Market"
+        "restaurant_name": "Boston Market",
+        "rank": 103
     },
     {
         "link": "https://fastfoodnutrition.org/brueggers",
@@ -77,12 +87,14 @@
     {
         "link": "https://fastfoodnutrition.org/buffalo-wild-wings",
         "slug": "buffalo-wild-wings",
-        "restaurant_name": "Buffalo Wild Wings"
+        "restaurant_name": "Buffalo Wild Wings",
+        "rank": 23
     },
     {
         "link": "https://fastfoodnutrition.org/burger-king",
         "slug": "burger-king",
-        "restaurant_name": "Burger King"
+        "restaurant_name": "Burger King",
+        "rank": 7
     },
     {
         "link": "https://fastfoodnutrition.org/burgerfi",
@@ -92,32 +104,38 @@
     {
         "link": "https://fastfoodnutrition.org/cafe-rio",
         "slug": "cafe-rio",
-        "restaurant_name": "Cafe Rio"
+        "restaurant_name": "Cafe Rio",
+        "rank": 128
     },
     {
         "link": "https://fastfoodnutrition.org/california-pizza-kitchen",
         "slug": "california-pizza-kitchen",
-        "restaurant_name": "California Pizza Kitchen"
+        "restaurant_name": "California Pizza Kitchen",
+        "rank": 91
     },
     {
         "link": "https://fastfoodnutrition.org/captain-ds",
         "slug": "captain-ds",
-        "restaurant_name": "Captain D's"
+        "restaurant_name": "Captain D's",
+        "rank": 82
     },
     {
         "link": "https://fastfoodnutrition.org/caribou-coffee",
         "slug": "caribou-coffee",
-        "restaurant_name": "Caribou Coffee"
+        "restaurant_name": "Caribou Coffee",
+        "rank": 123
     },
     {
         "link": "https://fastfoodnutrition.org/carls-jr",
         "slug": "carls-jr",
-        "restaurant_name": "Carl's Jr"
+        "restaurant_name": "Carl's Jr",
+        "rank": 44
     },
     {
         "link": "https://fastfoodnutrition.org/carrabbas",
         "slug": "carrabbas",
-        "restaurant_name": "Carrabba's"
+        "restaurant_name": "Carrabba's",
+        "rank": 69
     },
     {
         "link": "https://fastfoodnutrition.org/caseys",
@@ -127,22 +145,26 @@
     {
         "link": "https://fastfoodnutrition.org/cava",
         "slug": "cava",
-        "restaurant_name": "Cava"
+        "restaurant_name": "Cava",
+        "rank": 174
     },
     {
         "link": "https://fastfoodnutrition.org/checkers",
         "slug": "checkers",
-        "restaurant_name": "Checkers"
+        "restaurant_name": "Checkers",
+        "rank": 74
     },
     {
         "link": "https://fastfoodnutrition.org/cheesecake-factory",
         "slug": "cheesecake-factory",
-        "restaurant_name": "The Cheesecake Factory"
+        "restaurant_name": "The Cheesecake Factory",
+        "rank": 36
     },
     {
         "link": "https://fastfoodnutrition.org/chick-fil-a",
         "slug": "chick-fil-a",
-        "restaurant_name": "Chick-fil-A"
+        "restaurant_name": "Chick-fil-A",
+        "rank": 3
     },
     {
         "link": "https://fastfoodnutrition.org/chicken-express",
@@ -152,37 +174,44 @@
     {
         "link": "https://fastfoodnutrition.org/chicken-salad-chick",
         "slug": "chicken-salad-chick",
-        "restaurant_name": "Chicken Salad Chick"
+        "restaurant_name": "Chicken Salad Chick",
+        "rank": 145
     },
     {
         "link": "https://fastfoodnutrition.org/chilis",
         "slug": "chilis",
-        "restaurant_name": "Chili's"
+        "restaurant_name": "Chili's",
+        "rank": 26
     },
     {
         "link": "https://fastfoodnutrition.org/chipotle",
         "slug": "chipotle",
-        "restaurant_name": "Chipotle"
+        "restaurant_name": "Chipotle",
+        "rank": 10
     },
     {
         "link": "https://fastfoodnutrition.org/churchs-chicken",
         "slug": "churchs-chicken",
-        "restaurant_name": "Church's Chicken"
+        "restaurant_name": "Church's Chicken",
+        "rank": 64
     },
     {
         "link": "https://fastfoodnutrition.org/chuys",
         "slug": "chuys",
-        "restaurant_name": "Chuy's"
+        "restaurant_name": "Chuy's",
+        "rank": 107
     },
     {
         "link": "https://fastfoodnutrition.org/cinnabon",
         "slug": "cinnabon",
-        "restaurant_name": "Cinnabon"
+        "restaurant_name": "Cinnabon",
+        "rank": 159
     },
     {
         "link": "https://fastfoodnutrition.org/cold-stone-creamery",
         "slug": "cold-stone-creamery",
-        "restaurant_name": "Cold Stone Creamery"
+        "restaurant_name": "Cold Stone Creamery",
+        "rank": 102
     },
     {
         "link": "https://fastfoodnutrition.org/cookout",
@@ -192,12 +221,14 @@
     {
         "link": "https://fastfoodnutrition.org/corner-bakery",
         "slug": "corner-bakery",
-        "restaurant_name": "Corner Bakery"
+        "restaurant_name": "Corner Bakery",
+        "rank": 154
     },
     {
         "link": "https://fastfoodnutrition.org/costa-vida",
         "slug": "costa-vida",
-        "restaurant_name": "Costa Vida"
+        "restaurant_name": "Costa Vida",
+        "rank": 199
     },
     {
         "link": "https://fastfoodnutrition.org/costco",
@@ -207,77 +238,92 @@
     {
         "link": "https://fastfoodnutrition.org/cracker-barrel",
         "slug": "cracker-barrel",
-        "restaurant_name": "Cracker Barrel"
+        "restaurant_name": "Cracker Barrel",
+        "rank": 32
     },
     {
         "link": "https://fastfoodnutrition.org/culvers",
         "slug": "culvers",
-        "restaurant_name": "Culvers"
+        "restaurant_name": "Culvers",
+        "rank": 30
     },
     {
         "link": "https://fastfoodnutrition.org/dairy-queen",
         "slug": "dairy-queen",
-        "restaurant_name": "Dairy Queen"
+        "restaurant_name": "Dairy Queen",
+        "rank": 17
     },
     {
         "link": "https://fastfoodnutrition.org/del-taco",
         "slug": "del-taco",
-        "restaurant_name": "Del Taco"
+        "restaurant_name": "Del Taco",
+        "rank": 54
     },
     {
         "link": "https://fastfoodnutrition.org/dennys",
         "slug": "dennys",
-        "restaurant_name": "Denny's"
+        "restaurant_name": "Denny's",
+        "rank": 31
     },
     {
         "link": "https://fastfoodnutrition.org/dominos-pizza",
         "slug": "dominos-pizza",
-        "restaurant_name": "Domino's Pizza"
+        "restaurant_name": "Domino's Pizza",
+        "rank": 9
     },
     {
         "link": "https://fastfoodnutrition.org/donatos",
         "slug": "donatos",
-        "restaurant_name": "Donatos"
+        "restaurant_name": "Donatos",
+        "rank": 164
     },
     {
         "link": "https://fastfoodnutrition.org/dunkin-donuts",
         "slug": "dunkin-donuts",
-        "restaurant_name": "Dunkin Donuts"
+        "restaurant_name": "Dunkin Donuts",
+        "rank": 6
     },
     {
         "link": "https://fastfoodnutrition.org/el-pollo-loco",
         "slug": "el-pollo-loco",
-        "restaurant_name": "El Pollo Loco"
+        "restaurant_name": "El Pollo Loco",
+        "rank": 51
     },
     {
         "link": "https://fastfoodnutrition.org/famous-daves",
         "slug": "famous-daves",
-        "restaurant_name": "Famous Dave's"
+        "restaurant_name": "Famous Dave's",
+        "rank": 129
     },
     {
         "link": "https://fastfoodnutrition.org/fazolis",
         "slug": "fazolis",
-        "restaurant_name": "Fazoli's"
+        "restaurant_name": "Fazoli's",
+        "rank": 131
     },
     {
         "link": "https://fastfoodnutrition.org/firehouse-subs",
         "slug": "firehouse-subs",
-        "restaurant_name": "Firehouse Subs"
+        "restaurant_name": "Firehouse Subs",
+        "rank": 50
     },
     {
         "link": "https://fastfoodnutrition.org/first-watch",
         "slug": "first-watch",
-        "restaurant_name": "First Watch"
+        "restaurant_name": "First Watch",
+        "rank": 67
     },
     {
         "link": "https://fastfoodnutrition.org/five-guys",
         "slug": "five-guys",
-        "restaurant_name": "Five Guys"
+        "restaurant_name": "Five Guys",
+        "rank": 41
     },
     {
         "link": "https://fastfoodnutrition.org/freddys",
         "slug": "freddys",
-        "restaurant_name": "Freddy's"
+        "restaurant_name": "Freddy's",
+        "rank": 66
     },
     {
         "link": "https://fastfoodnutrition.org/freebirds",
@@ -297,62 +343,74 @@
     {
         "link": "https://fastfoodnutrition.org/godfathers-pizza",
         "slug": "godfathers-pizza",
-        "restaurant_name": "Godfather's Pizza"
+        "restaurant_name": "Godfather's Pizza",
+        "rank": 140
     },
     {
         "link": "https://fastfoodnutrition.org/golden-corral",
         "slug": "golden-corral",
-        "restaurant_name": "Golden Corral"
+        "restaurant_name": "Golden Corral",
+        "rank": 48
     },
     {
         "link": "https://fastfoodnutrition.org/habit",
         "slug": "habit",
-        "restaurant_name": "The Habit"
+        "restaurant_name": "The Habit",
+        "rank": 80
     },
     {
         "link": "https://fastfoodnutrition.org/hardees",
         "slug": "hardees",
-        "restaurant_name": "Hardee's"
+        "restaurant_name": "Hardee's",
+        "rank": 42
     },
     {
         "link": "https://fastfoodnutrition.org/hooters",
         "slug": "hooters",
-        "restaurant_name": "Hooters"
+        "restaurant_name": "Hooters",
+        "rank": 59
     },
     {
         "link": "https://fastfoodnutrition.org/hungry-howies",
         "slug": "hungry-howies",
-        "restaurant_name": "Hungry Howie's"
+        "restaurant_name": "Hungry Howie's",
+        "rank": 92
     },
     {
         "link": "https://fastfoodnutrition.org/ihop",
         "slug": "ihop",
-        "restaurant_name": "IHOP"
+        "restaurant_name": "IHOP",
+        "rank": 28
     },
     {
         "link": "https://fastfoodnutrition.org/in-n-out-burger",
         "slug": "in-n-out-burger",
-        "restaurant_name": "In-N-Out Burger"
+        "restaurant_name": "In-N-Out Burger",
+        "rank": 43
     },
     {
         "link": "https://fastfoodnutrition.org/jack-in-the-box",
         "slug": "jack-in-the-box",
-        "restaurant_name": "Jack in the Box"
+        "restaurant_name": "Jack in the Box",
+        "rank": 22
     },
     {
         "link": "https://fastfoodnutrition.org/jamba-juice",
         "slug": "jamba-juice",
-        "restaurant_name": "Jamba Juice"
+        "restaurant_name": "Jamba Juice",
+        "rank": 88
     },
     {
         "link": "https://fastfoodnutrition.org/jasons-deli",
         "slug": "jasons-deli",
-        "restaurant_name": "Jason's Deli"
+        "restaurant_name": "Jason's Deli",
+        "rank": 87
     },
     {
         "link": "https://fastfoodnutrition.org/jersey-mikes",
         "slug": "jersey-mikes",
-        "restaurant_name": "Jersey Mike's"
+        "restaurant_name": "Jersey Mike's",
+        "rank": 39
     },
     {
         "link": "https://fastfoodnutrition.org/jets-pizza",
@@ -362,22 +420,26 @@
     {
         "link": "https://fastfoodnutrition.org/jimmy-johns",
         "slug": "jimmy-johns",
-        "restaurant_name": "Jimmy Johns"
+        "restaurant_name": "Jimmy Johns",
+        "rank": 35
     },
     {
         "link": "https://fastfoodnutrition.org/kfc",
         "slug": "kfc",
-        "restaurant_name": "KFC"
+        "restaurant_name": "KFC",
+        "rank": 14
     },
     {
         "link": "https://fastfoodnutrition.org/krispy-kreme",
         "slug": "krispy-kreme",
-        "restaurant_name": "Krispy Kreme"
+        "restaurant_name": "Krispy Kreme",
+        "rank": 61
     },
     {
         "link": "https://fastfoodnutrition.org/krystal",
         "slug": "krystal",
-        "restaurant_name": "Krystal"
+        "restaurant_name": "Krystal",
+        "rank": 127
     },
     {
         "link": "https://fastfoodnutrition.org/kwik-trip",
@@ -392,17 +454,20 @@
     {
         "link": "https://fastfoodnutrition.org/little-caesars",
         "slug": "little-caesars",
-        "restaurant_name": "Little Caesars"
+        "restaurant_name": "Little Caesars",
+        "rank": 19
     },
     {
         "link": "https://fastfoodnutrition.org/long-john-silvers",
         "slug": "long-john-silvers",
-        "restaurant_name": "Long John Silver's"
+        "restaurant_name": "Long John Silver's",
+        "rank": 120
     },
     {
         "link": "https://fastfoodnutrition.org/longhorn",
         "slug": "longhorn",
-        "restaurant_name": "Longhorn"
+        "restaurant_name": "Longhorn",
+        "rank": 38
     },
     {
         "link": "https://fastfoodnutrition.org/manchu-wok",
@@ -412,22 +477,26 @@
     {
         "link": "https://fastfoodnutrition.org/marcos-pizza",
         "slug": "marcos-pizza",
-        "restaurant_name": "Marco's Pizza"
+        "restaurant_name": "Marco's Pizza",
+        "rank": 56
     },
     {
         "link": "https://fastfoodnutrition.org/mcalisters-deli",
         "slug": "mcalisters-deli",
-        "restaurant_name": "McAlister's"
+        "restaurant_name": "McAlister's",
+        "rank": 58
     },
     {
         "link": "https://fastfoodnutrition.org/mcdonalds",
         "slug": "mcdonalds",
-        "restaurant_name": "McDonald's"
+        "restaurant_name": "McDonald's",
+        "rank": 1
     },
     {
         "link": "https://fastfoodnutrition.org/mellow-mushroom",
         "slug": "mellow-mushroom",
-        "restaurant_name": "Mellow Mushroom"
+        "restaurant_name": "Mellow Mushroom",
+        "rank": 105
     },
     {
         "link": "https://fastfoodnutrition.org/mission-bbq",
@@ -437,67 +506,80 @@
     {
         "link": "https://fastfoodnutrition.org/mod-pizza",
         "slug": "mod-pizza",
-        "restaurant_name": "Mod Pizza"
+        "restaurant_name": "Mod Pizza",
+        "rank": 78
     },
     {
         "link": "https://fastfoodnutrition.org/moes",
         "slug": "moes",
-        "restaurant_name": "Moe's"
+        "restaurant_name": "Moe's",
+        "rank": 71
     },
     {
         "link": "https://fastfoodnutrition.org/newks-eatery",
         "slug": "newks-eatery",
-        "restaurant_name": "Newk's"
+        "restaurant_name": "Newk's",
+        "rank": 168
     },
     {
         "link": "https://fastfoodnutrition.org/noodles-company",
         "slug": "noodles-company",
-        "restaurant_name": "Noodles & Company"
+        "restaurant_name": "Noodles & Company",
+        "rank": 83
     },
     {
         "link": "https://fastfoodnutrition.org/nothing-bundt-cakes",
         "slug": "nothing-bundt-cakes",
-        "restaurant_name": "Nothing Bundt Cakes"
+        "restaurant_name": "Nothing Bundt Cakes",
+        "rank": 115
     },
     {
         "link": "https://fastfoodnutrition.org/o-charleys",
         "slug": "o-charleys",
-        "restaurant_name": "O'Charley's"
+        "restaurant_name": "O'Charley's",
+        "rank": 112
     },
     {
         "link": "https://fastfoodnutrition.org/olive-garden",
         "slug": "olive-garden",
-        "restaurant_name": "Olive Garden"
+        "restaurant_name": "Olive Garden",
+        "rank": 20
     },
     {
         "link": "https://fastfoodnutrition.org/on-the-border",
         "slug": "on-the-border",
-        "restaurant_name": "On The Border"
+        "restaurant_name": "On The Border",
+        "rank": 135
     },
     {
         "link": "https://fastfoodnutrition.org/outback",
         "slug": "outback",
-        "restaurant_name": "Outback"
+        "restaurant_name": "Outback",
+        "rank": 29
     },
     {
         "link": "https://fastfoodnutrition.org/panda-express",
         "slug": "panda-express",
-        "restaurant_name": "Panda Express"
+        "restaurant_name": "Panda Express",
+        "rank": 16
     },
     {
         "link": "https://fastfoodnutrition.org/panera-bread",
         "slug": "panera-bread",
-        "restaurant_name": "Panera"
+        "restaurant_name": "Panera",
+        "rank": 12
     },
     {
         "link": "https://fastfoodnutrition.org/papa-johns",
         "slug": "papa-johns",
-        "restaurant_name": "Papa John's"
+        "restaurant_name": "Papa John's",
+        "rank": 25
     },
     {
         "link": "https://fastfoodnutrition.org/papa-murphys",
         "slug": "papa-murphys",
-        "restaurant_name": "Papa Murphy's"
+        "restaurant_name": "Papa Murphy's",
+        "rank": 62
     },
     {
         "link": "https://fastfoodnutrition.org/pdq",
@@ -507,22 +589,26 @@
     {
         "link": "https://fastfoodnutrition.org/pei-wei",
         "slug": "pei-wei",
-        "restaurant_name": "Pei Wei"
+        "restaurant_name": "Pei Wei",
+        "rank": 172
     },
     {
         "link": "https://fastfoodnutrition.org/penn-station",
         "slug": "penn-station",
-        "restaurant_name": "Penn Station"
+        "restaurant_name": "Penn Station",
+        "rank": 144
     },
     {
         "link": "https://fastfoodnutrition.org/perkins",
         "slug": "perkins",
-        "restaurant_name": "Perkin's"
+        "restaurant_name": "Perkin's",
+        "rank": 89
     },
     {
         "link": "https://fastfoodnutrition.org/pf-changs",
         "slug": "pf-changs",
-        "restaurant_name": "P.F. Chang's"
+        "restaurant_name": "P.F. Chang's",
+        "rank": 53
     },
     {
         "link": "https://fastfoodnutrition.org/pinkberry",
@@ -537,37 +623,44 @@
     {
         "link": "https://fastfoodnutrition.org/pizza-hut",
         "slug": "pizza-hut",
-        "restaurant_name": "Pizza Hut"
+        "restaurant_name": "Pizza Hut",
+        "rank": 13
     },
     {
         "link": "https://fastfoodnutrition.org/pizza-ranch",
         "slug": "pizza-ranch",
-        "restaurant_name": "Pizza Ranch"
+        "restaurant_name": "Pizza Ranch",
+        "rank": 139
     },
     {
         "link": "https://fastfoodnutrition.org/pollo-tropical",
         "slug": "pollo-tropical",
-        "restaurant_name": "Pollo Tropical"
+        "restaurant_name": "Pollo Tropical",
+        "rank": 100
     },
     {
         "link": "https://fastfoodnutrition.org/popeyes",
         "slug": "popeyes",
-        "restaurant_name": "Popeyes"
+        "restaurant_name": "Popeyes",
+        "rank": 15
     },
     {
         "link": "https://fastfoodnutrition.org/portillos",
         "slug": "portillos",
-        "restaurant_name": "Portillo's"
+        "restaurant_name": "Portillo's",
+        "rank": 85
     },
     {
         "link": "https://fastfoodnutrition.org/potbelly",
         "slug": "potbelly",
-        "restaurant_name": "Potbelly"
+        "restaurant_name": "Potbelly",
+        "rank": 97
     },
     {
         "link": "https://fastfoodnutrition.org/qdoba",
         "slug": "qdoba",
-        "restaurant_name": "Qdoba"
+        "restaurant_name": "Qdoba",
+        "rank": 57
     },
     {
         "link": "https://fastfoodnutrition.org/quiznos",
@@ -577,27 +670,32 @@
     {
         "link": "https://fastfoodnutrition.org/raising-canes",
         "slug": "raising-canes",
-        "restaurant_name": "Raising Cane's"
+        "restaurant_name": "Raising Cane's",
+        "rank": 33
     },
     {
         "link": "https://fastfoodnutrition.org/red-lobster",
         "slug": "red-lobster",
-        "restaurant_name": "Red Lobster"
+        "restaurant_name": "Red Lobster",
+        "rank": 34
     },
     {
         "link": "https://fastfoodnutrition.org/red-robin",
         "slug": "red-robin",
-        "restaurant_name": "Red Robin"
+        "restaurant_name": "Red Robin",
+        "rank": 46
     },
     {
         "link": "https://fastfoodnutrition.org/rubios",
         "slug": "rubios",
-        "restaurant_name": "Rubio's"
+        "restaurant_name": "Rubio's",
+        "rank": 170
     },
     {
         "link": "https://fastfoodnutrition.org/ruby-tuesday",
         "slug": "ruby-tuesday",
-        "restaurant_name": "Ruby Tuesday"
+        "restaurant_name": "Ruby Tuesday",
+        "rank": 132
     },
     {
         "link": "https://fastfoodnutrition.org/saladworks",
@@ -612,17 +710,20 @@
     {
         "link": "https://fastfoodnutrition.org/sbarro",
         "slug": "sbarro",
-        "restaurant_name": "Sbarro"
+        "restaurant_name": "Sbarro",
+        "rank": 177
     },
     {
         "link": "https://fastfoodnutrition.org/schlotzskys",
         "slug": "schlotzskys",
-        "restaurant_name": "Schlotzsky's"
+        "restaurant_name": "Schlotzsky's",
+        "rank": 121
     },
     {
         "link": "https://fastfoodnutrition.org/shake-shack",
         "slug": "shake-shack",
-        "restaurant_name": "Shake Shack"
+        "restaurant_name": "Shake Shack",
+        "rank": 65
     },
     {
         "link": "https://fastfoodnutrition.org/sheetz",
@@ -632,52 +733,62 @@
     {
         "link": "https://fastfoodnutrition.org/smashburger",
         "slug": "smashburger",
-        "restaurant_name": "Smashburger"
+        "restaurant_name": "Smashburger",
+        "rank": 150
     },
     {
         "link": "https://fastfoodnutrition.org/smoothie-king",
         "slug": "smoothie-king",
-        "restaurant_name": "Smoothie King"
+        "restaurant_name": "Smoothie King",
+        "rank": 76
     },
     {
         "link": "https://fastfoodnutrition.org/sonic",
         "slug": "sonic",
-        "restaurant_name": "Sonic"
+        "restaurant_name": "Sonic",
+        "rank": 11
     },
     {
         "link": "https://fastfoodnutrition.org/starbucks",
         "slug": "starbucks",
-        "restaurant_name": "Starbucks"
+        "restaurant_name": "Starbucks",
+        "rank": 2
     },
     {
         "link": "https://fastfoodnutrition.org/steak-n-shake",
         "slug": "steak-n-shake",
-        "restaurant_name": "Steak 'n Shake"
+        "restaurant_name": "Steak 'n Shake",
+        "rank": 60
     },
     {
         "link": "https://fastfoodnutrition.org/subway",
         "slug": "subway",
-        "restaurant_name": "Subway"
+        "restaurant_name": "Subway",
+        "rank": 8
     },
     {
         "link": "https://fastfoodnutrition.org/sweetgreen",
         "slug": "sweetgreen",
-        "restaurant_name": "Sweetgreen"
+        "restaurant_name": "Sweetgreen",
+        "rank": 118
     },
     {
         "link": "https://fastfoodnutrition.org/taco-bell",
         "slug": "taco-bell",
-        "restaurant_name": "Taco Bell"
+        "restaurant_name": "Taco Bell",
+        "rank": 4
     },
     {
         "link": "https://fastfoodnutrition.org/taco-cabana",
         "slug": "taco-cabana",
-        "restaurant_name": "Taco Cabana"
+        "restaurant_name": "Taco Cabana",
+        "rank": 142
     },
     {
         "link": "https://fastfoodnutrition.org/taco-johns",
         "slug": "taco-johns",
-        "restaurant_name": "Taco John's"
+        "restaurant_name": "Taco John's",
+        "rank": 104
     },
     {
         "link": "https://fastfoodnutrition.org/taco-time",
@@ -687,12 +798,14 @@
     {
         "link": "https://fastfoodnutrition.org/texas-roadhouse",
         "slug": "texas-roadhouse",
-        "restaurant_name": "Texas Roadhouse"
+        "restaurant_name": "Texas Roadhouse",
+        "rank": 24
     },
     {
         "link": "https://fastfoodnutrition.org/tgi-fridays",
         "slug": "tgi-fridays",
-        "restaurant_name": "TGI Fridays"
+        "restaurant_name": "TGI Fridays",
+        "rank": 63
     },
     {
         "link": "https://fastfoodnutrition.org/tijuana-flats",
@@ -702,12 +815,14 @@
     {
         "link": "https://fastfoodnutrition.org/tim-hortons",
         "slug": "tim-hortons",
-        "restaurant_name": "Tim Hortons"
+        "restaurant_name": "Tim Hortons",
+        "rank": 77
     },
     {
         "link": "https://fastfoodnutrition.org/tropical-smoothie-cafe",
         "slug": "tropical-smoothie-cafe",
-        "restaurant_name": "Tropical Smoothie Cafe"
+        "restaurant_name": "Tropical Smoothie Cafe",
+        "rank": 52
     },
     {
         "link": "https://fastfoodnutrition.org/waba-grill",
@@ -717,7 +832,8 @@
     {
         "link": "https://fastfoodnutrition.org/waffle-house",
         "slug": "waffle-house",
-        "restaurant_name": "Waffle House"
+        "restaurant_name": "Waffle House",
+        "rank": 47
     },
     {
         "link": "https://fastfoodnutrition.org/wawa",
@@ -727,12 +843,14 @@
     {
         "link": "https://fastfoodnutrition.org/wendys",
         "slug": "wendys",
-        "restaurant_name": "Wendy's"
+        "restaurant_name": "Wendy's",
+        "rank": 5
     },
     {
         "link": "https://fastfoodnutrition.org/whataburger",
         "slug": "whataburger",
-        "restaurant_name": "Whataburger"
+        "restaurant_name": "Whataburger",
+        "rank": 27
     },
     {
         "link": "https://fastfoodnutrition.org/which-wich",
@@ -742,31 +860,37 @@
     {
         "link": "https://fastfoodnutrition.org/white-castle",
         "slug": "white-castle",
-        "restaurant_name": "White Castle"
+        "restaurant_name": "White Castle",
+        "rank": 75
     },
     {
         "link": "https://fastfoodnutrition.org/wienerschnitzel",
         "slug": "wienerschnitzel",
-        "restaurant_name": "Wienerschnitzel"
+        "restaurant_name": "Wienerschnitzel",
+        "rank": 114
     },
     {
         "link": "https://fastfoodnutrition.org/wingstop",
         "slug": "wingstop",
-        "restaurant_name": "Wingstop"
+        "restaurant_name": "Wingstop",
+        "rank": 40
     },
     {
         "link": "https://fastfoodnutrition.org/yard-house",
         "slug": "yard-house",
-        "restaurant_name": "Yard House"
+        "restaurant_name": "Yard House",
+        "rank": 79
     },
     {
         "link": "https://fastfoodnutrition.org/zaxbys",
         "slug": "zaxbys",
-        "restaurant_name": "Zaxby's"
+        "restaurant_name": "Zaxby's",
+        "rank": 37
     },
     {
         "link": "https://fastfoodnutrition.org/zoes-kitchen",
         "slug": "zoes-kitchen",
-        "restaurant_name": "Zoes Kitchen"
+        "restaurant_name": "Zoes Kitchen",
+        "rank": 184
     }
 ]
