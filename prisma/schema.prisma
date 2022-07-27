@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model meal {
+  id             Int      @id @default(autoincrement())
+  name           String   @db.VarChar(255)
+  slug           String   @db.VarChar(255)
+  restaurant     restaurant  @relation(fields: [restaurantSlug], references: [slug])
+  restaurantSlug String
+  category       category  @relation(fields: [categorySlug], references: [slug])
+  categorySlug   String
+  calories       Int
+  totalFat       Int
+  saturatedFat   Int  
+  transFat       Int
+  cholesterol    Int
+  sodium         Int
+  totalCarbohydrates    Int
+  dietaryFiber   Int
+  sugar          Int
+  protein        Int
+  vitaminA       Int
+  vitaminC       Int
+  calcium        Int
+  iron           Int
+  published      Boolean  @default(true)
+}
+
+model restaurant {
+  id            Int      @id @default(autoincrement())
+  name          String   @unique
+  slug          String   @unique
+  meals         meal[]
+  rank          Int
+}
+
+model category {
+  id            Int      @id @default(autoincrement())
+  name          String   @unique
+  slug          String   @unique
+  meals         meal[]
+}
