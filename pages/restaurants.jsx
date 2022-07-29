@@ -13,6 +13,7 @@ import { MealRow } from ".";
 // import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
+import prisma from "../lib/prisma"
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({

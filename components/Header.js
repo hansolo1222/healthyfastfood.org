@@ -25,11 +25,10 @@ const Header = () => {
   let right = null;
 
   const navigation = [
-    { name: "All Meals", href: "/restaurants" },
     { name: "All Restaurants", href: "/restaurants" },
-    { name: "Best Lists", href: "/restaurants" },
+    { name: "Best of Lists", href: "/restaurants" },
     { name: "Calculators", href: "/restaurants" },
-    { name: "Healthy Fast Meals", href: "/restaurants" },
+    { name: "Coupons", href: "/restaurants" },
 
   ];
 

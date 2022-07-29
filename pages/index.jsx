@@ -27,7 +27,12 @@ export const getServerSideProps = async (context) => {
     where: {
       protein: {
           gt: 50
-      }
+      },
+      restaurant: {
+        rank: {
+         gt: 50
+        }
+    },
     },
     orderBy: [
       {
