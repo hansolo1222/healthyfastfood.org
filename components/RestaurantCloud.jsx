@@ -7,11 +7,13 @@ export default function RestaurantCloud({restaurants}) {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-5" >
           {restaurants.map((restaurant)=>(
-            <a href={`/${restaurant.slug}`} className="hover:bg-stone-100 rounded-xl py-4" key={restaurant.slug}>
+            <Link href={`/${restaurant.slug}`} key={restaurant.slug}>
+            <div className="hover:bg-stone-100 rounded-xl py-4">
               <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
                 <img className="h-16 w-auto" src={`/images/logos_large/${restaurant.slug}.webp`} alt={`${restaurant.name} Logo`} />
               </div>
-            </a>
+              </div>
+            </Link>
           ))}
 {/*            
           <Link href="/starbucks" >
