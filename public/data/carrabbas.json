@@ -3627,30 +3627,7 @@
         "allergens_false": [],
         "ingredients": null
     },
-    {
-        "restaurant_name": "Carrabba's",
-        "restaurant_slug": "carrabbas",
-        "meal_name": "Tuscan-Grilled Sirloin",
-        "category": "Lunch Menu",
-        "slug": "tuscan-grilled-sirloin",
-        "calories": 320,
-        "total_fat": 19,
-        "saturated_fat": 8,
-        "trans_fat": 0,
-        "cholesterol": 70,
-        "sodium": 400,
-        "total_carbohydrates": 1,
-        "dietary_fiber": 0,
-        "sugar": 0,
-        "protein": 34,
-        "vitamin_a": null,
-        "vitamin_c": null,
-        "calcium": null,
-        "iron": null,
-        "allergens_true": [],
-        "allergens_false": [],
-        "ingredients": null
-    },
+   
     {
         "restaurant_name": "Carrabba's",
         "restaurant_slug": "carrabbas",

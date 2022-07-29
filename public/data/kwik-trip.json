@@ -22921,40 +22921,6 @@
     {
         "restaurant_name": "Kwik Trip",
         "restaurant_slug": "kwik-trip",
-        "meal_name": "Macaroni & Cheese",
-        "category": "Soups",
-        "slug": "macaroni-cheese",
-        "calories": 150,
-        "total_fat": 9,
-        "saturated_fat": 6,
-        "trans_fat": 0,
-        "cholesterol": 20,
-        "sodium": 360,
-        "total_carbohydrates": 13,
-        "dietary_fiber": 0,
-        "sugar": 1,
-        "protein": 6,
-        "vitamin_a": null,
-        "vitamin_c": null,
-        "calcium": null,
-        "iron": null,
-        "allergens_true": [
-            "milk",
-            "wheat"
-        ],
-        "allergens_false": [
-            "egg",
-            "fish",
-            "peanuts",
-            "shellfish",
-            "soy",
-            "tree nuts"
-        ],
-        "ingredients": "Water, Macaroni (Water, Enriched Durum Semolina [Durum Semolina Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid]), Pasteurized Process Cheese Food (American Cheese [Cultured Milk, Salt, Enzymes], Water, Cream, Sodium Phosphate, Salt, Sorbic Acid To Preserve Freshness, Apocarotenal Added For Color), Cream Soup Base (Modified Food Starch, Coconut Oil, Corn Syrup Solids, Maltodextrin, Sugar, Salt, Soybean Oil, Dipotassium Phosphate, Sodium Caseinate, Mono- & Diglycerides, Yeast Extract, Onion Powder, Xanthan Gum, Dehydrated Garlic, Spice, Natural Flavor, Extractives Of Annatto & Turmeric (Color)), Cheddar Cheese (Cultured Milk, Salt, Enzymes, Annatto Added For Color), Colby Jack Cheese (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Annatto Added For Color), Swiss Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, Enzymes). Contains Milk, Wheat."
-    },
-    {
-        "restaurant_name": "Kwik Trip",
-        "restaurant_slug": "kwik-trip",
         "meal_name": "Mashed Potatoes",
         "category": "Fried Chicken/Fish & Sides",
         "slug": "mashed-potatoes",

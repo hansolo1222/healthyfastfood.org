@@ -12,12 +12,7 @@ import { supabase } from '../../lib/supabase'
 
 export default async (req, res) => {
 
-
-
-
   try {
-
-
 
   // const upsertCategories = await prisma.$transaction(
   //   formattedCategories.map((cat) => (
@@ -38,21 +33,14 @@ export default async (req, res) => {
 
     const formattedCategories = categories.map((c)=>({"name":c}))
 
-  const upsertCategories = await prisma.category.createMany({
-    data: formattedCategories
-  })
+  // const upsertCategories = await prisma.category.createMany({
+  //   data: formattedCategories
+  // })
 
 
 
 
-//   const upsertVariants = await prisma.$transaction(
-//     goldshell.flatMap(miner => {
-//       miner.listings.map(listing => (listing.minerSlug = miner.slug));
-//     return miner.listings;
-//   }).map(listing =>
-//     prisma.listing.upsert({
-
-  res.send(JSON.stringify(upsertCategories, null, 2));
+  res.send(JSON.stringify(formattedCategories, null, 2));
 } catch (error) {
   console.log(error)
 }

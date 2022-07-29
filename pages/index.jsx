@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useSortableData } from "../components/UseSortableData";
 import { useFilteredData } from "../components/UseFilteredData";
 const mcdonalds = require("/public/data/mcdonalds.json");
-
+import prisma from "../lib/prisma";
 import RestaurantCloud from "../components/RestaurantCloud";
 import { useRouter } from "next/router";
 
@@ -20,28 +20,13 @@ export const getServerSideProps = async (context) => {
     ],
   });
 
-  const data = await prisma.restaurant.findUnique({
-    where: {
-      slug: "mcdonalds",
-    },
-    include: {
-      meals: {
-        include: {
 
-          category: true,
-        },
-      },
-    },
-  });
 
   const highestProtein = await prisma.meal.findMany({
+    take: 15,
     where: {
-      restaurant: {
-       
-          rank: {
-            lt: 10
-          }
-        
+      protein: {
+          gt: 50
       }
     },
     orderBy: [
@@ -56,15 +41,15 @@ export const getServerSideProps = async (context) => {
     },
   });
 
-  if (!data) {
-    return {
-      notFound: true,
-    };
-  }
+  // if (!data) {
+  //   return {
+  //     notFound: true,
+  //   };
+  // }
 
   return {
     props: {
-      data: JSON.parse(JSON.stringify(data)),
+      // data: JSON.parse(JSON.stringify(data)),
       restaurants: JSON.parse(JSON.stringify(restaurants)),
       highestProtein: JSON.parse(JSON.stringify(highestProtein)),
     },
@@ -74,6 +59,9 @@ export const getServerSideProps = async (context) => {
 export default function Home(props) {
   let { data, restaurants, highestProtein } = props;
   let meals = highestProtein;
+  let topRestaurants = restaurants.slice(0,15)
+
+  console.log(topRestaurants)
 
   let mealData = meals.map((meal) => {
     if (meal.variants.length > 0) {
@@ -81,6 +69,8 @@ export default function Home(props) {
       return {...meal, ...meal.variants[0], name: fullName}
     } else return meal;
   });
+
+  console.log(mealData)
 
   const [selectedMeals, setSelectedMeals] = useState(null);
 
@@ -137,7 +127,7 @@ export default function Home(props) {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
-        <RestaurantCloud />
+        <RestaurantCloud restaurants={topRestaurants}/>
 
         <h2 className="text-3xl font-bold text-center mb-8 mt-8">
           Highest Protein Meals
@@ -217,7 +207,7 @@ export default function Home(props) {
           </div>
         </div> */}
         <table className="min-w-full divide-y divide-stone-300 rounded-lg">
-          <thead className="bg-stone-50 rounded-t-lg">
+          <thead className="rounded-t-lg">
             <tr>
               {/* <th
                       scope="col"
@@ -232,12 +222,12 @@ export default function Home(props) {
                 <div className="flex items-center">
                   <div className="ml-8">
                     <SortableTableHeader
-                      colKey="restaurant"
+                      colKey="restaurantSlug"
                       name="Restaurant"
                     />
                   </div>
                   <div className="ml-2">
-                    <SortableTableHeader colKey="meal_name" name="Name" />
+                    <SortableTableHeader colKey="name" name="Name" />
                   </div>
                 </div>
               </th>
@@ -245,7 +235,7 @@ export default function Home(props) {
                 scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-stone-900"
               >
-                <SortableTableHeader colKey="category" name="Type" />
+                <SortableTableHeader colKey="categoryName" name="Type" />
               </th>
               <th
                 scope="col"
@@ -299,7 +289,7 @@ export default function Home(props) {
           </thead>
           <tbody className="divide-y divide-stone-200 bg-white">
             {items.map((meal) => (
-              <MealRow meal={meal} key={meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
+              <MealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
             ))}
           </tbody>
         </table>

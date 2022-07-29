@@ -5407,41 +5407,6 @@
     {
         "restaurant_name": "McAlister's",
         "restaurant_slug": "mcalisters-deli",
-        "meal_name": "Olive Oil & Balsamic Vinaigrette",
-        "category": "Sandwich Condiments",
-        "slug": "olive-oil-balsamic-vinaigrette",
-        "calories": 70,
-        "total_fat": 6,
-        "saturated_fat": 1,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 260,
-        "total_carbohydrates": 3,
-        "dietary_fiber": 0,
-        "sugar": 3,
-        "protein": 0,
-        "vitamin_a": null,
-        "vitamin_c": null,
-        "calcium": null,
-        "iron": null,
-        "allergens_true": [
-            "soy"
-        ],
-        "allergens_false": [
-            "egg",
-            "fish",
-            "gluten",
-            "milk",
-            "peanuts",
-            "shellfish",
-            "tree nuts",
-            "wheat"
-        ],
-        "ingredients": "Dressing, Olive Oil Vinaigrette, Lite [Distilled Vinegar, Balsamic Vinegar, Olive Oil, Soybean & Canola Oil, Sugar, Salt, Garlic, Spice, Rice Starch, Xanthan Gum, Red Bell Pepper, Onion ]"
-    },
-    {
-        "restaurant_name": "McAlister's",
-        "restaurant_slug": "mcalisters-deli",
         "meal_name": "Raspberry Pecan Vinaigrette",
         "category": "Salad Dressings",
         "variants": [

@@ -27,9 +27,9 @@ const Header = () => {
   const navigation = [
     { name: "All Meals", href: "/restaurants" },
     { name: "All Restaurants", href: "/restaurants" },
-    { name: "Best Regional Restaurants", href: "/restaurants" },
+    { name: "Best Lists", href: "/restaurants" },
     { name: "Calculators", href: "/restaurants" },
-    { name: "Foods", href: "/restaurants" },
+    { name: "Healthy Fast Meals", href: "/restaurants" },
 
   ];
 

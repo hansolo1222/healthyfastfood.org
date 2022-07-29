@@ -4,6 +4,7 @@ import prisma from "../../lib/prisma"
 const mcdonalds = require("/public/data/mcdonalds.json");
 const burgerking = require("/public/data/burger-king.json");
 
+
 const restaurants = require("/public/restaurant_links.json");
 import { supabase } from '../../lib/supabase'
 

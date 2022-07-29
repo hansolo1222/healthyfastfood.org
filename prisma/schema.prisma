@@ -17,11 +17,11 @@ model meal {
   saturatedFat       Decimal?
   transFat           Decimal?
   cholesterol        Decimal?
-  sodium             Int?
+  sodium             Decimal?
   totalCarbohydrates Decimal?
   dietaryFiber       Decimal?
-  sugar              Int?
-  protein            Int?
+  sugar              Decimal?
+  protein            Decimal?
   vitaminA           Int?
   vitaminC           Int?
   calcium            Int?

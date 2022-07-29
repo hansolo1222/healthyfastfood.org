@@ -1,16 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
-export default function RestaurantCloud() {
+export default function RestaurantCloud({restaurants}) {
   return (
     <div className="bg-white">
     <h2 className="text-3xl font-bold text-center mb-4 mt-8">Most popular restaurants</h2>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-           <Link href="/mcdonalds" >
-          <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
-            <img className="h-16" src="/images/logos_large/mcdonalds.png" alt="McDonald's Logo" />
-          </div>
-          </Link>
+        <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-5">
+          {restaurants.map((restaurant)=>(
+            <a href={`/${restaurant.slug}`} className="hover:bg-stone-100 rounded-xl py-4">
+              <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
+                <img className="h-16 w-auto" src={`/images/logos_large/${restaurant.slug}.webp`} alt={`${restaurant.name} Logo`} />
+              </div>
+            </a>
+          ))}
+{/*            
           <Link href="/starbucks" >
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
             <img className="h-20" src="/images/logos_large/starbucks.png" alt="Starbucks Logo" />
@@ -64,13 +67,13 @@ export default function RestaurantCloud() {
           <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
             <img className="h-16" src="/images/logos_large/panera-bread.png" alt="Tuple" />
           </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="flex justify-center">
-      <button className="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
+      <a href="/restaurants" className="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
         See All Restaurants
-      </button>
+      </a>
       </div>
     </div>
   )

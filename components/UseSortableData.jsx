@@ -33,27 +33,7 @@ export const useSortableData = (items, config = null) => {
 
       })
     }
-    else if (sortConfig.key == "hashrate" || sortConfig.key == "USDRevenue" || sortConfig.key=="power" || sortConfig.key == "USDProfit"){
-      sortedItems.sort((a, b) => {
-        if(isNaN(a[sortConfig.key])){
-          
-          return 1;
-        }
-        else if(isNaN(b[sortConfig.key])){
-         
-          return -1;
-        }
-        else if(a === b){
-          return 0;
-        }
-        else if(sortConfig.direction === 'ascending') {
-          return a[sortConfig.key] - b[sortConfig.key];
-        }
-        else {
-          return b[sortConfig.key] - a[sortConfig.key];
-        }
-      })
-    } else {
+    else {
       sortedItems.sort((a, b) => {
         if (a[sortConfig.key] < b[sortConfig.key]) {
           return sortConfig.direction === 'ascending' ? 1 : -1;

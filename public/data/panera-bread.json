@@ -6400,55 +6400,6 @@
     {
         "restaurant_name": "Panera",
         "restaurant_slug": "panera-bread",
-        "meal_name": "Chipotle Chicken Avocado Melt",
-        "category": "Sandwiches",
-        "variants": [
-            {
-                "calories": 430,
-                "total_fat": 21,
-                "saturated_fat": 7,
-                "trans_fat": 0,
-                "cholesterol": 55,
-                "sodium": 1040,
-                "total_carbohydrates": 40,
-                "dietary_fiber": 4,
-                "sugar": 2,
-                "protein": 21,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Half",
-                "allergens_true": [],
-                "allergens_false": [],
-                "ingredients": "Smoked chicken, smoked Gouda cheese, avocado, cilantro, peppadew piquant peppers, chipotle mayo, black pepper focaccia."
-            },
-            {
-                "calories": 850,
-                "total_fat": 41,
-                "saturated_fat": 14,
-                "trans_fat": 0,
-                "cholesterol": 110,
-                "sodium": 2080,
-                "total_carbohydrates": 80,
-                "dietary_fiber": 8,
-                "sugar": 5,
-                "protein": 41,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Whole",
-                "allergens_true": [],
-                "allergens_false": [],
-                "ingredients": "Smoked chicken, smoked Gouda cheese, avocado, cilantro, peppadew piquant peppers, chipotle mayo, black pepper focaccia."
-            }
-        ],
-        "slug": "chipotle-chicken-avocado-melt"
-    },
-    {
-        "restaurant_name": "Panera",
-        "restaurant_slug": "panera-bread",
         "meal_name": "Classic Grilled Cheese",
         "category": "Sandwiches",
         "variants": [
