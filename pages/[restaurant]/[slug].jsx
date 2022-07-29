@@ -12,7 +12,7 @@ import { PieChart } from "react-minimal-pie-chart";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { NextSeo } from "next-seo";
-import prisma from "../lib/prisma"
+import prisma from "../../lib/prisma"
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
