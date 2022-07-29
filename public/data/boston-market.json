@@ -20,7 +20,21 @@
                 "vitamin_c": 10,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasturized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid)"
             },
             {
                 "calories": 710,
@@ -37,7 +51,21 @@
                 "vitamin_c": 20,
                 "calcium": 6,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasturized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid)"
             }
         ],
         "slug": "meatloaf"
@@ -61,7 +89,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Beef, Water, contains 2% or less of: Modified Food Starch, Hydrolyzed Corn Protein, Potassium Lactate, Sodium Lactate, Salt, Beef Flavor Juice (Water, Natural Flavor, Hydrolyzed Corn Protein), Sodium Phosphates, Sodium Diacetate, Natural Flavoring. Rubbed with: Salt, Dextrose, Garlic Powder, Onion Powder, Caramel Color, Spice"
     },
     {
         "restaurant_name": "Boston Market",
@@ -82,7 +123,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Thigh and Drumstick Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -103,7 +157,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Breast and Wing Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -124,7 +191,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Breast and Wing Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -145,7 +225,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Thigh and Drumstick Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -166,7 +259,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Thigh and Drumstick Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -187,7 +293,21 @@
         "vitamin_a": 2,
         "vitamin_c": 8,
         "calcium": 6,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "St. Louis Style BBQ Ribs - 1/4 Rack: St. Louis Style Pork Spareribs, Water, Salt, Natural Hardwood Smoked Sugar, Rubbed with Salt, Sugar, Spices, Paprika, Zesty BBQ Sauce (Water, Sugar, Tomato Paste, Cider Vinegar, Brown Sugar, Molasses, Modified Corn Starch, Sea Salt, Natural Smoke Flavor, Rochester Sauce* [Corn Syrup Solids, Salt, Garlic Sugar, Spices, Soy Sauce Solids (Naturally Fermented Wheat and Soybeans, Salt, Maltodextrin, Caramel Color), Palm Oil, Tamarind, Natural Flavor], Worcestershire Sauce Concentrate [Distilled Vinegar, Water, Molasses, Corn Syrup, Salt, Caramel Color, Garlic*, Sugar, Tamarind, Spices], Spices, Chili Pepper, Potassium Sorbate and Sodium Benzoate added as preservatives, Soybean Oil, Garlic*, Salt, Onion*, Caramel Color, Citric Acid, Jalapeno Pepper*, Xanthan Gum, Calcium Disodium EDTA added to protect flavor) *Dehydrated, Rotisserie Chicken - Quarter White: Chicken Breast and Wing Portions with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -208,7 +328,21 @@
         "vitamin_a": 35,
         "vitamin_c": 8,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pot Pie Filling (Chicken Stock [Water, Chicken Fat, Natural Roast Chicken Flavor (Chicken Fat, Natural Flavor), Natural Chicken Stock Flavor], Milk, Seasoning [Modified Cornstarch, Wheat Flour, Yeast Extract, Sugar, Whey Protein Concentrate, Sea Salt, Spices, Soy Lecithin], Onions, Soy Sauce [Water, Wheat, Soybeans, Salt], Garlic, Annatto [color]), Pot Pie Crust (Enriched Wheat Flour [Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid], Palm Oil with Beta Carotene [color], Water, Enriched Wheat Flour [Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid], Salt, Dextrose, Natural Flavor, Sugar, Annatto Extract, Xanthan Gum, Citric Acid, Soybean Oil), Chicken (Boneless Skinless Chicken with up to 15% Solution of Water, Seasoning [Salt, Sugar, Natural Roasted Chicken Type Flavor (Yeast Extract, Maltodextrin, Flavoring [Contains Canola Oil], Chicken Broth, Salt, Lactic Acid, Calcium Lactate), Maltodextrin, Garlic Powder], Carrageenan Blend [Xanthan Gum, Konjac Flour, Carrageenan]), Pot Pie Vegetables (Carrots, Potatoes, Green Beans, Peas)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -229,7 +363,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Half Chicken with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)."
     },
     {
         "restaurant_name": "Boston Market",
@@ -250,7 +397,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [
+            "egg",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Rotisserie Prime Rib: Beef, Salt, Pepper, Beef Au Jus: Water, Maltodextrin, Corn Syrup Solids, Modified Corn Starch, Salt, Sugar, Yeast Extract, Beef Stock, Mushroom Powder, Caramel Color, Soybean Oil, Onion Powder, Natural Flavors, Torula Yeast, Disodium Inosinate and Disodium Guanylate, Beef Fat, Red Wine Vinegar, Sodium Caseinate (A Milk Derivative), Lactic Acid, Extractives of Paprika, Natural Smoke Flavor, Not More than 2% Silicon Dioxide Added to Prevent Caking *Contains Sulfites, Horseradish: Grated Horseradish Roots, Water, Soybean Oil, White Distilled Vinegar, High Fructose Corn Syrup, Eggs, Sugar, Modified Corn Starch, Salt, Lemon Juice, Xanthan Gum, Sodium Metabisulfite and Sodium Benzoate (Preservatives), Artificial Flavor, Citric Acid, Spices, Calcium Disodium EDTA (Retains Product Freshness), Paprika"
     },
     {
         "restaurant_name": "Boston Market",
@@ -271,7 +432,21 @@
         "vitamin_a": 35,
         "vitamin_c": 8,
         "calcium": 10,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pot Pie Filling (Chicken Stock [Water, Chicken Fat, Natural Roast Chicken Flavor (Chicken Fat, Natural Flavor), Natural Chicken Stock Flavor], Milk, Seasoning [Modified Cornstarch, Wheat Flour, Yeast Extract, Sugar, Whey Protein Concentrate, Sea Salt, Spices, Soy Lecithin], Onions, Soy Sauce [Water, Wheat, Soybeans, Salt], Garlic, Annatto [color]), Pot Pie Crust (Enriched Wheat Flour [Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid], Palm Oil with Beta Carotene [color], Water, Enriched Wheat Flour [Wheat Flour, Malted Barley Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid], Salt, Dextrose, Natural Flavor, Sugar, Annatto Extract, Xanthan Gum, Citric Acid, Soybean Oil), Turkey Breast (Turkey, Containing up to 10% of a solution of: Water, Salt, Modified Food Starch, Sodium Phosphate), Pot Pie Vegetables (Carrots, Potatoes, Green Beans, Peas)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -294,7 +469,21 @@
                 "vitamin_c": 8,
                 "calcium": 2,
                 "iron": 8,
-                "variant_name": "1/4 Rack"
+                "variant_name": "1/4 Rack",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "St. Louis Style Pork Spareribs, Water, Salt, Natural Hardwood Smoked Sugar, Rubbed with Salt, Sugar, Spices, Paprika, Zesty BBQ Sauce (Water, Sugar, Tomato Paste, Cider Vinegar, Brown Sugar, Molasses, Modified Corn Starch, Sea Salt, Natural Smoke Flavor, Rochester Sauce* [Corn Syrup Solids, Salt, Garlic Sugar, Spices, Soy Sauce Solids (Naturally Fermented Wheat and Soybeans, Salt, Maltodextrin, Caramel Color), Palm Oil, Tamarind, Natural Flavor], Worcestershire Sauce Concentrate [Distilled Vinegar, Water, Molasses, Corn Syrup, Salt, Caramel Color, Garlic*, Sugar, Tamarind, Spices], Spices, Chili Pepper, Potassium Sorbate and Sodium Benzoate added as preservatives, Soybean Oil, Garlic*, Salt, Onion*, Caramel Color, Citric Acid, Jalapeno Pepper*, Xanthan Gum, Calcium Disodium EDTA added to protect flavor) *Dehydrated"
             },
             {
                 "calories": 860,
@@ -311,7 +500,21 @@
                 "vitamin_c": 15,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "1/2 Rack"
+                "variant_name": "1/2 Rack",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "St. Louis Style Pork Spareribs, Water, Salt, Natural Hardwood Smoked Sugar, Rubbed with Salt, Sugar, Spices, Paprika, Zesty BBQ Sauce (Water, Sugar, Tomato Paste, Cider Vinegar, Brown Sugar, Molasses, Modified Corn Starch, Sea Salt, Natural Smoke Flavor, Rochester Sauce* [Corn Syrup Solids, Salt, Garlic Sugar, Spices, Soy Sauce Solids (Naturally Fermented Wheat and Soybeans, Salt, Maltodextrin, Caramel Color), Palm Oil, Tamarind, Natural Flavor], Worcestershire Sauce Concentrate [Distilled Vinegar, Water, Molasses, Corn Syrup, Salt, Caramel Color, Garlic*, Sugar, Tamarind, Spices], Spices, Chili Pepper, Potassium Sorbate and Sodium Benzoate added as preservatives, Soybean Oil, Garlic*, Salt, Onion*, Caramel Color, Citric Acid, Jalapeno Pepper*, Xanthan Gum, Calcium Disodium EDTA added to protect flavor) *Dehydrated"
             }
         ],
         "slug": "st-louis-style-bbq-ribs"
@@ -337,7 +540,20 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 8,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey Breast, Contains up to 10% of a Solution of Water, Salt, Modified Food Starch, Sodium Phosphate"
             },
             {
                 "calories": 230,
@@ -354,7 +570,20 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey Breast, Contains up to 10% of a Solution of Water, Salt, Modified Food Starch, Sodium Phosphate"
             }
         ],
         "slug": "turkey-breast"
@@ -378,7 +607,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -399,7 +631,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -420,7 +655,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -441,7 +679,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -462,7 +703,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -483,7 +727,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -504,7 +751,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -527,7 +777,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/o Dressing, Croutons & Chicken"
+                "variant_name": "w/o Dressing, Croutons & Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -544,7 +797,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Dressing, Croutons & Chicken"
+                "variant_name": "w/ Dressing, Croutons & Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caesar-half-salad"
@@ -568,7 +824,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -589,7 +848,21 @@
         "vitamin_a": 6,
         "vitamin_c": 200,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Apples (Apples, Water, Ascorbic Acid), Apple Filling (Sliced Apples [Apples, Water, Salt, Ascorbic Acid, Citric Acid]), Sugar, Corn Syrup, Water, Modified Corn Starch, High Fructose Corn Syrup, Salt, Spice, Sodium Benzoate and Potassium Sorbate (preservatives), Yellow Color Blend [Wheat Starch, Annatto and Turmeric], Natural and Artificial Flavors), Sugar, Water, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Palm Oil, Brown Sugar, Rolled Oats, Honey Graham Crumbs (Enriched Flour [Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Invert Sugar, Whole Wheat Flour, Vegetable Oil [Soybean, Palm and Palm Kernel Oil with TBHQ for Freshness], Contains 2% of less of Baking Soda, Salt, Honey), Food Starch- Modified, Spice, Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Natural Flavors, Artificial Flavor, Salt, Natural Butter Flavor (Maltodextrin [Corn], Natural Butter Flavor, Annatto and Turmeric [for color])"
     },
     {
         "restaurant_name": "Boston Market",
@@ -610,7 +883,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -631,7 +907,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -652,7 +931,10 @@
         "vitamin_a": 140,
         "vitamin_c": 50,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Broccoli, Carrots, Zucchini, Oil Blend (Canola Oil, Extra Virgin Olive Oil), Salt and Pepper Rub (Salt, Pepper, Canola Oil, Natural Flavor))"
     },
     {
         "restaurant_name": "Boston Market",
@@ -673,7 +955,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -694,7 +979,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -715,7 +1003,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -736,7 +1027,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -757,7 +1051,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -778,7 +1075,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -799,7 +1099,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -822,7 +1125,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -839,7 +1145,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "boneless-holiday-ham"
@@ -863,7 +1172,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -886,7 +1198,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -903,7 +1218,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "holiday-turkey"
@@ -927,7 +1245,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -948,7 +1269,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -969,7 +1293,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -990,7 +1317,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1011,7 +1341,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1032,7 +1365,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1053,7 +1389,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1074,7 +1413,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1095,7 +1437,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1116,7 +1461,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1139,7 +1487,21 @@
                 "vitamin_c": 10,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasturized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid)"
             },
             {
                 "calories": 710,
@@ -1156,7 +1518,21 @@
                 "vitamin_c": 20,
                 "calcium": 6,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasturized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid)"
             }
         ],
         "slug": "meatloaf"
@@ -1180,7 +1556,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1201,7 +1580,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1222,7 +1604,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1243,7 +1628,21 @@
         "vitamin_a": 10,
         "vitamin_c": 10,
         "calcium": 40,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Macaroni and Cheese: Cooked Enriched Rotini (Water, Enriched Pasta (Semolina (Wheat), Egg Whites, Niacin, Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, and Folic Acid)), American Cheese (Cultured Milk and Skim Milk, Cream, Sodium Phosphate, Salt, Color Added (if colored), Lactic Acid, Enzymes), Sweet Whey, Cheddar Cheese Blend (Cheddar, Granular, Semi-soft and Blue Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Water, Vinegar, Salt), Wheat Flour, Modified Corn Starch, Salt, Sugar, Xanthan Gum, Disodium Phosphate, Annatto (Color) -or- Cooked Spiral Noodles (Semolina, Egg Whites, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Pasteurized Processed White American Cheese (American Cheese [Cultured Milk, Salt, Enzymes], Cream, Sodium Phosphate, Salt), Sweet Whey Powder, Contains 2% or less of the following: Cheddar Concentrate (Cheddar, Granular, Semisoft and Blue Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Water, Sodium Phosphate, Vinegar, Salt), Wheat Flour, Salt, Modified Corn Starch, Xanthan Gum, Annatto (color), Meatloaf (for Entrees): Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasteurized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid), Zesty BBQ Sauce (Bowl): Water, Sugar, Tomato Paste, Cider Vinegar, Brown Sugar, Molasses, Modified Corn Starch, Sea Salt, Natural Smoke Flavor, Rochester Sauce * (Corn Syrup Solids, Salt, Garlic, Sugar, Spices, Soy Sauce Solids (Naturally Fermented Wheat And Soybeans, Salt, Maltodextrin, Caramel Color), Palm Oil, Tamarind, Natural Flavor), Worcestershire Sauce Concentrate (Distilled Vinegar, Water, Molasses, Corn Syrup, Salt, Caramel Color, Garlic*, Sugar, Tamarind, Spices), Spices, Chili Pepper, Potassium Sorbate And Sodium Benzoate Added As Preservatives, Soybean Oil, Garlic*, Salt, Onion*, Caramel Color, Citric Acid, Jalapeno Pepper*, Xanthan Gum, Calcium Disodium Edta Added To Protect Flavor. ( *Dehydrated), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Pico de Gallo: Tomatoes, Salsa Blend (Jalapenos, Green Onions, Cilantro, Garlic), Lemon Vinaigrette (Water, Vegetable Oil [Soybean and/or Canola], Sugar, White Wine, Extra Virgin Olive Oil, Garlic Puree [Garlic, Water, Citric Acid], Lemon Juice Concentrate, Lime Juice, Salt, Contains less than 2% of Citric Acid, Dried Shallots, Garlic Powder, Mustard Seed, Natural Flavor, Pineapple Juice Concentrate, Spice, Vinegar, Xanthan Gum)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1264,7 +1663,21 @@
         "vitamin_a": 15,
         "vitamin_c": 20,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Mashed Potatoes: Potatoes, Whole Milk, Butter (Sweet Cream, Salt), Margarine (Liquid and Hydrogenated Soybean Oil, Water, Salt, contains less than 2% of Vegetable Mono and Diglycerides, Soy Lecithin, Citric Acid, Natural and Artificial Flavor, Vitamin A Palmitate added), Onion, Salt, Potassium Sorbate to protect flavor, Disodium Pyrophosphate to maintain color, Spice., Skinless Chicken Breast (for Entree): Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Poultry Gravy: Water, Modified Corn Starch, Maltodextrin, Yeast Extract, Salt, Chicken Fat, Sugar, Turkey Powder, Turkey Broth, Onion powder, Natural Flavors, Caramel Color, Spices, Xanthan Gum, Turmeric, Tomato powder, Annatto, Spice Extractives, Garlic Powder, no more than 2% Silicon Dioxide to prevent caking., Corn Relish: Corn, Black Beans (Water, Black Beans), Red Peppers, Poblano Peppers, Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Garlic Herb Glaze: Chicken stock (water, chicken stock [chicken stock, natural flavor, sea salt]), salted butter (cream, salt), Chablis cooking wine (chablis wine, salt), Cream, Garlic, Onions, Seasoning (modified corn starch, salt, soy lecithin, spices, guar and xanthan gum, yeast extract), Apple juice concentrate, Sherry cooking wine (sherry wine, salt, sodium metabisulfite), Canola oil, Fig concentrate (figs and water), Rice wine vinegar"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1285,7 +1698,20 @@
         "vitamin_a": 6,
         "vitamin_c": 8,
         "calcium": 10,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Cilantro Lime Rice: Cooked White Rice: ENRICHED LONG GRAIN PARBOILED RICE [LONG GRAIN RICE, IRON (FERRIC ORTHOPHOSPHATE), THIAMIN (THIAMINE MONONITRATE) AND FOLATE (FOLIC ACID)], Chimichurri Sauce: Cilantro, parsley, oregano, garlic, shallot, red wine vinegar, olive oil, canola oil, crushed red pepper, salt, Garlic Butter Blend: Vegetable Oils (Soybean, Palm, Palm Kernel), Water, Salt, Natural Flavors. Contains 2% or Less of: Dehydrated Garlic, Soy Lecithin, Butter (Cream, Salt), Whey, Distilled Monoglycerides, Corn Syrup, Spices, Citric Acid., Salsa Blend: Jalape\u00f1os, green onions, cilantro and garlic, Salt & Pepper Rub, Skinless Chicken Breast (for Entree): Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Corn Relish: Corn, Black Beans (Water, Black Beans), Red Peppers, Poblano Peppers, Pico de Gallo: Tomatoes, Salsa Blend (Jalapenos, Green Onions, Cilantro, Garlic), Lemon Vinaigrette (Water, Vegetable Oil [Soybean and/or Canola], Sugar, White Wine, Extra Virgin Olive Oil, Garlic Puree [Garlic, Water, Citric Acid], Lemon Juice Concentrate, Lime Juice, Salt, Contains less than 2% of Citric Acid, Dried Shallots, Garlic Powder, Mustard Seed, Natural Flavor, Pineapple Juice Concentrate, Spice, Vinegar, Xanthan Gum), Southwest Chipotle Pesto Sauce: Canola Oil,, Water, Onions, Dried Tomatoes, Jalapeno Peppers, Cilantro, Salt, Chipotle Chile Peppers, Sugar, Dehydrated Garlic, Spices, Xanthan Gum, Guar Gum, Maltodextrin, Propylene Glycol Alginate."
     },
     {
         "restaurant_name": "Boston Market",
@@ -1306,7 +1732,20 @@
         "vitamin_a": 150,
         "vitamin_c": 60,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Fresh Steamed Vegetables: Broccoli, Carrots, Zucchini, Oil Blend (Canola Oil, Extra Virgin Olive Oil), Salt and Pepper Rub (Salt, Pepper, Canola Oil, Natural Flavor), Cilantro Lime Rice: Cooked White Rice: ENRICHED LONG GRAIN PARBOILED RICE [LONG GRAIN RICE, IRON (FERRIC ORTHOPHOSPHATE), THIAMIN (THIAMINE MONONITRATE) AND FOLATE (FOLIC ACID)], Chimichurri Sauce: Cilantro, parsley, oregano, garlic, shallot, red wine vinegar, olive oil, canola oil, crushed red pepper, salt, Garlic Butter Blend: Vegetable Oils (Soybean, Palm, Palm Kernel), Water, Salt, Natural Flavors. Contains 2% or Less of: Dehydrated Garlic, Soy Lecithin, Butter (Cream, Salt), Whey, Distilled Monoglycerides, Corn Syrup, Spices, Citric Acid., Salsa Blend: Jalape\u00f1os, green onions, cilantro and garlic, Salt & Pepper Rub, Garlic Herb Glaze: Chicken stock (water, chicken stock [chicken stock, natural flavor, sea salt]), salted butter (cream, salt), Chablis cooking wine (chablis wine, salt), Cream, Garlic, Onions, Seasoning (modified corn starch, salt, soy lecithin, spices, guar and xanthan gum, yeast extract), Apple juice concentrate, Sherry cooking wine (sherry wine, salt, sodium metabisulfite), Canola oil, Fig concentrate (figs and water), Rice wine vinegar, Corn Relish: Corn, Black Beans (Water, Black Beans), Red Peppers, Poblano Peppers, Pico de Gallo: Tomatoes, Salsa Blend (Jalapenos, Green Onions, Cilantro, Garlic), Lemon Vinaigrette (Water, Vegetable Oil [Soybean and/or Canola], Sugar, White Wine, Extra Virgin Olive Oil, Garlic Puree [Garlic, Water, Citric Acid], Lemon Juice Concentrate, Lime Juice, Salt, Contains less than 2% of Citric Acid, Dried Shallots, Garlic Powder, Mustard Seed, Natural Flavor, Pineapple Juice Concentrate, Spice, Vinegar, Xanthan Gum)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1329,7 +1768,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 670,
@@ -1346,7 +1788,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caesar-salad"
@@ -1370,7 +1815,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1393,7 +1841,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "no Toppings"
+                "variant_name": "no Toppings",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -1410,7 +1861,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Toppings"
+                "variant_name": "w/ Toppings",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-tortilla-soup"
@@ -1436,7 +1890,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -1453,7 +1910,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mediterranean-salad"
@@ -1479,7 +1939,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -1496,7 +1959,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "southwest-santa-fe-salad"
@@ -1522,7 +1988,21 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Avocado: Avocado (Avocado, Salt, Ascorbic Acid [To Maintain Color], Citric Acid), Bacon: Bacon (Bacon Cured With: Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite), Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             },
             {
                 "calories": 1110,
@@ -1539,7 +2019,21 @@
                 "vitamin_c": 15,
                 "calcium": 30,
                 "iron": 30,
-                "variant_name": "Full"
+                "variant_name": "Full",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Avocado: Avocado (Avocado, Salt, Ascorbic Acid [To Maintain Color], Citric Acid), Bacon: Bacon (Bacon Cured With: Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite), Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             }
         ],
         "slug": "chicken-avocado-club"
@@ -1565,7 +2059,21 @@
                 "vitamin_c": 15,
                 "calcium": 6,
                 "iron": 10,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Salad: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Mayonnaise Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor., Celery, Salt, Black Pepper., Multigrain Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Sunflower Seeds, Rolled Oats, Palm Oil, Salt, Sugar, Malt, Millet, Yeast, Flaxseeds, Wheat Gluten, Rye Flour, Corn Grits, Rye Meal, Cracked Wheat, Sesame Seeds, Crushed Barley, Wheat Bran, Malted Barley Flour, Rye Malt, Calcium Propionate, Cracked Buckwheat, Rice Flour, Triticale, Spices, Enzymes, Ascorbic Acid, Tomatoes: tomato, Mayonnaise: Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor, Romaine Lettuce: Romaine Lettuce"
             },
             {
                 "calories": 870,
@@ -1582,7 +2090,21 @@
                 "vitamin_c": 25,
                 "calcium": 10,
                 "iron": 25,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Salad: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Mayonnaise Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor., Celery, Salt, Black Pepper., Multigrain Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Sunflower Seeds, Rolled Oats, Palm Oil, Salt, Sugar, Malt, Millet, Yeast, Flaxseeds, Wheat Gluten, Rye Flour, Corn Grits, Rye Meal, Cracked Wheat, Sesame Seeds, Crushed Barley, Wheat Bran, Malted Barley Flour, Rye Malt, Calcium Propionate, Cracked Buckwheat, Rice Flour, Triticale, Spices, Enzymes, Ascorbic Acid, Tomatoes: tomato, Romaine Lettuce: Romaine Lettuce, Mayonnaise: Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor"
             }
         ],
         "slug": "all-white-rotisserie-chicken-salad"
@@ -1608,7 +2130,21 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Sliced Turkey Breast: Turkey Breast, Contains up to 10% of a Solution of Water, Salt, Modified Food Starch, Sodium Phosphate, Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             },
             {
                 "calories": 970,
@@ -1625,7 +2161,21 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 30,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Sliced Turkey Breast: Turkey Breast, Contains up to 10% of a Solution of Water, Salt, Modified Food Starch, Sodium Phosphate, Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             }
         ],
         "slug": "hand-carved-roasted-turkey-carver"
@@ -1651,7 +2201,21 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             },
             {
                 "calories": 980,
@@ -1668,7 +2232,21 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 25,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Herbed Mayonnaise: (Mayonnaise [Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor]), Chimichurri Sauce [Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt]), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             }
         ],
         "slug": "rotisserie-chicken-carver"
@@ -1694,7 +2272,21 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Chipotle Aioli: Mayonnaise (Soybean Oil, Water, Buttermilk, Egg Yolk, Distilled Vinegar, Contains less than 2% of: Salt, Monosodium Glutamate, Modified Food Starch, Buttermilk Solids, Sugar, Garlic, Spice, Citric Acid, Xanthan Gum, Onion, Sorbic Acid, Natural Flavor [Milk], Calcium Sodium EDTA to protect flavor, Egg Whites), Southwest Chipotle Pesto (Canola Oil, Water, Onions, Dried Tomatoes, Jalapeno Peppers, Cilantro, Salt, Dried Chipotle Chiles, Sugar, Dehydrated Garlic, Spices, Gum Acacia, Xanthan Gum), Pepper Jack Cheese: (Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes), Tomatoes: tomato, Avocado: Avocado (Avocado, Salt, Ascorbic Acid [To Maintain Color], Citric Acid), Cholula Bacon: Cholula Bacon ([Bacon Cured With: Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite], Cholula [Water, Peppers (Arbol and Piquin), Salt, Vinegar, Spices, and Xanthan Gum]), Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             },
             {
                 "calories": 1110,
@@ -1711,7 +2303,21 @@
                 "vitamin_c": 15,
                 "calcium": 30,
                 "iron": 30,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ciabatta Roll: (Enriched Wheat Flour [Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid], Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina), Chicken, White, Skinless: Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Chipotle Aioli: Mayonnaise (Soybean Oil, Water, Buttermilk, Egg Yolk, Distilled Vinegar, Contains less than 2% of: Salt, Monosodium Glutamate, Modified Food Starch, Buttermilk Solids, Sugar, Garlic, Spice, Citric Acid, Xanthan Gum, Onion, Sorbic Acid, Natural Flavor [Milk], Calcium Sodium EDTA to protect flavor, Egg Whites), Southwest Chipotle Pesto (Canola Oil, Water, Onions, Dried Tomatoes, Jalapeno Peppers, Cilantro, Salt, Dried Chipotle Chiles, Sugar, Dehydrated Garlic, Spices, Gum Acacia, Xanthan Gum), Pepper Jack Cheese: (Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes), Tomatoes: tomato, Avocado: Avocado (Avocado, Salt, Ascorbic Acid [To Maintain Color], Citric Acid), Cholula Bacon: Cholula Bacon ([Bacon Cured With: Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite], Cholula [Water, Peppers (Arbol and Piquin), Salt, Vinegar, Spices, and Xanthan Gum]), Leaf Lettuce: Leaf lettuce, Red Onion: Red Onion"
             }
         ],
         "slug": "southwest-chicken-carver-sandwich"
@@ -1735,7 +2341,21 @@
         "vitamin_a": 60,
         "vitamin_c": 70,
         "calcium": 45,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Zucchini, Multigrain Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Sunflower Seeds, Rolled Oats, Palm Oil, Salt, Sugar, Malt, Millet, Yeast, Flaxseeds, Wheat Gluten, Rye Flour, Corn Grits, Rye Meal, Cracked Wheat, Sesame Seeds, Crushed Barley, Wheat Bran, Malted Barley Flour, Rye Malt, Calcium Propionate, Cracked Buckwheat, Rice Flour, Triticale, Spices, Enzymes, Ascorbic Acid, Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tomatoes: tomato, Creamy Dijon: Soybean Oil, Dijon Mustard (Water, Mustard Seed, Vinegar, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Water, Egg Yolk, Sugar, Distilled Vinegar, Salt, Xanthan Gum, Mustard Seed, Spice, Propylene Glycol Alginate., Mayonnaise: Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor, Romaine Lettuce: Romaine Lettuce, Three Cheese Blend: Parmesan, Asiago and Romano Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Powdered Cellulose (to prevent caking)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1756,7 +2376,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1777,7 +2400,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1798,7 +2424,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Boston Market",
@@ -1819,7 +2448,21 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Ciabatta Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina, Meatloaf (for Entrees): Meatloaf (Beef, Seasoning [Wheat Flour, Sea Salt, Eggs, Nonfat Milk, Sugar, Deheated Mustard, Romano Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Enzymes, Salt), Safflower Oil, Maltodextrin, Salt, Yeast, Soybean Oil, Soy Sauce (Wheat, Soybeans, Salt), Spices (Including Celery Salt), Unsalted Butter (Pasteurized Cream, Natural Flavor)] Natural Flavor, Tomato Puree [Tomatoes, Citric Acid], Onions), Water, Hickory Ketchup (Water, Tomato Paste, Sugar, Cider Vinegar, Distilled Vinegar, Modified Corn Starch, Salt, Soybean Oil, Tamarind Extract, Spice, Xanthan Gum, Corn Syrup, Molasses, Salt, Potassium Sorbate and Sodium Benzoate added as Preservatives, Caramel Color, Dehydrated Garlic, Natural Flavor, Tamarind, Citric Acid), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Tiger Sauce: Mayonnaise: Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor, Horseradish: Grated Horseradish Roots, Water, Soybean Oil, White Distilled Vinegar, High Fructose Corn Syrup, Eggs, Sugar, Modified Corn Starch, Salt, Lemon Juice, Xanthan Gum, Sodium Metabisulfite and Sodium Benzoate (Preservatives), Artificial Flavor, Citric Acid, Spices, Calcium Disodium EDTA (Retains Product Freshness), Paprika, Zesty BBQ Sauce (Bowl): Water, Sugar, Tomato Paste, Cider Vinegar, Brown Sugar, Molasses, Modified Corn Starch, Sea Salt, Natural Smoke Flavor, Rochester Sauce * (Corn Syrup Solids, Salt, Garlic, Sugar, Spices, Soy Sauce Solids (Naturally Fermented Wheat And Soybeans, Salt, Maltodextrin, Caramel Color), Palm Oil, Tamarind, Natural Flavor), Worcestershire Sauce Concentrate (Distilled Vinegar, Water, Molasses, Corn Syrup, Salt, Caramel Color, Garlic*, Sugar, Tamarind, Spices), Spices, Chili Pepper, Potassium Sorbate And Sodium Benzoate Added As Preservatives, Soybean Oil, Garlic*, Salt, Onion*, Caramel Color, Citric Acid, Jalapeno Pepper*, Xanthan Gum, Calcium Disodium Edta Added To Protect Flavor. ( *Dehydrated)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1840,7 +2483,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Ciabatta Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina, Skinless Chicken Breast (for Entree): Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Herbed Mayonnaise: Mayonnaise (Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor), Chimichurri Sauce (Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Garlic Herb Glaze: Chicken stock (water, chicken stock [chicken stock, natural flavor, sea salt]), salted butter (cream, salt), Chablis cooking wine (chablis wine, salt), Cream, Garlic, Onions, Seasoning (modified corn starch, salt, soy lecithin, spices, guar and xanthan gum, yeast extract), Apple juice concentrate, Sherry cooking wine (sherry wine, salt, sodium metabisulfite), Canola oil, Fig concentrate (figs and water), Rice wine vinegar"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1861,7 +2518,21 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Ciabatta Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina, Skinless Chicken Breast (for Entree): Chicken Breast with up to 15% solution of Water, Seasoning (Salt, Sugar, Natural Roasted Chicken Type Flavor [Yeast Extract, Maltodextrin, Flavoring (Contains Canola Oil), Chicken Broth, Salt, Lactic Acid, Calcium Lactate], Maltodextrin, Garlic Powder), Carrageenan Blend (Xanthan Gum, Konjac Flour, Carrageenan)., Pepper Jack Cheese: Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes, Ranch Dressing: Soybean Oil, Water, Vinegar, Egg Yolk, Buttermilk Solids, Contains less than 2% of: Salt, Sugar, Lemon Juice Concentrate, Garlic, Natural Flavor (Milk), Onion, Xanthan Gum, Scorbic Acid, Potassium Sorbate and Calcium Disodium EDTA as preservatives, Spice, Cream, Buttermilk, Non Fat Dry Milk., Chipotle Ranch Dressing: Ranch (Soybean Oil, Water, Buttermilk, Egg Yolk, Distilled Vinegar, Contains less than 2% of: Salt, Monosodium Glutamate, Modified Food Starch, Buttermilk Solids, Sugar, Garlic, Spice, Citric Acid, Xanthan Gum, Onion, Sorbic Acid, Natural Flavor [Milk], Calcium Sodium EDTA to protect flavor, Egg Whites), Southwest Chipotle Pesto (Canola Oil, Water, Onions, Dried Tomatoes, Jalapeno Peppers, Cilantro, Salt, Dried Chipotle Chiles, Sugar, Dehydrated Garlic, Spices, Gum Acacia, Xanthan Gum)"
     },
     {
         "restaurant_name": "Boston Market",
@@ -1882,6 +2553,20 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Ciabatta Roll: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Salt, Malted Barley Flour, Yeast, Dextrose, Wheat Gluten, Soybean Oil, Extra Virgin Olive Oil, Fava Bean Flour, Fermented Wheat Flour, Guar Gum, Ascorbic Acid, Enzymes, Rye Flour, Rice Flour, Semolina, Turkey Breast (for Entrees): Turkey Breast, Contains up to 10% of a Solution of Water, Salt, Modified Food Starch, Sodium Phosphate, Herbed Mayonnaise: Mayonnaise (Soybean Oil, Water, Egg Yolk, Egg, Distilled Vinegar, Sugar, Salt, Mustard Seed, Lemon Juice Concentrate, Natural Flavor), Chimichurri Sauce (Cilantro, Parsley, Oregano, Garlic, Shallot, Red Wine Vinegar, Olive Oil, Canola Oil, Crushed Red Pepper, Salt), Medium Cheddar Cheese, Slice: Pasteurized Milk, Cheese Culture, Salt, Enzymes and Annatto (Vegetable Color), Garlic Herb Glaze: Chicken stock (water, chicken stock [chicken stock, natural flavor, sea salt]), salted butter (cream, salt), Chablis cooking wine (chablis wine, salt), Cream, Garlic, Onions, Seasoning (modified corn starch, salt, soy lecithin, spices, guar and xanthan gum, yeast extract), Apple juice concentrate, Sherry cooking wine (sherry wine, salt, sodium metabisulfite), Canola oil, Fig concentrate (figs and water), Rice wine vinegar"
     }
 ]

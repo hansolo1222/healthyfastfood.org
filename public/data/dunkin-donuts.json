@@ -18,7 +18,13 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -39,7 +45,13 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -60,7 +72,13 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 50
+        "iron": 50,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -81,7 +99,13 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -102,7 +126,13 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -125,7 +155,18 @@
                 "vitamin_c": null,
                 "calcium": 45,
                 "iron": 2,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Dough: Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Extract of Malted Barley and Corn, Salt, Instant Dry Yeast (Dried Yeast, Sorbitan Monostearate, Ascorbic Acid), Dough Conditioner Blend (Malted Barley Flour, Wheat Flour, Dextrose), Molasses; Filling: Cream Cheese (Pasteurized Milk and Cream, Cheese Culture, Salt, Guar Gum, Carob Bean Gum, Xanthan Gum)."
             },
             {
                 "calories": 260,
@@ -142,7 +183,18 @@
                 "vitamin_c": null,
                 "calcium": 60,
                 "iron": 2,
-                "variant_name": "Everything"
+                "variant_name": "Everything",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Dough: Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Extract of Malted Barley and Corn, Salt, Instant Dry Yeast (Dried Yeast, Sorbitan Monostearate, Ascorbic Acid), Dough Conditioner Blend (Malted Barley Flour, Wheat Flour, Dextrose), Molasses; Filling: Cream Cheese (Pasteurized Milk and Cream, Cheese Culture, Salt, Guar Gum, Carob Bean Gum, Xanthan Gum); Topping: Sesame Seeds, Poppy Seeds, Dehydrated Onion, Dehydrated Garlic, Rolled Oats, Maltodextrin, Guar Gum."
             }
         ],
         "slug": "stuffed-bagel-minis"
@@ -166,7 +218,14 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -187,7 +246,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -208,7 +275,14 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -229,7 +303,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Unbleached Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Butter (Cream), Semi-sweet Chocolate (Sugar, Cocoa Mass, Cocoa Butter, Soy Lecithin, Natural Flavor), Water, Yeast, Eggs, Sugar, Salt, Milk, Wheat Gluten, Food Enzymes (Amylases, Xylanase), Ascorbic Acid."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -252,7 +340,15 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Blueberry"
+                "variant_name": "Blueberry",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -269,7 +365,15 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "Original"
+                "variant_name": "Original",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -286,7 +390,15 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 8,
-                "variant_name": "Chocolate Chip"
+                "variant_name": "Chocolate Chip",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coffee-cake"
@@ -310,7 +422,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Muffin: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, Folic Acid, Enzymes), Sugar, Sweetened Dried Cranberries (Cranberries, Sugar, Sunflower Oil), Water, Eggs, Soybean Oil, Whey (a milk derivative), Contains 2% or less of: Leavening (Baking Soda, Sodium Aluminum Phosphate, Aluminum Sulfate), Modified Cornstarch, Orange Peel, Oat Fiber, Defatted Soy Flour, Natural Flavor, Salt, Sorbitan Monostearate, Polysorbate 60, Mono and Diglycerides, Gelatinized Wheat Starch, Sodium Stearoyl Lactylate, Orange Oil; Topping: Sugar, Carnauba Wax."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -333,7 +459,15 @@
                 "vitamin_c": 10,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Strawberry Cheese"
+                "variant_name": "Strawberry Cheese",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -350,7 +484,15 @@
                 "vitamin_c": 8,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Apple Cheese"
+                "variant_name": "Apple Cheese",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -367,7 +509,15 @@
                 "vitamin_c": 8,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Cheese"
+                "variant_name": "Cheese",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "danish"
@@ -391,7 +541,10 @@
         "vitamin_a": 4,
         "vitamin_c": 4,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -412,7 +565,12 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -433,7 +591,12 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -454,7 +617,13 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -475,7 +644,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Sugar, Expeller Pressed Canola Oil, Eggs, Potato Starch, Cocoa alkali processed, Salt, Xanthan Gum, Natural Vanilla Flavor, Natural Chocolate Flavor"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -496,7 +678,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 21,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Maple Sugar Bacon: Bacon (Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Maple Sugar Seasoning (Sugar, Maple Sugar, Natural Flavors, Black Pepper, Fenugreek)."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -519,7 +714,15 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "Reduced Fat Blueberry"
+                "variant_name": "Reduced Fat Blueberry",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -536,7 +739,15 @@
                 "vitamin_c": 0,
                 "calcium": 6,
                 "iron": 15,
-                "variant_name": "Honey Bran Raisin"
+                "variant_name": "Honey Bran Raisin",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -553,7 +764,15 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "Blueberry"
+                "variant_name": "Blueberry",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -570,7 +789,13 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Corn"
+                "variant_name": "Corn",
+                "allergens_true": [
+                    "egg",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 550,
@@ -587,7 +812,15 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 20,
-                "variant_name": "Chocolate Chip"
+                "variant_name": "Chocolate Chip",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 570,
@@ -604,7 +837,15 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 25,
-                "variant_name": "Triple Chocolate"
+                "variant_name": "Triple Chocolate",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -621,7 +862,15 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "Coffee Cake"
+                "variant_name": "Coffee Cake",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "muffin"
@@ -645,7 +894,14 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -666,7 +922,14 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -687,7 +950,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Muffin: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Egg Whites, Sugar, Water, Soybean Oil, Whole Wheat Flour, Quinoa, Modified Cornstarch, Whey Protein Crisps (Whey Protein Isolate, Whey Protein Concentrate, Tapioca Starch, Calcium Carbonate, Sunflower Lecithin), Yogurt Flavored Powder (Nonfat Dry Milk, Lactic Acid, Citric Acid, Natural Flavors), Contains less than 2% of the following: Honey, Pumpkin Seeds, Sunflower Seeds, Leavening (Baking Soda, Sodium Aluminum Phosphate, Aluminum Sulfate), Sweetened Dried Cranberries (Cranberries, Sugar, Sunflower Oil), Sweetened Wild Blueberries (Wild Blueberries, Sugar), Cocoa Nibs, Whey Protein Isolate, Soy Protein Isolate, Sorbitan Monostearate, Polysorbate 60, Mono and Diglycerides, Sodium Stearoyl Lactylate, Natural Flavors, Salt, Gelatinized Wheat Starch; Topping: Pumpkin Seeds."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -708,7 +985,21 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 137,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Muffin: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Pumpkin, Sugar, Soybean Oil, Water, Eggs, Contains 2% or less of: High Fructose Corn Syrup, Leavening (Baking Soda, Sodium Aluminum Phosphate, Aluminum Sulfate), Spices, Salt, Mono and Diglycerides, Sorbitan Monostearate, Sodium Stearoyl Lactylate, Polysorbate 60, Soy (Trace), Milk (Trace); Streusel Topping: Wheat Flour, Sugar, Vegetable Shortening (Palm Oil, Mono and Diglycerides, Polysorbate 60), Molasses, Salt, Artificial Flavor (Contains Milk Ingredients); White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin. "
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -729,7 +1020,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "nitrates"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Sweet Black Pepper Bacon: Bacon (Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Sweet Black Pepper Seasoning (Sugar, Black Pepper, Refinery Syrup, Brown Sugar, Contains 2% or less of: Molasses, Soybean Oil, Caramel Color)."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -750,7 +1056,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "nitrates"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Sweet Black Pepper Bacon: Bacon (Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Sweet Black Pepper Seasoning (Sugar, Black Pepper, Refinery Syrup, Brown Sugar, Contains 2% or less of: Molasses, Soybean Oil, Caramel Color)."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -771,7 +1092,15 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -792,7 +1121,15 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -813,7 +1150,10 @@
         "vitamin_a": 20,
         "vitamin_c": 15,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -834,7 +1174,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -855,7 +1198,15 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -876,7 +1227,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Avocado Spread: Hass Avocados, Lemon Juice, Sea Salt, Black Pepper; Roasted Tomatoes: Tomatoes, Canola Oil, Garlic, Spices, Salt; Everything Bagel Topping: Sesame Seeds, Poppy Seeds, Dehydrated Onion, Dehydrated Garlic, Rolled Oats."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -897,7 +1259,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Avocado Spread: Hass Avocados, Lemon Juice, Sea Salt, Black Pepper; Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Everything Bagel Topping: Sesame Seeds, Poppy Seeds, Dehydrated Onion, Dehydrated Garlic, Rolled Oats."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -918,7 +1291,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: Bleached Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Vegetable Oils (Soybean Oil and Hydrogenated Cottonseed Oil), Contains 2% or less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Corn Starch, Monocalcium Phosphate), Sugar, Salt, Fumaric Acid and Calcium Propionate (Preservatives), Mono and Diglycerides, Dough Conditioner (Sodium Metabisulfite); Pasteurized Process American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sodium Phosphate, Sorbic Acid (Preservative), Citric Acid, Annatto and Oleoresin Paprika (Colors), Acetic Acid, Sunflower or Soy Lecithin; Bacon: Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -939,7 +1326,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Avocado Spread: Hass Avocados, Lemon Juice, Sea Salt, Black Pepper; Bacon: Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite; Everything Bagel Topping: Sesame Seeds, Poppy Seeds, Dehydrated Onion, Dehydrated Garlic, Rolled Oats."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -962,7 +1360,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "on English Muffin"
+                "variant_name": "on English Muffin",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -979,7 +1385,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "on Bagel"
+                "variant_name": "on Bagel",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -996,7 +1410,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "on Biscuit"
+                "variant_name": "on Biscuit",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 550,
@@ -1013,7 +1435,15 @@
                 "vitamin_c": 15,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "on Croissant"
+                "variant_name": "on Croissant",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bacon-egg-cheese-sandwich"
@@ -1037,7 +1467,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1058,7 +1496,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 184,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1079,7 +1520,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 162,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1100,7 +1544,15 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1121,7 +1573,13 @@
         "vitamin_a": 20,
         "vitamin_c": 45,
         "calcium": 20,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [],
+        "ingredients": "Eggs, diced chorizo, Monterey Jack cheese, cheddar cheese, brown rice, red bell peppers, poblano peppers, red quinoa and smoky tomato sauce."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1144,7 +1602,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Three Cheese"
+                "variant_name": "Three Cheese",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Whole Milk (Milk, Vitamin D3), Unsalted Butter (Cream, Natural Flavors), Water, Sugar, Yeast, Sea Salt, Ascorbic Acid, Mozzarella Cheese (Pasteurized PartSkim Milk, Cheese Culture, Salt, Enzymes), Mild Cheddar Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Color)], Swiss Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes), Eggs."
             },
             {
                 "calories": 330,
@@ -1161,7 +1633,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken, Bacon & Cheese"
+                "variant_name": "Chicken, Bacon & Cheese",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Whole Milk (Milk, Vitamin D3), Unsalted Butter (Cream, Natural Flavors), Water, Sugar, Yeast, Sea Salt, Ascorbic Acid, Chicken (Chicken Breast, Water, Salt, Modified Food Starch, Vinegar, Sodium Phosphate, Natural Flavors, Mesquite Smoke Flavor, Colby and Monterey Jack Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes, Annatto (Color)], Bacon (Cured with: Water, Salt, Sugar, Smoke Flavoring, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite), Seasoning (Sesame Seeds, Poppy Seeds, Garlic, Onion, Salt, Caraway Seeds), Eggs."
             }
         ],
         "slug": "croissant-stuffer"
@@ -1185,7 +1671,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1208,7 +1702,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "English Muffin"
+                "variant_name": "English Muffin",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -1225,7 +1727,15 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "on Bagel"
+                "variant_name": "on Bagel",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -1242,7 +1752,15 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "on Biscuit"
+                "variant_name": "on Biscuit",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -1259,7 +1777,15 @@
                 "vitamin_c": 15,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "on Croissant"
+                "variant_name": "on Croissant",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "egg-and-cheese-sandwich"
@@ -1283,7 +1809,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Scrambled Egg Whites (Egg Whites, Milk, Corn Starch, Sea Salt, Pepper), Roasted Russet Potatoes (Russet Potatoes, Sodium Acid Pyrophosphate for Color Retention), Spinach, Cheddar Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Color)], Caramelized Onions (Yellow Onion, Sugar, Apple Juice Concentrate), Extra Virgin Olive Oil, Contains 2% or less of: Maltodextrin, Cultured Dextrose, Sodium Diacetate, Salt, Egg White Lysozyme, Nisin (Preservative), Natural Flavors, Canola Oil, Salted Butter, Gum Arabic, DATEM, Enzyme Modified Cheddar Cheese (Cultured Milk, Salt and Enzymes), Spices."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1304,7 +1843,14 @@
         "vitamin_a": 10,
         "vitamin_c": 10,
         "calcium": 25,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1325,7 +1871,14 @@
         "vitamin_a": 8,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1346,7 +1899,13 @@
         "vitamin_a": 20,
         "vitamin_c": 50,
         "calcium": 15,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [],
+        "ingredients": "Eggs, cauliflower, brown rice, Monterey Jack cheese, pepper jack cheese and fire-roasted onions, red and green bell peppers, corn and black beans with chipotle sauce."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1367,7 +1926,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: Bleached Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Vegetable Oils (Soybean Oil and Hydrogenated Cottonseed Oil), Contains 2% or less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Corn Starch, Monocalcium Phosphate), Sugar, Salt, Fumaric Acid and Calcium Propionate (Preservatives), Mono and Diglycerides, Dough Conditioner (Sodium Metabisulfite); Black Forest Ham: Cured with Water, Salt, Potassium Lactate, Dextrose, Sodium Phosphates, Sodium Diacetate, Sodium Erythorbate, Sodium Nitrite; Pasteurized Process American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sodium Phosphate, Sorbic Acid (Preservative), Citric Acid, Annatto and Oleoresin Paprika (Color), Acetic Acid, Sunflower or Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1390,7 +1963,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "on English Muffin"
+                "variant_name": "on English Muffin",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -1407,7 +1988,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "on Bagel"
+                "variant_name": "on Bagel",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -1424,7 +2013,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "on Biscuit"
+                "variant_name": "on Biscuit",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -1441,7 +2038,15 @@
                 "vitamin_c": 15,
                 "calcium": 10,
                 "iron": 20,
-                "variant_name": "on Croissant"
+                "variant_name": "on Croissant",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ham-egg-and-cheese-sandwich"
@@ -1465,7 +2070,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1486,7 +2099,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1507,7 +2123,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1528,7 +2147,10 @@
         "vitamin_a": 20,
         "vitamin_c": 15,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1549,7 +2171,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Hummus: Chickpeas, Water, Sesame Tahini (Pure Crushed Sesame Seeds), Sunflower Oil and Olive Oil Blend, Sea Salt, Dehydrated Garlic, Citric Acid, Cumin, Guar Gum; Roasted Tomatoes: Tomatoes, Canola Oil, Garlic, Spices, Salt; Za\u2019atar Seasoning: Spices, Sea Salt, Sesame Seeds, Sugar, Sumac Blend (Sumac, Salt), Lemon Powder (Maltodextrin, Lemon Puree, Citric Acid, Sugar, Lemon Juice), Dehydrated Onion, Yeast Extract, Dehydrated Garlic, Olive Oil, Natural Flavors."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1570,7 +2203,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Hummus: Chickpeas, Water, Sesame Tahini (Pure Crushed Sesame Seeds), Sunflower Oil and Olive Oil Blend, Sea Salt, Dehydrated Garlic, Citric Acid, Cumin, Guar Gum; Za\u2019atar Seasoning: Spices, Sea Salt, Sesame Seeds, Sugar, Sumac Blend (Sumac, Salt), Lemon Powder (Maltodextrin, Lemon Puree, Citric Acid, Sugar, Lemon Juice), Dehydrated Onion, Yeast Extract, Dehydrated Garlic, Olive Oil, Natural Flavors."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1591,7 +2235,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 141,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1612,7 +2259,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 141,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1633,7 +2283,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1656,7 +2309,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Egg White & Veggie"
+                "variant_name": "Egg White & Veggie",
+                "allergens_true": [
+                    "egg",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Egg Whites, Cheese Blend [Low-moisture Part-skim Mozzarella Cheese (Cultured Pasteurized Part-skim Milk, Salt, Enzymes), Provolone Cheese (Cultured Pasteurized Milk, Salt, Enzymes), Parmesan Cheese (Cultured Pasteurized Part-skim Milk, Salt, Enzymes), Potato Starch], Cottage Cheese [Cultured Nonfat Milk, Milk, Nonfat Milk, Contains 2% or less of: Whey, Salt, Maltodextrin, Citric Acid, Carrageenan, Mono and Diglycerides, Locust Bean Gum, Guar Gum, Natural Flavors, Vitamin A Palmitate, Carbon Dioxide (To Preserve Freshness), Enzyme], Tomato, Unsalted Butter (Pasteurized Cream, Natural Flavors), Spinach, Rice Starch, Corn Starch, Canola Oil, Salt, Hot Sauce (Distilled Vinegar, Red Pepper, Salt)"
             },
             {
                 "calories": 280,
@@ -1673,7 +2342,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bacon & Cheddar"
+                "variant_name": "Bacon & Cheddar",
+                "allergens_true": [
+                    "egg",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Eggs (Eggs, Citric Acid, Water), Cottage Cheese [Cultured Nonfat Milk, Milk, Nonfat Milk, Contains 2% or less of: Whey, Salt, Maltodextrin, Citric Acid, Carrageenan, Mono and Diglycerides, Locust Bean Gum, Guar Gum, Natural Flavors, Vitamin A Palmitate, Carbon Dioxide (To Preserve Freshness), Enzyme], White Cheddar Cheese (Pasteurized Cow's Milk, Cheese Culture, Salt, Enzymes, Powdered Cellulose), Uncured Bacon Pieces - no nitrites or nitrates added except as naturally occurring in sea salt and celery juice powder (Pork, Water, Sea Salt, Cane Sugar, Cultured Celery Juice, Cherry Powder), Unsalted Butter (Pasteurized Cream, Natural Flavors), Cheddar Cheese {Cheddar Cheese [Cultured Pasteurized Milk, Salt, Enzymes, Annatto (Color)], Potato Starch}, Rice Starch, Corn Starch, Distilled White Vinegar (diluted with water to 4% acidity), Salt, Hot Sauce (Distilled Vinegar, Red Pepper, Salt)."
             }
         ],
         "slug": "omelet-bites"
@@ -1697,7 +2382,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pancakes: Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Whole Eggs, Whey Protein Isolate, Buttermilk, Sugar, Wheat Protein Isolate, Maple Bits [Sugar, Vegetable Oil (Palm, Palm Kernel), Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Extractives of Fenugreek (Extractives of Fenugreek, Sugar, Molasses, Water, Glycerin), Cocoa Powder, Maple Sugar, Soy Lecithin], Soybean Oil, Dried Egg Whites, Leavening (Sodium Aluminum Phosphate, Baking Soda), Dextrose, Natural Flavor, Salt; Dipping Syrup: High Fructose Corn Syrup, Corn Syrup, Water, Contains 2% or Less of: Salt, Cellulose Gum, Molasses, Caramel Color, Potassium Sorbate (Preservative), Natural and Artifical Flavors, Sodium Hexamethaphosphate, Citric Acid, Mono and Diglycerides."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1718,7 +2417,13 @@
         "vitamin_a": 10,
         "vitamin_c": 30,
         "calcium": 10,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [],
+        "ingredients": "Egg white omelet, spinach, peppers, onions, turkey sausage, American cheese, multigrain sandwich bread."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1741,7 +2446,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "on English Muffin"
+                "variant_name": "on English Muffin",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -1758,7 +2471,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 30,
-                "variant_name": "on Bagel"
+                "variant_name": "on Bagel",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -1775,7 +2496,15 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "on Biscuit"
+                "variant_name": "on Biscuit",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1792,7 +2521,15 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "on Croissant"
+                "variant_name": "on Croissant",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sausage-egg-and-cheese-sandwich"
@@ -1816,7 +2553,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Scrambled Whole Eggs [Whole Eggs, Nonfat Milk, Soybean Oil, Modified Food Starch, Salt, Xanthan Gum, Citric Acid, Butter Flavor (Maltodextrin, Natural Flavor, Annatto and Turmeric added for Color), Pepper], Pork Crumbles (Pork, Water, Salt, Sugar, Spices, Natural Flavors), Cheddar and Monterey Jack Cheese Blend {Cheddar Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Color)], Monterey Jack Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)}, Red and Green Bell Peppers, Caramelized Onions (Yellow Onion, Sugar, Apple Juice Concentrate), Contains 2% or less of: Maltodextrin, Cultured Dextrose, Sodium Diacetate, Salt, Egg White Lysozyme, Nisin (Preservative), Natural Flavors, Canola Oil, Salted Butter, Gum Arabic, DATEM, Enzyme Modified Cheddar Cheese (Cultured Milk, Salt, Enzymes), Spices"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1837,7 +2587,15 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1858,7 +2616,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 220,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Egg Patties: Egg Whites, Egg Yolks, Soybean Oil, Water, Contains 2% or less of: Corn Starch, Salt, Natural Flavor, Xanthan Gum, Cellulose Gum, Citric Acid; Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Sliced White Cheddar Cheese: Pasteurized Milk, Cheese Culture,Salt, Enzymes; Bacon: Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1879,7 +2650,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Veggie Egg White Omelet: Egg Whites, Green Peppers, Red Peppers, Spinach, Extra Virgin Olive Oil, Modified Food Starch, Onions, Salt, Dextrose with Spice Extractives, Xanthan Gum; Black Bean Patty: Water, Onions, Cooked Black Beans (Black Beans, Water), Cooked Brown Rice (Water, Brown Rice), Corn, Vegetable Oil (Corn, Canola and/or Sunflower Oil), Soy Protein Concentrate, Tomatoes, Wheat Gluten, Green Chiles, Onion Powder, Egg Whites, Bulgur Wheat, Contains 2% or less of: Calcium Caseinate (Milk), Cornstarch, Tomato Juice, Green Bell Peppers, Red Bell Peppers, Spices, Cilantro, Tomato Powder, Salt, Chipotle Peppers, Cooked Onion and Carrot Juice Concentrate, Jalapeno Peppers, Garlic Powder, Natural Flavor, Soy Sauce Powder (Soybeans, Wheat, Salt), Gum Arabic, Vinegar, Green Pepper Juice, Citric Acid, Garlic Juice, Lime Juice; Multigrain Thin: Whole Wheat Flour, Water, Grain and Seed Blend (Dextrose, Amaranth, Quinoa, Chia Seeds, Sugar, Barley Flakes, Flaxseeds, Sunflower Seeds, Pumpkin Seeds, Whole Rye Kernels, Millet, Malted Wheat Flakes, Lactic Acid, Sea Salt, Buckwheat Groats, Yellow Corn Flakes, Natural Flavor), Yeast, Honey, Wheat Gluten, Chia Seeds, Rolled Oats, Sugar, Sunflower Seeds, Sesame Seeds, Salt, Flaxseeds, Soybean Oil, Molasses, Malted Barley Flour; Sliced White Cheddar Cheese: Pasteurized Milk, Cheese Culture, Salt, Enzymes."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1900,7 +2684,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Veggie Egg White Omelet: Egg Whites, Green Peppers, Red Peppers, Spinach, Extra Virgin Olive Oil, Modified Food Starch, Onions, Salt, Dextrose with Spice Extractives, Xanthan Gum; Black Bean Patty: Water, Onions, Cooked Black Beans (Black Beans, Water), Cooked Brown Rice (Water, Brown Rice), Corn, Vegetable Oil (Corn, Canola and/or Sunflower Oil), Soy Protein Concentrate, Tomatoes, Wheat Gluten, Green Chiles, Onion Powder, Egg Whites, Bulgur Wheat, Contains 2% or less of: Calcium Caseinate (Milk), Cornstarch, Tomato Juice, Green Bell Peppers, Red Bell Peppers, Spices, Cilantro, Tomato Powder, Salt, Chipotle Peppers, Cooked Onion and Carrot Juice Concentrate, Jalapeno Peppers, Garlic Powder, Natural Flavor, Soy Sauce Powder (Soybeans, Wheat, Salt), Gum Arabic, Vinegar, Green Pepper Juice, Citric Acid, Garlic Juice, Lime Juice; Flour Tortilla: Bleached Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Vegetable Oils (Soybean Oil and Hydrogenated Cottonseed Oil), Contains 2% or less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Corn Starch, Monocalcium Phosphate), Sugar, Salt, Fumaric Acid and Calcium Propionate (Preservatives), Mono and Diglycerides, Dough Conditioner (Sodium Metabisulfite); Sliced White Cheddar Cheese: Pasteurized Milk, Cheese Culture, Salt, Enzymes"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1921,7 +2719,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 244,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Tortilla: Bleached Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Vegetable Oils (Soybean Oil and Hydrogenated Cottonseed Oil), Contains 2% or less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Corn Starch, Monocalcium Phosphate), Sugar, Salt, Fumaric Acid and Calcium Propionate (Preservatives), Mono and Diglycerides, Dough Conditioner (Sodium Metabisulfite); Seasoned Steak: Beef, Water, Seasoning (Hydrolyzed Torula and Brewer's Yeast Protein, Dextrose, Hydrolyzed Corn, Torula and Brewer's Yeast, Wheat Gluten, Soy Protein, Salt, Natural Flavoring, Yeast Extract, Maltodextrin, Spice Extractive, Disodium Inosinate, Disodium Guanylate, Oil of Garlic, Oil of Onion), Contains 2% or less of: Dextrose, Salt, Modified Food Starch, Smoke Flavor, Seasoning (Yeast Extract, Citrus Fiber), Natural Hardwood Smoked Sugar (Water, Natural Hardwood Smoked Sugar), Garlic Powder, Onion Powder, Black Pepper; Pasteurized Process American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sodium Phosphate, Sorbic Acid (Preservative), Citric Acid, Annatto and Oleoresin Paprika (Colors), Acetic Acid, Sunflower or Soy Lecithin"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1942,7 +2754,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "shellfish"
+        ],
+        "ingredients": "Croissant: Dough: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Ascorbic Acid, Enzymes, Folic Acid), Water, Margarine [(Palm Oil, Modified Palm Oil, Canola Oil), Water, Sugar, Monoglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Citric Acid, Artificial Flavor, Beta Carotene (Color), Vitamin A Palmitate, Vitamin D], Sugar, Contains 2% or less of: Yeast, Dough Conditioner (Wheat Flour, DATEM, Ascorbic Acid, Enzymes), Salt, Wheat Gluten, Dextrose, Natural and Artificial Flavor; Glaze: Fructose, Corn Syrup Solids, Sodium Caseinate (a milk derivative), Locust Bean Gum, Sodium Stearoyl Lactylate, Soybean and/or Canola Oil, Soy Lecithin, Baking Soda; Egg Patty: Egg Whites, Egg Yolks, Soybean Oil, Water, Contains 2% or less of: Corn Starch, Salt, Natural Flavor, Xanthan Gum, Cellulose Gum, Citric Acid; Sweet Black Pepper Bacon: Bacon (Pork, cured with: Water, Sugar, Salt, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Sweet Black Pepper Seasoning (Sugar, Black Pepper, Refinery Syrup, Brown Sugar, Contain 2% or less of: Molasses, Soybean Oil, Caramel Color); Sliced White Cheddar Cheese: Pasteurized Milk, Cheese Culture, Salt, Enzymes."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1963,7 +2787,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -1984,7 +2816,14 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2005,7 +2844,10 @@
         "vitamin_a": 20,
         "vitamin_c": 15,
         "calcium": 15,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2026,7 +2868,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2049,7 +2894,18 @@
                 "vitamin_c": null,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Pineapple Flavored Coolatta Concentrate: Water, High Fructose Corn Syrup, Sugar, Natural Flavor, Citric Acid, Contains 2% or less of: Xanthan Gum, Potassium Sorbate and Sodium Benzoate (Preservatives), Yellow 5, Yellow 6; Liquid Cane Sugar: Pure Cane Sugar, Water, Potassium Sorbate (Preservative)."
             },
             {
                 "calories": 340,
@@ -2066,7 +2922,18 @@
                 "vitamin_c": null,
                 "calcium": 17,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Pineapple Flavored Coolatta Concentrate: Water, High Fructose Corn Syrup, Sugar, Natural Flavor, Citric Acid, Contains 2% or less of: Xanthan Gum, Potassium Sorbate and Sodium Benzoate (Preservatives), Yellow 5, Yellow 6; Liquid Cane Sugar: Pure Cane Sugar, Water, Potassium Sorbate (Preservative)."
             },
             {
                 "calories": 460,
@@ -2083,7 +2950,18 @@
                 "vitamin_c": null,
                 "calcium": 23,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Pineapple Flavored Coolatta Concentrate: Water, High Fructose Corn Syrup, Sugar, Natural Flavor, Citric Acid, Contains 2% or less of: Xanthan Gum, Potassium Sorbate and Sodium Benzoate (Preservatives), Yellow 5, Yellow 6; Liquid Cane Sugar: Pure Cane Sugar, Water, Potassium Sorbate (Preservative)."
             }
         ],
         "slug": "pineapple-coolatta"
@@ -2107,7 +2985,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 18,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Apple Cider Cake Donut Mix [Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Soybean Oil, Nonfat Milk, Egg Yolks, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Contains 2% or less of: Apple Juice Powder (Apple Juice Solids, Maltodextrin), Soy Flour, Apple Cinnamon Pieces (Apples, Cane Sugar, Cinnamon, Citric Acid, Sunflower Oil), Naturally Flavored Granules (Sugar, Vegetable Oil {Palm, Palm Kernel}, Cinnamon, Natural Flavors, Caramelized Sugar, Malic Acid, Sunflower Lecithin), Salt, Enzyme Modified Egg Yolks (Egg Yolks, Phospholipase), Wheat Starch, Natural Flavor, Soy Lecithin, Cocoa processed with alkali, Gum Blend (Konjac Flour, Carrageenan), Toasted Wheat Germ] Palm Oil, Water; Topping: Sugar, Cinnamon"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2128,7 +3020,16 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2149,7 +3050,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2170,7 +3079,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2191,7 +3108,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2212,7 +3137,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Sugar, Cake Donut Mix [Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Nonfat Dry Milk, Egg Yolk, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Sugar, Soy Flour, Soybean Oil, Wheat Starch, Salt, Contains 2% or less of: Sodium Stearoyl Lactylate, Enzyme, Konjac Flour, Carrageenan, Locust Bean Gum, Cellulose Gum, Wheat Germ, Natural and Artificial Flavor, Soy Lecithin, Beta Carotene (Color)], Soybean Oil; Berry Flavored Powdered Sugar: Dextrose, Corn Starch, Vegetable Shortening (Palm Oil, Canola Oil, Mono and Diglycerides, Polysorbate 60), Contains 2% or less of: Natural Flavor, Vegetable Juice for Color."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2233,7 +3172,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2254,7 +3201,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2275,7 +3230,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey, Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate, Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Brownie Batter Flavored Buttercreme Filling: Sugar, Vegetable Shortening (Palm Oil, Canola Oil), Water, Cocoa processed with alkali, Cocoa, High Fructose Corn Syrup, Corn Syrup, Contains 2% or less of the following: Maltodextrin, Dextrose, Mono and Diglycerides, Salt, Polysorbate 60, Citric Acid, Soy Lecithin, Potassium Sorbate (Preservative), Sodium Propionate (Preservative), Artificial Flavor; Vanilla Flavored Icing: Sugar, Water, Corn Syrup, Rice Starch, High Fructose Corn Syrup, Palm Oil, Corn Starch, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin, Spirulina Extract (Color); Chocolate Sprinkles: Sugar, Corn Starch, Vegetable Oil (Palm Kernel and/or Palm Oil), Cocoa processed with alkali, Soy Lecithin, Dextrin, Confectioner's Glaze, Natural and Artificial Flavor, Carnauba Wax."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2296,7 +3265,16 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2317,7 +3295,21 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid, Enzyme), Palm Oil, Water, Sugar, Soybean Oil, Cocoa processed with alkali, Contains 2% or less of: Leavening (Baking Soda, Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Whey (a milk derivative), Egg Whites, Salt, Skim Milk, Artificial Chocolate Donut Flavor, Defatted Soy Flour, Soy Flour, Wheat Starch, Modified Corn Starch, Cellulose Gum, Propylene Glycol Monoesters, Carbohydrate Gum, Mono and Diglycerides, Soy Lecithin, Xanthan Gum, Guar Gum, Polyglycerol Esters of Fatty Acids, Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Calcium Carbonate, L-Cysteine Hydrochloride; Caramel Icing: Sugar, Corn Syrup, Water, Invert Sugar, Palm Oil, Contains 2% or less of: Corn Starch, Soybean Oil, Caramel and Vegetable Juice (Colors), Natural Flavor, Salt, Mono and Diglycerides, Soy Lecithin, Gum Arabic, Potassium Sorbate (Preservative), Citric Acid; Chocolate Curls: Sugar, Unsweetened Chocolate, Cocoa Butter, Cocoa processed with alkali, Soy Lecithin, Natural Vanilla Extract."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2338,7 +3330,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 24,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Confetti Granules [Sugar, Corn Syrup, Corn Cereal, Corn Starch, Palm Oil, Natural Flavor, Colors (Fruit and Vegetable Juices, Turmeric Concentrate, Paprika Extract, Beta Carotene), Cocoa Powder Processed with Alkali], Soybean Oil, Nonfat Dry Milk, Egg Yolks, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Contains 2% or less of: Defatted Soy Flour, Salt, Enzyme Modified Egg Yolks, Wheat Starch, Natural Flavor, Soy Lecithin, Konjac Flour (Konjac Flour, Carrageenan), Dextrose, Annatto and Turmeric (Colors), Water, Palm Oil; White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Celebration Blend Sprinkles: Sugar, Palm Oil, Palm Kernel Oil, Corn Starch, Rice Flour, Cellulose Gum, Carrageenan, Sunflower Lecithin, Colors (Turmeric, Beta Carotene, Annatto), Natural Flavor, Vegetable Juice for Color (Vegetable Juice, Maltodextrin, Citric Acid), Carnauba Wax."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2359,7 +3365,16 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2380,7 +3395,16 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2401,7 +3425,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2422,7 +3454,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2443,7 +3483,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2464,7 +3512,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2485,7 +3541,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2506,7 +3570,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2527,7 +3599,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2548,7 +3628,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2569,7 +3657,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2590,7 +3686,16 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2611,7 +3716,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2632,7 +3745,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2653,7 +3769,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Cornbread Cake Donut Mix [Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Degermed Yellow Cornmeal, Soybean Oil, Defatted Soy Flour, Rye Flour, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate, Monocalcium Phosphate), Contains 2% or less of: Natural Flavor, Whole Eggs, Dried Sweet Whey, Dextrose, Salt, Buttermilk Powder, Mono and Diglycerides, Calcium Caseinate, Guar Gum, Sodium Stearoyl Lactylate, Egg Yolks, Polysorbate 60, Enzymes], Palm Oil, Water; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor; Vanilla Flavored Icing: Sugar, Water, Corn Syrup, Rice Starch, High Fructose Corn Syrup, Palm Oil, Corn Starch, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin, Spirulina Extract (Color)."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2674,7 +3804,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey, Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate, Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Bavarian Kreme Filling: Water, Sugar, Modified Food Starch, Corn Syrup, Palm Oil, Contains 2% or less of: Sucrose Esters, Natural and Artificial Flavors, Glucono Delta Lactone, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Agar, Beta-Carotene (Color); Strawberry Flavored Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Phosphoric Acid, Salt, Natural and Artificial Flavors, Sodium Propionate and Potassium Sorbate (Preservatives), Vegetable Juice Concentrate for Color, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin, Rosemary Extract (Antioxidant); Pink Sprinkles: Sugar, Corn Starch, Vegetable Oil (Palm and Palm Kernel), Fruit and Vegetable Juice (Colors), Soy Lecithin, Dextrin, Confectioner's Glaze, Carnauba Wax, Citric Acid."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2695,7 +3839,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Water, Dextrose, Soybean Oil, Whey (a milk derivative), Skim Milk, Yeast, Contains 2% or less of: Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Defatted Soy Flour, Wheat Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate, Cellulose Gum, Soy Lecithin, Guar Gum, Xanthan Gum, Artificial Flavor, Sodium Caseinate (a milk derivative), Enzyme, Colors (Turmeric and Annatto Extracts, Beta Carotene), Eggs; Red Icing: [White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Red Coloring: Glycerin, Red Beet Powder and Annatto (Colors)]; Cake Donut Hole: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Skim Milk, Sugar, Egg Yolks, Soybean Oil, Contains 2% or less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Salt, Defatted Soy Flour, Wheat Starch, Enzyme Modified Egg Yolks, Soy Lecithin, Gelatinized Wheat Starch, Konjac Flour, Natural and Artificial Flavor, Water, Defatted Wheat Germ, Wheat Germ, Dextrose, Carrageenan, Colors (Turmeric and Annatto Extracts, Beta Carotene); Chocolate Icing: Sugar, Corn Syrup, Water, Vegetable Shortening (Palm Oil, Mono and Diglycerides, Polysorbate 60), Cocoa processed with alkali, Hydrogenated Palm Kernel Oil, Soybean Oil, Contains 2% or less of: Hydrogenated Palm Oil, Natural and Artificial Flavor, Chocolate Liquor, Polysorbate 60, Salt, Soy Lecithin, Natural Flavor, Potassium Sorbate (Preservative), Citric Acid; Powdered Sugar: Dextrose, Corn Starch, Palm Oil, Soybean Oil, Artificial Flavor."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2716,7 +3874,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2737,7 +3903,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Confetti Granules [Sugar, Corn Syrup, Corn Cereal, Corn Starch, Palm Oil, Natural Flavor, Colors (Fruit and Vegetable Juices, Turmeric Concentrate, Paprika Extract, Beta Carotene), Cocoa Powder Processed with Alkali], Soybean Oil, Nonfat Dry Milk, Egg Yolks, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Contains 2% or less of: Defatted Soy Flour, Salt, Enzyme Modified Egg Yolks, Wheat Starch, Natural Flavor, Soy Lecithin, Konjac Flour (Konjac Flour, Carrageenan), Dextrose, Annatto and Turmeric (Colors), Water, Palm Oil; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2758,7 +3938,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2779,7 +3967,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2800,7 +3996,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 12,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey (a milk derivative), Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Purple Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Spirulina Extract and Beet Juice Concentrate (Colors), Artificial Flavor, Salt, Citric Acid, Sodium Propionate and Potassium Sorbate (Preservatives), Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Snowflake Sprinkles: Sugar, Rice Flour, Vegetable Oil (Palm and Palm Kernel), Gum Arabic, Cellulose Gum, Confectioner's Glaze, Carrageenan, Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2821,7 +4031,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2842,7 +4060,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2863,7 +4089,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2884,7 +4118,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2905,7 +4147,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2926,7 +4176,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2947,7 +4205,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2968,7 +4234,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -2989,7 +4263,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3010,7 +4292,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3031,7 +4321,15 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3052,7 +4350,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 13,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey (a milk derivative), Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Chocolate Icing: Sugar, Water, Cocoa, High Fructose Corn Syrup, Soybean Oil, Corn Starch, Corn Syrup, Maltodextrin, Contains 2% or less of: Dextrose, Palm Oil, Salt, Potassium Sorbate and Sodium Propionate (Preservatives), Soy Lecithin, Artificial Flavor, Agar; Halloween Sugar Blend: Sugar, Annatto and Iron Oxide (Colors), Carnauba Wax."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3075,7 +4387,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jelly"
+                "variant_name": "Jelly",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey, Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate, Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Jelly Filling: Corn Syrup, Water, Sugar, Apple Juice Concentrate, Contains 2% or less of: Pectin, Citric Acid, Fruit and Vegetable Juice (Colors), Sodium Citrate, Sodium Benzoate and Potassium Sorbate (Preservatives), Locust Bean Gum, Natural and Artificial Flavors; Topping: Sugar, Powdered Sugar (Dextrose, Corn Starch, Palm Oil, Soybean Oil, Artificial Flavor)"
             },
             {
                 "calories": 270,
@@ -3092,7 +4418,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Boston Kreme"
+                "variant_name": "Boston Kreme",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey, Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate, Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Bavarian Kreme Filling: Water, Sugar, Modified Food Starch, Corn Syrup, Palm Oil, Contains 2% or less of: Sucrose Esters, Natural and Artificial Flavors, Glucono Delta Lactone, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Agar, Beta-Carotene (Color); Chocolate Icing: Sugar, Water, Cocoa, High Fructose Corn Syrup, Soybean Oil, Corn Starch, Corn Syrup, Maltodextrin, Contains 2% or less of: Dextrose, Palm Oil, Salt, Potassium Sorbate and Sodium Propionate (Preservatives), Soy Lecithin, Artificial Flavor, Agar."
             },
             {
                 "calories": 300,
@@ -3109,7 +4449,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Vanilla Creme"
+                "variant_name": "Vanilla Creme",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey, Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate, Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Vanilla Flavored Buttercreme Filling: Sugar, Vegetable Shortening (Palm Oil, Canola Oil, Mono and Diglycerides), Water, High Fructose Corn Syrup, Contains 2% or less of: Corn Starch, Artificial Flavor, Guar Gum, Salt, Mono and Diglycerides, Potassium Sorbate (Preservative), Citric Acid, Polysorbate 60; Powdered Sugar: Dextrose, Corn Starch, Palm Oil, Soybean Oil, Artificial Flavor"
             }
         ],
         "slug": "heart-shaped-donut"
@@ -3133,7 +4487,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Water, Dextrose, Soybean Oil, Whey (a milk derivative), Skim Milk, Yeast, Contains 2% or less of: Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Defatted Soy Flour, Wheat Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate, Cellulose Gum, Soy Lecithin, Guar Gum, Xanthan Gum, Artificial Flavor, Sodium Caseinate (a milk derivative), Enzyme, Colors (Turmeric and Annatto Extracts, Beta Carotene), Eggs; Mini Hershey\u2019s\u00ae Kisses: Milk Chocolate (Sugar, Chocolate, Skim Milk, Cocoa Butter, Milk Fat, Soy Lecithin, Natural Flavor); White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3154,7 +4522,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 15,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3175,7 +4555,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Water, Dextrose, Soybean Oil, Whey (a milk derivative), Skim Milk, Yeast, Contains 2% or less of: Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Defatted Soy Flour, Wheat Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate, Cellulose Gum, Soy Lecithin, Guar Gum, Xanthan Gum, Artificial Flavor, Sodium Caseinate (a milk derivative), Enzyme, Colors (Turmeric and Annatto Extracts, Beta Carotene), Eggs; White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Holly Berry Sprinkles: Sugar, Rice Flour, Vegetable Oil (Palm and Palm Kernel), Colors (Vegetable Juice, Spirulina Extract, Turmeric, Annatto Extract), Gum Arabic, Cellulose Gum, Confectioner\u2019s Glaze, Carrageenan, Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3196,7 +4590,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3217,7 +4619,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3238,7 +4648,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3259,7 +4677,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3280,7 +4706,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3301,7 +4735,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3322,7 +4764,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3343,7 +4793,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey (a milk derivative), Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor; Matcha Blend: Cane Sugar, Matcha Green Tea, Fruit Pectin"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3364,7 +4828,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3385,7 +4857,16 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "peanuts",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3406,7 +4887,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3427,7 +4916,15 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3448,7 +4945,19 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "shellfish"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Sugar, Soybean Oil, Egg Yolks, Contains 2% or less of: Pumpkin Flakes (Pumpkin, Maltodextrin, Corn Flour), Water, Leavening (Baking Soda, Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate), Dairy Blend (Whey, Sodium Caseinate, Non Fat Dry Milk), Natural and Artificial Flavor, Defatted Soy Flour, Salt, Cinnamon, Spices, Enzyme Modified Egg Yolks, Soy Lecithin, Beet Powder (Color), Konjac Flour (Contains Carrageenan), Annatto (Color); Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3469,7 +4978,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3490,7 +5007,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey (a milk derivative), Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Spicy Strawberry Flavored Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Vegetable Shortening (Palm Oil), Hot Pepper Blend (Cayenne Pepper, Ghost Pepper, Salt), Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Phosphoric Acid, Natural and Artificial Flavor, Sodium Propionate (Preservative), Vegetable Juice Concentrate for Color, Polyglycerol Esters of Fatty Acids, Agar, Potassium Sorbate (Preservative), Soy Lecithin, Rosemary Extract (Antioxidant); Red Sugar: Sugar, Vegetable Juice for Color, Carnauba Wax."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3511,7 +5042,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Water, Dextrose, Soybean Oil, Whey (a milk derivative), Skim Milk, Yeast, Contains 2% or less of: Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Defatted Soy Flour, Wheat Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate, Cellulose Gum, Soy Lecithin, Guar Gum, Xanthan Gum, Artificial Flavor, Sodium Caseinate (a milk derivative), Enzyme, Colors (Turmeric and Annatto Extracts, Beta Carotene), Eggs; Orange Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Paprika Oleoresin (Color), Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Chocolate Donut Hole: Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid, Enzyme), Palm Oil, Water, Sugar, Soybean Oil, Cocoa processed with alkali, Egg Whites, Contains 2% or less of: Whey (a milk derivative), Leavening (Baking Soda, Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Defatted Soy Flour, Salt, Artificial Chocolate Donut Flavor, Cellulose Gum, Propylene Glycol Monoesters, Modified Corn Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor; Chocolate Icing: Sugar, Corn Syrup, Water, Vegetable Shortening (Palm Oil, Mono and Diglycerides, Polysorbate 60), Cocoa processed with alkali, Hydrogenated Palm Kernel Oil, Soybean Oil, Contains 2% or less of: Hydrogenated Palm Oil, Natural and Artificial Flavor, Chocolate Liquor, Polysorbate 60, Salt, Soy Lecithin, Natural Flavor, Potassium Sorbate (Preservative), Citric Acid; White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3532,7 +5077,21 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron as Ferrous Sulfate, Thiamin Mononitrate, Enzyme, Riboflavin, Folic Acid), Palm Oil, Water, Dextrose, Soybean Oil, Whey (a milk derivative), Skim Milk, Yeast, Contains 2% or less of: Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Defatted Soy Flour, Wheat Starch, Mono and Diglycerides, Sodium Stearoyl Lactylate, Cellulose Gum, Soy Lecithin, Guar Gum, Xanthan Gum, Artificial Flavor, Sodium Caseinate (a milk derivative), Enzyme, Colors (Turmeric and Annatto Extracts, Beta Carotene), Eggs; Purple Icing: [White Icing: Sugar, Water, Corn Syrup, High Fructose Corn Syrup, Corn Starch, Palm Oil, Contains 2% or less of: Maltodextrin, Dextrose, Soybean Oil, Artificial Flavor, Salt, Sodium Propionate and Potassium Sorbate (Preservatives), Citric Acid, Polyglycerol Esters of Fatty Acids, Agar, Soy Lecithin; Purple Coloring: Glycerin, Red Beet Concentrate and Spirulina (Colors)]; Flower-Shaped Sprinkles: Sugar, Rice Flour, Vegetable Oil (Palm and Palm Kernel), Cellulose Gum, Colors (Spirulina Extract, Vegetable Juice, Paprika Extract, Turmeric), Carrageenan, Soy Lecithin."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3553,7 +5112,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3574,7 +5141,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3595,7 +5170,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3616,7 +5199,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 16,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut: Enriched Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water,Palm Oil, Yeast Donut Concentrate [Soy Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Baking Soda), Wheat Starch, Whey (a milk derivative), Nonfat Dry Milk, Gum Blend (Cellulose Gum, Guar Gum, Acacia Gum, Carrageenan, Xanthan Gum), Sodium Caseinate (a milk derivative), Sodium Stearoyl Lactylate, Contains 2% or less of: Soybean Oil, Soy Lecithin, Whole Egg, Natural Flavor, Turmeric Extract (Color)], Enzymes, Annatto Extract (Color), Yeast, Dextrose, Soybean Oil, Mono and Diglycerides; Chocolate Icing: Sugar, Water, Cocoa, High Fructose Corn Syrup, Soybean Oil, Corn Starch, Corn Syrup, Maltodextrin, Contains 2% or less of: Dextrose, Palm Oil, Salt, Potassium Sorbate and Sodium Propionate (Preservatives), Soy Lecithin, Artificial Flavor, Agar; Stroopwafel: Wheat Flour, Glucose Syrup, Palm Oil, Cane Sugar, Unsalted Butter, Whole Eggs, Soy Flour, Molasses, Wheat Sugar, Sea Salt, Cinnamon, Oat Flour, Soy Lecithin, Baking Soda."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3637,7 +5234,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3658,7 +5263,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3679,7 +5292,16 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3700,7 +5322,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3721,7 +5351,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3742,7 +5380,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3763,7 +5409,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3784,7 +5438,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 5,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut Hole: Apple Cider Cake Donut Mix [Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Soybean Oil, Nonfat Milk, Egg Yolks, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate), Contains 2% or less of: Apple Juice Powder (Apple Juice Solids, Maltodextrin), Soy Flour, Apple Cinnamon Pieces (Apples, Cane Sugar, Cinnamon, Citric Acid, Sunflower Oil), Naturally Flavored Granules (Sugar, Vegetable Oil {Palm, Palm Kernel}, Cinnamon, Natural Flavors, Caramelized Sugar, Malic Acid, Sunflower Lecithin), Salt, Enzyme Modified Egg Yolks (Egg Yolks, Phospholipase), Wheat Starch, Natural Flavor, Soy Lecithin, Cocoa processed with alkali, Gum Blend (Konjac Flour, Carrageenan), Toasted Wheat Germ] Palm Oil, Water; Topping: Sugar, Cinnamon."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3805,7 +5473,16 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3826,7 +5503,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3847,7 +5532,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Cornbread Cake Donut Mix [Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Degermed Yellow Cornmeal, Soybean Oil, Defatted Soy Flour, Rye Flour, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Sodium Aluminum Phosphate, Monocalcium Phosphate), Contains 2% or less of: Natural Flavor, Whole Eggs, Dried Sweet Whey, Dextrose, Salt, Buttermilk Powder, Mono and Diglycerides, Calcium Caseinate, Guar Gum, Sodium Stearoyl Lactylate, Egg Yolks, Polysorbate 60, Enzymes], Water, Palm Oil; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3868,7 +5567,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3889,7 +5596,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3910,7 +5625,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3931,7 +5654,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3952,7 +5683,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3973,7 +5712,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -3994,7 +5741,15 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4015,7 +5770,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Donut Hole: Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Soybean Oil, Pumpkin Powder (Pumpkin, Maltodextrin, Corn Flour, Sunflower Lecithin), Dairy Blend (Whey Solids, Soy Flour, Nonfat Dry Milk, Sodium Caseinate), Egg Yolks, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Aluminum Sulfate, Sodium Aluminum Phosphate), Contains 2% or less of: Spices, Natural and Artificial Flavor, Soy Flour, Salt, Soy Lecithin, Beet Juice Powder (Color), Konjac Flour, Annatto (Color), Water, Palm Oil; Glaze: Sugar, Water, Maltodextrin, Contains 2% or less of: Corn Starch, Mono and Diglycerides, Citric Acid, Agar, Cellulose Gum, Potassium Sorbate (Preservative), Artificial Flavor"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4038,7 +5807,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 180,
@@ -4055,7 +5838,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 230,
@@ -4072,7 +5869,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "apple-cranberry-coconut-refresher"
@@ -4098,7 +5909,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 130,
@@ -4115,7 +5939,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 180,
@@ -4132,7 +5969,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Apple Cranberry Flavored Concentrate: Water, Sugar, Natural Flavors, Malic Acid, Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "apple-cranberry-refresher"
@@ -4158,7 +6008,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             },
             {
                 "calories": 230,
@@ -4175,7 +6038,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             },
             {
                 "calories": 310,
@@ -4192,7 +6068,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             }
         ],
         "slug": "blueberry-lemonade"
@@ -4218,7 +6107,20 @@
                 "vitamin_c": null,
                 "calcium": 5,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 130,
@@ -4235,7 +6137,20 @@
                 "vitamin_c": null,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 170,
@@ -4252,7 +6167,20 @@
                 "vitamin_c": null,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "blueberry-pomegranate-dunkin-refreshers"
@@ -4278,7 +6206,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 180,
@@ -4295,7 +6237,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 230,
@@ -4312,7 +6268,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "golden-peach-coconut-refreshers"
@@ -4338,7 +6308,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             },
             {
                 "calories": 240,
@@ -4355,7 +6338,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             },
             {
                 "calories": 320,
@@ -4372,7 +6368,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin."
             }
         ],
         "slug": "peach-lemonade"
@@ -4398,7 +6407,20 @@
                 "vitamin_c": null,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D- Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 130,
@@ -4415,7 +6437,20 @@
                 "vitamin_c": null,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D- Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 180,
@@ -4432,7 +6467,20 @@
                 "vitamin_c": null,
                 "calcium": 16,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Peach Passion Fruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Ascorbic Acid (Vitamin C), Green Tea Extract, Niacinamide (Vitamin B3), D- Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "peach-passion-fruit-dunkin-refreshers"
@@ -4458,7 +6506,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 170,
@@ -4475,7 +6537,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 230,
@@ -4492,7 +6568,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "pink-strawberry-coconut-refreshers"
@@ -4518,7 +6608,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 170,
@@ -4535,7 +6639,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 230,
@@ -4552,7 +6670,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Coconutmilk: Coconutmilk (Filtered Water, Coconut Cream), Vitamin and Mineral Blend (Calcium Carbonate, Vitamin E Acetate, Vitamin A Palmitate, Vitamin D2, Vitamin B12), Dipotassium Phosphate, Sea Salt, Sunflower Lecithin, Locust Bean Gum, Gellan Gum, Ascorbic Acid (To Protect Freshness), Natural Flavor; Blueberry Pomegranate Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Fruit and Vegetable Juice for Color, Green Tea Extract, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "purple-pomegranate-coconut-refreshers"
@@ -4578,7 +6710,20 @@
                 "vitamin_c": null,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 130,
@@ -4595,7 +6740,20 @@
                 "vitamin_c": null,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             },
             {
                 "calories": 170,
@@ -4612,7 +6770,20 @@
                 "vitamin_c": null,
                 "calcium": 16,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Brewed Green Tea; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12)."
             }
         ],
         "slug": "strawberry-dragonfruit-dunkin-refreshers"
@@ -4638,7 +6809,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin"
             },
             {
                 "calories": 230,
@@ -4655,7 +6839,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin"
             },
             {
                 "calories": 310,
@@ -4672,7 +6869,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water; Strawberry Dragonfruit Flavored Concentrate: Water, Sugar, Natural Flavors, Citric Acid, Green Tea Extract, Vegetable Juice for Color, Niacinamide (Vitamin B3), D-Calcium Pantothenate (Vitamin B5), Pyridoxine Hydrochloride (Vitamin B6), Cyanocobalamin (Vitamin B12); Lemonade Concentrate: Water, Sugar, Citric Acid, Meyer Lemon Juice Concentrate, Natural Flavors, Pectin"
             }
         ],
         "slug": "strawberry-lemonade"
@@ -4696,7 +6906,14 @@
         "vitamin_a": 8,
         "vitamin_c": 10,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4717,7 +6934,15 @@
         "vitamin_a": 2,
         "vitamin_c": 15,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4738,7 +6963,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour,<br/>Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Cheeses: Sliced White Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes), Pasteurized Process American Cheese [(Milk, Cheese Cultures, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sodium Phosphate, Sorbic Acid (Preservative), Citric Acid, Annatto and Oleoresin Paprika (Colors), Acetic Acid, Sunflower or Soy Lecithin]."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4759,7 +6997,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "nitrates",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Cheeses: Sliced White Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes), Pasteurized Process American Cheese [(Milk, Cheese Cultures, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sodium Phosphate, Sorbic Acid (Preservative), Citric Acid, Annatto and Oleoresin Paprika (Colors), Acetic Acid, Sunflower or Soy Lecithin]; Black Forest Ham: Cured with Water, Dextrose, Salt, Contains 2% or less of: Sodium Lactate, Sodium Phosphate, Natural Flavor, Sodium Diacetate, Sodium Erythorbate, Sodium Nitrite"
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4780,7 +7032,13 @@
         "vitamin_a": 6,
         "vitamin_c": 10,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4803,7 +7061,14 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "Steak"
+                "variant_name": "Steak",
+                "allergens_true": [
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -4820,7 +7085,15 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 6,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "snack-n-go-wrap"
@@ -4846,7 +7119,14 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 10,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -4863,7 +7143,14 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 15,
-                "variant_name": "with Ham"
+                "variant_name": "with Ham",
+                "allergens_true": [
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -4880,7 +7167,14 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 15,
-                "variant_name": "with Bacon"
+                "variant_name": "with Bacon",
+                "allergens_true": [
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "texas-toast-grilled-cheese"
@@ -4904,7 +7198,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Rye Flour, Whole Grain Rye Flour, Salt, Yeast, Malted Barley Flour; Sliced White Cheddar Cheese: Pasteurized Milk, Cheese Culture, Salt, Enzymes; Roasted Tomatoes: Tomatoes, Canola Oil, Garlic, Spices, Salt; Pesto: Basil, Canola Oil, Water, Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes), Dehydrated Garlic, Salt, Sodium Benzoate and Potassium Sorbate (Preservatives)."
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4925,7 +7230,15 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4946,7 +7259,14 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4967,7 +7287,14 @@
         "vitamin_a": 8,
         "vitamin_c": 15,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Dunkin Donuts",
@@ -4988,6 +7315,9 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

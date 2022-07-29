@@ -18,7 +18,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BBQ Sauce.<br/><br/>Cheddar & Monterey Cheese Blend.<br/><br/>Dark Meat Chicken.<br/><br/>Guacamole.<br/><br/>Habenaro Sauce.<br/><br/>Lime Juice.<br/><br/>Salsa.<br/><br/>Shredded Lettuce.<br/><br/>Spanish Rice.<br/><br/>Veggies"
     },
     {
         "restaurant_name": "Freebirds",
@@ -39,7 +53,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Cheddar & Monterey Cheese Blend.<br/><br/>Dark Meat Chicken.<br/><br/>Fresh Jalapenos.<br/><br/>Guacamole.<br/><br/>Pico De Gallo.<br/><br/>Pinto Beans.<br/><br/>Spanish Rice"
     },
     {
         "restaurant_name": "Freebirds",
@@ -60,7 +88,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Black Beans.<br/><br/>Corn Salsa.<br/><br/>Dark Meat Chicken.<br/><br/>Flour Tortilla.<br/><br/>Fresh Jalapenos.<br/><br/>Habenaro Sauce.<br/><br/>Pico De Gallo.<br/><br/>Veggies"
     },
     {
         "restaurant_name": "Freebirds",
@@ -81,7 +123,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Black Beans.<br/><br/>Cheddar & Monterey Cheese Blend.<br/><br/>Cilantro.<br/><br/>Corn Salsa.<br/><br/>Lime Juice.<br/><br/>Mixed Green Base.<br/><br/>Pico De Gallo.<br/><br/>Roasted Garlic.<br/><br/>Tortilla Strips.<br/><br/>White Meat Chicken"
     },
     {
         "restaurant_name": "Freebirds",
@@ -102,7 +158,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Black Beans.<br/><br/>Cilantro Lime Rice.<br/><br/>Corn Salsa.<br/><br/>Lime Juice.<br/><br/>Roasted Garlic.<br/><br/>Steak.<br/><br/>Veggies"
     },
     {
         "restaurant_name": "Freebirds",
@@ -123,7 +193,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Black Beans.<br/><br/>Calabacitas Tempeh.<br/><br/>Cilantro.<br/><br/>Cilantro Lime Rice.<br/><br/>Corn Salsa.<br/><br/>Lime Juice.<br/><br/>Salsa.<br/><br/>Veggies"
     },
     {
         "restaurant_name": "Freebirds",
@@ -144,7 +228,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -165,7 +262,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -186,7 +297,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -207,7 +332,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -228,7 +367,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -249,7 +402,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -270,7 +436,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -291,7 +471,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -312,7 +506,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -333,7 +540,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -354,7 +575,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -375,7 +609,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -396,7 +643,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -417,7 +677,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -438,7 +712,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -459,7 +747,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -480,7 +782,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -503,7 +819,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 402,
@@ -520,7 +849,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "creamy-jalapeno-salsa-side"
@@ -546,7 +888,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 242,
@@ -563,7 +918,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "guacamole-side"
@@ -587,7 +955,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -610,7 +991,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 358,
@@ -627,7 +1022,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "queso-side"
@@ -653,7 +1062,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 39,
@@ -670,7 +1093,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "salsa-side"
@@ -694,7 +1131,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -715,7 +1165,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -736,7 +1199,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -757,7 +1233,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -778,7 +1267,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -799,7 +1301,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -820,7 +1335,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -841,7 +1370,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -862,7 +1404,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -883,7 +1438,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -904,7 +1472,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -925,7 +1506,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -946,7 +1540,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -967,7 +1574,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -988,7 +1608,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1009,7 +1642,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1030,7 +1676,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1051,7 +1710,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1072,7 +1745,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "BBQ Sauce.<br/><br/>Cilantro.<br/><br/>Dark Meat Chicken.<br/><br/>Flour Tortilla.<br/><br/>Monterey Jack Cheese.<br/><br/>Pinto Beans.<br/><br/>Spanish Rice"
     },
     {
         "restaurant_name": "Freebirds",
@@ -1093,7 +1780,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Black Beans.<br/><br/>Corn Salsa.<br/><br/>Dark Meat Chicken.<br/><br/>Guacamole.<br/><br/>Lime Juice.<br/><br/>Mixed Green Base.<br/><br/>Pico De Gallo.<br/><br/>Roasted Garlic.<br/><br/>Salsa"
     },
     {
         "restaurant_name": "Freebirds",
@@ -1114,7 +1815,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Cayenne Tortilla.<br/><br/>Corn Salsa.<br/><br/>Dark Meat Chicken.<br/><br/>Habenaro Sauce.<br/><br/>Queso.<br/><br/>Refried Beans.<br/><br/>Roasted Garlic.<br/><br/>Sour Cream.<br/><br/>Spanish Rice"
     },
     {
         "restaurant_name": "Freebirds",
@@ -1135,7 +1850,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1156,7 +1884,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1177,7 +1919,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1198,7 +1954,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1219,7 +1989,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1240,7 +2023,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1261,7 +2058,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1282,7 +2092,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1303,7 +2127,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1324,7 +2161,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1345,7 +2195,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1366,7 +2229,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1387,7 +2264,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1408,7 +2299,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1429,7 +2333,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1450,7 +2368,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1471,7 +2403,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1492,7 +2437,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1513,7 +2472,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1534,7 +2506,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1555,7 +2541,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1576,7 +2575,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1597,7 +2609,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1618,7 +2643,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1639,7 +2678,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1660,7 +2713,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1681,7 +2747,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1702,7 +2782,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1723,7 +2817,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1744,7 +2852,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1765,7 +2886,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1786,7 +2921,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1807,7 +2955,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1828,7 +2990,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1849,7 +3024,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1870,7 +3058,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1891,7 +3092,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1912,7 +3127,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1933,7 +3162,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1954,7 +3197,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1975,7 +3232,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -1996,7 +3267,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2017,7 +3301,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2038,7 +3335,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2059,7 +3370,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2080,7 +3405,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2101,7 +3440,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2122,7 +3474,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2143,7 +3508,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2164,7 +3543,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2185,7 +3577,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2206,7 +3611,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2227,7 +3645,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2248,7 +3680,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2269,7 +3714,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2290,7 +3748,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2311,7 +3782,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2332,7 +3816,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2353,7 +3850,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2374,7 +3884,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2395,7 +3918,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2416,7 +3953,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2437,7 +3988,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2458,7 +4023,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2479,7 +4057,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2500,7 +4091,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2521,7 +4126,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2542,7 +4161,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2563,7 +4196,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2584,7 +4230,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2605,7 +4265,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2626,7 +4300,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2647,7 +4334,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2668,7 +4369,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2689,7 +4403,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2710,7 +4437,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2731,7 +4471,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2752,7 +4506,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2773,7 +4541,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2794,7 +4576,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2815,7 +4611,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2836,7 +4646,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2857,7 +4680,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2878,7 +4715,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2899,7 +4750,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2920,7 +4784,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2941,7 +4818,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2962,7 +4852,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -2983,7 +4886,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3004,7 +4920,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3025,7 +4954,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3046,7 +4988,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3067,7 +5022,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3088,7 +5056,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3109,7 +5091,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Freebirds",
@@ -3130,6 +5125,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

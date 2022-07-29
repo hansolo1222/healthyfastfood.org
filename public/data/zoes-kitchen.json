@@ -18,7 +18,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -39,7 +42,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -60,7 +66,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -81,7 +90,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -102,7 +114,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -123,7 +138,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -144,7 +162,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -165,7 +186,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -186,7 +210,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -209,7 +236,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Slice"
+                "variant_name": "Slice",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 580,
@@ -226,7 +256,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-cake"
@@ -250,7 +283,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -271,7 +307,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -292,7 +331,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -313,7 +355,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -334,7 +379,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -355,7 +403,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -376,7 +427,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -397,7 +451,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -418,7 +475,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -439,7 +499,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -460,7 +523,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -483,7 +549,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pasta Salad"
+                "variant_name": "With Pasta Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 790,
@@ -500,7 +569,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Potato Salad"
+                "variant_name": "With Potato Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-kabob-dinner-for-4"
@@ -524,7 +596,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -545,7 +620,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -568,7 +646,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pasta Salad"
+                "variant_name": "With Pasta Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -585,7 +666,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Potato Salad"
+                "variant_name": "With Potato Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "grilled-chicken-breast-dinner-for-4"
@@ -609,7 +693,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -630,7 +717,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -653,7 +743,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half Pint"
+                "variant_name": "Half Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1200,
@@ -670,7 +763,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pint"
+                "variant_name": "Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 2290,
@@ -687,7 +783,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Quart"
+                "variant_name": "Quart",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "basil-pesto-hummus-to-go"
@@ -711,7 +810,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -734,7 +836,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half Pint"
+                "variant_name": "Half Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1530,
@@ -751,7 +856,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pint"
+                "variant_name": "Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-salad-to-go"
@@ -777,7 +885,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pint"
+                "variant_name": "Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -794,7 +905,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Quart"
+                "variant_name": "Quart",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fruit-to-go"
@@ -820,7 +934,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half Pint"
+                "variant_name": "Half Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 880,
@@ -837,7 +954,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pint"
+                "variant_name": "Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1730,
@@ -854,7 +974,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Quart"
+                "variant_name": "Quart",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "harissa-hummus-to-go"
@@ -880,7 +1003,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half Pint"
+                "variant_name": "Half Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 960,
@@ -897,7 +1023,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pint"
+                "variant_name": "Pint",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1850,
@@ -914,7 +1043,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Quart"
+                "variant_name": "Quart",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hummus-to-go"
@@ -938,7 +1070,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -959,7 +1094,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -980,7 +1118,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1001,7 +1142,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1022,7 +1166,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1043,7 +1190,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1064,7 +1214,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1085,7 +1238,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1106,7 +1262,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1127,7 +1286,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1148,7 +1310,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1169,7 +1334,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1190,7 +1358,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1211,7 +1382,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1232,7 +1406,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1253,7 +1430,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1274,7 +1454,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1295,7 +1478,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1316,7 +1502,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1337,7 +1526,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1358,7 +1550,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1379,7 +1574,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1400,7 +1598,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1421,7 +1622,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1442,7 +1646,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1463,7 +1670,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1484,7 +1694,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1505,7 +1718,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1528,7 +1744,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -1545,7 +1764,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-orzo-soup"
@@ -1569,7 +1791,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1592,7 +1817,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pasta Salad"
+                "variant_name": "With Pasta Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -1609,7 +1837,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Potato Salad"
+                "variant_name": "With Potato Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "greek-salad"
@@ -1635,7 +1866,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pasta Salad"
+                "variant_name": "With Pasta Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1652,7 +1886,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Potato Salad"
+                "variant_name": "With Potato Salad",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "greek-salad-with-chicken"
@@ -1676,7 +1913,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1699,7 +1939,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1716,7 +1959,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mediterranean-lentil-soup"
@@ -1740,7 +1986,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1763,7 +2012,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -1780,7 +2032,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tomato-bisque-with-pita"
@@ -1804,7 +2059,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -1827,7 +2085,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Cucumbers"
+                "variant_name": "With Cucumbers",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -1844,7 +2105,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pita Chips"
+                "variant_name": "With Pita Chips",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "baked-feta"
@@ -1870,7 +2134,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Cucumbers"
+                "variant_name": "With Cucumbers",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -1887,7 +2154,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pita"
+                "variant_name": "With Pita",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "basil-pesto-hummus"
@@ -1913,7 +2183,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Cucumbers"
+                "variant_name": "With Cucumbers",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -1930,7 +2203,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With White Pita"
+                "variant_name": "With White Pita",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "harissa-hummus"
@@ -1956,7 +2232,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Cucumbers"
+                "variant_name": "With Cucumbers",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1973,7 +2252,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Pita"
+                "variant_name": "With Pita",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hummus"
@@ -1997,7 +2279,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Zoes Kitchen",
@@ -2018,6 +2303,9 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

@@ -18,7 +18,21 @@
         "vitamin_a": 3,
         "vitamin_c": 2,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Croissant: CROISSANT (ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, MARGARINE (INTERESTERIFIED SOYBEAN OIL, WATER, MONO- & DIGLYCERIDES, SOY LECITHIN, SODIUM BENZOATE, ARTIFICIAL FLAVOR, BETA CAROTENE [COLOR], VITAMIN A PALMITATE ADDED), SUGAR, YEAST, CONTAINS 2% OR LESS OF: NON FAT DRY MILK, SALT, DOUGH CONDITIONER (WHEAT GLUTEN, XANTHAN GUM, ASCORBIC ACID, ENZYMES), NATURAL & ARTIFICIAL FLAVORS)..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Cream Cheese: Pasteurized Cultured Milk & Cream, Salt, Stabilizers (Xanthan and/or Carob Bean and/or Guar Gums)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -39,7 +53,22 @@
         "vitamin_a": 9,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "nitrates",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sourdough Bread: Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Yeast, Corn Syrup, Contains 2% or less of: Wheat Gluten, Soybean Oil, Salt, Vinegar, Dough Conditioners (Monoglycerides, Sodium Stearoyl Lactylate, Ascorbic Acid), Yeast Nutrients (Ammonium Sulfate, Calcium Sulfate), Citric Acid, Calcium Citrate, Calcium Propionate (preservative)..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Fried Egg Patty: Egg Whites, Whole Eggs, Water, Modified Food Starch, Salt, Xanthan Gum, Citric Acid, White Pepper, EDTA..<br/><br/>Caramelized Onions: Onions..<br/><br/>American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes, Annatto (color)), Water, Cream, Sodium Citrate, Color Added, Salt, Sorbic Acid (preservative), Soy Lecithin (non-sticking agent)..<br/><br/>Ketchup: Tomato Concentrate Made From Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Spice, Onion Powder, Natural Flavoring."
     },
     {
         "restaurant_name": "Sheetz",
@@ -60,7 +89,23 @@
         "vitamin_a": 4,
         "vitamin_c": 6,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "seeds",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Small Pretzel Roll: ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR, PALM OIL, YEAST, SALT, WHITE VINEGAR, BARLEY MALT (WHEAT FLOUR, DEXTROSE, MALTED BARLEY), BICARBONATES AND CARBONATES OF SODA..<br/><br/>Mini Hashbrowns: Potatoes, Vegetable Oil (Contains one or more of the following oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Dehydrated Potato Flakes (Potatoes, Mono- & Diglycerides, Sodium Acid Pyrophosphate & Citric Acid added to preserve natural color), Contains 2% or less of: Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Calcium Lactate, Dehydrated Onion, Dextrose, Garlic Powder, Malic Acid, Modified Cellulose, Modified Potato Starch, Salt, Sodium Alginate, Sodium Citrate, Sodium Acid Pyrophosphate added to maintain natural color, Spices, Xanthan Gum. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Tomato Slices: Tomatoes..<br/><br/>Lettuce, Shredded: Lettuce..<br/><br/>Red Onions: Red Onions..<br/><br/>Mayonnaise: Soybean Oil, Whole Egg, Water, Distilled Vinegar, Contains 2% or less of the following: Egg Yolks, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavor..<br/><br/>Boom Boom Sauce: Soybean Oil, Water, Distilled Vinegar, Sugar, Egg Yolk, Aged Cayenne Pepper, Salt, Contains 2% or less of: Garlic, Red Bell Pepper, Chili, Chili de Arbol Pepper, Spice, Plum, Rice Vinegar, Mustard Seed, Spices, Preservatives (Potassium Sorbate, Sodium Benzoate, Calcium Disodium EDTA), Paprika, Shallots, Modified Food Starch, Annatto/Turmeric, Xanthan Gum, Citric Acid, Tartaric Acid, Sodium Metabisulfite, Natural Flavor."
     },
     {
         "restaurant_name": "Sheetz",
@@ -81,7 +126,23 @@
         "vitamin_a": 7,
         "vitamin_c": 19,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "nitrates",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Plain Bagel: Enriched Unbleached Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Contains 2% or less of: Salt, Yeast, Monoglycerides, Cornmeal, L-Cysteine, Ascorbic Acid, Enzymes, Molasses, Soybean Oil, Calcium Proprionate (A Mold Inhibitor), Palm Oil. Contains Soy, Wheat..<br/><br/>Fried Egg Patty: Egg Whites, Whole Eggs, Water, Modified Food Starch, Salt, Xanthan Gum, Citric Acid, White Pepper, EDTA..<br/><br/>Guacamole: HASS AVOCADO, JALAPENO PUREE (WHITE VINEGAR, JALAPENO PEPPERS, SALT), DEHYDRATED ONION, GRANULATED GARLIC, SALT, ERYTHORBIC ACID AND/OR ASCORBIC ACID (TO PROMOTE COLOR RETENTION), SUGAR, CITRIC ACID (TO PROMOTE COLOR RETENTION)..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Cream Cheese: Pasteurized Cultured Milk & Cream, Salt, Stabilizers (Xanthan and/or Carob Bean and/or Guar Gums)..<br/><br/>Pico de Gallo: Tomato, Red Onion, Green Bell Pepper, Cucumber, Tomato Juice (Tomato Juice from Concentrate (Water, Tomato Concentrate), Salt, Ascorbic Acid)), Red Bell Pepper, Fresh Cilantro, Jalapeno Pepper, Lime Juice Concentrate (Lime Juice from Concentrate (Water, Concentrated Lime Juice), Sodium Benzoate (preservative), Lime Oil, Sodium Metabisulfite (preservative)), Salt, Fresh Garlic..<br/><br/>Red Onions: Red Onions..<br/><br/>Fire Roasted Tomato Sauce: Soybean Oil, Water, Vinegar, High Fructose Corn Syrup, Salt, Parmesan Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Sundried Tomato, Contains 2% or less of: Tomato Paste, Egg Yolk, Garlic, Spice, Xanthan Gum, Natural Flavor, Maltodextrin, Sodium Benzoate (preservative), Sugar, Onion, Paprika, Cornstarch, Canola Oil."
     },
     {
         "restaurant_name": "Sheetz",
@@ -102,7 +163,21 @@
         "vitamin_a": 12,
         "vitamin_c": 2,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Angus Burger: Angus Beef, Water, Salt, Pepper, Natural Flavoring..<br/><br/>Mozzarella Cheese Sticks: PART-SKIM MOZZARELLA CHEESE (PASTEURIZED PART-SKIM MILK, CHEESE CULTURES, SALT, ENZYMES, CALCIUM CHLORIDE), WATER, BLEACHED WHEAT FLOUR, BLEACHED ENRICHED WHEAT FLOUR (BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), YELLOW CORN FLOUR, CONTAINS 2% OR LESS OF: DEXTROSE, DRIED GARLIC, GUAR GUM, LEAVENING (SODIUM BICARBONATE, SODIUM ALUMINUM PHOSPHATE), MODIFIED CORN STARCH, NATURAL FLAVORS, ONION POWDER, PARSLEY, SALT, SOYBEAN OIL, SPICES, SUGAR, YEAST. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT..<br/><br/>Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Marinara Sauce: Tomato Concentrate (Water, Tomato Paste), Sugar, Soybean Oil, Salt, Spice, Dehydrated Onion, Granulated Garlic..<br/><br/>Provolone Cheese: Cultured Pasteurized Milk, Salt, Enzymes."
     },
     {
         "restaurant_name": "Sheetz",
@@ -123,7 +198,23 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "seeds",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Angus Burger: Angus Beef, Water, Salt, Pepper, Natural Flavoring..<br/><br/>Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Lettuce, Shredded: Lettuce..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Mayonnaise: Soybean Oil, Whole Egg, Water, Distilled Vinegar, Contains 2% or less of the following: Egg Yolks, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavor..<br/><br/>Boom Boom Sauce: Soybean Oil, Water, Distilled Vinegar, Sugar, Egg Yolk, Aged Cayenne Pepper, Salt, Contains 2% or less of: Garlic, Red Bell Pepper, Chili, Chili de Arbol Pepper, Spice, Plum, Rice Vinegar, Mustard Seed, Spices, Preservatives (Potassium Sorbate, Sodium Benzoate, Calcium Disodium EDTA), Paprika, Shallots, Modified Food Starch, Annatto/Turmeric, Xanthan Gum, Citric Acid, Tartaric Acid, Sodium Metabisulfite, Natural Flavor..<br/><br/>American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes, Annatto (color)), Water, Cream, Sodium Citrate, Color Added, Salt, Sorbic Acid (preservative), Soy Lecithin (non-sticking agent)..<br/><br/>Red Onions: Red Onions..<br/><br/>Yellow Mustard: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice, Garlic Powder."
     },
     {
         "restaurant_name": "Sheetz",
@@ -144,7 +235,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Angus Burger: Angus Beef, Water, Salt, Pepper, Natural Flavoring."
     },
     {
         "restaurant_name": "Sheetz",
@@ -165,7 +269,22 @@
         "vitamin_a": 49,
         "vitamin_c": 10,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Pico de Gallo: Tomato, Red Onion, Green Bell Pepper, Cucumber, Tomato Juice (Tomato Juice from Concentrate (Water, Tomato Concentrate), Salt, Ascorbic Acid)), Red Bell Pepper, Fresh Cilantro, Jalapeno Pepper, Lime Juice Concentrate (Lime Juice from Concentrate (Water, Concentrated Lime Juice), Sodium Benzoate (preservative), Lime Oil, Sodium Metabisulfite (preservative)), Salt, Fresh Garlic..<br/><br/>Pepper Jack Cheese: Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes..<br/><br/>Habanero Sauce: Hot Sauce (Red Pepper, Distilled Vinegar, Salt), Habanero Puree (Habanero Pepper, Salt, Citric Acid), Dehydrated Garlic & Onion, Contains 2% or less of: Distilled Vinegar, Spice, Water, Soybean Oil, Xanthan Gum, Sodium Benzoate (preservative)..<br/><br/>Jalapeno Ranch Dressing: Soybean Oil, Buttermilk, Water, Distilled Vinegar, Green Jalapeno Pepper, Egg Yolk, Contains 2% or less of: Cider Vinegar, Salt, Modified Food Starch, Spice, Buttermilk Solids, Sugar, Red Bell Pepper, Sorbic Acid, Xanthan Gum, Disodium Inosinate & Disodium Guanylate, Onion, Garlic, Paprika, Sodium Benzoate & Calcium Disodium EDTA as preservatives, Yeast Extract, Maltodextrin, Lactic Acid, Natural Flavor..<br/><br/>Jalapeno Peppers: Fresh Jalapeno Peppers, Water, Vinegar, Salt, Malic and Lactic Acid, Calcium Chloride, Sodium Benzoate and Sodium Metabisulfite (preservatives), Yellow #5."
     },
     {
         "restaurant_name": "Sheetz",
@@ -186,7 +305,21 @@
         "vitamin_a": 12,
         "vitamin_c": 2,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Mozzarella Cheese Sticks: PART-SKIM MOZZARELLA CHEESE (PASTEURIZED PART-SKIM MILK, CHEESE CULTURES, SALT, ENZYMES, CALCIUM CHLORIDE), WATER, BLEACHED WHEAT FLOUR, BLEACHED ENRICHED WHEAT FLOUR (BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), YELLOW CORN FLOUR, CONTAINS 2% OR LESS OF: DEXTROSE, DRIED GARLIC, GUAR GUM, LEAVENING (SODIUM BICARBONATE, SODIUM ALUMINUM PHOSPHATE), MODIFIED CORN STARCH, NATURAL FLAVORS, ONION POWDER, PARSLEY, SALT, SOYBEAN OIL, SPICES, SUGAR, YEAST. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT..<br/><br/>Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Marinara Sauce: Tomato Concentrate (Water, Tomato Paste), Sugar, Soybean Oil, Salt, Spice, Dehydrated Onion, Granulated Garlic..<br/><br/>Provolone Cheese: Cultured Pasteurized Milk, Salt, Enzymes."
     },
     {
         "restaurant_name": "Sheetz",
@@ -207,7 +340,23 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "seeds",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Lettuce, Shredded: Lettuce..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Mayonnaise: Soybean Oil, Whole Egg, Water, Distilled Vinegar, Contains 2% or less of the following: Egg Yolks, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavor..<br/><br/>Boom Boom Sauce: Soybean Oil, Water, Distilled Vinegar, Sugar, Egg Yolk, Aged Cayenne Pepper, Salt, Contains 2% or less of: Garlic, Red Bell Pepper, Chili, Chili de Arbol Pepper, Spice, Plum, Rice Vinegar, Mustard Seed, Spices, Preservatives (Potassium Sorbate, Sodium Benzoate, Calcium Disodium EDTA), Paprika, Shallots, Modified Food Starch, Annatto/Turmeric, Xanthan Gum, Citric Acid, Tartaric Acid, Sodium Metabisulfite, Natural Flavor..<br/><br/>American Cheese: American Cheese (Milk, Cheese Cultures, Salt, Enzymes, Annatto (color)), Water, Cream, Sodium Citrate, Color Added, Salt, Sorbic Acid (preservative), Soy Lecithin (non-sticking agent)..<br/><br/>Red Onions: Red Onions..<br/><br/>Yellow Mustard: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice, Garlic Powder."
     },
     {
         "restaurant_name": "Sheetz",
@@ -228,7 +377,21 @@
         "vitamin_a": 16,
         "vitamin_c": 114,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Traditional Burger Bun: Wheat Flour, Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% or less of the following: Salt, Wheat Gluten, Calcium Propionate (Preservative), Sodium, Stearoyl Lactylate, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Citric Acid, Pea Protein, Wheat Protein, Potato Protein, Rice Protein, Sunflower Oil, Dextrose, Maltodextrins, Cornstarch..<br/><br/>Coleslaw: Cabbage, High Fructose Corn Syrup, Mayonnaise (Soybean Oil, Water, Egg Yolks, Distilled Vinegar, High Fructose Corn Syrup, Contains 2% or less of: Salt, Calcium Disodium EDTA added to protect flavor, Natural Flavor), Vinegar, Carrots, Modified Corn Starch, Salt, Stabilizer (Xanthan Gum, Guar Gum stabilized with dextrose), Ascorbic Acid, Calcium Disodium EDTA, Citric Acid, Sodium Benzoate (preservative), Potassium Sorbate (preservative)..<br/><br/>Chili Sauce: WATER, PORK, MECHANICALLY SEPARATED CHICKEN, TOMATO PASTE, TEXTURED SOY FLOUR, FLAVORINGS (CHILI PEPPER, SPICES, DEHYDRATED ONION), POTASSIUM LACTATE, SALT, SUGAR, PAPRIKA, MODIFIED FOOD STARCH, OLEORESIN PAPRIKA, BEET POWDER, SODIUM DIACETATE.<br/><br/>Cheddar Cheese: Cultured Pasteurized Milk, Salt, Enzymes, Annatto (color)..<br/><br/>Yellow Mustard: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice, Garlic Powder."
     },
     {
         "restaurant_name": "Sheetz",
@@ -249,7 +412,22 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Small Pretzel Roll: ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR, PALM OIL, YEAST, SALT, WHITE VINEGAR, BARLEY MALT (WHEAT FLOUR, DEXTROSE, MALTED BARLEY), BICARBONATES AND CARBONATES OF SODA..<br/><br/>Fried Egg Patty: Egg Whites, Whole Eggs, Water, Modified Food Starch, Salt, Xanthan Gum, Citric Acid, White Pepper, EDTA..<br/><br/>Nacho Cheese Sauce: WATER, SKIM MILK, VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWING: CANOLA OIL, SUNFLOWER OIL, SOYBEAN OIL), MODIFIED FOOD STARCH, CONTAINS 2% OR LESS OF: SALT, CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), NATURAL FLAVORS, JALAPENO PEPPERS, DISTILLED VINEGAR, SODIUM PHOSPHATE, LACTIC ACID, SODIUM CITRATE, ANNATTO (COLOR), DATEM, MONO- & DIGLYCERIDES, ACETIC ACID, CITRIC ACID, SPICE..<br/><br/>Caramelized Onions: Onions..<br/><br/>Lettuce, Shredded: Lettuce..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Mayonnaise: Soybean Oil, Whole Egg, Water, Distilled Vinegar, Contains 2% or less of the following: Egg Yolks, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavor..<br/><br/>Dill Pickle Chips: Cucumbers, Water, Vinegar, Salt, Alum, Calcium Chloride, Potassium Sorbate (preservative), Natural Flavors, Polysorbate 80, Yellow 5, Blue 1..<br/><br/>Fire Roasted Tomato Sauce: Soybean Oil, Water, Vinegar, High Fructose Corn Syrup, Salt, Parmesan Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Sundried Tomato, Contains 2% or less of: Tomato Paste, Egg Yolk, Garlic, Spice, Xanthan Gum, Natural Flavor, Maltodextrin, Sodium Benzoate (preservative), Sugar, Onion, Paprika, Cornstarch, Canola Oil..<br/><br/>Ketchup: Tomato Concentrate Made From Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Spice, Onion Powder, Natural Flavoring."
     },
     {
         "restaurant_name": "Sheetz",
@@ -272,7 +450,21 @@
                 "vitamin_c": 1,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 342,
@@ -289,7 +481,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 498,
@@ -306,7 +512,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             }
         ],
         "slug": "frozen-chai-tea"
@@ -332,7 +552,21 @@
                 "vitamin_c": 1,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 128,
@@ -349,7 +583,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 191,
@@ -366,7 +614,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             }
         ],
         "slug": "frozen-latte"
@@ -392,7 +654,21 @@
                 "vitamin_c": 1,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 128,
@@ -409,7 +685,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             },
             {
                 "calories": 191,
@@ -426,7 +716,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan."
             }
         ],
         "slug": "frozen-mocha"
@@ -452,7 +756,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 246,
@@ -469,7 +786,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 307,
@@ -486,7 +816,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             }
         ],
         "slug": "hot-chai-tea"
@@ -512,7 +855,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 215,
@@ -529,7 +885,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 307,
@@ -546,7 +915,20 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chai Syrup: Pure Cane Sugar, Water, Caramel (color), Natural Clove Extract, Concentrated Lemon Juice, Natural Green Tea Extract, Natural Cinnamon Flavor, Natural Orange Blossom Flavor, Natural Ginger Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             }
         ],
         "slug": "iced-chai-tea"
@@ -572,7 +954,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Marshmallow Syrup: Pure Cane Sugar, Water, Natural & Artificial Flavors, Citric Acid. Contains no major allergens..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>Sprinkles: (Sugar, Corn Starch, Partially Hydrogenated Vegetable Oil (Cottonseed and/or Soybean), Soy Lecithin, Dextrin, Confectioner's Glaze, Natural & Artificial Flavor, FD&C Red #40 Lake, Carnauba Wax, FD&C Yellow #6 Lake, FD&C Blue #1 Lake, FD&C Yellow #5 Lake, FD&C Red #3, FD&C Blue #1, FD&C Red #40).<br/><br/>White Chocolate Sauce: Sugar, Water, Condensed Skim Milk, Maltodextrin, Modified Corn Starch, Natural & Artificial Flavors, Salt, Cocoa Butter, Carrageenan, Potassium Sorbate (preservative)."
             },
             {
                 "calories": 428,
@@ -589,7 +985,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Marshmallow Syrup: Pure Cane Sugar, Water, Natural & Artificial Flavors, Citric Acid. Contains no major allergens..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>Sprinkles: (Sugar, Corn Starch, Partially Hydrogenated Vegetable Oil (Cottonseed and/or Soybean), Soy Lecithin, Dextrin, Confectioner's Glaze, Natural & Artificial Flavor, FD&C Red #40 Lake, Carnauba Wax, FD&C Yellow #6 Lake, FD&C Blue #1 Lake, FD&C Yellow #5 Lake, FD&C Red #3, FD&C Blue #1, FD&C Red #40).<br/><br/>White Chocolate Sauce: Sugar, Water, Condensed Skim Milk, Maltodextrin, Modified Corn Starch, Natural & Artificial Flavors, Salt, Cocoa Butter, Carrageenan, Potassium Sorbate (preservative)."
             },
             {
                 "calories": 610,
@@ -606,7 +1016,21 @@
                 "vitamin_c": 3,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Marshmallow Syrup: Pure Cane Sugar, Water, Natural & Artificial Flavors, Citric Acid. Contains no major allergens..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens..<br/><br/>White Chocolate Sauce: Sugar, Water, Condensed Skim Milk, Maltodextrin, Modified Corn Starch, Natural & Artificial Flavors, Salt, Cocoa Butter, Carrageenan, Potassium Sorbate (preservative)..<br/><br/>Sprinkles: (Sugar, Corn Starch, Partially Hydrogenated Vegetable Oil (Cottonseed and/or Soybean), Soy Lecithin, Dextrin, Confectioner's Glaze, Natural & Artificial Flavor, FD&C Red #40 Lake, Carnauba Wax, FD&C Yellow #6 Lake, FD&C Blue #1 Lake, FD&C Yellow #5 Lake, FD&C Red #3, FD&C Blue #1, FD&C Red #40)"
             }
         ],
         "slug": "cake-batter-frozen-creamz"
@@ -632,7 +1056,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Chocolate Sauce: Sugar, Water, Fructose, Cocoa, Natural Flavor, Unsweetened Chocolate, Potassium Sorbate (preservative), Salt, Soy Lecithin (emulsifier)."
             },
             {
                 "calories": 289,
@@ -649,7 +1087,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Chocolate Sauce: Sugar, Water, Fructose, Cocoa, Natural Flavor, Unsweetened Chocolate, Potassium Sorbate (preservative), Salt, Soy Lecithin (emulsifier)."
             },
             {
                 "calories": 401,
@@ -666,7 +1118,21 @@
                 "vitamin_c": 3,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Chocolate Sauce: Sugar, Water, Fructose, Cocoa, Natural Flavor, Unsweetened Chocolate, Potassium Sorbate (preservative), Salt, Soy Lecithin (emulsifier)."
             }
         ],
         "slug": "chocolate-frozen-creamz"
@@ -692,7 +1158,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Oreo Cookie Crumbles: Sugar, Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), High Oleic Canola Oil and/or Palm Oil and/or Canola Oil and/or Soybean Oil, Cocoa (processed with alkali), High Fructose Corn Syrup, Cornstarch, Leavening (Baking Soda and/or Calcium Phosphate), Salt, Soy Lecithin (emulsifier), Vanilla (an artificial flavor), Chocolate. Contains Wheat, Soy."
             },
             {
                 "calories": 457,
@@ -709,7 +1189,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Oreo Cookie Crumbles: Sugar, Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), High Oleic Canola Oil and/or Palm Oil and/or Canola Oil and/or Soybean Oil, Cocoa (processed with alkali), High Fructose Corn Syrup, Cornstarch, Leavening (Baking Soda and/or Calcium Phosphate), Salt, Soy Lecithin (emulsifier), Vanilla (an artificial flavor), Chocolate. Contains Wheat, Soy."
             },
             {
                 "calories": 653,
@@ -726,7 +1220,21 @@
                 "vitamin_c": 3,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Oreo Cookie Crumbles: Sugar, Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), High Oleic Canola Oil and/or Palm Oil and/or Canola Oil and/or Soybean Oil, Cocoa (processed with alkali), High Fructose Corn Syrup, Cornstarch, Leavening (Baking Soda and/or Calcium Phosphate), Salt, Soy Lecithin (emulsifier), Vanilla (an artificial flavor), Chocolate. Contains Wheat, Soy."
             }
         ],
         "slug": "cookies-cream-frozen-creamz"
@@ -752,7 +1260,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 265,
@@ -769,7 +1291,21 @@
                 "vitamin_c": 2,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             },
             {
                 "calories": 365,
@@ -786,7 +1322,21 @@
                 "vitamin_c": 3,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ice Cream Base: Milk, Cream, Sugar, Corn Syrup, Whey, Nonfat Milk, Mono- & Diglycerides, Cellulose Gum, Artificial Vanilla with Caramel Color, Tetrasodium Pyrophosphate, Carrageenan..<br/><br/>Vanilla Syrup: Pure Cane Sugar, Water, Natural Vanilla Extract, Natural Vanilla Flavor, Potassium Sorbate (preservative). Contains no major allergens."
             }
         ],
         "slug": "vanilla-frozen-creamz"
@@ -810,7 +1360,21 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pretzel Hotdog Bun: Wheat Flour, Water, Rapeseed Oil, Salt, Yeast, Dextrose, Wheat Gluten, Malt Flour (Barley), Emulsifier E471, Coating Agent (Acidity Regulator: Sodium Hydroxide) Contains Wheat..<br/><br/>Lettuce, Shredded: Lettuce..<br/><br/>Bacon: Bacon cured with: Water, Salt, Sugar, Natural Smoke Flavor, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite..<br/><br/>Mayonnaise: Soybean Oil, Whole Egg, Water, Distilled Vinegar, Contains 2% or less of the following: Egg Yolks, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavor..<br/><br/>Diced Tomatoes: Tomatoes."
     },
     {
         "restaurant_name": "Sheetz",
@@ -831,7 +1395,21 @@
         "vitamin_a": 7,
         "vitamin_c": 5,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pretzel Hotdog Bun: Wheat Flour, Water, Rapeseed Oil, Salt, Yeast, Dextrose, Wheat Gluten, Malt Flour (Barley), Emulsifier E471, Coating Agent (Acidity Regulator: Sodium Hydroxide) Contains Wheat..<br/><br/>Pico de Gallo: Tomato, Red Onion, Green Bell Pepper, Cucumber, Tomato Juice (Tomato Juice from Concentrate (Water, Tomato Concentrate), Salt, Ascorbic Acid)), Red Bell Pepper, Fresh Cilantro, Jalapeno Pepper, Lime Juice Concentrate (Lime Juice from Concentrate (Water, Concentrated Lime Juice), Sodium Benzoate (preservative), Lime Oil, Sodium Metabisulfite (preservative)), Salt, Fresh Garlic..<br/><br/>Pepper Jack Cheese: Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes..<br/><br/>Sour Cream: Cultured Cream, Skim Milk, Lactic & Citric Acid, Modified Corn Starch, Salt, Potassium Sorbate (preservative), Mono- & Diglycerides, Guar Gum, Carrageenan, Natural & Artificial Flavor..<br/><br/>Habanero Sauce: Hot Sauce (Red Pepper, Distilled Vinegar, Salt), Habanero Puree (Habanero Pepper, Salt, Citric Acid), Dehydrated Garlic & Onion, Contains 2% or less of: Distilled Vinegar, Spice, Water, Soybean Oil, Xanthan Gum, Sodium Benzoate (preservative)..<br/><br/>Diced Onions: Onions."
     },
     {
         "restaurant_name": "Sheetz",
@@ -852,7 +1430,22 @@
         "vitamin_a": 39,
         "vitamin_c": 13,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pretzel Hotdog Bun: Wheat Flour, Water, Rapeseed Oil, Salt, Yeast, Dextrose, Wheat Gluten, Malt Flour (Barley), Emulsifier E471, Coating Agent (Acidity Regulator: Sodium Hydroxide) Contains Wheat..<br/><br/>Sauerkraut: Cabbage, Water, Salt..<br/><br/>Relish: Cucumbers, High Fructose Corn Syrup, Vinegar, Water, Salt, Calcium Chloride, Xanthan Gum, Alum, Sodium Benzoate (preservative), Turmeric (color), Natural and Artificial Flavors, Polysorbate 80..<br/><br/>Jalapeno Peppers: Fresh Jalapeno Peppers, Water, Vinegar, Salt, Malic and Lactic Acid, Calcium Chloride, Sodium Benzoate and Sodium Metabisulfite (preservatives), Yellow #5..<br/><br/>Diced Onions: Onions..<br/><br/>Yellow Mustard: Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Spice, Garlic Powder."
     },
     {
         "restaurant_name": "Sheetz",
@@ -873,7 +1466,21 @@
         "vitamin_a": 8,
         "vitamin_c": 40,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pretzel Hotdog Bun: Wheat Flour, Water, Rapeseed Oil, Salt, Yeast, Dextrose, Wheat Gluten, Malt Flour (Barley), Emulsifier E471, Coating Agent (Acidity Regulator: Sodium Hydroxide) Contains Wheat..<br/><br/>Caramelized Onions: Onions..<br/><br/>Fire Roasted Peppers: Green Bell Peppers..<br/><br/>Nacho Cheese Sauce: WATER, SKIM MILK, VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWING: CANOLA OIL, SUNFLOWER OIL, SOYBEAN OIL), MODIFIED FOOD STARCH, CONTAINS 2% OR LESS OF: SALT, CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), NATURAL FLAVORS, JALAPENO PEPPERS, DISTILLED VINEGAR, SODIUM PHOSPHATE, LACTIC ACID, SODIUM CITRATE, ANNATTO (COLOR), DATEM, MONO- & DIGLYCERIDES, ACETIC ACID, CITRIC ACID, SPICE."
     },
     {
         "restaurant_name": "Sheetz",
@@ -894,7 +1501,21 @@
         "vitamin_a": 3,
         "vitamin_c": 2,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pretzel Hotdog Bun: Wheat Flour, Water, Rapeseed Oil, Salt, Yeast, Dextrose, Wheat Gluten, Malt Flour (Barley), Emulsifier E471, Coating Agent (Acidity Regulator: Sodium Hydroxide) Contains Wheat..<br/><br/>Caramelized Onions: Onions..<br/><br/>BBQ Sauce: High Fructose Corn Syrup, Distilled Vinegar, Tomato Paste, Modified Food Starch, Contains 2% or less of: Salt, Pineapple Juice Concentrate, Natural Smoke Flavor, Spices, Caramel Color, Sodium Benzoate (preservative), Molasses, Corn Syrup, Dried Garlic, Sugar, Tamarind, Natural Flavor..<br/><br/>Shredded Monterey Jack Cheese: Monterey Jack Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes), Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto), Potato Starch, Powdered Cellulose (Anti-Caking Agent), Natamycin (A Natural Mold Inhibitor)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -915,7 +1536,20 @@
         "vitamin_a": 2,
         "vitamin_c": 120,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Apple Slices: Apples, Calcium Ascorbate (prepared from Ascorbic Acid [Vitamin C] and calcium to prevent discoloration)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -936,7 +1570,21 @@
         "vitamin_a": 6,
         "vitamin_c": 2,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mac & Cheese: MACARONI & CHEESE (WATER, PASTEURIZED PROCESS CHEESE SPREAD (AMERCIAN CHEESE (PASTEURIZED MILK, CHEESE CULTIRES, SALT ENZYMES), WATER, WHEY, SODIUM PHOSPHATE, CONTAINS LESS THAN 2% OF MILKFAT, SALT, SODIUM ALGINATE, LACTIC ACID, APOCAROTENAL (COLOR)), LIGHT CREAM (CREAM, CONTAINS LESS THAN 2% WHEY PROTEIN CONCENTRATE, XANTHAN GUM, NATURAL FLAVOR), ELBOW MACARONI (SEMOLINA (WHEAT), EGG WHITES, NIACIN, IRON (FERROUS SULFATE), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SOYBEAN OIL, MODIFIED CORN STARCH, SEASONING (SALT, YEAST EXTRACT, POTASSIUM SORBATE, XANTHAN GUM, SODIUM PHOSPHATE, ANNATTO EXTRACT (MEDIUM CHAIN TRIGLYCERIDES, MONO AND DIGLYCERIDES, CANOLA OIL, PROPYLENE GLYCOL, NATURAL EXTRACTIVES OF ANNATTO SEED, TOCOPHEROL. NATURAL FLAVORS, POTASSIUM HYDROXIDE), LACTIC ACID, PARIKA EXTRACT (CANOLA OIL, NATURAL EXTRACTIVES OF PAPRIKA, NATURAL FLAVORS, ASCORBIC ACID), AND NOT MORE THAN 2% SILICON DIOXIDE TO AID PROCESSING), CHEDDAR CHEESE INGREDIENT (CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), WATER, SODIUM PHOSPHATE), WHITE DISTILLED VINEGAR, NATURAL CHEESE FLAVOR (INCLUDING BLUE CHEESE), WATER, SALT, DISODIUM PHOSPHATE AND XANTHAN GUM)).<br/><br/>Chili Sauce: WATER, PORK, MECHANICALLY SEPARATED CHICKEN, TOMATO PASTE, TEXTURED SOY FLOUR, FLAVORINGS (CHILI PEPPER, SPICES, DEHYDRATED ONION), POTASSIUM LACTATE, SALT, SUGAR, PAPRIKA, MODIFIED FOOD STARCH, OLEORESIN PAPRIKA, BEET POWDER, SODIUM DIACETATE"
     },
     {
         "restaurant_name": "Sheetz",
@@ -957,7 +1605,25 @@
         "vitamin_a": 30,
         "vitamin_c": 330,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "nitrates",
+            "peanuts",
+            "seeds",
+            "shellfish",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Coleslaw: Cabbage, High Fructose Corn Syrup, Mayonnaise (Soybean Oil, Water, Egg Yolks, Distilled Vinegar, High Fructose Corn Syrup, Contains 2% or less of: Salt, Calcium Disodium EDTA added to protect flavor, Natural Flavor), Vinegar, Carrots, Modified Corn Starch, Salt, Stabilizer (Xanthan Gum, Guar Gum stabilized with dextrose), Ascorbic Acid, Calcium Disodium EDTA, Citric Acid, Sodium Benzoate (preservative), Potassium Sorbate (preservative)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -980,7 +1646,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3 Piece"
+                "variant_name": "3 Piece",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Tenders: Chicken Tenderloin, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Contains 2% or less of Modified Corn Starch, Salt, Yellow Corn Flour, Cracker Meal (Wheat Flour, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate)), Wheat Flour, Spices, Sodium Phosphates, leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Hydrolyzed Corn Protein, Paprika, Onion Powder, Garlic Powder, Extractives of Paprika, Extractives of Turmeric, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate)"
             },
             {
                 "calories": 549,
@@ -997,7 +1677,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "5 Piece"
+                "variant_name": "5 Piece",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Tenders: Chicken Tenderloin, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Contains 2% or less of Modified Corn Starch, Salt, Yellow Corn Flour, Cracker Meal (Wheat Flour, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate)), Wheat Flour, Spices, Sodium Phosphates, leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Hydrolyzed Corn Protein, Paprika, Onion Powder, Garlic Powder, Extractives of Paprika, Extractives of Turmeric, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate)"
             }
         ],
         "slug": "crispy-chicken-strips"
@@ -1023,7 +1717,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Fried Pickle Chips: Dill Pickle Chips (Cucumbers, Water, Salt, Calcium Chloride, Distilled Vinegar, Sodium Benzoate (preservative), Alum, Natural Flavors, FD&C Yellow #5 & Blue #1, Polysorbate 80), Bleached Wheat Flour, Vegetable Oil (Contains One or More of the Following: Soybean, Corn and/or Cottonseed Oil), Water, Yellow Corn Meal, Enriched Bleached Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Contains 2% or less of: Salt, Garlic Powder, Yellow Corn Flour, Onion Powder, Spices, Dextrose, Modified Corn Starch, Corn Syrup Solids, Citric Acid, Disodium Inosinate & Disodium Guanylate, Lemon Juice Solids, Natural Flavor, Methylcellulose. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             },
             {
                 "calories": 433,
@@ -1040,7 +1748,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Fried Pickle Chips: Dill Pickle Chips (Cucumbers, Water, Salt, Calcium Chloride, Distilled Vinegar, Sodium Benzoate (preservative), Alum, Natural Flavors, FD&C Yellow #5 & Blue #1, Polysorbate 80), Bleached Wheat Flour, Vegetable Oil (Contains One or More of the Following: Soybean, Corn and/or Cottonseed Oil), Water, Yellow Corn Meal, Enriched Bleached Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Contains 2% or less of: Salt, Garlic Powder, Yellow Corn Flour, Onion Powder, Spices, Dextrose, Modified Corn Starch, Corn Syrup Solids, Citric Acid, Disodium Inosinate & Disodium Guanylate, Lemon Juice Solids, Natural Flavor, Methylcellulose. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             }
         ],
         "slug": "fried-pickles"
@@ -1066,7 +1788,21 @@
                 "vitamin_c": 8,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bag"
+                "variant_name": "Bag",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Fryz: Potatoes, Vegetable Oil (May Contain One or More of the Following: Canola Oil, Sunflower Oil, Cottonseed Oil, Palm Oil, Corn Oil, Soybean Oil), Modified Food Starch, Rice Flour, Dextrin, Salt, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             },
             {
                 "calories": 391,
@@ -1083,7 +1819,21 @@
                 "vitamin_c": 13,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Fryz: Potatoes, Vegetable Oil (May Contain One or More of the Following: Canola Oil, Sunflower Oil, Cottonseed Oil, Palm Oil, Corn Oil, Soybean Oil), Modified Food Starch, Rice Flour, Dextrin, Salt, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             },
             {
                 "calories": 782,
@@ -1100,7 +1850,21 @@
                 "vitamin_c": 26,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bucket"
+                "variant_name": "Bucket",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Fryz: Potatoes, Vegetable Oil (May Contain One or More of the Following: Canola Oil, Sunflower Oil, Cottonseed Oil, Palm Oil, Corn Oil, Soybean Oil), Modified Food Starch, Rice Flour, Dextrin, Salt, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             }
         ],
         "slug": "fries"
@@ -1124,7 +1888,21 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Hard Boiled Eggs: Eggs."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1145,7 +1923,21 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Jalapeno Cheddar Bites: WATER, PASTEURIZED PROCESS CHEDDAR CHEESE [CHEDDAR CHEESE (MILK, CHEESE CULTURE, SALT, ENZYMES), WATER, MILKFAT, SODIUM PHOSPHATE, SODIUM HEXAMETAPHOSPHATE, SALT, ARTIFICIAL COLOR], JALAPENO PEPPERS [PEPPERS, SALT, ACETIC ACID, SODIUM BENZOATE (PRESERVATIVE)], ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), DEHYDRATED POTATOES (POTATOES, MONO- & DIGLYCERIDES, SODIUM ACID PYROPHOSPHATE (TO PRESERVE NATURAL COLOR), CITRIC ACID (TO PRESERVE NATURAL COLOR)), FOOD STARCH-MODIFIED, CONTAINS 2% OR LESS OF BUTTER (CREAM, SALT), CELLULOSE GUM, CITRIC ACID, DEXTROSE, DISODIUM PHOSPHATE, DRIED CHEDDAR & SEMISOFT CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), LACTIC ACID, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), NATURAL FLAVOR (CONTAINS MILK), SALT, SUGAR, TURMERIC OLEORESIN (COLOR), WHEAT STARCH, WHEY, YEAST, YELLOW 5 & 6, YELLOW CORN FLOUR. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1166,7 +1958,21 @@
         "vitamin_a": 0,
         "vitamin_c": 20,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Fryz: Potatoes, Vegetable Oil (May Contain One or More of the Following: Canola Oil, Sunflower Oil, Cottonseed Oil, Palm Oil, Corn Oil, Soybean Oil), Modified Food Starch, Rice Flour, Dextrin, Salt, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1187,7 +1993,21 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Mac 'N Cheese Bites: MACARONI [WATER, ENRICHED SEMOLINA (DURUM WHEAT SEMOLINA, FERROUS SULFATE, NIACIN, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID)], WATER, PASTEURIZED PROCESS CHEDDAR CHEESE [CHEDDAR CHEESE (MILK, CHEESE CULTURE, SALT, ENZYMES), WATER, MILKFAT, SODIUM PHOSPHATE, SODIUM HEXAMETAPHOSPHATE, SALT, ARTIFICIAL COLOR], ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINIE MONONITRATE, RIBOFLAVIN, FOLIC ACID), VEGETABLE OIL (SOYBEAN AND/OR CANOLA), CHEESE SAUCE MIX [DEHYDRATED BLEND OF CHEESE (SEMISOFT AND CHEDDAR CHEESES (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES)), FOOD STARCH-MODIFIED, WHEY, SALT, CELLULOSE GUM, BUTTER (CREAM, SALT), SODIUM PHOSPHATE, SILICON DIOXIDE, LACTIC ACID, CITRIC ACID, YELLOW 5 & 6], YELLOW CORN FLOUR, CONTAINS 2% OR LESS OF BUTTERMILK POWDER, CHEESE POWDER [WHEY, BUTTERMILK SOLIDS, CHEESES (GRANULAR & CHEDDAR (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES)), WHEY PROTEIN CONCENTRATE, SALT, SODIUM PHOSPHATE, CITRIC ACID, YELLOW 5 & 6, LACTIC ACID, ENZYME], CITRIC ACID, DRIED GARLIC, DRIED ONION, EXTRACTIVES OF ANNATTO (COLOR), EXTRACTIVES OF PAPRIKA (COLOR), EXTRACTIVES OF TURMERIC (COLOR), FOOD STARCH-MODIFIED, LACTIC ACID, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, MONOCALCIUM PHOSPHATE), NATURAL & ARTIFICIAL CHEESE FLAVOR (CHEDDAR CHEESE FLAVOR [MILK, MALTODEXTRIN, BACTERIAL CULTURES, SALT, ENZYMES, NATURAL & ARTIFICIAL FLAVOR], BUTTERMILK, WHEY, AUTOLYZED YEAST EXTRACT, CHEESE FLAVOR [MILK, BACTERIAL CULTURES, SALT, ENZYMES], CULTURED WHEY, SALT, CREAM), NATURAL FLAVOR, NONFAT MILK, SALT, SPICES, SUGAR, WHEAT STARCH, WHEY, WHEY PROTEIN CONCENTRATE. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1208,7 +2028,21 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Mac & Cheese: MACARONI & CHEESE (WATER, PASTEURIZED PROCESS CHEESE SPREAD (AMERCIAN CHEESE (PASTEURIZED MILK, CHEESE CULTIRES, SALT ENZYMES), WATER, WHEY, SODIUM PHOSPHATE, CONTAINS LESS THAN 2% OF MILKFAT, SALT, SODIUM ALGINATE, LACTIC ACID, APOCAROTENAL (COLOR)), LIGHT CREAM (CREAM, CONTAINS LESS THAN 2% WHEY PROTEIN CONCENTRATE, XANTHAN GUM, NATURAL FLAVOR), ELBOW MACARONI (SEMOLINA (WHEAT), EGG WHITES, NIACIN, IRON (FERROUS SULFATE), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SOYBEAN OIL, MODIFIED CORN STARCH, SEASONING (SALT, YEAST EXTRACT, POTASSIUM SORBATE, XANTHAN GUM, SODIUM PHOSPHATE, ANNATTO EXTRACT (MEDIUM CHAIN TRIGLYCERIDES, MONO AND DIGLYCERIDES, CANOLA OIL, PROPYLENE GLYCOL, NATURAL EXTRACTIVES OF ANNATTO SEED, TOCOPHEROL. NATURAL FLAVORS, POTASSIUM HYDROXIDE), LACTIC ACID, PARIKA EXTRACT (CANOLA OIL, NATURAL EXTRACTIVES OF PAPRIKA, NATURAL FLAVORS, ASCORBIC ACID), AND NOT MORE THAN 2% SILICON DIOXIDE TO AID PROCESSING), CHEDDAR CHEESE INGREDIENT (CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), WATER, SODIUM PHOSPHATE), WHITE DISTILLED VINEGAR, NATURAL CHEESE FLAVOR (INCLUDING BLUE CHEESE), WATER, SALT, DISODIUM PHOSPHATE AND XANTHAN GUM))"
     },
     {
         "restaurant_name": "Sheetz",
@@ -1229,7 +2063,21 @@
         "vitamin_a": 12,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Mozzarella Cheese Sticks: PART-SKIM MOZZARELLA CHEESE (PASTEURIZED PART-SKIM MILK, CHEESE CULTURES, SALT, ENZYMES, CALCIUM CHLORIDE), WATER, BLEACHED WHEAT FLOUR, BLEACHED ENRICHED WHEAT FLOUR (BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), YELLOW CORN FLOUR, CONTAINS 2% OR LESS OF: DEXTROSE, DRIED GARLIC, GUAR GUM, LEAVENING (SODIUM BICARBONATE, SODIUM ALUMINUM PHOSPHATE), MODIFIED CORN STARCH, NATURAL FLAVORS, ONION POWDER, PARSLEY, SALT, SOYBEAN OIL, SPICES, SUGAR, YEAST. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1252,7 +2100,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bag"
+                "variant_name": "Bag",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Onion Rings: ONIONS, ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), VEGETABLE OIL (SOYBEAN AND/OR CANOLA OIL), BEER (WATER, MALTED BARLEY, CORN SYRUP, HOPS, SALT), WATER, YELLOW CORN FLOUR, MODIFIED CORN STARCH, CONTAINS 2% OR LESS OF DEXTROSE, GUAR GUM, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), MONO- & DIGLYCERIDES, OLEORESIN PAPRIKA (COLOR), ONION POWDER, SALT, SORBITOL, SOYBEAN OIL, SPICES, SUGAR, WHEY. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
             },
             {
                 "calories": 469,
@@ -1269,7 +2131,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Onion Rings: ONIONS, ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), VEGETABLE OIL (SOYBEAN AND/OR CANOLA OIL), BEER (WATER, MALTED BARLEY, CORN SYRUP, HOPS, SALT), WATER, YELLOW CORN FLOUR, MODIFIED CORN STARCH, CONTAINS 2% OR LESS OF DEXTROSE, GUAR GUM, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), MONO- & DIGLYCERIDES, OLEORESIN PAPRIKA (COLOR), ONION POWDER, SALT, SORBITOL, SOYBEAN OIL, SPICES, SUGAR, WHEY. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
             },
             {
                 "calories": 704,
@@ -1286,7 +2162,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bucket"
+                "variant_name": "Bucket",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Onion Rings: ONIONS, ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), VEGETABLE OIL (SOYBEAN AND/OR CANOLA OIL), BEER (WATER, MALTED BARLEY, CORN SYRUP, HOPS, SALT), WATER, YELLOW CORN FLOUR, MODIFIED CORN STARCH, CONTAINS 2% OR LESS OF DEXTROSE, GUAR GUM, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), MONO- & DIGLYCERIDES, OLEORESIN PAPRIKA (COLOR), ONION POWDER, SALT, SORBITOL, SOYBEAN OIL, SPICES, SUGAR, WHEY. FRIED IN HIGH OLEIC CANOLA OIL WITH TBHQ AND CITRIC ACID ADDED TO PRESERVE FRESHNESS AND DIMETHYLPOLYSILOXANE ADDED AS AN ANTI-FOAMING AGENT."
             }
         ],
         "slug": "onion-rings"
@@ -1312,7 +2202,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Popcorn Chicken: Chicken Breast Meat with Rib Meat, Water, Bleached Wheat Flour, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Contains 2% or less of: Seasoning (Flavoring, Torula Yeast, Modified Food Starch, Salt, Sugar, Natural Flavor), Modified Food Starch, Salt, Rice Flour, Sodium Phosphates, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Spices, Yellow Corn Flour, Dried Garlic, Sugar, Yeast Extract, Dextrose, Extractives of Paprika, Partially Hydrogenated Sunflower Oil, Carrageenan, Wheat Flour, Wheat Gluten, Egg Whites. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             },
             {
                 "calories": 610,
@@ -1329,7 +2233,21 @@
                 "vitamin_c": 0,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Popcorn Chicken: Chicken Breast Meat with Rib Meat, Water, Bleached Wheat Flour, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Contains 2% or less of: Seasoning (Flavoring, Torula Yeast, Modified Food Starch, Salt, Sugar, Natural Flavor), Modified Food Starch, Salt, Rice Flour, Sodium Phosphates, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Spices, Yellow Corn Flour, Dried Garlic, Sugar, Yeast Extract, Dextrose, Extractives of Paprika, Partially Hydrogenated Sunflower Oil, Carrageenan, Wheat Flour, Wheat Gluten, Egg Whites. Fried in High Oleic Canola Oil with TBHQ and Citric Acid added to preserve freshness and Dimethylpolysiloxane added as an anti-foaming agent."
             }
         ],
         "slug": "popcorn-chicken"
@@ -1353,7 +2271,21 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Mac & Cheese: MACARONI & CHEESE (WATER, PASTEURIZED PROCESS CHEESE SPREAD (AMERCIAN CHEESE (PASTEURIZED MILK, CHEESE CULTIRES, SALT ENZYMES), WATER, WHEY, SODIUM PHOSPHATE, CONTAINS LESS THAN 2% OF MILKFAT, SALT, SODIUM ALGINATE, LACTIC ACID, APOCAROTENAL (COLOR)), LIGHT CREAM (CREAM, CONTAINS LESS THAN 2% WHEY PROTEIN CONCENTRATE, XANTHAN GUM, NATURAL FLAVOR), ELBOW MACARONI (SEMOLINA (WHEAT), EGG WHITES, NIACIN, IRON (FERROUS SULFATE), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SOYBEAN OIL, MODIFIED CORN STARCH, SEASONING (SALT, YEAST EXTRACT, POTASSIUM SORBATE, XANTHAN GUM, SODIUM PHOSPHATE, ANNATTO EXTRACT (MEDIUM CHAIN TRIGLYCERIDES, MONO AND DIGLYCERIDES, CANOLA OIL, PROPYLENE GLYCOL, NATURAL EXTRACTIVES OF ANNATTO SEED, TOCOPHEROL. NATURAL FLAVORS, POTASSIUM HYDROXIDE), LACTIC ACID, PARIKA EXTRACT (CANOLA OIL, NATURAL EXTRACTIVES OF PAPRIKA, NATURAL FLAVORS, ASCORBIC ACID), AND NOT MORE THAN 2% SILICON DIOXIDE TO AID PROCESSING), CHEDDAR CHEESE INGREDIENT (CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), WATER, SODIUM PHOSPHATE), WHITE DISTILLED VINEGAR, NATURAL CHEESE FLAVOR (INCLUDING BLUE CHEESE), WATER, SALT, DISODIUM PHOSPHATE AND XANTHAN GUM)).<br/><br/>Shredded Monterey Jack Cheese: Monterey Jack Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes), Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto), Potato Starch, Powdered Cellulose (Anti-Caking Agent), Natamycin (A Natural Mold Inhibitor)..<br/><br/>Parmesan Cheese: IMITATION PARMESAN CHEESE (WATER, FOOD STARCH, CASEINATE, NATURAL FLAVOR, PALM OIL, MILKFAT, SALT, SODIUM PHOSPHATE, SODIUM ALUMINUM PHOSPHATE, LACTIC ACID, SORBIC ACID (AS A PRESERVATIVE), ARTIFICIAL COLOR), POWDERED CELLULOSE (ANTI-CAKING AGENT)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1374,7 +2306,21 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "BLEACHED WHEAT FLOUR ENRICHED ((BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MALTED BARLEY FLOUR), WATER, WHOLE WHEAT FLOUR, GRAIN MIX (HARD RED WHEAT, OAT GROATS, TRITICALE, BARLEY, RYE, SOFT WHITE WHEAT, SPELT, HARD WHITE WHEAT, FLAX SEED), WHOLE GRAIN BARLEY, CONTAINS LESS THAN 2% OF SOYBEAN OIL, SALT, YELLOW PRUSSIATE OF SODA, YEAST, MALTED BARLEY, VITAL WHEAT GLUTEN, BROWN SUGAR, YELLOW CORNMEAL, DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ASCORBIC ACID, ENZYMES), EXTENDER (WHEAT FLOUR, ENZYMES, SALT), NATURAL BEER TYPE FLAVOR (DEXTROSE, MALTODEXTRIN, NATURAL FLAVORS, SILICON DIOXIDE (ANTI-CAKING AGENT), SALT), COCOA (PROCESSED WITH ALKALI), DOUGH CONDITIONER (WHEAT FLOUR, ASCORBIC ACID, ENZYMES), MALT POWDER (MALTED BARLEY FLOUR, DEXTROSE, WHEAT FLOUR)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1395,7 +2341,21 @@
         "vitamin_a": 2,
         "vitamin_c": 4,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "ENRICHED WHEAT FLOUR [WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], WATER, CONTAINS 2% OR LESS OF: SOYBEAN AND/OR CANOLA OIL, YEAST, SALT, SUGAR, DOUGH CONDITIONER (WHEAT FLOUR, CALCIUM SULFATE, ACACIA GUM, MONO- & DIGLYCERIDES, ENZYMES), BAKING POWDER (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, CORNSTARCH, MONOCALCIUM PHOSPHATE), NONFAT DRY MILK, PRESERVATIVES (CALCIUM PROPIONATE, POTASSIUM SORBATE, CALCIUM ACETATE), YEAST NUTRIENTS (CALCIUM SULFATE, AMMONIUM SULFATE, ASCORBIC ACID, ENZYMES)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1416,7 +2376,21 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "ENRICHED BLEACHED FLOUR (BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR, YEAST, SOYBEAN OIL, IODIZED SALT (SALT, SODIUM SILICOALUMINATE, DEXTROSE, POTASSIUM IODIDE), SPONGE EXTRACT (WATER, FERMENTED WHEAT FLOUR), VITAL WHEAT GLUTEN, ITALIAN SEASONING (MARJORAM, THYME, ROSEMARY, SAVORY, SAGE, OREGANO, BASIL), DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ASCORBIC ACID, ENZYMES)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1437,7 +2411,21 @@
         "vitamin_a": 3,
         "vitamin_c": 4,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "WATER, WHOLE WHEAT FLOUR, BLEACHED WHEAT FLOUR ENRICHED ((BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MALTED BARLEY FLOUR), HONEY, SOYBEAN OIL, CONTAINS 2% OR LESS OF: YEAST, SALT, YELLOW PRUSSIATE OF SODA, VITAL WHEAT GLUTEN, DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ASCORBIC ACID, ENZYMES), EXTENDER (WHEAT FLOUR, ENZYMES, SALT), MALT POWDER (MALTED BARLEY FLOUR, DEXTROSE, WHEAT FLOUR), DRY MILK SOLIDS (WHEY POWDER, NONFAT DRY MILK)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1458,7 +2446,21 @@
         "vitamin_a": 0,
         "vitamin_c": 20,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "WATER, ENRICHED BLEACHED FLOUR (BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WHOLE WHEAT FLOUR, MIXED GRAINS (RYE FLAKES, ROLLED WHEAT, ROLLED OATS, MILLET, FLAX SEEDS, SESAME SEEDS), BLACKSTRAP MOLASSES, VITAL WHEAT GLUTEN, CHICORY INULIN, IODIZED SALT (SALT, SODIUM SILICOALUMINATE, DEXTROSE, POTASSIUM IODIDE), SOYBEAN OIL, YEAST, SPONGE EXTRACT (WATER, FERMENTED WHEAT FLOUR), CARAMEL COLOR, DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ASCORBIC ACID, ENZYMES), DOUGH CONDITIONER (WHEAT FLOUR, ASCORBIC ACID, ENZYMES)."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1479,7 +2481,21 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "BLEACHED WHEAT FLOUR ENRICHED ((BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MALTED BARLEY FLOUR), WATER, SALTED BUTTER (PASTEURIZED CREAM, SALT), CONTAINS 2% OR LESS OF: YEAST, SALT, YELLOW PRUSSIATE OF SODA, VITAL WHEAT GLUTEN, SUGAR, EXTENDER (WHEAT FLOUR, ENZYMES, SALT), DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ENZYMES), SODIUM HYDROXIDE."
     },
     {
         "restaurant_name": "Sheetz",
@@ -1500,6 +2516,20 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "(BLEACHED WHEAT FLOUR ENRICHED ((BLEACHED WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MALTED BARLEY FLOUR), WATER, WHOLE WHEAT FLOUR, SOYBEAN OIL, CONTAINS 2% OR LESS OF: SALT, YELLOW PRUSSIATE OF SODA, YEAST, VITAL WHEAT GLUTEN, SUGAR, NONFAT DRY MILK, WHEY SOLIDS, DOUGH CONDITIONER (WHEAT FLOUR, INACTIVE DRIED YEAST, ASCORBIC ACID, ENZYMES), MALT POWDER (MALTED BARLEY FLOUR, DEXTROSE, WHEAT FLOUR), EXTENDER (WHEAT FLOUR, ENZYMES, SALT))"
     }
 ]

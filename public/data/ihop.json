@@ -18,7 +18,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -39,7 +42,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -60,7 +66,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -81,7 +90,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -102,7 +114,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -125,7 +140,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Country Gravy"
+                "variant_name": "With Country Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1051,
@@ -142,7 +160,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage Gravy"
+                "variant_name": "With Sausage Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "big-country-bowl"
@@ -168,7 +189,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Country Gravy"
+                "variant_name": "With Country Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1331,
@@ -185,7 +209,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage Gravy"
+                "variant_name": "With Sausage Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "big-country-burrito-bowl"
@@ -209,7 +236,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -230,7 +260,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -253,7 +286,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Country Gravy"
+                "variant_name": "With Country Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1271,
@@ -270,7 +306,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage Gravy"
+                "variant_name": "With Sausage Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buttermilk-biscuits-combo"
@@ -294,7 +333,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -315,7 +357,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -336,7 +381,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -357,7 +405,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -378,7 +429,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -401,7 +455,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 911,
@@ -418,7 +475,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-bowl"
@@ -442,7 +502,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -465,7 +528,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Country Gravy"
+                "variant_name": "With Country Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1441,
@@ -482,7 +548,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage Gravy"
+                "variant_name": "With Sausage Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "country-fried-steak-eggs-combo"
@@ -506,7 +575,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -527,7 +599,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -548,7 +623,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -569,7 +647,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -590,7 +671,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -611,7 +695,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -632,7 +719,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -653,7 +743,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -674,7 +767,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -695,7 +791,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -716,7 +815,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -737,7 +839,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -758,7 +863,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -779,7 +887,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -800,7 +911,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -821,7 +935,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -842,7 +959,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -863,7 +983,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -884,7 +1007,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -905,7 +1031,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -926,7 +1055,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -947,7 +1079,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -968,7 +1103,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -989,7 +1127,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1010,7 +1151,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1031,7 +1175,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1052,7 +1199,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1073,7 +1223,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1094,7 +1247,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1115,7 +1271,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1136,7 +1295,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1157,7 +1319,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1178,7 +1343,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1199,7 +1367,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1222,7 +1393,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Country Gravy"
+                "variant_name": "With Country Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 701,
@@ -1239,7 +1413,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Sausage Gravy"
+                "variant_name": "With Sausage Gravy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buttermilk-crispy-chicken-dinner"
@@ -1263,7 +1440,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1286,7 +1466,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Fire Roasted Salsa"
+                "variant_name": "With Fire Roasted Salsa",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 961,
@@ -1303,7 +1486,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Chile Verde Salsa"
+                "variant_name": "With Chile Verde Salsa",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "new-mexico-chicken-bowl"
@@ -1327,7 +1513,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1348,7 +1537,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1369,7 +1561,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1390,7 +1585,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1413,7 +1611,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Fire Roasted Salsa"
+                "variant_name": "With Fire Roasted Salsa",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1111,
@@ -1430,7 +1631,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Chile Verde Salsa"
+                "variant_name": "With Chile Verde Salsa",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "southwest-chicken-bowl"
@@ -1454,7 +1658,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1477,7 +1684,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 831,
@@ -1494,7 +1704,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "t-bone-steak-combo"
@@ -1520,7 +1733,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -1537,7 +1753,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "t-bone-steak-entree"
@@ -1561,7 +1780,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1582,7 +1804,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1603,7 +1828,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1624,7 +1852,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1645,7 +1876,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1666,7 +1900,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1687,7 +1924,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1708,7 +1948,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1729,7 +1972,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1750,7 +1996,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1771,7 +2020,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1792,7 +2044,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1813,7 +2068,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1834,7 +2092,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1855,7 +2116,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1876,7 +2140,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1897,7 +2164,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1918,7 +2188,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1939,7 +2212,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1960,7 +2236,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -1981,7 +2260,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2002,7 +2284,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2023,7 +2308,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2044,7 +2332,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2065,7 +2356,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2086,7 +2380,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2107,7 +2404,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2128,7 +2428,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2149,7 +2452,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2170,7 +2476,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2191,7 +2500,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2212,7 +2524,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2233,7 +2548,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2254,7 +2572,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2275,7 +2596,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2296,7 +2620,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2317,7 +2644,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2340,7 +2670,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 691,
@@ -2357,7 +2690,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-chip-buttermilk-pancakes"
@@ -2383,7 +2719,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 711,
@@ -2400,7 +2739,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-chocolate-chip-pancakes"
@@ -2426,7 +2768,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 811,
@@ -2443,7 +2788,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cupcake-pancakes"
@@ -2469,7 +2817,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 811,
@@ -2486,7 +2837,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "double-blueberry-pancakes"
@@ -2510,7 +2864,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2531,7 +2888,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2552,7 +2912,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2575,7 +2938,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 621,
@@ -2592,7 +2958,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "harvest-grain-n-nut-pancakes"
@@ -2618,7 +2987,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 701,
@@ -2635,7 +3007,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mexican-tres-leches-pancakes"
@@ -2661,7 +3036,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 931,
@@ -2678,7 +3056,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "new-york-cheesecake-pancakes"
@@ -2704,7 +3085,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "2"
+                "variant_name": "2",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -2721,7 +3105,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 741,
@@ -2738,7 +3125,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "5"
+                "variant_name": "5",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "original-buttermilk-pancakes"
@@ -2764,7 +3154,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "3"
+                "variant_name": "3",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 681,
@@ -2781,7 +3174,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4"
+                "variant_name": "4",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-banana-pancakes"
@@ -2805,7 +3201,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2826,7 +3225,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2847,7 +3249,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2868,7 +3273,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2889,7 +3297,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2910,7 +3321,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2931,7 +3345,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -2954,7 +3371,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 971,
@@ -2971,7 +3391,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "big-brunch-chicken-burger"
@@ -2995,7 +3418,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3016,7 +3442,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3039,7 +3468,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 741,
@@ -3056,7 +3488,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-chicken-bacon-burger"
@@ -3082,7 +3517,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 641,
@@ -3099,7 +3537,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-chicken-burger"
@@ -3123,7 +3564,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3144,7 +3588,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3167,7 +3614,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 921,
@@ -3184,7 +3634,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cowboy-bbq-chicken-burger"
@@ -3208,7 +3661,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3229,7 +3685,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3252,7 +3711,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 971,
@@ -3269,7 +3731,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "jalapeno-kick-chicken-burger"
@@ -3293,7 +3758,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3314,7 +3782,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3335,7 +3806,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3356,7 +3830,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3377,7 +3854,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3398,7 +3878,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3419,7 +3902,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3440,7 +3926,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3461,7 +3950,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3482,7 +3974,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3503,7 +3998,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3524,7 +4022,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3545,7 +4046,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3566,7 +4070,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3587,7 +4094,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3608,7 +4118,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3629,7 +4142,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3650,7 +4166,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3671,7 +4190,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3692,7 +4214,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3713,7 +4238,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3734,7 +4262,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3755,7 +4286,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3776,7 +4310,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3797,7 +4334,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3818,7 +4358,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3839,7 +4382,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3860,7 +4406,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3881,7 +4430,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3902,7 +4454,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3923,7 +4478,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3944,7 +4502,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3965,7 +4526,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -3986,7 +4550,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -4007,7 +4574,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -4028,7 +4598,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -4049,7 +4622,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -4070,7 +4646,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "IHOP",
@@ -4091,6 +4670,9 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

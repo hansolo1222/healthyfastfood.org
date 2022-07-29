@@ -20,7 +20,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey breast, avocado spread, cucumber, provolone cheese, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 860,
@@ -37,7 +52,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, avocado spread, cucumber, provolone cheese, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 870,
@@ -54,7 +84,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, avocado spread, cucumber, provolone cheese, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1710,
@@ -71,7 +116,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, avocado spread, cucumber, provolone cheese, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "beach-club"
@@ -97,7 +157,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Roast beef, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 500,
@@ -114,7 +189,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 640,
@@ -131,7 +221,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1000,
@@ -148,7 +253,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "big-john"
@@ -174,7 +294,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Roast beef, smoked ham, provolone cheese, mayo, Dijon mustard, lettuce, tomato, lettuce wrap."
             },
             {
                 "calories": 810,
@@ -191,7 +324,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Roast beef, smoked ham, provolone cheese, mayo, Dijon mustard, lettuce, tomato, French bread."
             },
             {
                 "calories": 830,
@@ -208,7 +354,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Roast beef, smoked ham, provolone cheese, mayo, Dijon mustard, lettuce, tomato, wheat bread."
             },
             {
                 "calories": 1630,
@@ -225,7 +384,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Roast beef, smoked ham, provolone cheese, mayo, Dijon mustard, lettuce, tomato, French bread."
             }
         ],
         "slug": "billy-club"
@@ -251,7 +423,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Roast beef, turkey, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 680,
@@ -268,7 +455,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, turkey, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 700,
@@ -285,7 +487,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, turkey, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1370,
@@ -302,7 +519,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, turkey, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "bootlegger-club"
@@ -328,7 +560,19 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich"
+                "variant_name": "Unwich",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Lettuce wrap, roasted tomatoes, basil pesto, oil, fresh mozzarella cheese, balsamic glaze."
             },
             {
                 "calories": 1060,
@@ -345,7 +589,19 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "French bread, roasted tomatoes, basil pesto, oil, fresh mozzarella cheese, balsamic glaze."
             },
             {
                 "calories": 1150,
@@ -362,7 +618,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Wheat bread, roasted tomatoes, basil pesto, oil, fresh mozzarella cheese, balsamic glaze."
             },
             {
                 "calories": 2120,
@@ -379,7 +648,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "French bread, roasted tomatoes, basil pesto, oil, fresh mozzarella cheese, balsamic glaze."
             }
         ],
         "slug": "caprese-salami-pesto"
@@ -403,7 +685,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Seasoned chicken, parmesan cheese, lettuce, tomato, mayo, Caesar dressing, ranch seasoning, croutons, lettuce unwich wrap"
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -424,7 +716,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Seasoned chicken, parmesan cheese, lettuce, tomato, mayo, Caesar dressing, ranch seasoning, croutons, garlic and herb wrap."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -447,7 +749,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey, bacon, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 690,
@@ -464,7 +781,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, bacon, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 700,
@@ -481,7 +813,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, bacon, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1370,
@@ -498,7 +845,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, bacon, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "club-lulu"
@@ -524,7 +886,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, provolone cheese, cucumber, lettuce, tomato, lettuce wrap."
             },
             {
                 "calories": 840,
@@ -541,7 +918,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, provolone cheese, cucumber, lettuce, tomato, French bread."
             },
             {
                 "calories": 870,
@@ -558,7 +950,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, provolone cheese, cucumber, lettuce, tomato, wheat bread."
             },
             {
                 "calories": 1710,
@@ -575,7 +982,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, provolone cheese, cucumber, lettuce, tomato, French bread."
             }
         ],
         "slug": "club-tuna"
@@ -601,7 +1023,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey, ham, provolone cheese, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 780,
@@ -618,7 +1055,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, ham, provolone cheese, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 800,
@@ -635,7 +1087,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, ham, provolone cheese, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1570,
@@ -652,7 +1119,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, ham, provolone cheese, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "country-club"
@@ -678,7 +1160,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich"
+                "variant_name": "Unwich",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Applewood smoked bacon, smoked ham, provolone cheese, dill pickles, mayo, Dijon mustard, lettuce wrap."
             },
             {
                 "calories": 720,
@@ -695,7 +1192,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Applewood smoked bacon, smoked ham, provolone cheese, dill pickles, mayo, Dijon mustard, French Bread."
             },
             {
                 "calories": 850,
@@ -712,7 +1224,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Applewood smoked bacon, smoked ham, provolone cheese, dill pickles, mayo, Dijon mustard, wheat bread."
             },
             {
                 "calories": 1440,
@@ -729,7 +1256,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Applewood smoked bacon, smoked ham, provolone cheese, dill pickles, mayo, Dijon mustard, French Bread."
             }
         ],
         "slug": "cubano"
@@ -755,7 +1297,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Roast beef, provolone cheese, lettuce, tomato & mayo, lettuce wrap."
             },
             {
                 "calories": 830,
@@ -772,7 +1329,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, provolone cheese, lettuce, tomato & mayo, French bread."
             },
             {
                 "calories": 840,
@@ -789,7 +1361,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, provolone cheese, lettuce, tomato & mayo, wheat bread."
             },
             {
                 "calories": 1650,
@@ -806,7 +1393,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, provolone cheese, lettuce, tomato & mayo, French bread."
             }
         ],
         "slug": "hunters-club"
@@ -832,7 +1434,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "wheat"
+                ],
+                "ingredients": "Salami, capocollo, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, & oregano-basil, lettuce wrap."
             },
             {
                 "calories": 930,
@@ -849,7 +1464,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, & oregano-basil, French bread."
             },
             {
                 "calories": 950,
@@ -866,7 +1494,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, & oregano-basil, wheat bread."
             },
             {
                 "calories": 1860,
@@ -883,7 +1524,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, & oregano-basil, French bread."
             }
         ],
         "slug": "italian-night-club"
@@ -909,7 +1563,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "wheat"
+                ],
+                "ingredients": "Salami, capocollo, turkey, roast beef, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, basil, oregano, lettuce wrap."
             },
             {
                 "calories": 1080,
@@ -926,7 +1593,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, turkey, roast beef, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, basil, oregano, French bread."
             },
             {
                 "calories": 1100,
@@ -943,7 +1623,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, turkey, roast beef, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, basil, oregano, wheat bread."
             },
             {
                 "calories": 2160,
@@ -960,7 +1653,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, turkey, roast beef, ham, provolone cheese, onion, lettuce, tomato, mayo, oil & vinegar, basil, oregano, French bread."
             }
         ],
         "slug": "the-jj-gargantuan"
@@ -986,7 +1692,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Bacon, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 590,
@@ -1003,7 +1724,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Bacon, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 730,
@@ -1020,7 +1756,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Bacon, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1190,
@@ -1037,7 +1788,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Bacon, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "jj-blt"
@@ -1061,7 +1827,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Ham, provolone cheese, lettuce, tomato and mayo on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1082,7 +1862,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Roast beef, lettuce, tomato, mayo on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1103,7 +1897,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Tuna salad, cucumber, lettuce, tomato on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1124,7 +1932,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Turkey, lettuce, tomato, mayo on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1145,7 +1967,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Salami, capicola, provolone cheese, onion, lettuce, tomato, oil & vinegar, oregano-basil on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1166,7 +2002,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Provolone cheese, avocado, cucumber, lettuce, tomato, mayo on French bread."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1187,7 +2037,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "French bread, bacon, lettuce, tomato, mayo."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1210,7 +2075,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ham, provolone cheese, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 600,
@@ -1227,7 +2107,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 730,
@@ -1244,7 +2139,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1200,
@@ -1261,7 +2171,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "pepe"
@@ -1287,7 +2212,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ham, provolone cheese, lettuce wrap."
             },
             {
                 "calories": 540,
@@ -1304,7 +2244,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, French bread."
             },
             {
                 "calories": 560,
@@ -1321,7 +2276,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, wheat bread."
             },
             {
                 "calories": 1080,
@@ -1338,7 +2308,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, provolone cheese, French bread."
             }
         ],
         "slug": "slim-1-ham-cheese"
@@ -1364,7 +2349,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Roast beef, lettuce wrap."
             },
             {
                 "calories": 440,
@@ -1381,7 +2380,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, French bread."
             },
             {
                 "calories": 460,
@@ -1398,7 +2412,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, wheat bread."
             },
             {
                 "calories": 880,
@@ -1415,7 +2444,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast beef, French bread."
             }
         ],
         "slug": "slim-2-roast-beef"
@@ -1441,7 +2485,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, lettuce wrap"
             },
             {
                 "calories": 510,
@@ -1458,7 +2517,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, wheat bread."
             },
             {
                 "calories": 600,
@@ -1475,7 +2548,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, French bread."
             },
             {
                 "calories": 1200,
@@ -1492,7 +2580,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, French bread."
             }
         ],
         "slug": "slim-3-tuna-salad"
@@ -1518,7 +2621,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey, lettuce wrap."
             },
             {
                 "calories": 420,
@@ -1535,7 +2652,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, French bread."
             },
             {
                 "calories": 430,
@@ -1552,7 +2684,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, wheat bread."
             },
             {
                 "calories": 830,
@@ -1569,7 +2716,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, French bread."
             }
         ],
         "slug": "slim-4-turkey-breast"
@@ -1595,7 +2757,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Salami, capicola, provolone cheese, lettuce wrap."
             },
             {
                 "calories": 630,
@@ -1612,7 +2789,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Salami, capicola, provolone cheese, French bread."
             },
             {
                 "calories": 650,
@@ -1629,7 +2821,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Salami, capicola, provolone cheese, wheat bread."
             },
             {
                 "calories": 1260,
@@ -1646,7 +2853,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Salami, capicola, provolone cheese, French bread."
             }
         ],
         "slug": "slim-5-salami-capicola-cheese"
@@ -1672,7 +2894,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Provolone cheese, lettuce wrap."
             },
             {
                 "calories": 590,
@@ -1689,7 +2926,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Provolone cheese, French bread."
             },
             {
                 "calories": 600,
@@ -1706,7 +2958,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Provolone cheese, wheat bread."
             },
             {
                 "calories": 1180,
@@ -1723,7 +2990,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Provolone cheese, French bread."
             }
         ],
         "slug": "slim-6-double-provolone"
@@ -1749,7 +3031,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich"
+                "variant_name": "Unwich",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 840,
@@ -1766,7 +3051,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 930,
@@ -1783,7 +3071,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1680,
@@ -1800,7 +3091,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spicy-chicago-roast-beef"
@@ -1826,7 +3120,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich"
+                "variant_name": "Unwich",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "wheat"
+                ],
+                "ingredients": "Genoa salami, capocollo, provolone cheese, hot peppers, oil and vinegar, basil, oregano, onion, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 970,
@@ -1843,7 +3150,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Genoa salami, capocollo, provolone cheese, hot peppers, oil and vinegar, basil, oregano, onion, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 1110,
@@ -1860,7 +3180,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Genoa salami, capocollo, provolone cheese, hot peppers, oil and vinegar, basil, oregano, onion, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1940,
@@ -1877,7 +3210,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Genoa salami, capocollo, provolone cheese, hot peppers, oil and vinegar, basil, oregano, onion, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "spicy-east-coast-italian"
@@ -1901,7 +3247,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "sesame",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken, Thai satay sauce, carrot noodles, cucumber, onion, lettuce, tomato, mayo, lettuce wrap."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1922,7 +3283,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "sesame",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken, Thai satay sauce, carrot noodles, cucumber, onion, lettuce, tomato, mayo, flour tortilla wrap."
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -1945,7 +3321,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, cucumber, lettuce, tomato, lettuce wrap."
             },
             {
                 "calories": 500,
@@ -1962,7 +3353,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, cucumber, lettuce, tomato, French bread."
             },
             {
                 "calories": 630,
@@ -1979,7 +3385,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, cucumber, lettuce, tomato, wheat bread."
             },
             {
                 "calories": 990,
@@ -1996,7 +3417,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna salad, cucumber, lettuce, tomato, French Bread."
             }
         ],
         "slug": "totally-tuna"
@@ -2022,7 +3458,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Turkey breast, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 480,
@@ -2039,7 +3490,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, French bread, lettuce, tomato & mayo"
             },
             {
                 "calories": 610,
@@ -2056,7 +3522,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, 9-grain wheat bread, lettuce, tomato & mayo"
             },
             {
                 "calories": 950,
@@ -2073,7 +3554,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey breast, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "turkey-tom"
@@ -2099,7 +3595,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Ham, bacon, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 690,
@@ -2116,7 +3627,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, bacon, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 710,
@@ -2133,7 +3659,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, bacon, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1390,
@@ -2150,7 +3691,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, bacon, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "ultimate-porker"
@@ -2176,7 +3732,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Avocado spread, cucumber, lettuce, tomato, mayo, lettuce wrap."
             },
             {
                 "calories": 670,
@@ -2193,7 +3764,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Avocado spread, cucumber, lettuce, tomato, mayo, French bread."
             },
             {
                 "calories": 810,
@@ -2210,7 +3796,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Avocado spread, cucumber, lettuce, tomato, mayo, wheat bread."
             },
             {
                 "calories": 1350,
@@ -2227,7 +3828,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant Wheat Bread"
+                "variant_name": "on Giant Wheat Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Avocado spread, cucumber, lettuce, tomato, mayo, French bread."
             }
         ],
         "slug": "vegetarian"
@@ -2253,7 +3869,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich Lettuce Wrap"
+                "variant_name": "Unwich Lettuce Wrap",
+                "allergens_true": [
+                    "gluten",
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Salami, capocollo, provolone cheese, onion, lettuce, tomato, oil & vinegar, oregano, basil, lettuce wrap."
             },
             {
                 "calories": 580,
@@ -2270,7 +3899,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, provolone cheese, onion, lettuce, tomato, oil & vinegar, oregano, basil, French bread."
             },
             {
                 "calories": 710,
@@ -2287,7 +3929,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, provolone cheese, onion, lettuce, tomato, oil & vinegar, oregano, basil, wheat bread."
             },
             {
                 "calories": 1150,
@@ -2304,7 +3959,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "sesame",
+                    "shellfish"
+                ],
+                "ingredients": "Salami, capocollo, provolone cheese, onion, lettuce, tomato, oil & vinegar, oregano, basil, French bread."
             }
         ],
         "slug": "vito"
@@ -2330,7 +3998,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unwich"
+                "variant_name": "Unwich",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Turkey, Bacon, Herb Aioli, Slow Roasted Tomatoes, Pickled Red Onions, Cheesy Panko Crumbs, Lettuce and Provolone Cheese, Lettuce Wrap."
             },
             {
                 "calories": 910,
@@ -2347,7 +4028,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Regular French Bread"
+                "variant_name": "on Regular French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Turkey, Bacon, Herb Aioli, Slow Roasted Tomatoes, Pickled Red Onions, Cheesy Panko Crumbs, Lettuce and Provolone Cheese, French Bread."
             },
             {
                 "calories": 1050,
@@ -2364,7 +4058,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Wheat"
+                "variant_name": "on Wheat",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Turkey, Bacon, Herb Aioli, Slow Roasted Tomatoes, Pickled Red Onions, Cheesy Panko Crumbs, Lettuce and Provolone Cheese, Wheat Bread."
             },
             {
                 "calories": 1830,
@@ -2381,7 +4088,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "on Giant French Bread"
+                "variant_name": "on Giant French Bread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Turkey, Bacon, Herb Aioli, Slow Roasted Tomatoes, Pickled Red Onions, Cheesy Panko Crumbs, Lettuce and Provolone Cheese, French Bread."
             }
         ],
         "slug": "zesty-garden-turkey-club"
@@ -2407,7 +4127,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -2424,7 +4147,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke"
@@ -2448,7 +4174,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2456,23 +4185,6 @@
         "meal_name": "Diet Coke",
         "category": "Drinks",
         "variants": [
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0.0,
-                "trans_fat": null,
-                "cholesterol": 0,
-                "sodium": 75,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": null,
-                "protein": 0,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Regular"
-            },
             {
                 "calories": 0,
                 "total_fat": 0,
@@ -2488,7 +4200,30 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0.0,
+                "trans_fat": null,
+                "cholesterol": 0,
+                "sodium": 75,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": null,
+                "protein": 0,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -2514,7 +4249,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -2531,7 +4269,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dr-pepper"
@@ -2557,7 +4298,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -2574,7 +4318,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -2598,7 +4345,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2619,7 +4380,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2640,7 +4414,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "sesame",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2661,7 +4448,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2682,7 +4481,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "sesame",
+            "shellfish",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2703,7 +4515,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "sesame",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2726,7 +4551,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Spear"
+                "variant_name": "Spear",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 20,
@@ -2743,7 +4582,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "pickle"
@@ -2767,7 +4620,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2788,7 +4653,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jimmy Johns",
@@ -2809,6 +4687,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

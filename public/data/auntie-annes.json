@@ -18,7 +18,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -39,7 +42,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -60,7 +66,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -83,7 +92,10 @@
                 "vitamin_c": 10,
                 "calcium": 4,
                 "iron": 35,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -100,7 +112,10 @@
                 "vitamin_c": 10,
                 "calcium": 4,
                 "iron": 35,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "breakfast-sausage-stix"
@@ -124,7 +139,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -147,7 +165,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -164,7 +185,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cinnamon-sugar-pretzel"
@@ -181,7 +205,7 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 480,
+                "sodium": 1060,
                 "total_carbohydrates": 63,
                 "dietary_fiber": 2,
                 "sugar": 9,
@@ -190,7 +214,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "No Salt or Butter"
+                "variant_name": "With Salt, No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -198,7 +225,7 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 1060,
+                "sodium": 480,
                 "total_carbohydrates": 63,
                 "dietary_fiber": 2,
                 "sugar": 9,
@@ -207,24 +234,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Salt, No Butter"
-            },
-            {
-                "calories": 330,
-                "total_fat": 5,
-                "saturated_fat": 3,
-                "trans_fat": 0,
-                "cholesterol": 10,
-                "sodium": 1060,
-                "total_carbohydrates": 63,
-                "dietary_fiber": 2,
-                "sugar": 9,
-                "protein": 8,
-                "vitamin_a": 2,
-                "vitamin_c": 0,
-                "calcium": 2,
-                "iron": 4,
-                "variant_name": "With Salt and Butter"
+                "variant_name": "No Salt or Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -241,7 +254,30 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Butter, No Salt"
+                "variant_name": "With Butter, No Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 330,
+                "total_fat": 5,
+                "saturated_fat": 3,
+                "trans_fat": 0,
+                "cholesterol": 10,
+                "sodium": 1060,
+                "total_carbohydrates": 63,
+                "dietary_fiber": 2,
+                "sugar": 9,
+                "protein": 8,
+                "vitamin_a": 2,
+                "vitamin_c": 0,
+                "calcium": 2,
+                "iron": 4,
+                "variant_name": "With Salt and Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "jalapeno-pretzel"
@@ -265,7 +301,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -279,7 +318,7 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 990,
+                "sodium": 400,
                 "total_carbohydrates": 65,
                 "dietary_fiber": 2,
                 "sugar": 10,
@@ -288,7 +327,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Salt, No Butter"
+                "variant_name": "No Butter or Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -296,7 +338,7 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 400,
+                "sodium": 990,
                 "total_carbohydrates": 65,
                 "dietary_fiber": 2,
                 "sugar": 10,
@@ -305,24 +347,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "No Butter or Salt"
-            },
-            {
-                "calories": 340,
-                "total_fat": 5,
-                "saturated_fat": 3,
-                "trans_fat": 0,
-                "cholesterol": 10,
-                "sodium": 400,
-                "total_carbohydrates": 65,
-                "dietary_fiber": 2,
-                "sugar": 10,
-                "protein": 8,
-                "vitamin_a": 2,
-                "vitamin_c": 0,
-                "calcium": 2,
-                "iron": 4,
-                "variant_name": "With Butter, No Salt"
+                "variant_name": "With Salt, No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -339,7 +367,30 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Salt and Butter"
+                "variant_name": "With Salt and Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 340,
+                "total_fat": 5,
+                "saturated_fat": 3,
+                "trans_fat": 0,
+                "cholesterol": 10,
+                "sodium": 400,
+                "total_carbohydrates": 65,
+                "dietary_fiber": 2,
+                "sugar": 10,
+                "protein": 8,
+                "vitamin_a": 2,
+                "vitamin_c": 0,
+                "calcium": 2,
+                "iron": 4,
+                "variant_name": "With Butter, No Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "original-pretzel"
@@ -365,7 +416,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -382,7 +436,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pepperoni-pretzel"
@@ -408,7 +465,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -425,7 +485,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "raisin-pretzel"
@@ -451,7 +514,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "No Butter or Salt"
+                "variant_name": "No Butter or Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -468,7 +534,10 @@
                 "vitamin_c": 2,
                 "calcium": 6,
                 "iron": 6,
-                "variant_name": "With Salt, No Butter"
+                "variant_name": "With Salt, No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -485,7 +554,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Butter, No Salt"
+                "variant_name": "With Butter, No Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -502,7 +574,10 @@
                 "vitamin_c": 2,
                 "calcium": 6,
                 "iron": 6,
-                "variant_name": "With Salt and Butter"
+                "variant_name": "With Salt and Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "roasted-garlic-parmesan-pretzel"
@@ -519,7 +594,7 @@
                 "saturated_fat": 0.5,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 650,
+                "sodium": 1240,
                 "total_carbohydrates": 68,
                 "dietary_fiber": 2,
                 "sugar": 12,
@@ -528,7 +603,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "No Butter or Salt"
+                "variant_name": "With Salt, No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -536,7 +614,7 @@
                 "saturated_fat": 0.5,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 1240,
+                "sodium": 650,
                 "total_carbohydrates": 68,
                 "dietary_fiber": 2,
                 "sugar": 12,
@@ -545,24 +623,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "With Salt, No Butter"
-            },
-            {
-                "calories": 380,
-                "total_fat": 8,
-                "saturated_fat": 4,
-                "trans_fat": 0,
-                "cholesterol": 15,
-                "sodium": 1240,
-                "total_carbohydrates": 68,
-                "dietary_fiber": 2,
-                "sugar": 12,
-                "protein": 8,
-                "vitamin_a": 4,
-                "vitamin_c": 0,
-                "calcium": 4,
-                "iron": 4,
-                "variant_name": "With Butter and Salt"
+                "variant_name": "No Butter or Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -579,7 +643,30 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "With Butter, No Salt"
+                "variant_name": "With Butter, No Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 380,
+                "total_fat": 8,
+                "saturated_fat": 4,
+                "trans_fat": 0,
+                "cholesterol": 15,
+                "sodium": 1240,
+                "total_carbohydrates": 68,
+                "dietary_fiber": 2,
+                "sugar": 12,
+                "protein": 8,
+                "vitamin_a": 4,
+                "vitamin_c": 0,
+                "calcium": 4,
+                "iron": 4,
+                "variant_name": "With Butter and Salt",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sour-cream-onion-pretzel"
@@ -605,7 +692,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -622,7 +712,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-almond-pretzel"
@@ -646,7 +739,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -667,7 +763,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -688,7 +787,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -709,7 +811,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -730,7 +835,10 @@
         "vitamin_a": 6,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -751,7 +859,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -772,7 +883,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -793,7 +907,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -816,7 +933,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -833,7 +953,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -850,7 +973,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cherry-coke"
@@ -876,7 +1002,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -893,7 +1022,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -910,7 +1042,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coca-cola"
@@ -927,23 +1062,6 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 10,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "Medium"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
                 "sodium": 5,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -953,7 +1071,30 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 10,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -970,7 +1111,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coca-cola"
@@ -996,7 +1140,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1013,7 +1160,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1030,7 +1180,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dr-pepper"
@@ -1056,7 +1209,10 @@
                 "vitamin_c": 220,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -1073,7 +1229,10 @@
                 "vitamin_c": 300,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1090,7 +1249,10 @@
                 "vitamin_c": 430,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hi-c-fruit-punch"
@@ -1116,7 +1278,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -1133,7 +1298,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1150,7 +1318,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-fanta"
@@ -1176,7 +1347,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -1193,7 +1367,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1210,7 +1387,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "root-beer"
@@ -1236,7 +1416,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1253,7 +1436,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -1270,7 +1456,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -1296,7 +1485,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1313,7 +1505,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1330,7 +1525,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-black-tea-with-lemon"
@@ -1356,7 +1554,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1373,7 +1574,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1390,7 +1594,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-peach-tea"
@@ -1416,7 +1623,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1433,7 +1643,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1450,7 +1663,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-raspberry-tea"
@@ -1476,7 +1692,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1493,7 +1712,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1510,7 +1732,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-sweet-tea"
@@ -1527,6 +1752,26 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
+                "sodium": 15,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
                 "sodium": 20,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -1536,7 +1781,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1553,24 +1801,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
-            },
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 15,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-unsweetened-tea"
@@ -1596,7 +1830,10 @@
                 "vitamin_c": 170,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -1613,7 +1850,10 @@
                 "vitamin_c": 230,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -1630,7 +1870,10 @@
                 "vitamin_c": 320,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-green-tea"
@@ -1656,7 +1899,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1673,7 +1919,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1690,7 +1939,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-peach-tea"
@@ -1716,7 +1968,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1733,7 +1988,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1750,7 +2008,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-raspberry-tea"
@@ -1776,7 +2037,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1793,7 +2057,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1810,7 +2077,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-sweetened-black-tea"
@@ -1827,6 +2097,26 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
+                "sodium": 20,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
                 "sodium": 25,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -1836,7 +2126,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1853,24 +2146,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 20,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-unsweetened-black-tea"
@@ -1896,7 +2175,10 @@
                 "vitamin_c": 8,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -1913,7 +2195,10 @@
                 "vitamin_c": 10,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1930,7 +2215,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lemonade-iced-tea"
@@ -1956,7 +2244,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -1973,7 +2264,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1990,7 +2284,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-iced-tea"
@@ -2016,7 +2313,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2033,7 +2333,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2050,7 +2353,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-raspberry-icee"
@@ -2076,7 +2382,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2093,7 +2402,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2110,7 +2422,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coca-cola-icee"
@@ -2136,7 +2451,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2153,7 +2471,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2170,7 +2491,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "wild-cherry-icee"
@@ -2196,7 +2520,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2213,7 +2540,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -2230,7 +2560,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-raspberry-lemonade-mixer"
@@ -2256,7 +2589,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2273,7 +2609,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -2290,7 +2629,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-blue-raspberry-lemonade-mixer"
@@ -2316,7 +2658,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2333,7 +2678,10 @@
                 "vitamin_c": 25,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -2350,7 +2698,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-lemonade-lemonade-mixer"
@@ -2376,7 +2727,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2393,7 +2747,10 @@
                 "vitamin_c": 20,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -2410,7 +2767,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-mango-lemonade-mixer"
@@ -2436,7 +2796,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2453,7 +2816,10 @@
                 "vitamin_c": 20,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -2470,7 +2836,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-strawberry-lemonade-mixer"
@@ -2496,7 +2865,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2513,7 +2885,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -2530,7 +2905,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-wild-cherry-lemonade-mixer"
@@ -2556,7 +2934,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2573,7 +2954,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -2590,7 +2974,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mango-lemonade-mixer"
@@ -2616,7 +3003,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -2633,7 +3023,10 @@
                 "vitamin_c": 25,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -2650,7 +3043,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "old-fashioned-lemonade"
@@ -2676,7 +3072,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2693,7 +3092,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -2710,7 +3112,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-lemonade-mixer"
@@ -2736,7 +3141,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -2753,7 +3161,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -2770,7 +3181,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "wild-cherry-lemonade-mixer"
@@ -2787,23 +3201,6 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 5,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "12 fl oz"
-            },
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
                 "sodium": 10,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -2813,7 +3210,30 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 5,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "12 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coffee"
@@ -2839,7 +3259,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2856,7 +3279,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -2873,7 +3299,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mocha-ice"
@@ -2897,7 +3326,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -2920,7 +3352,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -2937,7 +3372,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cheese-pretzel-dog"
@@ -2963,7 +3401,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -2980,7 +3421,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "jalapeno-cheese-pretzel-dog"
@@ -3006,7 +3450,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 630,
@@ -3023,7 +3470,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mini-pretzel-dogs"
@@ -3049,7 +3499,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -3066,7 +3519,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pretzel-dog"
@@ -3092,7 +3548,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -3109,7 +3568,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cinnamon-sugar-pretzel-nuggets"
@@ -3135,7 +3597,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -3152,7 +3617,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "original-pretzel-nuggets"
@@ -3178,7 +3646,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "No Butter"
+                "variant_name": "No Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -3195,7 +3666,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "With Butter"
+                "variant_name": "With Butter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pepperoni-pretzel-nuggets"
@@ -3219,7 +3693,10 @@
         "vitamin_a": 15,
         "vitamin_c": 8,
         "calcium": 30,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -3240,7 +3717,10 @@
         "vitamin_a": 15,
         "vitamin_c": 8,
         "calcium": 30,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Auntie Anne's",
@@ -3263,7 +3743,10 @@
                 "vitamin_c": 40,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -3280,7 +3763,10 @@
                 "vitamin_c": 50,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -3297,7 +3783,10 @@
                 "vitamin_c": 80,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mango-smoothie"
@@ -3323,7 +3812,10 @@
                 "vitamin_c": 25,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -3340,7 +3832,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -3357,7 +3852,10 @@
                 "vitamin_c": 50,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pina-colada-smoothie"
@@ -3383,7 +3881,10 @@
                 "vitamin_c": 90,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -3400,7 +3901,10 @@
                 "vitamin_c": 120,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -3417,7 +3921,10 @@
                 "vitamin_c": 170,
                 "calcium": 4,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-smoothie"
@@ -3443,7 +3950,10 @@
                 "vitamin_c": 70,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -3460,7 +3970,10 @@
                 "vitamin_c": 90,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -3477,7 +3990,10 @@
                 "vitamin_c": 140,
                 "calcium": 6,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-banana-smoothie"
@@ -3503,7 +4019,10 @@
                 "vitamin_c": 60,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -3520,7 +4039,10 @@
                 "vitamin_c": 80,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -3537,7 +4059,10 @@
                 "vitamin_c": 120,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "wild-berry-smoothie"

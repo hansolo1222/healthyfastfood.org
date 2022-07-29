@@ -20,7 +20,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -37,7 +40,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bacon-and-egg-burrito"
@@ -61,7 +67,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -82,7 +91,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -103,7 +115,10 @@
         "vitamin_a": 20,
         "vitamin_c": 10,
         "calcium": 30,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -124,7 +139,10 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -147,7 +165,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -164,7 +185,10 @@
                 "vitamin_c": 8,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "egg-and-taters-burrito"
@@ -188,7 +212,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -209,7 +236,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -230,7 +260,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -253,7 +286,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -270,7 +306,10 @@
                 "vitamin_c": 8,
                 "calcium": 20,
                 "iron": 30,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sausage-and-egg-burrito"
@@ -296,7 +335,10 @@
                 "vitamin_c": 25,
                 "calcium": 0,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -313,7 +355,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "taters-and-gravy"
@@ -337,7 +382,10 @@
         "vitamin_a": 20,
         "vitamin_c": 10,
         "calcium": 25,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -358,7 +406,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -381,7 +432,10 @@
                 "vitamin_c": 15,
                 "calcium": 30,
                 "iron": 35,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -398,7 +452,10 @@
                 "vitamin_c": 10,
                 "calcium": 35,
                 "iron": 40,
-                "variant_name": "Seasoned Beef"
+                "variant_name": "Seasoned Beef",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -415,7 +472,10 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 35,
-                "variant_name": "Pork"
+                "variant_name": "Pork",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "big-juan-burrito"
@@ -441,7 +501,10 @@
                 "vitamin_c": 10,
                 "calcium": 35,
                 "iron": 20,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -458,7 +521,10 @@
                 "vitamin_c": 15,
                 "calcium": 35,
                 "iron": 30,
-                "variant_name": "Seasoned Beef"
+                "variant_name": "Seasoned Beef",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 540,
@@ -475,7 +541,10 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 25,
-                "variant_name": "Pork"
+                "variant_name": "Pork",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "casita-burrito"
@@ -499,7 +568,10 @@
         "vitamin_a": 10,
         "vitamin_c": 10,
         "calcium": 20,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -520,7 +592,10 @@
         "vitamin_a": 8,
         "vitamin_c": 10,
         "calcium": 25,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -541,7 +616,10 @@
         "vitamin_a": 6,
         "vitamin_c": 20,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -562,7 +640,10 @@
         "vitamin_a": 6,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -583,7 +664,10 @@
         "vitamin_a": 4,
         "vitamin_c": 2,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -604,7 +688,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -612,23 +699,6 @@
         "meal_name": "Pinto Bean Burrito",
         "category": "Burritos",
         "variants": [
-            {
-                "calories": 380,
-                "total_fat": 13,
-                "saturated_fat": 3.5,
-                "trans_fat": null,
-                "cholesterol": 10,
-                "sodium": 2000,
-                "total_carbohydrates": 53,
-                "dietary_fiber": 8,
-                "sugar": 2,
-                "protein": 13,
-                "vitamin_a": 15,
-                "vitamin_c": 4,
-                "calcium": 20,
-                "iron": 20,
-                "variant_name": "Crisp"
-            },
             {
                 "calories": 380,
                 "total_fat": 10,
@@ -644,7 +714,30 @@
                 "vitamin_c": 4,
                 "calcium": 25,
                 "iron": 30,
-                "variant_name": "Soft"
+                "variant_name": "Soft",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 380,
+                "total_fat": 13,
+                "saturated_fat": 3.5,
+                "trans_fat": null,
+                "cholesterol": 10,
+                "sodium": 2000,
+                "total_carbohydrates": 53,
+                "dietary_fiber": 8,
+                "sugar": 2,
+                "protein": 13,
+                "vitamin_a": 15,
+                "vitamin_c": 4,
+                "calcium": 20,
+                "iron": 20,
+                "variant_name": "Crisp",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pinto-bean-burrito"
@@ -668,7 +761,10 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": 20,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -689,7 +785,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -710,7 +809,10 @@
         "vitamin_a": 20,
         "vitamin_c": 10,
         "calcium": 30,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -731,7 +833,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -752,7 +857,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -773,7 +881,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -794,7 +905,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -815,7 +929,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -836,7 +953,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -857,7 +977,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -878,7 +1001,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -899,7 +1025,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -920,7 +1049,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -941,7 +1073,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -962,7 +1097,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -983,7 +1121,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1004,7 +1145,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1025,7 +1169,10 @@
         "vitamin_a": 60,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1046,7 +1193,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1069,7 +1219,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -1086,7 +1239,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1103,7 +1259,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-raspberry-limeade"
@@ -1129,7 +1288,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1146,7 +1308,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1163,7 +1328,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cherry-habanerolimeade"
@@ -1189,7 +1357,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1206,7 +1377,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -1223,7 +1397,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fresh-lime-limeade"
@@ -1249,7 +1426,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -1266,7 +1446,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1283,7 +1466,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mango-pineapple-limeade"
@@ -1309,7 +1495,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -1326,7 +1515,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -1343,7 +1535,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mojito-limeade"
@@ -1369,7 +1564,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1386,7 +1584,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -1403,7 +1604,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-mango-limeade"
@@ -1429,7 +1633,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1446,7 +1653,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1463,7 +1673,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-tea"
@@ -1487,7 +1700,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1508,7 +1724,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1529,7 +1748,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1550,7 +1772,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1571,7 +1796,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1592,7 +1820,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1613,7 +1844,10 @@
         "vitamin_a": 10,
         "vitamin_c": 8,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1636,7 +1870,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1200,
@@ -1653,7 +1890,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Seasoned Beef"
+                "variant_name": "Seasoned Beef",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1210,
@@ -1670,7 +1910,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Pork"
+                "variant_name": "Pork",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "casita-burrito-platter"
@@ -1696,7 +1939,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1380,
@@ -1713,7 +1959,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Seasoned Beef"
+                "variant_name": "Seasoned Beef",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1390,
@@ -1730,7 +1979,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Pork"
+                "variant_name": "Pork",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chimi-platter"
@@ -1756,7 +2008,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1070,
@@ -1773,7 +2028,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Seaoned Beef"
+                "variant_name": "Seaoned Beef",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1080,
@@ -1790,7 +2048,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Pork"
+                "variant_name": "Pork",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "enchilada-platter"
@@ -1814,7 +2075,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1835,7 +2099,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1856,7 +2123,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1877,7 +2147,10 @@
         "vitamin_a": 8,
         "vitamin_c": 10,
         "calcium": 15,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1898,7 +2171,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1919,7 +2195,10 @@
         "vitamin_a": 8,
         "vitamin_c": 10,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1940,7 +2219,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1961,7 +2243,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -1982,7 +2267,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2003,7 +2291,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2024,7 +2315,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2045,7 +2339,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2066,7 +2363,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2087,7 +2387,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2108,7 +2411,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2129,7 +2435,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2150,7 +2459,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2171,7 +2483,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2192,7 +2507,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2213,7 +2531,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2234,7 +2555,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2255,7 +2579,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2276,7 +2603,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2297,7 +2627,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2318,7 +2651,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2339,7 +2675,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2360,7 +2699,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2381,7 +2723,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2404,7 +2749,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Kid's"
+                "variant_name": "Kid's",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -2421,7 +2769,10 @@
                 "vitamin_c": 20,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2438,7 +2789,10 @@
                 "vitamin_c": 30,
                 "calcium": 0,
                 "iron": 8,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -2455,7 +2809,10 @@
                 "vitamin_c": 40,
                 "calcium": 0,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mexi-fries"
@@ -2481,7 +2838,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -2498,7 +2858,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 4,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -2515,7 +2878,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "stuffed-mexi-fries"
@@ -2539,7 +2905,10 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2560,7 +2929,10 @@
         "vitamin_a": 15,
         "vitamin_c": 8,
         "calcium": 30,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2581,7 +2953,10 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2602,7 +2977,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2623,7 +3001,10 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2644,7 +3025,10 @@
         "vitamin_a": 15,
         "vitamin_c": 6,
         "calcium": 25,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2665,7 +3049,10 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": 15,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2686,7 +3073,10 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Taco Time",
@@ -2707,6 +3097,9 @@
         "vitamin_a": 20,
         "vitamin_c": 8,
         "calcium": 30,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

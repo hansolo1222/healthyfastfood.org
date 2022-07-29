@@ -1,18 +1,14 @@
 import { writeFileSync } from 'fs';
 import { globby } from 'globby';
 import prettier from 'prettier';
-// import { PrismaClient } from '@prisma/client';
-// const prisma = new PrismaClient()
+import { PrismaClient } from '@prisma/client';
+const prisma = new PrismaClient()
 import path from 'path'
 
 // const context = require.context('../public', true, /.json$/);
 
-
 const BASE_URL = 'https://healthyfastfood.org';
 
-import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
-
-import * as mcdonalds from '../public/data/mcdonalds.json' assert {type: "json"};
 
 const createSitemap = (posts) => `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -56,13 +52,21 @@ async function generate() {
         const completePath = `${BASE_URL}${route}`
       return completePath
     })
+
+    const restaurants = await prisma.restaurant.findMany()
+
+    const meals = await prisma.meal.findMany({
+      include: {
+        restaurant: true
+      }
+    })
   
-    const restaurantPaths = restaurants.default.map((e)=>(`${BASE_URL}/${e.slug}`))
+    const restaurantPaths = restaurants.map((restaurant)=>(`${BASE_URL}/${restaurant.slug}`))
 
-    const mcdonaldsPaths = restaurants.default.map((e)=>(`${BASE_URL}/${e.restaurant_slug}/${e.slug}`))
+    const mealPaths = meals.map((meal)=>(`${BASE_URL}/${meal.restaurant.slug}/${meal.slug}`))
 
 
-    const allPaths = [...staticPaths, ...restaurantPaths, ...mcdonaldsPaths]
+    const allPaths = [...staticPaths, ...restaurantPaths, ...mealPaths]
 
     const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>

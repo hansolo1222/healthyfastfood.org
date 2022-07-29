@@ -18,7 +18,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -41,7 +56,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Spicy Calabrian Chicken"
+                "variant_name": "Spicy Calabrian Chicken",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 630,
@@ -58,7 +88,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken Parmigiana"
+                "variant_name": "Chicken Parmigiana",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -75,7 +120,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Eggplant Parmigiana"
+                "variant_name": "Eggplant Parmigiana",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -92,7 +152,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Italian Meatball"
+                "variant_name": "Italian Meatball",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "breadstick-sandwich"
@@ -118,7 +193,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Marinara Sauce"
+                "variant_name": "w/ Marinara Sauce",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 860,
@@ -135,7 +224,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Meat Sauce"
+                "variant_name": "w/ Meat Sauce",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cheese-ravioli"
@@ -159,7 +262,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -180,7 +298,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -201,7 +334,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -222,7 +370,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -245,7 +408,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 1060,
@@ -262,7 +439,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Fried"
+                "variant_name": "Fried",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-parmigiana"
@@ -286,7 +477,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -307,7 +513,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -328,7 +549,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -349,7 +584,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -370,7 +620,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -391,7 +655,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Sirloin steak, gorgonzola cheese, sun-dried tomatoes, balsamic drizzle, fettuccine alfredo, brocccoli."
     },
     {
         "restaurant_name": "Olive Garden",
@@ -412,7 +692,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -433,7 +728,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "sesame",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -454,7 +764,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -475,7 +800,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -496,7 +836,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": "Sirloin steak, parmesan-alfredo crust, fettuccine alfredo, broccoli."
     },
     {
         "restaurant_name": "Olive Garden",
@@ -517,7 +873,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -538,7 +908,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -559,7 +944,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -580,7 +980,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -601,7 +1016,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -622,7 +1052,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -643,7 +1088,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -664,7 +1124,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -685,7 +1160,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Zucchini noodles, basil cream sauce, broccoli, carrots, tomatoes, roasted red peppers, mushrooms."
     },
     {
         "restaurant_name": "Olive Garden",
@@ -706,7 +1197,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -727,7 +1233,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -748,7 +1269,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -769,7 +1305,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -790,7 +1341,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -811,7 +1378,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -832,7 +1414,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -855,7 +1452,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Spicy"
+                "variant_name": "Spicy",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 580,
@@ -872,7 +1484,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Classic"
+                "variant_name": "Classic",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "shrimp-scampi-fritta"
@@ -896,7 +1523,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -917,7 +1560,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "sesame",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -938,7 +1596,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -959,7 +1632,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -980,7 +1668,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1001,7 +1704,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1022,7 +1740,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1043,7 +1776,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1064,7 +1812,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1085,7 +1848,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1106,7 +1884,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1127,7 +1920,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1148,7 +1956,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1169,7 +1992,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1192,7 +2030,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "without Dressing"
+                "variant_name": "without Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 100,
@@ -1209,7 +2062,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "with Low Fat Dressing"
+                "variant_name": "with Low Fat Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -1226,7 +2094,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "with Dressing"
+                "variant_name": "with Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "house-salad"
@@ -1250,7 +2133,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1271,7 +2169,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1292,7 +2205,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Olive Garden",
@@ -1313,6 +2241,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

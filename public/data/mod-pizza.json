@@ -18,7 +18,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "asiago cheese (pasteurized cultured milk, salt, enzymes), powdered cellulose (to prevent caking)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -39,7 +53,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "mild cheddar cheese (pasteurized milk, cheese cultures, salt, enzymes, annatto [vegetable color]), powdered cellulose, (to prevent caking)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -60,7 +88,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": "filtered water, tapioca starch, coconut oil, expeller pressed: canola and/or safflower oil, vegan natural flavors, chickpea protein, salt, potato protein, tricalcium phosphate, lactic acid (vegan), konjac gum, xanthan gum, yeast extract, fruit and/or vegetable juice color"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -81,7 +121,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "feta cheese (pasteurized part-skim milk, cheese culture, salt, enzymes), powdered cellulose to prevent caking"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -102,7 +156,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "gorgonzola cheese (milk, cheese cultures, salt, enzymes, penicillium roquefortii), powdered cellulose (to prevent caking)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -123,7 +191,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "whole milk mozzarella cheese (cultured pasteurized milk, salt, enzymes), powdered cellulose (to prevent caking), dextrose, enzymes"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -144,7 +226,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "parmesan cheese (pasteurized part-skim cow\u2019s milk, cheese cultures, salt, enzymes)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -165,7 +261,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "pasteurized milk, pasteurized cream, vinegar, salt, stabilizers (xanthan gum, locust bean gum, guar gum)."
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -186,7 +296,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -207,7 +331,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -228,7 +365,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -249,7 +400,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -270,7 +435,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -291,7 +470,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -312,7 +494,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -333,7 +518,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -354,7 +542,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -375,7 +566,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -396,7 +590,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -417,7 +614,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -438,7 +638,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -459,7 +662,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -480,7 +686,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -501,7 +710,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -522,7 +734,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -543,7 +758,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -564,7 +782,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -585,7 +806,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -608,7 +832,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -625,7 +852,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "barqs-root-beer"
@@ -651,7 +881,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -668,7 +901,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-sky-black-cherry"
@@ -694,7 +930,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -711,7 +950,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-sky-mango-orange"
@@ -737,7 +979,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -754,7 +999,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blue-sky-root-beer"
@@ -780,7 +1028,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 120,
@@ -797,7 +1048,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caramelized-pear-ice-tea"
@@ -823,7 +1077,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -840,7 +1097,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coca-cola"
@@ -866,7 +1126,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -883,7 +1146,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke-zero"
@@ -909,7 +1175,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -926,7 +1195,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -952,7 +1224,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -969,7 +1244,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dr.-pepper"
@@ -995,7 +1273,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1012,7 +1293,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fanta-orange"
@@ -1038,7 +1322,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -1055,7 +1342,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fuze-raspberry-tea"
@@ -1081,7 +1371,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1098,7 +1391,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-sweetened-black-tea"
@@ -1124,7 +1420,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -1141,7 +1440,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-sweetened-green-tea"
@@ -1167,7 +1469,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1184,7 +1489,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "gold-peak-unsweetened-black-tea"
@@ -1210,7 +1518,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -1227,7 +1538,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "marionberry-lemonade"
@@ -1253,7 +1567,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1270,7 +1587,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "minute-maid-lemonade"
@@ -1296,7 +1616,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -1313,7 +1636,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "powerade-mountain-blast"
@@ -1339,7 +1665,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1356,7 +1685,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -1382,7 +1714,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1399,7 +1734,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "unsweetened-tea"
@@ -1425,7 +1763,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1442,7 +1783,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vintage-lemonade"
@@ -1466,7 +1810,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1487,7 +1834,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1508,7 +1858,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1529,7 +1882,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1550,7 +1906,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1571,7 +1930,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1592,7 +1954,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1613,7 +1978,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1634,7 +2002,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1655,7 +2026,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "anchovies, olive oil, salt"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1676,7 +2061,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "bacon (pork) cured with water, sea salt, cane sugar, natural flavors"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1697,7 +2095,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "pork loin cured with: water, sugar, salt, vinegar, rice starch, celery powder, cherry powder"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1718,7 +2129,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "chicken breast meat with rib meat, water, rice starch, lemon juice concentrate, vinegar, salt, black pepper"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1739,7 +2163,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "beef, water, salt, pepper"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1760,7 +2197,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "pork, water, salt, spices, corn syrup solids, paprika, garlic powder"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1781,7 +2231,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "pork, beef, salt, spices, dextrose and/or cane sugar, celery and/or cherry powder, oleoresin of paprika, flavorings, lactic acid starter culture, natural spice extractives, natural flavorings"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1802,7 +2265,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1823,7 +2299,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1844,7 +2323,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "pork, beef, sea salt, contains 2% or less of: corn syrup solids, dextrose, sugar, lactic acid starter culture, celery powder, natural flavoring, spices, garlic pwder, citric acid"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1865,7 +2357,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "whole eggs, nonfat milk, corn syrup solids, salt, xanthan gum, citric acid and annatto (added for color)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1886,7 +2392,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "chicken, water, salt, spices, jalapeno powder, paprika, garlic powder"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1907,7 +2426,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "vanilla shake (milk, sugar, cream, corn syrup, nonfat milk, whey, mono- and diglycerides, cellulose gum, carrageenan, guar gum, locust bean gum, artificial vanilla flavor, annatto [color], vitamin a palmitate), chocolate syrup (sugar, corn syrup, high fructose corn syrup, water, cocoa [processed with alkali], cocoa, natural flavor, salt, potassium sorbate [preservative], xanthan gum)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1928,7 +2461,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1949,7 +2485,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1970,7 +2509,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -1991,7 +2533,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2012,7 +2557,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2033,7 +2581,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2054,7 +2605,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2075,7 +2629,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2096,7 +2653,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "vanilla shake(milk, sugar, cream, corn syrup, nonfat milk, whey, mono- and diglycerides, cellulose gum, carrageenan, guar gum, locust bean gum, artificial vanilla flavor, annatto [color], vitamin a palmitate), strawberry puree (strawberries, cane sugar, water, citric acid, guar gum, xanthan gum, fruit and vegetable juice for color)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2117,7 +2688,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "milk, sugar, cream, corn syrup, nonfat milk, whey, mono- and diglycerides, cellulose gum, carrageenan, guar gum, locust bean gum, artificial vanilla flavor, annatto (color), vitamin A palmitate"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2140,7 +2725,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 950,
@@ -2157,7 +2745,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1440,
@@ -2174,7 +2765,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "amelialayover-pizza"
@@ -2200,7 +2794,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 820,
@@ -2217,7 +2814,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1310,
@@ -2234,7 +2834,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "calexico-pizza"
@@ -2260,7 +2863,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -2277,7 +2883,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1410,
@@ -2294,7 +2903,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caspian-pizza"
@@ -2320,7 +2932,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 810,
@@ -2337,7 +2952,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1300,
@@ -2354,7 +2972,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dillon-james-pizza"
@@ -2380,7 +3001,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -2397,7 +3021,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1170,
@@ -2414,7 +3041,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dominic-pizza"
@@ -2440,7 +3070,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -2457,7 +3090,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1250,
@@ -2474,7 +3110,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "jasper-pizza"
@@ -2500,7 +3139,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -2517,7 +3159,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1250,
@@ -2534,7 +3179,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lucy-sunshine-pizza"
@@ -2560,7 +3208,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 960,
@@ -2577,7 +3228,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1450,
@@ -2594,7 +3248,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mad-dog-pizza"
@@ -2620,7 +3277,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 690,
@@ -2637,7 +3297,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1180,
@@ -2654,7 +3317,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "maddy-pizza"
@@ -2680,7 +3346,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 800,
@@ -2697,7 +3366,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1290,
@@ -2714,7 +3386,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tristan-pizza"
@@ -2740,7 +3415,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Dairy-free Cheese<br/>filtered water, tapioca starch, coconut oil, expeller pressed: canola and/or safflower oil, vegan natural flavors, chickpea protein, salt, potato protein, tricalcium phosphate, lactic acid (vegan), konjac gum, xanthan gum, yeast extract, fruit and/or vegetable juice color<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             },
             {
                 "calories": 850,
@@ -2757,7 +3446,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mod"
+                "variant_name": "Mod",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Dairy-free Cheese<br/>filtered water, tapioca starch, coconut oil, expeller pressed: canola and/or safflower oil, vegan natural flavors, chickpea protein, salt, potato protein, tricalcium phosphate, lactic acid (vegan), konjac gum, xanthan gum, yeast extract, fruit and/or vegetable juice color<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             },
             {
                 "calories": 1340,
@@ -2774,7 +3477,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Dairy-free Cheese<br/>filtered water, tapioca starch, coconut oil, expeller pressed: canola and/or safflower oil, vegan natural flavors, chickpea protein, salt, potato protein, tricalcium phosphate, lactic acid (vegan), konjac gum, xanthan gum, yeast extract, fruit and/or vegetable juice color<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             }
         ],
         "slug": "vegan-willow-pizza"
@@ -2800,7 +3517,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -2817,7 +3537,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1410,
@@ -2834,7 +3557,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "wilburred-eye-pizza"
@@ -2860,7 +3586,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Asiago Cheese<br/>asiago cheese (pasteurized cultured milk, salt, enzymes), powdered cellulose (to prevent caking)<br/><br/>Ricotta Cheese<br/>pasteurized milk, pasteurized cream, vinegar, salt, stabilizers (xanthan gum, locust bean gum, guar gum).<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             },
             {
                 "calories": 770,
@@ -2877,7 +3617,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mod"
+                "variant_name": "Mod",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Asiago Cheese<br/>asiago cheese (pasteurized cultured milk, salt, enzymes), powdered cellulose (to prevent caking)<br/><br/>Ricotta Cheese<br/>pasteurized milk, pasteurized cream, vinegar, salt, stabilizers (xanthan gum, locust bean gum, guar gum).<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             },
             {
                 "calories": 1260,
@@ -2894,7 +3648,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Pizza Dough<br/>unbleached enriched wheat flour (malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), water, extra virgin olive oil, sea salt, dough improver (wheat flour, malted barley flour, ascorbic acid, enzymes), yeast<br/><br/>Extra Virgin Olive Oil<br/>100% extra virgin olive oil<br/><br/>Chopped Garlic<br/>garlic cloves, 100% extra virgin olive oil, sea salt, black pepper<br/><br/>Plant Based Italian Sausage<br/>filtered water, non-gmo pea protein, expeller-pressed canola oil, tomato paste, sherry vinegar. contains 2% or less of: yeast extract, salt, onion powder, sugar, natural flavors, mushroom extract, celery seed powder, ginger powder, white pepper, tomato powder, sunflower oil, spices<br/><br/>Roasted Red Peppers<br/>red peppers, water, basil, garlic, salt, citric acid<br/><br/>Mushrooms<br/><br/>Asiago Cheese<br/>asiago cheese (pasteurized cultured milk, salt, enzymes), powdered cellulose (to prevent caking)<br/><br/>Ricotta Cheese<br/>pasteurized milk, pasteurized cream, vinegar, salt, stabilizers (xanthan gum, locust bean gum, guar gum).<br/><br/>Arugula<br/><br/>Romesco Sauce<br/>roasted red peppers (water, salt, citric acid), water, canola oil, red tomatoes, white wine vinegar, pumpkin seeds (canola oil), garlic (water, citric acid), paprika, sea salt, modified food starch, spices"
             }
         ],
         "slug": "willow-pizza"
@@ -2918,7 +3686,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "tomato puree (water, tomato paste), sugar, molasses, water, vinegar, less than 2% spices, natural hickory smoke flavor, natural flavor, modified food starch, salt, xanthan gum, onion, garlic, caramel color, turmeric, paprika extracts"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2939,7 +3720,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "100% extra virgin olive oil"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2960,7 +3754,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "garlic, water, citric acid"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -2981,7 +3788,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": "basil, canola oil, water, parmesan cheese (pasteurized part-skim cows' milk, cheese culture, salt, enzymes), granulated garlic, salt"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3002,7 +3822,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "fresh vine-ripened california tomatoes, extra heavy tomato puree, salt, citric acid, tomato puree, tomato juice, salt, calcium chloride, citric acid, basil, granulated garlic, black pepper, crushed red pepper, yeast extract, oregano, marjoram, sunflower oil, silicon dioxide (to prevent caking), natural flavor"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3023,7 +3856,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "red sauce (fresh vine-ripened california tomatoes, tomato puree, contains less than 2% of: salt, dehydrated garlic, basil, spices, yeast extract, natural flavors, citric acid), calabrian hot chilis (calabrian hot chilis, peppers, sunflower seed oil, salt, vinegar, natural herbs)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3044,7 +3890,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "water, milk (milk, vitamin d3), seasoning (modified corn starch, nonfat dry milk, salt, onion powder, garlic powder, spice, and not more than 2% soybean oil as a processing aid), heavy cream (cream, milk, nonfat milk, contains less than 1% of: carrageenan, cellulose gum, monoglycerides, polysorbate 80, salt, guar gum), butter flavor (butter [cream, salt], flavor), natural flavor (parmesan cheese [pasteurized milk, cultures, salt, enzymes], water, salt, disodium phosphate, and sodium citrate), garlic (garlic, water)"
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3065,7 +3925,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3086,7 +3949,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3107,7 +3973,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3128,7 +3997,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3149,7 +4021,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3170,7 +4045,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3191,7 +4069,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3212,7 +4093,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3233,7 +4117,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3254,7 +4141,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3275,7 +4165,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3296,7 +4189,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3319,7 +4215,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "romaine, parmesan cheese, asiago cheese, diced tomatoes, croutons, caesar dressing"
             },
             {
                 "calories": 680,
@@ -3336,7 +4245,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "romaine, parmesan cheese, asiago cheese, diced tomatoes, croutons, caesar dressing"
             },
             {
                 "calories": 1380,
@@ -3353,7 +4275,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "romaine, parmesan cheese, asiago cheese, diced tomatoes, croutons, caesar dressing"
             }
         ],
         "slug": "caesar-salad"
@@ -3379,7 +4314,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Mixed greens, romaine, diced tomatoes, cucumbers, sherry dijon vinaigrette."
             },
             {
                 "calories": 170,
@@ -3396,7 +4344,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Mixed greens, romaine, diced tomatoes, cucumbers, sherry dijon vinaigrette."
             },
             {
                 "calories": 320,
@@ -3413,7 +4374,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Mixed greens, romaine, diced tomatoes, cucumbers, sherry dijon vinaigrette."
             }
         ],
         "slug": "garden-salad"
@@ -3439,7 +4413,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, feta, red onions, black olives, Mama Lil\u2019s sweet hot peppers, diced tomatoes, chickpeas, cucumbers, Greek herb & tahini dressing."
             },
             {
                 "calories": 380,
@@ -3456,7 +4444,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, feta, red onions, black olives, Mama Lil\u2019s sweet hot peppers, diced tomatoes, chickpeas, cucumbers, Greek herb & tahini dressing."
             },
             {
                 "calories": 760,
@@ -3473,7 +4475,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, feta, red onions, black olives, Mama Lil\u2019s sweet hot peppers, diced tomatoes, chickpeas, cucumbers, Greek herb & tahini dressing."
             }
         ],
         "slug": "greek-salad"
@@ -3499,7 +4515,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, arugula, mozzarella, parmesan, salami, red onions, black olives, chickpeas, green bell peppers, zesty roma dressing."
             },
             {
                 "calories": 470,
@@ -3516,7 +4546,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "MOD"
+                "variant_name": "MOD",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, arugula, mozzarella, parmesan, salami, red onions, black olives, chickpeas, green bell peppers, zesty roma dressing."
             },
             {
                 "calories": 950,
@@ -3533,7 +4577,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Mega"
+                "variant_name": "Mega",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Romaine lettuce, arugula, mozzarella, parmesan, salami, red onions, black olives, chickpeas, green bell peppers, zesty roma dressing."
             }
         ],
         "slug": "italian-chop-salad"
@@ -3557,7 +4615,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3578,7 +4639,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3599,7 +4663,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3620,7 +4687,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3641,7 +4711,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3662,7 +4735,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3683,7 +4759,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3704,7 +4783,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3725,7 +4807,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3746,7 +4831,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3767,7 +4855,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3788,7 +4879,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3809,7 +4903,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3830,7 +4927,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3851,7 +4951,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3872,7 +4975,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3893,7 +4999,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3914,7 +5023,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3935,7 +5047,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3956,7 +5071,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3977,7 +5095,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -3998,7 +5119,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4019,7 +5143,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4040,7 +5167,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4061,7 +5191,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4082,7 +5215,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4103,7 +5239,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4124,7 +5263,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mod Pizza",
@@ -4145,6 +5287,9 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

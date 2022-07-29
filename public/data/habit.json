@@ -18,7 +18,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -39,7 +42,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -60,7 +66,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -81,7 +90,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -102,7 +114,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -123,7 +138,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -144,7 +162,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -165,7 +186,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -186,7 +210,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -207,7 +234,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -228,7 +258,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -249,7 +282,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -270,7 +306,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -291,7 +330,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -312,7 +354,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -333,7 +378,10 @@
         "vitamin_a": 8,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -354,7 +402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -375,7 +426,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -396,7 +450,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -417,7 +474,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 14
+        "iron": 14,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -438,7 +498,10 @@
         "vitamin_a": 10,
         "vitamin_c": 15,
         "calcium": 6,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -459,7 +522,10 @@
         "vitamin_a": 10,
         "vitamin_c": 15,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -480,7 +546,10 @@
         "vitamin_a": 10,
         "vitamin_c": 15,
         "calcium": 8,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -501,7 +570,10 @@
         "vitamin_a": 15,
         "vitamin_c": 15,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -522,7 +594,10 @@
         "vitamin_a": 15,
         "vitamin_c": 8,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -543,7 +618,10 @@
         "vitamin_a": 28,
         "vitamin_c": 23,
         "calcium": 26,
-        "iron": 34
+        "iron": 34,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -564,7 +642,10 @@
         "vitamin_a": 10,
         "vitamin_c": 15,
         "calcium": 6,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -585,7 +666,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -606,7 +690,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -627,7 +714,10 @@
         "vitamin_a": 16,
         "vitamin_c": 8,
         "calcium": 50,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -648,7 +738,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -669,7 +762,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -690,7 +786,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -711,7 +810,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -732,7 +834,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -753,7 +858,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -774,7 +882,10 @@
         "vitamin_a": 16,
         "vitamin_c": 8,
         "calcium": 50,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -795,7 +906,10 @@
         "vitamin_a": 6,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -816,7 +930,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -837,7 +954,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -858,7 +978,10 @@
         "vitamin_a": 16,
         "vitamin_c": 8,
         "calcium": 50,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -879,7 +1002,10 @@
         "vitamin_a": 2,
         "vitamin_c": 15,
         "calcium": 4,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -900,7 +1026,10 @@
         "vitamin_a": 0,
         "vitamin_c": 15,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -921,7 +1050,10 @@
         "vitamin_a": 8,
         "vitamin_c": 20,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -942,7 +1074,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -963,7 +1098,10 @@
         "vitamin_a": 240,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -984,7 +1122,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 10,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1005,7 +1146,10 @@
         "vitamin_a": 0,
         "vitamin_c": 20,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1026,7 +1170,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1047,7 +1194,10 @@
         "vitamin_a": 2,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1068,7 +1218,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1089,7 +1242,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1110,7 +1266,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1131,7 +1290,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1152,7 +1314,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1173,7 +1338,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1194,7 +1362,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1215,7 +1386,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1236,7 +1410,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1257,7 +1434,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1278,7 +1458,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 9,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1299,7 +1482,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1320,7 +1506,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1341,7 +1530,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1362,7 +1554,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1383,7 +1578,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1404,7 +1602,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1425,7 +1626,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1446,7 +1650,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1467,7 +1674,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1488,7 +1698,10 @@
         "vitamin_a": 10,
         "vitamin_c": 4,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1509,7 +1722,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1530,7 +1746,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1551,7 +1770,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1572,7 +1794,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1593,7 +1818,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1614,7 +1842,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1635,7 +1866,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1656,7 +1890,10 @@
         "vitamin_a": 2,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1677,7 +1914,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1698,7 +1938,10 @@
         "vitamin_a": 4,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1719,7 +1962,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1740,7 +1986,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1761,7 +2010,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1782,7 +2034,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1803,7 +2058,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1824,7 +2082,10 @@
         "vitamin_a": 250,
         "vitamin_c": 70,
         "calcium": 30,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1845,7 +2106,10 @@
         "vitamin_a": 250,
         "vitamin_c": 70,
         "calcium": 30,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1866,7 +2130,10 @@
         "vitamin_a": 440,
         "vitamin_c": 45,
         "calcium": 10,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1887,7 +2154,10 @@
         "vitamin_a": 440,
         "vitamin_c": 50,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1908,7 +2178,10 @@
         "vitamin_a": 250,
         "vitamin_c": 70,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1929,7 +2202,10 @@
         "vitamin_a": 540,
         "vitamin_c": 50,
         "calcium": 25,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1950,7 +2226,10 @@
         "vitamin_a": 300,
         "vitamin_c": 180,
         "calcium": 30,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1971,7 +2250,10 @@
         "vitamin_a": 15,
         "vitamin_c": 10,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -1992,7 +2274,10 @@
         "vitamin_a": 50,
         "vitamin_c": 30,
         "calcium": 4,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2013,7 +2298,10 @@
         "vitamin_a": 15,
         "vitamin_c": 10,
         "calcium": 8,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2034,7 +2322,10 @@
         "vitamin_a": 15,
         "vitamin_c": 25,
         "calcium": 20,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2055,7 +2346,10 @@
         "vitamin_a": 15,
         "vitamin_c": 15,
         "calcium": 4,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2076,7 +2370,10 @@
         "vitamin_a": 20,
         "vitamin_c": 15,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2097,7 +2394,10 @@
         "vitamin_a": 0,
         "vitamin_c": 20,
         "calcium": 0,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2118,7 +2418,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2139,7 +2442,10 @@
         "vitamin_a": 120,
         "vitamin_c": 30,
         "calcium": 15,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2160,7 +2466,10 @@
         "vitamin_a": 150,
         "vitamin_c": 15,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2181,7 +2490,10 @@
         "vitamin_a": 187,
         "vitamin_c": 40,
         "calcium": 5,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "The Habit",
@@ -2202,6 +2514,9 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

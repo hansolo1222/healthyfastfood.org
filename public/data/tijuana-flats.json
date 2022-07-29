@@ -18,7 +18,10 @@
         "vitamin_a": 21,
         "vitamin_c": 40,
         "calcium": 1,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -39,7 +42,10 @@
         "vitamin_a": 41,
         "vitamin_c": 13,
         "calcium": 96,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -60,7 +66,10 @@
         "vitamin_a": 45,
         "vitamin_c": 47,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -81,7 +90,10 @@
         "vitamin_a": 39,
         "vitamin_c": 38,
         "calcium": 41,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -102,7 +114,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -125,7 +140,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 238,
@@ -142,7 +160,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke"
@@ -168,7 +189,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -185,7 +209,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -211,7 +238,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 177,
@@ -228,7 +258,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "luzianne-tea"
@@ -254,7 +287,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 233,
@@ -271,7 +307,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -295,7 +334,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -316,7 +358,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -337,7 +382,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 28
+        "iron": 28,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -358,7 +406,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -379,7 +430,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -400,7 +454,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -421,7 +478,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -442,7 +502,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -463,7 +526,10 @@
         "vitamin_a": 24,
         "vitamin_c": 0,
         "calcium": 71,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -484,7 +550,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -505,7 +574,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -526,7 +598,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -547,7 +622,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -568,7 +646,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -589,7 +670,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -610,7 +694,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -631,7 +718,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -652,7 +742,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -673,7 +766,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -694,7 +790,10 @@
         "vitamin_a": 12,
         "vitamin_c": 0,
         "calcium": 75,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -715,7 +814,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -736,7 +838,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -757,7 +862,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -778,7 +886,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -799,7 +910,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -820,7 +934,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -841,7 +958,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -862,7 +982,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -885,7 +1008,10 @@
                 "vitamin_c": 2,
                 "calcium": 4,
                 "iron": 11,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -902,7 +1028,10 @@
                 "vitamin_c": 3,
                 "calcium": 8,
                 "iron": 22,
-                "variant_name": "Whole Serving"
+                "variant_name": "Whole Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-black-beans"
@@ -928,7 +1057,10 @@
                 "vitamin_c": 17,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -945,7 +1077,10 @@
                 "vitamin_c": 33,
                 "calcium": 1,
                 "iron": 11,
-                "variant_name": "Whole Serving"
+                "variant_name": "Whole Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-guacamole"
@@ -971,7 +1106,10 @@
                 "vitamin_c": 7,
                 "calcium": 49,
                 "iron": 0,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 531,
@@ -988,7 +1126,10 @@
                 "vitamin_c": 13,
                 "calcium": 98,
                 "iron": 0,
-                "variant_name": "Whole Serving"
+                "variant_name": "Whole Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-queso"
@@ -1014,7 +1155,10 @@
                 "vitamin_c": 3,
                 "calcium": 4,
                 "iron": 11,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1031,7 +1175,10 @@
                 "vitamin_c": 8,
                 "calcium": 8,
                 "iron": 22,
-                "variant_name": "Whole Serving"
+                "variant_name": "Whole Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-refried-beans"
@@ -1057,7 +1204,10 @@
                 "vitamin_c": 13,
                 "calcium": 4,
                 "iron": 11,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 294,
@@ -1074,7 +1224,10 @@
                 "vitamin_c": 28,
                 "calcium": 7,
                 "iron": 22,
-                "variant_name": "Whole Serving"
+                "variant_name": "Whole Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-rice"
@@ -1100,7 +1253,10 @@
                 "vitamin_c": 18,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "Half Serving"
+                "variant_name": "Half Serving",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 75,
@@ -1117,7 +1273,10 @@
                 "vitamin_c": 38,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "extra-salsa"
@@ -1141,7 +1300,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1162,7 +1324,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1183,7 +1348,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1204,7 +1372,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1225,7 +1396,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1246,7 +1420,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1267,7 +1444,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1288,7 +1468,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1309,7 +1492,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1330,7 +1516,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1351,7 +1540,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1372,7 +1564,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1393,7 +1588,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1414,7 +1612,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1435,7 +1636,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1456,7 +1660,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1477,7 +1684,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1498,7 +1708,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1519,7 +1732,10 @@
         "vitamin_a": 5,
         "vitamin_c": 0,
         "calcium": 5,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1540,7 +1756,10 @@
         "vitamin_a": 7,
         "vitamin_c": 3,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1561,7 +1780,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1582,7 +1804,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1603,7 +1828,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1624,7 +1852,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1645,7 +1876,10 @@
         "vitamin_a": 5,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1666,7 +1900,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1687,7 +1924,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1708,7 +1948,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1729,7 +1972,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1750,7 +1996,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1771,7 +2020,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1792,7 +2044,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1813,7 +2068,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1834,7 +2092,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1855,7 +2116,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1876,7 +2140,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1897,7 +2164,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1918,7 +2188,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1939,7 +2212,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1960,7 +2236,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -1981,7 +2260,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2002,7 +2284,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2023,7 +2308,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2044,7 +2332,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2065,7 +2356,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2086,7 +2380,10 @@
         "vitamin_a": 1,
         "vitamin_c": 20,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2107,7 +2404,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2128,7 +2428,10 @@
         "vitamin_a": 7,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2149,7 +2452,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2170,7 +2476,10 @@
         "vitamin_a": 36,
         "vitamin_c": 18,
         "calcium": 52,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2191,7 +2500,10 @@
         "vitamin_a": 36,
         "vitamin_c": 35,
         "calcium": 52,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2212,7 +2524,10 @@
         "vitamin_a": 36,
         "vitamin_c": 18,
         "calcium": 52,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2233,7 +2548,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2254,7 +2572,10 @@
         "vitamin_a": 16,
         "vitamin_c": 0,
         "calcium": 47,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2275,7 +2596,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2296,7 +2620,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2317,7 +2644,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2338,7 +2668,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2359,7 +2692,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2380,7 +2716,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2401,7 +2740,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2422,7 +2764,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2443,7 +2788,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2464,7 +2812,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2485,7 +2836,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2506,7 +2860,10 @@
         "vitamin_a": 5,
         "vitamin_c": 0,
         "calcium": 16,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2527,7 +2884,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2548,7 +2908,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2569,7 +2932,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2590,7 +2956,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2611,7 +2980,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2632,7 +3004,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 17,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2653,7 +3028,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2674,7 +3052,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2695,7 +3076,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2716,7 +3100,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2737,7 +3124,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2758,7 +3148,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2779,7 +3172,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 12,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2800,7 +3196,10 @@
         "vitamin_a": 9,
         "vitamin_c": 7,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2821,7 +3220,10 @@
         "vitamin_a": 9,
         "vitamin_c": 8,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2842,7 +3244,10 @@
         "vitamin_a": 18,
         "vitamin_c": 7,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2863,7 +3268,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2884,7 +3292,10 @@
         "vitamin_a": 16,
         "vitamin_c": 0,
         "calcium": 47,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2905,7 +3316,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2926,7 +3340,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2947,7 +3364,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2968,7 +3388,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -2989,7 +3412,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 10,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3010,7 +3436,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 9,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3031,7 +3460,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 7,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3052,7 +3484,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3073,7 +3508,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3094,7 +3532,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3115,7 +3556,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3136,7 +3580,10 @@
         "vitamin_a": 1,
         "vitamin_c": 7,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3157,7 +3604,10 @@
         "vitamin_a": 1,
         "vitamin_c": 8,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3178,7 +3628,10 @@
         "vitamin_a": 2,
         "vitamin_c": 7,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3199,7 +3652,10 @@
         "vitamin_a": 0,
         "vitamin_c": 12,
         "calcium": 12,
-        "iron": 28
+        "iron": 28,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3220,7 +3676,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3241,7 +3700,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 2,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3262,7 +3724,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3283,7 +3748,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 12,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3304,7 +3772,10 @@
         "vitamin_a": 9,
         "vitamin_c": 7,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3325,7 +3796,10 @@
         "vitamin_a": 9,
         "vitamin_c": 8,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3346,7 +3820,10 @@
         "vitamin_a": 18,
         "vitamin_c": 7,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3367,7 +3844,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3388,7 +3868,10 @@
         "vitamin_a": 16,
         "vitamin_c": 0,
         "calcium": 47,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3409,7 +3892,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3430,7 +3916,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3451,7 +3940,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3472,7 +3964,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3493,7 +3988,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3514,7 +4012,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 10,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3535,7 +4036,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 9,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3556,7 +4060,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 7,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3577,7 +4084,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3598,7 +4108,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3619,7 +4132,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3640,7 +4156,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3661,7 +4180,10 @@
         "vitamin_a": 1,
         "vitamin_c": 7,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3682,7 +4204,10 @@
         "vitamin_a": 1,
         "vitamin_c": 8,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3703,7 +4228,10 @@
         "vitamin_a": 2,
         "vitamin_c": 7,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3724,7 +4252,10 @@
         "vitamin_a": 0,
         "vitamin_c": 12,
         "calcium": 12,
-        "iron": 28
+        "iron": 28,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3745,7 +4276,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3766,7 +4300,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 2,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3787,7 +4324,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3808,7 +4348,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3829,7 +4372,10 @@
         "vitamin_a": 5,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3850,7 +4396,10 @@
         "vitamin_a": 5,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3871,7 +4420,10 @@
         "vitamin_a": 9,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3892,7 +4444,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3913,7 +4468,10 @@
         "vitamin_a": 46,
         "vitamin_c": 0,
         "calcium": 137,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3934,7 +4492,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3955,7 +4516,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3976,7 +4540,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -3997,7 +4564,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4018,7 +4588,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4039,7 +4612,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4060,7 +4636,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4081,7 +4660,10 @@
         "vitamin_a": 2,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4102,7 +4684,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4123,7 +4708,10 @@
         "vitamin_a": 12,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4144,7 +4732,10 @@
         "vitamin_a": 24,
         "vitamin_c": 0,
         "calcium": 145,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4165,7 +4756,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4186,7 +4780,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4207,7 +4804,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4228,7 +4828,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4249,7 +4852,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4270,7 +4876,10 @@
         "vitamin_a": 7,
         "vitamin_c": 10,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4291,7 +4900,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4312,7 +4924,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4333,7 +4948,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4354,7 +4972,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4375,7 +4996,10 @@
         "vitamin_a": 14,
         "vitamin_c": 5,
         "calcium": 3,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4396,7 +5020,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4417,7 +5044,10 @@
         "vitamin_a": 9,
         "vitamin_c": 0,
         "calcium": 26,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4438,7 +5068,10 @@
         "vitamin_a": 5,
         "vitamin_c": 22,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4459,7 +5092,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4480,7 +5116,10 @@
         "vitamin_a": 3,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4501,7 +5140,10 @@
         "vitamin_a": 10,
         "vitamin_c": 28,
         "calcium": 7,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4522,7 +5164,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4543,7 +5188,10 @@
         "vitamin_a": 5,
         "vitamin_c": 0,
         "calcium": 28,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4564,7 +5212,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 12,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4585,7 +5236,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4606,7 +5260,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4627,7 +5284,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4648,7 +5308,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4669,7 +5332,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4690,7 +5356,10 @@
         "vitamin_a": 5,
         "vitamin_c": 7,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4711,7 +5380,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4732,7 +5404,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4753,7 +5428,10 @@
         "vitamin_a": 5,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4774,7 +5452,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4795,7 +5476,10 @@
         "vitamin_a": 16,
         "vitamin_c": 0,
         "calcium": 47,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4816,7 +5500,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4837,7 +5524,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4858,7 +5548,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4879,7 +5572,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4900,7 +5596,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4921,7 +5620,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4942,7 +5644,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4963,7 +5668,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -4984,7 +5692,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5005,7 +5716,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5026,7 +5740,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5047,7 +5764,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5068,7 +5788,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5089,7 +5812,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5110,7 +5836,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5131,7 +5860,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5152,7 +5884,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5173,7 +5908,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5194,7 +5932,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5215,7 +5956,10 @@
         "vitamin_a": 5,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5236,7 +5980,10 @@
         "vitamin_a": 5,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5257,7 +6004,10 @@
         "vitamin_a": 9,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5278,7 +6028,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5299,7 +6052,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5320,7 +6076,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5341,7 +6100,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5362,7 +6124,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5383,7 +6148,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5406,7 +6174,10 @@
                 "vitamin_c": 25,
                 "calcium": 30,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 405,
@@ -5423,7 +6194,10 @@
                 "vitamin_c": 25,
                 "calcium": 33,
                 "iron": 11,
-                "variant_name": "With Substitute Powerlite Sour Cream"
+                "variant_name": "With Substitute Powerlite Sour Cream",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 463,
@@ -5440,7 +6214,10 @@
                 "vitamin_c": 30,
                 "calcium": 31,
                 "iron": 17,
-                "variant_name": "With Avocado Ranch Dressing"
+                "variant_name": "With Avocado Ranch Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 474,
@@ -5457,7 +6234,10 @@
                 "vitamin_c": 25,
                 "calcium": 55,
                 "iron": 17,
-                "variant_name": "With Substitute Powerlite"
+                "variant_name": "With Substitute Powerlite",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "grilled-mahi-salad"
@@ -5481,7 +6261,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5502,7 +6285,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5523,7 +6309,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5544,7 +6333,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5565,7 +6357,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5586,7 +6381,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5607,7 +6405,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5628,7 +6429,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5649,7 +6453,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5670,7 +6477,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5691,7 +6501,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5712,7 +6525,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5733,7 +6549,10 @@
         "vitamin_a": 163,
         "vitamin_c": 63,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5754,7 +6573,10 @@
         "vitamin_a": 14,
         "vitamin_c": 20,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5775,7 +6597,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5796,7 +6621,10 @@
         "vitamin_a": 16,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5817,7 +6645,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5838,7 +6669,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5859,7 +6693,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -5882,7 +6719,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 147,
@@ -5899,7 +6739,10 @@
                 "vitamin_c": 2,
                 "calcium": 3,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "black-beans"
@@ -5925,7 +6768,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 54,
@@ -5942,7 +6788,10 @@
                 "vitamin_c": 2,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blackened-chicken"
@@ -5968,7 +6817,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 101,
@@ -5985,7 +6837,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blackened-chicken-and-black-beans"
@@ -6011,7 +6866,10 @@
                 "vitamin_c": 2,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 98,
@@ -6028,7 +6886,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blackened-chicken-and-refried-beans"
@@ -6054,7 +6915,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 76,
@@ -6071,7 +6935,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "carnitas"
@@ -6097,7 +6964,10 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 90,
@@ -6114,7 +6984,10 @@
                 "vitamin_c": 0,
                 "calcium": 16,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cheddar-jack"
@@ -6140,7 +7013,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 15,
@@ -6157,7 +7033,10 @@
                 "vitamin_c": 3,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diced-onions"
@@ -6183,7 +7062,10 @@
                 "vitamin_c": 5,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 8,
@@ -6200,7 +7082,10 @@
                 "vitamin_c": 8,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diced-tomatoes"
@@ -6224,7 +7109,10 @@
         "vitamin_a": 14,
         "vitamin_c": 35,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -6247,7 +7135,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 168,
@@ -6264,7 +7155,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 11,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ground-beef"
@@ -6290,7 +7184,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 158,
@@ -6307,7 +7204,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ground-beef-and-black-beans"
@@ -6333,7 +7233,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 155,
@@ -6350,7 +7253,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ground-beef-and-refried-beans"
@@ -6376,7 +7282,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -6393,7 +7302,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hard-taco-shell"
@@ -6419,7 +7331,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 2,
@@ -6436,7 +7351,10 @@
                 "vitamin_c": 3,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "jalapenos"
@@ -6462,7 +7380,10 @@
                 "vitamin_c": 3,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 19,
@@ -6479,7 +7400,10 @@
                 "vitamin_c": 5,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lettuce"
@@ -6505,7 +7429,10 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 65,
@@ -6522,7 +7449,10 @@
                 "vitamin_c": 0,
                 "calcium": 17,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "powerlite-cheese"
@@ -6548,7 +7478,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 28,
@@ -6565,7 +7498,10 @@
                 "vitamin_c": 0,
                 "calcium": 3,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "powerlite-sour-cream"
@@ -6591,7 +7527,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 156,
@@ -6608,7 +7547,10 @@
                 "vitamin_c": 2,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "red-chicken"
@@ -6634,7 +7576,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 151,
@@ -6651,7 +7596,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "red-chicken-and-black-beans"
@@ -6677,7 +7625,10 @@
                 "vitamin_c": 2,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 149,
@@ -6694,7 +7645,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "red-chicken-and-refried-beans"
@@ -6720,7 +7674,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 143,
@@ -6737,7 +7694,10 @@
                 "vitamin_c": 3,
                 "calcium": 3,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "refried-beans"
@@ -6763,7 +7723,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -6780,7 +7743,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "soft-flour-taco-shell"
@@ -6806,7 +7772,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -6823,7 +7792,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "soft-whole-wheat-taco-shell"
@@ -6849,7 +7821,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 40,
@@ -6866,7 +7841,10 @@
                 "vitamin_c": 0,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sour-cream"
@@ -6892,7 +7870,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "For 1 Taco"
+                "variant_name": "For 1 Taco",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 96,
@@ -6909,7 +7890,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "For 2 Tacos"
+                "variant_name": "For 2 Tacos",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "steak"
@@ -6933,7 +7917,10 @@
         "vitamin_a": 9,
         "vitamin_c": 108,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -6954,7 +7941,10 @@
         "vitamin_a": 17,
         "vitamin_c": 108,
         "calcium": 26,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -6975,7 +7965,10 @@
         "vitamin_a": 9,
         "vitamin_c": 108,
         "calcium": 10,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -6996,7 +7989,10 @@
         "vitamin_a": 15,
         "vitamin_c": 108,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7017,7 +8013,10 @@
         "vitamin_a": 13,
         "vitamin_c": 108,
         "calcium": 27,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7038,7 +8037,10 @@
         "vitamin_a": 10,
         "vitamin_c": 108,
         "calcium": 10,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7059,7 +8061,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7080,7 +8085,10 @@
         "vitamin_a": 5,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7101,7 +8109,10 @@
         "vitamin_a": 5,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7122,7 +8133,10 @@
         "vitamin_a": 9,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7143,7 +8157,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7164,7 +8181,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7185,7 +8205,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7206,7 +8229,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7227,7 +8253,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7248,7 +8277,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7269,7 +8301,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7290,7 +8325,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7311,7 +8349,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7332,7 +8373,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7353,7 +8397,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7374,7 +8421,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7395,7 +8445,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7416,7 +8469,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7437,7 +8493,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7458,7 +8517,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7479,7 +8541,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7500,7 +8565,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7521,7 +8589,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7542,7 +8613,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7563,7 +8637,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7584,7 +8661,10 @@
         "vitamin_a": 5,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7605,7 +8685,10 @@
         "vitamin_a": 5,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7626,7 +8709,10 @@
         "vitamin_a": 9,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7647,7 +8733,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7668,7 +8757,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7689,7 +8781,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7710,7 +8805,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7731,7 +8829,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7752,7 +8853,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7773,7 +8877,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7794,7 +8901,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7815,7 +8925,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7836,7 +8949,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7857,7 +8973,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7878,7 +8997,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7899,7 +9021,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7920,7 +9045,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7941,7 +9069,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7962,7 +9093,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -7983,7 +9117,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8004,7 +9141,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8025,7 +9165,10 @@
         "vitamin_a": 3,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8046,7 +9189,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8067,7 +9213,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8090,7 +9239,10 @@
                 "vitamin_c": 160,
                 "calcium": 87,
                 "iron": 17,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1275,
@@ -8107,7 +9259,10 @@
                 "vitamin_c": 178,
                 "calcium": 89,
                 "iron": 17,
-                "variant_name": "With Salsa"
+                "variant_name": "With Salsa",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1359,
@@ -8124,7 +9279,10 @@
                 "vitamin_c": 160,
                 "calcium": 119,
                 "iron": 17,
-                "variant_name": "With Powerlite Cheese"
+                "variant_name": "With Powerlite Cheese",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bangin-chicken-tostadas"
@@ -8148,7 +9306,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8169,7 +9330,10 @@
         "vitamin_a": 5,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8190,7 +9354,10 @@
         "vitamin_a": 5,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8211,7 +9378,10 @@
         "vitamin_a": 9,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8232,7 +9402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8253,7 +9426,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 24,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8274,7 +9450,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8295,7 +9474,10 @@
         "vitamin_a": 7,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8316,7 +9498,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8337,7 +9522,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8358,7 +9546,10 @@
         "vitamin_a": 0,
         "vitamin_c": 3,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8379,7 +9570,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8400,7 +9594,10 @@
         "vitamin_a": 2,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8421,7 +9618,10 @@
         "vitamin_a": 6,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8442,7 +9642,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8463,7 +9666,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8484,7 +9690,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8505,7 +9714,10 @@
         "vitamin_a": 1,
         "vitamin_c": 5,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8526,7 +9738,10 @@
         "vitamin_a": 1,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8547,7 +9762,10 @@
         "vitamin_a": 0,
         "vitamin_c": 7,
         "calcium": 6,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8568,7 +9786,10 @@
         "vitamin_a": 7,
         "vitamin_c": 10,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8589,7 +9810,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8610,7 +9834,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8631,7 +9858,10 @@
         "vitamin_a": 4,
         "vitamin_c": 2,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tijuana Flats",
@@ -8652,6 +9882,9 @@
         "vitamin_a": 4,
         "vitamin_c": 3,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

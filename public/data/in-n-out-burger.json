@@ -20,7 +20,21 @@
                 "vitamin_c": 12,
                 "calcium": 200,
                 "iron": 3,
-                "variant_name": "Protein Style"
+                "variant_name": "Protein Style",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, spread, 1 slice of American cheese, with or without onions."
             },
             {
                 "calories": 400,
@@ -37,7 +51,21 @@
                 "vitamin_c": 12,
                 "calcium": 200,
                 "iron": 4,
-                "variant_name": "w/ Mustard & Ketchup"
+                "variant_name": "w/ Mustard & Ketchup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, mustard, ketchup, 1 slice of American cheese, with or without onions, bun."
             },
             {
                 "calories": 480,
@@ -54,7 +82,21 @@
                 "vitamin_c": 9,
                 "calcium": 200,
                 "iron": 4,
-                "variant_name": "w/ Spread"
+                "variant_name": "w/ Spread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, spread, 1 slice of American cheese, with or without onions, bun."
             }
         ],
         "slug": "cheeseburger"
@@ -80,7 +122,21 @@
                 "vitamin_c": 12,
                 "calcium": 350,
                 "iron": 5,
-                "variant_name": "Protein Style"
+                "variant_name": "Protein Style",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "2 100% pure beef patties, lettuce, tomato, spread, 2 slices of American cheese, with or without onions"
             },
             {
                 "calories": 590,
@@ -97,7 +153,21 @@
                 "vitamin_c": 12,
                 "calcium": 350,
                 "iron": 5,
-                "variant_name": "w/ Mustard & Ketchup"
+                "variant_name": "w/ Mustard & Ketchup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "2 100% pure beef patties, lettuce, tomato, ketchup, mustard, 2 slices of American cheese, with or without onions, bun"
             },
             {
                 "calories": 670,
@@ -114,7 +184,21 @@
                 "vitamin_c": 9,
                 "calcium": 350,
                 "iron": 5,
-                "variant_name": "w/ Spread"
+                "variant_name": "w/ Spread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "2 100% pure beef patties, lettuce, tomato, spread, 2 slices of American cheese, with or without onions, bun"
             }
         ],
         "slug": "double-double"
@@ -140,7 +224,21 @@
                 "vitamin_c": 12,
                 "calcium": 40,
                 "iron": 4,
-                "variant_name": "Protein Style"
+                "variant_name": "Protein Style",
+                "allergens_true": [
+                    "egg",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, spread, with or without onions."
             },
             {
                 "calories": 310,
@@ -157,7 +255,21 @@
                 "vitamin_c": 12,
                 "calcium": 40,
                 "iron": 4,
-                "variant_name": "w/ Mustard & Ketchup"
+                "variant_name": "w/ Mustard & Ketchup",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, ketchup, mustard, with or without onions, bun."
             },
             {
                 "calories": 390,
@@ -174,7 +286,21 @@
                 "vitamin_c": 9,
                 "calcium": 40,
                 "iron": 4,
-                "variant_name": "w/ Spread"
+                "variant_name": "w/ Spread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "100% pure beef patty, lettuce, tomato, spread, with or without onions, bun."
             }
         ],
         "slug": "hamburger"
@@ -198,7 +324,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -219,7 +348,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -240,7 +372,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -261,7 +396,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -282,7 +420,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -303,7 +444,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -324,7 +468,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -345,7 +492,12 @@
         "vitamin_a": 750,
         "vitamin_c": 4,
         "calcium": 450,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -366,7 +518,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 10,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -387,7 +542,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -408,7 +566,20 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -429,7 +600,21 @@
         "vitamin_a": 1250,
         "vitamin_c": 0,
         "calcium": 350,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -450,7 +635,21 @@
         "vitamin_a": 1000,
         "vitamin_c": 0,
         "calcium": 300,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "In-N-Out Burger",
@@ -471,6 +670,20 @@
         "vitamin_a": 1250,
         "vitamin_c": 0,
         "calcium": 350,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

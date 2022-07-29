@@ -20,7 +20,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -37,7 +40,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -54,7 +60,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -71,7 +80,10 @@
                 "vitamin_c": 4,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 980,
@@ -88,7 +100,10 @@
                 "vitamin_c": 6,
                 "calcium": 2,
                 "iron": 8,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coconut-milk-lemon-creme"
@@ -114,7 +129,10 @@
                 "vitamin_c": 8,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -131,7 +149,10 @@
                 "vitamin_c": 15,
                 "calcium": 0,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -148,7 +169,10 @@
                 "vitamin_c": 25,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -165,7 +189,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 930,
@@ -182,7 +209,10 @@
                 "vitamin_c": 70,
                 "calcium": 4,
                 "iron": 10,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coconut-milk-strawberry"
@@ -208,7 +238,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -225,7 +258,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -242,7 +278,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -259,7 +298,10 @@
                 "vitamin_c": 0,
                 "calcium": 6,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 750,
@@ -276,7 +318,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 25,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "just-fruit-peach-passion"
@@ -302,7 +347,10 @@
                 "vitamin_c": 20,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -319,7 +367,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -336,7 +387,10 @@
                 "vitamin_c": 60,
                 "calcium": 4,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -353,7 +407,10 @@
                 "vitamin_c": 90,
                 "calcium": 6,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 750,
@@ -370,7 +427,10 @@
                 "vitamin_c": 170,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "just-fruit-tropical-mango"
@@ -394,7 +454,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -415,7 +478,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -436,7 +502,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -457,7 +526,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -478,7 +550,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -499,7 +574,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -520,7 +598,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -541,7 +622,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -562,7 +646,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -583,7 +670,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -604,7 +694,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -625,7 +718,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -646,7 +742,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -667,7 +766,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -688,7 +790,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -709,7 +814,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -730,7 +838,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -751,7 +862,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -772,7 +886,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -793,7 +910,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -814,7 +934,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -835,7 +958,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -856,7 +982,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -877,7 +1006,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -898,7 +1030,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -919,7 +1054,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -940,7 +1078,10 @@
         "vitamin_a": 0,
         "vitamin_c": 40,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -961,7 +1102,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -982,7 +1126,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1003,7 +1150,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1024,7 +1174,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1045,7 +1198,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1066,7 +1222,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1087,7 +1246,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -1110,7 +1272,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -1127,7 +1292,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1144,7 +1312,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -1161,7 +1332,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 980,
@@ -1178,7 +1352,10 @@
                 "vitamin_c": 0,
                 "calcium": 100,
                 "iron": 15,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-chip-cookie-yogurt"
@@ -1204,7 +1381,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1221,7 +1401,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -1238,7 +1421,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -1255,7 +1441,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1130,
@@ -1272,7 +1461,10 @@
                 "vitamin_c": 2,
                 "calcium": 100,
                 "iron": 10,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-hazelnut-yogurt"
@@ -1298,7 +1490,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -1315,7 +1510,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1332,7 +1530,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -1349,7 +1550,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -1366,7 +1570,10 @@
                 "vitamin_c": 0,
                 "calcium": 100,
                 "iron": 10,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cinnamon-churro-yogurt"
@@ -1392,7 +1599,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -1409,7 +1619,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1426,7 +1639,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -1443,7 +1659,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1000,
@@ -1460,7 +1679,10 @@
                 "vitamin_c": 0,
                 "calcium": 100,
                 "iron": 15,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cookies-n-cream-yogurt"
@@ -1486,7 +1708,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -1503,7 +1728,10 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1520,7 +1748,10 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1537,7 +1768,10 @@
                 "vitamin_c": 15,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 730,
@@ -1554,7 +1788,10 @@
                 "vitamin_c": 35,
                 "calcium": 100,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "matcha-yogurt"
@@ -1580,7 +1817,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -1597,7 +1837,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -1614,7 +1857,10 @@
                 "vitamin_c": 6,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -1631,7 +1877,10 @@
                 "vitamin_c": 10,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 800,
@@ -1648,7 +1897,10 @@
                 "vitamin_c": 20,
                 "calcium": 100,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "meyer-lemon-yogurt"
@@ -1674,7 +1926,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -1691,7 +1946,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -1708,7 +1966,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -1725,7 +1986,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 4,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1090,
@@ -1742,7 +2006,10 @@
                 "vitamin_c": 2,
                 "calcium": 100,
                 "iron": 8,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mint-chocolate-cookie-yogurt"
@@ -1768,7 +2035,10 @@
                 "vitamin_c": 10,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -1785,7 +2055,10 @@
                 "vitamin_c": 20,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -1802,7 +2075,10 @@
                 "vitamin_c": 30,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1819,7 +2095,10 @@
                 "vitamin_c": 50,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -1836,7 +2115,10 @@
                 "vitamin_c": 100,
                 "calcium": 70,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-peach-mango-yogurt"
@@ -1862,7 +2144,10 @@
                 "vitamin_c": 20,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1879,7 +2164,10 @@
                 "vitamin_c": 30,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -1896,7 +2184,10 @@
                 "vitamin_c": 50,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -1913,7 +2204,10 @@
                 "vitamin_c": 80,
                 "calcium": 60,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 840,
@@ -1930,7 +2224,10 @@
                 "vitamin_c": 150,
                 "calcium": 110,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-tang-yogurt"
@@ -1956,7 +2253,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -1973,7 +2273,10 @@
                 "vitamin_c": 2,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1990,7 +2293,10 @@
                 "vitamin_c": 4,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2007,7 +2313,10 @@
                 "vitamin_c": 8,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 750,
@@ -2024,7 +2333,10 @@
                 "vitamin_c": 15,
                 "calcium": 100,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "original-yogurt"
@@ -2050,7 +2362,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -2067,7 +2382,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -2084,7 +2402,10 @@
                 "vitamin_c": 6,
                 "calcium": 30,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2101,7 +2422,10 @@
                 "vitamin_c": 10,
                 "calcium": 50,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -2118,7 +2442,10 @@
                 "vitamin_c": 20,
                 "calcium": 100,
                 "iron": 4,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "passionfruit-yogurt"
@@ -2144,7 +2471,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -2161,7 +2491,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2178,7 +2511,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -2195,7 +2531,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1230,
@@ -2212,7 +2551,10 @@
                 "vitamin_c": 0,
                 "calcium": 100,
                 "iron": 15,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "peanut-butter-yogurt"
@@ -2238,7 +2580,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -2255,7 +2600,10 @@
                 "vitamin_c": 20,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -2272,7 +2620,10 @@
                 "vitamin_c": 30,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -2289,7 +2640,10 @@
                 "vitamin_c": 50,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -2306,7 +2660,10 @@
                 "vitamin_c": 100,
                 "calcium": 80,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pineapple-orange-banana-yogurt"
@@ -2332,7 +2689,10 @@
                 "vitamin_c": 15,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -2349,7 +2709,10 @@
                 "vitamin_c": 25,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -2366,7 +2729,10 @@
                 "vitamin_c": 40,
                 "calcium": 25,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -2383,7 +2749,10 @@
                 "vitamin_c": 70,
                 "calcium": 40,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -2400,7 +2769,10 @@
                 "vitamin_c": 130,
                 "calcium": 80,
                 "iron": 4,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pineapple-yogurt"
@@ -2426,7 +2798,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -2443,7 +2818,10 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -2460,7 +2838,10 @@
                 "vitamin_c": 10,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -2477,7 +2858,10 @@
                 "vitamin_c": 15,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 830,
@@ -2494,7 +2878,10 @@
                 "vitamin_c": 35,
                 "calcium": 100,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pink-lemonade-yogurt"
@@ -2520,7 +2907,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2537,7 +2927,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -2554,7 +2947,10 @@
                 "vitamin_c": 6,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -2571,7 +2967,10 @@
                 "vitamin_c": 10,
                 "calcium": 50,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 810,
@@ -2588,7 +2987,10 @@
                 "vitamin_c": 20,
                 "calcium": 100,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pomegranate-yogurt"
@@ -2614,7 +3016,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2631,7 +3036,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -2648,7 +3056,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -2665,7 +3076,10 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 780,
@@ -2682,7 +3096,10 @@
                 "vitamin_c": 0,
                 "calcium": 110,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vanilla-bean-yogurt"
@@ -2708,7 +3125,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -2725,7 +3145,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -2742,7 +3165,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2759,7 +3185,10 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 740,
@@ -2776,7 +3205,10 @@
                 "vitamin_c": 0,
                 "calcium": 110,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vanilla-latte-yogurt"
@@ -2800,7 +3232,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2821,7 +3256,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2842,7 +3280,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2863,7 +3304,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2884,7 +3328,10 @@
         "vitamin_a": 4,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2905,7 +3352,10 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2926,7 +3376,10 @@
         "vitamin_a": 0,
         "vitamin_c": 25,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2947,7 +3400,10 @@
         "vitamin_a": 4,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2968,7 +3424,10 @@
         "vitamin_a": 2,
         "vitamin_c": 25,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -2989,7 +3448,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3010,7 +3472,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3031,7 +3496,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3052,7 +3520,10 @@
         "vitamin_a": 0,
         "vitamin_c": 15,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3073,7 +3544,10 @@
         "vitamin_a": 4,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3094,7 +3568,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3117,7 +3594,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -3134,7 +3614,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 25,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -3151,7 +3634,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 40,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -3168,7 +3654,10 @@
                 "vitamin_c": 0,
                 "calcium": 80,
                 "iron": 70,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 960,
@@ -3185,7 +3674,10 @@
                 "vitamin_c": 0,
                 "calcium": 160,
                 "iron": 130,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-ice-cream"
@@ -3211,7 +3703,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -3228,7 +3723,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -3245,7 +3743,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 670,
@@ -3262,7 +3763,10 @@
                 "vitamin_c": 0,
                 "calcium": 90,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1290,
@@ -3279,7 +3783,10 @@
                 "vitamin_c": 0,
                 "calcium": 170,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cookie-butter-ice-cream"
@@ -3305,7 +3812,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -3322,7 +3832,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -3339,7 +3852,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -3356,7 +3872,10 @@
                 "vitamin_c": 0,
                 "calcium": 90,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1200,
@@ -3373,7 +3892,10 @@
                 "vitamin_c": 0,
                 "calcium": 170,
                 "iron": 15,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cookies-n-cream-ice-cream"
@@ -3399,7 +3921,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -3416,7 +3941,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -3433,7 +3961,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -3450,7 +3981,10 @@
                 "vitamin_c": 0,
                 "calcium": 90,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 870,
@@ -3467,7 +4001,10 @@
                 "vitamin_c": 0,
                 "calcium": 170,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "milk-ice-cream"
@@ -3493,7 +4030,10 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -3510,7 +4050,10 @@
                 "vitamin_c": 15,
                 "calcium": 30,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -3527,7 +4070,10 @@
                 "vitamin_c": 20,
                 "calcium": 45,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -3544,7 +4090,10 @@
                 "vitamin_c": 35,
                 "calcium": 70,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 880,
@@ -3561,7 +4110,10 @@
                 "vitamin_c": 70,
                 "calcium": 140,
                 "iron": 6,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-ice-cream"
@@ -3587,7 +4139,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Mini"
+                "variant_name": "Mini",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -3604,7 +4159,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -3621,7 +4179,10 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -3638,7 +4199,10 @@
                 "vitamin_c": 0,
                 "calcium": 90,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1010,
@@ -3655,7 +4219,10 @@
                 "vitamin_c": 0,
                 "calcium": 180,
                 "iron": 2,
-                "variant_name": "Take Home"
+                "variant_name": "Take Home",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tiramisu-ice-cream"
@@ -3679,7 +4246,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3700,7 +4270,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3721,7 +4294,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3742,7 +4318,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3763,7 +4342,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3784,7 +4366,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3805,7 +4390,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pinkberry",
@@ -3828,7 +4416,10 @@
                 "vitamin_c": 20,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -3845,7 +4436,10 @@
                 "vitamin_c": 25,
                 "calcium": 70,
                 "iron": 8,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-banana-smoothie"
@@ -3871,7 +4465,10 @@
                 "vitamin_c": 100,
                 "calcium": 40,
                 "iron": 4,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -3888,7 +4485,10 @@
                 "vitamin_c": 150,
                 "calcium": 50,
                 "iron": 6,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mixed-berry-smoothie"
@@ -3914,7 +4514,10 @@
                 "vitamin_c": 110,
                 "calcium": 40,
                 "iron": 2,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -3931,7 +4534,10 @@
                 "vitamin_c": 150,
                 "calcium": 50,
                 "iron": 4,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-banana-smoothie"
@@ -3957,7 +4563,10 @@
                 "vitamin_c": 80,
                 "calcium": 40,
                 "iron": 2,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -3974,7 +4583,10 @@
                 "vitamin_c": 150,
                 "calcium": 50,
                 "iron": 2,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tropical-mango-smoothie"

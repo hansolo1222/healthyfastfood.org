@@ -18,7 +18,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -39,7 +42,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -60,7 +66,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -81,7 +90,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -102,7 +114,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -123,7 +138,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -144,7 +162,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -165,7 +186,10 @@
         "vitamin_a": 10,
         "vitamin_c": 4,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -186,7 +210,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -207,7 +234,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -228,7 +258,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -249,7 +282,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -270,7 +306,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -291,7 +330,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -312,7 +354,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -333,7 +378,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -354,7 +402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -375,7 +426,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -396,7 +450,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -417,7 +474,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -440,7 +500,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -457,7 +520,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -474,7 +540,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -491,7 +560,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "apple-cider"
@@ -515,7 +587,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -538,7 +613,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -555,7 +633,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -572,7 +653,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -589,7 +673,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bagged-tea"
@@ -615,7 +702,12 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 152,
@@ -632,7 +724,12 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 228,
@@ -649,7 +746,12 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "biebs-brew"
@@ -675,7 +777,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 538,
@@ -692,7 +797,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 636,
@@ -709,7 +817,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "birthday-cake-iced-capp"
@@ -735,7 +846,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -752,7 +866,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -769,7 +886,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -786,7 +906,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cafe-mocha"
@@ -812,7 +935,10 @@
                 "vitamin_c": 2,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 100,
@@ -829,7 +955,10 @@
                 "vitamin_c": 4,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -846,7 +975,10 @@
                 "vitamin_c": 4,
                 "calcium": 45,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cappuccino"
@@ -872,7 +1004,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -889,7 +1024,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -906,7 +1044,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -923,7 +1064,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caramel-apple-cider-supreme"
@@ -949,7 +1093,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -966,7 +1113,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -983,7 +1133,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 630,
@@ -1000,7 +1153,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 30,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caramel-hot-chocolate"
@@ -1026,7 +1182,10 @@
                 "vitamin_c": 2,
                 "calcium": 8,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -1043,7 +1202,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 600,
@@ -1060,7 +1222,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caramel-iced-cappuccino"
@@ -1084,7 +1249,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -1092,6 +1260,26 @@
         "meal_name": "Dark Roast Coffee",
         "category": "Beverages",
         "variants": [
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 10,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 1,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 2,
+                "iron": 0,
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
             {
                 "calories": 5,
                 "total_fat": 0,
@@ -1107,7 +1295,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1124,7 +1315,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1141,24 +1335,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
-            },
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 10,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 1,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 2,
-                "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dark-roast-coffee"
@@ -1184,7 +1364,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1201,7 +1384,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1218,7 +1404,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1235,7 +1424,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "decaffeinated-coffee"
@@ -1259,7 +1451,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -1282,7 +1477,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1299,7 +1497,10 @@
                 "vitamin_c": 0,
                 "calcium": 45,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -1316,7 +1517,10 @@
                 "vitamin_c": 0,
                 "calcium": 70,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "flavored-iced-latte-supreme"
@@ -1342,7 +1546,10 @@
                 "vitamin_c": 4,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -1359,7 +1566,10 @@
                 "vitamin_c": 4,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1376,7 +1586,10 @@
                 "vitamin_c": 6,
                 "calcium": 60,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "flavored-latte-supreme"
@@ -1402,7 +1615,10 @@
                 "vitamin_c": 2,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1419,7 +1635,10 @@
                 "vitamin_c": 2,
                 "calcium": 30,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1436,7 +1655,10 @@
                 "vitamin_c": 4,
                 "calcium": 40,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "flavored-mocha-latte"
@@ -1462,7 +1684,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 570,
@@ -1479,7 +1704,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1496,7 +1724,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-hot-chocolate"
@@ -1522,7 +1753,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1539,7 +1773,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1556,7 +1793,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-lemonade"
@@ -1582,7 +1822,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1599,7 +1842,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 660,
@@ -1616,7 +1862,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-strawberries-cream"
@@ -1642,7 +1891,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 540,
@@ -1659,7 +1911,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 670,
@@ -1676,7 +1931,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-sugar-cookie-cream"
@@ -1702,7 +1960,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1719,7 +1980,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 660,
@@ -1736,7 +2000,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "frozen-vanilla-cream"
@@ -1762,7 +2029,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1779,7 +2049,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1796,7 +2069,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1813,7 +2089,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 25,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hot-chocolate"
@@ -1839,7 +2118,10 @@
                 "vitamin_c": 2,
                 "calcium": 8,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -1856,7 +2138,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -1873,7 +2158,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-cappuccino"
@@ -1899,7 +2187,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 110,
@@ -1916,7 +2207,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 140,
@@ -1933,7 +2227,10 @@
                 "vitamin_c": 0,
                 "calcium": 6,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-coffee-with-cream-sugar"
@@ -1959,7 +2256,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1976,7 +2276,10 @@
                 "vitamin_c": 0,
                 "calcium": 45,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1993,7 +2296,10 @@
                 "vitamin_c": 0,
                 "calcium": 70,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-latte"
@@ -2019,7 +2325,10 @@
                 "vitamin_c": 0,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2036,7 +2345,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 20,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -2053,7 +2365,10 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-mocha-latte"
@@ -2079,7 +2394,10 @@
                 "vitamin_c": 4,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 100,
@@ -2096,7 +2414,10 @@
                 "vitamin_c": 4,
                 "calcium": 35,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2113,7 +2434,10 @@
                 "vitamin_c": 6,
                 "calcium": 60,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "latte"
@@ -2139,7 +2463,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 419,
@@ -2156,7 +2483,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 501,
@@ -2173,7 +2503,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mocha-cold-brew-with-cold-foam"
@@ -2199,7 +2532,10 @@
                 "vitamin_c": 2,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 550,
@@ -2216,7 +2552,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 670,
@@ -2233,7 +2572,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mocha-iced-cappuccino"
@@ -2259,7 +2601,10 @@
                 "vitamin_c": 2,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -2276,7 +2621,10 @@
                 "vitamin_c": 2,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -2293,7 +2641,10 @@
                 "vitamin_c": 4,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mocha-latte"
@@ -2317,7 +2668,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -2340,7 +2694,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 208,
@@ -2357,7 +2714,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 259,
@@ -2374,7 +2734,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-tangerine-refresher"
@@ -2400,7 +2763,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -2417,7 +2783,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 670,
@@ -2434,7 +2803,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "oreo-iced-cappuccino"
@@ -2451,6 +2823,26 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
+                "sodium": 10,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
                 "sodium": 5,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -2460,7 +2852,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -2477,7 +2872,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -2494,24 +2892,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "X-Large"
-            },
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 10,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "original-blend-coffee"
@@ -2537,7 +2921,10 @@
                 "vitamin_c": 0,
                 "calcium": 6,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -2554,7 +2941,10 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -2571,7 +2961,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pineapple-orange-fruit-smoothie-with-greek-yogurt"
@@ -2597,7 +2990,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 326,
@@ -2614,7 +3010,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 396,
@@ -2631,7 +3030,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pumpkin-spice-iced-latte"
@@ -2657,7 +3059,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 384,
@@ -2674,7 +3079,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -2691,7 +3099,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pumpkin-spice-latte"
@@ -2717,7 +3128,10 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -2734,7 +3148,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -2751,7 +3168,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-banana-fruit-smoothie-with-greek-yogurt"
@@ -2777,7 +3197,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -2794,7 +3217,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -2811,7 +3237,10 @@
                 "vitamin_c": 2,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-frozen-lemonade"
@@ -2837,7 +3266,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -2854,7 +3286,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -2871,7 +3306,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweetened-iced-tea"
@@ -2888,23 +3326,6 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
-                "sodium": 20,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "Medium"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
                 "sodium": 15,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -2914,7 +3335,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -2931,7 +3355,30 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 20,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "unsweetened-iced-tea"
@@ -2957,7 +3404,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "X-Large"
+                "variant_name": "X-Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -2974,7 +3424,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -2991,7 +3444,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -3008,7 +3464,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "whole-leaf-tea"
@@ -3032,7 +3491,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3053,7 +3515,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3074,7 +3539,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3095,7 +3563,10 @@
         "vitamin_a": 10,
         "vitamin_c": 15,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3116,7 +3587,10 @@
         "vitamin_a": 10,
         "vitamin_c": 20,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3137,7 +3611,10 @@
         "vitamin_a": 10,
         "vitamin_c": 4,
         "calcium": 25,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3158,7 +3635,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3181,7 +3661,10 @@
                 "vitamin_c": 10,
                 "calcium": 4,
                 "iron": 10,
-                "variant_name": "Mixed Berry"
+                "variant_name": "Mixed Berry",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -3198,7 +3681,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 10,
-                "variant_name": "Maple"
+                "variant_name": "Maple",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "oatmeal"
@@ -3222,7 +3708,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3243,7 +3732,10 @@
         "vitamin_a": 15,
         "vitamin_c": 20,
         "calcium": 30,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3264,7 +3756,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3285,7 +3780,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 15,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3306,7 +3804,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3327,7 +3828,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 15,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3348,7 +3852,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3369,7 +3876,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3390,7 +3900,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3411,7 +3924,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3432,7 +3948,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3453,7 +3972,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3474,7 +3996,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3495,7 +4020,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3516,7 +4044,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3537,7 +4068,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3558,7 +4092,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3579,7 +4116,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3600,7 +4140,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3621,7 +4164,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3642,7 +4188,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3663,7 +4212,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3684,7 +4236,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3705,7 +4260,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3726,7 +4284,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3747,7 +4308,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3768,7 +4332,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3789,7 +4356,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3810,7 +4380,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3831,7 +4404,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3852,7 +4428,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3873,7 +4452,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3894,7 +4476,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3915,7 +4500,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3936,7 +4524,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3957,7 +4548,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3978,7 +4572,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -3999,7 +4596,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4020,7 +4620,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4041,7 +4644,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4062,7 +4668,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4083,7 +4692,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4104,7 +4716,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4125,7 +4740,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4146,7 +4764,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4167,7 +4788,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4188,7 +4812,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4211,7 +4838,10 @@
                 "vitamin_c": 25,
                 "calcium": 20,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -4228,7 +4858,10 @@
                 "vitamin_c": 35,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "broccoli-cheddar-soup"
@@ -4252,7 +4885,10 @@
         "vitamin_a": 10,
         "vitamin_c": 40,
         "calcium": 35,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4275,7 +4911,10 @@
                 "vitamin_c": 40,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -4292,7 +4931,10 @@
                 "vitamin_c": 50,
                 "calcium": 2,
                 "iron": 6,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-noodle-soup"
@@ -4318,7 +4960,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -4335,7 +4980,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chili"
@@ -4361,7 +5009,10 @@
                 "vitamin_c": 25,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -4378,7 +5029,10 @@
                 "vitamin_c": 35,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "clam-chowder"
@@ -4404,7 +5058,10 @@
                 "vitamin_c": 20,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 110,
@@ -4421,7 +5078,10 @@
                 "vitamin_c": 30,
                 "calcium": 6,
                 "iron": 6,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hearty-vegetable-soup"
@@ -4445,7 +5105,10 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": 0,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4466,7 +5129,10 @@
         "vitamin_a": 0,
         "vitamin_c": 25,
         "calcium": 0,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4489,7 +5155,10 @@
                 "vitamin_c": 10,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -4506,7 +5175,10 @@
                 "vitamin_c": 25,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "kettle-cooked-potato-chips"
@@ -4530,7 +5202,10 @@
         "vitamin_a": 35,
         "vitamin_c": 0,
         "calcium": 30,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4553,7 +5228,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -4570,7 +5248,10 @@
                 "vitamin_c": 4,
                 "calcium": 25,
                 "iron": 6,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "potato-bacon-cheddar-soup"
@@ -4596,7 +5277,10 @@
                 "vitamin_c": 15,
                 "calcium": 10,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -4613,7 +5297,10 @@
                 "vitamin_c": 20,
                 "calcium": 15,
                 "iron": 6,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "roasted-red-pepper-gouda-soup"
@@ -4637,7 +5324,10 @@
         "vitamin_a": 8,
         "vitamin_c": 40,
         "calcium": 35,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4660,7 +5350,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -4677,7 +5370,10 @@
                 "vitamin_c": 45,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-wild-rice-soup"
@@ -4701,7 +5397,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4722,7 +5421,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4743,7 +5445,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4764,7 +5469,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4785,7 +5493,10 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4806,7 +5517,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4827,7 +5541,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4848,7 +5565,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4869,7 +5589,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4892,7 +5615,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "Glazed"
+                "variant_name": "Glazed",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -4909,7 +5635,10 @@
                 "vitamin_c": 0,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "Frosted"
+                "variant_name": "Frosted",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cinnamon-roll"
@@ -4935,7 +5664,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -4952,7 +5684,10 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 10,
-                "variant_name": "Cheese"
+                "variant_name": "Cheese",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "croissant"
@@ -4976,7 +5711,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -4997,7 +5735,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5018,7 +5759,10 @@
         "vitamin_a": 2,
         "vitamin_c": 4,
         "calcium": 15,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5039,7 +5783,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5060,7 +5807,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5081,7 +5831,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5102,7 +5855,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5123,7 +5879,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5144,7 +5903,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5165,7 +5927,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5186,7 +5951,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5207,7 +5975,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5228,7 +5999,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5249,7 +6023,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5270,7 +6047,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5291,7 +6071,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5312,7 +6095,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tim Hortons",
@@ -5335,7 +6121,19 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Birthday Cake Waffle"
+                "variant_name": "Birthday Cake Waffle",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 92,
@@ -5352,7 +6150,19 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chocolate White Fudge"
+                "variant_name": "Chocolate White Fudge",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 104,
@@ -5369,7 +6179,19 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Sour Cream Chocolate Chip"
+                "variant_name": "Sour Cream Chocolate Chip",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "shellfish"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "timbiebs"

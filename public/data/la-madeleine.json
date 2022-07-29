@@ -18,7 +18,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -39,7 +54,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -60,7 +89,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -81,7 +125,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -102,7 +161,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -123,7 +197,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -144,7 +232,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -165,7 +268,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -186,7 +304,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -207,7 +340,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -228,7 +376,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -249,7 +412,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -270,7 +448,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -291,7 +484,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -312,7 +520,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -333,7 +556,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -354,7 +592,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -375,7 +628,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -396,7 +664,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -417,7 +700,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -438,7 +736,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -459,7 +772,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -480,7 +808,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -501,7 +844,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -522,7 +880,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -543,7 +916,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -564,7 +952,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -585,7 +988,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Breakfast Croissant with Bacon"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -606,7 +1024,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Cr\u00eape Romanoff"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -627,7 +1060,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -648,7 +1095,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -669,7 +1130,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "wheat"
+        ],
+        "ingredients": "Granola & Strawberries"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -690,7 +1166,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Potato Galette"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -711,7 +1202,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -732,7 +1238,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Quiche Lorraine"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -753,7 +1274,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Two Eggs Any Style"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -774,7 +1309,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "wheat"
+        ],
+        "ingredients": "Yogurt Parfait"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -795,7 +1345,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -816,7 +1381,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -837,7 +1416,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -858,7 +1451,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -879,7 +1487,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -900,7 +1522,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -921,7 +1557,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -942,7 +1592,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -963,7 +1627,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -984,7 +1662,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1005,7 +1698,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1026,7 +1734,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1047,7 +1769,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1068,7 +1804,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1089,7 +1840,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Oatmeal, Cup"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1110,7 +1875,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1131,7 +1910,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1152,7 +1945,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1173,7 +1969,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1194,7 +2004,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1215,7 +2039,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1236,7 +2074,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1244,23 +2096,6 @@
         "meal_name": "Cafe Americano",
         "category": "Coffee & Tea",
         "variants": [
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 0,
-                "total_carbohydrates": 1,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 1,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Single"
-            },
             {
                 "calories": 5,
                 "total_fat": 0,
@@ -1276,7 +2111,52 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
+            },
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 0,
+                "total_carbohydrates": 1,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 1,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Single",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cafe-americano"
@@ -1302,7 +2182,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 140,
@@ -1319,7 +2214,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cafe-latte"
@@ -1345,7 +2255,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -1362,7 +2287,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cafe-mocha"
@@ -1388,7 +2328,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 140,
@@ -1405,7 +2360,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cappuccino"
@@ -1431,7 +2401,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1448,7 +2433,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "caramel-macchiato"
@@ -1472,7 +2472,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1495,7 +2509,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Double",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1512,7 +2540,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Single",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "espresso"
@@ -1536,7 +2578,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1559,7 +2615,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 600,
@@ -1576,7 +2647,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "hot-chocolate"
@@ -1600,7 +2686,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1621,7 +2721,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1642,7 +2756,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1663,7 +2791,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1684,7 +2826,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1705,7 +2862,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1728,7 +2900,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Fat-Free Dressing"
+                "variant_name": "With Fat-Free Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -1745,7 +2932,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Original Dressing"
+                "variant_name": "With Original Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "original-caesar-salad"
@@ -1769,7 +2971,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1790,7 +3007,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Crepe Riviera"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1811,7 +3043,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken la Madeleine with Broccoli & Rice Proven\u00e7al"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1832,7 +3079,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Pesto Pasta"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1853,7 +3114,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1876,7 +3152,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Shrimp"
+                "variant_name": "With Shrimp",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Pasta la Madeleine with Shrimp"
             },
             {
                 "calories": 840,
@@ -1893,7 +3184,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Chicken"
+                "variant_name": "With Chicken",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Pasta la Madeleine with Chicken"
             }
         ],
         "slug": "pasta-la-madeleine"
@@ -1917,7 +3223,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "Shrimp Pesto Pasta"
     },
     {
         "restaurant_name": "La Madeleine",
@@ -1940,7 +3261,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 70,
@@ -1957,7 +3292,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Bowl"
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "almonds"
@@ -1983,7 +3332,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 10,
@@ -2000,7 +3362,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Bowl"
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "blueberries"
@@ -2026,7 +3401,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 45,
@@ -2043,7 +3431,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Bowl"
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "brown-sugar"
@@ -2069,7 +3470,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Oatmeal, Cup"
             },
             {
                 "calories": 120,
@@ -2086,7 +3501,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Oatmeal, Bowl"
             }
         ],
         "slug": "oatmeal"
@@ -2112,7 +3541,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 160,
@@ -2129,7 +3572,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Bowl"
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "pecans"
@@ -2155,7 +3612,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 100,
@@ -2172,7 +3642,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Bowl"
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "raisins"
@@ -2190,23 +3673,6 @@
                 "trans_fat": 0,
                 "cholesterol": 0,
                 "sodium": 0,
-                "total_carbohydrates": 2,
-                "dietary_fiber": 0,
-                "sugar": 1,
-                "protein": 0,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "For Oatmeal Bowl"
-            },
-            {
-                "calories": 5,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 0,
                 "total_carbohydrates": 1,
                 "dietary_fiber": 0,
                 "sugar": 1,
@@ -2215,7 +3681,50 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "For Oatmeal Cup"
+                "variant_name": "For Oatmeal Cup",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
+            },
+            {
+                "calories": 5,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 0,
+                "total_carbohydrates": 2,
+                "dietary_fiber": 0,
+                "sugar": 1,
+                "protein": 0,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "For Oatmeal Bowl",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "strawberries"
@@ -2239,7 +3748,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2260,7 +3784,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2281,7 +3820,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2302,7 +3856,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2323,7 +3892,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2344,7 +3928,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2365,7 +3964,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2386,7 +4000,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2407,7 +4036,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2428,7 +4072,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2449,7 +4108,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2470,7 +4144,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2491,7 +4180,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2512,7 +4216,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2533,7 +4252,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2554,7 +4288,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2575,7 +4324,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2596,7 +4359,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2617,7 +4395,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2638,7 +4431,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2659,7 +4467,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2680,7 +4503,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2701,7 +4539,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2722,7 +4575,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2743,7 +4611,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2766,7 +4649,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Fat-Free Dressing"
+                "variant_name": "With Fat-Free Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 260,
@@ -2783,7 +4681,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Original Dressing"
+                "variant_name": "With Original Dressing",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "petite-caesar-salad"
@@ -2807,7 +4720,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2828,7 +4756,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2849,7 +4792,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2870,7 +4828,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2891,7 +4864,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2912,7 +4900,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "La Madeleine",
@@ -2935,7 +4937,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 850,
@@ -2952,7 +4968,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-pesto"
@@ -2978,7 +5009,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 950,
@@ -2995,7 +5040,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-caesar-sandwich"
@@ -3021,7 +5081,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 1020,
@@ -3038,7 +5112,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-parisien-sandwich"
@@ -3064,7 +5153,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -3081,7 +5185,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-salad-croissant"
@@ -3107,7 +5226,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -3124,7 +5258,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "croque-monsieur"
@@ -3150,7 +5299,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 900,
@@ -3167,7 +5330,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "french-dip"
@@ -3193,7 +5371,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 880,
@@ -3210,7 +5402,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "mozzarella-tomato"
@@ -3236,7 +5442,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -3253,7 +5473,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "turkey-brie-sandwich"
@@ -3279,7 +5514,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 990,
@@ -3296,7 +5545,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "turkey-bistro-sandwich"
@@ -3322,7 +5586,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -3339,7 +5618,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "country-potato-soup"
@@ -3365,7 +5659,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -3382,7 +5691,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cream-of-mushroom-soup"
@@ -3408,7 +5732,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -3425,7 +5764,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "french-lentil-kale-soup"
@@ -3451,7 +5805,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -3468,7 +5837,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "french-onion-soup"
@@ -3494,7 +5878,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 710,
@@ -3511,7 +5910,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "tomato-basil-soup"

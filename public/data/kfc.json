@@ -18,7 +18,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -39,7 +54,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -60,7 +90,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -81,7 +126,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -104,24 +164,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Unsauced"
-            },
-            {
-                "calories": 100,
-                "total_fat": 6,
-                "saturated_fat": 1,
-                "trans_fat": 0,
-                "cholesterol": 20,
-                "sodium": 210,
-                "total_carbohydrates": 8,
-                "dietary_fiber": 0,
-                "sugar": 4,
-                "protein": 5,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Honey BBQ"
+                "variant_name": "Unsauced",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Containing Up To 15% of a solution of: Water, Seasoning( soy protein concentrate, chili pepper, salt, modified food starch, rice starch, carrageenan, spice extractive, garlic powder, soy lecithin), potassium and sodium phosphates. Breaded with: Enriched wheat flour( wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), bread crumbs ( wheat flour, distilled vinegar, sea salt, sodium bicarbonate, inactive yeast, natural flavor), salt, rice flour, leavening ( sodium bicarbonate, sodium aluminum phosphate), chili pepper, garlic powder, spices, citric acid, natural flavors, sugar, onion powder. Battered with: water, enriched bleached wheat flour( enriched bleached wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), modified food starch, modified wheat starch, rice flour, salt, garlic powder, yeast extract, hydroxypropyl methylcellulose, leavening (sodium bicarbonate, sodium aluminum phosphate), chili pepper, spice. Predusted with: Enriched wheat flour, (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid) modified food starch, salt, yeast extract, garlic powder, leavening ( sodium bicarbonate, sodium aluminum phosphate) dehydrated chicken stock, chili pepper, citric acid, spices, natural flavors, sugar, onion powder, breading set in vegetable oil."
             },
             {
                 "calories": 100,
@@ -138,7 +196,54 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Buffalo"
+                "variant_name": "Buffalo",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Cayenne Red Pepper, Water, Soybean Oil, Distilled Vinegar, Salt, Egg Yolk, Modified Corn Starch, Spice, Dehydrated Garlic, Xanthan Gum, Natural Flavor, Red Pepper, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Calcium Disodium EDTA Added To Protect Flavor. Containing Up To 15% of a solution of: Water, Seasoning( soy protein concentrate, chili pepper, salt, modified food starch, rice starch, carrageenan, spice extractive, garlic powder, soy lecithin), potassium and sodium phosphates. Breaded with: Enriched wheat flour( wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), bread crumbs ( wheat flour, distilled vinegar, sea salt, sodium bicarbonate, inactive yeast, natural flavor), salt, rice flour, leavening ( sodium bicarbonate, sodium aluminum phosphate), chili pepper, garlic powder, spices, citric acid, natural flavors, sugar, onion powder. Battered with: water, enriched bleached wheat flour( enriched bleached wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), modified food starch, modified wheat starch, rice flour, salt, garlic powder, yeast extract, hydroxypropyl methylcellulose, leavening (sodium bicarbonate, sodium aluminum phosphate), chili pepper, spice. Predusted with: Enriched wheat flour, (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid) modified food starch, salt, yeast extract, garlic powder, leavening ( sodium bicarbonate, sodium aluminum phosphate) dehydrated chicken stock, chili pepper, citric acid, spices, natural flavors, sugar, onion powder, breading set in vegetable oil."
+            },
+            {
+                "calories": 100,
+                "total_fat": 6,
+                "saturated_fat": 1,
+                "trans_fat": 0,
+                "cholesterol": 20,
+                "sodium": 210,
+                "total_carbohydrates": 8,
+                "dietary_fiber": 0,
+                "sugar": 4,
+                "protein": 5,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Honey BBQ",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Water, Sugar, Tomato Paste, Brown Sugar, Corn Vinegar, Honey, Contains 2% or Less; Apple Cider Vinegar, Salt, Modified Food Starch, Natural Hickory Smoke Flavor, Soybean Oil, Chili Pepper, Spices, Sodium Benzoate and Potassium Sorbate (preservatives), Garlic Powder, Onion Powder, Citric Acid, Ground Celery, Xanthan Gum, Ground Paprika. Containing Up To 15% of a solution of: Water, Seasoning( soy protein concentrate, chili pepper, salt, modified food starch, rice starch, carrageenan, spice extractive, garlic powder, soy lecithin), potassium and sodium phosphates. Breaded with: Enriched wheat flour( wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), bread crumbs ( wheat flour, distilled vinegar, sea salt, sodium bicarbonate, inactive yeast, natural flavor), salt, rice flour, leavening ( sodium bicarbonate, sodium aluminum phosphate), chili pepper, garlic powder, spices, citric acid, natural flavors, sugar, onion powder. Battered with: water, enriched bleached wheat flour( enriched bleached wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), modified food starch, modified wheat starch, rice flour, salt, garlic powder, yeast extract, hydroxypropyl methylcellulose, leavening (sodium bicarbonate, sodium aluminum phosphate), chili pepper, spice. Predusted with: Enriched wheat flour, (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid) modified food starch, salt, yeast extract, garlic powder, leavening ( sodium bicarbonate, sodium aluminum phosphate) dehydrated chicken stock, chili pepper, citric acid, spices, natural flavors, sugar, onion powder, breading set in vegetable oil."
             },
             {
                 "calories": 130,
@@ -155,7 +260,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Nashville Hot"
+                "variant_name": "Nashville Hot",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Containing Up To 15% of a solution of: Water, Seasoning( soy protein concentrate, chili pepper, salt, modified food starch, rice starch, carrageenan, spice extractive, garlic powder, soy lecithin), potassium and sodium phosphates. Breaded with: Enriched wheat flour( wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), bread crumbs ( wheat flour, distilled vinegar, sea salt, sodium bicarbonate, inactive yeast, natural flavor), salt, rice flour, leavening ( sodium bicarbonate, sodium aluminum phosphate), chili pepper, garlic powder, spices, citric acid, natural flavors, sugar, onion powder. Battered with: water, enriched bleached wheat flour( enriched bleached wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), modified food starch, modified wheat starch, rice flour, salt, garlic powder, yeast extract, hydroxypropyl methylcellulose, leavening (sodium bicarbonate, sodium aluminum phosphate), chili pepper, spice. Predusted with: Enriched wheat flour, (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid) modified food starch, salt, yeast extract, garlic powder, leavening ( sodium bicarbonate, sodium aluminum phosphate) dehydrated chicken stock, chili pepper, citric acid, spices, natural flavors, sugar, onion powder, breading set in vegetable oil."
             }
         ],
         "slug": "kentucky-fried-wings"
@@ -179,7 +299,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -200,7 +335,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -221,7 +371,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -242,7 +407,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -263,7 +443,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Wheat Flour, Sugar, Water, Palm Oil, Whole Egg, Butter, Invert Sugar, Soybean Oil, Soy Flour, Soy Lecithin, Vitamin A Palmitate, Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent), Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor."
     },
     {
         "restaurant_name": "KFC",
@@ -286,7 +481,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole Wing"
+                "variant_name": "Whole Wing",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 190,
@@ -303,7 +513,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Drumstick"
+                "variant_name": "Drumstick",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 390,
@@ -320,7 +545,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Thigh"
+                "variant_name": "Thigh",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 540,
@@ -337,7 +577,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Breast"
+                "variant_name": "Breast",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             }
         ],
         "slug": "nashville-hot-crispy-chicken"
@@ -363,7 +618,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Drumstick"
+                "variant_name": "Drumstick",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 290,
@@ -380,7 +650,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole Wing"
+                "variant_name": "Whole Wing",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 500,
@@ -397,7 +682,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Thigh"
+                "variant_name": "Thigh",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             },
             {
                 "calories": 770,
@@ -414,7 +714,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Breast"
+                "variant_name": "Breast",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
             }
         ],
         "slug": "nashville-hot-extra-crispy-chicken"
@@ -440,7 +755,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole Wing"
+                "variant_name": "Whole Wing",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
             },
             {
                 "calories": 100,
@@ -457,7 +787,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Drumstick"
+                "variant_name": "Drumstick",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
             },
             {
                 "calories": 180,
@@ -474,7 +819,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Thigh"
+                "variant_name": "Thigh",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
             },
             {
                 "calories": 260,
@@ -491,7 +851,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Breast"
+                "variant_name": "Breast",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent."
             }
         ],
         "slug": "nashville-hot-grilled-chicken"
@@ -515,7 +890,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -536,7 +926,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -557,7 +950,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -578,7 +986,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -599,7 +1022,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -620,7 +1058,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -641,7 +1094,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -662,7 +1130,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -683,7 +1166,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -704,7 +1202,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Diced Apples (Apples, Ascorbic Acid, Citric Acid, Salt), Enriched Flour (Bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), High Fructose Corn Syrup, Water, Palm Oil, Modified Food Starch. Contains 2% Or Less Of: Rice Flour, Dextrose, Salt, Spice, Sugar, Locust Bean Gum, Citric Acid, Sunflower Lecithin, Yeast Extract, Enzyme."
     },
     {
         "restaurant_name": "KFC",
@@ -725,7 +1238,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Sugar, Enriched Bleached Wheat Flour (Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Whole Eggs, Liquid Soybean Oil, Water, Cocoa (Processed With Alkali), Chocolate Chips (Sugar, Chocolate Liquor, Cocoa Butter, Soy Lecithin, Vanilla), Modified Corn Starch, Food Starch-Modified, Whey (Milk), Contains 2% Or Less Of Each: Corn Syrup, Salt, Baking Soda, Sodium Aluminum Phosphate, Interesterified Soybean Oil, Agar, Locust Bean Gum, Potassium Sorbate and Sodium Propionate (Preservatives), Nonfat Milk, Xanthan Gum, Guar Gum, Polysorbate 60, Mono and Diglycerides, Vital Wheat Gluten, Sorbitan Monostearate, Sodium Stearoyl Lactylate, Propylene Glycol Mono and Diesters of Fatty Acids, Natural and Artificial Flavors, Calcium Acetate, Soy Flour, Titanium Dioxide."
     },
     {
         "restaurant_name": "KFC",
@@ -746,7 +1274,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Sugar, Enriched Bleached Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Whole Eggs, Liquid Soybean Oil, Water, Modified Corn Starch, Whey (Milk), Contains 2% or Less of Each: Salt, Interesterified and Hydrogenated Soybean Oil, Calcium Carbonate, Calcium Sulfate, High Fructose Corn Syrup, Corn Syrup, Lemon Peel, Dextrose, Agar, Locust Bean Gum, Natural and Artificial Flavors, Mono and Diglycerides, Leavening (Baking Soda, Sodium Aluminum Phosphate), Vital Wheat Gluten, Sodium Stearoyl Lactylate, Sorbitan Monostearate, Sodium Benzoate, Sodium Propionate and Potassium Sorbate (preservatives), Calcium Acetate, Nonfat Milk, Xanthan Gum, Guar Gum, Polysorbate 60, Sodium Citrate, Citric Acid, Pectin, Yellow #5. Contains: Wheat, Egg, Milk, and Soy. May Contain Traces of Tree Nuts."
     },
     {
         "restaurant_name": "KFC",
@@ -767,7 +1310,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Sugar, Enriched Bleached Wheat Flour (Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Whole Eggs, Liquid Soybean Oil, Water, Cocoa (Processed with Alkali), Chocolate Chips (Sugar, Chocolate Liquor, Cocoa Butter, Soy Lecithin, Vanillin), Modified Corn Starch, Mono and Diglycerides, Whey, Contains 2 % or Less of the Following: Corn Syrup, Partially Hydrogenated Vegetable Oil (Cottonseed, Soybean), Salt, Baking Soda, Sodium Aluminum Phosphate, Calcium Carbonate, Calcium Sulfate, Dextrose, Agar, Locust Bean Gum, Potassium Sorbate and Sodium Propionate (Preservatives), Nonfat Milk, Xanthan Gum, Guar Gum, Polysorbate 60, Vital Wheat Gluten, Sorbitan Monostearate, Sodium Stearoyl Lactylate, Natural and Artificial Flavors, Calcium Acetate, Titanium Dioxide."
     },
     {
         "restaurant_name": "KFC",
@@ -788,7 +1346,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Sugar, Enriched Bleached Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Whole Eggs, Liquid Soybean Oil, Water, Modified Corn Starch, Whey (Milk), Contains 2% or Less of Each: Salt, Interesterified and Hydrogenated Soybean Oil, Calcium Carbonate, Calcium Sulfate, High Fructose Corn Syrup, Corn Syrup, Lemon Peel, Dextrose, Agar, Locust Bean Gum, Natural and Artificial Flavors, Mono and Diglycerides, Leavening (Baking Soda, Sodium Aluminum Phosphate), Vital Wheat Gluten, Sodium Stearoyl Lactylate, Sorbitan Monostearate, Sodium Benzoate, Sodium Propionate and Potassium Sorbate (preservatives), Calcium Acetate, Nonfat Milk, Xanthan Gum, Guar Gum, Polysorbate 60, Sodium Citrate, Citric Acid, Pectin, Yellow #5. Contains: Wheat, Egg, Milk, and Soy. May Contain Traces of Tree Nuts."
     },
     {
         "restaurant_name": "KFC",
@@ -809,7 +1382,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "peanuts",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "shellfish"
+        ],
+        "ingredients": "Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Semi-Sweet Chocolate Chips (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor), Margarine (Palm Oil, Water, Soybean Oil, Contains Less Than 2% Of Salt, Whey (Milk), Mono and Diglycerides, Soy Lecithin, Vitamin A Palmitate Added, Beta Carotene [Color]), Sugar, Brown Sugar, Eggs, Invert Sugar, Contains 2% Or Less Of Leavening (Baking Soda, Sodium Acid Pyrophosphate, Monocalcium Phosphate), Water, Salt, Natural Flavors, Corn Starch."
     },
     {
         "restaurant_name": "KFC",
@@ -830,7 +1418,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Flour Bleached (Wheat Flour, Niacin, Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Hydrogenated Palm Kernel Oil, Buttermilk, Sugar, Baking Soda, Salt, Sodium Aluminum Phosphate, Nonfat Milk, Sodium Caseinate, Datem, Whey Protein Concentrate, Sodium Acid Pyrophosphate, Whey Palm Oil, Wheat Protein Isolate, Natural Flavor, Soy Lecithin. Or Enriched Flour Bleached (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Cultured Buttermilk (Nonfat Milk, Nonfat Milk Solids, Food Starch-Modified, Carrageenan, Locust Bean Gum, Salt, Cultures), Palm Oil, Sugar, Sodium Aluminum Phosphate, Baking Soda, Salt, Sodium Acid Pyrophosphate, Natural Flavor. Brown Sugar, Water, Sugar, Corn Syrup, Butter (Pasteurized Cream, Salt), Cream Cheese (Pasteurized Milk And Cream, Salt, Stabilizers (Guar Gum And Carob Bean Gum)), Modified Food Starch, Contains 2% Or Less Of Spices, Natural Flavor, Salt, Potassium Sorbate (Preservative), Soy Lecithin. Sugar, Cream Cheese (Pasteurized Milk And Cream, Cultures, Salt, Xanthan Gum And/Or Guar Gum And/Or Locust Bean Gum), Margarine (Palm Oil, Water, Soybean Oil, Salt, Mono And Diglycerides, Whey Solids (A Milk Derivative), Soy Lecithin, To Preserve Freshness (Sodium Benzoate), Artificial Flavor, Vitamin A Palmitate Added), Corn Syrup Solids, Water, Contains Less Than 2% Of The Following: Soybean Oil, Artificial Flavor, To Preserve Freshness (Potassium Sorbate), Guar Gum, Xanthan Gum, Lactic Acid, Cellulose Gum, Artificial Color (Yellow 5), Colored With Beta Carotene. OR Enriched Flour Bleached (Wheat Flour, Niacin, Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Hydrogenated Palm Kernel Oil, Buttermilk, Sugar, Baking Soda, Salt, Sodium Aluminum Phosphate, Nonfat Milk, Sodium Caseinate, Datem, Whey Protein Concentrate, Sodium Acid Pyrophosphate, Whey Palm Oil, Wheat Protein Isolate, Natural Flavor, Soy Lecithin. Or Enriched Flour Bleached (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Cultured Buttermilk (Nonfat Milk, Nonfat Milk Solids, Food Starch-Modified, Carrageenan, Locust Bean Gum, Salt, Cultures), Palm Oil, Sugar, Sodium Aluminum Phosphate, Baking Soda, Salt, Sodium Acid Pyrophosphate, Natural Flavor. Brown Sugar, Water, Sugar, Corn Syrup, Butter (Pasteurized Cream, Salt), Cream Cheese (Pasteurized Milk And Cream, Salt, Stabilizers (Guar Gum And Carob Bean Gum)), Modified Food Starch, Contains 2% Or Less Of Spices, Natural Flavor, Salt, Potassium Sorbate (Preservative), Soy Lecithin. Sugar, Margarine (Palm Oil, Water, Soybean Oil, Salt, Vegetable Mono- And Diglycerides, Whey Solids [Milk], Soy Lecithin, Sodium Benzoate [Preservative], Artificial Flavor, Vitamin A Palmitate), Cream Cheese (Pasteurized Milk And Cream, Cheese Culture, Salt, Stabilizer [Carob Bean Gum, Xanthan Gum, Guar Gum]), Water, Corn Syrup Solids. Contains 2% Or Less Of Each Of The Following: Modified Cellulose, Natural And Artificial Flavor, Xanthan Gum, Guar Gum, Potassium Sorbate (Preservative), Soybean Oil, Lactic Acid, Yellow 5, Beta Carotene (Color)."
     },
     {
         "restaurant_name": "KFC",
@@ -851,7 +1454,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "peanuts",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "shellfish"
+        ],
+        "ingredients": "Oreo Cookie Pieces And Crumbs (Unbleached Enriched Flour [Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Sugar, Palm Oil And/or Canola Oil, Cocoa Processed With Alkali, High Fructose Corn Syrup, Leavening [Baking Soda and/or Calcium Phosphate], Salt, Soy Lecithin, Chocolate, Artificial Flavor), Water, Reduced Fat Sweetened Condensed Milk (Milk, Skim Milk, Sugar, Vitamin A Palmitate), Sugar, Hydrogenated Palm Kernel Oil, Milk, Shortening (Palm Oil And Soybean Oil), Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Cream Cheese (Pasteurized Milk and Cream, Cheese Culture), Contains 2% Or Less: Corn Syrup, Cocoa (Processed With Alkali), Natural Flavor, Sodium Caseinate, Corn Syrup Solids, Modified Food Starch, Salt, Dextrose, Polysorbate 60, Baking Soda, Sorbitan Monostearate, Guar Gum, Cheese Culture, Carob Bean Gum, Mono And Diglycerides, Xanthan Gum, Malic Acid, Soy Lecithin, Colored With Beta Carotene And Apocarotenal."
     },
     {
         "restaurant_name": "KFC",
@@ -872,7 +1490,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "peanuts",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "shellfish"
+        ],
+        "ingredients": "Sugar, Reduced Fat Sweetened Condensed Milk (Milk, Skim Milk, Sugar, Vitamin A Palmitate), Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Peanuts, Reese's Peanut Butter Cups (Milk Chocolate [Sugar, Cocoa Butter, Chocolate, Nonfat Milk, Milk Fat, Lactose, Soy Lecithin and PGPR], Peanuts, Sugar, Dextrose, Salt, and TBHQ [Preservative]), Shortening (Palm Oil and Soybean Oil), Water, Milk, Hydrogenated Vegetable Oil (Palm Kernel Oil, Rapeseed, Cottonseed, and Soybean Oil), Cream Cheese (Pasteurized Milk and Cream, Cheese Culture), Corn Syrup, Contains 2% Or Less: Cocoa (Processed With Alkali), Salt, Baking Soda, Coconut Oil, Dextrose, Natural And Artificial Flavor, Polysorbate 60, Carbohydrate Gum, Soy Lecithin, Polyglycerol Esters Of Fatty Acids, Cocoa, Mono And Diglycerides, Sodium Citrate, Disodium Phosphate, Xanthan Gum, Cheese Culture, Carob Bean Gum, Peanut Oil, Molasses, Cornstarch, Colored With Beta Carotene, Caramel Color And Apocarotenal."
     },
     {
         "restaurant_name": "KFC",
@@ -893,7 +1526,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Water, Brown Sugar, Tomato Paste, Honey, Distilled Vinegar, Contains Less Than 2% Of Cider Vinegar, Food Starch-Modified, Salt, Natural Flavor, Spices, Garlic*, Sodium Benzoate And Potassium Sorbate (As Preservatives), Onion*, Citric Acid, Celery Seed, Paprika"
     },
     {
         "restaurant_name": "KFC",
@@ -914,7 +1561,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Soybean Oil, Palm Oil, Water, Vegetable Mono & Diglycerides, Contains Less Than 2% Of Salt, Nonfat Dry Milk, Natural Flavors (Includes Milk), Potassium Sorbate (A Preservative), Vitamin A Palmitate Added, Beta Carotene (Color)."
     },
     {
         "restaurant_name": "KFC",
@@ -935,7 +1597,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Country Fried Steak: Beef, Water, Textured Vegetable Protein Product [Soy Protein Concentrate, Zinc Oxide, Niacinamide, Ferrous Sulfate, Copper Gluconate, Vitamin A Palmitate, Calcium Pantothenate, Thiamine Mononitrate (B1), Pyridoxine Hydrochloride (B6), Riboflavin (B2), Cyanocobalamin (B12)], Salt, Spice. Breaded With: Enriched Wheat Flour, (Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Wheat Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Dextrose, Spice. Battered With: Water, Enriched Wheat Flour (Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Wheat Flour, Salt, Buttermilk Blend (Buttermilk, Whey), Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Spice., White Peppered Gravy: Modified Corn Starch, Sunflower Oil, Corn Syrup Solids, Wheat Flour, Maltodextrin, Buttermilk, Palm Oil, Salt, Sugar, Sodium Caseinate, Dipotassium Phosphate,, Spice, Hydroxylated Soy Lecithin, Sodium Silico Aluminate, Spice Extractives, and Extractives of Annatto."
     },
     {
         "restaurant_name": "KFC",
@@ -956,7 +1633,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Country Fried Steak: Beef, Water, Textured Vegetable Protein Product [Soy Protein Concentrate, Zinc Oxide, Niacinamide, Ferrous Sulfate, Copper Gluconate, Vitamin A Palmitate, Calcium Pantothenate, Thiamine Mononitrate (B1), Pyridoxine Hydrochloride (B6), Riboflavin (B2), Cyanocobalamin (B12)], Salt, Spice. Breaded With: Enriched Wheat Flour, (Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Wheat Flour, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Dextrose, Spice. Battered With: Water, Enriched Wheat Flour (Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Wheat Flour, Salt, Buttermilk Blend (Buttermilk, Whey), Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Spice., White Peppered Gravy: Modified Corn Starch, Sunflower Oil, Corn Syrup Solids, Wheat Flour, Maltodextrin, Buttermilk, Palm Oil, Salt, Sugar, Sodium Caseinate, Dipotassium Phosphate,, Spice, Hydroxylated Soy Lecithin, Sodium Silico Aluminate, Spice Extractives, and Extractives of Annatto."
     },
     {
         "restaurant_name": "KFC",
@@ -977,7 +1669,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Soybean Oil, Water, Cultured Lowfat Buttermilk, Distilled Vinegar, Egg Yolks, Sugar, Buttermilk, Salt, Contains Less Than 2% Of Onion*, Garlic*, Monosodium Glutamate, Lactic Acid, Xanthan Gum, Sodium Benzoate And Potassium Sorbate (As Preservatives), Spices (Includes Mustard), Natural Flavor (Includes Milk), Parsley*, Calcium Disodium Edta Added To Protect Flavor. *Dehydrated"
     },
     {
         "restaurant_name": "KFC",
@@ -998,7 +1705,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "KFC\u00ae Gizzards: Fresh Gizzards Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -1019,7 +1741,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "MSG"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Soybean Oil, High Fructose Corn Syrup, Prepared Dijon Mustard (Distilled Vinegar, Water, Mustard Seed, Salt, White Wine, Spice), Honey, Water, Egg Yolks, Distilled Vinegar, Contains Less Than 2% Of Corn Syrup, Salt, Spice (Includes Mustard), Sodium Benzoate (A Preservative), Xanthan Gum, Natural Flavor, Calcium Disodium Edta Added To Protect Flavor, Citric Acid. *Dehydrated"
     },
     {
         "restaurant_name": "KFC",
@@ -1040,7 +1777,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "High Fructose Corn Syrup, Corn Syrup, Sugar, Honey (7%), Fructose, Contains 2% or Less of: Caramel Color, Molassas, Water, Citric Acid, Natural and Artificial Falvor, Malic Acid. OR Corn Syrup, High Fructose Corn Syrup, Honey, Sugar, Natural and Artificial Flavor."
     },
     {
         "restaurant_name": "KFC",
@@ -1061,7 +1812,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "KFC\u00ae Livers: Fresh Livers Marinated With: Water, Salt. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning."
     },
     {
         "restaurant_name": "KFC",
@@ -1084,7 +1850,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 Piece"
+                "variant_name": "6 Piece",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Water, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Soy Protein, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Expeller-Pressed Canola Oil, Wheat Gluten, Salt, Breadcrumbs (Wheat Flour, Distilled Vinegar, Sea Salt, Sodium Bicarbonate, Inactive Yeast, Spice Extractives), Natural Flavors, Contains 2% or Less: Yeast Extract, Garlic Powder, Potato Starch, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Spices, Rice Flour, Salt, Pea Fiber, Citric Acid, Chili Pepper, Titanium Dioxide (for color), Spice Extractive, Onion Powder"
             },
             {
                 "calories": 960,
@@ -1101,7 +1882,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 Piece"
+                "variant_name": "12 Piece",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Water, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Soy Protein, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Expeller-Pressed Canola Oil, Wheat Gluten, Salt, Breadcrumbs (Wheat Flour, Distilled Vinegar, Sea Salt, Sodium Bicarbonate, Inactive Yeast, Spice Extractives), Natural Flavors, Contains 2% or Less: Yeast Extract, Garlic Powder, Potato Starch, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Spices, Rice Flour, Salt, Pea Fiber, Citric Acid, Chili Pepper, Titanium Dioxide (for color), Spice Extractive, Onion Powder"
             }
         ],
         "slug": "beyond-fried-chicken-nuggets"
@@ -1127,7 +1923,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Kids"
+                "variant_name": "Kids",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil."
             },
             {
                 "calories": 620,
@@ -1144,7 +1955,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil."
             }
         ],
         "slug": "popcorn-chicken-nuggets"
@@ -1168,7 +1994,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1189,7 +2018,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Pot Pie: Processed From: Cream, Food Starch-Modified, Wheat Flour, Salt, Chicken Fat, Nonfat Milk, Milk, Dehydrated Chicken Broth, Canola Oil, Monosodium Glutamate, Spices, Onion Powder, Disodium Inosinate, Disodium Guanylate, Natural Flavor, Dehydrated Parsley, Guar Gum, Turmeric (Color), With Not More Than 2% Silicon Dioxide Added As An Anti-caking Agent. Potatoes, Carrots, Peas, Salt. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent. OR Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Enriched Flour Bleached (Wheat Flour, Niacin, Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, Folic Acid), Palm Oil, Water, Palm Kernel Oil, Nonfat Milk, Maltodextrin, Salt, Dextrose, Sugar, Whey, Natural Flavor, Citric Acid, Potassium Sorbate And Sodium Benzoate (Preservatives), Annatto And Turmeric Extract Color, L-Cysteine Hydrochloride."
     },
     {
         "restaurant_name": "KFC",
@@ -1210,7 +2054,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1231,7 +2078,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mashed Potatoes: Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice., Gravy: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Food Starch - Modified, Maltodextrin, Chicken Fat, Palm and Canola Oils, Salt, Monosodium Glutamate, Dextrose, Mono and Diglycerides, Hydrolyzed Soy Protein, Caramel Color (Contains Up To 20 PPM Sulfites), Hydrolyzed Corn Protein, Onion Powder, Natural Flavors, Disodium Inosinate, Disodium Guanylate, Spice, Butter (Cream), With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent., Popcorn Nuggets - Kids: Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil., Sweet Kernel Corn: Corn, Shredded Cheese Blend: Low Moisture Part Skim Mozzarella Cheese (Cultured Pasteurized Part Skim Milk, Salt, Enzymes), Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes, Annatto), Pasteurized Process Monterey Jack and American Cheese with Peppers [Monterey Jack and American Cheese, (Cultured Pasteurized Milk, Salt, Enzymes), Water, Cream, Sodium Citrate, Jalapeno Peppers, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid (Preservative)], Anticaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -1252,7 +2114,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1273,7 +2138,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1294,7 +2162,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1315,7 +2186,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mac & Cheese Bowl: Cooked Enriched Macaroni Product (Water, Enriched Durum Wheat Semolina [Semolina, Niacin, Ferrous Sulfate {Iron}, Thiamine Mononitrate, Riboflavin, Folic Acid], Egg White Solids), Skim Milk, Water, Pasteurized Cheddar Cheese Product (Cheddar Cheese [Pasteurized Milk, Cultures, Salt, And Enzymes], Water, Soybean Oil, Whey Protein Concentrate, Nonfat Dry Milk, Modified Food Starch, Natural Flavors, Salt, Maltodextrin, Whey, Sodium Citrate, Anhydrous Milkfat, Dipotassium Phosphate, Potassium Chloride, Sodium Stearoyl Lactylate, Sorbic Acid [Preservative], Yeast Extract, And Color [Beta Carotene And/or Paprika And/or Annatto Extract]), Soybean Oil, Wheat Flour, Food Starch-Modified, Salt, Sugar, Disodium Phosphate, Cheese Flavor (Salt, Maltodextrin, Dextrose, Natural Flavors and Lactic Acid), Mono and Diglycerides, Xanthan Gum, Sodium Alginate, Carrageenan Lactic Acid, Citric Acid, Beta Carotene For Color (Corn Oil, Tocopherol). Low Moisture Part Skim Mozzarella Cheese (Cultured Pasteurized Part Skim Milk, Salt, Enzymes), Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes, Annatto), Pasteurized Process Monterey Jack and American Cheese with Peppers [Monterey Jack and American Cheese, (Cultured Pasteurized Milk, Salt, Enzymes), Water, Cream, Sodium Citrate, Jalapeno Peppers, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid (Preservative)], Anticaking Agent. Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil."
     },
     {
         "restaurant_name": "KFC",
@@ -1336,7 +2222,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1357,7 +2246,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mashed Potatoes: Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice., Gravy: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Food Starch - Modified, Maltodextrin, Chicken Fat, Palm and Canola Oils, Salt, Monosodium Glutamate, Dextrose, Mono and Diglycerides, Hydrolyzed Soy Protein, Caramel Color (Contains Up To 20 PPM Sulfites), Hydrolyzed Corn Protein, Onion Powder, Natural Flavors, Disodium Inosinate, Disodium Guanylate, Spice, Butter (Cream), With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent., Popcorn Nuggets - Kids: Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil., Sweet Kernel Corn: Corn, Shredded Cheese Blend: Low Moisture Part Skim Mozzarella Cheese (Cultured Pasteurized Part Skim Milk, Salt, Enzymes), Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes, Annatto), Pasteurized Process Monterey Jack and American Cheese with Peppers [Monterey Jack and American Cheese, (Cultured Pasteurized Milk, Salt, Enzymes), Water, Cream, Sodium Citrate, Jalapeno Peppers, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid (Preservative)], Anticaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -1378,7 +2282,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Spicy Mac & Cheese Bowl: Cooked Enriched Macaroni Product (Water, Enriched Durum Wheat Semolina [Semolina, Niacin, Ferrous Sulfate {Iron}, Thiamine Mononitrate, Riboflavin, Folic Acid], Egg White Solids), Skim Milk, Water, Pasteurized Cheddar Cheese Product (Cheddar Cheese [Pasteurized Milk, Cultures, Salt, And Enzymes], Water, Soybean Oil, Whey Protein Concentrate, Nonfat Dry Milk, Modified Food Starch, Natural Flavors, Salt, Maltodextrin, Whey, Sodium Citrate, Anhydrous Milkfat, Dipotassium Phosphate, Potassium Chloride, Sodium Stearoyl Lactylate, Sorbic Acid [Preservative], Yeast Extract, And Color [Beta Carotene And/or Paprika And/or Annatto Extract]), Soybean Oil, Wheat Flour, Food Starch-Modified, Salt, Sugar, Disodium Phosphate, Cheese Flavor (Salt, Maltodextrin, Dextrose, Natural Flavors and Lactic Acid), Mono and Diglycerides, Xanthan Gum, Sodium Alginate, Carrageenan Lactic Acid, Citric Acid, Beta Carotene For Color (Corn Oil, Tocopherol). Low Moisture Part Skim Mozzarella Cheese (Cultured Pasteurized Part Skim Milk, Salt, Enzymes), Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes, Annatto), Pasteurized Process Monterey Jack and American Cheese with Peppers [Monterey Jack and American Cheese, (Cultured Pasteurized Milk, Salt, Enzymes), Water, Cream, Sodium Citrate, Jalapeno Peppers, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid (Preservative)], Anticaking Agent. Containing Up To A 25% Solution Of: Water, Seasoning (Soy Protein Concentrate [29.5%], Salt, Modified Food Starch, Rice Starch, Carrageenan, Onion Powder, Dehydrated Chicken Broth, Spice Extractive), Sodium Phosphates. Breaded With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, riboflavin, Folic Acid), Salt, Rice Flour, Spices, Wheat Gluten, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Corn Starch (With Tapioca Dextrin), Garlic Powder, Citric Acid, Maltodextrin, Natural Flavoring, Sugar, Corn Syrup Solids, Gum Arabic. Battered With: Water, Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Modified Wheat Starch, Rice Flour, Salt, Garlic Powder, Dextrin, Sodium Caseinate, Yeast Extract, Hydroxypropyl Methylcellulose, Spices, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Mono and Diglycerides, Soy Lecithin. Predusted With: Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Modified Food Starch, Autolyzed Yeast Extract, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Monocalcium Phosphate), Monosodium Glutamate, Garlic Powder, Spices, Dehydrated Chicken Broth, Maltodextrin, Citric Acid, Sugar, Natural Flavoring, Corn Syrup Solids. Breading Set In Vegetable Oil. Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor."
     },
     {
         "restaurant_name": "KFC",
@@ -1399,7 +2318,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Lettuce: Lettuce, Parmesan Shaved Cheese: Pasteurized Milk, Cheese Culture, Salt, Enzymes, and Anti-caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -1420,7 +2354,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Soybean Oil, Water, Parmesan Cheese (Pasteurized Cultured Milk or Part Skim, Salt Enzymes, Anti-Caking and Anti-Mycotic Agents), Dijon Mustard (Water, Distilled Vinegar, Mustard Seed, Salt, White Wine and Spices), Roasted Garlic (Roasted Garlic, Salt, Maltodextrin (Corn), Garlic, Corn Starch, Canola Oil and Sesame Oil),High Fructose Corn Syrup, White Wine Vinegar, Distilled Vinegar, Sugar, Contains Less Than 2% of Lemon Juice Concentrate, Garlic Juice, Salt, Egg Yolks, Anchovies, Spices, Phosphoric Acid, Xanthan Gum, Molasses, Corn Syrup, Sodium Benzoate and Potassium Sorbate as Preservatives, Defatted Soy Flour, Tarmaric, Natural Flavors."
     },
     {
         "restaurant_name": "KFC",
@@ -1441,7 +2390,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Soybean Oil, Distilled White Vinegar, Buttermilk (Low Fat Milk, Food Starch, Carrageenan, Locust Bean Gum, Salt, Cultures), High Fructose Corn Syrup, Egg Yolks, Salt, Garlic Juice (Garlic Juice, Salt, Vinegar), Garlic Powder, Xanthan Gum, Disodium Inosinate and Disodium Guanylate, Potassium Sorbate and Sodium Benzoate As Preservatives, Onion Powder, Lactic Acid, Polysorbate 60, Dehydrated Parsley, Buttermilk Powder, Propylene Glycol, Natural Flavor, Calcium Disodium EDTA (Added to Protect Flavor), Modified Corn Starch."
     },
     {
         "restaurant_name": "KFC",
@@ -1462,7 +2426,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "MSG",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Water, Ranch Seasoning and Spices (Modified Food Starch, Buttermilk, Sugar, Salt, Sour Cream [Cream, Nonfat Milk, Cultures], Monosodium Glutamate, Cultured Nonfat Milk, Garlic, Onion, Less than 2% of Spice, Green Onion, Maltodextrin, Monoglycerides, Soy Lecithin, Xanthan Gum, Disodium Phosphate, Calcium Disodium Edta Added to Protect Flavor), Corn Syrup, Maltodextrin, Contains Less than 2% of Natural and Artificial Flavors, Sugar, Distilled Vinegar, Phosphoric Acid, Titanium Dioxide (Color), Potassium Sorbate and Sodium Benzoate (As Preservatives), Lactic Acid, Xanthan Gum, Garlic Puree, Onion Puree, Soybean Oil."
     },
     {
         "restaurant_name": "KFC",
@@ -1483,7 +2462,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Lettuce: Lettuce, Tomatoes: Tomatoes"
     },
     {
         "restaurant_name": "KFC",
@@ -1504,7 +2497,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Water, Distilled Vinegar, Sugar, Salt, Soybean Oil, Garlic, Xanthan Gum, Sodium Benzoate Added as a Preservative, Spices, Onion, Red Bell Pepper, Calcium Disodium Edta Added to Protect Flavor, Yellow 5 and Yellow 6."
     },
     {
         "restaurant_name": "KFC",
@@ -1525,7 +2532,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Flour (Wheat Flour, Barley Malt, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Canola and/or Sunflower Oil, Water, Cheese Powder (Buttermilk, Parmesan Cheese [Cultured Part-Skim Milk, Salt, Enzymes], Soybean Oil, Disodium Phosphate, Citric Acid, Salt, Pasteurized Part-Skim, Cheese Cultures, Enzymes, Yeast, 2% or Less of the Following: High Fructose Corn Syrup, Salt, Calcium Propionate (Mold Inhibitor), Wheat Gluten, Dough Conditioners (May Contain One or More of the Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Peroxide, Calcium Sulfate, Ammonium Sulfate, Calcium Iodate, Ascorbic Acid), Garlic, Natural Flavor, Citric Acid and Rosemary Extract (To Preserve Freshness)."
     },
     {
         "restaurant_name": "KFC",
@@ -1548,7 +2570,15 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "without Syrup"
+                "variant_name": "without Syrup",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": "hicken & Waffles Sandwich (Chicken & Waffles Sandwich: Wheat Flour, Sugar, Water, Palm Oil, Whole Egg, Butter, Invert Sugar, Soybean Oil, Soy Flour, Soy Lecithin, Vitamin A Palmitate. High Fructose Corn Syrup, Corn Syrup, Water, Contains 2% Or Less Of Salt, Cellulose Gum, Molasses, Caramel Color, Potassium Sorbate As A Preservative, Natural & Artificial Flavors, Sodium Hexametaphospate, Citric Acid, Mono & Diglycerides. Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent).)"
             },
             {
                 "calories": 1100,
@@ -1565,7 +2595,15 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "with Syrup"
+                "variant_name": "with Syrup",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": "hicken & Waffles Sandwich (Chicken & Waffles Sandwich: Wheat Flour, Sugar, Water, Palm Oil, Whole Egg, Butter, Invert Sugar, Soybean Oil, Soy Flour, Soy Lecithin, Vitamin A Palmitate. High Fructose Corn Syrup, Corn Syrup, Water, Contains 2% Or Less Of Salt, Cellulose Gum, Molasses, Caramel Color, Potassium Sorbate As A Preservative, Natural & Artificial Flavors, Sodium Hexametaphospate, Citric Acid, Mono & Diglycerides. Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent).)<br/><br/>Mrs. Butterworth's Syrup: High Fructose Corn Syrup, Corn Syrup, Water, Contains 2% Or Less Of Salt, Cellulose Gum, Molasses, Caramel Color, Potassium Sorbate As A Preservative, Natural & Artificial Flavors, Sodium Hexametaphospate, Citric Acid, Mono & Diglycerides.)"
             }
         ],
         "slug": "chicken-waffles-sandwich"
@@ -1591,7 +2629,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Original"
+                "variant_name": "Original",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Tender (each): Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Bun: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Dough Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono- And Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono- and Diglycerides, Enzymes, Ascorbic Acid), Calcium Sulfate, Vinegar, Wheat Flour, Cultured Wheat Flour, Cultured Wheat Starch, Wheat Starch, Ammonium Sulfate, Calcium Carbonate, Monocalcium Phosphate, Soy Flour, Soy Lecithin, Topped with Sesame Seeds., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric."
             },
             {
                 "calories": 310,
@@ -1608,7 +2662,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Buffalo"
+                "variant_name": "Buffalo",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Tender (each): Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Bun: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Dough Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono- And Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono- and Diglycerides, Enzymes, Ascorbic Acid), Calcium Sulfate, Vinegar, Wheat Flour, Cultured Wheat Flour, Cultured Wheat Starch, Wheat Starch, Ammonium Sulfate, Calcium Carbonate, Monocalcium Phosphate, Soy Flour, Soy Lecithin, Topped with Sesame Seeds., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Buffalo Sauce: Cayenne Red Pepper, Water, Soybean Oil, Distilled Vinegar, Salt, Egg Yolk, Modified Corn Starch, Spice, Dehydrated Garlic, Xanthan Gum, Natural Flavor, Red Pepper, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Calcium Disodium EDTA Added To Protect Flavor., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric."
             },
             {
                 "calories": 320,
@@ -1625,7 +2695,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Honey BBQ"
+                "variant_name": "Honey BBQ",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Tender (each): Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Bun: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Dough Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono- And Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono- and Diglycerides, Enzymes, Ascorbic Acid), Calcium Sulfate, Vinegar, Wheat Flour, Cultured Wheat Flour, Cultured Wheat Starch, Wheat Starch, Ammonium Sulfate, Calcium Carbonate, Monocalcium Phosphate, Soy Flour, Soy Lecithin, Topped with Sesame Seeds., Honey BBQ Sauce: Water, Sugar, Tomato Paste, Brown Sugar, Corn Vinegar, Honey, Contains 2% or Less; Apple Cider Vinegar, Salt, Modified Food Starch, Natural Hickory Smoke Flavor, Soybean Oil, Chili Pepper, Spices, Sodium Benzoate and Potassium Sorbate (preservatives), Garlic Powder, Onion Powder, Citric Acid, Ground Celery, Xanthan Gum, Ground Paprika., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric."
             },
             {
                 "calories": 340,
@@ -1642,7 +2728,23 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Nashville Hot"
+                "variant_name": "Nashville Hot",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "sesame",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Tender (each): Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Bun: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Dough Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono- And Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono- and Diglycerides, Enzymes, Ascorbic Acid), Calcium Sulfate, Vinegar, Wheat Flour, Cultured Wheat Flour, Cultured Wheat Starch, Wheat Starch, Ammonium Sulfate, Calcium Carbonate, Monocalcium Phosphate, Soy Flour, Soy Lecithin, Topped with Sesame Seeds., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric., Nashville Hot Sauce: Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor."
             }
         ],
         "slug": "chicken-littles"
@@ -1668,7 +2770,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Spicy"
+                "variant_name": "Spicy",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Spicy Chicken Sandwich: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin mononitrate, Riboflavin, Folic Acid), Water, Sugar, yeast, Vegetable Oil (Soybean Oil, Sunflower oil, Canola oil), Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Yellow Corn Flour, Dextrose, Corn Starch, Monocalcium Phosphate, Calcium Sulfate, Natural Flavor, Douigh Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono and Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono and Diglycerides, Enzymes, Ascorbic Acid), Corn Maltodextrins, Vegetable Proteins (Pea, Potato, Faba Bean), Colored With Annatto And Tumeric, Calcium Propionate (To Retard Spoilage). Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent). Pickles, Water, Salt, Distilled Vinegar, Calcium Chloride, Polysorbate 80, Sodium Benzoate (preservative), Natural Flavors, Turmeric. Soybean Oil, Egg Yolks and Eggs, Distilled Vinegar, Water, Spice, Sugar, Salt, Onion Powder, Monosodium Glutamate, Granulated Garlic, Mustard Flour, Lemon Juice Concentrate, Polysorbate 60, Natural Flavor, Sodium Acid Sulfate, Sodium Benzoate and Potassium Sorbate (Preservatives), Calcium Disodium EDTA (Protect Flavor)."
             },
             {
                 "calories": 650,
@@ -1685,7 +2802,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Classic"
+                "variant_name": "Classic",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Classic Chicken Sandwich: Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin mononitrate, Riboflavin, Folic Acid), Water, Sugar, yeast, Vegetable Oil (Soybean Oil, Sunflower oil, Canola oil), Contains 2% Or Less Of Each Of The Following: Wheat Gluten, Salt, Yellow Corn Flour, Dextrose, Corn Starch, Monocalcium Phosphate, Calcium Sulfate, Natural Flavor, Douigh Conditioners (Contains One Or More Of The Following: Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Monoglycerides, Mono and Diglycerides, Distilled Monoglycerides, Calcium Peroxide, Calcium Iodate, Datem, Ethoxylated Mono and Diglycerides, Enzymes, Ascorbic Acid), Corn Maltodextrins, Vegetable Proteins (Pea, Potato, Faba Bean), Colored With Annatto And Tumeric, Calcium Propionate (To Retard Spoilage). Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent). Pickles, Water, Salt, Distilled Vinegar, Calcium Chloride, Polysorbate 80, Sodium Benzoate (preservative), Natural Flavors, Turmeric. Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)."
             }
         ],
         "slug": "chicken-sandwich"
@@ -1711,7 +2843,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Original"
+                "variant_name": "Original",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Filet: Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent)., Sandwich Bun: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, and Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains Less Than 2% Of Calcium Propionate (A Preservative), Calcium Sulfate, Ethoxylated Mono And Diglycerides, Ascorbic Acid, Silicon Dioxide, Sodium Stearoyl Lactylate, Enzymes, Salt, Wheat Gluten., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)."
             },
             {
                 "calories": 500,
@@ -1728,7 +2875,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Buffalo"
+                "variant_name": "Buffalo",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Filet: Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent)., Sandwich Bun: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, and Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains Less Than 2% Of Calcium Propionate (A Preservative), Calcium Sulfate, Ethoxylated Mono And Diglycerides, Ascorbic Acid, Silicon Dioxide, Sodium Stearoyl Lactylate, Enzymes, Salt, Wheat Gluten., Buffalo Sauce: Cayenne Red Pepper, Water, Soybean Oil, Distilled Vinegar, Salt, Egg Yolk, Modified Corn Starch, Spice, Dehydrated Garlic, Xanthan Gum, Natural Flavor, Red Pepper, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Calcium Disodium EDTA Added To Protect Flavor., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)."
             },
             {
                 "calories": 510,
@@ -1745,7 +2907,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Honey BBQ"
+                "variant_name": "Honey BBQ",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Filet: Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent)., Sandwich Bun: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, and Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains Less Than 2% Of Calcium Propionate (A Preservative), Calcium Sulfate, Ethoxylated Mono And Diglycerides, Ascorbic Acid, Silicon Dioxide, Sodium Stearoyl Lactylate, Enzymes, Salt, Wheat Gluten., Honey BBQ Sauce: Water, Sugar, Tomato Paste, Brown Sugar, Corn Vinegar, Honey, Contains 2% or Less; Apple Cider Vinegar, Salt, Modified Food Starch, Natural Hickory Smoke Flavor, Soybean Oil, Chili Pepper, Spices, Sodium Benzoate and Potassium Sorbate (preservatives), Garlic Powder, Onion Powder, Citric Acid, Ground Celery, Xanthan Gum, Ground Paprika., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)."
             },
             {
                 "calories": 540,
@@ -1762,7 +2939,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Nashville Hot"
+                "variant_name": "Nashville Hot",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Extra Crispy\u2122 Filet: Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added As An Anti Caking Agent. Or Contains Up To 18% Water, Seasoning [Rice Starch, Salt, Onion Powder, Natural Chicken Flavor (with Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken), Spice Extractive], Potassium and Sodium Phosphates. Salt, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added (As Anti Caking Agent)., Sandwich Bun: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, and Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains Less Than 2% Of Calcium Propionate (A Preservative), Calcium Sulfate, Ethoxylated Mono And Diglycerides, Ascorbic Acid, Silicon Dioxide, Sodium Stearoyl Lactylate, Enzymes, Salt, Wheat Gluten., Pickle: Cucumbers, Water, Salt, Distilled Vinegar, Calcium Chloride, Sodium Benzoate (preservative), Alum, Natural Flavors, Polysorbate 80, Turmeric., Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Nashville Hot Sauce: Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor."
             }
         ],
         "slug": "colonels-original-sandwich"
@@ -1786,7 +2978,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Extra Crispy\u2122 Tender (each): Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Tortilla: Enriched Bleached Wheat Flour (Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Soybean Oil, Hydrogenated Vegetable Oil (Contains one or more of the following: Cottonseed Oil, Soybean Oil), Mono- and Diglycerides, Sugar, contains less than 2% of the following: Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Fumaric Acid, Calcium Propionate and Potassium Sorbate (used as Preservatives), Dough Conditioners (DATEM, Mono- and Diglycerides, and Enzymes). OR Enriched Bleached Wheat Flour (Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Vegetable Oil (Soybean Oil, Hydrogenated Soybean Oil), contains less than 2% of the following: Sugar, Salt, Leavening (Sodium Bicarbonate, Sodium Acid Pyrophosphate), Fumaric Acid, Calcium Propionate and Potassium Sorbate (used as preservatives), Dough Conditioner (DATEM, Mono- and Diglycerides, Enzymes)., Lettuce Romaine Shredded: Romaine Lettuce, Tomatoes: Tomatoes, Colonel's Mayo: Soybean Oil, Water, Egg Yolks and Eggs, Distilled Vinegar, Sugar, Salt, Spices, Lemon Juice Concentrate, Calcium Disodium EDTA (Protect Flavor)., Shredded Cheese Blend: Low Moisture Part Skim Mozzarella Cheese (Cultured Pasteurized Part Skim Milk, Salt, Enzymes), Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes, Annatto), Pasteurized Process Monterey Jack and American Cheese with Peppers [Monterey Jack and American Cheese, (Cultured Pasteurized Milk, Salt, Enzymes), Water, Cream, Sodium Citrate, Jalapeno Peppers, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid (Preservative)], Anticaking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -1807,7 +3014,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1828,7 +3038,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "HBBQ Shredded Chicken: Sugar, Maltodextrin, Brown Sugar, Tomato Powder, Salt, Molasses Solids, Wheat Starch, Sodium Diacetate, Food Starch-Modified, Honey Solids, Citric Acid, Spices, Onion Powder, Paprika (Color), Caramel Color, Natural Smoke Flavor, Beet Powder (Color), Garlic Powder, Mustard, Soy Flour, With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent. Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Nonfat Milk, Whey, Potato Starch, Egg Whites, Maltodextrin, Triglycerides, Food Starch- Modified, Natural Flavor, Colonel's Secret Original Recipe Seasoning. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Fresh Chicken Marinated With: Salt, Sodium Phosphate, Monosodium Glutamate, Spices, Mono and Diglycerides, Spice Extractives, Garlic Powder and Calcium Silicate. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. OR Fresh Chicken Marinated With: Salt, Sodium Phosphate and Monosodium Glutamate. Seasoned With: Maltodextrin, Salt, Bleached Wheat Flour, Monosodium Glutamate, Coconut Oil, Spices, Natural Flavor, Canola Oil, Garlic Powder, Soy Sauce (Soybean, Wheat, Salt), Chicken Fat, Chicken Broth, Autolyzed Yeast Extract, Extractives Of Turmeric, Dehydrated Carrot, Onion Powder, And Not More Than 2% Each Of Calcium Silicate Ans Silicon Dioxide Added As AntiCaking Agent. OR Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent., Sandwich Bun: Enriched Unbleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, and Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, Contains Less Than 2% Of Calcium Propionate (A Preservative), Calcium Sulfate, Ethoxylated Mono And Diglycerides, Ascorbic Acid, Silicon Dioxide, Sodium Stearoyl Lactylate, Enzymes, Salt, Wheat Gluten."
     },
     {
         "restaurant_name": "KFC",
@@ -1849,7 +3074,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -1872,7 +3100,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Beans, Water, Sugar, Tomato Paste, Corn Syrup, Salt, Paprika, Spice, Caramel Coloring, Natural Flavoring and Garlic Powder. Sugar, Brown Sugar, Tomato Powder, Salt, Autolyzed Yeast Extract, Maltodextrin, Modified Potato Starch, Spices, Mustard Flour, Onion Powder, Dehydrated Worcestershire Sauce (Distilled Vinegar, Molasses, Corn Syrup, Salt, Caramel Color, Garlic Powder, Sugar, Spices, Tamarind, Natural Flavor), Citric Acid, Beet Powder (color), Natural Smoke Flavoring, Molasses Powder (Molasses, Wheat Starch, Soy Flour, Soy Lecithin), Caramel Color, Sucralose, Xanthan Gum, Natural Flavor, Tamarind Extract, Disodium Inosinate, Disodium Guanylate, And Less Than 2% Each of Soybean Oil And Silicon Dioxide Added As A Processing Aid."
             },
             {
                 "calories": 830,
@@ -1889,7 +3132,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Beans, Water, Sugar, Tomato Paste, Corn Syrup, Salt, Paprika, Spice, Caramel Coloring, Natural Flavoring and Garlic Powder. Sugar, Brown Sugar, Tomato Powder, Salt, Autolyzed Yeast Extract, Maltodextrin, Modified Potato Starch, Spices, Mustard Flour, Onion Powder, Dehydrated Worcestershire Sauce (Distilled Vinegar, Molasses, Corn Syrup, Salt, Caramel Color, Garlic Powder, Sugar, Spices, Tamarind, Natural Flavor), Citric Acid, Beet Powder (color), Natural Smoke Flavoring, Molasses Powder (Molasses, Wheat Starch, Soy Flour, Soy Lecithin), Caramel Color, Sucralose, Xanthan Gum, Natural Flavor, Tamarind Extract, Disodium Inosinate, Disodium Guanylate, And Less Than 2% Each of Soybean Oil And Silicon Dioxide Added As A Processing Aid."
             }
         ],
         "slug": "bbq-baked-beans"
@@ -1913,7 +3171,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Enriched Flour Bleached (Wheat Flour, Niacin, Ferrous Sulfate, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Palm Oil, Palm Kernel Oil, Buttermilk, Sugar, Baking Soda, Salt, Sodium Aluminum Phosphate, Nonfat Milk, Sodium Caseinate, Datem, Whey Protein Concentrate, Sodium Acid Pyrophosphate, Whey, Wheat Protein Isolate, Natural Flavor. Liquid And Hydrogenated Soybean Oil, Contains Less Than 2% Of Salt, Sunflower Lecithin, Natural Flavor, Beta Carotene (Color)."
     },
     {
         "restaurant_name": "KFC",
@@ -1936,7 +3209,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chopped Cabbage, Carrots, and Onions, Sugar, Soybean Oil, Water, Distilled Vinegar, Whole Eggs, Food Starch Modified, Salt, Mustard Flour, Corn Vinegar, Apple Cider Vinegar, Natural Flavor, Xanthan Gum, Paprika, Extractives of Paprika."
             },
             {
                 "calories": 640,
@@ -1953,7 +3241,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chopped Cabbage, Carrots, and Onions, Sugar, Soybean Oil, Water, Distilled Vinegar, Whole Eggs, Food Starch Modified, Salt, Mustard Flour, Corn Vinegar, Apple Cider Vinegar, Natural Flavor, Xanthan Gum, Paprika, Extractives of Paprika."
             }
         ],
         "slug": "cole-slaw"
@@ -1977,7 +3280,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Corn"
     },
     {
         "restaurant_name": "KFC",
@@ -1998,7 +3315,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Water, Sugar, Yellow Cornmeal, Soybean Oil, Enriched Bleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Corn Flour, Eggs, Contains Less Than 2% Of Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Beta Carotene (Glycerine, Water, Polysorbate 80, Vegetable Oil, Beta Carotene, DL-Alpha Tocopherols, Methyl Paraben, Ascorbyl Palmitate And Propyl Paraben), Emulsifiers Blend (Propylene Glycol Mono And Diesters Of Fats And Fatty Acids, Mono And Diglycerides, Soy Lecithin, With BHTAnd Citric Acid To Help Protect Flavor), Food Starch-Modified, Nonfat Milk, Salt, Sodium Carboxymethyl Cellulose, Sodium Stearoyl Lactylate."
     },
     {
         "restaurant_name": "KFC",
@@ -2019,7 +3351,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -2040,7 +3375,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -2061,7 +3399,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -2082,7 +3423,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "KFC",
@@ -2105,7 +3449,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "MSG"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Green Beans, Seasoned with Onion, Salt, Monosodium Glutamate, Spice and Garlic."
             },
             {
                 "calories": 80,
@@ -2122,7 +3481,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "MSG"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Green Beans, Seasoned with Onion, Salt, Monosodium Glutamate, Spice and Garlic."
             }
         ],
         "slug": "green-beans"
@@ -2148,7 +3522,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Cooked Enriched Macaroni Product (Water, Enriched Durum Wheat Semolina [Semolina, Niacin, Ferrous Sulfate {Iron}, Thiamine Mononitrate, Riboflavin, Folic Acid], Egg White Solids), Skim Milk, Water, Pasteurized Cheddar Cheese Product (Cheddar Cheese [Pasteurized Milk, Cultures, Salt, And Enzymes], Water, Soybean Oil, Whey Protein Concentrate, Nonfat Dry Milk, Modified Food Starch, Natural Flavors, Salt, Maltodextrin, Whey, Sodium Citrate, Anhydrous Milkfat, Dipotassium Phosphate, Potassium Chloride, Sodium Stearoyl Lactylate, Sorbic Acid [Preservative], Yeast Extract, And Color [Beta Carotene And/or Paprika And/or Annatto Extract]), Soybean Oil, Wheat Flour, Food Starch-Modified, Salt, Sugar, Disodium Phosphate, Cheese Flavor (Salt, Maltodextrin, Dextrose, Natural Flavors and Lactic Acid), Mono and Diglycerides, Xanthan Gum, Sodium Alginate, Carrageenan Lactic Acid, Citric Acid, Beta Carotene For Color (Corn Oil, Tocopherol)."
             },
             {
                 "calories": 540,
@@ -2165,7 +3554,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Cooked Enriched Macaroni Product (Water, Enriched Durum Wheat Semolina [Semolina, Niacin, Ferrous Sulfate {Iron}, Thiamine Mononitrate, Riboflavin, Folic Acid], Egg White Solids), Skim Milk, Water, Pasteurized Cheddar Cheese Product (Cheddar Cheese [Pasteurized Milk, Cultures, Salt, And Enzymes], Water, Soybean Oil, Whey Protein Concentrate, Nonfat Dry Milk, Modified Food Starch, Natural Flavors, Salt, Maltodextrin, Whey, Sodium Citrate, Anhydrous Milkfat, Dipotassium Phosphate, Potassium Chloride, Sodium Stearoyl Lactylate, Sorbic Acid [Preservative], Yeast Extract, And Color [Beta Carotene And/or Paprika And/or Annatto Extract]), Soybean Oil, Wheat Flour, Food Starch-Modified, Salt, Sugar, Disodium Phosphate, Cheese Flavor (Salt, Maltodextrin, Dextrose, Natural Flavors and Lactic Acid), Mono and Diglycerides, Xanthan Gum, Sodium Alginate, Carrageenan Lactic Acid, Citric Acid, Beta Carotene For Color (Corn Oil, Tocopherol)."
             }
         ],
         "slug": "macaroni-and-cheese"
@@ -2191,7 +3595,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -2208,7 +3627,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "macaroni-salad"
@@ -2234,7 +3668,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice."
             },
             {
                 "calories": 460,
@@ -2251,7 +3700,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice."
             }
         ],
         "slug": "mashed-potatoes-without-gravy"
@@ -2277,7 +3741,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice. And Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Food Starch - Modified, Maltodextrin, Chicken Fat, Palm and Canola Oils, Salt, Monosodium Glutamate, Dextrose, Mono and Diglycerides, Hydrolyzed Soy Protein, Caramel Color (Contains Up To 20 PPM Sulfites), Hydrolyzed Corn Protein, Onion Powder, Natural Flavors, Disodium Inosinate, Disodium Guanylate, Spice, Butter (Cream), With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent."
             },
             {
                 "calories": 590,
@@ -2294,7 +3773,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Potatoes, Whey Product (Containing: Whey Solids, Nonfat Milk, Sodium Caseinate, Calcium Stearoyl-2-Lactylate), Salt, mono and Diglycerides, Calcium Stearoyl-2-Lactylate, Sodium Bisulfate, natural Flavors, Natural Colors, Citric Acid, and Spice. And Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Food Starch - Modified, Maltodextrin, Chicken Fat, Palm and Canola Oils, Salt, Monosodium Glutamate, Dextrose, Mono and Diglycerides, Hydrolyzed Soy Protein, Caramel Color (Contains Up To 20 PPM Sulfites), Hydrolyzed Corn Protein, Onion Powder, Natural Flavors, Disodium Inosinate, Disodium Guanylate, Spice, Butter (Cream), With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent."
             }
         ],
         "slug": "mashed-potatoes-with-gravy"
@@ -2320,7 +3814,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 1200,
@@ -2337,7 +3846,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "potato-salad"
@@ -2363,7 +3887,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Potatoes, Soybean Oil, Enriched Bleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Rice Flour, Food Starch-Modified, Salt, Monosodium Glutamate, Yellow Corn Meal, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate). May Contain Dextrose."
             },
             {
                 "calories": 1120,
@@ -2380,7 +3919,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [
+                    "gluten",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Potatoes, Soybean Oil, Enriched Bleached Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Rice Flour, Food Starch-Modified, Salt, Monosodium Glutamate, Yellow Corn Meal, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate). May Contain Dextrose."
             }
         ],
         "slug": "potato-wedges"
@@ -2404,7 +3958,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Sea Salt, Monosodium Glutamate, Maltodextrin, Salt, Dextrose, Vegetable Powders (Onion, Carrot, Tomato), Tricalcium Phosphate, Hydrolyzed Soy Protein, Spices, Soybean Oil, Natural Flavors, Potassium Chloride, Paprika Extract (color), Turmeric Extract (color). Potatoes, Vegetable Oil (Soybean, Canola, Cottonseed, And/Or Sunflower), Bleached Wheat Flour, Contains 2% Or Less Of: Rice Flour, Durum Wheat Semolina, Dextrin, Salt, Degermed Yellow Corn Meal, Cornstarch, Leavening ( Sodium Acid Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum, Annatto Extract Color, Disodium Dihydrogen Pyrophosphate (To Maintain Natural Color)."
     },
     {
         "restaurant_name": "KFC",
@@ -2427,7 +3996,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Individual"
+                "variant_name": "Individual",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Corn"
             },
             {
                 "calories": 280,
@@ -2444,7 +4027,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Family Size"
+                "variant_name": "Family Size",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Corn"
             }
         ],
         "slug": "sweet-kernel-corn"
@@ -2468,7 +4065,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -2489,7 +4101,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -2510,7 +4137,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     },
     {
         "restaurant_name": "KFC",
@@ -2531,6 +4173,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Chicken Tenderloins containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Chicken Flavor [With Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium and Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent. Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Citric Acid, Natural Flavorings, Sugar, Corn Syrup Solids, With Not More Than 2% Calcium Silicate Added as an Anti Caking Agent Or Soybean Oil And Hydrogenated Soybean Oil (TBHQ And Citric Acid Added To Preserve Freshness), Spice, Water, Brown Sugar, Salt, Smoked Paprika, Dehydrated Garlic, Distilled Vinegar, Potassium Sorbate and Sodium Benzoate Added As Preservatives, Xanthan Gum, Natural Flavor, Citric Acid, Lactic Acid, Calcium Disodium EDTA Added To Protect Flavor. Chicken Breast Strips containing up to 25% of a solution of Water, Seasoning (Modified Potato Starch, Salt, Onion Powder, Natural Chicken Flavor [Maltodextrin, Autolyzed Yeast Extract, Chicken Fat, Dehydrated Cooked Chicken], Spice Extractive), Potassium And Sodium Phosphates. Breaded With: Wheat Flour, Salt, Tricalcium Phosphate, Spices, Monosodium Glutamate, Corn Starch, Leavening (Sodium Bicarbonate), Garlic Powder, Canola Oil, Modified Corn Starch, Spice Extractives, Citric Acid, And Not More Than 2% Calcium Silicate Added as an Anti Caking Agent."
     }
 ]

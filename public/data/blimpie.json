@@ -20,7 +20,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, salami, capicola, prosciuttini, provolone cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             },
             {
                 "calories": 920,
@@ -37,7 +51,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, salami, capicola, prosciuttini, provolone cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             }
         ],
         "slug": "blimpie-best"
@@ -61,7 +89,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -82,7 +113,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -105,7 +139,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Bacon, tomatoes, lettuce, mayo, sub roll."
             },
             {
                 "calories": 1020,
@@ -122,7 +170,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Bacon, tomatoes, lettuce, mayo, sub roll."
             }
         ],
         "slug": "blt"
@@ -146,7 +208,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Buffalo chicken breast, provolone cheese, tomatoes, onion, Frank's RedHot Sauce, ranch dressing, ciabatta bread."
     },
     {
         "restaurant_name": "Blimpie",
@@ -169,7 +245,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken breast, bacon, cheddar cheese, tomatoes, lettuce, onion, ranch dressing, sub roll."
             },
             {
                 "calories": 1180,
@@ -186,7 +276,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken breast, bacon, cheddar cheese, tomatoes, lettuce, onion, ranch dressing, sub roll."
             }
         ],
         "slug": "chicken-cheddar-bacon-ranch"
@@ -212,7 +316,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 860,
@@ -229,7 +347,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-salad-sandwich"
@@ -255,7 +387,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -272,7 +407,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 900,
@@ -289,7 +427,10 @@
                 "vitamin_c": 6,
                 "calcium": 35,
                 "iron": 30,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-teriyaki"
@@ -313,7 +454,10 @@
         "vitamin_a": 20,
         "vitamin_c": 30,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -334,7 +478,10 @@
         "vitamin_a": 4,
         "vitamin_c": 15,
         "calcium": 25,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -355,7 +502,10 @@
         "vitamin_a": 35,
         "vitamin_c": 60,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -376,7 +526,10 @@
         "vitamin_a": 30,
         "vitamin_c": 40,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -397,7 +550,10 @@
         "vitamin_a": 10,
         "vitamin_c": 25,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -420,7 +576,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "6 inch on Wheat"
+                "variant_name": "6 inch on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -437,7 +596,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, turkey, Swiss cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             },
             {
                 "calories": 870,
@@ -454,7 +627,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham, turkey, Swiss cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             }
         ],
         "slug": "club"
@@ -480,7 +667,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 850,
@@ -497,7 +698,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "french-dip"
@@ -523,7 +738,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -540,7 +758,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "6 inch on Wheat"
+                "variant_name": "6 inch on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -557,7 +778,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "on Pretzel Bun"
+                "variant_name": "on Pretzel Bun",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 820,
@@ -574,7 +798,10 @@
                 "vitamin_c": 30,
                 "calcium": 40,
                 "iron": 30,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ham-swiss"
@@ -600,7 +827,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 930,
@@ -617,7 +847,10 @@
                 "vitamin_c": 30,
                 "calcium": 30,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ham-salami-provolone"
@@ -643,7 +876,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Pepperoni, salami, prosciuttini, provolone cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             },
             {
                 "calories": 1100,
@@ -660,7 +907,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Pepperoni, salami, prosciuttini, provolone cheese, tomatoes, lettuce, onion, vinegar, oil, oregano, sub roll."
             }
         ],
         "slug": "hoboken-hero"
@@ -686,7 +947,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -703,7 +967,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "on Pretzel Bun"
+                "variant_name": "on Pretzel Bun",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 860,
@@ -720,7 +987,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hot-pastrami"
@@ -746,7 +1016,10 @@
                 "vitamin_c": 4,
                 "calcium": 35,
                 "iron": 20,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1120,
@@ -763,7 +1036,10 @@
                 "vitamin_c": 8,
                 "calcium": 70,
                 "iron": 45,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "meatball"
@@ -789,7 +1065,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1190,
@@ -806,7 +1085,10 @@
                 "vitamin_c": 4,
                 "calcium": 40,
                 "iron": 40,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "philly-steak-onion"
@@ -830,7 +1112,10 @@
         "vitamin_a": 15,
         "vitamin_c": 8,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -853,7 +1138,10 @@
                 "vitamin_c": 6,
                 "calcium": 25,
                 "iron": 25,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1060,
@@ -870,7 +1158,10 @@
                 "vitamin_c": 15,
                 "calcium": 50,
                 "iron": 50,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "reuben"
@@ -881,23 +1172,6 @@
         "meal_name": "Roast Beef & Provolone",
         "category": "Sandwiches, Subs and Wraps",
         "variants": [
-            {
-                "calories": 430,
-                "total_fat": 15,
-                "saturated_fat": 5.0,
-                "trans_fat": 0.0,
-                "cholesterol": 60,
-                "sodium": 1020,
-                "total_carbohydrates": 44,
-                "dietary_fiber": 3,
-                "sugar": 7,
-                "protein": 30,
-                "vitamin_a": 10,
-                "vitamin_c": 15,
-                "calcium": 15,
-                "iron": 25,
-                "variant_name": "6 inch"
-            },
             {
                 "calories": 430,
                 "total_fat": 16,
@@ -913,7 +1187,30 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "6 inch on Wheat"
+                "variant_name": "6 inch on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 430,
+                "total_fat": 15,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 60,
+                "sodium": 1020,
+                "total_carbohydrates": 44,
+                "dietary_fiber": 3,
+                "sugar": 7,
+                "protein": 30,
+                "vitamin_a": 10,
+                "vitamin_c": 15,
+                "calcium": 15,
+                "iron": 25,
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 860,
@@ -930,7 +1227,10 @@
                 "vitamin_c": 30,
                 "calcium": 35,
                 "iron": 45,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "roast-beef-provolone"
@@ -956,7 +1256,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, roast beef, prosciuttini, salami, pepperoni, provolone cheese, sweet peppers, lettuce, tomatoes, pickles, onion, mayo, vinegar, oil, oregano, sub roll."
             },
             {
                 "calories": 1610,
@@ -973,7 +1287,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey, roast beef, prosciuttini, salami, pepperoni, provolone cheese, sweet peppers, lettuce, tomatoes, pickles, onion, mayo, vinegar, oil, oregano, sub roll."
             }
         ],
         "slug": "the-blimp"
@@ -999,7 +1327,10 @@
                 "vitamin_c": 10,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -1016,7 +1347,10 @@
                 "vitamin_c": 20,
                 "calcium": 4,
                 "iron": 25,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tuna"
@@ -1033,23 +1367,6 @@
                 "saturated_fat": 5.0,
                 "trans_fat": 0.0,
                 "cholesterol": 45,
-                "sodium": 1320,
-                "total_carbohydrates": 44,
-                "dietary_fiber": 6,
-                "sugar": 7,
-                "protein": 27,
-                "vitamin_a": 10,
-                "vitamin_c": 15,
-                "calcium": 15,
-                "iron": 20,
-                "variant_name": "6 inch on Wheat"
-            },
-            {
-                "calories": 410,
-                "total_fat": 14,
-                "saturated_fat": 5.0,
-                "trans_fat": 0.0,
-                "cholesterol": 45,
                 "sodium": 1370,
                 "total_carbohydrates": 47,
                 "dietary_fiber": 3,
@@ -1059,7 +1376,30 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 410,
+                "total_fat": 14,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 45,
+                "sodium": 1320,
+                "total_carbohydrates": 44,
+                "dietary_fiber": 6,
+                "sugar": 7,
+                "protein": 27,
+                "vitamin_a": 10,
+                "vitamin_c": 15,
+                "calcium": 15,
+                "iron": 20,
+                "variant_name": "6 inch on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 820,
@@ -1076,7 +1416,10 @@
                 "vitamin_c": 30,
                 "calcium": 30,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-provolone"
@@ -1102,7 +1445,10 @@
                 "vitamin_c": 20,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -1119,7 +1465,10 @@
                 "vitamin_c": 40,
                 "calcium": 6,
                 "iron": 40,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-and-avocado"
@@ -1145,7 +1494,10 @@
                 "vitamin_c": 6,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1162,7 +1514,10 @@
                 "vitamin_c": 15,
                 "calcium": 4,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-and-cranberry"
@@ -1188,7 +1543,10 @@
                 "vitamin_c": 50,
                 "calcium": 30,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -1205,7 +1563,10 @@
                 "vitamin_c": 100,
                 "calcium": 60,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "veggie-cheese"
@@ -1229,7 +1590,10 @@
         "vitamin_a": 25,
         "vitamin_c": 50,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1252,7 +1616,10 @@
                 "vitamin_c": 10,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "6 inch"
+                "variant_name": "6 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1269,7 +1636,10 @@
                 "vitamin_c": 10,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "6 inch on Wheat"
+                "variant_name": "6 inch on Wheat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1040,
@@ -1286,7 +1656,10 @@
                 "vitamin_c": 20,
                 "calcium": 30,
                 "iron": 35,
-                "variant_name": "12 inch"
+                "variant_name": "12 inch",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vegimax"
@@ -1310,7 +1683,10 @@
         "vitamin_a": 20,
         "vitamin_c": 20,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1331,7 +1707,10 @@
         "vitamin_a": 15,
         "vitamin_c": 10,
         "calcium": 40,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1352,7 +1731,10 @@
         "vitamin_a": 10,
         "vitamin_c": 10,
         "calcium": 25,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1373,7 +1755,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1394,7 +1779,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1415,7 +1803,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1436,7 +1827,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1457,7 +1851,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1478,7 +1875,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1499,7 +1899,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1520,7 +1923,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1541,7 +1947,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1562,7 +1971,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1583,7 +1995,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 10,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1604,7 +2019,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1625,7 +2043,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1646,7 +2067,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1667,7 +2091,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1688,7 +2115,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1709,7 +2139,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1730,7 +2163,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1751,7 +2187,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1772,7 +2211,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1793,7 +2235,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1814,7 +2259,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1835,7 +2283,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1856,7 +2307,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1877,7 +2331,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1898,7 +2355,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1919,7 +2379,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1940,7 +2403,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1961,7 +2427,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -1982,7 +2451,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2003,7 +2475,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2024,7 +2499,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2045,7 +2523,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2066,7 +2547,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2087,7 +2571,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2108,7 +2595,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2129,7 +2619,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2150,7 +2643,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2171,7 +2667,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2192,7 +2691,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2213,7 +2715,10 @@
         "vitamin_a": 120,
         "vitamin_c": 50,
         "calcium": 25,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2234,7 +2739,10 @@
         "vitamin_a": 120,
         "vitamin_c": 50,
         "calcium": 20,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2255,7 +2763,10 @@
         "vitamin_a": 110,
         "vitamin_c": 40,
         "calcium": 20,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2276,7 +2787,10 @@
         "vitamin_a": 110,
         "vitamin_c": 40,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2297,7 +2811,10 @@
         "vitamin_a": 130,
         "vitamin_c": 50,
         "calcium": 35,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2318,7 +2835,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2339,7 +2859,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2360,7 +2883,10 @@
         "vitamin_a": 0,
         "vitamin_c": 15,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2381,7 +2907,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2402,7 +2931,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2423,7 +2955,10 @@
         "vitamin_a": 10,
         "vitamin_c": 8,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2444,7 +2979,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2465,7 +3003,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2486,7 +3027,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2507,7 +3051,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2528,7 +3075,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2549,7 +3099,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2570,7 +3123,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2593,7 +3149,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1180,
@@ -2610,7 +3169,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 35,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "popcorn"
@@ -2634,7 +3196,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2655,7 +3220,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2676,7 +3244,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2697,7 +3268,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2720,7 +3294,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 30,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -2737,7 +3314,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 30,
-                "variant_name": "Salted"
+                "variant_name": "Salted",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -2754,7 +3334,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 30,
-                "variant_name": "Cinnamon Sugar"
+                "variant_name": "Cinnamon Sugar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "soft-pretzel"
@@ -2778,7 +3361,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2799,7 +3385,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2820,7 +3409,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2841,7 +3433,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2862,7 +3457,10 @@
         "vitamin_a": 30,
         "vitamin_c": 4,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2883,7 +3481,10 @@
         "vitamin_a": 15,
         "vitamin_c": 4,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2904,7 +3505,10 @@
         "vitamin_a": 25,
         "vitamin_c": 25,
         "calcium": 15,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2925,7 +3529,10 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 10,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2946,7 +3553,10 @@
         "vitamin_a": 20,
         "vitamin_c": 25,
         "calcium": 6,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2967,7 +3577,10 @@
         "vitamin_a": 2,
         "vitamin_c": 6,
         "calcium": 15,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -2988,7 +3601,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Blimpie",
@@ -3009,6 +3625,9 @@
         "vitamin_a": 60,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

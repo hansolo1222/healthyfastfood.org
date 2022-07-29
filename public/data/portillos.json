@@ -18,7 +18,23 @@
         "vitamin_a": 6,
         "vitamin_c": 37,
         "calcium": 2,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -39,7 +55,23 @@
         "vitamin_a": 7,
         "vitamin_c": 251,
         "calcium": 15,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "milk",
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -60,7 +92,23 @@
         "vitamin_a": 11,
         "vitamin_c": 623,
         "calcium": 37,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -81,7 +129,22 @@
         "vitamin_a": 3,
         "vitamin_c": 155,
         "calcium": 9,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -102,7 +165,10 @@
         "vitamin_a": 4,
         "vitamin_c": 434,
         "calcium": 26,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -123,7 +189,10 @@
         "vitamin_a": 2,
         "vitamin_c": 135,
         "calcium": 8,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -144,7 +213,10 @@
         "vitamin_a": 13,
         "vitamin_c": 95,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -165,7 +237,10 @@
         "vitamin_a": 0,
         "vitamin_c": 134,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -186,7 +261,10 @@
         "vitamin_a": 0,
         "vitamin_c": 67,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -207,7 +285,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -228,7 +309,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -249,7 +333,10 @@
         "vitamin_a": 0,
         "vitamin_c": 67,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -270,7 +357,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -291,7 +394,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -312,7 +418,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -333,7 +442,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -354,7 +478,10 @@
         "vitamin_a": 0,
         "vitamin_c": 45,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -375,7 +502,23 @@
         "vitamin_a": 0,
         "vitamin_c": 67,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "MSG"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -396,7 +539,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -417,7 +563,10 @@
         "vitamin_a": 0,
         "vitamin_c": 377,
         "calcium": 23,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -440,7 +589,23 @@
                 "vitamin_c": 777,
                 "calcium": 47,
                 "iron": 17,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 1490,
@@ -457,7 +622,23 @@
                 "vitamin_c": 1202,
                 "calcium": 72,
                 "iron": 28,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-cake-shake"
@@ -483,7 +664,23 @@
                 "vitamin_c": 913,
                 "calcium": 55,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 970,
@@ -500,7 +697,23 @@
                 "vitamin_c": 1458,
                 "calcium": 87,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-malt"
@@ -526,7 +739,23 @@
                 "vitamin_c": 873,
                 "calcium": 52,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 890,
@@ -543,7 +772,23 @@
                 "vitamin_c": 1396,
                 "calcium": 84,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chocolate-shake"
@@ -567,7 +812,10 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -590,7 +838,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -607,7 +858,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke"
@@ -633,7 +887,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -650,7 +907,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -674,7 +934,10 @@
         "vitamin_a": 0,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -697,7 +960,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -714,7 +980,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hi-c-flashin-fruit-punch"
@@ -738,7 +1007,10 @@
         "vitamin_a": 0,
         "vitamin_c": 95,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -746,23 +1018,6 @@
         "meal_name": "Iced Tea",
         "category": "Drinks",
         "variants": [
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 12,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 20,
-                "calcium": 1,
-                "iron": 0,
-                "variant_name": "Large"
-            },
             {
                 "calories": 0,
                 "total_fat": 0,
@@ -778,7 +1033,30 @@
                 "vitamin_c": 13,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 12,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 20,
+                "calcium": 1,
+                "iron": 0,
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-tea"
@@ -802,7 +1080,10 @@
         "vitamin_a": 0,
         "vitamin_c": 377,
         "calcium": 23,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -823,7 +1104,10 @@
         "vitamin_a": 10,
         "vitamin_c": 501,
         "calcium": 30,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -846,7 +1130,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -863,7 +1150,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "minute-maid-lemonade"
@@ -887,7 +1177,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -908,7 +1201,10 @@
         "vitamin_a": 0,
         "vitamin_c": 377,
         "calcium": 23,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -929,7 +1225,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -952,7 +1251,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -969,7 +1271,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "root-beer"
@@ -995,7 +1300,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1012,7 +1320,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -1036,7 +1347,10 @@
         "vitamin_a": 0,
         "vitamin_c": 377,
         "calcium": 23,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1059,7 +1373,23 @@
                 "vitamin_c": 913,
                 "calcium": 55,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 970,
@@ -1076,7 +1406,23 @@
                 "vitamin_c": 1458,
                 "calcium": 87,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-malt"
@@ -1102,7 +1448,23 @@
                 "vitamin_c": 873,
                 "calcium": 52,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 890,
@@ -1119,7 +1481,23 @@
                 "vitamin_c": 1396,
                 "calcium": 84,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-shake"
@@ -1143,7 +1521,10 @@
         "vitamin_a": 0,
         "vitamin_c": 377,
         "calcium": 23,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1166,7 +1547,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 190,
@@ -1183,7 +1567,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-tea"
@@ -1209,7 +1596,23 @@
                 "vitamin_c": 913,
                 "calcium": 55,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 880,
@@ -1226,7 +1629,23 @@
                 "vitamin_c": 1458,
                 "calcium": 87,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "vanilla-malt"
@@ -1252,7 +1671,23 @@
                 "vitamin_c": 873,
                 "calcium": 52,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 800,
@@ -1269,7 +1704,23 @@
                 "vitamin_c": 1396,
                 "calcium": 84,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "vanilla-shake"
@@ -1293,7 +1744,10 @@
         "vitamin_a": 20,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1314,7 +1768,23 @@
         "vitamin_a": 0,
         "vitamin_c": 94,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1335,7 +1805,23 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1356,7 +1842,23 @@
         "vitamin_a": 0,
         "vitamin_c": 8,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1377,7 +1879,22 @@
         "vitamin_a": 3,
         "vitamin_c": 12,
         "calcium": 1,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1398,7 +1915,10 @@
         "vitamin_a": 0,
         "vitamin_c": 33,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1419,7 +1939,10 @@
         "vitamin_a": 0,
         "vitamin_c": 22,
         "calcium": 1,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1440,7 +1963,22 @@
         "vitamin_a": 0,
         "vitamin_c": 42,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1461,7 +1999,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1482,7 +2035,22 @@
         "vitamin_a": 4,
         "vitamin_c": 37,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1503,7 +2071,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1524,7 +2107,23 @@
         "vitamin_a": 2,
         "vitamin_c": 10,
         "calcium": 1,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1545,7 +2144,10 @@
         "vitamin_a": 2,
         "vitamin_c": 33,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1566,7 +2168,10 @@
         "vitamin_a": 1,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1587,7 +2192,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1608,7 +2228,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1631,7 +2266,10 @@
                 "vitamin_c": 3115,
                 "calcium": 187,
                 "iron": 28,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1380,
@@ -1648,7 +2286,10 @@
                 "vitamin_c": 3313,
                 "calcium": 198,
                 "iron": 28,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "baked-mostaccioli"
@@ -1672,7 +2313,10 @@
         "vitamin_a": 111,
         "vitamin_c": 546,
         "calcium": 33,
-        "iron": 56
+        "iron": 56,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1695,7 +2339,10 @@
                 "vitamin_c": 2383,
                 "calcium": 143,
                 "iron": 28,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1630,
@@ -1712,7 +2359,10 @@
                 "vitamin_c": 2912,
                 "calcium": 174,
                 "iron": 39,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-parmesan"
@@ -1736,7 +2386,10 @@
         "vitamin_a": 42,
         "vitamin_c": 556,
         "calcium": 33,
-        "iron": 39
+        "iron": 39,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1759,7 +2412,10 @@
                 "vitamin_c": 1383,
                 "calcium": 83,
                 "iron": 39,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 950,
@@ -1776,7 +2432,10 @@
                 "vitamin_c": 1556,
                 "calcium": 93,
                 "iron": 33,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "double-stuffed-cheese-ravioli"
@@ -1802,7 +2461,10 @@
                 "vitamin_c": 3879,
                 "calcium": 232,
                 "iron": 39,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 2450,
@@ -1819,7 +2481,10 @@
                 "vitamin_c": 3931,
                 "calcium": 235,
                 "iron": 39,
-                "variant_name": "With Veggies"
+                "variant_name": "With Veggies",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 2590,
@@ -1836,7 +2501,10 @@
                 "vitamin_c": 3918,
                 "calcium": 235,
                 "iron": 44,
-                "variant_name": "With Chicken"
+                "variant_name": "With Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fettuccine-alfredo"
@@ -1860,7 +2528,10 @@
         "vitamin_a": 51,
         "vitamin_c": 496,
         "calcium": 30,
-        "iron": 50
+        "iron": 50,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1883,7 +2554,10 @@
                 "vitamin_c": 1286,
                 "calcium": 77,
                 "iron": 44,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1180,
@@ -1900,7 +2574,10 @@
                 "vitamin_c": 1535,
                 "calcium": 92,
                 "iron": 39,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lasagna"
@@ -1926,7 +2603,10 @@
                 "vitamin_c": 83,
                 "calcium": 72,
                 "iron": 56,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 960,
@@ -1943,7 +2623,10 @@
                 "vitamin_c": 1453,
                 "calcium": 87,
                 "iron": 28,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "oven-baked-spaghetti"
@@ -1967,7 +2650,10 @@
         "vitamin_a": 52,
         "vitamin_c": 286,
         "calcium": 17,
-        "iron": 56
+        "iron": 56,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -1990,7 +2676,10 @@
                 "vitamin_c": 1020,
                 "calcium": 61,
                 "iron": 33,
-                "variant_name": "Plain"
+                "variant_name": "Plain",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1400,
@@ -2007,7 +2696,10 @@
                 "vitamin_c": 1049,
                 "calcium": 63,
                 "iron": 39,
-                "variant_name": "With Chicken"
+                "variant_name": "With Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1690,
@@ -2024,7 +2716,10 @@
                 "vitamin_c": 1086,
                 "calcium": 65,
                 "iron": 44,
-                "variant_name": "With Chicken And Sausage"
+                "variant_name": "With Chicken And Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "penne-al-arrabbiata"
@@ -2048,7 +2743,10 @@
         "vitamin_a": 58,
         "vitamin_c": 653,
         "calcium": 39,
-        "iron": 44
+        "iron": 44,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2069,7 +2767,10 @@
         "vitamin_a": 40,
         "vitamin_c": 1134,
         "calcium": 68,
-        "iron": 33
+        "iron": 33,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2092,7 +2793,10 @@
                 "vitamin_c": 65,
                 "calcium": 4,
                 "iron": 6,
-                "variant_name": "Half Slab"
+                "variant_name": "Half Slab",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1020,
@@ -2109,7 +2813,10 @@
                 "vitamin_c": 132,
                 "calcium": 8,
                 "iron": 11,
-                "variant_name": "Full Slab"
+                "variant_name": "Full Slab",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ribs"
@@ -2133,7 +2840,10 @@
         "vitamin_a": 91,
         "vitamin_c": 1181,
         "calcium": 71,
-        "iron": 50
+        "iron": 50,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2156,7 +2866,10 @@
                 "vitamin_c": 690,
                 "calcium": 41,
                 "iron": 44,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1160,
@@ -2173,7 +2886,10 @@
                 "vitamin_c": 987,
                 "calcium": 59,
                 "iron": 39,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spaghetti"
@@ -2199,7 +2915,10 @@
                 "vitamin_c": 299,
                 "calcium": 18,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -2216,7 +2935,10 @@
                 "vitamin_c": 299,
                 "calcium": 18,
                 "iron": 11,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "apple-walnut-harvest-salad-with-chicken"
@@ -2242,7 +2964,10 @@
                 "vitamin_c": 289,
                 "calcium": 17,
                 "iron": 22,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -2259,7 +2984,10 @@
                 "vitamin_c": 428,
                 "calcium": 26,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "barnellis-hot-grilled-chicken-caesar-salad"
@@ -2285,7 +3013,23 @@
                 "vitamin_c": 271,
                 "calcium": 16,
                 "iron": 17,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [
+                    "milk",
+                    "sulfites"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -2302,7 +3046,24 @@
                 "vitamin_c": 404,
                 "calcium": 24,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "sulfites"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-caesar-salad"
@@ -2328,7 +3089,10 @@
                 "vitamin_c": 351,
                 "calcium": 21,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 540,
@@ -2345,7 +3109,10 @@
                 "vitamin_c": 418,
                 "calcium": 25,
                 "iron": 11,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chipotle-bbq-salad-with-chicken"
@@ -2371,7 +3138,10 @@
                 "vitamin_c": 412,
                 "calcium": 25,
                 "iron": 22,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 800,
@@ -2388,7 +3158,10 @@
                 "vitamin_c": 412,
                 "calcium": 25,
                 "iron": 22,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chopped-salad"
@@ -2414,7 +3187,10 @@
                 "vitamin_c": 281,
                 "calcium": 17,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 570,
@@ -2431,7 +3207,10 @@
                 "vitamin_c": 414,
                 "calcium": 25,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-caesar-salad"
@@ -2457,7 +3236,10 @@
                 "vitamin_c": 127,
                 "calcium": 8,
                 "iron": 17,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -2474,7 +3256,10 @@
                 "vitamin_c": 127,
                 "calcium": 8,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fresh-berry-toasted-almond-salad"
@@ -2500,7 +3285,10 @@
                 "vitamin_c": 675,
                 "calcium": 40,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 740,
@@ -2517,7 +3305,10 @@
                 "vitamin_c": 675,
                 "calcium": 40,
                 "iron": 11,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "garbage-salad"
@@ -2543,7 +3334,23 @@
                 "vitamin_c": 220,
                 "calcium": 13,
                 "iron": 22,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [
+                    "milk",
+                    "sulfites"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 600,
@@ -2560,7 +3367,23 @@
                 "vitamin_c": 220,
                 "calcium": 13,
                 "iron": 22,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [
+                    "milk",
+                    "soy",
+                    "sulfites"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "greek-chicken-salad"
@@ -2586,7 +3409,10 @@
                 "vitamin_c": 277,
                 "calcium": 17,
                 "iron": 17,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -2603,7 +3429,10 @@
                 "vitamin_c": 411,
                 "calcium": 25,
                 "iron": 22,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hot-grilled-chicken-caesar-salad"
@@ -2629,7 +3458,10 @@
                 "vitamin_c": 291,
                 "calcium": 17,
                 "iron": 17,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -2646,7 +3478,10 @@
                 "vitamin_c": 424,
                 "calcium": 25,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hot-grilled-tuna-caesar-salad"
@@ -2672,7 +3507,10 @@
                 "vitamin_c": 97,
                 "calcium": 6,
                 "iron": 11,
-                "variant_name": "Without Dressing"
+                "variant_name": "Without Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -2689,7 +3527,10 @@
                 "vitamin_c": 110,
                 "calcium": 7,
                 "iron": 17,
-                "variant_name": "With Dressing"
+                "variant_name": "With Dressing",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tuscan-chicken-and-bacon-salad"
@@ -2713,7 +3554,10 @@
         "vitamin_a": 4,
         "vitamin_c": 150,
         "calcium": 9,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2734,7 +3578,10 @@
         "vitamin_a": 0,
         "vitamin_c": 167,
         "calcium": 10,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2755,7 +3602,23 @@
         "vitamin_a": 20,
         "vitamin_c": 458,
         "calcium": 27,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2776,7 +3639,23 @@
         "vitamin_a": 4,
         "vitamin_c": 312,
         "calcium": 19,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2797,7 +3676,10 @@
         "vitamin_a": 4,
         "vitamin_c": 130,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2818,7 +3700,10 @@
         "vitamin_a": 9,
         "vitamin_c": 109,
         "calcium": 7,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2839,7 +3724,10 @@
         "vitamin_a": 4,
         "vitamin_c": 130,
         "calcium": 8,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2860,7 +3748,10 @@
         "vitamin_a": 109,
         "vitamin_c": 533,
         "calcium": 32,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2881,7 +3772,10 @@
         "vitamin_a": 5,
         "vitamin_c": 174,
         "calcium": 10,
-        "iron": 28
+        "iron": 28,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2902,7 +3796,10 @@
         "vitamin_a": 69,
         "vitamin_c": 596,
         "calcium": 36,
-        "iron": 28
+        "iron": 28,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2923,7 +3820,10 @@
         "vitamin_a": 4,
         "vitamin_c": 120,
         "calcium": 7,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2944,7 +3844,10 @@
         "vitamin_a": 9,
         "vitamin_c": 75,
         "calcium": 5,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2965,7 +3868,10 @@
         "vitamin_a": 4,
         "vitamin_c": 120,
         "calcium": 7,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -2986,7 +3892,10 @@
         "vitamin_a": 5,
         "vitamin_c": 240,
         "calcium": 14,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3007,7 +3916,10 @@
         "vitamin_a": 0,
         "vitamin_c": 90,
         "calcium": 5,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3028,7 +3940,10 @@
         "vitamin_a": 56,
         "vitamin_c": 523,
         "calcium": 31,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3049,7 +3964,10 @@
         "vitamin_a": 76,
         "vitamin_c": 458,
         "calcium": 27,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3070,7 +3988,10 @@
         "vitamin_a": 17,
         "vitamin_c": 658,
         "calcium": 39,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3091,7 +4012,10 @@
         "vitamin_a": 57,
         "vitamin_c": 710,
         "calcium": 43,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3112,7 +4036,10 @@
         "vitamin_a": 21,
         "vitamin_c": 681,
         "calcium": 41,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3133,7 +4060,10 @@
         "vitamin_a": 20,
         "vitamin_c": 1406,
         "calcium": 84,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3154,7 +4084,10 @@
         "vitamin_a": 8,
         "vitamin_c": 521,
         "calcium": 31,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3175,7 +4108,10 @@
         "vitamin_a": 19,
         "vitamin_c": 583,
         "calcium": 35,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3196,7 +4132,10 @@
         "vitamin_a": 8,
         "vitamin_c": 349,
         "calcium": 21,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3217,7 +4156,10 @@
         "vitamin_a": 6,
         "vitamin_c": 244,
         "calcium": 15,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3238,7 +4180,10 @@
         "vitamin_a": 4,
         "vitamin_c": 190,
         "calcium": 11,
-        "iron": 39
+        "iron": 39,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3259,7 +4204,10 @@
         "vitamin_a": 5,
         "vitamin_c": 215,
         "calcium": 13,
-        "iron": 39
+        "iron": 39,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3280,7 +4228,10 @@
         "vitamin_a": 11,
         "vitamin_c": 434,
         "calcium": 26,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3301,7 +4252,10 @@
         "vitamin_a": 13,
         "vitamin_c": 391,
         "calcium": 23,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3322,7 +4276,10 @@
         "vitamin_a": 2,
         "vitamin_c": 114,
         "calcium": 7,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3343,7 +4300,23 @@
         "vitamin_a": 2,
         "vitamin_c": 209,
         "calcium": 13,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [
+            "gluten",
+            "MSG",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3364,7 +4337,10 @@
         "vitamin_a": 19,
         "vitamin_c": 583,
         "calcium": 35,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3385,7 +4361,10 @@
         "vitamin_a": 2,
         "vitamin_c": 114,
         "calcium": 7,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3406,7 +4385,10 @@
         "vitamin_a": 14,
         "vitamin_c": 940,
         "calcium": 56,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3427,7 +4409,23 @@
         "vitamin_a": 8,
         "vitamin_c": 251,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3448,7 +4446,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "milk",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Spicy breaded chicken breast, lettuce, tomato, hot giardiniera, brioche bun."
     },
     {
         "restaurant_name": "Portillo's",
@@ -3469,7 +4483,10 @@
         "vitamin_a": 42,
         "vitamin_c": 444,
         "calcium": 27,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3490,7 +4507,10 @@
         "vitamin_a": 28,
         "vitamin_c": 590,
         "calcium": 35,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3511,7 +4531,10 @@
         "vitamin_a": 0,
         "vitamin_c": 62,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3534,7 +4557,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 6,
-                "variant_name": "4 Piece"
+                "variant_name": "4 Piece",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -3551,7 +4577,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 11,
-                "variant_name": "6 Piece"
+                "variant_name": "6 Piece",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-tenders"
@@ -3575,7 +4604,23 @@
         "vitamin_a": 17,
         "vitamin_c": 130,
         "calcium": 8,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3596,7 +4641,23 @@
         "vitamin_a": 53,
         "vitamin_c": 439,
         "calcium": 26,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3617,7 +4678,10 @@
         "vitamin_a": 51,
         "vitamin_c": 89,
         "calcium": 5,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3640,7 +4704,22 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 11,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -3657,7 +4736,22 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 17,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "french-fries"
@@ -3681,7 +4775,10 @@
         "vitamin_a": 0,
         "vitamin_c": 200,
         "calcium": 12,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3704,7 +4801,10 @@
                 "vitamin_c": 15,
                 "calcium": 1,
                 "iron": 0,
-                "variant_name": "Fall And Winter"
+                "variant_name": "Fall And Winter",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 130,
@@ -3721,7 +4821,10 @@
                 "vitamin_c": 35,
                 "calcium": 2,
                 "iron": 0,
-                "variant_name": "Spring And Summer"
+                "variant_name": "Spring And Summer",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fruit-cup"
@@ -3745,7 +4848,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3766,7 +4872,10 @@
         "vitamin_a": 8,
         "vitamin_c": 359,
         "calcium": 22,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3789,7 +4898,10 @@
                 "vitamin_c": 1107,
                 "calcium": 66,
                 "iron": 11,
-                "variant_name": "With Meat Sauce"
+                "variant_name": "With Meat Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -3806,7 +4918,10 @@
                 "vitamin_c": 1182,
                 "calcium": 71,
                 "iron": 11,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mostaccioli-side"
@@ -3830,7 +4945,10 @@
         "vitamin_a": 0,
         "vitamin_c": 55,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3851,7 +4969,10 @@
         "vitamin_a": 53,
         "vitamin_c": 190,
         "calcium": 11,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3872,7 +4993,10 @@
         "vitamin_a": 12,
         "vitamin_c": 109,
         "calcium": 7,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3893,7 +5017,10 @@
         "vitamin_a": 8,
         "vitamin_c": 374,
         "calcium": 22,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3914,7 +5041,10 @@
         "vitamin_a": 18,
         "vitamin_c": 1182,
         "calcium": 71,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3935,7 +5065,10 @@
         "vitamin_a": 23,
         "vitamin_c": 1107,
         "calcium": 66,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3956,7 +5089,22 @@
         "vitamin_a": 10,
         "vitamin_c": 33,
         "calcium": 2,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3977,7 +5125,22 @@
         "vitamin_a": 29,
         "vitamin_c": 397,
         "calcium": 24,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -3998,7 +5161,10 @@
         "vitamin_a": 62,
         "vitamin_c": 47,
         "calcium": 3,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4019,7 +5185,10 @@
         "vitamin_a": 38,
         "vitamin_c": 314,
         "calcium": 19,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4040,7 +5209,10 @@
         "vitamin_a": 29,
         "vitamin_c": 33,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4061,7 +5233,10 @@
         "vitamin_a": 6,
         "vitamin_c": 347,
         "calcium": 21,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4082,7 +5257,10 @@
         "vitamin_a": 12,
         "vitamin_c": 5,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4103,7 +5281,10 @@
         "vitamin_a": 18,
         "vitamin_c": 124,
         "calcium": 7,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4124,7 +5305,10 @@
         "vitamin_a": 56,
         "vitamin_c": 104,
         "calcium": 6,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4145,7 +5329,10 @@
         "vitamin_a": 10,
         "vitamin_c": 174,
         "calcium": 10,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Portillo's",
@@ -4166,6 +5353,9 @@
         "vitamin_a": 56,
         "vitamin_c": 418,
         "calcium": 25,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

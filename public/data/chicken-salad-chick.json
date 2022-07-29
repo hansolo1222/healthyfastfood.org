@@ -18,7 +18,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -39,7 +42,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -60,7 +66,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -81,7 +90,10 @@
         "vitamin_a": 45,
         "vitamin_c": 4,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -102,7 +114,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -123,7 +138,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -144,7 +162,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -165,7 +186,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -186,7 +210,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -207,7 +234,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -228,7 +258,10 @@
         "vitamin_a": 4,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -249,7 +282,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -270,7 +306,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -291,7 +330,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -312,7 +354,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -333,7 +378,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -354,7 +402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -375,7 +426,23 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -396,7 +463,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -417,7 +500,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -438,7 +537,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "egg",
+            "peanuts",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -459,7 +574,23 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -480,7 +611,23 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -501,7 +648,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -522,7 +685,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -543,7 +722,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -564,7 +759,23 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 6,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -585,7 +796,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "MSG",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -606,7 +833,23 @@
         "vitamin_a": 6,
         "vitamin_c": 4,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "peanuts",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -627,7 +870,23 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg",
+            "peanuts",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -648,7 +907,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [
+            "egg",
+            "peanuts",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -669,7 +944,23 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -690,7 +981,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "MSG"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -713,7 +1020,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 2,
-                "variant_name": "Small Round"
+                "variant_name": "Small Round",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -730,7 +1040,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large Flower"
+                "variant_name": "Large Flower",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buttercream-frosted-cookie"
@@ -754,7 +1067,10 @@
         "vitamin_a": 25,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -775,7 +1091,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -796,7 +1115,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -817,7 +1139,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -838,7 +1163,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -861,7 +1189,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -878,7 +1209,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -895,7 +1229,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "barqs-root-beer"
@@ -921,7 +1258,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 335,
@@ -938,7 +1278,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 505,
@@ -955,7 +1298,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cherry-coke"
@@ -981,7 +1327,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 325,
@@ -998,7 +1347,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 485,
@@ -1015,7 +1367,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coca-cola"
@@ -1041,7 +1396,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1058,7 +1416,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1075,7 +1436,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke-zero-sugar"
@@ -1101,7 +1465,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1118,7 +1485,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -1135,7 +1505,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -1161,7 +1534,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1178,7 +1554,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1195,7 +1574,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dr.-pepper"
@@ -1221,7 +1603,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 325,
@@ -1238,7 +1623,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 485,
@@ -1255,7 +1643,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fanta-orange"
@@ -1279,7 +1670,10 @@
         "vitamin_a": 0,
         "vitamin_c": 100,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1302,7 +1696,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1319,7 +1716,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 630,
@@ -1336,7 +1736,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lemonade"
@@ -1362,7 +1765,10 @@
                 "vitamin_c": 150,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 10,
@@ -1379,7 +1785,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 20,
@@ -1396,7 +1805,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "minute-maid-lite-lemonade"
@@ -1422,7 +1834,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1439,7 +1854,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1456,7 +1874,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -1482,7 +1903,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1499,7 +1923,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1516,7 +1943,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-lemonade"
@@ -1542,7 +1972,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1559,7 +1992,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -1576,7 +2012,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-tea"
@@ -1602,7 +2041,10 @@
                 "vitamin_c": 90,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "10 oz"
+                "variant_name": "10 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1619,7 +2061,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -1636,7 +2081,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "36 oz"
+                "variant_name": "36 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vitamin-water-xxx"
@@ -1662,7 +2110,23 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 0,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1679,7 +2143,23 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "broccoli-cheese-soup"
@@ -1705,7 +2185,23 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1722,7 +2218,23 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-artichoke-florentine-soup"
@@ -1748,7 +2260,23 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1765,7 +2293,23 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-tortilla-soup"
@@ -1791,7 +2335,23 @@
                 "vitamin_c": 25,
                 "calcium": 15,
                 "iron": 4,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -1808,7 +2368,23 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "loaded-potato-soup"
@@ -1834,7 +2410,23 @@
                 "vitamin_c": 50,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 170,
@@ -1851,7 +2443,23 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "tomato-bisque-soup"
@@ -1875,7 +2483,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1896,7 +2507,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1917,7 +2531,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1938,7 +2555,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1959,7 +2579,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -1980,7 +2603,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2001,7 +2627,23 @@
         "vitamin_a": 10,
         "vitamin_c": 4,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2022,7 +2664,23 @@
         "vitamin_a": 25,
         "vitamin_c": 0,
         "calcium": 70,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2043,7 +2701,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2051,23 +2725,6 @@
         "meal_name": "Chicken Salad BLT",
         "category": "Sandwiches",
         "variants": [
-            {
-                "calories": 760,
-                "total_fat": 46,
-                "saturated_fat": 9,
-                "trans_fat": 0,
-                "cholesterol": 90,
-                "sodium": 1290,
-                "total_carbohydrates": 51,
-                "dietary_fiber": 4,
-                "sugar": 5,
-                "protein": 31,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 10,
-                "iron": 15,
-                "variant_name": "On Wheatberry Bread"
-            },
             {
                 "calories": 760,
                 "total_fat": 45,
@@ -2083,7 +2740,10 @@
                 "vitamin_c": 0,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "On White Bread"
+                "variant_name": "On White Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -2100,7 +2760,30 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 760,
+                "total_fat": 46,
+                "saturated_fat": 9,
+                "trans_fat": 0,
+                "cholesterol": 90,
+                "sodium": 1290,
+                "total_carbohydrates": 51,
+                "dietary_fiber": 4,
+                "sugar": 5,
+                "protein": 31,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 10,
+                "iron": 15,
+                "variant_name": "On Wheatberry Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-salad-blt"
@@ -2111,23 +2794,6 @@
         "meal_name": "Pimento Cheese BLT",
         "category": "Sandwiches",
         "variants": [
-            {
-                "calories": 940,
-                "total_fat": 73,
-                "saturated_fat": 32,
-                "trans_fat": 0,
-                "cholesterol": 170,
-                "sodium": 1250,
-                "total_carbohydrates": 36,
-                "dietary_fiber": 1,
-                "sugar": 4,
-                "protein": 34,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 50,
-                "iron": 10,
-                "variant_name": "On Croissant"
-            },
             {
                 "calories": 940,
                 "total_fat": 63,
@@ -2143,7 +2809,10 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 10,
-                "variant_name": "On Wheatberry Bread"
+                "variant_name": "On Wheatberry Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 940,
@@ -2160,7 +2829,30 @@
                 "vitamin_c": 0,
                 "calcium": 60,
                 "iron": 15,
-                "variant_name": "On White Bread"
+                "variant_name": "On White Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 940,
+                "total_fat": 73,
+                "saturated_fat": 32,
+                "trans_fat": 0,
+                "cholesterol": 170,
+                "sodium": 1250,
+                "total_carbohydrates": 36,
+                "dietary_fiber": 1,
+                "sugar": 4,
+                "protein": 34,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 50,
+                "iron": 10,
+                "variant_name": "On Croissant",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pimento-cheese-blt"
@@ -2186,7 +2878,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "On White Bread"
+                "variant_name": "On White Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -2203,7 +2898,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -2220,7 +2918,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "On Wheatberry Bread"
+                "variant_name": "On Wheatberry Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-club"
@@ -2246,7 +2947,10 @@
                 "vitamin_c": 0,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "On Wheatberry Bread"
+                "variant_name": "On Wheatberry Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 600,
@@ -2263,7 +2967,10 @@
                 "vitamin_c": 0,
                 "calcium": 25,
                 "iron": 20,
-                "variant_name": "On White Bread"
+                "variant_name": "On White Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 600,
@@ -2280,7 +2987,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-pesto"
@@ -2304,7 +3014,23 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2325,7 +3051,23 @@
         "vitamin_a": 8,
         "vitamin_c": 15,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2346,7 +3088,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2367,7 +3125,23 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "milk",
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2388,7 +3162,22 @@
         "vitamin_a": 0,
         "vitamin_c": 35,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2409,7 +3198,23 @@
         "vitamin_a": 4,
         "vitamin_c": 8,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "milk",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2430,7 +3235,23 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2451,7 +3272,23 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2472,7 +3309,23 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2493,7 +3346,23 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chicken Salad Chick",
@@ -2514,6 +3383,21 @@
         "vitamin_a": 0,
         "vitamin_c": 15,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

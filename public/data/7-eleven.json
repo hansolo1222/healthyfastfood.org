@@ -18,7 +18,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -41,7 +44,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 181,
@@ -58,7 +64,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Container"
+                "variant_name": "Container",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "barqs-root-beer-slurpee"
@@ -82,7 +91,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -103,7 +115,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -124,7 +139,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -145,7 +163,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -166,7 +187,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -187,7 +211,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -208,7 +235,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -229,7 +259,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -250,7 +283,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -271,7 +307,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -292,7 +331,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -313,7 +355,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -334,7 +379,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -355,7 +403,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -376,7 +427,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -399,7 +453,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 181,
@@ -416,7 +473,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Container"
+                "variant_name": "Container",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fanta-slurpee-pina-colada-or-wild-cherry"
@@ -440,7 +500,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -461,7 +524,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -482,7 +548,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -503,7 +572,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -524,7 +596,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -545,7 +620,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -566,7 +644,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -587,7 +668,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -608,7 +692,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -629,7 +716,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -652,7 +742,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 165,
@@ -669,7 +762,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Container"
+                "variant_name": "Container",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pepsi-slurpee"
@@ -693,7 +789,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -714,7 +813,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -735,7 +837,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -756,7 +861,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -777,7 +885,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -798,7 +909,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -819,7 +933,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -840,7 +957,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -861,7 +981,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -882,7 +1005,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -903,7 +1029,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -924,7 +1053,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -945,7 +1077,10 @@
         "vitamin_a": 90,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -966,7 +1101,10 @@
         "vitamin_a": 120,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -987,7 +1125,10 @@
         "vitamin_a": 90,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1008,7 +1149,10 @@
         "vitamin_a": 150,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1029,7 +1173,10 @@
         "vitamin_a": 225,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1050,7 +1197,10 @@
         "vitamin_a": 225,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1071,7 +1221,10 @@
         "vitamin_a": 300,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1092,7 +1245,10 @@
         "vitamin_a": 90,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1113,7 +1269,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1134,7 +1293,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1155,7 +1317,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1176,7 +1341,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1199,7 +1367,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Piece"
+                "variant_name": "Piece",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -1216,7 +1387,10 @@
                 "vitamin_c": null,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Serving, 6 pieces"
+                "variant_name": "Serving, 6 pieces",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "potato-wedges"
@@ -1240,7 +1414,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1261,7 +1438,10 @@
         "vitamin_a": 90,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1282,7 +1462,10 @@
         "vitamin_a": 3000,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1303,7 +1486,10 @@
         "vitamin_a": 2850,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1324,7 +1510,10 @@
         "vitamin_a": 3450,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1345,7 +1534,10 @@
         "vitamin_a": 1200,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1366,7 +1558,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1387,7 +1582,10 @@
         "vitamin_a": 60,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1408,7 +1606,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1429,7 +1630,10 @@
         "vitamin_a": 120,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1450,7 +1654,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1471,7 +1678,10 @@
         "vitamin_a": 450,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1492,7 +1702,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1513,7 +1726,10 @@
         "vitamin_a": 450,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1534,7 +1750,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1555,7 +1774,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1576,7 +1798,10 @@
         "vitamin_a": 30,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1597,7 +1822,10 @@
         "vitamin_a": 120,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1618,7 +1846,10 @@
         "vitamin_a": 120,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1639,7 +1870,10 @@
         "vitamin_a": 60,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "7-Eleven",
@@ -1660,6 +1894,9 @@
         "vitamin_a": 60,
         "vitamin_c": null,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

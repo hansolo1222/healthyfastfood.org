@@ -18,7 +18,22 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 22,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [
+            "gluten",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "BARBACOA:<br/><br/>BEEF<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>SALT<br/><br/>CLOVES<br/><br/>BAY LEAF<br/><br/><br/><br/>TORTILLA:<br/><br/>WHEAT FLOUR<br/><br/>WATER<br/><br/>CANOLA OIL<br/><br/>SALT<br/><br/>YEAST"
     },
     {
         "restaurant_name": "Chipotle",
@@ -39,7 +54,10 @@
         "vitamin_a": 60,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 21
+        "iron": 21,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Carne Asada<br/><br/>Tortilla"
     },
     {
         "restaurant_name": "Chipotle",
@@ -60,7 +78,24 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 22,
-        "iron": 23
+        "iron": 23,
+        "allergens_true": [
+            "gluten",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "CARNITAS:<br/><br/>PORK<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>JUNIPER BERRIES<br/><br/>THYME<br/><br/>BAY LEAF<br/><br/>SUNFLOWER OIL<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
     },
     {
         "restaurant_name": "Chipotle",
@@ -81,7 +116,24 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 22,
-        "iron": 23
+        "iron": 23,
+        "allergens_true": [
+            "gluten",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "CHICKEN:<br/><br/>CHICKEN<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>DISTILLED VINEGAR<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
     },
     {
         "restaurant_name": "Chipotle",
@@ -102,7 +154,14 @@
         "vitamin_a": 120,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 51
+        "iron": 51,
+        "allergens_true": [
+            "gluten",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Plant based chorizo<br/><br/>Flour tortilla"
     },
     {
         "restaurant_name": "Chipotle",
@@ -123,7 +182,13 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Flour tortilla, pollo asado."
     },
     {
         "restaurant_name": "Chipotle",
@@ -144,7 +209,24 @@
         "vitamin_a": 17,
         "vitamin_c": 23,
         "calcium": 37,
-        "iron": 32
+        "iron": 32,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "SOFRITAS:<br/><br/>WATER<br/><br/>SOYBEANS<br/><br/>TOMATO<br/><br/>YELLOW ONION<br/><br/>BELL PEPPER<br/><br/>POBLANO PEPPER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>TOMATO PASTE<br/><br/>GYPSUM<br/><br/>RED WINE VINEGAR<br/><br/>SALT<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
     },
     {
         "restaurant_name": "Chipotle",
@@ -165,7 +247,24 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 22,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [
+            "gluten",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "STEAK:<br/><br/>BEEF<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>SALT<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
     },
     {
         "restaurant_name": "Chipotle",
@@ -186,7 +285,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -207,7 +309,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -228,7 +333,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -249,7 +357,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -270,7 +381,10 @@
         "vitamin_a": 4,
         "vitamin_c": 50,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -291,7 +405,10 @@
         "vitamin_a": 4,
         "vitamin_c": 200,
         "calcium": 4,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -312,7 +429,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -333,7 +453,10 @@
         "vitamin_a": 0,
         "vitamin_c": 35,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -354,7 +477,10 @@
         "vitamin_a": 0,
         "vitamin_c": 35,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -377,7 +503,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -394,7 +523,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tractor-berry-agua-fresca"
@@ -420,7 +552,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -437,7 +572,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tractor-hibiscus-lemonade"
@@ -463,7 +601,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -480,7 +621,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tractor-lemonade"
@@ -506,7 +650,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -523,7 +670,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tractor-mandarin-agua-fresca"
@@ -547,7 +697,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -568,7 +721,20 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BARBACOA:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT\r<br/>CLOVES\r<br/>BAY LEAF"
     },
     {
         "restaurant_name": "Chipotle",
@@ -589,7 +755,10 @@
         "vitamin_a": 60,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Carne Asada"
     },
     {
         "restaurant_name": "Chipotle",
@@ -610,7 +779,22 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CARNITAS:\r<br/>PORK\r<br/>SALT\r<br/>BLACK PEPPER\r<br/>JUNIPER BERRIES\r<br/>THYME\r<br/>BAY LEAF\r<br/>SUNFLOWER OIL"
     },
     {
         "restaurant_name": "Chipotle",
@@ -631,7 +815,22 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHICKEN:<br/><br/>CHICKEN<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>DISTILLED VINEGAR"
     },
     {
         "restaurant_name": "Chipotle",
@@ -652,7 +851,10 @@
         "vitamin_a": 120,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 45
+        "iron": 45,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Plant based chorizo<br/><br/>Lettuce"
     },
     {
         "restaurant_name": "Chipotle",
@@ -673,7 +875,24 @@
         "vitamin_a": 17,
         "vitamin_c": 23,
         "calcium": 17,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [
+            "soy",
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "SOFRITAS:<br/><br/>WATER<br/><br/>SOYBEANS<br/><br/>TOMATO<br/><br/>YELLOW ONION<br/><br/>BELL PEPPER<br/><br/>POBLANO PEPPER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>TOMATO PASTE<br/><br/>GYPSUM<br/><br/>RED WINE VINEGAR<br/><br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -694,7 +913,22 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "STEAK:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -715,7 +949,22 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "WATER\r<br/>BLACK BEANS\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>YELLOW ONION\r<br/>RICE BRAN OIL\r<br/>CHIPOTLE CHILI\r<br/>SALT\r<br/>GARLIC\r<br/>CUMIN\r<br/>OREGANO\r<br/>BAY LEAF\r<br/>BLACK PEPPER"
     },
     {
         "restaurant_name": "Chipotle",
@@ -736,7 +985,22 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "WATER\r<br/>BROWN RICE\r<br/>RICE BRAN OIL\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>CILANTRO\r<br/>SALT\r<br/>BAY LEAF"
     },
     {
         "restaurant_name": "Chipotle",
@@ -757,7 +1021,23 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "MILK\r<br/>SALT\r<br/>CHEESE CULTURES\r<br/>VEGETABLE RENNET"
     },
     {
         "restaurant_name": "Chipotle",
@@ -778,7 +1058,10 @@
         "vitamin_a": 4,
         "vitamin_c": 70,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -799,7 +1082,22 @@
         "vitamin_a": 4,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "WHITE SWEET CORN\r<br/>RED ONION\r<br/>JALAPE\u00c3\u2018O\r<br/>POBLANO PEPPER\r<br/>CILANTRO\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -820,7 +1118,22 @@
         "vitamin_a": 4,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BELL PEPPER\r<br/>RED ONION\r<br/>RICE BRAN OIL\r<br/>OREGANO\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -841,7 +1154,22 @@
         "vitamin_a": 2,
         "vitamin_c": 15,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "TOMATO\r<br/>TOMATILLO\r<br/>JALAPE\u00c3\u2018O\r<br/>RED ONION\r<br/>CILANTRO\r<br/>SALT\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>CUMIN\r<br/>GARLIC\r<br/>OREGANO\r<br/>BLACK PEPPER"
     },
     {
         "restaurant_name": "Chipotle",
@@ -862,7 +1190,20 @@
         "vitamin_a": 4,
         "vitamin_c": 20,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "AVOCADO\r<br/>CILANTRO\r<br/>JALAPE\u00c3\u2018O\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>RED ONION\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -883,7 +1224,22 @@
         "vitamin_a": 80,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "ROMAINE LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -904,7 +1260,22 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "WATER\r<br/>PINTO BEANS\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>YELLOW ONION\r<br/>RICE BRAN OIL\r<br/>CHIPOTLE CHILI\r<br/>SALT\r<br/>GARLIC\r<br/>CUMIN\r<br/>OREGANO\r<br/>BAY LEAF\r<br/>BLACK PEPPER"
     },
     {
         "restaurant_name": "Chipotle",
@@ -925,7 +1296,22 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 17,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [
+            "milk",
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BELL PEPPER<br/><br/>BLACK PEPPER<br/><br/>CHEDDAR CHEESE<br/><br/>CHIPOTLE CHILE<br/><br/>CORNSTARCH<br/><br/>CUMIN<br/><br/>DISTILLED VINEGAR<br/><br/>GARLIC<br/><br/>JALAPE\u00c3\u2018O<br/><br/>LEMON JUICE<br/><br/>LIME JUICE<br/><br/>MILK<br/><br/>OREGANO<br/><br/>POBLANO PEPPER<br/><br/>RED WINE VINEGAR<br/><br/>RICE BRAN OIL<br/><br/>SALT<br/><br/>TAPIOCA STARCH<br/><br/>TOMATILLO<br/><br/>TOMATO<br/><br/>TOMATO PASTE<br/><br/>WATER<br/><br/>YELLOW ONION"
     },
     {
         "restaurant_name": "Chipotle",
@@ -946,7 +1332,22 @@
         "vitamin_a": 40,
         "vitamin_c": 10,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "TOMATILLO\r<br/>RED CHILI\r<br/>WATER\r<br/>SALT\r<br/>GARLIC\r<br/>CUMIN\r<br/>BLACK PEPPER\r<br/>DISTILLED VINEGAR"
     },
     {
         "restaurant_name": "Chipotle",
@@ -967,7 +1368,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Chipotle",
@@ -988,7 +1392,21 @@
         "vitamin_a": 35,
         "vitamin_c": 15,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Romaine lettuce, baby kale, baby spinach."
     },
     {
         "restaurant_name": "Chipotle",
@@ -1009,7 +1427,22 @@
         "vitamin_a": 12,
         "vitamin_c": 6,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "TOMATO\r<br/>RED ONION\r<br/>CILANTRO\r<br/>JALAPE\u00c3\u2018O\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1030,7 +1463,24 @@
         "vitamin_a": 60,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "RICE BRAN OIL<br/><br/>RED WINE VINEGAR<br/><br/>HONEY<br/><br/>WATER<br/><br/>SALT<br/><br/>CHIPOTLE CHILI<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>CUMIN<br/><br/>GARLIC"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1051,7 +1501,22 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "WHITE RICE\r<br/>WATER\r<br/>RICE BRAN OIL\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>CILANTRO\r<br/>SALT\r<br/>BAY LEAF"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1072,7 +1537,21 @@
         "vitamin_a": 121,
         "vitamin_c": 37,
         "calcium": 18,
-        "iron": 43
+        "iron": 43,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHICKEN:<br/>CHICKEN<br/>WATER<br/>CHIPOTLE CHILI<br/>RICE BRAN OIL<br/>CUMIN<br/>GARLIC<br/>SALT<br/>BLACK PEPPER<br/>OREGANO<br/>DISTILLED VINEGAR<br/><br/>STEAK: <br/>BEEF <br/>WATER <br/>CHIPOTLE CHILI <br/>RICE BRAN OIL <br/>CUMIN <br/>GARLIC <br/>BLACK PEPPER <br/>OREGANO <br/>SALT <br/><br/>LETTUCE<br/><br/>BLACK BEANS:<br/>WATER <br/>BLACK BEANS <br/>LEMON JUICE <br/>LIME JUICE <br/>YELLOW ONION <br/>RICE BRAN OIL <br/>CHIPOTLE CHILI <br/>SALT <br/>GARLIC <br/>CUMIN <br/>OREGANO <br/>BAY LEAF <br/>BLACK PEPPER<br/><br/>RED TOMATILLO SALSA:<br/>TOMATILLO <br/>RED CHILI <br/>WATER <br/>SALT <br/>GARLIC <br/>CUMIN <br/>BLACK PEPPER <br/>DISTILLED VINEGAR<br/><br/>SOUR CREAM<br/><br/>WHITE RICE:<br/>WHITE RICE <br/>WATER <br/>RICE BRAN OIL <br/>LEMON JUICE <br/>LIME JUICE <br/>CILANTRO <br/>SALT <br/>BAY LEAF"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1093,7 +1572,22 @@
         "vitamin_a": 34,
         "vitamin_c": 9,
         "calcium": 25,
-        "iron": 18
+        "iron": 18,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken<br/><br/>Tomatillo-Red Chili Salsa<br/><br/>Monterey Jack Cheese<br/><br/>Guacamole"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1116,7 +1610,22 @@
                 "vitamin_c": 22,
                 "calcium": 26,
                 "iron": 31,
-                "variant_name": "Steak"
+                "variant_name": "Steak",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Supergreens lettuce blend<br/><br/>Steak<br/><br/>Fresh tomato salsa<br/><br/>Monterey jack cheese<br/><br/>Guacamole"
             },
             {
                 "calories": 560,
@@ -1133,7 +1642,22 @@
                 "vitamin_c": 38,
                 "calcium": 28,
                 "iron": 26,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Supergreens lettuce blend<br/><br/>Chicken<br/><br/>Fresh tomato salsa<br/><br/>Monterey jack cheese<br/><br/>Guacamole"
             },
             {
                 "calories": 585,
@@ -1150,7 +1674,21 @@
                 "vitamin_c": 17,
                 "calcium": 24,
                 "iron": 18,
-                "variant_name": "Barbacoa"
+                "variant_name": "Barbacoa",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "BARBACOA: <br/>BEEF <br/>WATER <br/>CHIPOTLE CHILI <br/>RICE BRAN OIL <br/>CUMIN <br/>GARLIC <br/>BLACK PEPPER <br/>OREGANO <br/>SALT <br/>CLOVES <br/>BAY LEAF <br/><br/>LETTUCE<br/><br/>GUACAMOLE:<br/>AVOCADO <br/>CILANTRO <br/>JALAPENO <br/>LEMON JUICE <br/>LIME JUICE <br/>RED ONION <br/>SALT<br/><br/>RED TOMATILLO SALSA:<br/>TOMATILLO <br/>RED CHILI <br/>WATER <br/>SALT <br/>GARLIC <br/>CUMIN <br/>BLACK PEPPER <br/>DISTILLED VINEGAR<br/><br/>CHEESE:<br/>MILK <br/>SALT <br/>CHEESE CULTURES <br/>VEGETABLE RENNET"
             }
         ],
         "slug": "keto-salad-bowl"
@@ -1174,7 +1712,20 @@
         "vitamin_a": 23,
         "vitamin_c": 87,
         "calcium": 9,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BARBACOA: <br/>BEEF <br/>WATER <br/>CHIPOTLE CHILI <br/>RICE BRAN OIL <br/>CUMIN <br/>GARLIC <br/>BLACK PEPPER <br/>OREGANO <br/>SALT <br/>CLOVES <br/>BAY LEAF<br/><br/>GUACAMOLE:<br/>AVOCADO <br/>CILANTRO <br/>JALAPE\u00c3\u2018O <br/>LEMON JUICE <br/>LIME JUICE <br/>RED ONION <br/>SALT<br/><br/>GREEN TOMATILLO SALSA:<br/>TOMATO <br/>TOMATILLO <br/>JALAPENO <br/>RED ONION <br/>CILANTRO <br/>SALT <br/>LEMON JUICE <br/>LIME JUICE <br/>CUMIN <br/>GARLIC <br/>OREGANO <br/>BLACK PEPPER<br/><br/>FAJITA VEGGIES:<br/>BELL PEPPER <br/>RED ONION <br/>RICE BRAN OIL <br/>OREGANO <br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1195,7 +1746,22 @@
         "vitamin_a": 59,
         "vitamin_c": 59,
         "calcium": 22,
-        "iron": 38
+        "iron": 38,
+        "allergens_true": [
+            "soy",
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Sofritas<br/><br/>Black Beans<br/><br/>Fresh Tomato Salsa<br/><br/>Roasted Chili-Corn Salsa<br/><br/>Shredded Romaine Lettuce"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1216,7 +1782,21 @@
         "vitamin_a": 49,
         "vitamin_c": 98,
         "calcium": 11,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Supergreens lettuce blend<br/><br/>Black beans<br/><br/>Fresh tomato salsa<br/><br/>Fajita veggies<br/><br/>Guacamole"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1237,7 +1817,21 @@
         "vitamin_a": 9,
         "vitamin_c": 37,
         "calcium": 7,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken<br/><br/>Fajita veggies<br/><br/>Fresh tomato salsa<br/><br/>Guacamole"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1260,7 +1854,21 @@
                 "vitamin_c": 98,
                 "calcium": 10,
                 "iron": 28,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Supergreens lettuce blend<br/><br/>Chicken<br/><br/>Fajita veggies<br/><br/>Fresh tomato salsa<br/><br/>Guacamole"
             },
             {
                 "calories": 490,
@@ -1277,7 +1885,20 @@
                 "vitamin_c": 91,
                 "calcium": 7,
                 "iron": 22,
-                "variant_name": "Carnitas"
+                "variant_name": "Carnitas",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "CARNITAS: <br/>PORK <br/>SALT <br/>BLACK PEPPER <br/>JUNIPER BERRIES <br/>THYME <br/>BAY LEAF <br/>SUNFLOWER OIL <br/><br/>LETTUCE<br/><br/>FRESH TOMATO SALSA:<br/>TOMATO <br/>RED ONION <br/>CILANTRO <br/>JALAPENO <br/>LEMON JUICE <br/>LIME JUICE <br/>SALT<br/><br/>GUACAMOLE:<br/>AVOCADO <br/>CILANTRO <br/>JALAPENO <br/>LEMON JUICE <br/>LIME JUICE <br/>RED ONION <br/>SALT<br/><br/>FAJITA VEGETABLES:<br/>BELL PEPPER <br/>RED ONION <br/>RICE BRAN OIL <br/>OREGANO <br/>SALT"
             }
         ],
         "slug": "whole30-salad-bowl"
@@ -1301,7 +1922,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Barbacoa: Bay leaf, beef, black pepper, chipotle chili, cloves, cumin, garlic, oregano, rice bran oil, salt, water"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1322,7 +1957,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Carnitas: bay leaf, black pepper, juniper berries, pork, salt, sunflower oil, thyme"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1343,7 +1992,21 @@
         "vitamin_a": 20,
         "vitamin_c": 0,
         "calcium": 60,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet."
     },
     {
         "restaurant_name": "Chipotle",
@@ -1364,7 +2027,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Chicken: black pepper, chicken, chipotle chili, cumin, distilled vinegar, garlic, oregano, salt, sunflower oil, water."
     },
     {
         "restaurant_name": "Chipotle",
@@ -1385,7 +2062,15 @@
         "vitamin_a": 140,
         "vitamin_c": 0,
         "calcium": 75,
-        "iron": 51
+        "iron": 51,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "sulfites",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Plant based chorizo<br/><br/>Flour tortilla<br/><br/>Monterey Jack Cheese"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1406,7 +2091,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Sofritas: bell pepper, black pepper, chipotle chili, cumin, garlic, gypsum, onion, oregano, poblano pepper, red wine vinegar, rice bran oil, salt, soy beans, tomato, tomato paste, water."
     },
     {
         "restaurant_name": "Chipotle",
@@ -1427,7 +2126,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Steak: beef, black pepper, chipotle chili, cumin, garlic, oregano, rice bran oil, salt, water"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1448,7 +2161,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Flour Tortilla: wheat flour, water, canola oil, salt, yeast<br/><br/>Monterey Jack Cheese: cheese cultures, milk, salt, vegetable rennet.<br/><br/>Fajita Vegetables: Bell Pepper, oregano, red onion, salt, sunflower oil"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1469,7 +2196,20 @@
         "vitamin_a": 86,
         "vitamin_c": 30,
         "calcium": 4,
-        "iron": 19
+        "iron": 19,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "BARBACOA:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT\r<br/>CLOVES\r<br/>BAY LEAF\r<br/> <br/>LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1490,7 +2230,10 @@
         "vitamin_a": 35,
         "vitamin_c": 15,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Carne Asada<br/><br/>Supergreens Lettuce Blend"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1511,7 +2254,22 @@
         "vitamin_a": 82,
         "vitamin_c": 30,
         "calcium": 4,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CARNITAS:\r<br/>PORK\r<br/>SALT\r<br/>BLACK PEPPER\r<br/>JUNIPER BERRIES\r<br/>THYME\r<br/>BAY LEAF\r<br/>SUNFLOWER OIL\r<br/> <br/>LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1532,7 +2290,22 @@
         "vitamin_a": 90,
         "vitamin_c": 32,
         "calcium": 4,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHICKEN:<br/><br/>CHICKEN<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>DISTILLED VINEGAR<br/><br/><br/><br/>LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1553,7 +2326,10 @@
         "vitamin_a": 155,
         "vitamin_c": 15,
         "calcium": 17,
-        "iron": 51
+        "iron": 51,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Plant based chorizo<br/><br/>Supergreens lettuce blend"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1574,7 +2350,24 @@
         "vitamin_a": 97,
         "vitamin_c": 53,
         "calcium": 19,
-        "iron": 21
+        "iron": 21,
+        "allergens_true": [
+            "soy",
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "SOFRITAS:<br/><br/>WATER<br/><br/>SOYBEANS<br/><br/>TOMATO<br/><br/>YELLOW ONION<br/><br/>BELL PEPPER<br/><br/>POBLANO PEPPER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>TOMATO PASTE<br/><br/>GYPSUM<br/><br/>RED WINE VINEGAR<br/><br/>SALT<br/><br/><br/><br/>LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1595,7 +2388,22 @@
         "vitamin_a": 82,
         "vitamin_c": 30,
         "calcium": 4,
-        "iron": 19
+        "iron": 19,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "STEAK:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT\r<br/> <br/>LETTUCE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -1618,7 +2426,22 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 21,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "BARBACOA:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT\r<br/>CLOVES\r<br/>BAY LEAF\r<br/> <br/>CRISPY CORN TORTILLA:\r<br/>CORN MASA FLOUR\r<br/>WATER\r<br/>SUNFLOWER OIL\r<br/>LIME (MINERAL)"
             },
             {
                 "calories": 440,
@@ -1635,7 +2458,24 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 27,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "BARBACOA:<br/><br/>BEEF<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>SALT<br/><br/>CLOVES<br/><br/>BAY LEAF<br/><br/><br/><br/>TORTILLA:<br/><br/>WHEAT FLOUR<br/><br/>WATER<br/><br/>CANOLA OIL<br/><br/>SALT<br/><br/>YEAST"
             },
             {
                 "calories": 380,
@@ -1652,7 +2492,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 21,
-                "variant_name": "w/ Soft Corn Tortilla"
+                "variant_name": "w/ Soft Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "barbacoa-tacos"
@@ -1678,7 +2521,10 @@
                 "vitamin_c": 2,
                 "calcium": 19,
                 "iron": 21,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "Carne Asada<br/><br/>Crispy Corn Tortillas"
             },
             {
                 "calories": 500,
@@ -1695,7 +2541,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 21,
-                "variant_name": "w/ Soft Flour Tortillas"
+                "variant_name": "w/ Soft Flour Tortillas",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "Carne Asada<br/><br/>Soft Flour Tortillas"
             }
         ],
         "slug": "carne-asada-tacos"
@@ -1721,7 +2570,22 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 14,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "CARNITAS:\r<br/>PORK\r<br/>SALT\r<br/>BLACK PEPPER\r<br/>JUNIPER BERRIES\r<br/>THYME\r<br/>BAY LEAF\r<br/>SUNFLOWER OIL\r<br/> <br/>CRISPY CORN TORTILLA:\r<br/>CORN MASA FLOUR\r<br/>WATER\r<br/>SUNFLOWER OIL\r<br/>LIME (MINERAL)"
             },
             {
                 "calories": 460,
@@ -1738,7 +2602,24 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "CARNITAS:<br/><br/>PORK<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>JUNIPER BERRIES<br/><br/>THYME<br/><br/>BAY LEAF<br/><br/>SUNFLOWER OIL<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
             },
             {
                 "calories": 400,
@@ -1755,7 +2636,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 14,
-                "variant_name": "w/ Soft Corn Tortilla"
+                "variant_name": "w/ Soft Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "carnitas-tacos"
@@ -1781,7 +2665,22 @@
                 "vitamin_c": 2,
                 "calcium": 8,
                 "iron": 14,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "CHICKEN:\r<br/>CHICKEN\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>SALT\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>DISTILLED VINEGAR\r<br/> <br/>CRISPY CORN TORTILLA:\r<br/>CORN MASA FLOUR\r<br/>WATER\r<br/>SUNFLOWER OIL\r<br/>LIME (MINERAL)"
             },
             {
                 "calories": 460,
@@ -1798,7 +2697,24 @@
                 "vitamin_c": 2,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "CHICKEN:<br/><br/>CHICKEN<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>SALT<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>DISTILLED VINEGAR<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
             },
             {
                 "calories": 400,
@@ -1815,7 +2731,10 @@
                 "vitamin_c": 2,
                 "calcium": 2,
                 "iron": 14,
-                "variant_name": "w/ Soft Corn Tortilla"
+                "variant_name": "w/ Soft Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-tacos"
@@ -1841,7 +2760,10 @@
                 "vitamin_c": 0,
                 "calcium": 32,
                 "iron": 51,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "Plant based chorizo<br/><br/>Crispy Corn Tortilla"
             },
             {
                 "calories": 470,
@@ -1858,7 +2780,14 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 51,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": "Plant based chorizo<br/><br/>Soft flour tortilla"
             }
         ],
         "slug": "plant-based-chorizo-tacos"
@@ -1884,7 +2813,24 @@
                 "vitamin_c": 23,
                 "calcium": 23,
                 "iron": 23,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [
+                    "soy",
+                    "sulfites"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "SOFRITAS:<br/><br/>WATER<br/><br/>SOYBEANS<br/><br/>TOMATO<br/><br/>YELLOW ONION<br/><br/>BELL PEPPER<br/><br/>POBLANO PEPPER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>TOMATO PASTE<br/><br/>GYPSUM<br/><br/>RED WINE VINEGAR<br/><br/>SALT"
             },
             {
                 "calories": 400,
@@ -1901,7 +2847,24 @@
                 "vitamin_c": 23,
                 "calcium": 32,
                 "iron": 32,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "SOFRITAS:<br/><br/>WATER<br/><br/>SOYBEANS<br/><br/>TOMATO<br/><br/>YELLOW ONION<br/><br/>BELL PEPPER<br/><br/>POBLANO PEPPER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>TOMATO PASTE<br/><br/>GYPSUM<br/><br/>RED WINE VINEGAR<br/><br/>SALT<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
             },
             {
                 "calories": 355,
@@ -1918,7 +2881,10 @@
                 "vitamin_c": 23,
                 "calcium": 23,
                 "iron": 23,
-                "variant_name": "w/ Soft Corn Tortilla"
+                "variant_name": "w/ Soft Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sofritas-tacos"
@@ -1944,7 +2910,22 @@
                 "vitamin_c": 0,
                 "calcium": 8,
                 "iron": 21,
-                "variant_name": "w/ Crispy Corn Tortilla"
+                "variant_name": "w/ Crispy Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "STEAK:\r<br/>BEEF\r<br/>WATER\r<br/>CHIPOTLE CHILI\r<br/>RICE BRAN OIL\r<br/>CUMIN\r<br/>GARLIC\r<br/>BLACK PEPPER\r<br/>OREGANO\r<br/>SALT\r<br/> <br/>CRISPY CORN TORTILLA:\r<br/>CORN MASA FLOUR\r<br/>WATER\r<br/>SUNFLOWER OIL\r<br/>LIME (MINERAL)"
             },
             {
                 "calories": 460,
@@ -1961,7 +2942,24 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 27,
-                "variant_name": "w/ Soft Flour Tortilla"
+                "variant_name": "w/ Soft Flour Tortilla",
+                "allergens_true": [
+                    "gluten",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "sesame",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "STEAK:<br/><br/>BEEF<br/><br/>WATER<br/><br/>CHIPOTLE CHILI<br/><br/>RICE BRAN OIL<br/><br/>CUMIN<br/><br/>GARLIC<br/><br/>BLACK PEPPER<br/><br/>OREGANO<br/><br/>SALT<br/><br/><br/><br/>TORTILLA: <br/><br/>WHEAT FLOUR <br/><br/>WATER <br/><br/>CANOLA OIL <br/><br/>SALT <br/><br/>YEAST"
             },
             {
                 "calories": 400,
@@ -1978,7 +2976,10 @@
                 "vitamin_c": 0,
                 "calcium": 2,
                 "iron": 21,
-                "variant_name": "w/ Soft Corn Tortilla"
+                "variant_name": "w/ Soft Corn Tortilla",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "steak-tacos"
@@ -2002,7 +3003,22 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2023,7 +3039,22 @@
         "vitamin_a": 12,
         "vitamin_c": 8,
         "calcium": 6,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHIPS:\r<br/>CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE\r<br/> <br/>FRESH TOMATO SALSA:\r<br/>TOMATO\r<br/>RED ONION\r<br/>CILANTRO\r<br/>JALAPE\u00c3\u2018O\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2044,7 +3075,22 @@
         "vitamin_a": 4,
         "vitamin_c": 22,
         "calcium": 6,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHIPS:\r<br/>CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE\r<br/> <br/>GUACAMOLE:\r<br/>AVOCADO\r<br/>RED ONION\r<br/>JALAPE\u00c3\u2018O\r<br/>CILANTRO\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2065,7 +3111,22 @@
         "vitamin_a": 12,
         "vitamin_c": 0,
         "calcium": 74,
-        "iron": 18
+        "iron": 18,
+        "allergens_true": [
+            "milk",
+            "sulfites"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "QUESO:<br/><br/>BELL PEPPER <br/><br/>BLACK PEPPER <br/><br/>CHEDDAR CHEESE <br/><br/>CHIPOTLE CHILE <br/><br/>CORNSTARCH <br/><br/>CUMIN <br/><br/>DISTILLED VINEGAR <br/><br/>GARLIC <br/><br/>JALAPE\u00c3\u2018O <br/><br/>LEMON JUICE <br/><br/>LIME JUICE <br/><br/>MILK <br/><br/>OREGANO <br/><br/>POBLANO PEPPER <br/><br/>RED WINE VINEGAR <br/><br/>RICE BRAN OIL <br/><br/>SALT <br/><br/>TAPIOCA STARCH <br/><br/>TOMATILLO <br/><br/>TOMATO <br/><br/>TOMATO PASTE <br/><br/>WATER <br/><br/>YELLOW ONION<br/><br/><br/><br/>CHIPS:<br/><br/>CORN MASA FLOUR<br/><br/>SUNFLOWER OIL<br/><br/>WATER<br/><br/>SALT<br/><br/>LIME JUICE"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2086,7 +3147,22 @@
         "vitamin_a": 4,
         "vitamin_c": 12,
         "calcium": 4,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHIPS:\r<br/>CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE\r<br/> <br/>ROASTED CHILI-CORN SALSA:\r<br/>WHITE SWEET CORN\r<br/>RED ONION\r<br/>JALAPE\u00c3\u2018O\r<br/>POBLANO PEPPER\r<br/>CILANTRO\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>SALT"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2107,7 +3183,22 @@
         "vitamin_a": 2,
         "vitamin_c": 17,
         "calcium": 6,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHIPS:\r<br/>CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE\r<br/> <br/>TOMATILLO-CHILI GREEN SALSA:\r<br/>TOMATO\r<br/>TOMATILLO\r<br/>JALAPE\u00c3\u2018O\r<br/>RED ONION\r<br/>CILANTRO\r<br/>SALT\r<br/>LEMON JUICE\r<br/>LIME JUICE\r<br/>CUMIN\r<br/>GARLIC\r<br/>OREGANO\r<br/>BLACK PEPPER"
     },
     {
         "restaurant_name": "Chipotle",
@@ -2128,6 +3219,21 @@
         "vitamin_a": 40,
         "vitamin_c": 12,
         "calcium": 6,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "sesame",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "CHIPS:\r<br/>CORN MASA FLOUR\r<br/>SUNFLOWER OIL\r<br/>WATER\r<br/>SALT\r<br/>LIME JUICE\r<br/> <br/>TOMATILLO-CHILI RED SALSA:\r<br/>TOMATILLO\r<br/>RED CHILI\r<br/>WATER\r<br/>SALT\r<br/>GARLIC\r<br/>CUMIN\r<br/>BLACK PEPPER\r<br/>DISTILLED VINEGAR"
     }
 ]

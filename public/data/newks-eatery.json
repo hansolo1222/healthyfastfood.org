@@ -18,7 +18,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -39,7 +44,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -60,7 +70,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -81,7 +96,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -102,7 +122,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -123,7 +148,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -144,7 +174,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -165,7 +200,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -186,7 +226,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -207,7 +252,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -228,7 +278,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -249,7 +304,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -270,7 +330,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -291,7 +356,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -312,7 +382,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -333,7 +408,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -354,7 +434,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -375,7 +460,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -396,7 +486,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -417,7 +512,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -438,7 +538,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Marshmallow Crispy"
     },
     {
         "restaurant_name": "Newk's",
@@ -459,7 +574,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Brownie: SUGAR, EGGS, SOYBEAN OIL, ENRICHED BLEACHED FLOUR (Bleached wheat flour, malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), CHOCOLATE CHIPS (sugar, unsweetened chocolate, cocoa butter, soy lecithin, natural vanilla extract), COCOA (processed with alkali), BUTTER (cream, salt), Contains less than 2% of each of the following: DRY BUTTERMILK, CORN SYRUP SOLIDS, NATURAL FLAVORS, SALT, LEAVENING (baking soda, sodium acid pyrophosphate, monocalcium phosphate). Toppings: FUDGE ICING (sugar, vegetable oil (palm oil, soybean oil, canola oil), corn syrup, fructose, cocoa (processed with alkali), water, dextrose, contains less than 2% of: cultured dextrose, mono and diglycerides, natural flavor, phosphoric acid, salt, soy lecithin, unsweetened chocolate), WHITE CHOCOLATE (sugar, cocoa butter, whole milk powder, nonfat dry milk, soy lecithin (an emulsifier), natural vanilla extract), CHOCOLATE STRING ICING (powdered sugar (sucrose, cornstarch), milk, cocoa (processed with alkali), natural flavors, emulsifiers (starch, polyglycerol esters of fatty acids, mono- and di-glycerides)."
     },
     {
         "restaurant_name": "Newk's",
@@ -480,7 +610,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Slice of Caramel Cake"
     },
     {
         "restaurant_name": "Newk's",
@@ -501,7 +646,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Slice of Chocolate Cake"
     },
     {
         "restaurant_name": "Newk's",
@@ -522,7 +682,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "peanuts",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Peanut Butter Crispy.<br/><br/>Chocolate Ganache for Crispy"
     },
     {
         "restaurant_name": "Newk's",
@@ -543,7 +718,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Slice of Red Velvet Cake"
     },
     {
         "restaurant_name": "Newk's",
@@ -564,7 +754,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Slice of Strawberry Cake"
     },
     {
         "restaurant_name": "Newk's",
@@ -587,7 +792,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Chicken Salad.<br/><br/>Croissant.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             },
             {
                 "calories": 830,
@@ -604,7 +824,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Wheatberry"
+                "variant_name": "On Wheatberry",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "Chicken Salad.<br/><br/>Wheatberry Bread (2 slices).<br/><br/>Tomatoes.<br/><br/>Lettuce"
             }
         ],
         "slug": "chicken-salad-grab-n-go-sandwich"
@@ -630,7 +865,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham.<br/><br/>Croissant.<br/><br/>Cheddar Cheese.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             },
             {
                 "calories": 658,
@@ -647,7 +897,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Wheatberry"
+                "variant_name": "On Wheatberry",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ham.<br/><br/>Wheatberry Bread (2 slices).<br/><br/>Swiss Cheese.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             }
         ],
         "slug": "ham-grab-n-go-sandwich"
@@ -671,7 +936,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pimiento Cheese.<br/><br/>Wheatberry Bread (2 slices)"
     },
     {
         "restaurant_name": "Newk's",
@@ -694,7 +974,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast Beef.<br/><br/>Croissant.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             },
             {
                 "calories": 558,
@@ -711,7 +1006,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Wheatberry"
+                "variant_name": "On Wheatberry",
+                "allergens_true": [
+                    "gluten",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Roast Beef.<br/><br/>Wheatberry Bread (2 slices).<br/><br/>Tomatoes.<br/><br/>Lettuce"
             }
         ],
         "slug": "roast-beef-grab-n-go-sandwich"
@@ -737,7 +1047,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Croissant"
+                "variant_name": "On Croissant",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey.<br/><br/>Croissant.<br/><br/>Cheddar Cheese.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             },
             {
                 "calories": 658,
@@ -754,7 +1079,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "On Wheatberry"
+                "variant_name": "On Wheatberry",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey.<br/><br/>Wheatberry Bread (2 slices).<br/><br/>Swiss Cheese.<br/><br/>Tomatoes.<br/><br/>Lettuce"
             }
         ],
         "slug": "turkey-breast-grab-n-go-sandwich"
@@ -778,7 +1118,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -799,7 +1144,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -820,7 +1170,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -841,7 +1196,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -862,7 +1222,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -883,7 +1248,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -904,7 +1274,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -925,7 +1300,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -946,7 +1326,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -967,7 +1352,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -988,7 +1378,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1009,7 +1404,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1030,7 +1430,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1051,7 +1456,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1072,7 +1482,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1093,7 +1508,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1114,7 +1534,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1135,7 +1560,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1156,7 +1586,12 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "MSG"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1177,7 +1612,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Kids Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Tomato Basil Sauce"
     },
     {
         "restaurant_name": "Newk's",
@@ -1198,7 +1648,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Macaroni and Cheese.<br/><br/>Cheddar Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1219,7 +1684,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Kids Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Tomato Basil Sauce.<br/><br/>Pepperoni"
     },
     {
         "restaurant_name": "Newk's",
@@ -1240,7 +1720,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Pimiento Mac and Cheese.<br/><br/>Bacon Bits"
     },
     {
         "restaurant_name": "Newk's",
@@ -1261,7 +1756,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "French Parisian Bread.<br/><br/>Cheddar Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1282,7 +1792,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Ham.<br/><br/>French Parisian Bread.<br/><br/>Cheddar Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1303,7 +1828,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Turkey.<br/><br/>French Parisian Bread.<br/><br/>Cheddar Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1326,7 +1866,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Side"
+                "variant_name": "Side",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Macaroni and Cheese.<br/><br/>Cheddar Cheese"
             },
             {
                 "calories": 793,
@@ -1343,7 +1898,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Entree"
+                "variant_name": "Entree",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Macaroni and Cheese.<br/><br/>Cheddar Cheese"
             }
         ],
         "slug": "five-cheese-mac-cheese"
@@ -1369,7 +1939,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Side"
+                "variant_name": "Side",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Pimiento Mac and Cheese.<br/><br/>Bacon Bits"
             },
             {
                 "calories": 1111,
@@ -1386,7 +1971,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Entree"
+                "variant_name": "Entree",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Pimiento Mac and Cheese.<br/><br/>Bacon Bits"
             }
         ],
         "slug": "six-cheese-pimiento-mac-cheese-with-bacon"
@@ -1410,7 +2010,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Grilled Chicken.<br/><br/>Mozzarella Cheese.<br/><br/>BBQ Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Red Onion.<br/><br/>Garlic Oil.<br/><br/>Cilantro"
     },
     {
         "restaurant_name": "Newk's",
@@ -1431,7 +2046,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Pesto Sauce.<br/><br/>Provolone.<br/><br/>Goat Cheese.<br/><br/>Sun Dried Tomatoes.<br/><br/>Garlic Oil.<br/><br/>Gouda Cheese.<br/><br/>Parmesan Cheese.<br/><br/>Basil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1452,7 +2082,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Tomato Basil Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Garlic Oil.<br/><br/>Basil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1473,7 +2118,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Grilled Chicken.<br/><br/>Mozzarella Cheese.<br/><br/>Artichoke Hearts.<br/><br/>Roma Tomatoes.<br/><br/>Red Onion.<br/><br/>Kalamata Olives.<br/><br/>Garlic Oil.<br/><br/>Pepperoncini Peppers.<br/><br/>Feta Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1494,7 +2154,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Tomato Basil Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Provolone.<br/><br/>Pepperoni.<br/><br/>Garlic Oil.<br/><br/>Basil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1515,7 +2190,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Grilled Chicken.<br/><br/>Mozzarella Cheese.<br/><br/>White BBQ Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Provolone.<br/><br/>Jalapenos (Garnish).<br/><br/>Garlic Oil.<br/><br/>Bacon Slices.<br/><br/>Chili Oil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1536,7 +2226,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Sausage.<br/><br/>Tomato Basil Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Provolone.<br/><br/>Garlic Oil.<br/><br/>Pepperoni.<br/><br/>Basil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1557,7 +2262,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Grilled Chicken.<br/><br/>Mozzarella Cheese.<br/><br/>Roma Tomatoes.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers.<br/><br/>Garlic Oil.<br/><br/>Parmesan Cheese.<br/><br/>Chili Oil.<br/><br/>Chili Flakes.<br/><br/>Cilantro"
     },
     {
         "restaurant_name": "Newk's",
@@ -1578,7 +2298,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Shrimp.<br/><br/>Roma Tomatoes.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers.<br/><br/>Garlic Oil.<br/><br/>Parmesan Cheese.<br/><br/>Chili Oil.<br/><br/>Chili Flakes.<br/><br/>Cilantro"
     },
     {
         "restaurant_name": "Newk's",
@@ -1599,7 +2334,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Salami.<br/><br/>Tomato Basil Sauce.<br/><br/>Capicola.<br/><br/>Provolone.<br/><br/>Chili Oil.<br/><br/>Parmesan Cheese.<br/><br/>Pepperoni.<br/><br/>Capers.<br/><br/>Chili Flakes.<br/><br/>Green Onions"
     },
     {
         "restaurant_name": "Newk's",
@@ -1620,7 +2370,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Grilled Chicken.<br/><br/>Mozzarella Cheese.<br/><br/>Pesto Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Garlic Oil.<br/><br/>Parmesan Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1641,7 +2406,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Regular Crust.<br/><br/>Mozzarella Cheese.<br/><br/>Artichoke Hearts.<br/><br/>Pesto Sauce.<br/><br/>Roma Tomatoes.<br/><br/>Portabella Mushrooms.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers.<br/><br/>Goat Cheese.<br/><br/>Red Onion.<br/><br/>Garlic Oil.<br/><br/>Basil"
     },
     {
         "restaurant_name": "Newk's",
@@ -1662,7 +2442,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1683,7 +2477,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1704,7 +2513,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1725,7 +2549,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1746,7 +2585,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1767,7 +2621,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1788,7 +2656,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1809,7 +2692,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1830,7 +2728,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1851,7 +2764,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1872,7 +2799,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "MSG"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1893,7 +2835,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Newk's",
@@ -1914,7 +2870,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Grilled Ahi Tuna.<br/><br/>Cucumbers.<br/><br/>Grape Tomatoes.<br/><br/>Won Ton Strips.<br/><br/>Sliced Radish.<br/><br/>Carrots"
     },
     {
         "restaurant_name": "Newk's",
@@ -1935,7 +2906,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy",
+            "tree nuts"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "wheat"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Grilled Steak.<br/><br/>Grape Tomatoes.<br/><br/>Gorgonzola Cheese.<br/><br/>Pecans.<br/><br/>Red Onion"
     },
     {
         "restaurant_name": "Newk's",
@@ -1956,7 +2942,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Romaine.<br/><br/>Croutons.<br/><br/>Parmesan Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1977,7 +2978,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Cucumbers.<br/><br/>Grape Tomatoes.<br/><br/>Turkey.<br/><br/>Ham.<br/><br/>Croutons.<br/><br/>Cheddar Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -1998,7 +3014,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Grilled Chicken.<br/><br/>Grape Tomatoes.<br/><br/>Croutons.<br/><br/>Hardboiled Eggs.<br/><br/>Gorgonzola Cheese.<br/><br/>Bacon Bits.<br/><br/>Pecans.<br/><br/>Green Onions"
     },
     {
         "restaurant_name": "Newk's",
@@ -2019,7 +3050,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Grilled Chicken.<br/><br/>Artichoke Hearts.<br/><br/>Grapes.<br/><br/>Croutons.<br/><br/>Dried Cranberries.<br/><br/>Gorgonzola Cheese.<br/><br/>Pecans"
     },
     {
         "restaurant_name": "Newk's",
@@ -2040,7 +3086,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Romaine.<br/><br/>Cucumbers.<br/><br/>Grape Tomatoes.<br/><br/>Artichoke Hearts.<br/><br/>Kalamata Olives.<br/><br/>Feta Cheese.<br/><br/>Pepperoncini Peppers.<br/><br/>Red Onion"
     },
     {
         "restaurant_name": "Newk's",
@@ -2061,7 +3122,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Newk's 'Q' Salad"
     },
     {
         "restaurant_name": "Newk's",
@@ -2082,7 +3158,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Spinach.<br/><br/>Grilled Chicken.<br/><br/>Raspberry Vinaigrette.<br/><br/>Blueberries.<br/><br/>Strawberries.<br/><br/>Watermelon.<br/><br/>Feta Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -2103,7 +3194,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Arugula.<br/><br/>Shrimp.<br/><br/>Grape Tomatoes.<br/><br/>Avocado Slices.<br/><br/>Green Onions.<br/><br/>Feta Cheese"
     },
     {
         "restaurant_name": "Newk's",
@@ -2124,7 +3230,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Hardboiled Eggs.<br/><br/>Shrimp.<br/><br/>Grape Tomatoes"
     },
     {
         "restaurant_name": "Newk's",
@@ -2145,7 +3266,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Chicken Salad.<br/><br/>Grape Tomatoes.<br/><br/>Croutons"
     },
     {
         "restaurant_name": "Newk's",
@@ -2166,7 +3302,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "shellfish"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Spicy Southwest Caesar Salad"
     },
     {
         "restaurant_name": "Newk's",
@@ -2187,7 +3337,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Spinach.<br/><br/>Strawberries.<br/><br/>Balsamic Vinaigrette.<br/><br/>Avocado Slices.<br/><br/>Feta Cheese.<br/><br/>Bacon Bits"
     },
     {
         "restaurant_name": "Newk's",
@@ -2208,7 +3373,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Mixed Greens.<br/><br/>Grilled Chicken.<br/><br/>Cucumbers.<br/><br/>Grape Tomatoes.<br/><br/>Turkey.<br/><br/>Ham.<br/><br/>Croutons.<br/><br/>Cheddar Cheese.<br/><br/>Bacon Bits"
     },
     {
         "restaurant_name": "Newk's",
@@ -2229,7 +3409,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Grilled Ahi Tuna"
     },
     {
         "restaurant_name": "Newk's",
@@ -2250,7 +3445,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Grilled Chicken"
     },
     {
         "restaurant_name": "Newk's",
@@ -2271,7 +3480,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "fish"
+        ],
+        "allergens_false": [
+            "egg",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Grilled Salmon"
     },
     {
         "restaurant_name": "Newk's",
@@ -2292,7 +3516,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Grilled Steak"
     },
     {
         "restaurant_name": "Newk's",
@@ -2313,7 +3552,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Turkey"
     },
     {
         "restaurant_name": "Newk's",
@@ -2334,7 +3587,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Shrimp"
     },
     {
         "restaurant_name": "Newk's",
@@ -2357,7 +3625,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>Honey Mustard.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Olive Oil.<br/><br/>Mayonnaise.<br/><br/>Bacon Slices.<br/><br/>Lettuce"
             },
             {
                 "calories": 1027,
@@ -2374,7 +3657,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>Tomatoes.<br/><br/>Honey Mustard.<br/><br/>Swiss Cheese.<br/><br/>Lettuce.<br/><br/>Mayonnaise.<br/><br/>Bacon Slices.<br/><br/>Olive Oil"
             }
         ],
         "slug": "chicken-bacon-club-sandwich"
@@ -2400,7 +3698,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Chicken Salad.<br/><br/>Tomatoes.<br/><br/>Provolone Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             },
             {
                 "calories": 1001,
@@ -2417,7 +3730,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Chicken Salad.<br/><br/>Tomatoes.<br/><br/>Provolone Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "chicken-salad-sandwich"
@@ -2443,7 +3771,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Ham.<br/><br/>Turkey.<br/><br/>Honey Mustard.<br/><br/>Tomatoes.<br/><br/>Cheddar Cheese.<br/><br/>Swiss Cheese.<br/><br/>Mayonnaise.<br/><br/>Bacon Slices.<br/><br/>Lettuce"
             },
             {
                 "calories": 907,
@@ -2460,7 +3803,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Ham.<br/><br/>Turkey.<br/><br/>Honey Mustard.<br/><br/>Tomatoes.<br/><br/>Cheddar Cheese.<br/><br/>Swiss Cheese.<br/><br/>Mayonnaise.<br/><br/>Bacon Slices.<br/><br/>Lettuce"
             }
         ],
         "slug": "club-sandwich"
@@ -2486,7 +3844,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Spinach Leaves.<br/><br/>Portabella Mushrooms.<br/><br/>Grilled Squash Slices.<br/><br/>Grilled Zucchini Slices.<br/><br/>Tomatoes.<br/><br/>Caramelized Onions.<br/><br/>Basil Mayonnaise.<br/><br/>Shredded Gouda Cheese"
             },
             {
                 "calories": 648,
@@ -2503,7 +3876,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Spinach Leaves.<br/><br/>Portabella Mushrooms.<br/><br/>Grilled Squash Slices.<br/><br/>Grilled Zucchini Slices.<br/><br/>Tomatoes.<br/><br/>Caramelized Onions.<br/><br/>Basil Mayonnaise.<br/><br/>Shredded Gouda Cheese"
             }
         ],
         "slug": "farmers-market-sandwich"
@@ -2529,7 +3917,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Steak.<br/><br/>Caramelized Onions.<br/><br/>Horseradish Sauce"
             },
             {
                 "calories": 689,
@@ -2546,7 +3949,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Steak.<br/><br/>Caramelized Onions.<br/><br/>Horseradish Sauce"
             }
         ],
         "slug": "grilled-steak-sandwich"
@@ -2572,7 +3990,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers.<br/><br/>Goat Cheese"
             },
             {
                 "calories": 609,
@@ -2589,7 +4022,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers.<br/><br/>Goat Cheese"
             }
         ],
         "slug": "pesto-chicken-sandwich"
@@ -2615,7 +4063,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Pimiento Cheese.<br/><br/>Tomatoes"
             },
             {
                 "calories": 971,
@@ -2632,7 +4095,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Pimiento Cheese.<br/><br/>Tomatoes"
             }
         ],
         "slug": "pimiento-cheese-sandwich"
@@ -2658,7 +4136,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>White BBQ Sauce.<br/><br/>Swiss Cheese.<br/><br/>Bacon Slices"
             },
             {
                 "calories": 1105,
@@ -2675,7 +4168,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Grilled Chicken.<br/><br/>White BBQ Sauce.<br/><br/>Swiss Cheese.<br/><br/>Bacon Slices"
             }
         ],
         "slug": "q-sandwich"
@@ -2701,7 +4209,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Roast Beef.<br/><br/>Tomatoes.<br/><br/>Provolone Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             },
             {
                 "calories": 744,
@@ -2718,7 +4241,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Roast Beef.<br/><br/>Tomatoes.<br/><br/>Provolone Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "roast-beef-sandwich"
@@ -2744,7 +4282,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Tomatoes.<br/><br/>Ham.<br/><br/>Roast Beef.<br/><br/>Turkey.<br/><br/>Salami.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             },
             {
                 "calories": 839,
@@ -2761,7 +4314,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Tomatoes.<br/><br/>Ham.<br/><br/>Roast Beef.<br/><br/>Turkey.<br/><br/>Salami.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "royal-sandwich"
@@ -2787,7 +4355,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Shrimp.<br/><br/>French Parisian Bread.<br/><br/>Cocktail Sauce.<br/><br/>Tomatoes.<br/><br/>Red Onion.<br/><br/>Olive Oil.<br/><br/>Lettuce.<br/><br/>Pickles"
             },
             {
                 "calories": 715,
@@ -2804,7 +4387,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Shrimp.<br/><br/>Cocktail Sauce.<br/><br/>Tomatoes.<br/><br/>Red Onion.<br/><br/>Olive Oil.<br/><br/>Pickles.<br/><br/>Lettuce"
             }
         ],
         "slug": "shrimp-poboy-sandwich"
@@ -2830,7 +4428,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Ham.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Romaine"
             },
             {
                 "calories": 743,
@@ -2847,7 +4460,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Ham.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "smoked-ham-sandwich"
@@ -2871,7 +4499,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "shellfish",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Spicy Southwest Caesar Sandwich"
     },
     {
         "restaurant_name": "Newk's",
@@ -2894,7 +4537,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Italian Sauce.<br/><br/>Tomatoes.<br/><br/>Mortadella.<br/><br/>Capicola.<br/><br/>Pepperoni.<br/><br/>Salami.<br/><br/>Hot Cherry Pepper Relish.<br/><br/>Creole Mustard.<br/><br/>Yellow Onion.<br/><br/>Mayonnaise.<br/><br/>Romaine"
             },
             {
                 "calories": 1191,
@@ -2911,7 +4569,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "ingredients": "French Parisian Bread.<br/><br/>Italian Sauce.<br/><br/>Tomatoes.<br/><br/>Mortadella.<br/><br/>Capicola.<br/><br/>Pepperoni.<br/><br/>Salami.<br/><br/>Hot Cherry Pepper Relish.<br/><br/>Creole Mustard.<br/><br/>Yellow Onion.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "the-italian-sandwich"
@@ -2937,7 +4610,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Turkey.<br/><br/>Avocado Slices.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             },
             {
                 "calories": 859,
@@ -2954,7 +4642,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Turkey.<br/><br/>Avocado Slices.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "turkey-avocado-sandwich"
@@ -2980,7 +4683,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Turkey.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Romaine"
             },
             {
                 "calories": 729,
@@ -2997,7 +4715,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "11-Grain Parisian Bread.<br/><br/>Turkey.<br/><br/>Tomatoes.<br/><br/>Swiss Cheese.<br/><br/>Creole Mustard.<br/><br/>Mayonnaise.<br/><br/>Lettuce"
             }
         ],
         "slug": "turkey-breast-sandwich"
@@ -3021,7 +4754,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "11-Grain Parisian Bread.<br/><br/>Portabella Mushrooms.<br/><br/>Red Bell Peppers.<br/><br/>Yellow Bell Peppers"
     },
     {
         "restaurant_name": "Newk's",
@@ -3042,7 +4790,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Apple Sauce"
     },
     {
         "restaurant_name": "Newk's",
@@ -3063,7 +4825,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "MSG"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Cheetos"
     },
     {
         "restaurant_name": "Newk's",
@@ -3084,7 +4861,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Coleslaw"
     },
     {
         "restaurant_name": "Newk's",
@@ -3105,7 +4897,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Fresh Fruit"
     },
     {
         "restaurant_name": "Newk's",
@@ -3126,7 +4932,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Newk's Jalapeno Kettle Chips"
     },
     {
         "restaurant_name": "Newk's",
@@ -3147,7 +4967,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Lay's Baked Potato Chips"
     },
     {
         "restaurant_name": "Newk's",
@@ -3168,7 +5003,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Newk's Mesquite BBQ Kettle Chips"
     },
     {
         "restaurant_name": "Newk's",
@@ -3189,7 +5038,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Multigrain Sun Chips"
     },
     {
         "restaurant_name": "Newk's",
@@ -3210,7 +5074,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "MSG",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Nacho Cheese Doritos"
     },
     {
         "restaurant_name": "Newk's",
@@ -3231,7 +5110,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Newk's Original Kettle Chips"
     },
     {
         "restaurant_name": "Newk's",
@@ -3252,7 +5145,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Pasta Salad"
     },
     {
         "restaurant_name": "Newk's",
@@ -3273,7 +5181,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Tippah Co. Caviar"
     },
     {
         "restaurant_name": "Newk's",
@@ -3296,7 +5218,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Broccoli Cheese Soup.<br/><br/>Cheddar Cheese"
             },
             {
                 "calories": 711,
@@ -3313,7 +5250,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Broccoli Cheese Soup - Bowl.<br/><br/>Cheddar Cheese"
             },
             {
                 "calories": 1311,
@@ -3330,7 +5282,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Broccoli Cheese Soup - Bowl.<br/><br/>Cheddar Cheese"
             }
         ],
         "slug": "broccoli-cheese-soup"
@@ -3356,7 +5323,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken and Sausage Gumbo.<br/><br/>Green Onions"
             },
             {
                 "calories": 540,
@@ -3373,7 +5355,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken and Sausage Gumbo.<br/><br/>Green Onions"
             },
             {
                 "calories": 1080,
@@ -3390,7 +5387,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken and Sausage Gumbo.<br/><br/>Green Onions"
             }
         ],
         "slug": "chicken-sausage-gumbo-soup"
@@ -3416,7 +5428,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Noodle Soup"
             },
             {
                 "calories": 280,
@@ -3433,7 +5460,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Noodle Soup"
             }
         ],
         "slug": "chicken-noodle-soup"
@@ -3459,7 +5501,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chicken Tortilla Soup.<br/><br/>Cilantro.<br/><br/>Tortilla Strips.<br/><br/>Sour Cream"
             },
             {
                 "calories": 290,
@@ -3476,7 +5533,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chicken Tortilla Soup - Bowl.<br/><br/>Cilantro.<br/><br/>Tortilla Strips.<br/><br/>Sour Cream"
             },
             {
                 "calories": 570,
@@ -3493,7 +5565,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chicken Tortilla Soup - Bowl.<br/><br/>Cilantro.<br/><br/>Tortilla Strips.<br/><br/>Sour Cream"
             }
         ],
         "slug": "chicken-tortilla-soup"
@@ -3519,7 +5606,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grilled Vegetable Soup - Cup"
             },
             {
                 "calories": 160,
@@ -3536,7 +5638,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grilled Vegetable Soup - Bowl"
             },
             {
                 "calories": 320,
@@ -3553,7 +5670,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grilled Vegetable Soup - Jumbo"
             }
         ],
         "slug": "grilled-vegetable-soup"
@@ -3579,7 +5711,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Loaded Potato Soup.<br/><br/>Green Onions.<br/><br/>Bacon Bits.<br/><br/>Sour Cream"
             },
             {
                 "calories": 650,
@@ -3596,7 +5743,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Loaded Potato Soup - Bowl.<br/><br/>Green Onions.<br/><br/>Bacon Bits.<br/><br/>Sour Cream"
             },
             {
                 "calories": 1290,
@@ -3613,7 +5775,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Loaded Potato Soup - Bowl.<br/><br/>Green Onions.<br/><br/>Bacon Bits.<br/><br/>Sour Cream"
             }
         ],
         "slug": "loaded-potato-soup"
@@ -3639,7 +5816,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster Crab Soup.<br/><br/>Green Onions"
             },
             {
                 "calories": 780,
@@ -3656,7 +5848,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster Crab Soup - Bowl.<br/><br/>Green Onions"
             },
             {
                 "calories": 1560,
@@ -3673,7 +5880,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster Crab Soup - Bowl.<br/><br/>Green Onions"
             }
         ],
         "slug": "lobster-crab-soup"
@@ -3699,7 +5921,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Newcomb Family Recipe Beef Chili.<br/><br/>Cheddar Cheese"
             },
             {
                 "calories": 516,
@@ -3716,7 +5953,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Newcomb Family Recipe Beef Chili.<br/><br/>Cheddar Cheese"
             }
         ],
         "slug": "newcomb-family-recipe-beef-chili"
@@ -3742,7 +5994,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Crawfish and Pepperjack Soup.<br/><br/>Green Onions.<br/><br/>Sour Cream"
             },
             {
                 "calories": 643,
@@ -3759,7 +6026,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "MSG",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Crawfish and Pepperjack Soup - Bowl.<br/><br/>Green Onions.<br/><br/>Sour Cream"
             }
         ],
         "slug": "pepperjack-and-crawfish-soup"
@@ -3785,7 +6067,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Spinach and Feta Soup.<br/><br/>Parmesan Cheese"
             },
             {
                 "calories": 486,
@@ -3802,7 +6099,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Spinach and Feta Soup - Bowl.<br/><br/>Parmesan Cheese"
             }
         ],
         "slug": "spinach-and-feta-soup"
@@ -3828,7 +6140,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish"
+                ],
+                "ingredients": "Tomato Basil (vegetarian) Soup.<br/><br/>Croutons.<br/><br/>Basil"
             },
             {
                 "calories": 496,
@@ -3845,7 +6172,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tomato Basil Soup - Bowl.<br/><br/>Croutons.<br/><br/>Basil"
             },
             {
                 "calories": 936,
@@ -3862,7 +6204,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Jumbo"
+                "variant_name": "Jumbo",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tomato Basil Soup - Bowl.<br/><br/>Croutons.<br/><br/>Basil"
             }
         ],
         "slug": "tomato-basil-soup"

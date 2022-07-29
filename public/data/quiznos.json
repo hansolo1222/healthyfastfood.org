@@ -20,7 +20,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo"
             },
             {
                 "calories": 420,
@@ -37,7 +52,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo"
             },
             {
                 "calories": 780,
@@ -54,7 +84,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo"
             },
             {
                 "calories": 1190,
@@ -71,7 +116,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo"
             }
         ],
         "slug": "baja-chicken"
@@ -82,23 +142,6 @@
         "meal_name": "Black Angus Steak",
         "category": "Sub Sandwiches",
         "variants": [
-            {
-                "calories": 390,
-                "total_fat": 13,
-                "saturated_fat": 6.0,
-                "trans_fat": 0.0,
-                "cholesterol": 50,
-                "sodium": 1010,
-                "total_carbohydrates": 44,
-                "dietary_fiber": 2,
-                "sugar": 9,
-                "protein": 23,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "4\""
-            },
             {
                 "calories": 390,
                 "total_fat": 15,
@@ -114,7 +157,54 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Black Angus Steak - with mozzarella, cheddar, mushrooms & onions, grille sauce on rosemary parmesan"
+            },
+            {
+                "calories": 390,
+                "total_fat": 13,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 50,
+                "sodium": 1010,
+                "total_carbohydrates": 44,
+                "dietary_fiber": 2,
+                "sugar": 9,
+                "protein": 23,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Black Angus Steak - with mozzarella, cheddar, mushrooms & onions, grille sauce on rosemary parmesan"
             },
             {
                 "calories": 780,
@@ -131,7 +221,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Black Angus Steak - with mozzarella, cheddar, mushrooms & onions, grille sauce on rosemary parmesan"
             },
             {
                 "calories": 1170,
@@ -148,7 +253,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Black Angus Steak - with mozzarella, cheddar, mushrooms & onions, grille sauce on rosemary parmesan"
             }
         ],
         "slug": "black-angus-steak"
@@ -174,7 +294,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Carbonara - with bacon, mozzarella, saut\u00c3\u00a9ed mushrooms, parmesan alfredo sauce"
             },
             {
                 "calories": 450,
@@ -191,7 +326,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Carbonara - with bacon, mozzarella, saut\u00c3\u00a9ed mushrooms, parmesan alfredo sauce"
             },
             {
                 "calories": 860,
@@ -208,7 +358,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Carbonara - with bacon, mozzarella, saut\u00c3\u00a9ed mushrooms, parmesan alfredo sauce"
             },
             {
                 "calories": 1320,
@@ -225,7 +390,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken Carbonara - with bacon, mozzarella, saut\u00c3\u00a9ed mushrooms, parmesan alfredo sauce"
             }
         ],
         "slug": "chicken-carbonara"
@@ -251,7 +431,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Steak & Cheddar - with saut\u00c3\u00a9ed peppers & onions, chipotle mayo"
             },
             {
                 "calories": 440,
@@ -268,7 +463,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Steak & Cheddar - with saut\u00c3\u00a9ed peppers & onions, chipotle mayo"
             },
             {
                 "calories": 840,
@@ -285,7 +495,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Steak & Cheddar - with saut\u00c3\u00a9ed peppers & onions, chipotle mayo"
             },
             {
                 "calories": 1290,
@@ -302,7 +527,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Steak & Cheddar - with saut\u00c3\u00a9ed peppers & onions, chipotle mayo"
             }
         ],
         "slug": "chipotle-steak-cheddar"
@@ -328,7 +568,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Turkey - with cheddar, lettuce, tomatoes, onions, chipotle mayo"
             },
             {
                 "calories": 420,
@@ -345,7 +600,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Turkey - with cheddar, lettuce, tomatoes, onions, chipotle mayo"
             },
             {
                 "calories": 800,
@@ -362,7 +632,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Turkey - with cheddar, lettuce, tomatoes, onions, chipotle mayo"
             },
             {
                 "calories": 1230,
@@ -379,7 +664,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Chipotle Turkey - with cheddar, lettuce, tomatoes, onions, chipotle mayo"
             }
         ],
         "slug": "chipotle-turkey"
@@ -405,7 +705,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Classic Italian - Pepperoni, salami, capicola, ham, mozzarella, black olives, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 470,
@@ -422,7 +737,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Classic Italian - Pepperoni, salami, capicola, ham, mozzarella, black olives, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 930,
@@ -439,7 +769,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Classic Italian - Pepperoni, salami, capicola, ham, mozzarella, black olives, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 1410,
@@ -456,7 +801,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Classic Italian - Pepperoni, salami, capicola, ham, mozzarella, black olives, lettuce, tomatoes, onions, red wine vinaigrette"
             }
         ],
         "slug": "classic-italian"
@@ -482,7 +842,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Dip \u00e2\u20ac\u201c with saut\u00c3\u00a9ed onions, swiss, horseradish, side of au jus"
             },
             {
                 "calories": 400,
@@ -499,7 +874,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Dip \u00e2\u20ac\u201c with saut\u00c3\u00a9ed onions, swiss, horseradish, side of au jus"
             },
             {
                 "calories": 760,
@@ -516,7 +906,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Dip \u00e2\u20ac\u201c with saut\u00c3\u00a9ed onions, swiss, horseradish, side of au jus"
             },
             {
                 "calories": 1140,
@@ -533,7 +938,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "French Dip \u00e2\u20ac\u201c with saut\u00c3\u00a9ed onions, swiss, horseradish, side of au jus"
             }
         ],
         "slug": "french-dip"
@@ -559,7 +979,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Bacon Club - Turkey, ham, bacon, Swiss, lettuce, tomatoes, onions, honey-french dressing"
             },
             {
                 "calories": 450,
@@ -576,7 +1011,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Bacon Club - Turkey, ham, bacon, Swiss, lettuce, tomatoes, onions, honey-french dressing"
             },
             {
                 "calories": 880,
@@ -593,7 +1043,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Bacon Club - Turkey, ham, bacon, Swiss, lettuce, tomatoes, onions, honey-french dressing"
             },
             {
                 "calories": 1340,
@@ -610,7 +1075,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Bacon Club - Turkey, ham, bacon, Swiss, lettuce, tomatoes, onions, honey-french dressing"
             }
         ],
         "slug": "honey-bacon-club"
@@ -636,7 +1116,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Mustard - with bacon, Swiss, lettuce, tomatoes, onions"
             },
             {
                 "calories": 440,
@@ -653,7 +1148,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Mustard - with bacon, Swiss, lettuce, tomatoes, onions"
             },
             {
                 "calories": 830,
@@ -670,7 +1180,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Mustard - with bacon, Swiss, lettuce, tomatoes, onions"
             },
             {
                 "calories": 1260,
@@ -687,7 +1212,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Honey Mustard - with bacon, Swiss, lettuce, tomatoes, onions"
             }
         ],
         "slug": "honey-mustard-chicken"
@@ -713,7 +1253,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, shredded lettuce, butter, lemon, white bread."
             },
             {
                 "calories": 610,
@@ -730,7 +1284,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, shredded lettuce, butter, lemon, white bread."
             },
             {
                 "calories": 910,
@@ -747,7 +1315,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, shredded lettuce, butter, lemon, white bread."
             }
         ],
         "slug": "lobster-classic"
@@ -773,7 +1355,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 420,
@@ -790,7 +1387,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 780,
@@ -807,7 +1419,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 1180,
@@ -824,7 +1451,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch"
             }
         ],
         "slug": "mesquite-chicken"
@@ -850,7 +1492,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, Old Bay seasoning, butter, bacon, Old Bay spicy mayo, lettuce, tomato, lemon, white bread."
             },
             {
                 "calories": 750,
@@ -867,7 +1523,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, Old Bay seasoning, butter, bacon, Old Bay spicy mayo, lettuce, tomato, lemon, white bread."
             },
             {
                 "calories": 1130,
@@ -884,7 +1554,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Lobster and seafood salad, Old Bay seasoning, butter, bacon, Old Bay spicy mayo, lettuce, tomato, lemon, white bread."
             }
         ],
         "slug": "old-bay-lobster-club"
@@ -910,7 +1594,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Peppercorn Steak - with mozzarella, saut\u00c3\u00a9ed onions, peppercorn sauce"
             },
             {
                 "calories": 440,
@@ -927,7 +1626,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Peppercorn Steak - with mozzarella, saut\u00c3\u00a9ed onions, peppercorn sauce"
             },
             {
                 "calories": 840,
@@ -944,7 +1658,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Peppercorn Steak - with mozzarella, saut\u00c3\u00a9ed onions, peppercorn sauce"
             },
             {
                 "calories": 1290,
@@ -961,7 +1690,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Peppercorn Steak - with mozzarella, saut\u00c3\u00a9ed onions, peppercorn sauce"
             }
         ],
         "slug": "peppercorn-steak"
@@ -987,7 +1731,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Southwest Chicken - with cheddar, guacamole, chipotle mayo"
             },
             {
                 "calories": 440,
@@ -1004,7 +1763,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Southwest Chicken - with cheddar, guacamole, chipotle mayo"
             },
             {
                 "calories": 860,
@@ -1021,7 +1795,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Southwest Chicken - with cheddar, guacamole, chipotle mayo"
             },
             {
                 "calories": 1310,
@@ -1038,7 +1827,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Southwest Chicken - with cheddar, guacamole, chipotle mayo"
             }
         ],
         "slug": "southwest-chicken"
@@ -1064,7 +1868,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Spicy Monterey -Turkey, ham, mozzarella, pickles, lettuce, tomatoes, mayo, four pepper chili sauce"
             },
             {
                 "calories": 320,
@@ -1081,7 +1900,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Spicy Monterey -Turkey, ham, mozzarella, pickles, lettuce, tomatoes, mayo, four pepper chili sauce"
             },
             {
                 "calories": 630,
@@ -1098,7 +1932,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Spicy Monterey -Turkey, ham, mozzarella, pickles, lettuce, tomatoes, mayo, four pepper chili sauce"
             },
             {
                 "calories": 950,
@@ -1115,7 +1964,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Spicy Monterey -Turkey, ham, mozzarella, pickles, lettuce, tomatoes, mayo, four pepper chili sauce"
             }
         ],
         "slug": "spicy-monterey"
@@ -1141,7 +2005,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "The Traditional \u00e2\u20ac\u201c Black angus steak, turkey, ham, cheddar, lettuce, black olives, tomatoes, onions, ranch"
             },
             {
                 "calories": 380,
@@ -1158,7 +2037,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "The Traditional \u00e2\u20ac\u201c Black angus steak, turkey, ham, cheddar, lettuce, black olives, tomatoes, onions, ranch"
             },
             {
                 "calories": 740,
@@ -1175,7 +2069,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "The Traditional \u00e2\u20ac\u201c Black angus steak, turkey, ham, cheddar, lettuce, black olives, tomatoes, onions, ranch"
             },
             {
                 "calories": 1120,
@@ -1192,7 +2101,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "The Traditional \u00e2\u20ac\u201c Black angus steak, turkey, ham, cheddar, lettuce, black olives, tomatoes, onions, ranch"
             }
         ],
         "slug": "the-traditional"
@@ -1203,23 +2127,6 @@
         "meal_name": "Tuna Melt",
         "category": "Sub Sandwiches",
         "variants": [
-            {
-                "calories": 330,
-                "total_fat": 11,
-                "saturated_fat": 4.5,
-                "trans_fat": 0.0,
-                "cholesterol": 40,
-                "sodium": 930,
-                "total_carbohydrates": 38,
-                "dietary_fiber": 2,
-                "sugar": 3,
-                "protein": 22,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "4\""
-            },
             {
                 "calories": 330,
                 "total_fat": 13,
@@ -1235,7 +2142,54 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna Melt \u00e2\u20ac\u201c Tuna salad, cheddar, pickles, tomatoes"
+            },
+            {
+                "calories": 330,
+                "total_fat": 11,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 40,
+                "sodium": 930,
+                "total_carbohydrates": 38,
+                "dietary_fiber": 2,
+                "sugar": 3,
+                "protein": 22,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna Melt \u00e2\u20ac\u201c Tuna salad, cheddar, pickles, tomatoes"
             },
             {
                 "calories": 660,
@@ -1252,7 +2206,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna Melt \u00e2\u20ac\u201c Tuna salad, cheddar, pickles, tomatoes"
             },
             {
                 "calories": 990,
@@ -1269,7 +2238,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Tuna Melt \u00e2\u20ac\u201c Tuna salad, cheddar, pickles, tomatoes"
             }
         ],
         "slug": "tuna-melt"
@@ -1295,7 +2279,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Bacon Guacamole - with mozzarella, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 450,
@@ -1312,7 +2311,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Bacon Guacamole - with mozzarella, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 890,
@@ -1329,7 +2343,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Bacon Guacamole - with mozzarella, lettuce, tomatoes, onions, ranch"
             },
             {
                 "calories": 1340,
@@ -1346,7 +2375,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Bacon Guacamole - with mozzarella, lettuce, tomatoes, onions, ranch"
             }
         ],
         "slug": "turkey-bacon-guacamole"
@@ -1372,7 +2416,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Ranch & Swiss - with lettuce, tomatoes, onions"
             },
             {
                 "calories": 360,
@@ -1389,7 +2448,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Ranch & Swiss - with lettuce, tomatoes, onions"
             },
             {
                 "calories": 700,
@@ -1406,7 +2480,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Ranch & Swiss - with lettuce, tomatoes, onions"
             },
             {
                 "calories": 1060,
@@ -1423,7 +2512,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Turkey Ranch & Swiss - with lettuce, tomatoes, onions"
             }
         ],
         "slug": "turkey-ranch-swiss"
@@ -1449,7 +2553,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ultimate Turkey Club - with bacon, cheddar, lettuce, tomatoes, mayo"
             },
             {
                 "calories": 400,
@@ -1466,7 +2585,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ultimate Turkey Club - with bacon, cheddar, lettuce, tomatoes, mayo"
             },
             {
                 "calories": 790,
@@ -1483,7 +2617,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ultimate Turkey Club - with bacon, cheddar, lettuce, tomatoes, mayo"
             },
             {
                 "calories": 1200,
@@ -1500,7 +2649,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Ultimate Turkey Club - with bacon, cheddar, lettuce, tomatoes, mayo"
             }
         ],
         "slug": "ultimate-turkey-club"
@@ -1526,7 +2690,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "4\""
+                "variant_name": "4\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Veggie Guacamole - with cheddar, mozzarella, black olives, cucumbers, mushrooms, green peppers, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 420,
@@ -1543,7 +2722,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flatbread"
+                "variant_name": "Flatbread",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Veggie Guacamole - with cheddar, mozzarella, black olives, cucumbers, mushrooms, green peppers, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 810,
@@ -1560,7 +2754,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8\""
+                "variant_name": "8\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Veggie Guacamole - with cheddar, mozzarella, black olives, cucumbers, mushrooms, green peppers, lettuce, tomatoes, onions, red wine vinaigrette"
             },
             {
                 "calories": 1240,
@@ -1577,7 +2786,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "12\""
+                "variant_name": "12\"",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Veggie Guacamole - with cheddar, mozzarella, black olives, cucumbers, mushrooms, green peppers, lettuce, tomatoes, onions, red wine vinaigrette"
             }
         ],
         "slug": "veggie-guacamole"
@@ -1603,7 +2827,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Ham, Egg & Cheddar"
+                "variant_name": "Ham, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1620,7 +2847,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Egg & Cheddar"
+                "variant_name": "Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -1637,7 +2867,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bacon, Egg & Cheddar"
+                "variant_name": "Bacon, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1654,7 +2887,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Sausage, Egg & Cheddar"
+                "variant_name": "Sausage, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 540,
@@ -1671,7 +2907,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Southwest Steak & Egg"
+                "variant_name": "Southwest Steak & Egg",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "biscuit"
@@ -1697,7 +2936,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Ham, Egg & Cheddar"
+                "variant_name": "Ham, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1714,7 +2956,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Egg & Cheddar"
+                "variant_name": "Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1731,24 +2976,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bacon, Egg & Cheddar"
-            },
-            {
-                "calories": 450,
-                "total_fat": 27,
-                "saturated_fat": 11.0,
-                "trans_fat": 0.0,
-                "cholesterol": 180,
-                "sodium": 870,
-                "total_carbohydrates": 32,
-                "dietary_fiber": 1,
-                "sugar": 4,
-                "protein": 18,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Sausage, Egg & Cheddar"
+                "variant_name": "Bacon, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1765,7 +2996,30 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Southwest Steak & Egg"
+                "variant_name": "Southwest Steak & Egg",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 450,
+                "total_fat": 27,
+                "saturated_fat": 11.0,
+                "trans_fat": 0.0,
+                "cholesterol": 180,
+                "sodium": 870,
+                "total_carbohydrates": 32,
+                "dietary_fiber": 1,
+                "sugar": 4,
+                "protein": 18,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Sausage, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "breakfast-flatbread"
@@ -1791,7 +3045,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Ham, Egg & Cheddar"
+                "variant_name": "Ham, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -1808,7 +3065,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Egg & Cheddar"
+                "variant_name": "Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -1825,7 +3085,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bacon, Egg & Cheddar"
+                "variant_name": "Bacon, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -1842,7 +3105,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Sausage, Egg & Cheddar"
+                "variant_name": "Sausage, Egg & Cheddar",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -1859,7 +3125,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Southwest Steak & Egg"
+                "variant_name": "Southwest Steak & Egg",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "breakfast-sub"
@@ -1883,7 +3152,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -1904,7 +3188,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -1925,7 +3224,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -1948,7 +3262,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Apple Harvest Chicken \u00e2\u20ac\u201c Honey-dijon chicken salad, apples, dried cranberries, cucumbers, tomatoes, pumpkin seeds, acai vinaigrette"
             },
             {
                 "calories": 540,
@@ -1965,7 +3294,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Full"
+                "variant_name": "Full",
+                "allergens_true": [
+                    "egg"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Apple Harvest Chicken \u00e2\u20ac\u201c Honey-dijon chicken salad, apples, dried cranberries, cucumbers, tomatoes, pumpkin seeds, acai vinaigrette"
             }
         ],
         "slug": "apple-harvest-chicken-salad"
@@ -1991,7 +3335,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chef Salad \u00e2\u20ac\u201c Turkey, ham, bacon, swiss, tomatoes, cucumbers, ranch dressing"
             },
             {
                 "calories": 510,
@@ -2008,7 +3367,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Full"
+                "variant_name": "Full",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Chef Salad \u00e2\u20ac\u201c Turkey, ham, bacon, swiss, tomatoes, cucumbers, ranch dressing"
             }
         ],
         "slug": "chef-salad"
@@ -2034,7 +3408,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Honey Mustard Chicken \u00e2\u20ac\u201c Chicken, bacon, cheddar, tomatoes, honey mustard"
             },
             {
                 "calories": 550,
@@ -2051,7 +3440,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Full"
+                "variant_name": "Full",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Honey Mustard Chicken \u00e2\u20ac\u201c Chicken, bacon, cheddar, tomatoes, honey mustard"
             }
         ],
         "slug": "honey-mustard-chicken-salad"
@@ -2075,7 +3479,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2096,7 +3503,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2117,7 +3527,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Birthday cake donut holes, confetti and vanilla frosting filling, cinnamon sugar."
     },
     {
         "restaurant_name": "Quiznos",
@@ -2138,7 +3551,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2159,7 +3575,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2180,7 +3611,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2201,7 +3647,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2222,7 +3683,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2243,7 +3707,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2264,7 +3731,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2285,7 +3755,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2306,7 +3779,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2327,7 +3803,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2348,7 +3827,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2369,7 +3851,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2390,7 +3875,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "MSG",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2411,7 +3911,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Quiznos",
@@ -2434,7 +3937,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 245,
@@ -2451,7 +3969,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 770,
@@ -2468,7 +4001,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bread Bowl"
+                "variant_name": "Bread Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "broccoli-cheese-soup"
@@ -2494,7 +4042,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 145,
@@ -2511,7 +4074,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -2528,7 +4106,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bread Bowl"
+                "variant_name": "Bread Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chicken-noodle-soup"
@@ -2554,7 +4147,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 315,
@@ -2571,7 +4179,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 810,
@@ -2588,7 +4211,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bread Bowl"
+                "variant_name": "Bread Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "chili"
@@ -2614,7 +4252,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 210,
@@ -2631,7 +4284,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "milk"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 690,
@@ -2648,7 +4316,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bread Bowl"
+                "variant_name": "Bread Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "MSG",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "tomato-bisque-soup"

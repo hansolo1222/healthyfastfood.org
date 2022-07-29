@@ -20,7 +20,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 820,
@@ -37,7 +40,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 930,
@@ -54,7 +60,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "avocado-club-burger"
@@ -80,7 +89,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 680,
@@ -97,7 +109,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 790,
@@ -114,7 +129,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "avocado-ranch-burger"
@@ -140,7 +158,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -157,7 +178,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 830,
@@ -174,7 +198,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bacon-cheeseburger"
@@ -198,7 +225,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -221,7 +251,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 931,
@@ -238,7 +271,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1048,
@@ -255,7 +291,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bbq-bacon-cheddar-burger"
@@ -281,7 +320,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 816,
@@ -298,7 +340,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 909,
@@ -315,7 +360,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big"
+                "variant_name": "Big",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buffalo-blue-cheese-burger"
@@ -341,7 +389,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 731,
@@ -358,7 +409,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 838,
@@ -375,7 +429,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-smashburger"
@@ -401,7 +458,15 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Single"
+                "variant_name": "Single",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": "Brioche bun<br/>Enriched Wheat Flour, Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid, Water, Butter, Sugar, Egg, Yeast, Salt, Dough Conditioner, DATEM, DATEM [DATEM], Soybean Oil, Enzymes, Ascorbic Acid [Vitamin C], L-Cysteine Hydrochloride, Wheat Gluten, Calcium Sulfate, Wheat Starch, NonFat Milk, Yellow Corn Flour, Turmeric Oleoresin, Paprika Oleoresin [For Color], Natural Flavor, Egg Yolks, Pasteurized Cream, Natural Flavorings, Lactic Acid<br/><br/>Pickles<br/>Fresh Cucumbers, Water, Salt, Vinegar, Calcium Chloride, Spices, Sodium Benzoate, Natural Flavors, Polysorbate 80, Turmeric, Color, Dehydrated Red Peppers<br/><br/>Bacon<br/>Bacon, Cured With Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite<br/><br/>Smoked Cheddar Cheese<br/>Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto, Vegetable coloring, Natural Smoke Flavor<br/><br/>BBQ Sauce<br/>Tomato puree, water, tomato paste, high fructose corn syrup, molasses, vinegar, less than 2% of: spices, natural hickory smoke flavor, natural flavors, modified food starch, salt, xanthan gum, Dried Onions, dried garlic, caramel color, turmeric, Paprika Extract<br/><br/>Beef Brisket<br/>Beef, Water, Food Starch - Modified, Seasoning, Corn Starch, Rice Starch, Salt, Sugar, Yeast Extract, Beef Stock, Beef Fat, Onion Powder, Barley Malt Extract, Dehydrated Garlic, Garlic Powder, Dextrose, Vegetable Oil, Soybean Oil, Potassium Lactate, Sodium Bicarbonate, Beet Powder, Smoke Flavoring, Sodium Nitrite, F D &C Red #3<br/><br/>Beef Hamburger Patty<br/>100% Pure Ground Beef, Seasoning Processed From: Salt, Spice, Dehydrated Garlic, Natural Flavors, Onion Powder, Yeast Extract, Disodium Inosinate, Disodium Guanylate, Ascorbic Acid, Natural Smoke Flavor, With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent, Pasteurized Cream, Natural Flavorings, Lactic Acid"
             },
             {
                 "calories": 1300,
@@ -418,7 +483,15 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Double"
+                "variant_name": "Double",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [],
+                "ingredients": "Brioche bun<br/>Enriched Wheat Flour, Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid, Water, Butter, Sugar, Egg, Yeast, Salt, Dough Conditioner, DATEM, DATEM [DATEM], Soybean Oil, Enzymes, Ascorbic Acid [Vitamin C], L-Cysteine Hydrochloride, Wheat Gluten, Calcium Sulfate, Wheat Starch, NonFat Milk, Yellow Corn Flour, Turmeric Oleoresin, Paprika Oleoresin [For Color], Natural Flavor, Egg Yolks, Pasteurized Cream, Natural Flavorings, Lactic Acid<br/><br/>Pickles<br/>Fresh Cucumbers, Water, Salt, Vinegar, Calcium Chloride, Spices, Sodium Benzoate, Natural Flavors, Polysorbate 80, Turmeric, Color, Dehydrated Red Peppers<br/><br/>Bacon<br/>Bacon, Cured With Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite<br/><br/>Smoked Cheddar Cheese<br/>Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto, Vegetable coloring, Natural Smoke Flavor<br/><br/>BBQ Sauce<br/>Tomato puree, water, tomato paste, high fructose corn syrup, molasses, vinegar, less than 2% of: spices, natural hickory smoke flavor, natural flavors, modified food starch, salt, xanthan gum, Dried Onions, dried garlic, caramel color, turmeric, Paprika Extract<br/><br/>Beef Brisket<br/>Beef, Water, Food Starch - Modified, Seasoning, Corn Starch, Rice Starch, Salt, Sugar, Yeast Extract, Beef Stock, Beef Fat, Onion Powder, Barley Malt Extract, Dehydrated Garlic, Garlic Powder, Dextrose, Vegetable Oil, Soybean Oil, Potassium Lactate, Sodium Bicarbonate, Beet Powder, Smoke Flavoring, Sodium Nitrite, F D &C Red #3<br/><br/>Beef Hamburger Patty<br/>100% Pure Ground Beef, Seasoning Processed From: Salt, Spice, Dehydrated Garlic, Natural Flavors, Onion Powder, Yeast Extract, Disodium Inosinate, Disodium Guanylate, Ascorbic Acid, Natural Smoke Flavor, With Not More Than 2% Silicon Dioxide Added As An Anti-Caking Agent, Pasteurized Cream, Natural Flavorings, Lactic Acid"
             }
         ],
         "slug": "smoked-bacon-brisket-burger"
@@ -444,7 +517,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 761,
@@ -461,7 +537,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 878,
@@ -478,7 +557,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spicy-jalapeno-baja-burger"
@@ -504,7 +586,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 622,
@@ -521,7 +606,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 735,
@@ -538,7 +626,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spinach-cucumber-goat-cheese-burger"
@@ -564,7 +655,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small Smash"
+                "variant_name": "Small Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 800,
@@ -581,7 +675,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Smash"
+                "variant_name": "Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 910,
@@ -598,7 +695,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Big Smash"
+                "variant_name": "Big Smash",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "truffle-mushroom-swiss-burger"
@@ -622,7 +722,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -643,7 +746,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -664,7 +770,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -685,7 +794,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -706,7 +818,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -727,7 +842,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -748,7 +866,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -769,7 +890,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -790,7 +914,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -811,7 +938,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -832,7 +962,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -853,7 +986,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -874,7 +1010,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -895,7 +1034,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -916,7 +1058,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -937,7 +1082,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -958,7 +1106,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -979,7 +1130,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1000,7 +1154,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1021,7 +1178,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1042,7 +1202,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1063,7 +1226,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1084,7 +1250,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1105,7 +1274,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1126,7 +1298,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1147,7 +1322,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1168,7 +1346,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1189,7 +1370,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1210,7 +1394,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1231,7 +1418,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1252,7 +1442,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1275,7 +1468,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 920,
@@ -1292,7 +1488,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bbq-bacon-cheddar-chicken-sandwich"
@@ -1318,7 +1517,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 738,
@@ -1335,7 +1537,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buffalo-blue-cheese-chicken-sandwich"
@@ -1361,7 +1566,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -1378,7 +1586,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-chicken-sandwich"
@@ -1402,7 +1613,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": "Nashville hot crispy chicken filet, spicy red pepper mayo, pickles, classic toasted bun."
     },
     {
         "restaurant_name": "Smashburger",
@@ -1425,7 +1639,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 750,
@@ -1442,7 +1659,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spicy-baja-jalapeno-chicken-sandwich"
@@ -1468,7 +1688,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 604,
@@ -1485,7 +1708,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spinach-cucumber-goat-cheese-chicken-sandwich"
@@ -1511,7 +1737,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Grilled"
+                "variant_name": "Grilled",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 780,
@@ -1528,7 +1757,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Crispy"
+                "variant_name": "Crispy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "truffle-mushroom-swiss-chicken-sandwich"
@@ -1554,7 +1786,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/o Chicken"
+                "variant_name": "w/o Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1571,7 +1806,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Grilled Chicken"
+                "variant_name": "w/ Grilled Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 499,
@@ -1588,7 +1826,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Crispy Chicken"
+                "variant_name": "w/ Crispy Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "baja-cobb-salad"
@@ -1614,7 +1855,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/o Chicken"
+                "variant_name": "w/o Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1631,7 +1875,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Grilled Chicken"
+                "variant_name": "w/ Grilled Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 641,
@@ -1648,7 +1895,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Crispy Chicken"
+                "variant_name": "w/ Crispy Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-cobb-salad"
@@ -1674,7 +1924,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/o Chicken"
+                "variant_name": "w/o Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 580,
@@ -1691,7 +1944,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Grilled Chicken"
+                "variant_name": "w/ Grilled Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 774,
@@ -1708,7 +1964,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Crispy Chicken"
+                "variant_name": "w/ Crispy Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "harvest-salad"
@@ -1734,7 +1993,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/o Chicken"
+                "variant_name": "w/o Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -1751,7 +2013,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Grilled Chicken"
+                "variant_name": "w/ Grilled Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 580,
@@ -1768,7 +2033,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "w/ Crispy Chicken"
+                "variant_name": "w/ Crispy Chicken",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spinach-cucumber-goat-cheese-salad"
@@ -1794,7 +2062,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Kids"
+                "variant_name": "Kids",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 463,
@@ -1811,7 +2082,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 606,
@@ -1828,7 +2102,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "buffalo-fries"
@@ -1854,7 +2131,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Kids"
+                "variant_name": "Kids",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -1871,7 +2151,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 594,
@@ -1888,7 +2171,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "french-fries"
@@ -1912,7 +2198,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1933,7 +2222,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1954,7 +2246,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -1977,7 +2272,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 675,
@@ -1994,7 +2292,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "smashfries"
@@ -2020,7 +2321,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -2037,7 +2341,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-potato-fries"
@@ -2061,7 +2368,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2082,7 +2392,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2103,7 +2416,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2124,7 +2440,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2145,7 +2464,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2166,7 +2488,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2187,7 +2512,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Smashburger",
@@ -2208,6 +2536,9 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

@@ -18,7 +18,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -39,7 +42,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -60,7 +66,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -81,7 +90,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -102,7 +114,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -125,7 +140,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flamin' Hot"
+                "variant_name": "Flamin' Hot",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": "Boneless Chicken Wings: Chicken Breast Meat With Rib Meat, Water, Isolated Soy Protein, Salt, And Sodium Phosphates. Battered With: Water, Wheat Flour, Yellow Corn Flour, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Soy Flour, Wheat Gluten, Spices, Dried Garlic, Dried Onion, Spice Extractives. Breaded With: Bleached Wheat Flour, Salt, Spices, Dried Garlic, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Dried Onion. Predusted With: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Bread Crumb (Enriched Bleached Wheat Flour (Enriched With Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Corn Syrup Solids, Dextrose, Dried Yeast, Soybean Oil, Salt, Mono And Diglycerides, Malted Barley Flour, Ammonium Sulfate, Leavening (Monocalcium Phosphate), Calcium Propionate, Sorbitan Monostearate), Soybean Oil, Vegetable Oil, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Flamin' Hot Wing Sauce: Corn Oil, Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Spices, Whey, Salt, Buttermilk, Monosodium Glutamate, Yeast Extract, Natural Flavor, Dextrose, Maltodextrin (Made From Corn), Garlic Powder, Onion Powder, Sodium Diacetate, Modified Corn Starch, Artificial Color (Red 40 Lake, Yellow 5 Lake, Yellow 6 Lake), Citric Acid, and Lactic Acid, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Cayenne Red Pepper, Water, Distilled Vinegar, Palm Oil, Soybean Oil, Salt, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate Added As Preservative, Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA Added To Protect Flavor, Natural And Artificial Flavor, Beta Carotene Added For Color, Red #40, Crunchy Flamin' Hot Cheetos: Enriched Corn Meal (Corn Meal, Ferrous Sulfate, Niacin, Thiamin Mononitrate, Riboflavin, Folic Acid), Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Flamin' Hot Seasoning (Maltodextrin [Made From Corn], Salt, Sugar, Monosodium Glutamate, Yeast Extract, Citric Acid, Artificial Color [Red 40 Lake, Yellow 6 Lake, Yellow 6, Yellow 5], Sunflower Oil, Cheddar Cheese [Milk, Cheese Cultures, Salt, Enzymes], Onion Powder, Whey, Whey Protein Concentrate, Garlic Powder, Natural Flavor, Buttermilk, Sodium Diacetate, Disodium Inosinate, Disodium Guanylate), And Salt, Celery Sticks: Celery"
             },
             {
                 "calories": 1150,
@@ -142,7 +172,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Original"
+                "variant_name": "Original",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": "Boneless Chicken Wings: Chicken Breast Meat With Rib Meat, Water, Isolated Soy Protein, Salt, And Sodium Phosphates. Battered With: Water, Wheat Flour, Yellow Corn Flour, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Soy Flour, Wheat Gluten, Spices, Dried Garlic, Dried Onion, Spice Extractives. Breaded With: Bleached Wheat Flour, Salt, Spices, Dried Garlic, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Dried Onion. Predusted With: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Bread Crumb (Enriched Bleached Wheat Flour (Enriched With Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Corn Syrup Solids, Dextrose, Dried Yeast, Soybean Oil, Salt, Mono And Diglycerides, Malted Barley Flour, Ammonium Sulfate, Leavening (Monocalcium Phosphate), Calcium Propionate, Sorbitan Monostearate), Soybean Oil, Vegetable Oil, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Original Cheetos Wing Sauce: Corn Oil, Whey, Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes), Salt, Butter (Cream, Salt), Monosodium Glutamate, Disodium Phosphate, Nonfat Dry Milk, Artificial Flavor, Lactic Acid, Citric Acid, Milk Protein Concentrate, Extractives Of Annatto, FD&C Yellow #5, FD&C Yellow #6, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Cayenne Red Pepper, Water, Distilled Vinegar, Palm Oil, Soybean Oil, Salt, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate Added As Preservative, Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA Added To Protect Flavor, Natural And Artificial Flavor, Beta Carotene Added For Color, Red #40, Crunchy Cheetos Chips: Enriched Corn Meal (Corn Meal, Ferrous Sulfate, Niacin, Thiamin Mononitrate, Riboflavin, Folic Acid), Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Cheese Seasoning (Whey, Cheddar Cheese [Milk, Cheese Cultures, Salt, Enzymes], Canola Oil, Maltodextrin [Made From Corn], Natural And Artificial Flavors, Salt, Whey Protein Concentrate, Monosodium Glutamate, Lactic Acid, Citric Acid, Artificial Color [Yellow 6]), And Salt, Celery Sticks: Celery"
             }
         ],
         "slug": "cheetos-boneless-wings"
@@ -168,7 +213,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Original"
+                "variant_name": "Original",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": "Cheese Bites: Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color)], Soybean Oil, Water, Bleached Wheat Flour, Wheat Flour, Contains less than 2% of Dextrose, Caramel Color, Cellulose Gum, Dextrose, Dried Yeast, Eggs, Modified Corn Starch, Modified Potato Starch, Paprika, Salt, Sodium Acid Pyrophosphate, Sodium Bicarbonate, Sugar, Turmeric (Color), Whey, Yellow Corn Flour, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Original Cheetos Wing Sauce: Corn Oil, Whey, Cheddar Cheese (Cultured Pasteurized Milk, Salt, Enzymes), Salt, Butter (Cream, Salt), Monosodium Glutamate, Disodium Phosphate, Nonfat Dry Milk, Artificial Flavor, Lactic Acid, Citric Acid, Milk Protein Concentrate, Extractives Of Annatto, FD&C Yellow #5, FD&C Yellow #6, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Cayenne Red Pepper, Water, Distilled Vinegar, Palm Oil, Soybean Oil, Salt, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate Added As Preservative, Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA Added To Protect Flavor, Natural And Artificial Flavor, Beta Carotene Added For Color, Red #40, Crunchy Cheetos Chips: Enriched Corn Meal (Corn Meal, Ferrous Sulfate, Niacin, Thiamin Mononitrate, Riboflavin, Folic Acid), Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Cheese Seasoning (Whey, Cheddar Cheese [Milk, Cheese Cultures, Salt, Enzymes], Canola Oil, Maltodextrin [Made From Corn], Natural And Artificial Flavors, Salt, Whey Protein Concentrate, Monosodium Glutamate, Lactic Acid, Citric Acid, Artificial Color [Yellow 6]), And Salt"
             },
             {
                 "calories": 1610,
@@ -185,7 +245,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Flamin' Hot"
+                "variant_name": "Flamin' Hot",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": "Cheese Bites: Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color)], Soybean Oil, Water, Bleached Wheat Flour, Wheat Flour, Contains less than 2% of Dextrose, Caramel Color, Cellulose Gum, Dextrose, Dried Yeast, Eggs, Modified Corn Starch, Modified Potato Starch, Paprika, Salt, Sodium Acid Pyrophosphate, Sodium Bicarbonate, Sugar, Turmeric (Color), Whey, Yellow Corn Flour, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Flamin' Hot Wing Sauce: Corn Oil, Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Spices, Whey, Salt, Buttermilk, Monosodium Glutamate, Yeast Extract, Natural Flavor, Dextrose, Maltodextrin (Made From Corn), Garlic Powder, Onion Powder, Sodium Diacetate, Modified Corn Starch, Artificial Color (Red 40 Lake, Yellow 5 Lake, Yellow 6 Lake), Citric Acid, and Lactic Acid, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Cayenne Red Pepper, Water, Distilled Vinegar, Palm Oil, Soybean Oil, Salt, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate Added As Preservative, Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA Added To Protect Flavor, Natural And Artificial Flavor, Beta Carotene Added For Color, Red #40, Crunchy Flamin' Hot Cheetos: Enriched Corn Meal (Corn Meal, Ferrous Sulfate, Niacin, Thiamin Mononitrate, Riboflavin, Folic Acid), Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Flamin' Hot Seasoning (Maltodextrin [Made From Corn], Salt, Sugar, Monosodium Glutamate, Yeast Extract, Citric Acid, Artificial Color [Red 40 Lake, Yellow 6 Lake, Yellow 6, Yellow 5], Sunflower Oil, Cheddar Cheese [Milk, Cheese Cultures, Salt, Enzymes], Onion Powder, Whey, Whey Protein Concentrate, Garlic Powder, Natural Flavor, Buttermilk, Sodium Diacetate, Disodium Inosinate, Disodium Guanylate), And Salt"
             }
         ],
         "slug": "cheetos-fried-cheese-bites"
@@ -209,7 +284,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -230,7 +308,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -251,7 +332,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -272,7 +356,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -293,7 +380,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -314,7 +404,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -335,7 +428,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Bone-In Chicken Wings: Chicken Wing Sections, Water, Sodium Phosphate, Salt, Coating [Corn Starch, Tapioca Starch, Dextrin, Rice Flour, Modified Food Starch, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate)], Soybean Oil, Vegetable Oil, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Celery Sticks: Celery"
     },
     {
         "restaurant_name": "Applebee's",
@@ -356,7 +462,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -379,7 +488,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Without Marinara Sauce"
+                "variant_name": "Without Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 901,
@@ -396,7 +508,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "With Marinara Sauce"
+                "variant_name": "With Marinara Sauce",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mozzarella-sticks"
@@ -420,7 +535,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Queso Dip: Milk, Water, Pasteurized Process American Cheese ([Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Water, Sodium Phosphate, Milkfat, Salt), Cheddar Cheese ([Milk, Cheese Culture, Salt, Enzymes), Water, Salt), Modified Food Starch, Natural Flavor, Modified Corn Starch, Salt, Cheddar, Romano, Parmesan Cheese Blend (Cheddar Cheese [Milk, Cheese Culture, Salt, Enzymes), Romano Cheese Made From Cow's Milk [Part Skim Milk, Cheese Culture, Salt, Enzymes], Parmesan Cheese [Part-Skim Milk, Cheese Culture, Salt, Enzymes], Water, Salt, Butter [Cream, Salt], Sodium Phosphate, Enzymes), Autolyzed Yeast Extract, Butter (Cream, Salt), Disodium Phosphate, Whey Protein Concentrate, Guar Gum, Natural Flavor, Salt, Sodium Citrate, Torula Yeast, Xanthan Gum, Yeast Extract, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro, Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (A Natural Mold Inhibitor), Poblano Peppers, Jalapeno Peppers, Onions, Contains Less Than 2% Natural Flavor *Dehydrated, White Corn Tortilla Chips: White Corn, Water, Phosphoric and Propionic Acid, Sodium Hydroxide, Food Grade Lime, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Taco Seasoned Ground Beef: Ground Beef, Yellow Onion, Tomato*, Salt, Bell Peppers*, Onion*, Natural Flavorings, Spices, Chili Pepper*, Citric Acid, Turmeric, Canola Oil, Extractive Of Paprika, Jalapeno*, Disodium Inosinate And Disodium Guanylate *Dehydrated, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Guacamole: Hass Avocado, Lime Juice Concentrate, Salt, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Cilantro *Dehydrated, Sour Cream: Cultured Cream, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Jalapenos: Jalapeno Pepper, Cilantro: Cilantro"
     },
     {
         "restaurant_name": "Applebee's",
@@ -441,7 +570,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Queso Dip: Milk, Water, Pasteurized Process American Cheese ([Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Water, Sodium Phosphate, Milkfat, Salt), Cheddar Cheese ([Milk, Cheese Culture, Salt, Enzymes), Water, Salt), Modified Food Starch, Natural Flavor, Modified Corn Starch, Salt, Cheddar, Romano, Parmesan Cheese Blend (Cheddar Cheese [Milk, Cheese Culture, Salt, Enzymes), Romano Cheese Made From Cow's Milk [Part Skim Milk, Cheese Culture, Salt, Enzymes], Parmesan Cheese [Part-Skim Milk, Cheese Culture, Salt, Enzymes], Water, Salt, Butter [Cream, Salt], Sodium Phosphate, Enzymes), Autolyzed Yeast Extract, Butter (Cream, Salt), Disodium Phosphate, Whey Protein Concentrate, Guar Gum, Natural Flavor, Salt, Sodium Citrate, Torula Yeast, Xanthan Gum, Yeast Extract, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro, Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (A Natural Mold Inhibitor), Poblano Peppers, Jalapeno Peppers, Onions, Contains Less Than 2% Natural Flavor *Dehydrated, White Corn Tortilla Chips: White Corn, Water, Phosphoric and Propionic Acid, Sodium Hydroxide, Food Grade Lime, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Chipotle Chicken: Chicken Breast With Rib Meat, Water, Seasoning (Natural Flavors, Salt, Maltodextrin, Yeast Extract, Onion Powder, Garlic Powder, Sugar, Silicon Dioxide (As An Anti-Caking Agent), Disodium Inosinate, Disodium Guanylate, Dextrose), Modified Food Starch (Tapioca), Caramelized Sugar Syrup (Sucrose, Water), Sodium Phosphates, Carrageenan, Salt, Sugar, Chili Powder (Chili Pepper, Spices, Salt), Corn Syrup Solids, Chipotle Pepper*, Onion*, Garlic*, Yeast Extract, Spices, Lime Juice Solids, Disodium Inosinate And Disodium Guanylate, Jalapeno*, Citric Acid, Parsley*, Sunflower Oil, Flavorings, And Natural Smoke Flavor. No More Than 2% Calcium Silicate Used As A Processing Aid *Dehydrated, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Guacamole: Hass Avocado, Lime Juice Concentrate, Salt, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Cilantro *Dehydrated, Sour Cream: Cultured Cream, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Jalapenos: Jalapeno Pepper, Cilantro: Cilantro"
     },
     {
         "restaurant_name": "Applebee's",
@@ -462,7 +605,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -483,7 +629,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -504,7 +653,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Queso Dip: Milk, Water, Pasteurized Process American Cheese ([Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Water, Sodium Phosphate, Milkfat, Salt), Cheddar Cheese ([Milk, Cheese Culture, Salt, Enzymes), Water, Salt), Modified Food Starch, Natural Flavor, Modified Corn Starch, Salt, Cheddar, Romano, Parmesan Cheese Blend (Cheddar Cheese [Milk, Cheese Culture, Salt, Enzymes), Romano Cheese Made From Cow's Milk [Part Skim Milk, Cheese Culture, Salt, Enzymes], Parmesan Cheese [Part-Skim Milk, Cheese Culture, Salt, Enzymes], Water, Salt, Butter [Cream, Salt], Sodium Phosphate, Enzymes), Autolyzed Yeast Extract, Butter (Cream, Salt), Disodium Phosphate, Whey Protein Concentrate, Guar Gum, Natural Flavor, Salt, Sodium Citrate, Torula Yeast, Xanthan Gum, Yeast Extract, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro, Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (A Natural Mold Inhibitor), Poblano Peppers, Jalapeno Peppers, Onions, Contains Less Than 2% Natural Flavor *Dehydrated, White Corn Tortilla Chips: White Corn, Water, Phosphoric and Propionic Acid, Sodium Hydroxide, Food Grade Lime, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda"
     },
     {
         "restaurant_name": "Applebee's",
@@ -525,7 +688,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -546,7 +712,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -567,7 +736,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -588,7 +760,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -609,7 +784,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -630,7 +808,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -651,7 +832,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -672,7 +856,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -693,7 +880,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -714,7 +904,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -735,7 +928,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -756,7 +952,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -777,7 +988,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -798,7 +1012,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -821,7 +1038,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "without Chicken"
+                "variant_name": "without Chicken",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Alfredo Sauce: Cream, Water, Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt And Enzymes}, Salted Butter (Cream, Salt), Non-Fat Milk, Seasoning (Wheat Flour, Modified Corn Starch, Salt, Nonfat Milk, Maltodextrin, Corn Syrup Solids, Palm Oil, Natural Flavor, Sugar, Sodium Citrate, Whey Protein Concentrate, Disodium Phosphate, Dried Onion, Disodium Inosinate, Disodium Guanylate, Sodium Caseinate, Mono And Diglycerides, Dipotassium Phosphate, Soy Lecithin, Spice, Yeast Extract, Garlic Powder, Onion Powder), Cheddar Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Asiago Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Natural Flavors, Garlic (Garlic, Water), Dairy Powder (Cream Solids, Natural Cream Flavor, Modified Food Starch, Xanthan Gum, Mono And Diglycerides, Sodium Phosphate), Corn Syrup, Yeast Extract, Penne Pasta: Semolina (Wheat), Niacin, Iron (Ferrous Sulfate), Thiamin Mononitrate, Riboflavin, Folic Acid. Soybean Oil, Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Water, Steamed Broccoli: Broccoli: Broccoli, Whipped Butter: Pasteurized Cream, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Grated Carrots: Carrots, Sliced Bacon: Pork, Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite, Parsley: Parsley"
             },
             {
                 "calories": 1660,
@@ -838,7 +1070,22 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "with Chicken"
+                "variant_name": "with Chicken",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "sulfites",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Alfredo Sauce: Cream, Water, Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt And Enzymes}, Salted Butter (Cream, Salt), Non-Fat Milk, Seasoning (Wheat Flour, Modified Corn Starch, Salt, Nonfat Milk, Maltodextrin, Corn Syrup Solids, Palm Oil, Natural Flavor, Sugar, Sodium Citrate, Whey Protein Concentrate, Disodium Phosphate, Dried Onion, Disodium Inosinate, Disodium Guanylate, Sodium Caseinate, Mono And Diglycerides, Dipotassium Phosphate, Soy Lecithin, Spice, Yeast Extract, Garlic Powder, Onion Powder), Cheddar Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Asiago Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Natural Flavors, Garlic (Garlic, Water), Dairy Powder (Cream Solids, Natural Cream Flavor, Modified Food Starch, Xanthan Gum, Mono And Diglycerides, Sodium Phosphate), Corn Syrup, Yeast Extract, Penne Pasta: Semolina (Wheat), Niacin, Iron (Ferrous Sulfate), Thiamin Mononitrate, Riboflavin, Folic Acid. Soybean Oil, Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Water, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Steamed Broccoli: Broccoli: Broccoli, Whipped Butter: Pasteurized Cream, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Grated Carrots: Carrots, Sliced Bacon: Pork, Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite, Parsley: Parsley, Seasoning: Salt, Spice, Garlic Powder, Sunflower Oil (Flow Agent)"
             }
         ],
         "slug": "broccoli-cheddar-mac-n-cheese-bowl"
@@ -862,7 +1109,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish"
+        ],
+        "ingredients": "Boneless Chicken Wings: Chicken Breast Meat With Rib Meat, Water, Isolated Soy Protein, Salt, And Sodium Phosphates. Battered With: Water, Wheat Flour, Yellow Corn Flour, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Soy Flour, Wheat Gluten, Spices, Dried Garlic, Dried Onion, Spice Extractives. Breaded With: Bleached Wheat Flour, Salt, Spices, Dried Garlic, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Dried Onion. Predusted With: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Bread Crumb (Enriched Bleached Wheat Flour (Enriched With Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Corn Syrup Solids, Dextrose, Dried Yeast, Soybean Oil, Salt, Mono And Diglycerides, Malted Barley Flour, Ammonium Sulfate, Leavening (Monocalcium Phosphate), Calcium Propionate, Sorbitan Monostearate), Soybean Oil, Vegetable Oil, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Cilantro Rice: Enriched Parboiled Long Grain Rice [Rice, Niacin, Iron (Ferric Orthophosphate), Thiamin (Thiamin Mononitrate), Folic Acid], Water, Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Salt, Xanthan Gum, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Stir Fried Veggies: Bell Pepper, Broccoli, Onion, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Salt, Dehydrated Garlic, Spices, Soybean Oil, Not More Than 2% Silicon Dioxide Added To Prevent Caking, Celery, Carrots, Mushrooms, Garlic, Water, Citric Acid (Preservative), Orange Sauce: Sugar, Water, High Fructose Corn Syrup, Soy Sauce (Water, Soybeans, Salt, Wheat Flour, Sodium Benzoate), Orange Juice Concentrate, Modified Corn Starch, Contains less than 2% of Citric Acid, Salt, Sodium Citrate, Onion Powder,Sesame Oil, Spices, Sesame Seeds, Garlic Powder, Chili Peppers, Xanthan Gum,Natural Orange Flavor, Caramel Color, Cochineal, Beta-Carotene, Soybean Oil,Rice Bran Oil, Canola Oil, Natural Flavors (Milk), Sodium Benzoate added as a Preservative., Almonds: Almonds, Green Onion: Green Onion, Oil: Soybean Oil, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -883,7 +1144,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Spinach Alfredo Sauce: Water, Spinach, Soybean Oil, Asiago Cheese [(Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Natamycin (A Natural Mold Inhibitor)], Artichoke Hearts (Artichoke Hearts, Water, Salt, Ascorbic Acid, Citric Acid), Seasoning [Modified Corn Starch, Dehydrated Onion, Salt, Bleached Wheat Flour, Sugar, Color Blend (Corn Starch, Polysorbate 80, Propylene Glycol, Extractives Of Turmeric And Annatto), Dehydrated Garlic, Xanthan Gum, Spices, Butter Flavor (Maltodextrin, Natural Flavor, Enzyme Modified Butterfat)], Nonfat Dry Milk, Modified Corn Starch, Modified Food Starch, Salt, Romano Cheese ([Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Natural Flavor), Sodium Polyphosphate & Sodium Phosphate, Sugar, Cream, Water, Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt And Enzymes}, Salted Butter (Cream, Salt), Non-Fat Milk, Seasoning (Wheat Flour, Modified Corn Starch, Salt, Nonfat Milk, Maltodextrin, Corn Syrup Solids, Palm Oil, Natural Flavor, Sugar, Sodium Citrate, Whey Protein Concentrate, Disodium Phosphate, Dried Onion, Disodium Inosinate, Disodium Guanylate, Sodium Caseinate, Mono And Diglycerides, Dipotassium Phosphate, Soy Lecithin, Spice, Yeast Extract, Garlic Powder, Onion Powder), Cheddar Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Asiago Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Natural Flavors, Garlic (Garlic, Water), Dairy Powder (Cream Solids, Natural Cream Flavor, Modified Food Starch, Xanthan Gum, Mono And Diglycerides, Sodium Phosphate), Corn Syrup, Yeast Extract), Milk, Penne Pasta: Semolina (Wheat), Niacin, Iron (Ferrous Sulfate), Thiamin Mononitrate, Riboflavin, Folic Acid. Soybean Oil, Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Water, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Parmesan Cheese: Milk, Cheese Cultures, Salt, Enzymes, Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (A Natural Mold Inhibitor), Parsley: Parsley, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -904,7 +1179,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Cilantro Rice: Enriched Parboiled Long Grain Rice [Rice, Niacin, Iron (Ferric Orthophosphate), Thiamin (Thiamin Mononitrate), Folic Acid], Water, Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Salt, Xanthan Gum, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Salad Mix: Romaine Lettuce, Lettuce, Spring Salad Mix, Guacamole: Hass Avocado, Lime Juice Concentrate, Salt, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Cilantro *Dehydrated, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Black Bean Corn Salsa: Supersweet Corn, Black Beans, Red Bell Pepper, Red Onion, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Chimichurri Sauce: Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Contains 2% Or Less Of Each Of The Following: Salt, Xanthan Gum, Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Lime Wedge: Lime, Chipotle Lime Seasoning: Salt, Sugar, Chili Powder (Chili Pepper, Spices, Salt), Corn Syrup Solids, Chipotle Pepper*, Onion*, Garlic*, Yeast Extract, Spices, Lime Juice Solids, Disodium Inosinate And Disodium Guanylate, Jalapeno*, Citric Acid, Parsley*, Sunflower Oil, Flavorings, And Natural Smoke Flavor, No More Than 2% Calcium Silicate Used As A Processing Aid *Dehydrated, Cilantro: Cilantro"
     },
     {
         "restaurant_name": "Applebee's",
@@ -925,7 +1213,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Cilantro Rice: Enriched Parboiled Long Grain Rice [Rice, Niacin, Iron (Ferric Orthophosphate), Thiamin (Thiamin Mononitrate), Folic Acid], Water, Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Salt, Xanthan Gum, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Grilled Fajita Steak: Beef, Water, Salt, Sodium Phosphates, Soybean Oil, Sugar, Chili Powder (Chili Pepper, Spices, Salt), Corn Syrup Solids, Chipotle Pepper*, Onion*, Garlic*, Yeast Extract, Spices, Lime Juice Solids, Disodium Inosinate And Disodium Guanylate, Jalapeno*, Citric Acid, Parsley*, Sunflower Oil, Flavorings, And Natural Smoke Flavor. No More Than 2% Calcium Silicate Used As A Processing Aid. *Dehydrated., Salad Mix: Romaine Lettuce, Lettuce, Spring Salad Mix, Guacamole: Hass Avocado, Lime Juice Concentrate, Salt, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Cilantro *Dehydrated, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Black Bean Corn Salsa: Supersweet Corn, Black Beans, Red Bell Pepper, Red Onion, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Chimichurri Sauce: Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Contains 2% Or Less Of Each Of The Following: Salt, Xanthan Gum, Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Fajita Sauce: Water, Soy Sauce (Water, Wheat, Soybeans, Salt And Sodium Benzoate (As A Preservative)), Canola Oil, Distilled White Vinegar, Worcestershire Sauce Concentrate (Distilled Vinegar, Molasses, Corn Syrup, Water, Salt, Caramel Color, Garlic Powder, Sugar, Spices, Tamarind, Natural Flavor), Salt, Spice, Dehydrated Garlic, Xanthan Gum, Disodium Inosinate, Disodium Guanylate., Lime Wedge: Lime, Cilantro: Cilantro"
     },
     {
         "restaurant_name": "Applebee's",
@@ -946,7 +1248,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "shellfish"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Cilantro Rice: Enriched Parboiled Long Grain Rice [Rice, Niacin, Iron (Ferric Orthophosphate), Thiamin (Thiamin Mononitrate), Folic Acid], Water, Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Salt, Xanthan Gum, Black Pepper, Garlic*, Soybean Oil *Dehydrated, Sauteed Shrimp: Shrimp, Water, Salt, Sodium Bicarbonate, Sodium Carbonate, Sodium Citrate, Soybean Oil, Salad Mix: Romaine Lettuce, Lettuce, Spring Salad Mix, Guacamole: Hass Avocado, Lime Juice Concentrate, Salt, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Cilantro *Dehydrated, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Black Bean Corn Salsa: Supersweet Corn, Black Beans, Red Bell Pepper, Red Onion, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Chimichurri Sauce: Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Contains 2% Or Less Of Each Of The Following: Salt, Xanthan Gum, Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Lime Wedge: Lime, Chipotle Lime Seasoning: Salt, Sugar, Chili Powder (Chili Pepper, Spices, Salt), Corn Syrup Solids, Chipotle Pepper*, Onion*, Garlic*, Yeast Extract, Spices, Lime Juice Solids, Disodium Inosinate And Disodium Guanylate, Jalapeno*, Citric Acid, Parsley*, Sunflower Oil, Flavorings, And Natural Smoke Flavor, No More Than 2% Calcium Silicate Used As A Processing Aid *Dehydrated, Cilantro: Cilantro"
     },
     {
         "restaurant_name": "Applebee's",
@@ -967,7 +1283,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -988,7 +1307,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1009,7 +1331,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1030,7 +1355,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1051,7 +1379,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1072,7 +1403,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1093,7 +1427,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1114,7 +1451,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1135,7 +1475,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1156,7 +1499,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1177,7 +1523,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1198,7 +1547,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1219,7 +1571,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1240,7 +1595,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1261,7 +1619,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1282,7 +1643,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1303,7 +1667,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1324,7 +1691,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1345,7 +1715,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1366,7 +1739,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1387,7 +1763,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1408,7 +1787,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1429,7 +1811,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1450,7 +1835,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1471,7 +1859,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1492,7 +1883,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1513,7 +1907,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1534,7 +1931,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1555,7 +1955,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1576,7 +1979,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Garlic Mashed Potatoes: Garlic Mashed Potatoes: Potatoes, Milk Blend (Milk, Canola Oil, Cream, DATEM, Water, Salt, Artificial Flavor, Vitamin A Palmitate And Vitamin D3 Added), Skim Milk, Soybean Oil, Water, Margarine (Soybean Oil, Water, Salt, Hydrogenated Cottonseed Oil, Mono And Diglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Natural And Artificial Flavor, Lactic Acid, Beta Carotene (Color), Vitamin A Palmitate), Margarine [Canola Oil, Water, Palm And Palm Kernel Oil, Salt, Whey Powder (Milk), Vegetable Monoglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Artificial Flavor, Citric Acid, Vitamin A Palmitate, Vitamin D3, Beta Carotene], Salt, Buttermilk, Whey Solids, Roasted Garlic, Natural Flavor, Monoglycerides, Potassium Sorbate, Sodium Acid Pyrophosphate, Citric Acid, Titanium Dioxide (Color), Parsley: Parsley, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Seasoned Mushrooms & Onions: Seasoned Onions: Onion, Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid *Dehydrated, Mushrooms: Mushrooms, Butter Alternative: Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Sauteed Shrimp: Shrimp, Water, Salt, Sodium Bicarbonate, Sodium Carbonate, Sodium Citrate, Soybean Oil, Buttery Garlic Blend: Liquid Margarine (Soybean Oil, Water, Vegetable Mono & Diglycerides, Salt, Natural Flavor (Milk), Vitamin A Palmitate, Vitamin D3), Garlic, Anhydrous Milkfat, Spice, Contains Less Than 2% Of Each Of The Following: Salt, Natural Flavor, Natural Extractive Of Turmeric And Annatto (Color), Blackened Seasoning: Spices, Salt, Dehydrated Onion, Dehydrated Garlic, Dextrose, Celery Seed, Soybean Oil (As A Processing Aid), Cajun Seasoning: Spices, Salt, Garlic Powder, Paprika, Onion Powder, Modified Corn Starch, Caramel Color (Class Iii), Disodium Inosinate, Disodium Guanylate, Medium Chain Triglycerides, Artificial Flavors, Natural Flavors, Less Than 2% Each Sunflower Oil And Silicon Dioxide As Processing Aids"
     },
     {
         "restaurant_name": "Applebee's",
@@ -1597,7 +2014,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1618,7 +2038,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1639,7 +2062,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1660,7 +2086,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1681,7 +2110,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1702,7 +2134,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1725,7 +2160,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Half Rack"
+                "variant_name": "Half Rack",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Baby Back Ribs: Pork Ribs, Brown Sugar, Salt, Paprika, Spice, Onion Powder, Garlic Powder, Maltodextrin, Chipotle Pepper, Canola Oil (As A Processing Aid), Natural Smoke Flavor, Not More Than 2% Silicon Dioxide Added To Prevent Caking"
             },
             {
                 "calories": 910,
@@ -1742,7 +2190,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Full Rack"
+                "variant_name": "Full Rack",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Baby Back Ribs: Pork Ribs, Brown Sugar, Salt, Paprika, Spice, Onion Powder, Garlic Powder, Maltodextrin, Chipotle Pepper, Canola Oil (As A Processing Aid), Natural Smoke Flavor, Not More Than 2% Silicon Dioxide Added To Prevent Caking"
             }
         ],
         "slug": "double-glazed-baby-back-ribs"
@@ -1766,7 +2227,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Spanish Rice: Enriched Parboiled Long Grain Rice [Rice, Niacin, Iron (Ferric Orthophosphate), Thiamin (Thiamin Mononitrate), Folic Acid], Water, Tomato*, Salt, Bell Peppers*, Onion*, Natural Flavorings, Spices, Chili Pepper*, Citric Acid, Turmeric, Canola Oil, Extractive Of Paprika, Jalapeno*, Disodium Inosinate And Disodium Guanylate *Dehydrated, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Mexi-Ranch Sauce: Cultured Buttermilk, Soybean Oil, Tomatoes, Water, Vinegars (Distilled, Corn-Cider), Tomato Paste, Onion, Salt, Egg Yolk, High Fructose Corn Syrup, Green Chili Peppers, Spices, Xanthan Gum, Potassium Sorbate And Sodium Benzoate Added As Preservatives, Jalapeno Peppers, Citric Acid, Propylene Glycol Alginate, Dehydrated Garlic, Natural Flavor, Calcium Disodium EDTA Added To Protect Flavor, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Cilantro Lime Glaze: Water, Soybean Oil, Distilled Vinegar, Lime Juice Concentrate, Garlic Including Dehydrated, Cilantro, Salt, Spice, Xanthan Gum, Dehydrated Red Bell Pepper, Oleoresin Rosemary, Citric Acid, Natural Flavor, Propylene Glycol Alginate, Disodium Guanylate, Disodium Inosinate, Cilantro, Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Lime Wedge: Lime, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -1787,7 +2262,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -1808,7 +2296,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1829,7 +2320,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1850,7 +2344,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1873,7 +2370,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "6 oz"
+                "variant_name": "6 oz",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "6 oz. Top Sirloin: Beef, Water, Seasoning (Yeast Extract, Salt, Dextrose, Hydrolyzed Yeast Protein, Potassium Chloride, Canola Oil, Fructose, Sodium Diacetate, Natural Flavors, Sunflower Oil, Disodium Inosinate, Disodium Guanylate, Soybean Oil), Sodium Phosphates, Soybean Oil, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
             },
             {
                 "calories": 270,
@@ -1890,7 +2400,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "8 oz"
+                "variant_name": "8 oz",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "8 oz. Top Sirloin: Beef, Water, Seasoning (Yeast Extract, Salt, Dextrose, Hydrolyzed Yeast Protein, Potassium Chloride, Canola Oil, Fructose, Sodium Diacetate, Natural Flavors, Sunflower Oil, Disodium Inosinate, Disodium Guanylate, Soybean Oil), Sodium Phosphates, Soybean Oil, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
             }
         ],
         "slug": "sirloin-steak"
@@ -1914,7 +2437,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1935,7 +2461,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Pork, Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite"
     },
     {
         "restaurant_name": "Applebee's",
@@ -1956,7 +2495,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Burger Patty: Ground Beef, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -1977,7 +2529,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -1998,7 +2553,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2019,7 +2577,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2040,7 +2601,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2061,7 +2625,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2082,7 +2649,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2103,7 +2673,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2124,7 +2697,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2145,7 +2721,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2166,7 +2745,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2187,7 +2769,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2208,7 +2793,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2229,7 +2817,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2250,7 +2841,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2271,7 +2865,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2292,7 +2889,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2313,7 +2913,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2334,7 +2937,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2355,7 +2961,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2376,7 +2985,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2397,7 +3009,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2418,7 +3033,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2439,7 +3057,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2460,7 +3081,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2481,7 +3105,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2502,7 +3129,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2523,7 +3153,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2544,7 +3177,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2565,7 +3201,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2586,7 +3225,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2607,7 +3249,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Iceberg Lettuce: Lettuce, Boneless Chicken Wings: Chicken Breast Meat With Rib Meat, Water, Isolated Soy Protein, Salt, And Sodium Phosphates. Battered With: Water, Wheat Flour, Yellow Corn Flour, Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate), Soy Flour, Wheat Gluten, Spices, Dried Garlic, Dried Onion, Spice Extractives. Breaded With: Bleached Wheat Flour, Salt, Spices, Dried Garlic, Leavening (Sodium Aluminum Phosphate, Sodium Bicarbonate), Dried Onion. Predusted With: Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Bread Crumb (Enriched Bleached Wheat Flour (Enriched With Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Corn Syrup Solids, Dextrose, Dried Yeast, Soybean Oil, Salt, Mono And Diglycerides, Malted Barley Flour, Ammonium Sulfate, Leavening (Monocalcium Phosphate), Calcium Propionate, Sorbitan Monostearate), Soybean Oil, Vegetable Oil, Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Bleu Cheese Dressing: Soybean Oil, Water, Blue Cheese [(Pasteurized Milk, Cheese Cultures, Salt, Enzymes) Natamycin To Protect Flavor], Cultured Buttermilk, Distilled Vinegar, Egg Yolk, Salt, Sugar, Xanthan Gum, Mustard Seed, Sodium Acid Sulfate, Mustard Flour, Molasses, Spices, Dehydrated Garlic, Potassium Sorbate And Sodium Benzoate Added As Preservatives, Corn Syrup, Caramel Color, Calcium Disodium EDTA Added To Protect Flavor, Natural Flavor, Tamarind Extract, Golden Brown Signature Breadstick: Breadstick: Flour (Wheat, Malted Barley), Water, Salt, Dextrose, Contains Less Than 2% Of Each Of The Following: Yeast, Soybean Oil, Monoglycerides, Garlic Powder, Parsley, Oregano, Basil, Ascorbic Acid, Enriched Flour, (Wheat, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Enzymes, Calcium Propionate (Preservative), Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Buttery Garlic Blend: Liquid Margarine (Soybean Oil, Water, Vegetable Mono & Diglycerides, Salt, Natural Flavor (Milk), Vitamin A Palmitate, Vitamin D3), Garlic, Anhydrous Milkfat, Spice, Contains Less Than 2% Of Each Of The Following: Salt, Natural Flavor, Natural Extractive Of Turmeric And Annatto (Color), Diced Tomatoes: Tomatoes, Classic Hot Buffalo: Cayenne Red Pepper, Aged Red Peppers, Distilled Vinegar, Water, Palm Oil, Soybean Oil, Salt, Garlic Powder, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate (Preservative), Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA (Protect Flavor), Natural and Artificial Flavor, Beta Carotene (Color), Red 40, Sliced Onions: Onion, Diced Celery: Celery"
     },
     {
         "restaurant_name": "Applebee's",
@@ -2628,7 +3284,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2649,7 +3308,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2670,7 +3332,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2691,7 +3356,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2712,7 +3380,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2733,7 +3404,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2754,7 +3428,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2775,7 +3452,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Salad Mix: Romaine Lettuce, Lettuce, Spring Salad Mix, Grilled Chicken Breast: Boneless Skinless Chicken Breast With Rib Meat, Water, Seasoning (Salt, Onion Powder, Yeast Extract, Garlic Powder, Chicken Broth, Sugar, L-Glutamic Acid, Disodium Inosinate And Disodium Guanylate, Lactic Acid, Dextrose, Citric Acid, Grill Flavor (From Sunflower Oil), Artificial Flavor, No More Than 2% Silicon Dioxide Added To Prevent Caking), Modified Food Starch, Sodium Phosphates, Soybean Oil, Pico de Gallo: Tomatoes, Onion, Jalapeno Pepper, Lime Juice, Salt, Dehydrated Garlic, Spices, Soybean Oil, Not More Than 2% Silicon Dioxide Added To Prevent Caking, Soybean Oil, Cilantro, Black Bean Corn Salsa: Sweet Corn, Cooked Black Beans, Tomato, Onion, Green Bell Pepper, Red Bell Pepper, Red Onion, Contains Less Than 2% Of Brown Sugar, Citric Acid, Dehydrated Vegetables (Onion, Bell Pepper, Garlic), Lime Juice Powder (Lime Juice Concentrate, Modified Food Starch, Maltodextrin, Citric Acid), Natural Flavor (Including Grill And Smoke), Olive Oil, Salt, Spices, Sugar, Yeast Extract, Tomatoes, Onion, Jalapeno Pepper, Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid, Lime Juice, Soybean Oil, Cilantro *Dehydrated, Cilantro Ranch Dressing: Ranch Dressing: Buttermilk (Varies by Location), Soybean Oil, White Distilled Vinegar, Corn Syrup, Water, Egg Yolks, Salt, Whole Eggs, Lemon Juice Concentrate, Egg Yolk Solids, Calcium Disodium EDTA (Added To Protect Flavor), Natural Flavors (Contains Mustard), Maltodextrin, Modified Food Starch, Garlic Powder, Onion Powder, Dehydrated Parsley, Spices, Dehydrated Chives, Disodium Inosinate, Disodium Guanylate, Guar Gum, White Distilled Vinegar Powder, Spice Extractive, Carrageenan, Corn Starch, Calcium Stearate And Silicon Dioxide (Anti-Caking Agents), Chimichurri Sauce: Soybean Oil, Cilantro, Garlic (Garlic, Water, Citric Acid), Water, Distilled Vinegar, Spices, Contains 2% Or Less Of Each Of The Following: Salt, Xanthan Gum, Grilled Tortilla: 6-inch Flour Tortilla: Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Blend Of Vegetable Oils (Soybean Oil, Palm Oil, And Hydrogenated Cottonseed Oil), Contains 2% Or Less Of: Salt, Leavening (Sodium Bicarbonate, Sodium Aluminum Sulfate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate, Corn Starch, Monocalcium Phosphate), Calcium Propionate, Potassium Sorbate, Dough Conditioners (Wheat Flour, Calcium Sulfate, Sorbic Acid, Mono- And Diglycerides, Enzymes And Sodium Metabisulfite), Fumaric Acid, Cellulose Gum, Guar Gum, Butter Alternative: Liquid And Hydrogenated Soybean Oil, Salt, Natural & Artificial Flavor, Soy Lecithin, TBHQ And Citric Acid (Preservatives), Artificial Color, Dimethylpolysiloxane (Anti-Foaming Agent), Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Chipotle Lime Seasoning: Salt, Sugar, Spices, Chili Powder (Chili Pepper, Spices, Salt), Corn Syrup Solids, Chipotle Pepper*, Onion*, Garlic*, Paprika, Corn Maltodextrin, Yeast Extract, Natural Flavors, Jalapeno Pepper, Lime Juice Solids, Disodium Inosinate, Disodium Guanylate, Citric Acid, Parsley*, Sunflower Oil, And Natural Smoke Flavor, No More Than 2% Calcium Silicate And Silicon Dioxide Used As A Processing Aid *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -2796,7 +3487,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2817,7 +3511,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2838,7 +3535,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2859,7 +3559,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2880,7 +3583,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2901,7 +3607,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2922,7 +3631,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2943,7 +3655,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2964,7 +3679,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -2985,7 +3703,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Classic Hot Buffalo: Cayenne Red Pepper, Aged Red Peppers, Distilled Vinegar, Water, Palm Oil, Soybean Oil, Salt, Garlic Powder, Xanthan Gum, Mono And Diglycerides, Dehydrated Garlic, Caramel Color, Sodium Benzoate (Preservative), Soy Lecithin, Propylene Glycol Alginate, Calcium Disodium EDTA (Protect Flavor), Natural and Artificial Flavor, Beta Carotene (Color), Red 40"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3006,7 +3738,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3027,7 +3762,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3048,7 +3786,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Ranch Dressing: Buttermilk (Varies By Location), Soybean Oil, White Distilled Vinegar, Corn Syrup, Water, Egg Yolks, Salt, Whole Eggs, Lemon Juice Concentrate, Egg Yolk Solids, Calcium Disodium EDTA (Added To Protect Flavor), Natural Flavors (Contains Mustard), Maltodextrin, Modified Food Starch, Garlic Powder, Onion Powder, Dehydrated Parsley, Spices, Dehydrated Chives, Disodium Inosinate, Disodium Guanylate, Guar Gum, White Distilled Vinegar Powder, Spice Extractive, Carrageenan, Corn Starch, Calcium Stearate And Silicon Dioxide (Anti-Caking Agents)"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3069,7 +3821,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3090,7 +3845,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3111,7 +3869,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3132,7 +3893,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3153,7 +3917,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3174,7 +3941,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Baked Potato (Plain): Potato, Soybean Oil, Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Sour Cream: Cultured Cream, Whipped Butter (Potatoes): Pasteurized Cream, Salt"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3195,7 +3976,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3216,7 +4000,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Fries without Seasoning: Potatoes, Vegetable Oil (Contains One Or More Of The Following: Canola, Palm, Soybean, Sunflower), Modified Food Starch (Potato, Corn, Tapioca), Rice Flour, Dextrin, Salt, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate), Dextrose, Xanthan Gum. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent), Fry Seasoning: Salt, Garlic*, Spices, Soybean Oil, No More Than 2% Silicon Dioxide Added As An Anti-Caking Aid *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3237,7 +4034,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Fire-Grilled Vegetables: Zucchini Squash, Straightneck Squash, Bell Pepper, Soybean Oil, Lemon Butter Sauce: Pasteurized Cream, Salt, Water, Extra Virgin Olive Oil, Soybean Oil, Lemon Juice, Distilled Vinegar, Salt, Garlic Including Dehydrated, Lemon Flavedo (Lemon Peel, Sugar, Lemon Oil), Lemon Juice Concentrate, Spice, Xanthan Gum, Potassium Sorbate And Sodium Benzoate Added As Preservatives, Propylene Glycol Alginate, Calcium Disodium EDTA Added To Protect Flavor, Garlic, Water, Citric Acid (Preservative), Parsley: Parsley, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3258,7 +4069,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3279,7 +4093,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3300,7 +4117,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Mashed Potatoes: Potatoes, Milk Blend (Milk, Canola Oil, Cream, DATEM, Water, Salt, Artificial Flavor, Vitamin A Palmitate And Vitamin D3 Added), Skim Milk, Soybean Oil, Water, Margarine (Soybean Oil, Water, Salt, Hydrogenated Cottonseed Oil, Mono And Diglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Natural And Artificial Flavor, Lactic Acid, Beta Carotene (Color), Vitamin A Palmitate), Margarine [Canola Oil, Water, Palm And Palm Kernel Oil, Salt, Whey Powder (Milk), Vegetable Monoglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Artificial Flavor, Citric Acid, Vitamin A Palmitate, Vitamin D3, Beta Carotene], Salt, Buttermilk, Whey Solids, Roasted Garlic, Natural Flavor, Monoglycerides, Potassium Sorbate, Sodium Acid Pyrophosphate, Citric Acid, Titanium Dioxide (Color), Parsley: Parsley"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3321,7 +4152,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Green Beans: Green Beans, Buttery Garlic Blend: Liquid Margarine (Soybean Oil, Water, Vegetable Mono & Diglycerides, Salt, Natural Flavor (Milk), Vitamin A Palmitate, Vitamin D3), Garlic, Anhydrous Milkfat, Spice, Contains Less Than 2% Of Each Of The Following: Salt, Natural Flavor, Natural Extractive Of Turmeric And Annatto (Color), Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3342,7 +4187,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3363,7 +4211,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3384,7 +4235,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Baked Potato (Plain): Potato, Soybean Oil, Salt, Sodium Thiosulfate, Sodium Silicoaluminate, Dextrose, Potassium Iodide, Sodium Bicarbonate, Yellow Prussiate Of Soda, Sour Cream: Cultured Cream, Whipped Butter (Potatoes): Pasteurized Cream, Salt, Sliced Bacon: Pork, Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor)"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3405,7 +4270,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Mashed Potatoes: Potatoes, Milk Blend (Milk, Canola Oil, Cream, DATEM, Water, Salt, Artificial Flavor, Vitamin A Palmitate And Vitamin D3 Added), Skim Milk, Soybean Oil, Water, Margarine (Soybean Oil, Water, Salt, Hydrogenated Cottonseed Oil, Mono And Diglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Natural And Artificial Flavor, Lactic Acid, Beta Carotene (Color), Vitamin A Palmitate), Margarine [Canola Oil, Water, Palm And Palm Kernel Oil, Salt, Whey Powder (Milk), Vegetable Monoglycerides, Soy Lecithin, Potassium Sorbate (Preservative), Artificial Flavor, Citric Acid, Vitamin A Palmitate, Vitamin D3, Beta Carotene], Salt, Buttermilk, Whey Solids, Roasted Garlic, Natural Flavor, Monoglycerides, Potassium Sorbate, Sodium Acid Pyrophosphate, Citric Acid, Titanium Dioxide (Color), Sour Cream: Cultured Cream, Sliced Bacon: Pork, Water, Salt, Sugar, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite, Shredded Cheese: Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added), Potato Starch And Powdered Cellulose Added To Prevent Caking, Natamycin (A Natural Mold Inhibitor), Parsley: Parsley"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3426,7 +4305,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3447,7 +4329,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3468,7 +4353,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3489,7 +4377,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Broccoli: Broccoli, Whipped Butter: Pasteurized Cream, Salt, Seasoning: Salt, Black Pepper, Garlic*, Soybean Oil *Dehydrated"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3510,7 +4412,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3531,7 +4436,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Chicken Tortilla Soup: Water, Chicken Meat, Diced Tomatoes (Tomatoes, Tomato Juice, Citric Acid, Calcium Chloride), Onions, Zucchini, Corn, Chicken Base (Chicken Meat Including Chicken Juices, Salt, Hydrolyzed Soy And Corn Protein, Flavoring, Potato Flour, Sugar And Turmeric), Contains 2 Percent Or Less Of: Tortilla Chips [White Corn, Vegetable Oil (Contains One Or More Of The Following: Canola, Corn, Cottonseed, Soybean, Or Sunflower Oil), Salt], Seasoning [Corn Masa (Corn Flour, Lime), Maltodextrin, Modified Corn And Tapioca Starch, Mono And Diglycerides, Spices, Vegetable Gums (Xanthan, Guar, Carob Bean), Less Than 2 Percent Soybean Oil As A Processing Aid], Roasted Diced Poblano Peppers, Green Bell Peppers, Red Bell Pepper, Chopped Garlic (Garlic And Water), Tomatillo Base (Tomatillo, Sugar, Potato Flour, Salt, Onion And Flavorings), Pork Base [Roasted Pork Including Natural Pork Juices, Autolyzed Yeast Extract, Maltodextrin (From Corn), Potato Flour, Natural Flavorings And Dry Whey], Chicken Fat, Cilantro, Jalapeno Peppers, Chipotle Base [Red Chili Peppers, Chipotle Peppers, Salt And Flavoring (Natural Liquid Smoke Flavorings)], Spice, Tortilla Strips: Ground Corn Treated With Lime, Water, Contains 2% Or Less Of The Following: Preservatives [Sodium Propionate (Propionic Acid, Sodium Hydroxide), Methylparaben And Propylparaben]. Liquid And Hydrogenated Soybean Oil, TBHQ And Citric Acid (Preservatives), Dimethylpolysiloxane (Anti-Foaming Agent)"
     },
     {
         "restaurant_name": "Applebee's",
@@ -3552,7 +4471,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3573,7 +4495,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3594,7 +4519,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3615,7 +4543,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3636,7 +4567,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3657,7 +4591,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3678,7 +4615,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3699,7 +4639,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3720,7 +4663,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3741,7 +4687,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3762,7 +4711,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Applebee's",
@@ -3783,6 +4735,9 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

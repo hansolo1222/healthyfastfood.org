@@ -18,7 +18,10 @@
         "vitamin_a": 0,
         "vitamin_c": 20,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -39,7 +42,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -60,7 +66,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -81,7 +90,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -102,7 +114,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -123,7 +138,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -144,7 +162,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -165,7 +186,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -186,7 +210,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -207,7 +234,10 @@
         "vitamin_a": 0,
         "vitamin_c": 5,
         "calcium": 6,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -228,7 +258,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -249,7 +282,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -270,7 +306,10 @@
         "vitamin_a": 10,
         "vitamin_c": 160,
         "calcium": 4,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -291,7 +330,10 @@
         "vitamin_a": 15,
         "vitamin_c": 180,
         "calcium": 15,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -312,7 +354,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -333,7 +378,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -354,7 +402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -375,7 +426,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -396,7 +450,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -417,7 +474,10 @@
         "vitamin_a": 20,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -438,7 +498,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -459,7 +522,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -480,7 +546,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 40
+        "iron": 40,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -501,7 +570,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -522,7 +594,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -543,7 +618,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -564,7 +642,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -585,7 +666,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -606,7 +690,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -629,7 +716,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 20,
-                "variant_name": "With Ham"
+                "variant_name": "With Ham",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -646,7 +736,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 20,
-                "variant_name": "With Turkey Sausage"
+                "variant_name": "With Turkey Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 710,
@@ -663,7 +756,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 20,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -680,7 +776,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 20,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "classic-breakfast-wrap"
@@ -706,7 +805,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "Without Meat"
+                "variant_name": "Without Meat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -723,7 +825,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -740,7 +845,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "With Turkey Sausage"
+                "variant_name": "With Turkey Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -757,7 +865,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "With Ham"
+                "variant_name": "With Ham",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -774,7 +885,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "egg-cheese-breakfast-bagel"
@@ -800,7 +914,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "Without Meat"
+                "variant_name": "Without Meat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -817,7 +934,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "With Ham"
+                "variant_name": "With Ham",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -834,7 +954,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -851,7 +974,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "With Turkey Sausage"
+                "variant_name": "With Turkey Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 550,
@@ -868,7 +994,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "egg-white-cheese-breakfast-bagel"
@@ -894,7 +1023,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "Without Meat"
+                "variant_name": "Without Meat",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -911,7 +1043,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "With Ham"
+                "variant_name": "With Ham",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -928,7 +1063,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -945,7 +1083,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 30,
-                "variant_name": "With Turkey Sausage"
+                "variant_name": "With Turkey Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 610,
@@ -962,7 +1103,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fresh-cracked-egg-cheese-breakfast-bagel"
@@ -988,7 +1132,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 25,
-                "variant_name": "With Ham"
+                "variant_name": "With Ham",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -1005,7 +1152,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 25,
-                "variant_name": "With Turkey Sausage"
+                "variant_name": "With Turkey Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -1022,7 +1172,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 25,
-                "variant_name": "With Sausage"
+                "variant_name": "With Sausage",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -1039,7 +1192,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 20,
-                "variant_name": "With Bacon"
+                "variant_name": "With Bacon",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "fresh-cracked-egg-classic-wrap"
@@ -1063,7 +1219,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1084,7 +1243,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1105,7 +1267,10 @@
         "vitamin_a": 8,
         "vitamin_c": 4,
         "calcium": 15,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1126,7 +1291,10 @@
         "vitamin_a": 10,
         "vitamin_c": 10,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1147,7 +1315,10 @@
         "vitamin_a": 35,
         "vitamin_c": 90,
         "calcium": 20,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1168,7 +1339,10 @@
         "vitamin_a": 35,
         "vitamin_c": 90,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1189,7 +1363,10 @@
         "vitamin_a": 20,
         "vitamin_c": 30,
         "calcium": 15,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1210,7 +1387,10 @@
         "vitamin_a": 15,
         "vitamin_c": 40,
         "calcium": 20,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1233,7 +1413,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -1250,7 +1433,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 249,
@@ -1267,7 +1453,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cafe-au-lait"
@@ -1293,7 +1482,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 226,
@@ -1310,7 +1502,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 283,
@@ -1327,7 +1522,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cafe-latte"
@@ -1353,7 +1551,10 @@
                 "vitamin_c": 0,
                 "calcium": 30,
                 "iron": 2,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 279,
@@ -1370,7 +1571,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 3,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 349,
@@ -1387,7 +1591,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 3,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cafe-mocha"
@@ -1413,7 +1620,10 @@
                 "vitamin_c": 0,
                 "calcium": 25,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 173,
@@ -1430,7 +1640,10 @@
                 "vitamin_c": 0,
                 "calcium": 33,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 216,
@@ -1447,7 +1660,10 @@
                 "vitamin_c": 0,
                 "calcium": 42,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "cappuccino"
@@ -1473,7 +1689,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "2 oz"
+                "variant_name": "2 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 8,
@@ -1490,7 +1709,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "3 oz"
+                "variant_name": "3 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 10,
@@ -1507,7 +1729,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "4 oz"
+                "variant_name": "4 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "espresso"
@@ -1533,7 +1758,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1550,7 +1778,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 6,
@@ -1567,7 +1798,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "flavored-coffee"
@@ -1593,7 +1827,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1610,7 +1847,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 6,
@@ -1627,7 +1867,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "house-blend-coffee"
@@ -1653,7 +1896,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1670,7 +1916,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 6,
@@ -1687,7 +1936,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "house-decaf-coffee"
@@ -1713,7 +1965,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -1730,7 +1985,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 6,
@@ -1747,7 +2005,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "iced-coffee"
@@ -1771,7 +2032,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1792,7 +2056,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1813,7 +2080,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1834,7 +2104,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1855,7 +2128,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1876,7 +2152,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1897,7 +2176,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1918,7 +2200,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1939,7 +2224,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1960,7 +2248,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -1981,7 +2272,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2002,7 +2296,10 @@
         "vitamin_a": 10,
         "vitamin_c": 8,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2023,7 +2320,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2044,7 +2344,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2065,7 +2368,10 @@
         "vitamin_a": 10,
         "vitamin_c": 4,
         "calcium": 6,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2086,7 +2392,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2107,7 +2416,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2128,7 +2440,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2149,7 +2464,10 @@
         "vitamin_a": 15,
         "vitamin_c": 6,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2170,7 +2488,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2191,7 +2512,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2212,7 +2536,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2233,7 +2560,10 @@
         "vitamin_a": 15,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2254,7 +2584,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2275,7 +2608,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2296,7 +2632,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2317,7 +2656,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2338,7 +2680,10 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2359,7 +2704,10 @@
         "vitamin_a": 0,
         "vitamin_c": 6,
         "calcium": 6,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2380,7 +2728,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2403,7 +2754,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -2420,7 +2774,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -2437,7 +2794,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "32 oz"
+                "variant_name": "32 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke"
@@ -2454,6 +2814,26 @@
                 "saturated_fat": 0,
                 "trans_fat": 0,
                 "cholesterol": 0,
+                "sodium": 70,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
                 "sodium": 120,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -2463,7 +2843,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "32 oz"
+                "variant_name": "32 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -2480,24 +2863,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 70,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -2521,7 +2890,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 8,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2542,7 +2914,10 @@
         "vitamin_a": 0,
         "vitamin_c": 240,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2565,7 +2940,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 oz"
+                "variant_name": "16 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -2582,7 +2960,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 oz"
+                "variant_name": "20 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -2599,7 +2980,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "32 oz"
+                "variant_name": "32 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -2623,7 +3007,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2644,7 +3031,10 @@
         "vitamin_a": 180,
         "vitamin_c": 15,
         "calcium": 25,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2665,7 +3055,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2686,7 +3079,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2707,7 +3103,10 @@
         "vitamin_a": 170,
         "vitamin_c": 20,
         "calcium": 15,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2728,7 +3127,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2749,7 +3151,10 @@
         "vitamin_a": 170,
         "vitamin_c": 10,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2770,7 +3175,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2791,7 +3199,10 @@
         "vitamin_a": 30,
         "vitamin_c": 25,
         "calcium": 8,
-        "iron": 40
+        "iron": 40,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -2814,7 +3225,10 @@
                 "vitamin_c": 15,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 610,
@@ -2831,7 +3245,10 @@
                 "vitamin_c": 30,
                 "calcium": 0,
                 "iron": 4,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "blt"
@@ -2857,7 +3274,10 @@
                 "vitamin_c": 25,
                 "calcium": 2,
                 "iron": 25,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -2874,7 +3294,10 @@
                 "vitamin_c": 30,
                 "calcium": 4,
                 "iron": 15,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "chicken-breast-sandwich"
@@ -2900,7 +3323,10 @@
                 "vitamin_c": 10,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -2917,7 +3343,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "egg-salad-sandwich"
@@ -2943,7 +3372,10 @@
                 "vitamin_c": 100,
                 "calcium": 6,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -2960,7 +3392,10 @@
                 "vitamin_c": 120,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "garden-veggie-sandwich"
@@ -2986,7 +3421,10 @@
                 "vitamin_c": 100,
                 "calcium": 5,
                 "iron": 40,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -3003,7 +3441,10 @@
                 "vitamin_c": 120,
                 "calcium": 6,
                 "iron": 30,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "garden-veggie-sandwich-with-hummus"
@@ -3029,7 +3470,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -3046,7 +3490,10 @@
                 "vitamin_c": 30,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ham-sandwich"
@@ -3070,7 +3517,10 @@
         "vitamin_a": 10,
         "vitamin_c": 25,
         "calcium": 10,
-        "iron": 45
+        "iron": 45,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3091,7 +3541,10 @@
         "vitamin_a": 35,
         "vitamin_c": 40,
         "calcium": 30,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3112,7 +3565,10 @@
         "vitamin_a": 6,
         "vitamin_c": 40,
         "calcium": 45,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3135,7 +3591,10 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -3152,7 +3611,10 @@
                 "vitamin_c": 15,
                 "calcium": 6,
                 "iron": 0,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pastrami-sandwich"
@@ -3176,7 +3638,10 @@
         "vitamin_a": 15,
         "vitamin_c": 6,
         "calcium": 8,
-        "iron": 30
+        "iron": 30,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3197,7 +3662,10 @@
         "vitamin_a": 15,
         "vitamin_c": 30,
         "calcium": 2,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3220,7 +3688,10 @@
                 "vitamin_c": 15,
                 "calcium": 2,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 650,
@@ -3237,7 +3708,10 @@
                 "vitamin_c": 30,
                 "calcium": 2,
                 "iron": 10,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tuna-salad-sandwich"
@@ -3261,7 +3735,10 @@
         "vitamin_a": 8,
         "vitamin_c": 10,
         "calcium": 4,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3282,7 +3759,10 @@
         "vitamin_a": 10,
         "vitamin_c": 30,
         "calcium": 45,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3305,7 +3785,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "On Plain Bagel"
+                "variant_name": "On Plain Bagel",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 490,
@@ -3322,7 +3805,10 @@
                 "vitamin_c": 30,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "On Wheat Bread"
+                "variant_name": "On Wheat Bread",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-sandwich"
@@ -3346,7 +3832,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3367,7 +3856,10 @@
         "vitamin_a": 20,
         "vitamin_c": 20,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3388,7 +3880,10 @@
         "vitamin_a": 60,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3409,7 +3904,10 @@
         "vitamin_a": 60,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3430,7 +3928,10 @@
         "vitamin_a": 10,
         "vitamin_c": 25,
         "calcium": 10,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3451,7 +3952,10 @@
         "vitamin_a": 110,
         "vitamin_c": 25,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3472,7 +3976,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3493,7 +4000,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3514,7 +4024,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3535,7 +4048,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3556,7 +4072,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3577,7 +4096,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 10,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3598,7 +4120,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3619,7 +4144,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3640,7 +4168,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3661,7 +4192,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3682,7 +4216,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3703,7 +4240,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3724,7 +4264,10 @@
         "vitamin_a": 0,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3745,7 +4288,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3766,7 +4312,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3787,7 +4336,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3808,7 +4360,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3829,7 +4384,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3850,7 +4408,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3871,7 +4432,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3892,7 +4456,10 @@
         "vitamin_a": 6,
         "vitamin_c": 9,
         "calcium": 1,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3913,7 +4480,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3934,7 +4504,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3955,7 +4528,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3976,7 +4552,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -3997,7 +4576,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4018,7 +4600,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4039,7 +4624,10 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4060,7 +4648,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4081,7 +4672,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4102,7 +4696,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4123,7 +4720,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4144,7 +4744,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4165,7 +4768,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4186,7 +4792,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4207,7 +4816,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4228,7 +4840,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4249,7 +4864,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4270,7 +4888,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4291,7 +4912,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4312,7 +4936,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4333,7 +4960,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4354,7 +4984,10 @@
         "vitamin_a": 2,
         "vitamin_c": 38,
         "calcium": 0,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4375,7 +5008,10 @@
         "vitamin_a": 7,
         "vitamin_c": 1,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4396,7 +5032,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4417,7 +5056,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4438,7 +5080,10 @@
         "vitamin_a": 2,
         "vitamin_c": 38,
         "calcium": 0,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Bruegger's",
@@ -4459,6 +5104,9 @@
         "vitamin_a": 6,
         "vitamin_c": 8,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

@@ -18,7 +18,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -39,7 +49,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -62,7 +82,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cheese"
+                "variant_name": "Cheese",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 309,
@@ -79,7 +109,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pepperoni"
+                "variant_name": "Pepperoni",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 319,
@@ -96,7 +136,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Seasoned Beef"
+                "variant_name": "Seasoned Beef",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 333,
@@ -113,7 +163,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Italian Sausage"
+                "variant_name": "Italian Sausage",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 379,
@@ -130,7 +190,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Stuffed Crust Pepperoni"
+                "variant_name": "Stuffed Crust Pepperoni",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "hot-n-ready-extramostbestest-pizza"
@@ -156,7 +226,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cheese"
+                "variant_name": "Cheese",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 273,
@@ -173,7 +253,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pepperoni"
+                "variant_name": "Pepperoni",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "extramostbestest-thin-crust-pizza"
@@ -197,7 +287,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -218,7 +318,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -239,7 +349,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -260,7 +380,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -281,7 +411,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -302,7 +442,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -323,7 +473,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -344,7 +497,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -365,7 +528,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -386,7 +559,16 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -407,7 +589,15 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -428,7 +618,16 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -449,7 +648,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -470,7 +679,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -491,7 +710,15 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -512,7 +739,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -533,7 +770,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -554,7 +801,16 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk"
+        ],
+        "allergens_false": [
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -575,7 +831,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -596,7 +862,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -617,7 +893,15 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -638,7 +922,15 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -659,7 +951,16 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "milk"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -680,7 +981,15 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -703,7 +1012,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cheese"
+                "variant_name": "Cheese",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 2630,
@@ -720,7 +1043,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Pepperoni"
+                "variant_name": "Pepperoni",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "batman-calzony"
@@ -744,7 +1081,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -765,7 +1116,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -786,7 +1151,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -807,7 +1182,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -828,7 +1213,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -849,7 +1244,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -870,7 +1275,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -891,7 +1306,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -912,7 +1337,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -933,7 +1368,10 @@
         "vitamin_a": 10,
         "vitamin_c": 8,
         "calcium": 25,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -954,7 +1392,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -975,7 +1423,17 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -996,7 +1454,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -1017,7 +1489,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Little Caesars",
@@ -1040,7 +1526,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "for DEEP!DEEP! Dish Pizza"
+                "variant_name": "for DEEP!DEEP! Dish Pizza",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "soy"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -1057,7 +1553,17 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Round Pizza"
+                "variant_name": "Round Pizza",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "soy"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "cheese-stuffed-crust"
@@ -1081,6 +1587,16 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "soy"
+        ],
+        "ingredients": null
     }
 ]

@@ -10,7 +10,7 @@ const NutritionFacts = ({data}) => {
     <section className="performance-facts bg-stone-50  w-full mr-5 p-6 rounded-lg text-stone-900">
       <header className="performance-facts__header m-0 pb-1">
         <h1 className="performance-facts__title text-3xl leading-none m-0 p-0 font-extrabold">Nutrition Facts</h1>
-        <p className="leading-extratight text-sm">{data.meal_name}</p>
+        <p className="leading-extratight text-sm">{data.name}</p>
       </header>
       <table className="performance-facts__table">
         <thead>
@@ -42,10 +42,10 @@ const NutritionFacts = ({data}) => {
             <tr>
               <th colSpan="2">
               <span className="font-black">Total Fat </span>
-              {data.total_fat}g
+              {data.totalFat}g
               </th>
               <td>
-              <span className="font-black">{formatAsPercent(data.total_fat/78)}</span>
+              <span className="font-black">{formatAsPercent(data.totalFat/78)}</span>
               </td>
             </tr>
             <tr>
@@ -53,10 +53,10 @@ const NutritionFacts = ({data}) => {
               </td>
               <th>
                 <span>Saturated Fat </span>
-                {data.saturated_fat}g
+                {data.saturatedFat}g
               </th>
               <td>
-                <b>{formatAsPercent(data.saturated_fat/20)}</b>
+                <b>{formatAsPercent(data.saturatedFat/20)}</b>
               </td>
             </tr>
             <tr>
@@ -64,7 +64,7 @@ const NutritionFacts = ({data}) => {
               </td>
               <th>
                 <span>Trans Fat </span>
-                {data.trans_fat}g
+                {data.transFat}g
               </th>
               <td>
               </td>
@@ -90,10 +90,10 @@ const NutritionFacts = ({data}) => {
             <tr>
               <th colSpan="2">
               <span className="font-black">Total Carbs </span>
-                {data.total_carbohydrates}g
+                {data.totalCarbohydrates}g
               </th>
               <td>
-              <span className="font-black">{formatAsPercent(data.total_carbohydrates/275)}</span>
+              <span className="font-black">{formatAsPercent(data.totalCarbohydrates/275)}</span>
               </td>
             </tr>
             <tr>
@@ -101,10 +101,10 @@ const NutritionFacts = ({data}) => {
               </td>
               <th>
                 <span>Dietary Fiber </span>
-                {data.dietary_fiber}g
+                {data.dietaryFiber}g
              </th>
               <td>
-                <b>{formatAsPercent(data.dietary_fiber/28)}</b>
+                <b>{formatAsPercent(data.dietaryFiber/28)}</b>
               </td>
             </tr>
             <tr>
@@ -133,12 +133,12 @@ const NutritionFacts = ({data}) => {
             <tr>
               <td className="w-1/3">
                 <span>Vitamin A </span>
-                {data.vitamin_a}%
+                {data.vitaminA}%
               </td>
               <td className="text-center w-1/3">•</td>
               <td className="w-1/3">
               <span>Vitamin C </span>
-                {data.vitamin_c}%
+                {data.vitaminC}%
               </td>
             </tr>
             <tr className="thin-end">

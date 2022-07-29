@@ -7,23 +7,6 @@
         "variants": [
             {
                 "calories": 230,
-                "total_fat": 7,
-                "saturated_fat": 3.0,
-                "trans_fat": 0.0,
-                "cholesterol": 20,
-                "sodium": 680,
-                "total_carbohydrates": 30,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 10,
-                "vitamin_a": 6,
-                "vitamin_c": 2,
-                "calcium": 10,
-                "iron": 8,
-                "variant_name": "Personal"
-            },
-            {
-                "calories": 230,
                 "total_fat": 8,
                 "saturated_fat": 3.0,
                 "trans_fat": 0.0,
@@ -37,7 +20,41 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough<br/><br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.<br/><br/>Contains: Wheat.<br/><br/><br/><br/>Cheese<br/><br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .<br/><br/>Contains: Milk.<br/><br/><br/><br/>Pizza Sauce<br/><br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
+            },
+            {
+                "calories": 230,
+                "total_fat": 7,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 20,
+                "sodium": 680,
+                "total_carbohydrates": 30,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 10,
+                "vitamin_a": 6,
+                "vitamin_c": 2,
+                "calcium": 10,
+                "iron": 8,
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -54,7 +71,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -71,7 +91,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -88,7 +111,10 @@
                 "vitamin_c": 2,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bbq-chicken-bacon-pizza"
@@ -105,23 +131,6 @@
                 "saturated_fat": 2.5,
                 "trans_fat": 0.0,
                 "cholesterol": 15,
-                "sodium": 44,
-                "total_carbohydrates": 25,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 7,
-                "vitamin_a": 2,
-                "vitamin_c": 4,
-                "calcium": 10,
-                "iron": 8,
-                "variant_name": "Small"
-            },
-            {
-                "calories": 180,
-                "total_fat": 6,
-                "saturated_fat": 2.5,
-                "trans_fat": 0.0,
-                "cholesterol": 15,
                 "sodium": 450,
                 "total_carbohydrates": 25,
                 "dietary_fiber": 1,
@@ -131,7 +140,52 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough\r<br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.\r<br/>Contains: Wheat.\r<br/> <br/>Cheese\r<br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .\r<br/>Contains: Milk.\r<br/> <br/>Pizza Sauce\r<br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
+            },
+            {
+                "calories": 180,
+                "total_fat": 6,
+                "saturated_fat": 2.5,
+                "trans_fat": 0.0,
+                "cholesterol": 15,
+                "sodium": 44,
+                "total_carbohydrates": 25,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 7,
+                "vitamin_a": 2,
+                "vitamin_c": 4,
+                "calcium": 10,
+                "iron": 8,
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough\r<br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.\r<br/>Contains: Wheat.\r<br/> <br/>Cheese\r<br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .\r<br/>Contains: Milk.\r<br/> <br/>Pizza Sauce\r<br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
             },
             {
                 "calories": 210,
@@ -148,7 +202,21 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough\r<br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.\r<br/>Contains: Wheat.\r<br/> <br/>Cheese\r<br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .\r<br/>Contains: Milk.\r<br/> <br/>Pizza Sauce\r<br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
             },
             {
                 "calories": 290,
@@ -165,7 +233,21 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough\r<br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.\r<br/>Contains: Wheat.\r<br/> <br/>Cheese\r<br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .\r<br/>Contains: Milk.\r<br/> <br/>Pizza Sauce\r<br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
             },
             {
                 "calories": 300,
@@ -182,7 +264,21 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "ingredients": "Fresh Dough\r<br/>Unbleached enriched wheat flour, water, sugar, soybean oil, salt, yeast, extra virgin olive oil.\r<br/>Contains: Wheat.\r<br/> <br/>Cheese\r<br/>Part skim mozzarella cheese, modified food starch, sugarcane fiber , whey protein concentrate, sodium citrate , sodium propionate .\r<br/>Contains: Milk.\r<br/> <br/>Pizza Sauce\r<br/>Fresh vine-ripened tomatoes , sunflower oil, sugar, salt, garlic, spices, extra virgin olive oil, citric acid ."
             }
         ],
         "slug": "cheese-pizza"
@@ -208,7 +304,10 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -225,7 +324,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -242,7 +344,10 @@
                 "vitamin_c": 6,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -259,7 +364,10 @@
                 "vitamin_c": 6,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "double-bacon-6-cheese-pizza"
@@ -285,7 +393,10 @@
                 "vitamin_c": 8,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 180,
@@ -302,7 +413,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -319,7 +433,10 @@
                 "vitamin_c": 10,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -336,7 +453,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -353,7 +473,10 @@
                 "vitamin_c": 20,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "garden-fresh-pizza"
@@ -379,7 +502,10 @@
                 "vitamin_c": 8,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -396,7 +522,10 @@
                 "vitamin_c": 8,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -413,7 +542,10 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -430,7 +562,10 @@
                 "vitamin_c": 10,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -447,7 +582,10 @@
                 "vitamin_c": 10,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "grilled-chicken-margherita-pizza"
@@ -473,7 +611,10 @@
                 "vitamin_c": 2,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -490,7 +631,10 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -507,7 +651,10 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -524,7 +671,10 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "hawaiian-bbq-chicken-pizza"
@@ -541,23 +691,6 @@
                 "saturated_fat": 6.0,
                 "trans_fat": 0.0,
                 "cholesterol": 25,
-                "sodium": 710,
-                "total_carbohydrates": 25,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 11,
-                "vitamin_a": 4,
-                "vitamin_c": 4,
-                "calcium": 15,
-                "iron": 10,
-                "variant_name": "Personal"
-            },
-            {
-                "calories": 270,
-                "total_fat": 14,
-                "saturated_fat": 6.0,
-                "trans_fat": 0.0,
-                "cholesterol": 25,
                 "sodium": 720,
                 "total_carbohydrates": 25,
                 "dietary_fiber": 1,
@@ -567,7 +700,30 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 270,
+                "total_fat": 14,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 25,
+                "sodium": 710,
+                "total_carbohydrates": 25,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 11,
+                "vitamin_a": 4,
+                "vitamin_c": 4,
+                "calcium": 15,
+                "iron": 10,
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -584,7 +740,10 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -601,7 +760,10 @@
                 "vitamin_c": 6,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -618,7 +780,10 @@
                 "vitamin_c": 6,
                 "calcium": 25,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "johns-favorite-pizza"
@@ -644,7 +809,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -661,7 +829,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -678,7 +849,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -695,7 +869,10 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -712,7 +889,10 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pepperoni-pizza"
@@ -723,23 +903,6 @@
         "meal_name": "Spicy Italian Pizza",
         "category": "Original Crust Pizzas",
         "variants": [
-            {
-                "calories": 240,
-                "total_fat": 11,
-                "saturated_fat": 4.5,
-                "trans_fat": 0.0,
-                "cholesterol": 20,
-                "sodium": 610,
-                "total_carbohydrates": 25,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 9,
-                "vitamin_a": 4,
-                "vitamin_c": 4,
-                "calcium": 10,
-                "iron": 10,
-                "variant_name": "Small"
-            },
             {
                 "calories": 240,
                 "total_fat": 12,
@@ -755,7 +918,30 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 240,
+                "total_fat": 11,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 20,
+                "sodium": 610,
+                "total_carbohydrates": 25,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 9,
+                "vitamin_a": 4,
+                "vitamin_c": 4,
+                "calcium": 10,
+                "iron": 10,
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -772,7 +958,10 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -789,7 +978,10 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -806,7 +998,10 @@
                 "vitamin_c": 6,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spicy-italian-pizza"
@@ -817,23 +1012,6 @@
         "meal_name": "Spinach Alfredo Pizza",
         "category": "Original Crust Pizzas",
         "variants": [
-            {
-                "calories": 190,
-                "total_fat": 7,
-                "saturated_fat": 2.5,
-                "trans_fat": 0.0,
-                "cholesterol": 15,
-                "sodium": 460,
-                "total_carbohydrates": 24,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 7,
-                "vitamin_a": 10,
-                "vitamin_c": 0,
-                "calcium": 10,
-                "iron": 8,
-                "variant_name": "Personal"
-            },
             {
                 "calories": 190,
                 "total_fat": 7,
@@ -849,7 +1027,30 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 190,
+                "total_fat": 7,
+                "saturated_fat": 2.5,
+                "trans_fat": 0.0,
+                "cholesterol": 15,
+                "sodium": 460,
+                "total_carbohydrates": 24,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 7,
+                "vitamin_a": 10,
+                "vitamin_c": 0,
+                "calcium": 10,
+                "iron": 8,
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 200,
@@ -866,7 +1067,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -883,7 +1087,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -900,7 +1107,10 @@
                 "vitamin_c": 0,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spinach-alfredo-pizza"
@@ -926,7 +1136,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -943,7 +1156,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -960,7 +1176,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -977,7 +1196,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -994,7 +1216,10 @@
                 "vitamin_c": 15,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sweet-chili-chicken-pizza"
@@ -1020,24 +1245,10 @@
                 "vitamin_c": 4,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Personal"
-            },
-            {
-                "calories": 250,
-                "total_fat": 12,
-                "saturated_fat": 4.5,
-                "trans_fat": 0.0,
-                "cholesterol": 25,
-                "sodium": 700,
-                "total_carbohydrates": 25,
-                "dietary_fiber": 1,
-                "sugar": 3,
-                "protein": 10,
-                "vitamin_a": 2,
-                "vitamin_c": 4,
-                "calcium": 10,
-                "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 250,
@@ -1054,7 +1265,30 @@
                 "vitamin_c": 4,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 250,
+                "total_fat": 12,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 25,
+                "sodium": 700,
+                "total_carbohydrates": 25,
+                "dietary_fiber": 1,
+                "sugar": 3,
+                "protein": 10,
+                "vitamin_a": 2,
+                "vitamin_c": 4,
+                "calcium": 10,
+                "iron": 10,
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -1071,7 +1305,10 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -1088,7 +1325,10 @@
                 "vitamin_c": 6,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "the-meats-pizza"
@@ -1114,7 +1354,10 @@
                 "vitamin_c": 10,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Personal"
+                "variant_name": "Personal",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 220,
@@ -1131,7 +1374,10 @@
                 "vitamin_c": 8,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 230,
@@ -1148,7 +1394,10 @@
                 "vitamin_c": 8,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -1165,7 +1414,10 @@
                 "vitamin_c": 10,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -1182,7 +1434,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Extra Large"
+                "variant_name": "Extra Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "the-works-pizza"
@@ -1206,7 +1461,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1227,7 +1485,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1248,7 +1509,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1269,7 +1533,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1290,7 +1557,10 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1311,7 +1581,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1332,7 +1605,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1353,7 +1629,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1374,7 +1653,10 @@
         "vitamin_a": 0,
         "vitamin_c": null,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1395,7 +1677,10 @@
         "vitamin_a": 4,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1416,7 +1701,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1437,7 +1725,10 @@
         "vitamin_a": 20,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1458,7 +1749,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1479,7 +1773,14 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Flatbread, BBQ sauce, cheese, grilled chicken, bacon, onions."
     },
     {
         "restaurant_name": "Papa John's",
@@ -1500,7 +1801,14 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Flatbread, alfredo sauce, cheese, Italian sausage, salami, banana peppers, pizza dipping sauce."
     },
     {
         "restaurant_name": "Papa John's",
@@ -1521,7 +1829,14 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Flatbread, pizza sauce, cheese, meatballs, pepperoni."
     },
     {
         "restaurant_name": "Papa John's",
@@ -1542,7 +1857,14 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [],
+        "ingredients": "Flatbread, Philly sauce, cheese, steak, onions, green pepper, garlic dipping sauce."
     },
     {
         "restaurant_name": "Papa John's",
@@ -1563,7 +1885,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1584,7 +1909,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1605,7 +1933,10 @@
         "vitamin_a": 10,
         "vitamin_c": 0,
         "calcium": 25,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1626,7 +1957,10 @@
         "vitamin_a": 0,
         "vitamin_c": 2,
         "calcium": 0,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1647,7 +1981,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1668,7 +2005,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1689,7 +2029,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1710,7 +2053,10 @@
         "vitamin_a": 2,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1731,7 +2077,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1752,7 +2101,10 @@
         "vitamin_a": 8,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1773,7 +2125,10 @@
         "vitamin_a": 4,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1794,7 +2149,10 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 25,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1815,7 +2173,10 @@
         "vitamin_a": 8,
         "vitamin_c": 15,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1836,7 +2197,10 @@
         "vitamin_a": 6,
         "vitamin_c": 10,
         "calcium": 25,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1857,7 +2221,10 @@
         "vitamin_a": 8,
         "vitamin_c": 4,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1878,7 +2245,10 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 25,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1899,7 +2269,10 @@
         "vitamin_a": 4,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1920,7 +2293,10 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1941,7 +2317,10 @@
         "vitamin_a": 15,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1962,7 +2341,10 @@
         "vitamin_a": 8,
         "vitamin_c": 15,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -1983,7 +2365,10 @@
         "vitamin_a": 4,
         "vitamin_c": 6,
         "calcium": 20,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -2004,7 +2389,10 @@
         "vitamin_a": 6,
         "vitamin_c": 10,
         "calcium": 20,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Papa John's",
@@ -2025,6 +2413,9 @@
         "vitamin_a": 6,
         "vitamin_c": 6,
         "calcium": 30,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

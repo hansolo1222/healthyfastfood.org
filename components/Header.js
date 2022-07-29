@@ -9,12 +9,6 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -28,16 +22,15 @@ const Header = () => {
 
  // const { data: session, status } = useSession();
 
-
   let right = null;
 
   const navigation = [
+    { name: "All Meals", href: "/restaurants" },
     { name: "All Restaurants", href: "/restaurants" },
-    // { name: "Blog", href: "/blog" },
-    // {
-    //   name: "BTC Profitability Calculator",
-    //   href: "/bitcoin-profitability-calculator",
-    // },
+    { name: "Best Regional Restaurants", href: "/restaurants" },
+    { name: "Calculators", href: "/restaurants" },
+    { name: "Foods", href: "/restaurants" },
+
   ];
 
 //   if (!session) {

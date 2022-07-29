@@ -3,39 +3,87 @@ import Image from "next/image";
 //import styles from '../styles/Home.module.css'
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-
 import { useState } from "react";
 import { useSortableData } from "../components/UseSortableData";
 import { useFilteredData } from "../components/UseFilteredData";
 const mcdonalds = require("/public/data/mcdonalds.json");
-const starbucks = require("/public/data/starbucks.json");
-const taco_bell = require("/public/data/taco-bell.json");
 
 import RestaurantCloud from "../components/RestaurantCloud";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
-export default function Home() {
-  const router = useRouter();
+export const getServerSideProps = async (context) => {
+  const restaurants = await prisma.restaurant.findMany({
+    orderBy: [
+      {
+        rank: "asc",
+      },
+    ],
+  });
 
-  let combined = [...mcdonalds];
+  const data = await prisma.restaurant.findUnique({
+    where: {
+      slug: "mcdonalds",
+    },
+    include: {
+      meals: {
+        include: {
 
-  let data = combined.map((m) => {
-    if (m.variants) {
-      // const meal_name = `${m.meal_name} `;
-      const merge = {
-        restaurant_name: m.restaurant_name,
-        restaurant_slug: m.restaurant_slug,
-        meal_name: m.meal_name,
-        category: m.category,
-        slug: m.slug,
-        ...m.variants[0],
-      };
+          category: true,
+        },
+      },
+    },
+  });
 
-      return merge;
-    } else return m;
+  const highestProtein = await prisma.meal.findMany({
+    where: {
+      restaurant: {
+       
+          rank: {
+            lt: 10
+          }
+        
+      }
+    },
+    orderBy: [
+      {
+        protein: "desc",
+      },
+    ],
+    include: {
+      restaurant: true,
+      category: true,
+      variants: true
+    },
+  });
+
+  if (!data) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      data: JSON.parse(JSON.stringify(data)),
+      restaurants: JSON.parse(JSON.stringify(restaurants)),
+      highestProtein: JSON.parse(JSON.stringify(highestProtein)),
+    },
+  };
+};
+
+export default function Home(props) {
+  let { data, restaurants, highestProtein } = props;
+  let meals = highestProtein;
+
+  let mealData = meals.map((meal) => {
+    if (meal.variants.length > 0) {
+      let fullName = `${meal.name} (${meal.variants[0].variantName})`
+      return {...meal, ...meal.variants[0], name: fullName}
+    } else return meal;
   });
 
   const [selectedMeals, setSelectedMeals] = useState(null);
+
   const [filters, setFilters] = useState([
     "Breakfast",
     "Burgers & Sandwiches",
@@ -58,7 +106,7 @@ export default function Home() {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(data);
+  } = useSortableData(mealData);
 
   const filtereditems = items.filter(
     (item) =>
@@ -92,7 +140,7 @@ export default function Home() {
         <RestaurantCloud />
 
         <h2 className="text-3xl font-bold text-center mb-8 mt-8">
-          Most popular meals
+          Highest Protein Meals
         </h2>
 
         {/* <div className="flex space-x-2 mt-4 mb-4">
@@ -216,7 +264,7 @@ export default function Home() {
                 className=" py-0.5 text-left text-sm font-semibold text-stone-900"
               >
                 <SortableTableHeader
-                  colKey="total_carbohydrates"
+                  colKey="totalCarbohydrates"
                   name="Total Carbs"
                 />
               </th>
@@ -224,7 +272,7 @@ export default function Home() {
                 scope="col"
                 className="py-0.5 text-left text-sm font-semibold text-stone-900"
               >
-                <SortableTableHeader colKey="total_fat" name="Total Fat" />
+                <SortableTableHeader colKey="totalFat" name="Total Fat" />
               </th>
               <th
                 scope="col"
@@ -251,7 +299,7 @@ export default function Home() {
           </thead>
           <tbody className="divide-y divide-stone-200 bg-white">
             {items.map((meal) => (
-              <MealRow meal={meal} key={meal.name} router={router}/>
+              <MealRow meal={meal} key={meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
             ))}
           </tbody>
         </table>
@@ -260,108 +308,110 @@ export default function Home() {
   );
 }
 
-const categoryTag = (category) => {
-  if (category == "Burgers & Sandwiches") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
-        🍔 Sandwiches
-      </span>
-    );
+export const formatCategory = (category, asElement, emojiOnly) => {
+  let text;
+  let color;
+  if (["Burgers & Sandwiches", "Burgers"].includes(category)) {
+    text = "🍔 Sandwiches";
+    color = "red";
+  } else if (["Breakfast"].includes(category)) {
+    text = "🍳 Breakfast";
+    color = "yellow";
+  } else if (["Beverages"].includes(category)) {
+    text = "🥤 Beverages";
+    color = "blue";
+  } else if (["Desserts"].includes(category)) {
+    text = "🍦 Desserts";
+    color = "pink";
+  } else if (["Salads"].includes(category)) {
+    text = "🥗 Salads";
+    color = "green";
+  } else if (["Condiments", "Sauces & Toppings", "Sauces"].includes(category)) {
+    text = "🧂 Toppings";
+    color = "stone";
+  } else if (["McCafe Coffee", "Coffee"].includes(category)) {
+    text = "☕ Coffee";
+    color = "indigo";
+  } else if (["Sides", "Snacks & Sides"].includes(category)) {
+    text = "🍟 Sides";
+    color = "orange";
+  } else if (["Chicken Nuggets", "Chicken Nuggets & Strips"].includes(category)) {
+    text = "🐔 Chicken Nuggets";
+    color = "orange";
+  } else if (["Chicken & Fish", "Classic Chicken"].includes(category)) {
+    text = "🐔 Chicken";
+    color = "rose";
+  } else if (["Hacks", "Menu Hacks"].includes(category)) {
+    text = "🎁 Hacks";
+    color = "purple";
+  } else if (["Cool Wraps"].includes(category)) {
+    text = "🌯 Wraps";
+    color = "purple";
   }
-  if (category == "Breakfast") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
-        🍳 Breakfast
-      </span>
-    );
+    else if (["Happy Meals", "Kid's Meal"].includes(category)) {
+      text = "🧒 Kids Meals";
+      color = "purple";
+    
+  } else {
+    text = category;
+    color = "teal";
   }
-  if (category == "Beverages") {
+  if (asElement) {
     return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-        🥤 Beverages
+      <span
+        className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-${color}-100 text-stone-800`}
+      >
+        {text}
       </span>
     );
-  }
-  if (category == "Desserts") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-        🍦 Desserts
-      </span>
-    );
-  }
-  if (category == "Salads") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-        🥗 Salads
-      </span>
-    );
-  }
-  if (category == "Condiments") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-pink-100 text-pink-800">
-        🧂 Condiments
-      </span>
-    );
-  }
-  if (category.includes("Coffee")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-        ☕ Coffee
-      </span>
-    );
-  }
-  if (category.includes("Sides")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
-        🍟 Sides
-      </span>
-    );
-  }
-  if (category.includes("Chicken Nuggets")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
-        🐔 Chicken Nuggets
-      </span>
-    );
-  }
-  if (category.includes("Hacks")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-stone-100 text-stone-800">
-        🎁 Limited Edition
-      </span>
-    );
+  } else {
+    if (emojiOnly) {
+      return text.substring(0, 2);
+    } else {
+      return text;
+    }
   }
 };
 
-
-export const MealRow = ({ meal, router }) => {
-
+export const MealRow = ({
+  restaurantName,
+  restaurantSlug,
+  showRestaurantData,
+  meal,
+}) => {
   return (
-
-    <tr className="mealRow cursor-pointer hover:bg-stone-50" onClick={()=>router.push(`/${meal.restaurant_slug}/${meal.slug}`)}>
+    <tr className="mealRow cursor-pointer hover:bg-stone-50">
       <td className=" py-1.5 text-md text-stone-900">
         <div className="flex items-center">
-          <a href={`/${meal.restaurant_slug}`} className="flex items-center">
-            <Image
-              className=" flex-shrink-0 rounded-full mr-2"
-              src={`/images/restaurant_logos/${meal.restaurant_slug}.webp`}
-              alt={`${meal.restaurant_name} Logo`}
-              width="24"
-              height="24"
-            />
+          <a href={`/${restaurantSlug}`} className="flex items-center">
+            {showRestaurantData ? (
+              <div className="relative w-6 h-6">
+                <Image
+                  className=" flex-shrink-0 rounded-md mr-2"
+                  src={`/images/logosSmall/${restaurantSlug}.webp`}
+                  alt={`${restaurantName} Logo`}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            ) : (
+              <div className="text-2xl">{formatCategory(meal.category.name, false, true)}</div>
+            )}
           </a>
 
           <a
-            href={`/${meal.restaurant_slug}/${meal.slug}`}
+            href={`/${restaurantSlug}/${meal.slug}`}
             className="hover:text-red-500 ml-3"
           >
-            <div className="text-xs text-stone-500">{meal.restaurant_name}</div>{" "}
-            <span className="">{meal.meal_name}</span>
+            {showRestaurantData && (
+              <div className="text-xs text-stone-500">{restaurantName}</div>
+            )}
+            <span className="">{meal.name}</span>
           </a>
         </div>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {categoryTag(meal.category)}
+        {formatCategory(meal.category.name, true, false)}
       </td>
       <td className=" py-1 text-md text-stone-900 text-center">
         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
@@ -370,11 +420,11 @@ export const MealRow = ({ meal, router }) => {
         {meal.protein} <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {meal.total_carbohydrates}{" "}
+        {meal.totalCarbohydrates}{" "}
         <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {meal.total_fat} <span className="text-stone-500 text-sm">g</span>
+        {meal.totalFat} <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
         {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>

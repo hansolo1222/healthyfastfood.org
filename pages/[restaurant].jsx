@@ -9,31 +9,47 @@ import { useFilteredData } from "../components/UseFilteredData";
 //let glob = require( 'glob' ), path = require( 'path' );
 //import recursiveReaddirFiles from 'recursive-readdir-files';
 import Link from "next/link";
-import { MealRow } from ".";
-import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
+import { MealRow, formatCategory } from ".";
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
+import prisma from "../lib/prisma"
+import { NextSeo } from "next-seo";
 
-export const getStaticProps = async (context) => {
-  // temporary restaurant list
-  //const restaurants = ["mcdonalds", "starbucks", "taco-bell"];
+export const getServerSideProps = async (context) => {
+  const restaurants = await prisma.restaurant.findMany({
+    orderBy: [
+      {
+        rank: 'asc',
+      },
+    ]
+  })  
+  const data = await prisma.restaurant.findUnique({
+    where: {
+      slug: String(context.params?.restaurant),
+    },
+    include: {
+      meals: {
+        include: {
+          category: true,
+          variants: true
+        }
+      }
+    }
+  })
 
-  const slug = context.params?.restaurant;
-  const available_restaurants = restaurants.map((r)=>r.slug)
-  if (!available_restaurants.includes(slug)) {
+  if (!data) {
     return {
       notFound: true,
     };
   }
 
-  const data = require("../public/data/" + slug + ".json");
-
   return {
     props: {
-      meals: data,
-    },
-  };
-};
+      data: JSON.parse(JSON.stringify(data)),
+      restaurants: JSON.parse(JSON.stringify(restaurants)),
+    }
+  }
+}
 
 const formatCategoryName = (category) => {
   if (category == "Burgers & Sandwiches" || category == "Sandwiches & Burgers") {
@@ -83,67 +99,31 @@ const formatCategoryName = (category) => {
   }
 }
 
-export const getStaticPaths = async () => {
-  return {
-    paths: [], //indicates that no page needs be created at build time
-    fallback: "blocking", //indicates the type of fallback
-  };
-};
-
 export default function Restaurant(props) {
-  // glob.sync( '/data/**/*.js' ).forEach( function( file ) {
-  //   require( path.resolve( file ) );
-  // });
-
 
   const router = useRouter();
 
-  const { meals } = props;
+  const { data, restaurants } = props;
 
-  let categories = [...new Set(meals.map((item)=>(item.category)) )];
+  let meals = data.meals
+  let categories = [...new Set(meals.map((item)=>(item.category.name)) )];
+
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
-    { name: meals[0].restaurant_name, href: `/${meals[0].restaurant_slug}`},
+    { name: data.name, href: `/${data.slug}`},
   ]
 
-  const sort_by = (field, reverse, primer) => {
+  console.log(meals)
 
-    const key = primer ?
-      function(x) {
-        return primer(x[field])
-      } :
-      function(x) {
-        return x[field]
-      };
-  
-    reverse = !reverse ? 1 : -1;
-  
-    return function(a, b) {
-      return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
-    }
-  }
-  
-console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, b) {
-  return parseInt(b.rank) - parseInt(a.rank);
-}))
-
- //console.log(sort_by(restaurants.default, true, false))
-
-  let data = meals.map((m) => {
-    if (m.variants) {
-      const meal_name = `${m.meal_name} `;
-      const merge = {
-        restaurant_name: m.restaurant_name,
-        restaurant_slug: m.restaurant_slug,
-        meal_name: m.meal_name,
-        slug: m.slug,
-        category: m.category,
-        ...m.variants[0],
-      };
-
-      return merge;
-    } else return m;
+ // format meals with variants
+  let mealData = meals.map((meal) => {
+    if (meal.variants.length > 0) {
+      let fullName = `${meal.name} (${meal.variants[0].variantName})`
+      return {...meal, ...meal.variants[0], name: fullName}
+    } else return meal;
   });
+
+  console.log(mealData)
 
   const [selectedMeals, setSelectedMeals] = useState(null);
   const [filters, setFilters] = useState(categories);
@@ -162,32 +142,58 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(data);
+  } = useSortableData(mealData);
 
   const filtereditems = items.filter(
     (item) => {
-      
-      // console.log(categories.map((c)=> 
-      //   {return (filters.includes(c) && item.category === c)}
-      // ).includes(true))
+
       return categories.map((c)=> 
-        {return (filters.includes(c) && item.category === c)}
+        {return (filters.includes(c) && item.category.name === c)}
       ).includes(true)
 
-      // (filters.includes("Beverages") && item.category === "Beverages") ||
-      // (filters.includes("Burgers & Sandwiches") &&
-      //   item.category === "Burgers & Sandwiches") ||
-      // (filters.includes("Breakfast") && item.category === "Breakfast") ||
-      // (filters.includes("Salads") && item.category === "Salads") ||
-      // (filters.includes("Salads") && item.category === "Condiments")
+      // (filters.includes("Salads") && item.category === "Salads") || ... <-- They look like this
     }
   );
 
 
   return (
     <div className="">
+    <NextSeo
+        title={`${data.name} Nutrition Facts and Calories | Healthy Fast Food`}
+        description={`Discover nutrition facts, macros, and the healthiest items at ${data.name}`}
+        canonical={`https://healthyfastfood.org/${data.slug}`}
+        additionalMetaTags={[
+          {
+            property: "keywords",
+            content:
+              `${data.slug},nutrition,facts,`,
+          },
+        ]}
+        openGraph={{
+          url: "https://healthyfastfood.org/" + data.slug,
+          type: "website",
+          title:
+            data.name +
+            " Menu Nutrition Facts and Calories | Healthy Fast Food",
+          description:
+            "Discover nutrition facts, macros, and the healthiest items at " + data.name,
+          images: [
+            {
+              url: `/images/restaurant_logos/${data.slug}.webp`,
+              width: 400,
+              height: 400,
+              alt: data.name + " Logo",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@healthyfastfood",
+          site: "https://healthyfastfood.org",
+          cardType: "summary_large_image",
+        }}
+      />
       <Head>
-        <title>{meals[0].restaurant_name} Nutrition | Healthy Fast Food</title>
+        <title>{data.name} Nutrition | Healthy Fast Food</title>
         <meta
           name="description"
           content=""
@@ -203,16 +209,22 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
               <div className="mt-8">
                 <h4 className="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Popular Restaurants</h4>
                <ol>
-               {restaurants.default
-               .filter((item)=>"rank" in item)
-               .sort(function(a, b) {
-                  return parseInt(a.rank) - parseInt(b.rank);
-                }).map((e)=>(
-                <li key={e.slug} className="list-decimal">
-                  <a href={`/${e.slug}`} className="cursor-pointer block border-l pl-4 -ml-px border-transparent hover:border-slate-400  text-slate-600 hover:text-slate-900 ">
-                  {e.restaurant_name}
-                  </a>
+               {restaurants.slice(0,30)
+               .map((restaurant)=>(
+                <a href={`/${restaurant.slug}`} className="cursor-pointer" key={restaurant.slug}>
+                <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500">
+                <div className="relative w-5 h-5">
+                            <Image
+                              className=" flex-shrink-0 rounded-md mr-1"
+                              src={`/images/logosSmall/${restaurant.slug}.webp`}
+                              alt={`${restaurant.name} Logo`}
+                              layout="fill"
+                              objectFit="contain"
+                            />
+                          </div>
+                  <div className="pl-2">{restaurant.name}</div>
                 </li>
+                </a>
                 ))} 
                 </ol>
               </div>
@@ -221,12 +233,24 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
           <main className="">
             <div className="mt-8">
               <Breadcrumbs pages={pages}/>
-              <h1 className="text-3xl font-bold mt-4">
-                {meals[0].restaurant_name} Nutrition Facts and Rankings
+              <div className="flex items-center mt-4">
+                <div className="relative w-10 h-10 mr-4">
+                <Image
+                  className=" flex-shrink-0 rounded-md mr-2"
+                  src={`/images/logosSmall/${data.slug}.webp`}
+                  alt={`${data.name} Logo`}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+              <h1 className="text-3xl font-bold">
+                {data.name} Menu Nutrition Facts & Calories
               </h1>
+            </div>
+              
               <p className="text-stone-500 mt-2">
-                Discover and choose the healthiest items from{" "}
-                {meals[0].restaurant_name}. Click on meal items for more
+                Nutrition information for all menu tems from{" "}
+                {data.name}. Discover which meals are healthiest. Click on meal items for more
                 details.
               </p>
               <div className="inline-block">
@@ -244,7 +268,7 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
                       htmlFor={category}
                       className="cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-1 rounded-md text-sm font-medium "
                     >
-                      {formatCategoryName(category)}
+                      {formatCategory(category, false)} 
                     </label></div>
                   })}
                   </div>
@@ -264,12 +288,12 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
                         className="py-3.5 text-sm font-semibold text-greeny-600 text-left"
                       >
                         <div className="flex items-center">
-                          <div className="ml-8">
+                          {/* <div className="ml-8">
                             <SortableTableHeader
                               colKey="restaurant"
                               name="Restaurant"
                             />
-                          </div>
+                          </div> */}
                           <div className="ml-2">
                             <SortableTableHeader
                               colKey="meal_name"
@@ -348,7 +372,7 @@ console.log(restaurants.default.filter((item)=>"rank" in item).sort(function(a, 
                   </thead>
                   <tbody className="divide-y divide-stone-200 bg-white">
                     {filtereditems.map((meal) => (
-                      <MealRow meal={meal} key={meal.meal_name} />
+                      <MealRow restaurantName={data.name} restaurantSlug={data.slug} showRestaurantData={false} meal={meal} key={meal.mealName} />
                     ))}
                   </tbody>
                 </table>

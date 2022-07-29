@@ -18,7 +18,10 @@
         "vitamin_a": 11,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 16
+        "iron": 16,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -39,7 +42,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -60,7 +66,10 @@
         "vitamin_a": 2,
         "vitamin_c": 1,
         "calcium": 2,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -83,7 +92,10 @@
                 "vitamin_c": 0,
                 "calcium": 3,
                 "iron": 3,
-                "variant_name": "Single Bone"
+                "variant_name": "Single Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 990,
@@ -100,7 +112,10 @@
                 "vitamin_c": 0,
                 "calcium": 15,
                 "iron": 17,
-                "variant_name": "5 Bone"
+                "variant_name": "5 Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1979,
@@ -117,7 +132,10 @@
                 "vitamin_c": 0,
                 "calcium": 31,
                 "iron": 34,
-                "variant_name": "10 Bone"
+                "variant_name": "10 Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "bay-b-back-ribs"
@@ -143,7 +161,10 @@
                 "vitamin_c": 1,
                 "calcium": 5,
                 "iron": 36,
-                "variant_name": "Lean"
+                "variant_name": "Lean",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 595,
@@ -160,7 +181,10 @@
                 "vitamin_c": 1,
                 "calcium": 2,
                 "iron": 22,
-                "variant_name": "Moist"
+                "variant_name": "Moist",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "brisket"
@@ -184,7 +208,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 12,
-        "iron": 47
+        "iron": 47,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -207,7 +234,10 @@
                 "vitamin_c": 1,
                 "calcium": 11,
                 "iron": 35,
-                "variant_name": "Lean"
+                "variant_name": "Lean",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 566,
@@ -224,7 +254,10 @@
                 "vitamin_c": 1,
                 "calcium": 9,
                 "iron": 25,
-                "variant_name": "Moist"
+                "variant_name": "Moist",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "brisket-sandwich"
@@ -250,7 +283,10 @@
                 "vitamin_c": 1,
                 "calcium": 1,
                 "iron": 9,
-                "variant_name": "Lean"
+                "variant_name": "Lean",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 229,
@@ -267,7 +303,10 @@
                 "vitamin_c": 1,
                 "calcium": 1,
                 "iron": 6,
-                "variant_name": "Moist"
+                "variant_name": "Moist",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "brisket-slider"
@@ -291,7 +330,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -312,7 +354,10 @@
         "vitamin_a": 3,
         "vitamin_c": 5,
         "calcium": 16,
-        "iron": 35
+        "iron": 35,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -333,7 +378,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 17
+        "iron": 17,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -354,7 +402,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 22,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -375,7 +426,10 @@
         "vitamin_a": 13,
         "vitamin_c": 1,
         "calcium": 3,
-        "iron": 16
+        "iron": 16,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -396,7 +450,10 @@
         "vitamin_a": 10,
         "vitamin_c": 1,
         "calcium": 10,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -417,7 +474,10 @@
         "vitamin_a": 3,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -438,7 +498,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -459,7 +522,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 12,
-        "iron": 25
+        "iron": 25,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -480,7 +546,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -501,7 +570,10 @@
         "vitamin_a": 5,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -524,7 +596,10 @@
                 "vitamin_c": 1,
                 "calcium": 1,
                 "iron": 4,
-                "variant_name": "Single Bone"
+                "variant_name": "Single Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 822,
@@ -541,7 +616,10 @@
                 "vitamin_c": 1,
                 "calcium": 5,
                 "iron": 17,
-                "variant_name": "5 Bone"
+                "variant_name": "5 Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 1643,
@@ -558,7 +636,10 @@
                 "vitamin_c": 1,
                 "calcium": 10,
                 "iron": 35,
-                "variant_name": "10 Bone"
+                "variant_name": "10 Bone",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "spare-ribs"
@@ -582,7 +663,10 @@
         "vitamin_a": 3,
         "vitamin_c": 1,
         "calcium": 4,
-        "iron": 14
+        "iron": 14,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -603,7 +687,10 @@
         "vitamin_a": 2,
         "vitamin_c": 1,
         "calcium": 10,
-        "iron": 18
+        "iron": 18,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -624,7 +711,10 @@
         "vitamin_a": 4,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -645,7 +735,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -666,7 +759,10 @@
         "vitamin_a": 3,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -687,7 +783,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -708,7 +807,10 @@
         "vitamin_a": 19,
         "vitamin_c": 10,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -729,7 +831,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -750,7 +855,10 @@
         "vitamin_a": 3,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -771,7 +879,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -792,7 +903,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -813,7 +927,10 @@
         "vitamin_a": 1,
         "vitamin_c": 1,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -834,7 +951,10 @@
         "vitamin_a": 1,
         "vitamin_c": 2,
         "calcium": 1,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -855,7 +975,10 @@
         "vitamin_a": 4,
         "vitamin_c": 3,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -876,7 +999,10 @@
         "vitamin_a": 2,
         "vitamin_c": 7,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -897,7 +1023,10 @@
         "vitamin_a": 8,
         "vitamin_c": 5,
         "calcium": 7,
-        "iron": 13
+        "iron": 13,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -918,7 +1047,10 @@
         "vitamin_a": 33,
         "vitamin_c": 49,
         "calcium": 5,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -939,7 +1071,10 @@
         "vitamin_a": 36,
         "vitamin_c": 1,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -960,7 +1095,10 @@
         "vitamin_a": 1,
         "vitamin_c": 71,
         "calcium": 3,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -981,7 +1119,10 @@
         "vitamin_a": 10,
         "vitamin_c": 8,
         "calcium": 4,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1002,7 +1143,10 @@
         "vitamin_a": 16,
         "vitamin_c": 3,
         "calcium": 41,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1025,7 +1169,10 @@
                 "vitamin_c": 11,
                 "calcium": 1,
                 "iron": 2,
-                "variant_name": "Side"
+                "variant_name": "Side",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 34,
@@ -1042,7 +1189,10 @@
                 "vitamin_c": 23,
                 "calcium": 4,
                 "iron": 5,
-                "variant_name": "Entree"
+                "variant_name": "Entree",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "salad"
@@ -1066,7 +1216,10 @@
         "vitamin_a": 69,
         "vitamin_c": 1,
         "calcium": 22,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1087,7 +1240,10 @@
         "vitamin_a": 611,
         "vitamin_c": 6,
         "calcium": 6,
-        "iron": 7
+        "iron": 7,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1108,7 +1264,10 @@
         "vitamin_a": 7,
         "vitamin_c": 1,
         "calcium": 7,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1129,7 +1288,10 @@
         "vitamin_a": 10,
         "vitamin_c": 2,
         "calcium": 5,
-        "iron": 5
+        "iron": 5,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1150,7 +1312,10 @@
         "vitamin_a": 51,
         "vitamin_c": 37,
         "calcium": 14,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1171,7 +1336,10 @@
         "vitamin_a": 40,
         "vitamin_c": 1,
         "calcium": 2,
-        "iron": 7
+        "iron": 7,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1192,7 +1360,10 @@
         "vitamin_a": 96,
         "vitamin_c": 1,
         "calcium": 11,
-        "iron": 7
+        "iron": 7,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1213,7 +1384,10 @@
         "vitamin_a": 538,
         "vitamin_c": 2,
         "calcium": 2,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1234,7 +1408,10 @@
         "vitamin_a": 95,
         "vitamin_c": 1,
         "calcium": 7,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1255,7 +1432,10 @@
         "vitamin_a": 33,
         "vitamin_c": 1,
         "calcium": 14,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1276,7 +1456,10 @@
         "vitamin_a": 54,
         "vitamin_c": 7,
         "calcium": 14,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1297,7 +1480,10 @@
         "vitamin_a": 81,
         "vitamin_c": 23,
         "calcium": 9,
-        "iron": 26
+        "iron": 26,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1318,7 +1504,10 @@
         "vitamin_a": 2555,
         "vitamin_c": 21,
         "calcium": 5,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1339,7 +1528,10 @@
         "vitamin_a": 57,
         "vitamin_c": 3,
         "calcium": 4,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1360,7 +1552,10 @@
         "vitamin_a": 386,
         "vitamin_c": 36,
         "calcium": 22,
-        "iron": 7
+        "iron": 7,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1381,7 +1576,10 @@
         "vitamin_a": 17,
         "vitamin_c": 9,
         "calcium": 6,
-        "iron": 19
+        "iron": 19,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1402,7 +1600,10 @@
         "vitamin_a": 71,
         "vitamin_c": 1,
         "calcium": 13,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1423,7 +1624,10 @@
         "vitamin_a": 68,
         "vitamin_c": 3,
         "calcium": 2,
-        "iron": 9
+        "iron": 9,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1444,7 +1648,10 @@
         "vitamin_a": 167,
         "vitamin_c": 1,
         "calcium": 3,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1465,7 +1672,10 @@
         "vitamin_a": 24,
         "vitamin_c": 23,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1486,7 +1696,10 @@
         "vitamin_a": 31,
         "vitamin_c": 1,
         "calcium": 2,
-        "iron": 24
+        "iron": 24,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1507,7 +1720,10 @@
         "vitamin_a": 84,
         "vitamin_c": 7,
         "calcium": 7,
-        "iron": 41
+        "iron": 41,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1528,7 +1744,10 @@
         "vitamin_a": 1,
         "vitamin_c": 0,
         "calcium": 3,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1549,7 +1768,10 @@
         "vitamin_a": 40,
         "vitamin_c": 0,
         "calcium": 16,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1570,7 +1792,10 @@
         "vitamin_a": 25,
         "vitamin_c": 21,
         "calcium": 3,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1591,7 +1816,10 @@
         "vitamin_a": 18,
         "vitamin_c": 67,
         "calcium": 2,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1612,7 +1840,10 @@
         "vitamin_a": 23,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 24
+        "iron": 24,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Mission BBQ",
@@ -1633,6 +1864,9 @@
         "vitamin_a": 19,
         "vitamin_c": 21,
         "calcium": 1,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

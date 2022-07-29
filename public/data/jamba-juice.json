@@ -18,7 +18,10 @@
         "vitamin_a": 6,
         "vitamin_c": 80,
         "calcium": 40,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -41,7 +44,20 @@
                 "vitamin_c": 4,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water, Ice, Matcha Green Tea (100% Tencha Green Tea), Organic Agave"
             },
             {
                 "calories": 70,
@@ -58,7 +74,20 @@
                 "vitamin_c": 6,
                 "calcium": 6,
                 "iron": 15,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Water, Ice, Matcha Green Tea (100% Tencha Green Tea), Organic Agave"
             }
         ],
         "slug": "gotcha-matcha"
@@ -82,7 +111,10 @@
         "vitamin_a": 8,
         "vitamin_c": 100,
         "calcium": 20,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -103,7 +135,10 @@
         "vitamin_a": 4,
         "vitamin_c": 6,
         "calcium": 6,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -124,7 +159,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -145,7 +183,10 @@
         "vitamin_a": 10,
         "vitamin_c": 580,
         "calcium": 8,
-        "iron": 20
+        "iron": 20,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -166,7 +207,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -187,7 +231,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -208,7 +255,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -229,7 +279,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -250,7 +303,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -271,7 +327,21 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 15,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts"
+        ],
+        "ingredients": "Sausage (Pork, Water, Salt, Spices, Dextrose, Sugar), Egg (Eggs, Whey, Soybean Oil, Nonfat Milk, 2% or less of Modified Food Starch, Salt, Xanthan Gum, Citric Acid [Preservative], Natural Butter Flavor), Sprouted Grain Bun (Enriched Wheat Flour [Wheat Flour, Malted Barley Flour, Niacin, R educed Iron, Thiamin Mononitrate, Riboflavin, Folic Acid], Water, Sprouts Flour [Sprouted Wheat, Sprouted Corn, Sprouted Spelt, Sprouted Millet, Sprouted Flaxseed, Sprouted Alfalfa, Sprouted Pink Clover, Sprouted Pea, Sprouted Lentil], Whole Wheat Flour, Sprouted Purple Corn, Sprouted Grain & Seed Blend [Sprouted Purple Corn, Sprouted Sorghum, Millet, Brown Rice, Chia, Sprouted Quinoa, Sprouted Amaranth, Vinegar, Citric Acid], Canola Oil, 2% or less of Yeast, Raw Sugar, Sea Salt, Natural Mold Inhibitor [Cultured Wheat Flour, Vinegar], Monoglycerides, Sodium Bicarbonate, Calcium Sulfate, Sodium Acid Pyrophosphate, Ascorbic Acid, Enzymes), White Cheddar (Pasteurized Milk, Cheese Culture, Salt, Enzymes)"
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -292,7 +362,21 @@
         "vitamin_a": 2,
         "vitamin_c": 2,
         "calcium": 20,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Vegetarian Breakfast Sandwich 1 sandwich INGREDIENTS: Impossible Sausage (Water, Soy Protein Concentrate, Sunflower Oil, Coconut Oil, 2% or less of Methylcellulose, Natural Flavors, Salt, Yeast Extract, Cultured Dextrose, Modified Food Starch, Citric Acid, Soy Leghemoglobin, Mixed Tocopherols [Antioxidant], Soy Protein Isolate, Spices, Onion Powder, Garlic Powder, Vitamins And Minerals [Zinc Gluconate, Niacin, Pyridoxine Hydrochloride (Vitamin B6), Riboflavin (Vitamin B2), Vitamin B12]), Sprouted Grain Bun (Enriched Wheat Flour [Wheat Flour, Malted Barley Flour , Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid], Water, Sprouts Flour [Sprouted Wheat, Sprouted Corn, Sprouted Spelt, Sprouted Millet, Sprouted Flaxseed, Sprouted Alfalfa, Sprouted Pink Clover, Sprouted Pea, Sprouted Lentil], Whole Wheat Flour, Sprouted Purple Corn, Sprouted Grain & Seed Blend [Sprouted Purple Corn, Organic Sprouted Sorghum, Organic Millet, Organic Brown Rice, Organic Chia, Organic Sprouted Quinoa, Organic Sprouted Amaranth, Organic Vinegar, Citric Acid], Canola Oil, 2% or less of Yeast, Raw Sugar, Sea Salt, Natural Mold Inhibitor [Cultured Wheat Flour, Vinegar], Monoglycerides, Sodium Bicarbonate, Calcium Sulfate, Sodium Acid Pyrophosphate, Ascorbic Acid, Enzymes), White Cheddar (Pasteurized Milk, Cheese Culture, Salt, Enzymes"
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -313,7 +397,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": 15,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Liquid Eggs (Whole Eggs, Citric Acid [To Preserve Color], Water [Carrier For Citric Acid]), Plain Non-Fat Yogurt (Cultured Nonfat Milk, Live And Active Cultures [S. Thermophilus, L. Bulgaricus, L. Acidophilus, Bifidus, L. Casei, And L. Rhamnosus]), Heavy Whipping Cream (Cream, Carrageenan), Montamore Cheese ([Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]), Artichoke Hearts (Artichoke Hearts, Water, Salt, Citric Acid), Red Bell Pepper, Flour Mix (Rice Flour, Rice Starch, Potato Starch, Xanthan Gum, Locust Bean Gum), Leeks, Salt, Smoked Paprika, Dehydrated Garlic, Black Pepper, High Oleic Canola Oil, Soy Lecithin"
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -334,7 +431,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 15,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -357,7 +457,10 @@
                 "vitamin_c": 110,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -374,7 +477,10 @@
                 "vitamin_c": 150,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -391,7 +497,10 @@
                 "vitamin_c": 190,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "aloha-pineapple-smoothie"
@@ -417,7 +526,10 @@
                 "vitamin_c": 80,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -434,7 +546,10 @@
                 "vitamin_c": 110,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -451,7 +566,10 @@
                 "vitamin_c": 140,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "caribbean-passion-smoothie"
@@ -477,7 +595,10 @@
                 "vitamin_c": 80,
                 "calcium": 8,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -494,7 +615,10 @@
                 "vitamin_c": 110,
                 "calcium": 10,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -511,7 +635,10 @@
                 "vitamin_c": 130,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mango-a-go-go-smoothie"
@@ -537,7 +664,10 @@
                 "vitamin_c": 15,
                 "calcium": 20,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -554,7 +684,10 @@
                 "vitamin_c": 15,
                 "calcium": 30,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 500,
@@ -571,7 +704,10 @@
                 "vitamin_c": 15,
                 "calcium": 35,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "matcha-green-tea-blast-smoothie"
@@ -597,7 +733,10 @@
                 "vitamin_c": 60,
                 "calcium": 15,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -614,7 +753,10 @@
                 "vitamin_c": 80,
                 "calcium": 20,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 550,
@@ -631,7 +773,10 @@
                 "vitamin_c": 100,
                 "calcium": 25,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-dream-machine-smoothie"
@@ -657,7 +802,10 @@
                 "vitamin_c": 10,
                 "calcium": 25,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 720,
@@ -674,7 +822,10 @@
                 "vitamin_c": 15,
                 "calcium": 40,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 910,
@@ -691,7 +842,10 @@
                 "vitamin_c": 20,
                 "calcium": 45,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "peanut-butter-mood-smoothie"
@@ -717,7 +871,21 @@
                 "vitamin_c": 4,
                 "calcium": 20,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Oat milk(Water, Oats, 2% or less of Low Erucic Acid Rapeseed Oil, Dipotassium Phosphate, Calcium Carbonate, Tricalcium Phosphate, Sea Salt , Dicalcium Phosphate, Riboflavin, Vitamin A, Vitamin D2, Vitamin B12), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup, Annatto Extract [color], Salt , Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Oatmilk Frozen Dessert (Oatmilk [Filtered Water, Whole Oat Flour], Cane Sugar, Coconut Oil, Tapioca Syrup, Pea Protein, Locust Bean Gum, Guar Gum), Ice"
             },
             {
                 "calories": 620,
@@ -734,7 +902,21 @@
                 "vitamin_c": 8,
                 "calcium": 30,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Oat milk(Water, Oats, 2% or less of Low Erucic Acid Rapeseed Oil, Dipotassium Phosphate, Calcium Carbonate, Tricalcium Phosphate, Sea Salt , Dicalcium Phosphate, Riboflavin, Vitamin A, Vitamin D2, Vitamin B12), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup, Annatto Extract [color], Salt , Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Oatmilk Frozen Dessert (Oatmilk [Filtered Water, Whole Oat Flour], Cane Sugar, Coconut Oil, Tapioca Syrup, Pea Protein, Locust Bean Gum, Guar Gum), Ice"
             },
             {
                 "calories": 780,
@@ -751,7 +933,21 @@
                 "vitamin_c": 10,
                 "calcium": 40,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "ingredients": "Oat milk(Water, Oats, 2% or less of Low Erucic Acid Rapeseed Oil, Dipotassium Phosphate, Calcium Carbonate, Tricalcium Phosphate, Sea Salt , Dicalcium Phosphate, Riboflavin, Vitamin A, Vitamin D2, Vitamin B12), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup, Annatto Extract [color], Salt , Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Oatmilk Frozen Dessert (Oatmilk [Filtered Water, Whole Oat Flour], Cane Sugar, Coconut Oil, Tapioca Syrup, Pea Protein, Locust Bean Gum, Guar Gum), Ice"
             }
         ],
         "slug": "plant-based-pumpkin-smash-smoothie"
@@ -777,7 +973,10 @@
                 "vitamin_c": 4,
                 "calcium": 30,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "2% Milk (Reduced Fat M ilk, Vitamin A Palmitate, Vitamin D3), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup , Annatto Extract [color], Salt, Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Fat Free Vanilla Frozen Yogurt (Skim M ilk, Sugar, Whey , 2% or less of Natural Flavors, Corn Syrup , Lactic Acid, Vinegar, Whey Protein Concentrate, M ono-and Diglycerides, Locust Bean Gum, Guar Gum, Carrageenan, Annatto Extract [color], Cultures), Ice, Unpackaged menu items are not guaranteed to be allergen-free."
             },
             {
                 "calories": 470,
@@ -794,7 +993,10 @@
                 "vitamin_c": 8,
                 "calcium": 45,
                 "iron": 2,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "2% Milk (Reduced Fat M ilk, Vitamin A Palmitate, Vitamin D3), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup, Annatto Extract [color], Salt, Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Fat Free Vanilla Frozen Yogurt (Skim M ilk, Sugar, Whey , 2% or less of Natural Flavors, Corn Syrup , Lactic Acid, Vinegar, Whey Protein Concentrate, M ono-and Diglycerides, Locust Bean Gum, Guar Gum, Carrageenan, Annatto Extract [color], Cultures), Ice, Unpackaged menu items are not guaranteed to be allergen-free."
             },
             {
                 "calories": 590,
@@ -811,7 +1013,10 @@
                 "vitamin_c": 10,
                 "calcium": 60,
                 "iron": 2,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": "2% Milk (Reduced Fat M ilk, Vitamin A Palmitate, Vitamin D3), Pumpkin Spice Flavor Base (Pumpkin, Sugar, Invert Sugar Syrup, Annatto Extract [color], Salt, Lemon Juice Concentrate, Natural Flavor, Locust Bean Gum, Cinnamon, Nutmeg), Fat Free Vanilla Frozen Yogurt (Skim M ilk, Sugar, Whey , 2% or less of Natural Flavors, Corn Syrup , Lactic Acid, Vinegar, Whey Protein Concentrate, M ono-and Diglycerides, Locust Bean Gum, Guar Gum, Carrageenan, Annatto Extract [color], Cultures), Ice, Unpackaged menu items are not guaranteed to be allergen-free."
             }
         ],
         "slug": "pumpkin-smash-classic-smoothie"
@@ -837,7 +1042,10 @@
                 "vitamin_c": 60,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -854,7 +1062,10 @@
                 "vitamin_c": 90,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 460,
@@ -871,7 +1082,10 @@
                 "vitamin_c": 110,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "razzmatazz-smoothie"
@@ -897,7 +1111,10 @@
                 "vitamin_c": 60,
                 "calcium": 15,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -914,7 +1131,10 @@
                 "vitamin_c": 80,
                 "calcium": 20,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -931,7 +1151,10 @@
                 "vitamin_c": 100,
                 "calcium": 25,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberries-wild-smoothie"
@@ -957,7 +1180,10 @@
                 "vitamin_c": 90,
                 "calcium": 6,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -974,7 +1200,10 @@
                 "vitamin_c": 130,
                 "calcium": 8,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -991,7 +1220,10 @@
                 "vitamin_c": 170,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-surf-rider-smoothie"
@@ -1017,7 +1249,10 @@
                 "vitamin_c": 80,
                 "calcium": 6,
                 "iron": 20,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -1034,7 +1269,10 @@
                 "vitamin_c": 110,
                 "calcium": 8,
                 "iron": 30,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -1051,7 +1289,10 @@
                 "vitamin_c": 140,
                 "calcium": 10,
                 "iron": 35,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "watermelon-breeze-smoothie"
@@ -1077,7 +1318,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 450,
@@ -1094,7 +1338,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 590,
@@ -1111,7 +1358,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "white-gummi-smoothie"
@@ -1137,7 +1387,10 @@
                 "vitamin_c": 220,
                 "calcium": 220,
                 "iron": 10,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1154,7 +1407,10 @@
                 "vitamin_c": 330,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -1171,7 +1427,10 @@
                 "vitamin_c": 390,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-carrot-twist-juice"
@@ -1197,7 +1456,10 @@
                 "vitamin_c": 30,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 270,
@@ -1214,7 +1476,10 @@
                 "vitamin_c": 40,
                 "calcium": 20,
                 "iron": 20,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 340,
@@ -1231,7 +1496,10 @@
                 "vitamin_c": 40,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "purely-carrot-juice"
@@ -1257,7 +1525,10 @@
                 "vitamin_c": 310,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1274,7 +1545,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -1291,7 +1565,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "purely-orange-juice"
@@ -1315,7 +1592,10 @@
         "vitamin_a": 2,
         "vitamin_c": 40,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -1336,7 +1616,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -1359,7 +1642,10 @@
                 "vitamin_c": 160,
                 "calcium": 10,
                 "iron": 20,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -1376,7 +1662,10 @@
                 "vitamin_c": 170,
                 "calcium": 10,
                 "iron": 20,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -1393,7 +1682,10 @@
                 "vitamin_c": 240,
                 "calcium": 15,
                 "iron": 25,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "amazing-greens-smoothie"
@@ -1419,7 +1711,10 @@
                 "vitamin_c": 210,
                 "calcium": 15,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1436,7 +1731,10 @@
                 "vitamin_c": 220,
                 "calcium": 20,
                 "iron": 15,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -1453,7 +1751,10 @@
                 "vitamin_c": 290,
                 "calcium": 25,
                 "iron": 20,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "apple-n-greens-smoothie"
@@ -1479,7 +1780,10 @@
                 "vitamin_c": 200,
                 "calcium": 10,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -1496,7 +1800,10 @@
                 "vitamin_c": 240,
                 "calcium": 15,
                 "iron": 8,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1513,7 +1820,10 @@
                 "vitamin_c": 260,
                 "calcium": 15,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "greens-n-ginger-smoothie"
@@ -1539,7 +1849,10 @@
                 "vitamin_c": 190,
                 "calcium": 4,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1556,7 +1869,10 @@
                 "vitamin_c": 280,
                 "calcium": 4,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -1573,7 +1889,10 @@
                 "vitamin_c": 330,
                 "calcium": 6,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "mega-mango-smoothie"
@@ -1599,7 +1918,10 @@
                 "vitamin_c": 70,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 310,
@@ -1616,7 +1938,10 @@
                 "vitamin_c": 100,
                 "calcium": 6,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -1633,7 +1958,10 @@
                 "vitamin_c": 110,
                 "calcium": 6,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "peach-perfection-smoothie"
@@ -1659,7 +1987,10 @@
                 "vitamin_c": 90,
                 "calcium": 6,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1676,7 +2007,10 @@
                 "vitamin_c": 130,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 380,
@@ -1693,7 +2027,10 @@
                 "vitamin_c": 150,
                 "calcium": 10,
                 "iron": 10,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pomegranate-paradise-smoothie"
@@ -1719,7 +2056,10 @@
                 "vitamin_c": 90,
                 "calcium": 6,
                 "iron": 8,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 300,
@@ -1736,7 +2076,10 @@
                 "vitamin_c": 120,
                 "calcium": 8,
                 "iron": 10,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 350,
@@ -1753,7 +2096,10 @@
                 "vitamin_c": 150,
                 "calcium": 10,
                 "iron": 15,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "strawberry-whirl-smoothie"
@@ -1779,7 +2125,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1796,7 +2145,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 360,
@@ -1813,7 +2165,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "vanilla-blue-sky-smoothie"
@@ -1839,7 +2194,10 @@
                 "vitamin_c": 730,
                 "calcium": 15,
                 "iron": 20,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -1856,7 +2214,10 @@
                 "vitamin_c": 920,
                 "calcium": 20,
                 "iron": 25,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 540,
@@ -1873,7 +2234,10 @@
                 "vitamin_c": 1110,
                 "calcium": 20,
                 "iron": 30,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "acai-super-antioxidant-smoothie"
@@ -1899,7 +2263,10 @@
                 "vitamin_c": 0,
                 "calcium": 25,
                 "iron": 6,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -1916,7 +2283,10 @@
                 "vitamin_c": 0,
                 "calcium": 35,
                 "iron": 6,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 510,
@@ -1933,7 +2303,10 @@
                 "vitamin_c": 0,
                 "calcium": 45,
                 "iron": 8,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "la-vida-mocha-smoothie"
@@ -1959,7 +2332,10 @@
                 "vitamin_c": 0,
                 "calcium": 40,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -1976,7 +2352,10 @@
                 "vitamin_c": 0,
                 "calcium": 50,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 320,
@@ -1993,7 +2372,10 @@
                 "vitamin_c": 0,
                 "calcium": 70,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "lotta-hotchata-smoothie"
@@ -2019,7 +2401,10 @@
                 "vitamin_c": 260,
                 "calcium": 6,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 330,
@@ -2036,7 +2421,10 @@
                 "vitamin_c": 300,
                 "calcium": 8,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 410,
@@ -2053,7 +2441,10 @@
                 "vitamin_c": 350,
                 "calcium": 10,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "orange-c-booster-smoothie"
@@ -2079,7 +2470,10 @@
                 "vitamin_c": 15,
                 "calcium": 25,
                 "iron": 4,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 630,
@@ -2096,7 +2490,10 @@
                 "vitamin_c": 20,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 810,
@@ -2113,7 +2510,10 @@
                 "vitamin_c": 30,
                 "calcium": 40,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pb-banana-protein-smoothie"
@@ -2139,7 +2539,10 @@
                 "vitamin_c": 30,
                 "calcium": 25,
                 "iron": 2,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 580,
@@ -2156,7 +2559,10 @@
                 "vitamin_c": 35,
                 "calcium": 30,
                 "iron": 4,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 760,
@@ -2173,7 +2579,10 @@
                 "vitamin_c": 40,
                 "calcium": 40,
                 "iron": 6,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pb-chocolate-love-smoothie"
@@ -2199,7 +2608,10 @@
                 "vitamin_c": 60,
                 "calcium": 2,
                 "iron": 15,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2216,7 +2628,10 @@
                 "vitamin_c": 80,
                 "calcium": 4,
                 "iron": 20,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 420,
@@ -2233,7 +2648,10 @@
                 "vitamin_c": 100,
                 "calcium": 4,
                 "iron": 20,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "protein-berry-workout-smoothie-with-soy-protein"
@@ -2259,7 +2677,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -2276,7 +2697,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Medium"
+                "variant_name": "Medium",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 440,
@@ -2293,7 +2717,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "protein-berry-workout-smoothie-with-whey-protein"
@@ -2317,7 +2744,10 @@
         "vitamin_a": 0,
         "vitamin_c": 35,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2338,7 +2768,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2359,7 +2792,10 @@
         "vitamin_a": 0,
         "vitamin_c": 10,
         "calcium": 0,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2380,7 +2816,10 @@
         "vitamin_a": 25,
         "vitamin_c": 6,
         "calcium": 15,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2401,7 +2840,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2422,7 +2864,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2443,7 +2888,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2464,7 +2912,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2485,7 +2936,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2506,7 +2960,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2527,7 +2984,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2548,7 +3008,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2569,7 +3032,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2590,7 +3056,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2611,7 +3080,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2632,7 +3104,10 @@
         "vitamin_a": 100,
         "vitamin_c": 150,
         "calcium": 10,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2653,7 +3128,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2674,7 +3152,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2695,7 +3176,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2716,7 +3200,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2737,7 +3224,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 4,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2758,7 +3248,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2779,7 +3272,10 @@
         "vitamin_a": 130,
         "vitamin_c": 80,
         "calcium": 6,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2800,7 +3296,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2821,7 +3320,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2842,7 +3344,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Jamba Juice",
@@ -2863,6 +3368,9 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

@@ -18,7 +18,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -39,7 +42,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -62,7 +68,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "16 fl oz"
+                "variant_name": "16 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 5,
@@ -79,7 +88,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "brewed-unsweet-tea"
@@ -105,7 +117,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "8.5 fl oz"
+                "variant_name": "8.5 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 150,
@@ -122,7 +137,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 fl oz"
+                "variant_name": "12 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -139,7 +157,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 fl oz"
+                "variant_name": "20 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 290,
@@ -156,7 +177,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coca-cola"
@@ -180,7 +204,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -201,7 +228,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -209,6 +239,26 @@
         "meal_name": "Diet Coke",
         "category": "Beverages",
         "variants": [
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": 0,
+                "cholesterol": 0,
+                "sodium": 30,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": 0,
+                "vitamin_c": 0,
+                "calcium": 0,
+                "iron": 0,
+                "variant_name": "8.5 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
             {
                 "calories": 0,
                 "total_fat": 0,
@@ -224,7 +274,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -241,7 +294,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 fl oz"
+                "variant_name": "12 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -258,24 +314,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 fl oz"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 30,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": 0,
-                "vitamin_c": 0,
-                "calcium": 0,
-                "iron": 0,
-                "variant_name": "8.5 fl oz"
+                "variant_name": "20 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -299,7 +341,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -320,7 +365,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -341,7 +389,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -362,7 +413,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -383,7 +437,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -406,7 +463,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "8.5 fl oz"
+                "variant_name": "8.5 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 140,
@@ -423,7 +483,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "12 fl oz"
+                "variant_name": "12 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 240,
@@ -440,7 +503,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "20 fl oz"
+                "variant_name": "20 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 280,
@@ -457,7 +523,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 fl oz"
+                "variant_name": "24 fl oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -481,7 +550,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -502,7 +574,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -523,7 +598,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -544,7 +622,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -565,7 +646,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -586,7 +670,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -607,7 +694,10 @@
         "vitamin_a": 13,
         "vitamin_c": 0,
         "calcium": 41,
-        "iron": 19
+        "iron": 19,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -628,7 +718,10 @@
         "vitamin_a": 1,
         "vitamin_c": 10,
         "calcium": 10,
-        "iron": 26
+        "iron": 26,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -649,7 +742,10 @@
         "vitamin_a": 109,
         "vitamin_c": 32,
         "calcium": 42,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -670,7 +766,10 @@
         "vitamin_a": 6,
         "vitamin_c": 0,
         "calcium": 2,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -691,7 +790,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -712,7 +814,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 1
+        "iron": 1,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -733,7 +838,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -754,7 +862,10 @@
         "vitamin_a": 0,
         "vitamin_c": 1,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -775,7 +886,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 1,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -796,7 +910,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -817,7 +934,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -838,7 +958,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -859,7 +982,10 @@
         "vitamin_a": 97,
         "vitamin_c": 41,
         "calcium": 5,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -880,7 +1006,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -901,7 +1030,10 @@
         "vitamin_a": 13,
         "vitamin_c": 0,
         "calcium": 68,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -922,7 +1054,10 @@
         "vitamin_a": 14,
         "vitamin_c": 1,
         "calcium": 68,
-        "iron": 11
+        "iron": 11,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -943,7 +1078,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 42,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -964,7 +1102,10 @@
         "vitamin_a": 8,
         "vitamin_c": 0,
         "calcium": 42,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -987,7 +1128,10 @@
                 "vitamin_c": 53,
                 "calcium": 7,
                 "iron": 1,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 750,
@@ -1004,7 +1148,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "kids-awesome-orange-smoothie"
@@ -1030,7 +1177,10 @@
                 "vitamin_c": 12,
                 "calcium": 4,
                 "iron": 3,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1047,7 +1197,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "kids-chocolate-chimp-smoothie"
@@ -1073,7 +1226,10 @@
                 "vitamin_c": 36,
                 "calcium": 2,
                 "iron": 2,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 370,
@@ -1090,7 +1246,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "kids-jetty-junior-smoothie"
@@ -1116,7 +1275,10 @@
                 "vitamin_c": 87,
                 "calcium": 1,
                 "iron": 1,
-                "variant_name": "12 oz"
+                "variant_name": "12 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 470,
@@ -1133,7 +1295,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "24 oz"
+                "variant_name": "24 oz",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "kids-lil-lime-berry-smoothie"
@@ -1157,7 +1322,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1178,7 +1346,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1199,7 +1370,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1220,7 +1394,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1241,7 +1418,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1262,7 +1442,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1283,7 +1466,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1304,7 +1490,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1325,7 +1514,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1346,7 +1538,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1367,7 +1562,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1388,7 +1586,10 @@
         "vitamin_a": 81,
         "vitamin_c": 31,
         "calcium": 3,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1409,7 +1610,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1430,7 +1634,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1451,7 +1658,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1472,7 +1682,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1493,7 +1706,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1514,7 +1730,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1535,7 +1754,10 @@
         "vitamin_a": 8,
         "vitamin_c": 174,
         "calcium": 4,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1556,7 +1778,10 @@
         "vitamin_a": 108,
         "vitamin_c": 127,
         "calcium": 7,
-        "iron": 12
+        "iron": 12,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1577,7 +1802,10 @@
         "vitamin_a": 2,
         "vitamin_c": 72,
         "calcium": 7,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1598,7 +1826,10 @@
         "vitamin_a": 2,
         "vitamin_c": 72,
         "calcium": 10,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1619,7 +1850,10 @@
         "vitamin_a": 3,
         "vitamin_c": 125,
         "calcium": 3,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1640,7 +1874,10 @@
         "vitamin_a": 2,
         "vitamin_c": 41,
         "calcium": 3,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1661,7 +1898,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1682,7 +1922,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1703,7 +1946,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1724,7 +1970,10 @@
         "vitamin_a": 154,
         "vitamin_c": 106,
         "calcium": 8,
-        "iron": 9
+        "iron": 9,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1747,7 +1996,10 @@
                 "vitamin_c": 50,
                 "calcium": 26,
                 "iron": 3,
-                "variant_name": "With Whey"
+                "variant_name": "With Whey",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 530,
@@ -1764,7 +2016,10 @@
                 "vitamin_c": 50,
                 "calcium": 9,
                 "iron": 26,
-                "variant_name": "With Soy"
+                "variant_name": "With Soy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 570,
@@ -1781,7 +2036,10 @@
                 "vitamin_c": 50,
                 "calcium": 4,
                 "iron": 3,
-                "variant_name": "With Pea"
+                "variant_name": "With Pea",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "health-nut-smoothie"
@@ -1805,7 +2063,10 @@
         "vitamin_a": 154,
         "vitamin_c": 108,
         "calcium": 9,
-        "iron": 9
+        "iron": 9,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1826,7 +2087,10 @@
         "vitamin_a": 2,
         "vitamin_c": 72,
         "calcium": 4,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1847,7 +2111,10 @@
         "vitamin_a": 0,
         "vitamin_c": 52,
         "calcium": 6,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1868,7 +2135,10 @@
         "vitamin_a": 2,
         "vitamin_c": 73,
         "calcium": 5,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1889,7 +2159,10 @@
         "vitamin_a": 57,
         "vitamin_c": 57,
         "calcium": 7,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1910,7 +2183,10 @@
         "vitamin_a": 0,
         "vitamin_c": 4,
         "calcium": 11,
-        "iron": 4
+        "iron": 4,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -1933,7 +2209,10 @@
                 "vitamin_c": 72,
                 "calcium": 26,
                 "iron": 4,
-                "variant_name": "With Whey"
+                "variant_name": "With Whey",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 480,
@@ -1950,7 +2229,10 @@
                 "vitamin_c": 72,
                 "calcium": 9,
                 "iron": 26,
-                "variant_name": "With Soy"
+                "variant_name": "With Soy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 520,
@@ -1967,7 +2249,10 @@
                 "vitamin_c": 72,
                 "calcium": 4,
                 "iron": 4,
-                "variant_name": "With Pea"
+                "variant_name": "With Pea",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "muscle-blaster-smoothie"
@@ -1991,7 +2276,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2012,7 +2300,10 @@
         "vitamin_a": 4,
         "vitamin_c": 92,
         "calcium": 6,
-        "iron": 6
+        "iron": 6,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2033,7 +2324,10 @@
         "vitamin_a": 5,
         "vitamin_c": 39,
         "calcium": 3,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2054,7 +2348,10 @@
         "vitamin_a": 2,
         "vitamin_c": 24,
         "calcium": 9,
-        "iron": 10
+        "iron": 10,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2077,7 +2374,10 @@
                 "vitamin_c": 23,
                 "calcium": 29,
                 "iron": 6,
-                "variant_name": "With Whey"
+                "variant_name": "With Whey",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 700,
@@ -2094,7 +2394,10 @@
                 "vitamin_c": 23,
                 "calcium": 12,
                 "iron": 28,
-                "variant_name": "With Soy"
+                "variant_name": "With Soy",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 740,
@@ -2111,7 +2414,10 @@
                 "vitamin_c": 23,
                 "calcium": 7,
                 "iron": 6,
-                "variant_name": "With Pea"
+                "variant_name": "With Pea",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "peanut-paradise-smoothie"
@@ -2135,7 +2441,10 @@
         "vitamin_a": 3,
         "vitamin_c": 172,
         "calcium": 3,
-        "iron": 8
+        "iron": 8,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2156,7 +2465,10 @@
         "vitamin_a": 0,
         "vitamin_c": 173,
         "calcium": 2,
-        "iron": 2
+        "iron": 2,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2177,7 +2489,10 @@
         "vitamin_a": 58,
         "vitamin_c": 96,
         "calcium": 3,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2198,7 +2513,10 @@
         "vitamin_a": 32,
         "vitamin_c": 65,
         "calcium": 4,
-        "iron": 3
+        "iron": 3,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2219,7 +2537,10 @@
         "vitamin_a": 39,
         "vitamin_c": 195,
         "calcium": 53,
-        "iron": 15
+        "iron": 15,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2240,7 +2561,10 @@
         "vitamin_a": 50,
         "vitamin_c": 50,
         "calcium": 50,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2261,7 +2585,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2282,7 +2609,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2303,7 +2633,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 6,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2324,7 +2657,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2345,7 +2681,10 @@
         "vitamin_a": 0,
         "vitamin_c": 1667,
         "calcium": 5,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2366,7 +2705,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 20,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2387,7 +2729,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2408,7 +2753,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2429,7 +2777,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2450,7 +2801,10 @@
         "vitamin_a": 13,
         "vitamin_c": 8,
         "calcium": 40,
-        "iron": 18
+        "iron": 18,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2471,7 +2825,10 @@
         "vitamin_a": 33,
         "vitamin_c": 8,
         "calcium": 24,
-        "iron": 18
+        "iron": 18,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2492,7 +2849,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2513,7 +2873,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2534,7 +2897,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2557,7 +2923,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 610,
@@ -2574,7 +2943,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "tropical-chicken-salad-pressed-sandwich"
@@ -2600,7 +2972,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 640,
@@ -2617,7 +2992,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-apple-dijon-pressed-sandwich"
@@ -2643,7 +3021,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -2660,7 +3041,10 @@
                 "vitamin_c": 16,
                 "calcium": 26,
                 "iron": 20,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "turkey-bacon-ranch-pressed-sandwich"
@@ -2686,7 +3070,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Half"
+                "variant_name": "Half",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 620,
@@ -2703,7 +3090,10 @@
                 "vitamin_c": 0,
                 "calcium": 0,
                 "iron": 0,
-                "variant_name": "Whole"
+                "variant_name": "Whole",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "ultimate-club-pressed-sandwich"
@@ -2727,7 +3117,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2748,7 +3141,10 @@
         "vitamin_a": 120,
         "vitamin_c": 15,
         "calcium": 51,
-        "iron": 22
+        "iron": 22,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2769,7 +3165,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2790,7 +3189,10 @@
         "vitamin_a": 60,
         "vitamin_c": 15,
         "calcium": 44,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2811,7 +3213,10 @@
         "vitamin_a": 0,
         "vitamin_c": 0,
         "calcium": 0,
-        "iron": 0
+        "iron": 0,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Tropical Smoothie Cafe",
@@ -2832,6 +3237,9 @@
         "vitamin_a": 199,
         "vitamin_c": 11,
         "calcium": 24,
-        "iron": 27
+        "iron": 27,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     }
 ]

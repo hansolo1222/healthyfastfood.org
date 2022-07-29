@@ -18,7 +18,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Hand-rolled, crispy egg rolls filled with seasoned chicken, cabbage, black mushrooms, carrots and scallions. Served with a sweet chili sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -39,7 +53,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "Ground white meat chicken, wok-seared with shiitake mushrooms, water chestnuts, scallions, garlic and soy sauce. Served over crispy rice sticks with crisp iceberg lettuce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -60,7 +88,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "milk",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "Crispy wontons filled with Jonah crab, cream cheese, red bell peppers and scallions. Served with a sweet chili sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -83,7 +125,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Edamame soybeans, kosher salt."
             },
             {
                 "calories": 320,
@@ -100,7 +156,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Edamame soybeans, kosher salt."
             }
         ],
         "slug": "edamame"
@@ -124,7 +194,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "soy"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Green beans tossed with garlic, chili paste and Mongolian sauce"
     },
     {
         "restaurant_name": "Pei Wei",
@@ -145,7 +228,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Crispy egg rolls filled with seasoned pork, cabbage, black mushrooms, carrots and scallions. Served with a sweet chili sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -168,7 +265,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Cup"
+                "variant_name": "Cup",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steamed chicken dumplings, basil and scallions in a savory chicken lemongrass broth."
             },
             {
                 "calories": 140,
@@ -185,7 +296,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Bowl"
+                "variant_name": "Bowl",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steamed chicken dumplings, basil and scallions in a savory chicken lemongrass broth."
             }
         ],
         "slug": "thai-wonton-soup"
@@ -211,7 +336,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Steamed"
+                "variant_name": "Steamed",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Dumplings filled with chicken, cabbage, shallots, ginger and green onions"
             },
             {
                 "calories": 75,
@@ -228,7 +367,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Fried"
+                "variant_name": "Fried",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Dumplings filled with chicken, cabbage, shallots, ginger and green onions"
             }
         ],
         "slug": "vegetable-chicken-dumplings"
@@ -252,7 +405,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Crispy vegetable spring rolls filled with green cabbage, ginger, carrots, celery, black mushrooms, onions and glass noodles. Served with a sweet chili sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -273,7 +440,20 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "milk",
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Battered shrimp tossed in Yum Yum sauce. Served over green cabbage."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -294,7 +474,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -315,7 +498,22 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "seeds",
+            "shellfish",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -336,7 +534,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -357,7 +558,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -378,7 +582,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "seeds",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -401,7 +619,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -418,7 +650,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "coke"
@@ -435,23 +670,6 @@
                 "saturated_fat": 0,
                 "trans_fat": null,
                 "cholesterol": 0,
-                "sodium": 75,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Regular"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": null,
-                "cholesterol": 0,
                 "sodium": 105,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -461,7 +679,41 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": null,
+                "cholesterol": 0,
+                "sodium": 75,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "coke-zero"
@@ -478,23 +730,6 @@
                 "saturated_fat": 0,
                 "trans_fat": null,
                 "cholesterol": 0,
-                "sodium": 85,
-                "total_carbohydrates": 0,
-                "dietary_fiber": 0,
-                "sugar": 0,
-                "protein": 0,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Regular"
-            },
-            {
-                "calories": 0,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": null,
-                "cholesterol": 0,
                 "sodium": 120,
                 "total_carbohydrates": 0,
                 "dietary_fiber": 0,
@@ -504,7 +739,41 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
+            },
+            {
+                "calories": 0,
+                "total_fat": 0,
+                "saturated_fat": 0,
+                "trans_fat": null,
+                "cholesterol": 0,
+                "sodium": 85,
+                "total_carbohydrates": 0,
+                "dietary_fiber": 0,
+                "sugar": 0,
+                "protein": 0,
+                "vitamin_a": null,
+                "vitamin_c": null,
+                "calcium": null,
+                "iron": null,
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "diet-coke"
@@ -530,7 +799,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 0,
@@ -547,7 +830,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "diet-sprite"
@@ -573,7 +859,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 430,
@@ -590,7 +890,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "dr.-pepper"
@@ -616,7 +919,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 390,
@@ -633,7 +950,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "minute-maid-lemonade"
@@ -659,7 +979,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "peanuts",
+                    "seeds",
+                    "shellfish",
+                    "soy",
+                    "sulfites",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -676,7 +1010,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "pibb-xtra"
@@ -702,7 +1039,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             },
             {
                 "calories": 400,
@@ -719,7 +1059,10 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Large"
+                "variant_name": "Large",
+                "allergens_true": [],
+                "allergens_false": [],
+                "ingredients": null
             }
         ],
         "slug": "sprite"
@@ -743,7 +1086,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "gluten",
+            "milk",
+            "peanuts",
+            "seeds",
+            "shellfish",
+            "soy",
+            "sulfites",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -766,7 +1123,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, garlic, ginger, scallions and broccoli. Tossed in a rich and sweet soy sauce."
             },
             {
                 "calories": 790,
@@ -783,7 +1153,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, garlic, ginger, scallions and broccoli. Tossed in a rich and sweet soy sauce."
             }
         ],
         "slug": "beef-broccoli"
@@ -809,7 +1192,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, ginger, scallions and broccoli. Tossed in a rich and sweet soy sauce."
             },
             {
                 "calories": 666,
@@ -826,7 +1222,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, ginger, scallions and broccoli. Tossed in a rich and sweet soy sauce."
             }
         ],
         "slug": "chicken-broccoli"
@@ -852,7 +1261,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 1090,
@@ -869,7 +1292,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "firecracker-chicken"
@@ -895,7 +1332,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             },
             {
                 "calories": 560,
@@ -912,7 +1363,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": null
             }
         ],
         "slug": "firecracker-tofu"
@@ -938,7 +1403,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, tossed in honey-seared garlic sauce. Served over crispy rice sticks and topped with red bell peppers and scallions."
             },
             {
                 "calories": 1100,
@@ -955,7 +1434,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, tossed in honey-seared garlic sauce. Served over crispy rice sticks and topped with red bell peppers and scallions."
             }
         ],
         "slug": "honey-seared-chicken"
@@ -981,7 +1474,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts"
+                ],
+                "ingredients": "Battered chicken, pineapple, ginger, garlic and mint, tossed in a tangy caramel sauce. Served over a bed of rice sticks and topped with an Asian slaw of cucumbers, red bell peppers, carrots, cilantro, and onions in a Vietnamese Vinaigrette."
             },
             {
                 "calories": 1300,
@@ -998,7 +1505,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts"
+                ],
+                "ingredients": "Battered chicken, pineapple, ginger, garlic and mint, tossed in a tangy caramel sauce. Served over a bed of rice sticks and topped with an Asian slaw of cucumbers, red bell peppers, carrots, cilantro, and onions in a Vietnamese Vinaigrette."
             }
         ],
         "slug": "house-special-chicken"
@@ -1024,7 +1545,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy white meat chicken, garlic, carrots, snap peas, scallions, peanuts and chili flakes. Tossed in a chili soy sauce."
             },
             {
                 "calories": 975,
@@ -1041,7 +1575,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy white meat chicken, garlic, carrots, snap peas, scallions, peanuts and chili flakes. Tossed in a chili soy sauce."
             }
         ],
         "slug": "kung-pao-chicken"
@@ -1067,7 +1614,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy shrimp, garlic, carrots, snap peas, scallions, peanuts and chili flakes. Tossed in a chili soy sauce."
             },
             {
                 "calories": 740,
@@ -1084,7 +1644,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "peanuts",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy shrimp, garlic, carrots, snap peas, scallions, peanuts and chili flakes. Tossed in a chili soy sauce."
             }
         ],
         "slug": "kung-pao-shrimp"
@@ -1110,7 +1683,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, scallions, and mushrooms. Tossed in a rich and sweet soy sauce"
             },
             {
                 "calories": 636,
@@ -1127,7 +1713,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, scallions, and mushrooms. Tossed in a rich and sweet soy sauce"
             }
         ],
         "slug": "mongolian-chicken"
@@ -1153,7 +1752,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, garlic, scallions, and mushrooms. Tossed in a rich and sweet soy sauce."
             },
             {
                 "calories": 760,
@@ -1170,7 +1782,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, garlic, scallions, and mushrooms. Tossed in a rich and sweet soy sauce."
             }
         ],
         "slug": "mongolian-steak"
@@ -1196,7 +1821,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, tossed in Sriracha-orange sauce with fresh orange slices."
             },
             {
                 "calories": 980,
@@ -1213,7 +1852,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, tossed in Sriracha-orange sauce with fresh orange slices."
             }
         ],
         "slug": "orange-chicken"
@@ -1239,7 +1892,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy shrimp, garlic, chili paste, carrots, snap peas and scallions. Tossed in a sweet and spicy chili vinegar sauce."
             },
             {
                 "calories": 790,
@@ -1256,7 +1922,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "milk",
+                    "shellfish",
+                    "soy"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "ingredients": "Crispy shrimp, garlic, chili paste, carrots, snap peas and scallions. Tossed in a sweet and spicy chili vinegar sauce."
             }
         ],
         "slug": "original-shrimp"
@@ -1282,7 +1961,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, red bell peppers, garlic, ginger, chili paste, broccoli and onions. Tossed in a sweet soy chili citrus glaze and topped with toasted sesame seeds."
             },
             {
                 "calories": 895,
@@ -1299,7 +1992,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, red bell peppers, garlic, ginger, chili paste, broccoli and onions. Tossed in a sweet soy chili citrus glaze and topped with toasted sesame seeds."
             }
         ],
         "slug": "sesame-chicken"
@@ -1325,7 +2032,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, garlic, carrots, red bell peppers, scallions and bean sprouts. Tossed in a Sriracha sesame sauce with chili paste, and chili flakes."
             },
             {
                 "calories": 805,
@@ -1342,7 +2063,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, garlic, carrots, red bell peppers, scallions and bean sprouts. Tossed in a Sriracha sesame sauce with chili paste, and chili flakes."
             }
         ],
         "slug": "spicy-general-tsos-chicken"
@@ -1368,7 +2103,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, red bell peppers, onions, cauliflower, scallions and garlic. Tossed in a spicy gochujang sauce."
             },
             {
                 "calories": 780,
@@ -1385,7 +2134,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "fish",
+                    "gluten",
+                    "milk",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Grass-fed, wok-seared steak, red bell peppers, onions, cauliflower, scallions and garlic. Tossed in a spicy gochujang sauce."
             }
         ],
         "slug": "spicy-korean-bbq-steak"
@@ -1411,7 +2174,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, ginger, red bell peppers, onions and pineapple. Tossed in our classic sweet and sour sauce."
             },
             {
                 "calories": 980,
@@ -1428,7 +2205,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura-battered white meat chicken, ginger, red bell peppers, onions and pineapple. Tossed in our classic sweet and sour sauce."
             }
         ],
         "slug": "sweet-sour-chicken"
@@ -1454,7 +2245,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, red bell peppers, onions and green cabbage. Tossed in a sweet soy glaze and topped with toasted sesame seeds."
             },
             {
                 "calories": 935,
@@ -1471,7 +2276,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Crispy white meat chicken, red bell peppers, onions and green cabbage. Tossed in a sweet soy glaze and topped with toasted sesame seeds."
             }
         ],
         "slug": "teriyaki-chicken"
@@ -1497,7 +2316,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Wok-seared five spice tofu, red bell peppers, onions and green cabbage. Tossed in a sweet soy glaze and topped with toasted sesame seeds and scallions."
             },
             {
                 "calories": 1060,
@@ -1514,7 +2347,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Wok-seared five spice tofu, red bell peppers, onions and green cabbage. Tossed in a sweet soy glaze and topped with toasted sesame seeds and scallions."
             }
         ],
         "slug": "teriyaki-tofu"
@@ -1540,7 +2387,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "peanuts"
+                ],
+                "ingredients": "Steamed white meat chicken, red bell peppers, onions, snap peas, garlic and basil. Tossed in a mildly spicy cashew sauce and topped with cashews."
             },
             {
                 "calories": 1048,
@@ -1557,7 +2418,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "fish",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "tree nuts",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "peanuts"
+                ],
+                "ingredients": "Steamed white meat chicken, red bell peppers, onions, snap peas, garlic and basil. Tossed in a mildly spicy cashew sauce and topped with cashews."
             }
         ],
         "slug": "thai-basil-cashew-chicken"
@@ -1583,7 +2458,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "fish",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "peanuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, red bell peppers, onions and broccoli. Tossed in a creamy Thai coconut curry sauce."
             },
             {
                 "calories": 640,
@@ -1600,7 +2488,20 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "REgular"
+                "variant_name": "REgular",
+                "allergens_true": [
+                    "fish",
+                    "shellfish",
+                    "soy",
+                    "tree nuts"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "milk",
+                    "peanuts",
+                    "wheat"
+                ],
+                "ingredients": "Steamed white meat chicken, garlic, red bell peppers, onions and broccoli. Tossed in a creamy Thai coconut curry sauce."
             }
         ],
         "slug": "thai-coconut-curry-chicken"
@@ -1626,7 +2527,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Small"
+                "variant_name": "Small",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Wok-seared five spice tofu, red bell peppers, onions, scallions and basil. Tossed in a Sriracha chili soy sauce and topped with a fresh lime wedge."
             },
             {
                 "calories": 890,
@@ -1643,7 +2558,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Regular"
+                "variant_name": "Regular",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Wok-seared five spice tofu, red bell peppers, onions, scallions and basil. Tossed in a Sriracha chili soy sauce and topped with a fresh lime wedge."
             }
         ],
         "slug": "thai-dynamite-tofu"
@@ -1669,7 +2598,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Tofu & Vegetables"
+                "variant_name": "Tofu & Vegetables",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Five-Spice Tofu & Fresh Vegetables, wok-tossed in our signature honey-seared garlic sauce and served on a bed of rice."
             },
             {
                 "calories": 780,
@@ -1686,7 +2629,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Steak"
+                "variant_name": "Steak",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steak, wok-tossed in our signature honey-seared garlic sauce and served on a bed of rice."
             },
             {
                 "calories": 920,
@@ -1703,7 +2660,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Shrimp"
+                "variant_name": "Shrimp",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Shrimp, wok-tossed in our signature honey-seared garlic sauce and served on a bed of rice."
             },
             {
                 "calories": 980,
@@ -1720,7 +2691,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken, wok-tossed in our signature honey-seared garlic sauce and served on a bed of rice."
             }
         ],
         "slug": "kids-honey-seared"
@@ -1746,7 +2731,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Tofu & Vegetables"
+                "variant_name": "Tofu & Vegetables",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Five-Spice Tofu & Fresh Vegetables , wok-tossed in a savory soy glaze and served over egg noodles with broccoli"
             },
             {
                 "calories": 830,
@@ -1763,7 +2762,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken, wok-tossed in a savory soy glaze and served over egg noodles with broccoli"
             },
             {
                 "calories": 840,
@@ -1780,7 +2793,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Shrimp"
+                "variant_name": "Shrimp",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "milk",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Shrimp, wok-tossed in a savory soy glaze and served over egg noodles with broccoli"
             }
         ],
         "slug": "kids-lo-mein"
@@ -1804,7 +2831,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Crispy tempura white-meat chicken wok-seared in our signature orange sauce and served on a bed of rice."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -1827,7 +2868,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Tofu & Vegetables"
+                "variant_name": "Tofu & Vegetables",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Five-Spice Tofu & Fresh Vegetables, wok-tossed in our classic sweet and sour sauce and served on a bed of rice."
             },
             {
                 "calories": 780,
@@ -1844,7 +2899,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Steak"
+                "variant_name": "Steak",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steak, wok-tossed in our classic sweet and sour sauce and served on a bed of rice."
             },
             {
                 "calories": 920,
@@ -1861,7 +2930,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Shrimp"
+                "variant_name": "Shrimp",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Shrimp, wok-tossed in our classic sweet and sour sauce and served on a bed of rice."
             },
             {
                 "calories": 980,
@@ -1878,7 +2961,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Tempura chicken, wok-tossed in our classic sweet and sour sauce and served on a bed of rice."
             }
         ],
         "slug": "kids-sweet-sour"
@@ -1904,7 +3001,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Steamed Shrimp"
+                "variant_name": "Steamed Shrimp",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "Shrimp, wok-tossed in a sweet soy glaze and served on a bed of rice."
             },
             {
                 "calories": 728,
@@ -1921,7 +3032,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Chicken"
+                "variant_name": "Chicken",
+                "allergens_true": [
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "egg",
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Chicken, wok-tossed in a sweet soy glaze and served on a bed of rice."
             },
             {
                 "calories": 760,
@@ -1938,7 +3063,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Shrimp"
+                "variant_name": "Shrimp",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "shellfish",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "tree nuts"
+                ],
+                "ingredients": "shrimp, wok-tossed in a sweet soy glaze and served on a bed of rice."
             },
             {
                 "calories": 790,
@@ -1955,7 +3094,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "Steak"
+                "variant_name": "Steak",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "peanuts",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Grass fed steak, wok-tossed in a sweet soy glaze and served on a bed of rice."
             }
         ],
         "slug": "kids-teriyaki"
@@ -1979,7 +3132,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "shellfish",
+            "soy"
+        ],
+        "allergens_false": [
+            "milk",
+            "peanuts",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": "Steamed white meat chicken, scallions, egg, red bell peppers, bean sprouts, carrots, soy sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2000,7 +3165,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "milk",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Steamed white meat chicken, steamed noodles, bean sprouts, carrots, red bell peppers, shiitake mushrooms, scallions, garlic and soy sauce."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2023,7 +3202,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "without Tofu"
+                "variant_name": "without Tofu",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "peanuts",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steamed white meat chicken, tofu, rice noodles, egg, bean sprouts and scallions. Tossed in a Thai sweet and sour sauce and topped with peanuts, cilantro and a fresh lime wedge."
             },
             {
                 "calories": 1490,
@@ -2040,7 +3233,21 @@
                 "vitamin_c": null,
                 "calcium": null,
                 "iron": null,
-                "variant_name": "with Tofu"
+                "variant_name": "with Tofu",
+                "allergens_true": [
+                    "egg",
+                    "gluten",
+                    "peanuts",
+                    "soy",
+                    "wheat"
+                ],
+                "allergens_false": [
+                    "fish",
+                    "milk",
+                    "shellfish",
+                    "tree nuts"
+                ],
+                "ingredients": "Steamed white meat chicken, rice noodles, egg, bean sprouts and scallions. Tossed in a Thai sweet and sour sauce and topped with peanuts, cilantro and a fresh lime wedge."
             }
         ],
         "slug": "chicken-pad-thai"
@@ -2064,7 +3271,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "House-ground white meat chicken, garlic and scallions, tossed in a chili soy sauce. Served over a bed of steamed noodles and topped with steamed bean sprouts and julienne cucumbers."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2085,7 +3306,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": "Tender, hand-pulled white meat chicken, carrots, red bell peppers, cilantro, scallions, crispy wontons and sesame seeds. Served over a bed of mixed greens and tossed in a sesame ginger vinaigrette."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2106,7 +3341,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "egg",
+            "fish",
+            "gluten",
+            "shellfish",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "milk",
+            "peanuts",
+            "tree nuts"
+        ],
+        "ingredients": "Spicy Ahi poke, premium Pacific Krab, sushi rice, sambal chili sauce, pickled ginger, crispy shallots, julienne cucumbers and fresh cilantro. Served over a bed of mixed greens with sesame ginger vinaigrette."
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2127,7 +3376,19 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2148,7 +3409,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2169,7 +3444,10 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2190,7 +3468,21 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [
+            "gluten",
+            "soy",
+            "wheat"
+        ],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "tree nuts"
+        ],
+        "ingredients": null
     },
     {
         "restaurant_name": "Pei Wei",
@@ -2211,6 +3503,18 @@
         "vitamin_a": null,
         "vitamin_c": null,
         "calcium": null,
-        "iron": null
+        "iron": null,
+        "allergens_true": [],
+        "allergens_false": [
+            "egg",
+            "fish",
+            "milk",
+            "peanuts",
+            "shellfish",
+            "soy",
+            "tree nuts",
+            "wheat"
+        ],
+        "ingredients": null
     }
 ]

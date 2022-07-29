@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,41 +8,72 @@ datasource db {
 }
 
 model meal {
-  id             Int      @id @default(autoincrement())
-  name           String   @db.VarChar(255)
-  slug           String   @db.VarChar(255)
-  restaurant     restaurant  @relation(fields: [restaurantSlug], references: [slug])
-  restaurantSlug String
-  category       category  @relation(fields: [categorySlug], references: [slug])
-  categorySlug   String
-  calories       Int
-  totalFat       Int
-  saturatedFat   Int  
-  transFat       Int
-  cholesterol    Int
-  sodium         Int
-  totalCarbohydrates    Int
-  dietaryFiber   Int
-  sugar          Int
-  protein        Int
-  vitaminA       Int
-  vitaminC       Int
-  calcium        Int
-  iron           Int
-  published      Boolean  @default(true)
+  id                 String     @id @default(uuid())
+  name               String
+  slug               String
+  restaurantSlug     String
+  calories           Int?
+  totalFat           Decimal?
+  saturatedFat       Decimal?
+  transFat           Decimal?
+  cholesterol        Decimal?
+  sodium             Int?
+  totalCarbohydrates Decimal?
+  dietaryFiber       Decimal?
+  sugar              Int?
+  protein            Int?
+  vitaminA           Int?
+  vitaminC           Int?
+  calcium            Int?
+  iron               Int?
+  published          Boolean    @default(true)
+  categoryName       String
+  allergensFalse     String[]
+  allergensTrue      String[]
+  ingredients        String?
+  combinedSlug       String     @unique
+  category           category   @relation(fields: [categoryName], references: [name])
+  restaurant         restaurant @relation(fields: [restaurantSlug], references: [slug])
+  variants           variant[]
+
+  @@unique([restaurantSlug, slug])
+}
+
+model variant {
+  id                 String   @id @default(uuid())
+  variantName        String
+  calories           Int?
+  totalFat           Decimal?
+  saturatedFat       Decimal?
+  transFat           Decimal?
+  cholesterol        Decimal?
+  sodium             Int?
+  totalCarbohydrates Decimal?
+  dietaryFiber       Decimal?
+  sugar              Decimal?
+  protein            Int?
+  vitaminA           Int?
+  vitaminC           Int?
+  calcium            Int?
+  iron               Int?
+  allergensFalse     String[]
+  allergensTrue      String[]
+  ingredients        String?
+  mealCombinedSlug   String
+  meal               meal     @relation(fields: [mealCombinedSlug], references: [combinedSlug])
 }
 
 model restaurant {
-  id            Int      @id @default(autoincrement())
-  name          String   @unique
-  slug          String   @unique
-  meals         meal[]
-  rank          Int
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  slug  String @unique
+  rank  Int?
+  meals meal[]
 }
 
 model category {
-  id            Int      @id @default(autoincrement())
-  name          String   @unique
-  slug          String   @unique
-  meals         meal[]
+  id    String  @default(uuid())
+  name  String  @unique
+  slug  String?
+  meals meal[]
 }

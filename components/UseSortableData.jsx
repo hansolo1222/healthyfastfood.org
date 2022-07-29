@@ -8,7 +8,9 @@ export const useSortableData = (items, config = null) => {
   let sortedItems = [...items];
     if (sortConfig !== null) {
   
-    if (sortConfig.key=="calories" || sortConfig.key=="protein" ){
+    if (sortConfig.key=="calories" 
+    || sortConfig.key=="protein" 
+    || sortConfig.key == "totalCarbohydrates"){
       
       sortedItems.sort((a, b) => {
         if(a[sortConfig.key] === null){
