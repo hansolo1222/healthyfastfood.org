@@ -73,10 +73,12 @@ export default function RestaurantCloud({restaurants}) {
         </div>
       </div>
       <div className="flex justify-center">
-      <a href="/restaurants" className="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
+      <Link href="/restaurants" >
+          <div className="bg-red-500 hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded mx-auto">
         See All Restaurants
-      </a>
-      </div>
+        </div>
+      </Link>
+    </div>
     </div>
   )
 }
