@@ -209,7 +209,7 @@ export default function Restaurant(props) {
  {restaurants.slice(0,30)
  .map((restaurant)=>(
  
-  <div className="hover:bg-stone-200 p-2 rounded-xl">
+  <div className="hover:bg-stone-200 p-2 rounded-xl" key={restaurant.slug}>
   <a href={`/${restaurant.slug}`} className="cursor-pointer w-full flex items-center" key={restaurant.slug}>
   {/* <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500"> */}
     <div className="relative w-6 h-6">
