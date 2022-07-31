@@ -23,14 +23,17 @@ export const getServerSideProps = async (context) => {
 
 
   const highestProtein = await prisma.meal.findMany({
-    take: 15,
+    take: 10,
     where: {
+      category: {
+        parentCategorySlug: "burgers-sandwiches"
+      },
       protein: {
           gt: 50
       },
       restaurant: {
         rank: {
-         gt: 50
+         lt: 35
         }
     },
     },
@@ -41,28 +44,62 @@ export const getServerSideProps = async (context) => {
     ],
     include: {
       restaurant: true,
-      category: true,
+      category: {
+        include: {
+          parentCategory: true
+        }
+      },
       variants: true
     },
   });
 
-  // if (!data) {
-  //   return {
-  //     notFound: true,
-  //   };
-  // }
+  const highestProteinSalads = await prisma.meal.findMany({
+    take: 10,
+    where: {
+      category: {
+        parentCategorySlug: "salads"
+      },
+      calories: {
+        lt: 600
+      },
+      protein: {
+        gt: 1
+      },
+      restaurant: {
+        rank: {
+         lt: 35
+        }
+    },
+    },
+    orderBy: [
+      {
+        protein: "desc",
+      },
+    ],
+    include: {
+      restaurant: true,
+      category: {
+        include: {
+          parentCategory: true
+        }
+      },
+      variants: true
+    },
+  });
+ 
 
   return {
     props: {
       // data: JSON.parse(JSON.stringify(data)),
       restaurants: JSON.parse(JSON.stringify(restaurants)),
       highestProtein: JSON.parse(JSON.stringify(highestProtein)),
+      highestProteinSalads: JSON.parse(JSON.stringify(highestProteinSalads)),
     },
   };
 };
 
 export default function Home(props) {
-  let { data, restaurants, highestProtein } = props;
+  let { data, restaurants, highestProtein, highestProteinSalads } = props;
   let meals = highestProtein;
   let topRestaurants = restaurants.slice(0,15)
 
@@ -134,83 +171,11 @@ export default function Home(props) {
       <Layout>
         <RestaurantCloud restaurants={topRestaurants}/>
 
-        <h2 className="text-3xl font-bold text-center mb-8 mt-8">
-          Highest Protein Meals
+        <h2 className="text-3xl font-bold text-center mb-8 mt-16">
+          Highest Protein Burgers & Sandwiches
         </h2>
 
-        {/* <div className="flex space-x-2 mt-4 mb-4">
-          <div>
-          <input
-                id="burgers"
-                type="checkbox"
-                checked={filters.includes("Burgers & Sandwiches")}
-                onChange={() => handleFilter("Burgers & Sandwiches")}
-              />
-            <label
-              htmlFor="burgers"
-              className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-full text-sm font-medium"
-            >
-              Burgers & Sandwiches
-             
-            </label>
-          </div>
-          <div>
-            <input
-              id="breakfast"
-              type="checkbox"
-              checked={filters.includes("Breakfast")}
-              onChange={() => handleFilter("Breakfast")}
-            />
-            <label
-              htmlFor="breakfast"
-              className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-full text-sm font-medium "
-            >
-              Breakfast
-            </label>
-          </div>
-          <div>
-            <input
-              id="salads"
-              type="checkbox"
-              checked={filters.includes("Salads")}
-              onChange={() => handleFilter("Salads")}
-            />
-            <label
-              htmlFor="salads"
-              className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-full text-sm font-medium "
-            >
-              Salads
-            </label>
-          </div>
-          <div>
-            <input
-              id="beverages"
-              type="checkbox"
-              checked={filters.includes("Beverages")}
-              onChange={() => handleFilter("Beverages")}
-            />
-            <label
-              htmlFor="beverages"
-              className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-full text-sm font-medium "
-            >
-              Beverages
-            </label>
-          </div>
-          <div>
-            <input
-              id="condiments"
-              type="checkbox"
-              checked={filters.includes("Condiments")}
-              onChange={() => handleFilter("Condiments")}
-            />
-            <label
-              htmlFor="condiments"
-              className="cursor-pointer inline-flex items-center px-3.5 py-0.5 rounded-full text-sm font-medium "
-            >
-              Condiments
-            </label>
-          </div>
-        </div> */}
+
         <table className="min-w-full divide-y divide-stone-300 rounded-lg">
           <thead className="rounded-t-lg">
             <tr>
@@ -298,6 +263,99 @@ export default function Home(props) {
             ))}
           </tbody>
         </table>
+
+
+        <h2 className="text-3xl font-bold text-center mb-8 mt-16">
+          Highest Protein Salads Less Than 600cal
+        </h2>
+
+        <table className="min-w-full divide-y divide-stone-300 rounded-lg shadow-lg border overflow-hidden">
+          <thead className="rounded-t-lg">
+            <tr>
+              {/* <th
+                      scope="col"
+                      className="px-3 py-3.5 text-left text-sm font-semibold text-stone-900"
+                    >
+                      
+                    </th> */}
+              <th
+                scope="col"
+                className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
+              >
+                <div className="flex items-center">
+                  <div className="ml-8">
+                    <SortableTableHeader
+                      colKey="restaurantSlug"
+                      name="Restaurant"
+                    />
+                  </div>
+                  <div className="ml-2">
+                    <SortableTableHeader colKey="name" name="Name" />
+                  </div>
+                </div>
+              </th>
+              <th
+                scope="col"
+                className="px-3 py-0.5 text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeader colKey="categoryName" name="Type" />
+              </th>
+              <th
+                scope="col"
+                className="px-3 py-0.5 text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeader colKey="calories" name="Calories" />
+              </th>
+              <th
+                scope="col"
+                className=" py-0.5 text-right text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeader colKey="protein" name="Protein" />
+              </th>
+              <th
+                scope="col"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeader
+                  colKey="totalCarbohydrates"
+                  name="Total Carbs"
+                />
+              </th>
+              <th
+                scope="col"
+                className="py-0.5 text-left text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeader colKey="totalFat" name="Total Fat" />
+              </th>
+              <th
+                scope="col"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeaderInverse
+                  colKey="cholesterol"
+                  name="Cholesterol"
+                />
+              </th>
+              <th
+                scope="col"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeaderInverse colKey="sodium" name="Sodium" />
+              </th>
+              <th
+                scope="col"
+                className=" py-0.5 text-left text-sm font-semibold text-stone-900"
+              >
+                <SortableTableHeaderInverse colKey="sugar" name="Sugar" />
+              </th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-stone-200 bg-white">
+            {highestProteinSalads.map((meal) => (
+              <MealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
+            ))}
+          </tbody>
+        </table>
       </Layout>
     </div>
   );
@@ -368,6 +426,184 @@ export const formatCategory = (category, asElement, emojiOnly) => {
   }
 };
 
+
+export const formatParentCategory = (category, includeElement, includeEmoji, includeText) => {
+  let text = ""
+  let color = ""
+  let emoji = ""
+console.log(category)
+  if (category=="burgers-sandwiches") {
+    emoji = "🍔";
+    text = "Burgers & Sandwiches";
+    color = "red";
+  } 
+  else if (category=="steaks") {
+    emoji = "🥩"
+    text = "Steak";
+    color = "red";
+  } 
+  else if (category=="salads") {
+    emoji = "🥗"
+    text = "Salad";
+    color = "green";
+  } 
+  else if (category=="burritos") {
+    emoji = "🌯"
+    text = "Burrito";
+    color = "yellow";
+  } 
+  else if (category=="tacos") {
+    emoji = "🌮"
+    text = "Taco";
+    color = "yellow";
+  } 
+  else if (category=="pizzas") {
+    emoji = "🍕"
+    text = "Pizza";
+    color = "orange";
+  } 
+  else if (category=="soups") {
+    emoji = "🍲"
+    text = "Soup";
+    color = "blue";
+  } 
+  else if (category=="bowls") {
+    emoji = "🥣"
+    text = "Bowl";
+    color = "blue";
+  } 
+  else if (category=="pastas") {
+    emoji = "🍝"
+    text = "Pasta";
+    color = "orange";
+  } 
+  else if (category=="pastries") {
+    emoji = "🥐"
+    text = "Pastry";
+    color = "orange";
+  } 
+  else if (category=="breads") {
+    emoji = "🍞"
+    text = "Bread";
+    color = "orange";
+  } 
+  else if (category=="dressings-sauces") {
+    emoji = "🥫"
+    text = "Dressings & Sauces";
+    color = "stone";
+  } 
+  else if (category=="toppings") {
+    emoji = "⬇️"
+    text = "Toppings";
+    color = "stone";
+  } 
+  else if (category=="sides") {
+    emoji = "🍢"
+    text = "Side";
+    color = "blue";
+  } 
+  else if (category=="appetizers") {
+    emoji = "🍽️"
+    text = "Appetizer";
+    color = "blue";
+  } 
+  else if (category=="breakfast") {
+    emoji = "🍳"
+    text = "Breakfast";
+    color = "yellow";
+  } 
+  else if (category=="lunch-dinner") {
+    emoji = "🥘"
+    text = "Lunch & Dinner";
+    color = "indigo";
+  } 
+  else if (category=="kids-meals") {
+    emoji = "👶"
+    text = "Kids Meal";
+    color = "pink";
+  } 
+  else if (category=="senior-meals") {
+    emoji = "🧓"
+    text = "Senior Meal";
+    color = "pink";
+  } 
+
+  else if (category=="beef") {
+    emoji = "🐮"
+    text = "Beef";
+    color = "red";
+  } 
+  else if (category=="wings") {
+    emoji = "🐓"
+    text = "Wings";
+    color = "yellow";
+  } 
+  else if (category=="chicken") {
+    emoji = "🐔"
+    text = "Chicken";
+    color = "yellow";
+  } 
+  else if (category=="seafood") {
+    emoji = "🐟"
+    text = "Seafood";
+    color = "stone";
+  } 
+  else if (category=="donuts") {
+    emoji = "🍩"
+    text = "Donuts";
+    color = "stone";
+  } 
+  else if (category=="desserts") {
+    emoji = "🧁"
+    text = "Dessert";
+    color = "stone";
+  } 
+  else if (category=="ice-cream") {
+    emoji = "🍦"
+    text = "Ice Cream";
+    color = "stone";
+  } 
+
+  else if (category=="beverages") {
+    emoji = "🥤"
+    text = "Beverage";
+    color = "stone";
+  } 
+  else if (category=="coffee") {
+    emoji = "☕"
+    text = "Coffee";
+    color = "stone";
+  } 
+  else if (category=="shakes") {
+    emoji = "🥤"
+    text = "Shake";
+    color = "stone";
+  } 
+  else if (category=="alcohol") {
+    emoji = "🍺"
+    text = "Alcohol";
+    color = "stone";
+  } 
+  else {
+    text = category;
+    color = "teal";
+  }
+
+  let finalString = (includeEmoji ? emoji : "") + (includeEmoji && includeText ? " " : "") + (includeText ? text : "")
+
+  if (includeElement) {
+    return (
+      <span
+        className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-${color}-100 text-stone-800`}
+      >
+        {finalString}
+      </span>
+    );
+  } else {
+    return finalString
+  }
+};
+
 export const MealRow = ({
   restaurantName,
   restaurantSlug,
@@ -406,7 +642,7 @@ export const MealRow = ({
         </div>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {formatCategory(meal.category.name, true, false)}
+        {formatParentCategory(meal.category.parentCategoryName, true, false)}
       </td>
       <td className=" py-1 text-md text-stone-900 text-center">
         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
@@ -419,7 +655,7 @@ export const MealRow = ({
         <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {meal.totalFat} <span className="text-stone-500 text-sm">g</span>
+        {parseFloat(meal.totalFat).toFixed(0)} <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
         {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>

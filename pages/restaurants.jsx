@@ -32,6 +32,20 @@ export const getServerSideProps = async (context) => {
 };
 export default function Restaurants(props) {
   const { restaurants } = props;
+
+
+  let {
+    items,
+    requestSort,
+    requestSortPreserveDirection,
+    sortConfig,
+    SortableTableHeader,
+    SortableTableHeaderInverse,
+    SortableTableHeaderROI,
+  } = useSortableData(restaurants);
+
+console.log(restaurants)
+
   return (
     <div className="">
       <Head>
@@ -52,15 +66,20 @@ export default function Restaurants(props) {
                   <td
                     scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
-                  >Restaurant Name</td>
+                  >
+                  <SortableTableHeader colKey="name" name="Name" />
+                  </td>
                   <td
                     scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
-                  >Popularity Rank</td>
+                  >
+                <SortableTableHeader colKey="rank" name="Size Rank" />
+
+                  </td>
                 </tr>
               </thead>
               <tbody className="divide-y divide-stone-200">
-                {restaurants.map((restaurant) => (
+                {items.map((restaurant) => (
                   <tr className="hover:bg-stone-100" key={restaurant.key}>
                   <td className="w-2 text-right pr-4 text-stone-500">
                   {restaurant.rank}

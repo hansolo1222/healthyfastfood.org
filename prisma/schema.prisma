@@ -22,6 +22,10 @@ model meal {
   dietaryFiber       Decimal?
   sugar              Decimal?
   protein            Decimal?
+  proteinPerCalorie  Decimal?
+  proteinCarbRatio   Decimal?
+  sodiumPerCalorie   Decimal?
+  sodiumPerProtein   Decimal?
   vitaminA           Int?
   vitaminC           Int?
   calcium            Int?
@@ -47,11 +51,15 @@ model variant {
   saturatedFat       Decimal?
   transFat           Decimal?
   cholesterol        Decimal?
-  sodium             Int?
+  sodium             Decimal?
   totalCarbohydrates Decimal?
   dietaryFiber       Decimal?
   sugar              Decimal?
-  protein            Int?
+  protein            Decimal?
+  proteinPerCalorie  Decimal?
+  proteinCarbRatio   Decimal?
+  sodiumPerCalorie   Decimal?
+  sodiumPerProtein   Decimal?
   vitaminA           Int?
   vitaminC           Int?
   calcium            Int?
@@ -72,8 +80,20 @@ model restaurant {
 }
 
 model category {
+  id                  String  @default(uuid())
+  name                String  @unique
+  slug                String?
+  meals               meal[]
+  parentCategory      parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
+  parentCategorySlug  String?
+  // parentCategory2     parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
+  // parentCategorySlug  String?
+}
+
+
+model parentCategory {
   id    String  @default(uuid())
   name  String  @unique
-  slug  String?
-  meals meal[]
+  slug  String @unique
+  categories category[] 
 }

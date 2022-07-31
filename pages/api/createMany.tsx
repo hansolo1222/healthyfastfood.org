@@ -2,8 +2,8 @@
 import prisma from "../../lib/prisma";
 
 const wendys = require("/public/data/wendys.json");
-const dunkinDonuts = require("/public/data/dunkin-donuts.json");
-let dataSource = dunkinDonuts;
+const donatos = require("/public/data/donatos.json");
+let dataSource = donatos;
 
 import fs from "fs";
 import path from "path";
@@ -42,58 +42,66 @@ export default async (req, res) => {
     let alreadyCompleted = getRestaurants.map((r) => r.slug + ".json");
     let mealData = []
 
+    // .filter((fileName) => !alreadyCompleted.includes(fileName) && fileName != 'starbucks.json')
+
+
     files
-    .filter((fileName) => !alreadyCompleted.includes(fileName) && fileName != 'starbucks.json')
+    .filter((fileName) => fileName != 'starbucks.json')
     .map((fileName)=>{
       const dataSource = require("/public/data/" + fileName);
       mealData = [...mealData, ...dataSource]
     })
 
         // duplicates
-    let sorted = mealData.map((d)=>(d.restaurant_slug + "-" + d.slug)).sort()
-    const findDuplicates = arry => arry.filter((item, index) => sorted.indexOf(item) !== index)
-    console.log(findDuplicates(sorted), "DUPLICATES!!!!!");
+    // let sorted = mealData.map((d)=>(d.restaurant_slug + "-" + d.slug)).sort()
+    // const findDuplicates = arry => arry.filter((item, index) => sorted.indexOf(item) !== index)
+    // console.log(findDuplicates(sorted), "DUPLICATES!!!!!");
 
     
     let dataSource = mealData
 
-          const formattedData = dataSource.map((meal) => {
-            return {
-              name: meal.meal_name,
-              slug: meal.slug,
-              restaurantSlug: meal.restaurant_slug,
-              combinedSlug: meal.restaurant_slug + "-" + meal.slug,
-              categoryName: meal.category,
-              calories:
-                meal.calories !== undefined ? Math.round(meal.calories) : null,
-              totalFat: meal.total_fat !== undefined ? meal.total_fat : null,
-              saturatedFat:
-                meal.saturated_fat !== undefined ? meal.saturated_fat : null,
-              transFat: meal.trans_fat !== undefined ? meal.trans_fat : null,
-              cholesterol:
-                meal.cholesterol !== undefined ? meal.cholesterol : null,
-              sodium: meal.sodium !== undefined ? meal.sodium : null,
-              totalCarbohydrates:
-                meal.total_carbohydrates !== undefined
-                  ? meal.total_carbohydrates
-                  : null,
-              dietaryFiber:
-                meal.dietary_fiber !== undefined ? meal.dietary_fiber : null,
-              sugar: meal.sugar !== undefined ? meal.sugar : null,
-              protein: meal.protein !== undefined ? meal.protein : null,
-              vitaminA: meal.vitamin_a !== undefined ? meal.vitamin_a : null,
-              vitaminC: meal.vitamin_c !== undefined ? meal.vitamin_c : null,
-              calcium: meal.calcium !== undefined ? meal.calcium : null,
-              iron: meal.iron !== undefined ? meal.iron : null,
-              ingredients: meal.ingredients,
-              allergensTrue: meal.allergens_true,
-              allergensFalse: meal.allergens_false,
-            };
-          });
+    //       const formattedData = dataSource.map((meal) => {
+    //         return {
+    //           name: meal.meal_name,
+    //           slug: meal.slug,
+    //           restaurantSlug: meal.restaurant_slug,
+    //           combinedSlug: meal.restaurant_slug + "-" + meal.slug,
+    //           categoryName: meal.category,
+    //           calories:
+    //             meal.calories !== undefined ? Math.round(meal.calories) : null,
+    //           totalFat: meal.total_fat !== undefined ? meal.total_fat : null,
+    //           saturatedFat:
+    //             meal.saturated_fat !== undefined ? meal.saturated_fat : null,
+    //           transFat: meal.trans_fat !== undefined ? meal.trans_fat : null,
+    //           cholesterol:
+    //             meal.cholesterol !== undefined ? meal.cholesterol : null,
+    //           sodium: meal.sodium !== undefined ? meal.sodium : null,
+    //           totalCarbohydrates:
+    //             meal.total_carbohydrates !== undefined
+    //               ? meal.total_carbohydrates
+    //               : null,
+    //           dietaryFiber:
+    //             meal.dietary_fiber !== undefined ? meal.dietary_fiber : null,
+    //           sugar: meal.sugar !== undefined ? meal.sugar : null,
+    //           protein: meal.protein !== undefined ? meal.protein : null,
+    //           vitaminA: meal.vitamin_a !== undefined ? meal.vitamin_a : null,
+    //           vitaminC: meal.vitamin_c !== undefined ? meal.vitamin_c : null,
+    //           calcium: meal.calcium !== undefined ? meal.calcium : null,
+    //           iron: meal.iron !== undefined ? meal.iron : null,
+    //           ingredients: meal.ingredients,
+    //           allergensTrue: meal.allergens_true,
+    //           allergensFalse: meal.allergens_false,
+    //         };
+    //       });
 
-          const meals = await prisma.meal.createMany({
-            data: formattedData,
-          });
+    //       const meals = await prisma.meal.createMany({
+    //         data: formattedData,
+    //       });
+
+
+   //*********************************************************************************
+  //*********************** FIRST TIME SUBMIT VARIANTS *****************************
+   //*********************************************************************************
 
           const formattedVariants = dataSource
             .flatMap((meal) => {
@@ -159,7 +167,7 @@ export default async (req, res) => {
         
     
 
-    res.send(JSON.stringify(findDuplicates(sorted), null, 2));
+    res.send(JSON.stringify(formattedVariants, null, 2));
   } catch (error) {
     console.log(error);
   }

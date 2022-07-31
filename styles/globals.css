@@ -25,20 +25,15 @@ input {
 }
 
 input + label {
-  background-color: rgb(249 250 251);
-  border: 1px solid #ccc;
-
+  background-color:  rgb(245 245 244);
   color: #999;
+  border: solid 1px white;
 }
 
 input:checked + label {
-  background-color: #FAF1D1;
-  border:  1px solid #ccc;
-  color: #1c1917;
-}
-
-.font-black {
-
+  background-color: white;
+  color: rgb(234 88 12);
+  border: solid 1px rgb(234 88 12);
 }
 
 .performance-facts {
@@ -115,4 +110,9 @@ td:last-child {
 .thin-end {
   border-bottom: 1px solid #1c1917
   ;
+}
+
+
+.single-cell-row {
+  text-align:center!important;
 }

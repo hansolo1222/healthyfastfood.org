@@ -1,0 +1,7394 @@
+[
+    {
+        "name": "Bases",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cava",
+            "Sweetgreen",
+            "Bibibop"
+        ]
+    },
+    {
+        "name": "Dips & Spreads",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cava"
+        ]
+    },
+    {
+        "name": "Extras",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cava",
+            "Pita Pit",
+            "Marco's Pizza",
+            "Freebirds",
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Dressings & Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Cava",
+            "Freshii"
+        ]
+    },
+    {
+        "name": "Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Cava",
+            "Chicken Express",
+            "Portillo's",
+            "Checkers",
+            "Jimmy Johns",
+            "Taco Cabana",
+            "Mod Pizza",
+            "Pita Pit",
+            "Freddy's",
+            "Wienerschnitzel",
+            "Firehouse Subs",
+            "Jack in the Box",
+            "Pei Wei",
+            "Church's Chicken",
+            "Carl's Jr",
+            "Costa Vida",
+            "Which Wich",
+            "Longhorn",
+            "Culvers",
+            "Costco Food Court",
+            "In-N-Out Burger",
+            "Cafe Rio",
+            "Chicken Salad Chick",
+            "Freebirds",
+            "Wingstop",
+            "Pizza Hut",
+            "Pollo Tropical",
+            "Taco Time",
+            "Fazoli's",
+            "El Pollo Loco",
+            "Jersey Mike's",
+            "Potbelly",
+            "Shake Shack",
+            "Sheetz",
+            "Blaze Pizza",
+            "Hooters",
+            "Whataburger",
+            "Raising Cane's",
+            "Del Taco",
+            "Panera",
+            "California Pizza Kitchen",
+            "Subway"
+        ]
+    },
+    {
+        "name": "Proteins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cava",
+            "Freshii",
+            "Mission BBQ",
+            "Salsarita's",
+            "Bibibop"
+        ]
+    },
+    {
+        "name": "Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Cava",
+            "Applebee's",
+            "Cracker Barrel",
+            "IHOP",
+            "Domino's Pizza",
+            "Culvers",
+            "Waffle House",
+            "Five Guys",
+            "Freebirds",
+            "Jamba Juice",
+            "Dairy Queen",
+            "Salsarita's",
+            "Cold Stone Creamery",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Chicken",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Chicken Express",
+            "Domino's Pizza",
+            "Popeyes",
+            "Sonic",
+            "Bojangles",
+            "Ruby Tuesday",
+            "KFC",
+            "El Pollo Loco",
+            "Shake Shack",
+            "Panda Express",
+            "Whataburger"
+        ]
+    },
+    {
+        "name": "Chicken E Blend Add-Ins",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Chicken Express"
+        ]
+    },
+    {
+        "name": "Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Chicken Express",
+            "Portillo's",
+            "On The Border",
+            "P.F. Chang's",
+            "McDonald's",
+            "Texas Roadhouse",
+            "O'Charley's",
+            "Moe's",
+            "Applebee's",
+            "Taco Cabana",
+            "Zoes Kitchen",
+            "Mod Pizza",
+            "Newk's",
+            "Jason's Deli",
+            "Freshii",
+            "Cracker Barrel",
+            "Boston Market",
+            "McAlister's",
+            "Domino's Pizza",
+            "The Cheesecake Factory",
+            "BJ's",
+            "PDQ",
+            "TGI Fridays",
+            "Jet's Pizza",
+            "Pei Wei",
+            "Little Caesars",
+            "Zaxby's",
+            "Church's Chicken",
+            "Carl's Jr",
+            "Costa Vida",
+            "Which Wich",
+            "Rubio's",
+            "Longhorn",
+            "Waffle House",
+            "Marco's Pizza",
+            "Fuddruckers",
+            "Steak 'n Shake",
+            "Popeyes",
+            "Red Robin",
+            "Cafe Rio",
+            "Chicken Salad Chick",
+            "Bojangles",
+            "Ruby Tuesday",
+            "Carrabba's",
+            "Bob Evans",
+            "Hardee's",
+            "Pizza Hut",
+            "Pollo Tropical",
+            "Krispy Kreme",
+            "Chuy's",
+            "Wendy's",
+            "Noodles & Company",
+            "KFC",
+            "Olive Garden",
+            "Taco Time",
+            "Fazoli's",
+            "Jersey Mike's",
+            "Burger King",
+            "Potbelly",
+            "Krystal",
+            "Famous Dave's",
+            "Donatos",
+            "Blaze Pizza",
+            "Papa Murphy's",
+            "Perkin's",
+            "Salsarita's",
+            "Tijuana Flats",
+            "Chick-fil-A",
+            "The Habit",
+            "Yard House",
+            "Hooters",
+            "Chili's",
+            "Mellow Mushroom",
+            "Whataburger",
+            "White Castle",
+            "Golden Corral",
+            "Schlotzsky's",
+            "Del Taco",
+            "Denny's",
+            "California Pizza Kitchen",
+            "Sbarro",
+            "Red Lobster",
+            "Captain D's",
+            "Long John Silver's",
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Fish",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "Chicken Express"
+        ]
+    },
+    {
+        "name": "Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Chicken Express",
+            "Checkers",
+            "Applebee's",
+            "Zoes Kitchen",
+            "Cracker Barrel",
+            "Boston Market",
+            "IHOP",
+            "PDQ",
+            "Church's Chicken",
+            "Mission BBQ",
+            "Red Robin",
+            "Freebirds",
+            "Chuy's",
+            "Chick-fil-A",
+            "Hooters",
+            "Bibibop",
+            "Chili's",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Side Orders",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Chicken Express",
+            "Portillo's"
+        ]
+    },
+    {
+        "name": "Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Portillo's",
+            "Zoes Kitchen",
+            "Freshii",
+            "PDQ",
+            "Tropical Smoothie Cafe",
+            "Jamba Juice",
+            "El Pollo Loco",
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Portillo's",
+            "PDQ",
+            "Chuy's",
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Extras & Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Portillo's"
+        ]
+    },
+    {
+        "name": "Nudies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Portillo's"
+        ]
+    },
+    {
+        "name": "Pastas & Ribs",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Portillo's"
+        ]
+    },
+    {
+        "name": "Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Portillo's",
+            "P.F. Chang's",
+            "McDonald's",
+            "O'Charley's",
+            "Starbucks",
+            "Moe's",
+            "Applebee's",
+            "Mod Pizza",
+            "Newk's",
+            "Jason's Deli",
+            "Freshii",
+            "Pita Pit",
+            "Cracker Barrel",
+            "McAlister's",
+            "IHOP",
+            "Arby's",
+            "Domino's Pizza",
+            "The Cheesecake Factory",
+            "BJ's",
+            "Quiznos",
+            "PDQ",
+            "TGI Fridays",
+            "Jack in the Box",
+            "Jet's Pizza",
+            "Which Wich",
+            "Corner Bakery",
+            "Culvers",
+            "Waffle House",
+            "Wawa",
+            "Marco's Pizza",
+            "Fuddruckers",
+            "Steak 'n Shake",
+            "Red Robin",
+            "Bojangles",
+            "Blimpie",
+            "Chuy's",
+            "Wendy's",
+            "Noodles & Company",
+            "Taco Time",
+            "Hungry Howie's",
+            "Fazoli's",
+            "Chipotle",
+            "Jersey Mike's",
+            "Burger King",
+            "Potbelly",
+            "Famous Dave's",
+            "Donatos",
+            "Blaze Pizza",
+            "Papa Murphy's",
+            "Tijuana Flats",
+            "Chick-fil-A",
+            "Au Bon Pain",
+            "The Habit",
+            "Hooters",
+            "Chili's",
+            "First Watch",
+            "Baja Fresh",
+            "Mellow Mushroom",
+            "Golden Corral",
+            "Schlotzsky's",
+            "Del Taco",
+            "Denny's",
+            "Panera",
+            "California Pizza Kitchen",
+            "Subway",
+            "Sbarro",
+            "7-Eleven",
+            "Captain D's",
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Sandwiches & Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Portillo's",
+            "Applebee's",
+            "Corner Bakery",
+            "Red Robin",
+            "Dunkin Donuts"
+        ]
+    },
+    {
+        "name": "Soups",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Portillo's",
+            "P.F. Chang's",
+            "O'Charley's",
+            "Bruegger's",
+            "Newk's",
+            "Freshii",
+            "McAlister's",
+            "Firehouse Subs",
+            "La Madeleine",
+            "The Cheesecake Factory",
+            "Quiznos",
+            "Culvers",
+            "Saladworks",
+            "Wawa",
+            "Bob Evans",
+            "Blimpie",
+            "Chuy's",
+            "Noodles & Company",
+            "Famous Dave's",
+            "Kwik Trip",
+            "Au Bon Pain",
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Add an OTB Meltdown Shot",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "On The Border",
+            "McDonald's",
+            "Texas Roadhouse",
+            "Cookout",
+            "Tim Hortons",
+            "Newk's",
+            "Baskin-Robbins",
+            "Taco Bell",
+            "Cracker Barrel",
+            "McAlister's",
+            "Arby's",
+            "The Cheesecake Factory",
+            "BJ's",
+            "PDQ",
+            "Godfather's Pizza",
+            "Zaxby's",
+            "Corner Bakery",
+            "Tropical Smoothie Cafe",
+            "BurgerFi",
+            "Marco's Pizza",
+            "Steak 'n Shake",
+            "Popeyes",
+            "Red Robin",
+            "Carrabba's",
+            "Bob Evans",
+            "Krispy Kreme",
+            "Wendy's",
+            "Chipotle",
+            "Burger King",
+            "Donatos",
+            "Casey's",
+            "Panda Express",
+            "Perkin's",
+            "Salsarita's",
+            "Tijuana Flats",
+            "Chick-fil-A",
+            "Au Bon Pain",
+            "Cinnabon",
+            "The Habit",
+            "Yard House",
+            "Bibibop",
+            "Chili's",
+            "Baja Fresh",
+            "Mellow Mushroom",
+            "White Castle",
+            "Schlotzsky's",
+            "Denny's",
+            "7-Eleven",
+            "Captain D's",
+            "Long John Silver's",
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Border Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Burritos & Chimis",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Cervezas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Cocktails",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "On The Border",
+            "Outback",
+            "TGI Fridays",
+            "Longhorn",
+            "Carrabba's",
+            "Hooters",
+            "California Pizza Kitchen",
+            "Red Lobster"
+        ]
+    },
+    {
+        "name": "Combos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border",
+            "Chuy's",
+            "Raising Cane's"
+        ]
+    },
+    {
+        "name": "Enchiladas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border",
+            "Chuy's"
+        ]
+    },
+    {
+        "name": "Entrees",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border",
+            "BJ's",
+            "Pei Wei",
+            "Longhorn",
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Fajitas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border",
+            "Chuy's"
+        ]
+    },
+    {
+        "name": "Sides & Add-Ons",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "On The Border",
+            "Krystal"
+        ]
+    },
+    {
+        "name": "Frozen Margaritas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Kids Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "On The Border",
+            "P.F. Chang's",
+            "O'Charley's",
+            "Applebee's",
+            "Jason's Deli",
+            "Cracker Barrel",
+            "McAlister's",
+            "IHOP",
+            "BJ's",
+            "Pei Wei",
+            "Which Wich",
+            "Rubio's",
+            "Waffle House",
+            "Fuddruckers",
+            "Red Robin",
+            "Chicken Salad Chick",
+            "Carrabba's",
+            "Bob Evans",
+            "Chuy's",
+            "Noodles & Company",
+            "Potbelly",
+            "Tijuana Flats",
+            "Chili's",
+            "Denny's",
+            "Captain D's"
+        ]
+    },
+    {
+        "name": "Margaritas on the Rocks",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Soup & Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "On The Border",
+            "Costco Food Court"
+        ]
+    },
+    {
+        "name": "Starters",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "On The Border",
+            "Zoes Kitchen",
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Tacos",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "On The Border",
+            "Moe's",
+            "Taco John's",
+            "Applebee's",
+            "Taco Bell",
+            "Rubio's",
+            "Freebirds",
+            "Chuy's",
+            "Taco Time",
+            "Chipotle",
+            "Tijuana Flats",
+            "Hooters",
+            "Chili's",
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Wine By The Glass",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "On The Border"
+        ]
+    },
+    {
+        "name": "Beef & Pork Entrees",
+        "parentCategory": "Beef",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Chicken Entrees",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Dim Sum",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Gluten Free Menu",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Lunch Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Noodles & Rice",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Seafood Entrees",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "P.F. Chang's",
+            "Texas Roadhouse",
+            "Buffalo Wild Wings",
+            "Outback",
+            "O'Charley's",
+            "Moe's",
+            "Cookout",
+            "Jimmy Johns",
+            "Applebee's",
+            "Taco Cabana",
+            "Mod Pizza",
+            "Newk's",
+            "Jason's Deli",
+            "Taco Bell",
+            "Freddy's",
+            "Cracker Barrel",
+            "McAlister's",
+            "IHOP",
+            "Domino's Pizza",
+            "BJ's",
+            "PDQ",
+            "TGI Fridays",
+            "Jet's Pizza",
+            "Zaxby's",
+            "Church's Chicken",
+            "Carl's Jr",
+            "Which Wich",
+            "Corner Bakery",
+            "Rubio's",
+            "Longhorn",
+            "Culvers",
+            "Mission BBQ",
+            "Waffle House",
+            "Tropical Smoothie Cafe",
+            "BurgerFi",
+            "Wawa",
+            "Marco's Pizza",
+            "Fuddruckers",
+            "Steak 'n Shake",
+            "Red Robin",
+            "Bojangles",
+            "Ruby Tuesday",
+            "Carrabba's",
+            "Wingstop",
+            "Hardee's",
+            "Pizza Hut",
+            "Pollo Tropical",
+            "Wendy's",
+            "Noodles & Company",
+            "KFC",
+            "Taco Time",
+            "El Pollo Loco",
+            "Jersey Mike's",
+            "Burger King",
+            "Famous Dave's",
+            "Blaze Pizza",
+            "Chick-fil-A",
+            "WaBa Grill",
+            "The Habit",
+            "Hooters",
+            "Bibibop",
+            "Chili's",
+            "White Castle",
+            "Golden Corral",
+            "Del Taco",
+            "Denny's",
+            "Panera",
+            "Red Lobster",
+            "Captain D's",
+            "Long John Silver's",
+            "Pizza Ranch",
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Street Fare",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Sushi",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Vegetarian Entrees",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "P.F. Chang's"
+        ]
+    },
+    {
+        "name": "Burgers & Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "McDonald's",
+            "Texas Roadhouse",
+            "Buffalo Wild Wings",
+            "Checkers",
+            "The Cheesecake Factory",
+            "Ruby Tuesday",
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Breakfast",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "McDonald's",
+            "Starbucks",
+            "Taco John's",
+            "Tim Hortons",
+            "Taco Cabana",
+            "Jason's Deli",
+            "Taco Bell",
+            "Cracker Barrel",
+            "Wienerschnitzel",
+            "La Madeleine",
+            "IHOP",
+            "Arby's",
+            "Quiznos",
+            "TGI Fridays",
+            "Jack in the Box",
+            "Church's Chicken",
+            "Carl's Jr",
+            "Waffle House",
+            "Tropical Smoothie Cafe",
+            "Wawa",
+            "Marco's Pizza",
+            "Steak 'n Shake",
+            "Popeyes",
+            "Sonic",
+            "Hardee's",
+            "Dunkin Donuts",
+            "Krispy Kreme",
+            "Blimpie",
+            "Wendy's",
+            "Taco Time",
+            "Dairy Queen",
+            "Burger King",
+            "Auntie Anne's",
+            "Potbelly",
+            "Krystal",
+            "Casey's",
+            "Perkin's",
+            "Chick-fil-A",
+            "Cinnabon",
+            "Baja Fresh",
+            "Whataburger",
+            "White Castle",
+            "Golden Corral",
+            "Del Taco",
+            "Denny's",
+            "Panera",
+            "Sbarro",
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Chicken Nuggets and Strips",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "McDonald's"
+        ]
+    },
+    {
+        "name": "Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "McDonald's",
+            "Texas Roadhouse",
+            "Taco John's",
+            "Freddy's",
+            "Cracker Barrel",
+            "Which Wich",
+            "Culvers",
+            "Sonic",
+            "Krispy Kreme",
+            "Dairy Queen",
+            "Casey's",
+            "Kwik Trip",
+            "White Castle",
+            "Denny's",
+            "Captain D's"
+        ]
+    },
+    {
+        "name": "Happy Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "McDonald's"
+        ]
+    },
+    {
+        "name": "McCafe Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "McDonald's"
+        ]
+    },
+    {
+        "name": "Menu Hacks",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McDonald's"
+        ]
+    },
+    {
+        "name": "Snacks & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "McDonald's",
+            "Jack in the Box",
+            "Costco Food Court",
+            "Sonic",
+            "Sheetz"
+        ]
+    },
+    {
+        "name": "Appetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Texas Roadhouse",
+            "Buffalo Wild Wings",
+            "Outback",
+            "O'Charley's",
+            "Applebee's",
+            "McAlister's",
+            "IHOP",
+            "BJ's",
+            "Pei Wei",
+            "Costa Vida",
+            "Longhorn",
+            "Fuddruckers",
+            "Red Robin",
+            "Cafe Rio",
+            "Ruby Tuesday",
+            "Carrabba's",
+            "Chuy's",
+            "Noodles & Company",
+            "Olive Garden",
+            "Famous Dave's",
+            "Papa Murphy's",
+            "Panda Express",
+            "Perkin's",
+            "Tijuana Flats",
+            "Yard House",
+            "Hooters",
+            "Chili's",
+            "Denny's",
+            "California Pizza Kitchen",
+            "Red Lobster",
+            "Manchu Wok"
+        ]
+    },
+    {
+        "name": "Chicken Specialties",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Cocktails & Wine",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Country Dinners",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Hand-Cut Steaks",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Kids & Ranger Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Ribs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Texas Roadhouse",
+            "TGI Fridays",
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Salads & Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Texas Roadhouse",
+            "Bruegger's",
+            "Bob Evans"
+        ]
+    },
+    {
+        "name": "Seafood",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "Texas Roadhouse",
+            "Outback",
+            "O'Charley's",
+            "Applebee's",
+            "Cracker Barrel",
+            "Popeyes",
+            "Ruby Tuesday",
+            "Carrabba's",
+            "Yard House",
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Steak Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Texas Roadhouse",
+            "Longhorn"
+        ]
+    },
+    {
+        "name": "Texas-Sized Combos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Texas Roadhouse"
+        ]
+    },
+    {
+        "name": "Boneless Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Buffalo Wild Wings",
+            "Wingstop"
+        ]
+    },
+    {
+        "name": "Cauliflower Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Buffalo Wild Wings"
+        ]
+    },
+    {
+        "name": "Traditional Bone-in Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Buffalo Wild Wings"
+        ]
+    },
+    {
+        "name": "Wing Accompaniments",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Buffalo Wild Wings"
+        ]
+    },
+    {
+        "name": "Beer",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Outback",
+            "BJ's",
+            "TGI Fridays",
+            "Carrabba's",
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Burgers, Sandwiches & Tacos",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Chicken, Ribs, Chops and More",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Entree Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Outback",
+            "La Madeleine",
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Irresistible Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Kid's Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Outback",
+            "Freshii",
+            "Perkin's",
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Kid's Menu - Beverages",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Side Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Soup and Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Spirit-Free Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Steak Toppings & Add Ons",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Steaks",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "Outback",
+            "TGI Fridays",
+            "Longhorn",
+            "Ruby Tuesday",
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Surf and Turf",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Outback"
+        ]
+    },
+    {
+        "name": "Wine",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Outback",
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Brunch",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Brunch Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "O'Charley's",
+            "Applebee's",
+            "Wienerschnitzel",
+            "BJ's",
+            "TGI Fridays",
+            "BurgerFi",
+            "Fuddruckers",
+            "Five Guys",
+            "Red Robin",
+            "In-N-Out Burger",
+            "Sonic",
+            "Dairy Queen",
+            "Burger King",
+            "Famous Dave's",
+            "Shake Shack",
+            "Sheetz",
+            "Yard House",
+            "Mellow Mushroom",
+            "Whataburger",
+            "Del Taco"
+        ]
+    },
+    {
+        "name": "Chicken & Pasta",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Classic Combos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Kids Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "O'Charley's",
+            "PDQ"
+        ]
+    },
+    {
+        "name": "Over the Top & Under $10",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Salad Dressings & Add-Ons",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "O'Charley's",
+            "Starbucks",
+            "Bruegger's",
+            "Newk's",
+            "Boston Market",
+            "La Madeleine",
+            "Arby's",
+            "Domino's Pizza",
+            "BJ's",
+            "PDQ",
+            "TGI Fridays",
+            "Which Wich",
+            "Wawa",
+            "Steak 'n Shake",
+            "Five Guys",
+            "Popeyes",
+            "Chicken Salad Chick",
+            "Bojangles",
+            "KFC",
+            "Potbelly",
+            "Kwik Trip",
+            "Au Bon Pain",
+            "Cinnabon",
+            "The Habit",
+            "Yard House",
+            "First Watch",
+            "Schlotzsky's",
+            "Panera",
+            "Captain D's",
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Steak & Ribs",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "O'Charley's"
+        ]
+    },
+    {
+        "name": "Espresso Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Add Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Starbucks",
+            "Waffle House",
+            "Fazoli's",
+            "Captain D's"
+        ]
+    },
+    {
+        "name": "Bakery",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Starbucks",
+            "La Madeleine",
+            "Corner Bakery",
+            "Wawa",
+            "Krispy Kreme",
+            "Casey's",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Bottled Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks",
+            "Wawa",
+            "Qdoba"
+        ]
+    },
+    {
+        "name": "Brewed Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Starbucks",
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Chocolate Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Frappuccino Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Iced Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Iced Espresso Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Other Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Protein Boxes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Refreshers",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Starbucks",
+            "Dunkin Donuts",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Snacks & Sweets",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Tea Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Starbucks"
+        ]
+    },
+    {
+        "name": "Bagels",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Bruegger's",
+            "Dunkin Donuts",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Breads & Wraps",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Breakfast Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Bruegger's",
+            "Sheetz",
+            "Kwik Trip",
+            "Au Bon Pain",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Coffee & Blended Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Coffee Syrup Flavors",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Cookies & Dessert Bars",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Cream Cheese",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Muffins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Bruegger's",
+            "Tim Hortons",
+            "Perkin's",
+            "Kwik Trip",
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Other Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Bruegger's",
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Toppings - Cheese",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Toppings - Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Toppings - Eggs & Egg Patties",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Toppings - Meat",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Toppings - Nuts & Other Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Toppings - Vegetables & Fruit",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bruegger's"
+        ]
+    },
+    {
+        "name": "Burrito Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Moe's",
+            "Chipotle"
+        ]
+    },
+    {
+        "name": "Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Moe's",
+            "Taco John's",
+            "Freshii",
+            "Taco Bell",
+            "Rubio's",
+            "Chuy's",
+            "Taco Time",
+            "Chipotle",
+            "El Pollo Loco",
+            "Kwik Trip",
+            "Baja Fresh",
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Junior Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Moe's"
+        ]
+    },
+    {
+        "name": "Kids Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Moe's"
+        ]
+    },
+    {
+        "name": "Nachos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Moe's",
+            "Taco Cabana",
+            "Taco Bell",
+            "Freebirds",
+            "Taco Time",
+            "El Pollo Loco",
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Quesadillas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Moe's",
+            "Cookout",
+            "Taco Cabana",
+            "Tropical Smoothie Cafe",
+            "Taco Time",
+            "Chipotle",
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Salsa",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Moe's"
+        ]
+    },
+    {
+        "name": "Stacks",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Moe's"
+        ]
+    },
+    {
+        "name": "Char-Grilled Chicken Breast",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Chicken Strips",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Chopped Pork Barbeque",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Crispy Chicken Wraps",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Hamburgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Hot Crispy Spicy Chicken Breast Fillet",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Cookout"
+        ]
+    },
+    {
+        "name": "Hot Dogs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cookout",
+            "Checkers",
+            "Wienerschnitzel",
+            "BurgerFi",
+            "Wawa",
+            "Fuddruckers",
+            "Dairy Queen",
+            "Shake Shack",
+            "Sheetz"
+        ]
+    },
+    {
+        "name": "Milkshakes",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Cookout",
+            "PDQ",
+            "Zaxby's",
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "Chicken & Fish",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Checkers",
+            "Burger King"
+        ]
+    },
+    {
+        "name": "Desserts & Shakes",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Checkers"
+        ]
+    },
+    {
+        "name": "Fries & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Checkers"
+        ]
+    },
+    {
+        "name": "Slushies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Checkers"
+        ]
+    },
+    {
+        "name": "Kids Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Taco John's",
+            "Smashburger",
+            "Freddy's",
+            "Boston Market",
+            "PDQ",
+            "Zaxby's",
+            "Costa Vida",
+            "Sonic",
+            "Hardee's",
+            "Pollo Tropical",
+            "El Pollo Loco"
+        ]
+    },
+    {
+        "name": "Sides and Desserts",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Taco John's",
+            "Quiznos",
+            "Godfather's Pizza"
+        ]
+    },
+    {
+        "name": "Specialties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco John's",
+            "Taco Bell",
+            "Wienerschnitzel",
+            "The Cheesecake Factory",
+            "Chuy's"
+        ]
+    },
+    {
+        "name": "TJ Baja Boneless Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Taco John's"
+        ]
+    },
+    {
+        "name": "Sub Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Jimmy Johns",
+            "Firehouse Subs",
+            "Quiznos",
+            "Jet's Pizza",
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Irresist-A-Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Applebee's"
+        ]
+    },
+    {
+        "name": "Main Dishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Applebee's",
+            "Red Robin",
+            "Qdoba",
+            "Olive Garden",
+            "Chili's",
+            "Red Lobster",
+            "Captain D's"
+        ]
+    },
+    {
+        "name": "Meal Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Applebee's",
+            "IHOP",
+            "Chili's",
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Pastas",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Applebee's",
+            "Jason's Deli",
+            "BJ's",
+            "Corner Bakery",
+            "Red Robin",
+            "Ruby Tuesday",
+            "Panera",
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Salad Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Applebee's",
+            "Newk's",
+            "Jason's Deli",
+            "Cracker Barrel",
+            "McAlister's",
+            "Firehouse Subs",
+            "IHOP",
+            "BJ's",
+            "TGI Fridays",
+            "Jet's Pizza",
+            "Which Wich",
+            "Saladworks",
+            "Steak 'n Shake",
+            "Red Robin",
+            "Potbelly",
+            "Famous Dave's",
+            "Perkin's",
+            "Chick-fil-A",
+            "Au Bon Pain",
+            "Hooters",
+            "Chili's",
+            "Mellow Mushroom",
+            "Schlotzsky's",
+            "Denny's",
+            "Panera",
+            "Captain D's",
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Soups & Chilis",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Applebee's",
+            "Jason's Deli",
+            "Cracker Barrel",
+            "Red Robin",
+            "Chili's",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Bagels & Spreads",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Tim Hortons",
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Cookies",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Tim Hortons",
+            "Pita Pit",
+            "Tropical Smoothie Cafe",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Donuts",
+        "parentCategory": "Donuts",
+        "restaurants": [
+            "Tim Hortons",
+            "Dunkin Donuts",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Lunch",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Tim Hortons"
+        ]
+    },
+    {
+        "name": "Pastries",
+        "parentCategory": "Pastries",
+        "restaurants": [
+            "Tim Hortons",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Timbits",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tim Hortons"
+        ]
+    },
+    {
+        "name": "Add-Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Cabana",
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "Bowls, Salads, & Burritos",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Taco Cabana"
+        ]
+    },
+    {
+        "name": "Family Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Cabana"
+        ]
+    },
+    {
+        "name": "Kid's Meal",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Taco Cabana",
+            "Panda Express",
+            "Chick-fil-A"
+        ]
+    },
+    {
+        "name": "Tacos, Combos & Plates",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "Taco Cabana"
+        ]
+    },
+    {
+        "name": "Tortilla Chips & More",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Cabana"
+        ]
+    },
+    {
+        "name": "Kabobs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Live Med Kids",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Mediterranean Family Dinners",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Pints & Quarts To Go",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Sandwiches & Rollups",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Sides & Snacks",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Zoes Kitchen"
+        ]
+    },
+    {
+        "name": "Soups & Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Zoes Kitchen",
+            "Longhorn",
+            "Ruby Tuesday",
+            "Carrabba's",
+            "Red Lobster"
+        ]
+    },
+    {
+        "name": "Cheese",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mod Pizza",
+            "Wawa",
+            "Kwik Trip",
+            "Penn Station"
+        ]
+    },
+    {
+        "name": "Crust",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Dipping Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Mod Pizza",
+            "Jack in the Box",
+            "Jet's Pizza",
+            "Marco's Pizza",
+            "Bojangles"
+        ]
+    },
+    {
+        "name": "Finishing Sauce",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Meat",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Milkshakes & Floats",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Mod Pizza",
+            "Newk's",
+            "Domino's Pizza",
+            "Costco Food Court",
+            "Kwik Trip",
+            "Yard House",
+            "Golden Corral",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Pizza Sauce",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Quinoa Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Salad Dressing",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Mod Pizza",
+            "Culvers",
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Vegetable Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Mod Pizza"
+        ]
+    },
+    {
+        "name": "Grab-N-Go Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Newk's"
+        ]
+    },
+    {
+        "name": "Little Newk's Kids Beverages",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Newk's"
+        ]
+    },
+    {
+        "name": "Little Newk's Kids Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Newk's"
+        ]
+    },
+    {
+        "name": "Mac & Cheese",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Newk's",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Salads - Added Meat",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Newk's"
+        ]
+    },
+    {
+        "name": "Potatoes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jason's Deli"
+        ]
+    },
+    {
+        "name": "Salad Components",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Jason's Deli",
+            "Cafe Rio",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Sandwich Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jason's Deli",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Sandwich Wraps",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jason's Deli",
+            "Casey's"
+        ]
+    },
+    {
+        "name": "Sandwiches & Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Jason's Deli",
+            "Cracker Barrel",
+            "IHOP",
+            "Waffle House",
+            "Casey's",
+            "Hooters",
+            "Chili's",
+            "Denny's",
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Ice Cream",
+        "parentCategory": "Ice Cream",
+        "restaurants": [
+            "Baskin-Robbins",
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Cones",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Baskin-Robbins"
+        ]
+    },
+    {
+        "name": "Cookies and Brownies",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Baskin-Robbins"
+        ]
+    },
+    {
+        "name": "Grab-N-Go",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Baskin-Robbins"
+        ]
+    },
+    {
+        "name": "Ice Cream Sundaes",
+        "parentCategory": "Ice Cream",
+        "restaurants": [
+            "Baskin-Robbins",
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Non-Dairy & Vegan Ice Cream",
+        "parentCategory": "Ice Cream",
+        "restaurants": [
+            "Baskin-Robbins"
+        ]
+    },
+    {
+        "name": "Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freshii",
+            "Pita Pit",
+            "Pinkberry",
+            "Tropical Smoothie Cafe",
+            "Wawa",
+            "Marco's Pizza",
+            "Auntie Anne's",
+            "Au Bon Pain",
+            "Cold Stone Creamery",
+            "White Castle"
+        ]
+    },
+    {
+        "name": "Wraps",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freshii",
+            "TGI Fridays",
+            "Saladworks",
+            "Sonic",
+            "Au Bon Pain",
+            "Subway"
+        ]
+    },
+    {
+        "name": "Chalupas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Bell"
+        ]
+    },
+    {
+        "name": "Condiments & Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Taco Bell"
+        ]
+    },
+    {
+        "name": "Fresco Menu",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Bell"
+        ]
+    },
+    {
+        "name": "Signature Recipe Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Smashburger"
+        ]
+    },
+    {
+        "name": "Haagen Dazs Shakes and Malts",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Smashburger"
+        ]
+    },
+    {
+        "name": "Salad Add Ons, Dressings and Side Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Smashburger"
+        ]
+    },
+    {
+        "name": "Signature Chicken Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Smashburger"
+        ]
+    },
+    {
+        "name": "Signature Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Smashburger",
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Signature Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Smashburger",
+            "Popeyes"
+        ]
+    },
+    {
+        "name": "Veggie Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Smashburger"
+        ]
+    },
+    {
+        "name": "Artisan Pitas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Brewed Teas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Cheeses for Pitas and Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Chips",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pita Pit",
+            "McAlister's",
+            "Marco's Pizza",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Classic Pitas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Milk & Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Pita Breads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Proteins for Pitas and Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Quesapitas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Sauces & Dressings for Pitas and Salads",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Side Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Toppings for Pitas and Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Pita Pit"
+        ]
+    },
+    {
+        "name": "Concretes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freddy's"
+        ]
+    },
+    {
+        "name": "Frozen Custard Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Freddy's"
+        ]
+    },
+    {
+        "name": "Frozen Custard Treats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freddy's"
+        ]
+    },
+    {
+        "name": "Lettuce Wrapped Options",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freddy's"
+        ]
+    },
+    {
+        "name": "Other Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Freddy's"
+        ]
+    },
+    {
+        "name": "Steakburgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Freddy's",
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "Sundaes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freddy's",
+            "Culvers",
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Breads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Cracker Barrel",
+            "Au Bon Pain",
+            "Panera",
+            "Subway"
+        ]
+    },
+    {
+        "name": "Lunch & Dinner",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Cracker Barrel",
+            "IHOP",
+            "Waffle House",
+            "Bob Evans"
+        ]
+    },
+    {
+        "name": "Individual Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Boston Market"
+        ]
+    },
+    {
+        "name": "Gourmet Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Boston Market"
+        ]
+    },
+    {
+        "name": "Holiday Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Boston Market"
+        ]
+    },
+    {
+        "name": "Market Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Boston Market"
+        ]
+    },
+    {
+        "name": "Salads & Soups",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Boston Market",
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Sliders",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Boston Market",
+            "Arby's",
+            "Krystal",
+            "White Castle",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Craft Your Own Sandwich Meats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Deli Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Flavor Shots",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Giant Spuds",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Kids Beverages",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "McAlister's",
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Sandwich Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Sandwich Bread",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "McAlister's",
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Sandwich Cheeses",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Sandwich Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "McAlister's",
+            "Which Wich",
+            "Wawa",
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Soup Garnishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Spud Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "McAlister's"
+        ]
+    },
+    {
+        "name": "Chili Cheese Fries",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Wienerschnitzel"
+        ]
+    },
+    {
+        "name": "Fries",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Wienerschnitzel",
+            "Five Guys"
+        ]
+    },
+    {
+        "name": "Tastee-Freez",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Wienerschnitzel"
+        ]
+    },
+    {
+        "name": "Catering Menu",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Cheeses",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Firehouse Subs",
+            "Jack in the Box",
+            "Jet's Pizza",
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Chopped Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Kid's Subs",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Salad Toppings",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Firehouse Subs",
+            "Jet's Pizza",
+            "Wawa",
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Sides & Chips",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Firehouse Subs",
+            "Chicken Salad Chick",
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Sub Breads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Sub Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Sub Meats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "Sub Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Firehouse Subs"
+        ]
+    },
+    {
+        "name": "A la Carte",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Breakfast Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "La Madeleine",
+            "Corner Bakery",
+            "Steak 'n Shake",
+            "Hardee's",
+            "Perkin's",
+            "White Castle",
+            "Schlotzsky's",
+            "Subway"
+        ]
+    },
+    {
+        "name": "Caf\u00e9 Sampler",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Caf\u00e9 Classiques",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Children's Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "La Madeleine",
+            "Longhorn"
+        ]
+    },
+    {
+        "name": "Children's Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Coffee & Tea",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "La Madeleine",
+            "TGI Fridays",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Entrees, Pastas & Crepes",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Oatmeal and Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Pastry",
+        "parentCategory": "Pastries",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Salad Add Ons",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "La Madeleine",
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Salad Sampler",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Sandwich Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "La Madeleine"
+        ]
+    },
+    {
+        "name": "Hot Fries & Chips",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "IHOP",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Pancakes & Waffles",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "IHOP"
+        ]
+    },
+    {
+        "name": "Senior Citizen Menu",
+        "parentCategory": "Senior Meals",
+        "restaurants": [
+            "IHOP"
+        ]
+    },
+    {
+        "name": "Kids Meal",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Arby's"
+        ]
+    },
+    {
+        "name": "Sauces and Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Arby's"
+        ]
+    },
+    {
+        "name": "Shakes & Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Arby's",
+            "Jack in the Box"
+        ]
+    },
+    {
+        "name": "Sides and Snacks",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Arby's"
+        ]
+    },
+    {
+        "name": "Pasta",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Domino's Pizza",
+            "The Cheesecake Factory",
+            "TGI Fridays",
+            "Marco's Pizza",
+            "Carrabba's",
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Specialty Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Domino's Pizza"
+        ]
+    },
+    {
+        "name": "Appetizer Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Breakfast & Brunch",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Build Your Own Omelette",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Cheesecakes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Cocktails, Beer & Wine",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Factory Combinations",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Fish & Seafood",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Flatbread Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Gluten Free Appetizer Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Appetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Breakfast",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Burgers & Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Kids' Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Lunch Specials",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Pasta",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Side Dishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Skinnylicious Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Skinnylicious Small Plates & Appetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Skinnylicious Specialties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Small Plates & Snacks",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Specialties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Gluten Free Steaks & Chops",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Kids' Menu",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "Corner Bakery",
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Lunch Pasta",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Lunch Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Lunch Specials",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "BJ's",
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Non-Alcoholic Cocktails",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Salad Dressings & Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Side Dishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "Panda Express"
+        ]
+    },
+    {
+        "name": "Skinnylicious Cocktails",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Skinnylicious Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Skinnylicious Small Plates & Appetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Skinnylicious Specialties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Small Plates & Snacks",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Specialty Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Steaks & Chops",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "The Cheesecake Factory",
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Super Foods",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "The Cheesecake Factory"
+        ]
+    },
+    {
+        "name": "Alcoholic Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Brewhouse Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Brunch Menu",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "BJ's",
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Deep Dish Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "BJ's",
+            "Little Caesars"
+        ]
+    },
+    {
+        "name": "Gluten-Free Thin Crust Cheese Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Handcrafted Draft Sodas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Housemade Soups",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Pizza Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "BJ's",
+            "Jet's Pizza",
+            "Marco's Pizza",
+            "Hungry Howie's",
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Salad Add-Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Snacks & Small Bites",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Specialty Entrees",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Starter Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Steaks And Slow Roasted Menu",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Tavern Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Wings & Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "BJ's"
+        ]
+    },
+    {
+        "name": "Blended Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Caribou Coffee"
+        ]
+    },
+    {
+        "name": "Cold Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Caribou Coffee"
+        ]
+    },
+    {
+        "name": "Food",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Caribou Coffee"
+        ]
+    },
+    {
+        "name": "Hot Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Caribou Coffee",
+            "Panera"
+        ]
+    },
+    {
+        "name": "Ciabatta Toasties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Quiznos"
+        ]
+    },
+    {
+        "name": "Tenders",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "PDQ"
+        ]
+    },
+    {
+        "name": "Appetizers & Snacks",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "TGI Fridays",
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Chicken & Seafood",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Kid's Drinks",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Kid's Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "TGI Fridays",
+            "BurgerFi",
+            "Qdoba"
+        ]
+    },
+    {
+        "name": "Lunch Pairings",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Non-Alcoholic Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Sandwich & Burger Add-Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Slushes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "TGI Fridays",
+            "Sonic",
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Soups & Side Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "TGI Fridays"
+        ]
+    },
+    {
+        "name": "Burgers & More",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Jack in the Box"
+        ]
+    },
+    {
+        "name": "Chicken & More",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Jack in the Box",
+            "Fuddruckers"
+        ]
+    },
+    {
+        "name": "Other",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jack in the Box",
+            "Mission BBQ",
+            "KFC"
+        ]
+    },
+    {
+        "name": "Jack's Munchies Meal Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jack in the Box"
+        ]
+    },
+    {
+        "name": "Salad Dressings and Toppings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Jack in the Box"
+        ]
+    },
+    {
+        "name": "Sandwich Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Jack in the Box"
+        ]
+    },
+    {
+        "name": "Cauliflower Crust Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Crust Flavors",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Crusts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Detroit Style Deep Dish Pizza Slices (4/8 Corner)",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Gluten-Free Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Hand Tossed Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Jet's Boat Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Jet's Boats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "NY Style Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Party Tray Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Pizza by the Slice",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Pizza Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Jet's Pizza",
+            "Marco's Pizza",
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Thin Crust Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Wings & Wing Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Jet's Pizza"
+        ]
+    },
+    {
+        "name": "Dairy Free Flavors",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Dry Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Frozen Yogurt Flavors",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Fruit Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Ice Cream Flavors",
+        "parentCategory": "Ice Cream",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Liquid Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Pinkberry"
+        ]
+    },
+    {
+        "name": "Noodle & Rice Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Pei Wei"
+        ]
+    },
+    {
+        "name": "Salad Bowls",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Pei Wei"
+        ]
+    },
+    {
+        "name": "Sauces & Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Pei Wei",
+            "Pizza Hut",
+            "Long John Silver's"
+        ]
+    },
+    {
+        "name": "Round Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Little Caesars"
+        ]
+    },
+    {
+        "name": "Breadsticks & Dipping Sauces",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Little Caesars"
+        ]
+    },
+    {
+        "name": "Chicken Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Little Caesars",
+            "Wingstop",
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Crazy Calzony",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Little Caesars"
+        ]
+    },
+    {
+        "name": "Stuffed Crust",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Little Caesars"
+        ]
+    },
+    {
+        "name": "Original Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Godfather's Pizza",
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Golden Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Godfather's Pizza"
+        ]
+    },
+    {
+        "name": "Mozza-Loaded Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Godfather's Pizza"
+        ]
+    },
+    {
+        "name": "Salad Bar",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Godfather's Pizza",
+            "Ruby Tuesday",
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "The Don's Light Line Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Godfather's Pizza"
+        ]
+    },
+    {
+        "name": "Thin Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Godfather's Pizza"
+        ]
+    },
+    {
+        "name": "Wings & Fingerz",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Zaxby's"
+        ]
+    },
+    {
+        "name": "Condiments and Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Zaxby's"
+        ]
+    },
+    {
+        "name": "Sandwich Baskets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Zaxby's"
+        ]
+    },
+    {
+        "name": "Zalads",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Zaxby's"
+        ]
+    },
+    {
+        "name": "Zappetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Zaxby's"
+        ]
+    },
+    {
+        "name": "Main Courses",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Church's Chicken"
+        ]
+    },
+    {
+        "name": "Thickburgers & Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Carl's Jr"
+        ]
+    },
+    {
+        "name": "Chicken Strips & Nuggets",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Carl's Jr"
+        ]
+    },
+    {
+        "name": "Hand-Scooped Ice Cream Shakes & Malts",
+        "parentCategory": "Ice Cream",
+        "restaurants": [
+            "Carl's Jr"
+        ]
+    },
+    {
+        "name": "Salad Dressings & Dipping Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Carl's Jr"
+        ]
+    },
+    {
+        "name": "Salads (without dressing)",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Carl's Jr"
+        ]
+    },
+    {
+        "name": "Baja Bowl Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Burrito Ingredients",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Enchilada Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Nacho Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Quesadilla Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Salad Ingredients",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Taco Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Costa Vida"
+        ]
+    },
+    {
+        "name": "Breads & Greens",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Which Wich"
+        ]
+    },
+    {
+        "name": "Deli Pasta Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Which Wich"
+        ]
+    },
+    {
+        "name": "Bagel Spreads",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Breakfast Entrees",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Breakfast Sandwiches and Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Cold Brew Coffees",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Frappes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Grilled Paninis",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Hot Beverage Add-Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Hot Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Kids' Beverages",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Kids' Breakfast Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Kids' Entree Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Oatmeals & Yogurt",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Soups & Chili",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Corner Bakery"
+        ]
+    },
+    {
+        "name": "Bowls & Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Rubio's"
+        ]
+    },
+    {
+        "name": "Quesadillas, Nachos & More",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Rubio's"
+        ]
+    },
+    {
+        "name": "Sauces & Salsas",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Rubio's"
+        ]
+    },
+    {
+        "name": "Taco Plates",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Rubio's"
+        ]
+    },
+    {
+        "name": "Beer & Wine",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Longhorn",
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Condiments & Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Longhorn",
+            "El Pollo Loco",
+            "Penn Station"
+        ]
+    },
+    {
+        "name": "ButterBurgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Concrete Mixers",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Cones & Dishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Dinners",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Culvers",
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Sandwiches & Favorites",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Frozen Custard Shoppe To Go",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Handcrafted Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Scoopie Kids Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Culvers"
+        ]
+    },
+    {
+        "name": "Specials",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mission BBQ",
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Focaccia",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Paninis",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Rolls",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Salad Bases",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Saladworks",
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Salad Cheeses",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Salad Dry Toppings",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Salad Fresh Extras",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Salad Proteins",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Saladworks"
+        ]
+    },
+    {
+        "name": "Fresh Add-Ins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Kids Food Items",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Kids Smoothies",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Promotional Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Supplements",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Toasted Flatbreads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Toasted Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Toasted Wraps",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tropical Smoothie Cafe"
+        ]
+    },
+    {
+        "name": "Burger Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "BurgerFi",
+            "Fuddruckers",
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Dessert Toppings & Mix-Ins",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "BurgerFi"
+        ]
+    },
+    {
+        "name": "Frozen Custard & Shakes",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "BurgerFi"
+        ]
+    },
+    {
+        "name": "Fry Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "BurgerFi"
+        ]
+    },
+    {
+        "name": "Bread",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Wawa",
+            "Sweetgreen",
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Frozen Coffee & Chai Add Ons",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Frozen Coffee & Chais",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Lemonades",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Lunch & Dinner Meals",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Milk for Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Milkshakes, Flurricanes & Sundaes",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Protein",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Salad Cheese",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Salad Greens",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Salad Protein",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Snacks",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Wawa",
+            "Kwik Trip",
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Spreads & Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Wawa"
+        ]
+    },
+    {
+        "name": "Breakfast Sandwich Components",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Build Your Own Pizza Bowl",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Calzone Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Calzones",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza",
+            "Donatos",
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Marco's Pizza",
+            "Wendy's",
+            "Burger King"
+        ]
+    },
+    {
+        "name": "Kids Pizza",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Latte Add-Ons",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Personal Pizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Pizza Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Pizza By The Slice",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Marco's Pizza",
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Pizza Cheeses",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza",
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Pizza Crust Toppers",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Pizza Crusts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Marco's Pizza",
+            "Hungry Howie's",
+            "Blaze Pizza",
+            "Casey's",
+            "California Pizza Kitchen",
+            "Subway",
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Walmart Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Marco's Pizza"
+        ]
+    },
+    {
+        "name": "Build Your Own Burger",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Fuddruckers"
+        ]
+    },
+    {
+        "name": "Shakes",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Fuddruckers",
+            "In-N-Out Burger",
+            "Sonic",
+            "Shake Shack",
+            "Cold Stone Creamery",
+            "White Castle"
+        ]
+    },
+    {
+        "name": "Chili",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "French Fries",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Steak 'n Shake",
+            "In-N-Out Burger"
+        ]
+    },
+    {
+        "name": "Kids",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Steak 'n Shake",
+            "Ruby Tuesday",
+            "Baja Fresh",
+            "Mellow Mushroom",
+            "Whataburger"
+        ]
+    },
+    {
+        "name": "Melts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "Steak Franks And Footlongs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Steak 'n Shake"
+        ]
+    },
+    {
+        "name": "Bunless Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Five Guys"
+        ]
+    },
+    {
+        "name": "Bunless Dogs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Five Guys"
+        ]
+    },
+    {
+        "name": "Dogs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Five Guys"
+        ]
+    },
+    {
+        "name": "Chicken Nuggets & Tenders",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Popeyes"
+        ]
+    },
+    {
+        "name": "Signature Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Popeyes"
+        ]
+    },
+    {
+        "name": "Burger & Sandwich Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Red Robin"
+        ]
+    },
+    {
+        "name": "Desserts & Snacks",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Qdoba"
+        ]
+    },
+    {
+        "name": "Fountain Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Qdoba",
+            "Hungry Howie's",
+            "Auntie Anne's",
+            "Krystal"
+        ]
+    },
+    {
+        "name": "Ingredients for Entrees",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Qdoba"
+        ]
+    },
+    {
+        "name": "Ingredients for Kids Items",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Qdoba"
+        ]
+    },
+    {
+        "name": "Condiments & Toppings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Costco Food Court",
+            "Wendy's"
+        ]
+    },
+    {
+        "name": "Sandwiches, Hot Dogs & Chicken",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Costco Food Court"
+        ]
+    },
+    {
+        "name": "Burrito Components",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Enchilada Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Nacho Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Quesadilla Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Taco Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Tostada Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cafe Rio"
+        ]
+    },
+    {
+        "name": "Add-in Flavors and Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Hot Dogs & Coneys",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Iced Teas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Minute Made Juices",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Limeades",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Misc Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Ocean Water",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Old School Floats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Premium Roast Coffees",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Sandwiches & Dinners",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Single Topping Sundaes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Soft Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Sonic Blast",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Toaster Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Add Ons and Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Bread & Crackers",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Chicken Salad",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Gourmet Soups",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Green Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Pimento Cheese & More",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chicken Salad Chick"
+        ]
+    },
+    {
+        "name": "Breakfast Biscuits",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Bojangles"
+        ]
+    },
+    {
+        "name": "6 Under 600",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Burrito Bowl",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Chips & Dips",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Featured Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Hybird Burrito",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Kids Burrito",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Monster Burrito",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Salad",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Super Monster Burrito",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Freebirds"
+        ]
+    },
+    {
+        "name": "Artisan Flatbreads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Baked Goods",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice",
+            "Cinnabon"
+        ]
+    },
+    {
+        "name": "Breakfast Sandwiches & Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Classic Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Fresh Squeezed Juices",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Jamba Kids Smoothies",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Plant-Based Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Power Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Shots",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice",
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Steel-Cut Oatmeal",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Vitamins + Protein Boosts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Whole Food Boosts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jamba Juice"
+        ]
+    },
+    {
+        "name": "Fit & Trim Healthy Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Ruby Tuesday"
+        ]
+    },
+    {
+        "name": "Ribs & Chops",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Ruby Tuesday"
+        ]
+    },
+    {
+        "name": "Sauces & Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Ruby Tuesday",
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Airport Breakfast Menu",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Chicken & Pork",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Combinations",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Day Of The Week Specials",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Lunch Menu",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Small Plates",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Wine & Sangria",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Wood-Fired Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Carrabba's"
+        ]
+    },
+    {
+        "name": "Bone-In Chicken Thighs",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Wingstop"
+        ]
+    },
+    {
+        "name": "Chicken Tenders",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Wingstop"
+        ]
+    },
+    {
+        "name": "Thigh Bites",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Wingstop"
+        ]
+    },
+    {
+        "name": "All Day Breakfast",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Bob Evans"
+        ]
+    },
+    {
+        "name": "Lunch & Dinner Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Bob Evans"
+        ]
+    },
+    {
+        "name": "Make Your Own Omelet Components",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Bob Evans"
+        ]
+    },
+    {
+        "name": "Thickburgers and Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Hardee's"
+        ]
+    },
+    {
+        "name": "Bundt Cakes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Nothing Bundt Cakes"
+        ]
+    },
+    {
+        "name": "Bundtinis",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Nothing Bundt Cakes"
+        ]
+    },
+    {
+        "name": "Bundtlets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Nothing Bundt Cakes"
+        ]
+    },
+    {
+        "name": "Hand-Tossed Pizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Limited Time Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "P'Zone Pizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Pan Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Rectangular Dinner Box Pizza",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Stuffed Crust Pizza",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Thin 'N Crispy Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Tuscani Pasta",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Wingstreet Bone-In Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Wingstreet Boneless Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Pizza Hut"
+        ]
+    },
+    {
+        "name": "Bakery Favorites",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dunkin Donuts"
+        ]
+    },
+    {
+        "name": "Coolattas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dunkin Donuts"
+        ]
+    },
+    {
+        "name": "Munchkins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dunkin Donuts"
+        ]
+    },
+    {
+        "name": "Build Your Tropichop Bowl",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pollo Tropical"
+        ]
+    },
+    {
+        "name": "Chicken & Ribs",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Pollo Tropical"
+        ]
+    },
+    {
+        "name": "Condiments and Toppings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Pollo Tropical"
+        ]
+    },
+    {
+        "name": "Soups, Salads, Sandwiches & Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Pollo Tropical"
+        ]
+    },
+    {
+        "name": "Doughnuts",
+        "parentCategory": "Donuts",
+        "restaurants": [
+            "Krispy Kreme"
+        ]
+    },
+    {
+        "name": "Sandwiches, Subs and Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Blimpie"
+        ]
+    },
+    {
+        "name": "Dressings and Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Blimpie",
+            "Sweetgreen"
+        ]
+    },
+    {
+        "name": "Kids Subs",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Blimpie"
+        ]
+    },
+    {
+        "name": "Sides, Snacks and Desserts",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Blimpie"
+        ]
+    },
+    {
+        "name": "Additions",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chuy's"
+        ]
+    },
+    {
+        "name": "Beans",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chuy's",
+            "Salsarita's"
+        ]
+    },
+    {
+        "name": "Rice",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chuy's",
+            "Salsarita's"
+        ]
+    },
+    {
+        "name": "Sandwiches and Burgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Wendy's"
+        ]
+    },
+    {
+        "name": "Crispy Chicken Nuggets",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Wendy's"
+        ]
+    },
+    {
+        "name": "Frosty Treats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Wendy's"
+        ]
+    },
+    {
+        "name": "Salad Dressings & Toppings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Wendy's"
+        ]
+    },
+    {
+        "name": "Pastas & Noodles",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Noodles & Company"
+        ]
+    },
+    {
+        "name": "Popcorn Chicken and Bites",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "KFC"
+        ]
+    },
+    {
+        "name": "Pot Pie, Bowls & Value Boxes",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "KFC"
+        ]
+    },
+    {
+        "name": "Salads & More",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "KFC"
+        ]
+    },
+    {
+        "name": "Strips & Filets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "KFC"
+        ]
+    },
+    {
+        "name": "Soups and Salad",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Olive Garden"
+        ]
+    },
+    {
+        "name": "Other Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Time"
+        ]
+    },
+    {
+        "name": "Platter Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Time"
+        ]
+    },
+    {
+        "name": "Salsa Bar",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Taco Time"
+        ]
+    },
+    {
+        "name": "Blizzards",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Baskets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Boosts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Chicken Strips & Bites",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "DQ Cakes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Ice Cream Cones",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Julius Originals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Kids' Meals",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Misty Slushes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "MooLattes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Novelties",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Orange Julius Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Regional Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Royal Treats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Sandwiches, Salads and Wraps",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Shakes & Malts",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Dairy Queen",
+            "Whataburger"
+        ]
+    },
+    {
+        "name": "Side Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Dairy Queen"
+        ]
+    },
+    {
+        "name": "Dipping Sauce",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Hungry Howie's",
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Flavored Crust",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Howie Bread",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Howie Cookie",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Howie Roll",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Subs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hungry Howie's"
+        ]
+    },
+    {
+        "name": "Wings",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Hungry Howie's",
+            "Donatos",
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Breadsticks",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Build Your Own Pasta Meal",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Dressings & Croutons",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Italian Lemon Ice",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Kids Build Your Own Pasta Meal",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Kids Meals Pizza",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Pasta Entrees",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Primo Submarinos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Senior Meals",
+        "parentCategory": "Senior Meals",
+        "restaurants": [
+            "Fazoli's"
+        ]
+    },
+    {
+        "name": "Extras and Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Chipotle"
+        ]
+    },
+    {
+        "name": "Lifestyle Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Chipotle"
+        ]
+    },
+    {
+        "name": "Tortilla Chips",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chipotle"
+        ]
+    },
+    {
+        "name": "Overstuffed Quesadillas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "El Pollo Loco"
+        ]
+    },
+    {
+        "name": "Pollo Fit",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "El Pollo Loco"
+        ]
+    },
+    {
+        "name": "Taquitos & Tacos",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "El Pollo Loco"
+        ]
+    },
+    {
+        "name": "Tostadas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "El Pollo Loco",
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Cold Subs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jersey Mike's"
+        ]
+    },
+    {
+        "name": "Hot Subs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Jersey Mike's"
+        ]
+    },
+    {
+        "name": "Sauces & Toppings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Burger King"
+        ]
+    },
+    {
+        "name": "Classic Pretzels",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Dips",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Iced Tea",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "ICEE",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Lemonades & Frozen Lemonades",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Pretzel Dogs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Pretzel Nuggets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Pretzel Pizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Auntie Anne's"
+        ]
+    },
+    {
+        "name": "Bottled Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Potbelly",
+            "White Castle"
+        ]
+    },
+    {
+        "name": "Catering Box Lunches",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Extra Cheese",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Extra Meat",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Kids Bread",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Kids Drinks",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Mac & Soups",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Mac Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Oatmeal Toppings - Bowl",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Shakes & Smoothies - Extras",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Shakes & Smoothies - Second Flavor Addition",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Shakes & Smoothies",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Soup - Extras",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Potbelly"
+        ]
+    },
+    {
+        "name": "Breakfast Sides & Drinks",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Krystal"
+        ]
+    },
+    {
+        "name": "Pups & Nuggets",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Krystal"
+        ]
+    },
+    {
+        "name": "Sackfuls",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Krystal"
+        ]
+    },
+    {
+        "name": "Premium Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sweetgreen"
+        ]
+    },
+    {
+        "name": "Signature Ingredients",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sweetgreen"
+        ]
+    },
+    {
+        "name": "Signature Plates and Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Sweetgreen"
+        ]
+    },
+    {
+        "name": "Signature Salads and Warm Bowls",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Sweetgreen"
+        ]
+    },
+    {
+        "name": "Bar-B-Que Potato",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "BBQ Sauces",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Feasts",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Lil' Wilbur Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Lunch Platters",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Platters",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Sandwiches & Tacos",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Two Meat Combos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Famous Dave's"
+        ]
+    },
+    {
+        "name": "Crinkle Cut Fries",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Shake Shack"
+        ]
+    },
+    {
+        "name": "Floats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Shake Shack"
+        ]
+    },
+    {
+        "name": "Frozen Custard",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Shake Shack"
+        ]
+    },
+    {
+        "name": "Be Well Blends",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Smoothie King"
+        ]
+    },
+    {
+        "name": "Get Fit Blends",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Smoothie King"
+        ]
+    },
+    {
+        "name": "Kids Blends",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Smoothie King"
+        ]
+    },
+    {
+        "name": "Stay Slim Blends",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Smoothie King"
+        ]
+    },
+    {
+        "name": "Take a Break Blends",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Smoothie King"
+        ]
+    },
+    {
+        "name": "Cauliflower Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Gluten Free Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Hand Tossed Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Oven Baked Subs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Pizza Crust Options",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Shareables",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Thick Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Thin Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos",
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Vegan Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Donatos"
+        ]
+    },
+    {
+        "name": "Chicken Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Sheetz"
+        ]
+    },
+    {
+        "name": "Frozen Creams",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sheetz"
+        ]
+    },
+    {
+        "name": "Sub Sandwich Bread",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Sheetz"
+        ]
+    },
+    {
+        "name": "Dough Options",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Meats and Veggie Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Pizza Finishes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Blaze Pizza"
+        ]
+    },
+    {
+        "name": "Sides & Appetizers",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Casey's"
+        ]
+    },
+    {
+        "name": "Crustless Keto Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Mini Murph's",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Salad Dressing & Croutons",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Stuffed Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Papa Murphy's"
+        ]
+    },
+    {
+        "name": "Beef & Pork",
+        "parentCategory": "Beef",
+        "restaurants": [
+            "Panda Express"
+        ]
+    },
+    {
+        "name": "Sauces & Cookies",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Panda Express"
+        ]
+    },
+    {
+        "name": "Shrimp & Fish",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "Panda Express"
+        ]
+    },
+    {
+        "name": "Vegetables",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Panda Express",
+            "Golden Corral",
+            "Subway",
+            "Penn Station",
+            "Manchu Wok"
+        ]
+    },
+    {
+        "name": "55 Plus Breakfast",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "55 Plus Lunch & Dinner",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Build Your Own Omelet",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Dinner Entrees",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Dinner Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Lunch Duos & Trios",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Syrups & Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Toppings & Add Ons",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Wines, Coolers & Cocktails",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "Perkin's"
+        ]
+    },
+    {
+        "name": "Alcoholic Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Salsarita's"
+        ]
+    },
+    {
+        "name": "Tortillas & Chips",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Salsarita's"
+        ]
+    },
+    {
+        "name": "Dos Enchiladas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Flautas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Megajuana Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Megajuana Chimichangas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Norrito Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Tijuana Bangin Chicken Burrito",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Tijuana Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Tijuana Chimichangas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Tijuana Flats"
+        ]
+    },
+    {
+        "name": "Classic Chicken",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Chick-fil-A"
+        ]
+    },
+    {
+        "name": "Cool Wraps",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Chick-fil-A"
+        ]
+    },
+    {
+        "name": "Bars",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Brownies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Burgers & Hot Dogs",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Cappuccinos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Coffee & Tea Toppers",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Coffee Creamers, Milks & Flavors",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Cold Brew Coffee",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Cold Brew Coffee Blended Shakes",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Espresso Machine Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Flavor Rage",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Fountain Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Frappes & Macchiatos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Fried Chicken/Fish & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Frozen Chocolates",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Frozen Lemonades",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Fruit Shakes",
+        "parentCategory": "Shakes",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Fruit Smoothies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Hearty Platter Cafe Appetizers",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Hearty Platter Cafe Breakfast",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Hearty Platter Cafe Breakfast Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Hearty Platter Cafe Meals",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Hot Chocolates",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Iced Espresso Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "RollerBites",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Sweet Brew Beverages",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Tornados",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Kwik Trip"
+        ]
+    },
+    {
+        "name": "Coffee & Espresso",
+        "parentCategory": "Coffee",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Cold Lunch Bar",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Cookies & Desserts",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Croissants",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Danish",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Harvest Hot Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Hot Breakfast Bar",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Hot Lunch Bar",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Oatmeal",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Scones",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Snacks & To Go",
+        "parentCategory": "Appetizers",
+        "restaurants": [
+            "Au Bon Pain"
+        ]
+    },
+    {
+        "name": "Yogurt",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Au Bon Pain",
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Family A La Carte",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Mini Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Plates",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Salad Entrees",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Sauce & Dressing",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Veggie Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "WaBa Grill"
+        ]
+    },
+    {
+        "name": "Bread Options",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "The Habit"
+        ]
+    },
+    {
+        "name": "Charburgers",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "The Habit"
+        ]
+    },
+    {
+        "name": "Kid Favorites",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "The Habit"
+        ]
+    },
+    {
+        "name": "Optional Items, Sauces, and Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "The Habit"
+        ]
+    },
+    {
+        "name": "Daily Fish",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Gardein Plant Based Options",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Gluten Sensitive Menu",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "House Favorites",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Lunch Selections",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Starter Soups & Salads",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Street Tacos",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "Yard House"
+        ]
+    },
+    {
+        "name": "Margaritas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Sandwich & Burger Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Wise Choice",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Wise Choice Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Hooters"
+        ]
+    },
+    {
+        "name": "Cakes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Candy Mix-Ins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Cookie Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Cupcakes",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Fruit Mix-Ins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Other Mix-ins",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Pies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Signature Creations",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Waffle Products",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Cold Stone Creamery"
+        ]
+    },
+    {
+        "name": "Cold Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bibibop"
+        ]
+    },
+    {
+        "name": "Hot Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Bibibop"
+        ]
+    },
+    {
+        "name": "Lunch Combos",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "Chili's"
+        ]
+    },
+    {
+        "name": "Classic Favorites",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "Egg-Sclusives",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "From The Griddle",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "Juice Bar",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "Omelets & Frittatas",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "Power Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "First Watch",
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Seasonal Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "Sides & Small Plates",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "The Healthier Side",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "First Watch"
+        ]
+    },
+    {
+        "name": "A La Carte & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Margarita",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Baja Fresh"
+        ]
+    },
+    {
+        "name": "Fruit & Veggie Pizza Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Gluten Free Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Hoagies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Munchies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Pizza Crusts and Breads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Pizza Sauces and Drizzles",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Protein Pizza Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Traditional Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Mellow Mushroom"
+        ]
+    },
+    {
+        "name": "Sides and Salads",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Whataburger"
+        ]
+    },
+    {
+        "name": "Crave Coolers",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "White Castle"
+        ]
+    },
+    {
+        "name": "Beef",
+        "parentCategory": "Beef",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Beverage",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Chicken/Turkey",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Fruits",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Pork",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Golden Corral",
+            "Manchu Wok"
+        ]
+    },
+    {
+        "name": "Salad, Toppings & Dressings",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Sauces And Condiments",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Golden Corral"
+        ]
+    },
+    {
+        "name": "Soup",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Golden Corral",
+            "Schlotzsky's",
+            "Subway"
+        ]
+    },
+    {
+        "name": "Individual Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Raising Cane's"
+        ]
+    },
+    {
+        "name": "Breakfast Burritos",
+        "parentCategory": "Burritos",
+        "restaurants": [
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Breakfast Tacos",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Flatbreads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Schlotzsky's"
+        ]
+    },
+    {
+        "name": "Tacos & Tostadas",
+        "parentCategory": "Tacos",
+        "restaurants": [
+            "Del Taco"
+        ]
+    },
+    {
+        "name": "Burritos & Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Del Taco"
+        ]
+    },
+    {
+        "name": "Quesadillas and Nachos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Del Taco"
+        ]
+    },
+    {
+        "name": "Seniors Menu",
+        "parentCategory": "Senior Meals",
+        "restaurants": [
+            "Denny's"
+        ]
+    },
+    {
+        "name": "Bagels & Cream Cheese",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Espresso Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Flatbread Pizza",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Frozen Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Hidden Menu",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Iced Drinks",
+        "parentCategory": "Beverages",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Panera Kids",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Pastries & Sweets",
+        "parentCategory": "Pastries",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Soups & Warm Grain Bowls",
+        "parentCategory": "Soups",
+        "restaurants": [
+            "Panera"
+        ]
+    },
+    {
+        "name": "Beer & Hard Seltzer",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "CPKids",
+        "parentCategory": "Kids Meals",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Gluten-Free Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Lunch Duos",
+        "parentCategory": "Lunch & Dinner",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Main Plates",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Small Plates and Flatbreads",
+        "parentCategory": "Breads",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Wine and Sangria",
+        "parentCategory": "Alcohol",
+        "restaurants": [
+            "California Pizza Kitchen"
+        ]
+    },
+    {
+        "name": "Subway Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Breakfast Egg White Omelet Sandwich",
+        "parentCategory": "Breakfast",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Breakfast Omelet Sandwiches",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Chips and Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Condiments & Extras",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Cookies and Dessert",
+        "parentCategory": "Desserts",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Flatizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Protein Bowls",
+        "parentCategory": "Bowls",
+        "restaurants": [
+            "Subway"
+        ]
+    },
+    {
+        "name": "Chicken Wings & Tenders",
+        "parentCategory": "Wings",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Italian Deli Subs",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "NY Pizza Pies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Pasta & Entrees",
+        "parentCategory": "Pastas",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Philly Steaks",
+        "parentCategory": "Steaks",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Roman Pizza Pies",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Starters & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Stromboli",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Sbarro"
+        ]
+    },
+    {
+        "name": "Breads, Wraps & Salad Greens",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Penn Station"
+        ]
+    },
+    {
+        "name": "Drinks & Sides",
+        "parentCategory": "Sides",
+        "restaurants": [
+            "Penn Station"
+        ]
+    },
+    {
+        "name": "Meats",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Penn Station"
+        ]
+    },
+    {
+        "name": "Lighthouse Menu - Less than 600 calories",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Red Lobster"
+        ]
+    },
+    {
+        "name": "Menu Items",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Taquitos",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "7-Eleven"
+        ]
+    },
+    {
+        "name": "Alaskan Pollock and Seafood",
+        "parentCategory": "Seafood",
+        "restaurants": [
+            "Long John Silver's"
+        ]
+    },
+    {
+        "name": "Iceflow Lemonade",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Long John Silver's"
+        ]
+    },
+    {
+        "name": "Sandwiches & More",
+        "parentCategory": "Burgers & Sandwiches",
+        "restaurants": [
+            "Long John Silver's"
+        ]
+    },
+    {
+        "name": "Breakfast Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Create Your Own Pizza",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Create Your Own Pizza - Cheese",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Create Your Own Pizza - Sauce",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Create Your Own Pizza - Toppings",
+        "parentCategory": "Toppings",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Create Your Own Salad",
+        "parentCategory": "Salads",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Dessert Bar",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Dessert Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Hot Bar",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Ranch Wraps",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Single Topping Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Specialty Pizza Slices",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Pizza Ranch"
+        ]
+    },
+    {
+        "name": "Original Crust Pizzas",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Dipping Sauces and Extras",
+        "parentCategory": "Dressings & Sauces",
+        "restaurants": [
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Thin Crust Pizza (Large)",
+        "parentCategory": "Pizzas",
+        "restaurants": [
+            "Papa John's"
+        ]
+    },
+    {
+        "name": "Beef Dishes",
+        "parentCategory": "Beef",
+        "restaurants": [
+            "Manchu Wok"
+        ]
+    },
+    {
+        "name": "Chicken Dishes",
+        "parentCategory": "Chicken",
+        "restaurants": [
+            "Manchu Wok"
+        ]
+    },
+    {
+        "name": "Rice & Noodles",
+        "parentCategory": "Uncategorized",
+        "restaurants": [
+            "Manchu Wok"
+        ]
+    }
+]

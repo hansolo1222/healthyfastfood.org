@@ -13,6 +13,10 @@ import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { NextSeo } from "next-seo";
 import prisma from "../../lib/prisma"
+import { PlusIcon, MinusIcon } from "@heroicons/react/outline";
+
+import { MealTabs } from "../../components/Tabs";
+
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -50,11 +54,11 @@ export const getServerSideProps = async (context) => {
     ],
   });
 
-  if (mealData == undefined) {
-    return {
-      notFound: true,
-    };
-  }
+  // if (mealData == undefined) {
+  //   return {
+  //     notFound: true,
+  //   };
+  // }
   return {
     props: {
       meal: JSON.parse(JSON.stringify(mealData)),
@@ -98,11 +102,14 @@ export default function Meal(props) {
     },
   };
 
+  const [src, setSrc] = useState(`/images/meals/${restaurant.slug}/${meal.slug}.webp`);
+
+
   return (
     <div className="">
     <NextSeo
-        title={`${restaurant.name} ${meal.name} Nutrition Facts and Calories | Healthy Fast Food`}
-        description={`${restaurant.name} ${meal.name} Nutrition facts, calories, protein, fat and carbs. Discover nutrition facts, macros, and the healthiest items at ${data.name}`}
+        title={`${meal.name}: Nutrition Facts and Calories | ${restaurant.name}`}
+        description={`${restaurant.name} ${meal.name} Nutrition facts, calories, protein, fat and carbs. Discover nutrition facts, macros, and the healthiest items.`}
         canonical={`https://healthyfastfood.org/${restaurant.slug}/${meal.slug}`}
         additionalMetaTags={[
           {
@@ -139,7 +146,7 @@ export default function Meal(props) {
       </Head>
       <Layout>
         <div className="flex">
-          <div
+          <aside
             className="shrink-0 z-20 pr-8 pb-10"
           >
               <div className="mt-8 bg-stone-50 rounded-xl p-2">
@@ -148,8 +155,8 @@ export default function Meal(props) {
                {topRestaurants.slice(0,30)
                .map((restaurant)=>(
                
-                <div className="hover:bg-stone-200 p-2 rounded-xl" key={restaurant.slug}>
-                <a href={`/${restaurant.slug}`} className="cursor-pointer w-full flex items-center" key={restaurant.slug}>
+                <div className="hover:bg-stone-200 rounded-xl" key={restaurant.slug}>
+                <a href={`/${restaurant.slug}`} className="cursor-pointer w-full flex items-center p-2" key={restaurant.slug}>
                 {/* <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500"> */}
                   <div className="relative w-6 h-6">
                       <Image
@@ -183,44 +190,60 @@ export default function Meal(props) {
                   ))}
                 </ul> */}
               </div>
-          </div>
+          </aside>
           <main>
-            <div className="mt-8 pb-8 border-b">
-              <Breadcrumbs pages={pages} />
+            <section className="mt-8 pb-8">
               <div className="flex mt-4">
                 {/* <div className="h-48 w-48 bg-slate-50 rounded-lg"> */}
-                <div className="w-48 h-48 relative border rounded-xl bg-white">
+                <div className="">
                   <Image
-                    src={`/images/meals/${restaurant.slug}/${meal.slug}.webp`}
+                    src={src}
                     alt={`${meal.name}`}
-                    layout="fill"
+                    height='250px' 
+                    width='250px' 
                     objectFit="contain"
-                    width="100%"
+                    className="border"
+                    onError={() => setSrc("/images/categories/" + meal.category.parentCategorySlug + ".webp")}
+                    // onError={({ currentTarget }) => {
+                    //     currentTarget.onerror = null; // prevents looping
+                    //     currentTarget.src="/images/burger.jpeg";
+                    //   }}
                   />
                 </div>
                 <div className="ml-6">
-                  <h1 className="text-3xl font-bold">
-                    {meal.name} Nutrition Facts
+                   <Breadcrumbs pages={pages} />
+
+                  <h1 className="text-3xl font-bold mt-1">
+                    {meal.name} <span className="text-stone-500 font-normal">Nutrition Facts and Calories</span>
                   </h1>
-                  <p className="text-stone-700 mt-4 text-lg">
-                    Find out nutrition information for the {restaurant.name}{" "}
-                    {meal.name}, macro breakdown, alternatives, and where to get
-                    it right now.
+                  <p className="text-stone-500 mt-4">
+                    Use this page to instantly find <b>nutrition information</b> and <b>healthier alternatives</b> to the {restaurant.name}{" "}
+                    {meal.name}.
+
                   </p>
                   <p className="text-stone-500 mt-4 ">
                     The {restaurant.name} {meal.name} has{" "}
                     <b>{meal.calories} calories</b>, <b>{meal.protein}g</b> of
-                    protein, <b>{meal.totalCarbohydrates}g</b> of cabohydrates
-                    and <b>{meal.totalFat}g</b> of fat. Thats a protein to carb
-                    ratio of{" "}
-                    {(meal.protein / meal.totalCarbohydrates).toFixed(2)}
+                    protein, <b>{meal.totalCarbohydrates}g</b> of carbohydrates
+                    and <b>{meal.totalFat}g</b> of fat.
                   </p>
-                  .
-                  <p>
-                    The acceptable macronutrient distribution ranges (AMDR) are
-                    45–65% of your daily calories from carbs, 20–35% from fats
-                    and 10–35% from protein.
+                  <p className="text-stone-500 mt-4">
+                  Jump to:
                   </p>
+                    <ul>
+                      <li className="list-disc ml-4 ">
+                        High Protein Meals at {restaurant.name}
+                      </li>
+                      <li className="list-disc ml-4">
+                        Low Fat Meals at {restaurant.name}
+                      </li>
+                      <li className="list-disc ml-4">
+                        Healthiest {meal.category.name} at {restaurant.name}
+                      </li>
+
+                    </ul>
+                  
+                  
                   {meal.variants.length == 0 && (
                     <dl className="mt-5 grid rounded-lg bg-white overflow-hidden border border-stone-200 divide-y divide-stone-200 grid-cols-2 md:grid-cols-4 md:divide-y-0 md:divide-x">
                       <div className="px-4 py-5 sm:p-6">
@@ -267,8 +290,10 @@ export default function Meal(props) {
                   )}
                 </div>
               </div>
-            </div>
-
+            </section>
+              <MealTabs activeTab="nutrition-information" slug="" />
+            <section>
+            <h2 className="font-bold text-2xl mb-6 pt-8">Nutrition Information</h2>
             {meal.variants.length > 0 ? (
               <>
               <h2 className="font-bold text-2xl mt-8 mb-6">Variations</h2>
@@ -337,96 +362,98 @@ export default function Meal(props) {
               </div>
               <div className="col-span-1">
                 <div className="bg-stone-50 p-5 rounded-lg">
-                  <h2 className="text-xl font-bold mb-4">Macros</h2>
+                  <h3 className="text-xl font-bold mb-4">Macros Breakdown</h3>
                   <Pie data={data} />
+                  The acceptable macronutrient distribution ranges (AMDR) are
+                    45–65% of your daily calories from carbs, 20–35% from fats
+                    and 10–35% from protein.
                 </div>
               </div>
             </div>
             )}
+          </section>
 
-            
-            Item availability varies by location.
+          <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Allergens</h2>
+            <div className="grid-cols-3 grid gap-8 mt-8">
+              <div className="bg-stone-50 p-5 rounded-lg">
+              <h3 className="font-bold">This item contains:</h3>
+                {meal.allergensTrue.map((allergen)=>(
+                  <li className="list-none flex items-center">
+                    <PlusIcon className="h-5 w-5 mr-2"/>{allergen}
+                  </li>
+                )
+                )}
+              </div>
+              <div className="bg-stone-50 p-5 rounded-lg">
+              <h3 className="font-bold">This item does not contain:</h3>
+                {meal.allergensFalse.map((allergen)=>(
+                  <li className="list-none flex items-center">
+                  <MinusIcon className="h-5 w-5 mr-2"/>{allergen}
+                  </li>
+                )
+                )}
+              </div>
+            </div>
+          </section>
 
-            Calories will vary based on modifications made to item. Product availability, prices, offers and discounts may vary from in-restaurant. BK printed coupons not valid on online orders.
+          <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Compare To</h2>
+            <p className="text-xl">Find Alternatives to the {meal.name} at {restaurant.name}:</p>
 
-            2,000 calories a day is used for general nutrition advice, but calorie needs vary. For additional nutrition information click here.
-            Warning:  indicates that sodium (salt) content of this item is higher than the total daily recommended limit (2,300mg). High Sodium intake can increase blood pressure and risk of heart disease and stroke.
+            <p className="text-xl">Find Alternatives to the {meal.name} at other restaurants:</p>
+
+          </section>
+
+          <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Ingredients</h2>
+            <div dangerouslySetInnerHTML={{__html: meal.ingredients}}></div>
+          </section>
+
+          <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">About This Restaurant</h2>
+          </section>
+
+          <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Frequently Asked Questions</h2>
+            <h3 className="text-lg font-bold pb-4">How many calories are the in {meal.name}?</h3>
+            <p className="pb-4">There are {meal.calories} calories in the {meal.name}.</p>
+            <h3>What are the macros of this item?</h3>
+            <h3>How many carbohydrates are in this item?</h3>
+            <h3>How much protein does this item contain?</h3>
+            <h3>How much fat is in this item?</h3>
+            <h3>How many sodium is in this item?</h3>
+            <h3>How much cholesterol is in this item?</h3>
+            <h3>How much sugar is in this item?</h3>
+
+
+          </section>
+            <div>
+            Please note that item availability varies by restaurant location.
+            <br/><br/>
+            Calories and other nutritional information will vary based on modifications made to item. Product availability, prices, offers and discounts may vary from in-restaurant. Before using coupons check if {restaurant.name} printed coupons are valid for online or food-delivery orders.
+            <br/><br/>
+            2,000 calories a day is used for general nutrition advice. Calorie and nutrient needs will vary depending on person. 
+            <br/><br/>
+            Warning: High Sodium intake can increase blood pressure and risk of heart disease and stroke.
+            </div>
+
+
+            Calories, Protein, Fat and Carbs in Fast Food, Takeaway Foods UK
+Finding the nutrition information for restaurants is normally difficult, they seem to hide the calorie and macro content of their fast food away, and if you want to compare macro content between restaurants that is event harder.
+
+Not anymore, with this website you can find the right fast food and restaurant meals that fit your macros.
+
+High Protein Takeaway and Restaurants
+With this website you can find the highest protein fast food and takeaways. Click the 🐔 to sort by highest protein. If you want you can then select a minimum or maximum calories to find the best IIFYM (If It Fits Your Macros) fast food.
+
+Keto Takeaways and Restaurants
+When following the keto diet you will be looking for low carb meals at UK restaurants. With the filters you can sort by lowest carb meals or use the advanced filters to set a maximum carb limit. Start by trying 2-5g carb filters per serving.
+
+The database is growing constantly so check back for updates.
           </main>
         </div>
       </Layout>
     </div>
-  );
+  )
 }
-
-const categoryTag = (category) => {
-  if (category == "Burgers & Sandwiches") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
-        🍔 Burgers & Sandwiches
-      </span>
-    );
-  }
-  if (category == "Breakfast") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
-        🍳 Breakfast
-      </span>
-    );
-  }
-  if (category == "Beverages") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-        🥤 Beverages
-      </span>
-    );
-  }
-  if (category == "Desserts") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-        🍦 Desserts
-      </span>
-    );
-  }
-  if (category == "Salads") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-        🥗 Salads
-      </span>
-    );
-  }
-  if (category == "Condiments") {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-pink-100 text-pink-800">
-        🧂 Condiments
-      </span>
-    );
-  }
-  if (category.includes("Coffee")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-        ☕ Coffee
-      </span>
-    );
-  }
-  if (category.includes("Sides")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
-        🍟 Sides
-      </span>
-    );
-  }
-  if (category.includes("Chicken Nuggets")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
-        🐔 Chicken Nuggets
-      </span>
-    );
-  }
-  if (category.includes("Hacks")) {
-    return (
-      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-stone-100 text-stone-800">
-        🎁 Limited Edition
-      </span>
-    );
-  }
-};
