@@ -233,7 +233,7 @@ export default function Restaurant(props) {
           <aside className="shrink-0 pr-8 pb-10">
             <div className="mt-8 rounded-xl p-2 whitespace-wrap w-48 text-sm shadow-md bg-stone-50 flex">
             <div className="text-2xl">🍖</div>
-            <div className="ml-2 text-stone-700">Healthy and High Protein Meals at McDonald's</div>
+            <div className="ml-2 text-stone-700">Healthy and High Protein Meals at McDonald&apos;s</div>
             </div>
             <div className="mt-8 bg-stone-50 rounded-xl p-2">
               <h2 className="text-stone-500 text-xs uppercase font-semibold p-2 ">

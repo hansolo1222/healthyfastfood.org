@@ -187,28 +187,16 @@ const Header = () => {
                       <img
                         className="block h-12 w-auto cursor-pointer"
                         src="/logo.svg"
-                        alt="Workflow"
+                        alt="HealthyFastFood.org"
                       />
                       </Link>
                     </div>
                     {/* <div className="hidden sm:block sm:ml-6"> */}
                       <div className="sm:flex space-x-4 items-center ml-6 hidden">
-                        {/* {navigation.map((item) => (
-                          <a
-                            key={item.name}
-                            href={item.href}
-                            className={classNames(
-                              'text-stone-900 hover:bg-stone-100',
-                              'px-3 py-2 rounded-md text-sm font-medium'
-                            )}
-                            aria-current={'page'}
-                          >
-                            {item.name}
-                          </a>
-                        ))} */}
+                        
+                        <Link href="/restaurants">
                         <a
-                            key="All Restaurants"
-                            href="/restaurants"
+                           
                             className={classNames(
                               'text-stone-900 hover:bg-stone-100',
                               'px-3 py-2 rounded-md text-sm font-medium'
@@ -217,21 +205,25 @@ const Header = () => {
                           >
                             All Restaurants
                           </a>
+                          </Link>
+
                           <Dropdown name="Food Categories" url="/categories" subItems={categoriesMenu} useHover={true}/>
 
                           <Dropdown name="Building Muscle" url="/protein" subItems={menu} useHover={true}/>
 
-                          <a
-                            key="All Restaurants"
-                            href="/restaurants"
+                          <Link href="/restaurants">
+                        <a
+                            key="Losing Weight"
                             className={classNames(
                               'text-stone-900 hover:bg-stone-100',
                               'px-3 py-2 rounded-md text-sm font-medium'
                             )}
                             aria-current={'page'}
                           >
-                            Losing Weight
+                           Losing Weight
                           </a>
+                          </Link>
+                          
                       </div>
                            {/* 
                           <a
@@ -411,8 +403,9 @@ const Dropdown = ({ name, url, subItems, useHover }) => {
                 {subItems.map(item => (
                   <Menu.Item key={item.key}>
                     {({ active }) => (
+                      <Link href={item.url}>
                       <a
-                        href={item.url}
+                        
                         className={`
                          ${active ? `bg-gray-100 text-gray-900` : `text-gray-700`}
                           flex justify-beeen w-full px-4 py-2 leading-5 text-left`
@@ -420,6 +413,7 @@ const Dropdown = ({ name, url, subItems, useHover }) => {
                       >
                         {item.name}
                       </a>
+                      </Link>
                     )}
                   </Menu.Item>
                 ))}

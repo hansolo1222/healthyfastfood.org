@@ -379,7 +379,7 @@ export default function Meal(props) {
               <div className="bg-stone-50 p-5 rounded-lg">
               <h3 className="font-bold">This item contains:</h3>
                 {meal.allergensTrue.map((allergen)=>(
-                  <li className="list-none flex items-center">
+                  <li className="list-none flex items-center" key={allergen}>
                     <PlusIcon className="h-5 w-5 mr-2"/>{allergen}
                   </li>
                 )
@@ -388,7 +388,7 @@ export default function Meal(props) {
               <div className="bg-stone-50 p-5 rounded-lg">
               <h3 className="font-bold">This item does not contain:</h3>
                 {meal.allergensFalse.map((allergen)=>(
-                  <li className="list-none flex items-center">
+                  <li className="list-none flex items-center" key={allergen}>
                   <MinusIcon className="h-5 w-5 mr-2"/>{allergen}
                   </li>
                 )
@@ -438,19 +438,6 @@ export default function Meal(props) {
             Warning: High Sodium intake can increase blood pressure and risk of heart disease and stroke.
             </div>
 
-
-            Calories, Protein, Fat and Carbs in Fast Food, Takeaway Foods UK
-Finding the nutrition information for restaurants is normally difficult, they seem to hide the calorie and macro content of their fast food away, and if you want to compare macro content between restaurants that is event harder.
-
-Not anymore, with this website you can find the right fast food and restaurant meals that fit your macros.
-
-High Protein Takeaway and Restaurants
-With this website you can find the highest protein fast food and takeaways. Click the 🐔 to sort by highest protein. If you want you can then select a minimum or maximum calories to find the best IIFYM (If It Fits Your Macros) fast food.
-
-Keto Takeaways and Restaurants
-When following the keto diet you will be looking for low carb meals at UK restaurants. With the filters you can sort by lowest carb meals or use the advanced filters to set a maximum carb limit. Start by trying 2-5g carb filters per serving.
-
-The database is growing constantly so check back for updates.
           </main>
         </div>
       </Layout>

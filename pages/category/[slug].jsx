@@ -565,7 +565,7 @@ export default function Restaurant(props) {
                       key={meal.mealName}
                     />
                   )) : <tr className="">
-                  <td colSpan={8} className="single-cell-row text-lg text-stone-500 text-center p-10">Sorry! It looks like we don't have this data yet.</td>
+                  <td colSpan={8} className="single-cell-row text-lg text-stone-500 text-center p-10">Sorry! It looks like we don&apos;t have this data yet.</td>
                   </tr>}
                 </tbody>
               </table>
