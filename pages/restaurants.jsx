@@ -22,8 +22,13 @@ export const getServerSideProps = async (context) => {
         rank: "asc",
       },
     ],
+    include: {
+      segment: true,
+      restaurantType: true
+    }
   });
 
+  
   return {
     props: {
       restaurants: JSON.parse(JSON.stringify(restaurants)),
@@ -60,9 +65,9 @@ console.log(restaurants)
          Most Popular Restaurants
         </h2>
             <table className="min-w-full divide-y divide-stone-300 rounded-lg">
-              <thead className="bg-stone-50 rounded-t-lg">
+              <thead className=" rounded-t-lg">
                 <tr>
-                <td className="w-2"></td>
+                
                   <td
                     scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
@@ -71,19 +76,43 @@ console.log(restaurants)
                   </td>
                   <td
                     scope="col"
-                className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-right"
                   >
-                <SortableTableHeader colKey="rank" name="Size Rank" />
-
+                    <SortableTableHeader colKey="rank" name="Business Size Rank" />
                   </td>
+                  <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="usVolume" name="Brand Popularity" />
+                  </td>
+                  {/* <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="globalVolume" name="World Popularity" />
+                  </td> */}
+                  <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="restaurantTypeSlug" name="Food Type" />
+                  </td>
+                  <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="segmentSlug" name="Service Type" />
+                  </td>
+                 
                 </tr>
               </thead>
               <tbody className="divide-y divide-stone-200">
-                {items.map((restaurant) => (
+                {items.map((restaurant, i) => {
+                  console.log(restaurant)
+                  return(
                   <tr className="hover:bg-stone-100" key={restaurant.key}>
-                  <td className="w-2 text-right pr-4 text-stone-500">
-                  {restaurant.rank}
-                  </td>
+                 
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-left">
                     <div className="flex items-center">
                     <a href={`/${restaurant.slug}`} className="flex items-center">
@@ -109,8 +138,21 @@ console.log(restaurants)
                     </td>
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.rank}</td>
+                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.usVolume}</td>
+                    {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.globalVolume}</td> */}
+                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.restaurantType ? restaurant.restaurantType.name : ""}
+                    </td>
+                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.segment ? restaurant.segment.name : ""}
+                    </td>
+                    
                   </tr>
-                ))}
+                  )
+                }
+                )}
               </tbody>
             </table>
         </div>

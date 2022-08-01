@@ -103,7 +103,6 @@ export default function Home(props) {
   let meals = highestProtein;
   let topRestaurants = restaurants.slice(0,15)
 
-  console.log(topRestaurants)
 
   let mealData = meals.map((meal) => {
     if (meal.variants.length > 0) {
@@ -112,7 +111,6 @@ export default function Home(props) {
     } else return meal;
   });
 
-  console.log(mealData)
 
   const [selectedMeals, setSelectedMeals] = useState(null);
 
@@ -123,11 +121,9 @@ export default function Home(props) {
   ]);
 
   const handleFilter = (filter) => {
-    console.log(filter);
     filters.includes(filter)
       ? setFilters(filters.filter((value) => value !== filter))
       : setFilters(filters.concat(filter));
-    console.log(filters);
   };
 
   let {
@@ -140,15 +136,15 @@ export default function Home(props) {
     SortableTableHeaderROI,
   } = useSortableData(mealData);
 
-  const filtereditems = items.filter(
-    (item) =>
-      (filters.includes("Beverages") && item.category === "Beverages") ||
-      (filters.includes("Burgers & Sandwiches") &&
-        item.category === "Burgers & Sandwiches") ||
-      (filters.includes("Breakfast") && item.category === "Breakfast") ||
-      (filters.includes("Salads") && item.category === "Salads") ||
-      (filters.includes("Salads") && item.category === "Condiments")
-  );
+  // const filtereditems = items.filter(
+  //   (item) =>
+  //     (filters.includes("Beverages") && item.category === "Beverages") ||
+  //     (filters.includes("Burgers & Sandwiches") &&
+  //       item.category === "Burgers & Sandwiches") ||
+  //     (filters.includes("Breakfast") && item.category === "Breakfast") ||
+  //     (filters.includes("Salads") && item.category === "Salads") ||
+  //     (filters.includes("Salads") && item.category === "Condiments")
+  // );
 
   // filter applied after sort
   // let {
@@ -431,7 +427,7 @@ export const formatParentCategory = (category, includeElement, includeEmoji, inc
   let text = ""
   let color = ""
   let emoji = ""
-console.log(category)
+
   if (category=="burgers-sandwiches") {
     emoji = "🍔";
     text = "Burgers & Sandwiches";
@@ -551,23 +547,23 @@ console.log(category)
   else if (category=="donuts") {
     emoji = "🍩"
     text = "Donuts";
-    color = "stone";
+    color = "indigo";
   } 
   else if (category=="desserts") {
     emoji = "🧁"
     text = "Dessert";
-    color = "stone";
+    color = "purple";
   } 
   else if (category=="ice-cream") {
     emoji = "🍦"
     text = "Ice Cream";
-    color = "stone";
+    color = "pink";
   } 
 
   else if (category=="beverages") {
     emoji = "🥤"
     text = "Beverage";
-    color = "stone";
+    color = "blue";
   } 
   else if (category=="coffee") {
     emoji = "☕"
@@ -577,12 +573,12 @@ console.log(category)
   else if (category=="shakes") {
     emoji = "🥤"
     text = "Shake";
-    color = "stone";
+    color = "pink";
   } 
   else if (category=="alcohol") {
     emoji = "🍺"
     text = "Alcohol";
-    color = "stone";
+    color = "red";
   } 
   else {
     text = category;
@@ -609,7 +605,9 @@ export const MealRow = ({
   restaurantSlug,
   showRestaurantData,
   meal,
+  showHiddenRow
 }) => {
+  let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:bg-stone-50">
       <td className=" py-1.5 text-md text-stone-900">
@@ -626,7 +624,7 @@ export const MealRow = ({
                 />
               </div>
             ) : (
-              <div className="text-2xl">{formatCategory(meal.category.name, false, true)}</div>
+              <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatCategory(meal.category.name, false, true)}</div>
             )}
           </a>
 
@@ -641,9 +639,14 @@ export const MealRow = ({
           </a>
         </div>
       </td>
-      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-        {formatParentCategory(meal.category.parentCategoryName, true, false)}
-      </td>
+      {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+        {formatParentCategory(category, true, true, true)}
+      </td> */}
+      {showHiddenRow && 
+        <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center bg-green-50">
+          {meal.proteinPerCalorie} <span className="text-stone-500 text-sm ">g / cal</span>
+        </td>
+      }
       <td className=" py-1 text-md text-stone-900 text-center">
         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
       </td>
@@ -666,6 +669,7 @@ export const MealRow = ({
       <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
         {meal.sugar} <span className="text-stone-500 text-sm">g</span>
       </td>
+     
     </tr>
   );
 };

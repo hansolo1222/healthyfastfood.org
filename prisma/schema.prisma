@@ -72,12 +72,39 @@ model variant {
 }
 
 model restaurant {
-  id    Int    @id @default(autoincrement())
-  name  String @unique
-  slug  String @unique
-  rank  Int?
+  id            Int    @id @default(autoincrement())
+  name          String 
+  slug          String @unique
+  rank          Int?
+  salesMillions Int?
+  locations     Int?
+
+  segment       segment? @relation(fields: [segmentSlug], references: [slug])
+  segmentSlug   String?
+
+  restaurantType  restaurantType? @relation(fields: [restaurantTypeSlug], references: [slug])
+  restaurantTypeSlug   String?
+
+  usVolume      Int? 
+  globalVolume  Int?
+  difficulty    Int?
+
   meals meal[]
 }
+
+model segment {
+  id          String  @default(uuid())
+  name        String @unique
+  slug        String @unique
+  restaurants restaurant[]
+}
+
+model restaurantType {
+  id          String  @default(uuid())
+  name        String @unique
+  slug        String @unique
+  restaurants restaurant[]
+} 
 
 model category {
   id                  String  @default(uuid())

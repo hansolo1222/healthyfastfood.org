@@ -1,20 +1,19 @@
-
+import { classNames } from "./utils"
 
 const newLabel = <span className="ml-1 inline-flex items-center px-1 py-0-25 rounded-sm text-xs font-medium text-white bg-red-600">
         New
       </span>
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+
 
 export const Tabs = ({activeTab, slug}) => {
 
   const tabs = [
-    { name: 'All Meals', value: 'all', href: '/' + slug },
-    { name: 'Healthy Items', value: 'healthy', href: '/' + slug },
-    { name: 'Popular Items', value: 'healthy', href: '/' + slug },
-    { name: 'Calculator', value: 'healthy', href: '/' + slug },
+    { name: 'Menu Items', value: 'all', href: '/' + slug },
+    { name: 'Healthy Options', value: 'healthy', href: '/' + slug },
+    { name: 'Gluten-Free Options', value: 'healthy', href: '/' + slug },
+    { name: 'About this Restaurant', value: 'healthy', href: '/' + slug },
+
   ]
   return (
      

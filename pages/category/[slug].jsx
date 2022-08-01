@@ -154,7 +154,7 @@ export default function Restaurant(props) {
       <NextSeo
         title={`Nutrition Facts and Calories | Healthy Fast Food`}
         description={`Discover nutrition facts, macros, and the healthiest items at ${category.name}`}
-        canonical={`https://healthyfastfood.org/${category.slug}`}
+        canonical={`https://healthyfastfood.org/category/${category.slug}`}
         additionalMetaTags={[
           {
             property: "keywords",

@@ -10,7 +10,12 @@ export const useSortableData = (items, config = null) => {
   
     if (sortConfig.key=="calories" 
     || sortConfig.key=="protein" 
-    || sortConfig.key == "totalCarbohydrates"){
+    || sortConfig.key == "totalCarbohydrates"
+    || sortConfig.key == "usVolume"
+    || sortConfig.key == "globalVolume"
+    
+    
+    ){
       
       sortedItems.sort((a, b) => {
         if(a[sortConfig.key] === null){

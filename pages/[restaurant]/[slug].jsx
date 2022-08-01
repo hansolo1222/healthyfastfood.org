@@ -214,7 +214,7 @@ export default function Meal(props) {
                    <Breadcrumbs pages={pages} />
 
                   <h1 className="text-3xl font-bold mt-1">
-                    {meal.name} <span className="text-stone-500 font-normal">Nutrition Facts and Calories</span>
+                    {meal.name} <span className="text-stone-500 font-normal">Nutrition Facts & Calories</span>
                   </h1>
                   <p className="text-stone-500 mt-4">
                     Use this page to instantly find <b>nutrition information</b> and <b>healthier alternatives</b> to the {restaurant.name}{" "}

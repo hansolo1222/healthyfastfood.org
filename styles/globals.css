@@ -20,17 +20,21 @@ a {
   box-sizing: border-box;
 }
 
-input {
+input[type="checkbox"] {
+  background:rgb(234 88 12);    
+}
+
+input.button-checkbox {
   display: none;
 }
 
-input + label {
+input.button-checkbox + label {
   background-color:  rgb(245 245 244);
   color: #999;
-  border: solid 1px white;
+  border: solid 1px transparent;
 }
 
-input:checked + label {
+input.button-checkbox:checked + label {
   background-color: white;
   color: rgb(234 88 12);
   border: solid 1px rgb(234 88 12);

@@ -1,0 +1,2252 @@
+[
+    {
+        "rank": 1,
+        "name": "McDonald's",
+        "slug": "mcdonalds",
+        "salesMillions": "45961",
+        "locations": "13438",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 2,
+        "name": "Starbucks",
+        "slug": "starbucks",
+        "salesMillions": "24556",
+        "locations": "15450",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 3,
+        "name": "Chick-fil-A",
+        "slug": "chick-fil-a",
+        "salesMillions": "16674",
+        "locations": "2704",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 4,
+        "name": "Taco Bell",
+        "slug": "taco-bell",
+        "salesMillions": "12615",
+        "locations": "7002",
+        "segment": "Quick Service",
+        "category": "Mexican"
+    },
+    {
+        "rank": 5,
+        "name": "Wendy's",
+        "slug": "wendys",
+        "salesMillions": "11111",
+        "locations": "5938",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 6,
+        "name": "Dunkin' Donuts",
+        "slug": "dunkin-donuts",
+        "salesMillions": "10416",
+        "locations": "9244",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 7,
+        "name": "Burger King",
+        "slug": "burger-king",
+        "salesMillions": "10033",
+        "locations": "7105",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 8,
+        "name": "Subway",
+        "slug": "subway",
+        "salesMillions": "9397",
+        "locations": "21147",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 9,
+        "name": "Domino's",
+        "slug": "dominos",
+        "salesMillions": "8641",
+        "locations": "6560",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 10,
+        "name": "Chipotle Mexican Grill",
+        "slug": "chipotle-mexican-grill",
+        "salesMillions": "7457",
+        "locations": "2926",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 11,
+        "name": "Sonic Drive-In",
+        "slug": "sonic-drive-in",
+        "salesMillions": "5835",
+        "locations": "3552",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 12,
+        "name": "Panera Bread",
+        "slug": "panera-bread",
+        "salesMillions": "5725",
+        "locations": "2121",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 13,
+        "name": "Pizza Hut",
+        "slug": "pizza-hut",
+        "salesMillions": "5509",
+        "locations": "6548",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 14,
+        "name": "KFC",
+        "slug": "kfc",
+        "salesMillions": "5079",
+        "locations": "3953",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 15,
+        "name": "Popeyes",
+        "slug": "popeyes",
+        "salesMillions": "4775",
+        "locations": "2754",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 16,
+        "name": "Panda Express",
+        "slug": "panda-express",
+        "salesMillions": "4578",
+        "locations": "2316",
+        "segment": "Fast Casual",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 17,
+        "name": "Dairy Queen",
+        "slug": "dairy-queen",
+        "salesMillions": "4494",
+        "locations": "4339",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 18,
+        "name": "Arby's",
+        "slug": "arbys",
+        "salesMillions": "4462",
+        "locations": "3409",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 19,
+        "name": "Little Caesars",
+        "slug": "little-caesars",
+        "salesMillions": "4234",
+        "locations": "4181",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 20,
+        "name": "Olive Garden",
+        "slug": "olive-garden",
+        "salesMillions": "4182",
+        "locations": "876",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 21,
+        "name": "Applebee's",
+        "slug": "applebees",
+        "salesMillions": "4168",
+        "locations": "1578",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 22,
+        "name": "Jack in the Box",
+        "slug": "jack-in-the-box",
+        "salesMillions": "4155",
+        "locations": "2218",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 23,
+        "name": "Buffalo Wild Wings",
+        "slug": "buffalo-wild-wings",
+        "salesMillions": "3718",
+        "locations": "1212",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 24,
+        "name": "Texas Roadhouse",
+        "slug": "texas-roadhouse",
+        "salesMillions": "3717",
+        "locations": "596",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 25,
+        "name": "Papa Johns",
+        "slug": "papa-johns",
+        "salesMillions": "3593",
+        "locations": "3164",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 26,
+        "name": "Chili's Grill & Bar",
+        "slug": "chilis-grill-bar",
+        "salesMillions": "3576",
+        "locations": "1234",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 27,
+        "name": "Whataburger",
+        "slug": "whataburger",
+        "salesMillions": "3090",
+        "locations": "873",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 28,
+        "name": "IHOP",
+        "slug": "ihop",
+        "salesMillions": "2997",
+        "locations": "1657",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 29,
+        "name": "Outback Steakhouse",
+        "slug": "outback-steakhouse",
+        "salesMillions": "2621",
+        "locations": "694",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 30,
+        "name": "Culver's",
+        "slug": "culvers",
+        "salesMillions": "2489",
+        "locations": "836",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 31,
+        "name": "Denny's",
+        "slug": "dennys",
+        "salesMillions": "2462",
+        "locations": "1487",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 32,
+        "name": "Cracker Barrel",
+        "slug": "cracker-barrel",
+        "salesMillions": "2418",
+        "locations": "664",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 33,
+        "name": "Raising Cane's Chicken Fingers",
+        "slug": "raising-canes-chicken-fingers",
+        "salesMillions": "2377",
+        "locations": "567",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 34,
+        "name": "Red Lobster",
+        "slug": "red-lobster",
+        "salesMillions": "2303",
+        "locations": "670",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 35,
+        "name": "Jimmy John's",
+        "slug": "jimmy-johns",
+        "salesMillions": "2301",
+        "locations": "2657",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 36,
+        "name": "The Cheesecake Factory",
+        "slug": "cheesecake-factory",
+        "salesMillions": "2293",
+        "locations": "207",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 37,
+        "name": "Zaxby's",
+        "slug": "zaxbys",
+        "salesMillions": "2234",
+        "locations": "910",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 38,
+        "name": "LongHorn Steakhouse",
+        "slug": "longhorn-steakhouse",
+        "salesMillions": "2209",
+        "locations": "551",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 39,
+        "name": "Jersey Mike's Subs",
+        "slug": "jersey-mikes-subs",
+        "salesMillions": "2203",
+        "locations": "2100",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 40,
+        "name": "Wingstop",
+        "slug": "wingstop",
+        "salesMillions": "2165",
+        "locations": "1534",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 41,
+        "name": "Five Guys",
+        "slug": "five-guys",
+        "salesMillions": "2093",
+        "locations": "1390",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 42,
+        "name": "Hardee's",
+        "slug": "hardees",
+        "salesMillions": "2074",
+        "locations": "1712",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 43,
+        "name": "In-N-Out Burger",
+        "slug": "in-n-out-burger",
+        "salesMillions": "1651",
+        "locations": "373",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 44,
+        "name": "Carl's Jr.",
+        "slug": "carls-jr",
+        "salesMillions": "1530",
+        "locations": "1054",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 45,
+        "name": "Bojangles",
+        "slug": "bojangles",
+        "salesMillions": "1485",
+        "locations": "773",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 46,
+        "name": "Red Robin",
+        "slug": "red-robin",
+        "salesMillions": "1403",
+        "locations": "531",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 47,
+        "name": "Waffle House",
+        "slug": "waffle-house",
+        "salesMillions": "1279",
+        "locations": "1950",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 48,
+        "name": "Golden Corral",
+        "slug": "golden-corral",
+        "salesMillions": "1169",
+        "locations": "392",
+        "segment": "Quick Service",
+        "category": "Family Casual"
+    },
+    {
+        "rank": 49,
+        "name": "BJ's Restaurant & Brewhouse",
+        "slug": "bjs-restaurant-brewhouse",
+        "salesMillions": "1087",
+        "locations": "212",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 50,
+        "name": "Firehouse Subs",
+        "slug": "firehouse-subs",
+        "salesMillions": "1044",
+        "locations": "1164",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 51,
+        "name": "El Pollo Loco",
+        "slug": "el-pollo-loco",
+        "salesMillions": "973",
+        "locations": "480",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 52,
+        "name": "Tropical Smoothie Cafe",
+        "slug": "tropical-smoothie-cafe",
+        "salesMillions": "948",
+        "locations": "1047",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 53,
+        "name": "P.F. Chang's",
+        "slug": "pf-changs",
+        "salesMillions": "922",
+        "locations": "209",
+        "segment": "Casual Dining",
+        "category": "Asian"
+    },
+    {
+        "rank": 54,
+        "name": "Del Taco",
+        "slug": "del-taco",
+        "salesMillions": "918",
+        "locations": "603",
+        "segment": "Quick Service",
+        "category": "Mexican"
+    },
+    {
+        "rank": 55,
+        "name": "Dutch Bros. Coffee",
+        "slug": "dutch-bros-coffee",
+        "salesMillions": "914",
+        "locations": "538",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 56,
+        "name": "Marco's Pizza",
+        "slug": "marcos-pizza",
+        "salesMillions": "899",
+        "locations": "1002",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 57,
+        "name": "Qdoba Mexican Eats",
+        "slug": "qdoba-mexican-eats",
+        "salesMillions": "878",
+        "locations": "739",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 58,
+        "name": "McAlister's Deli",
+        "slug": "mcalisters-deli",
+        "salesMillions": "870",
+        "locations": "506",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 59,
+        "name": "Hooters",
+        "slug": "hooters",
+        "salesMillions": "835",
+        "locations": "303",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 60,
+        "name": "Steak 'n Shake",
+        "slug": "steak-n-shake",
+        "salesMillions": "830",
+        "locations": "497",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 61,
+        "name": "Krispy Kreme",
+        "slug": "krispy-kreme",
+        "salesMillions": "818",
+        "locations": "373",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 62,
+        "name": "Papa Murphy's Pizza",
+        "slug": "papa-murphys-pizza",
+        "salesMillions": "809",
+        "locations": "1240",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 63,
+        "name": "TGI Fridays",
+        "slug": "tgi-fridays",
+        "salesMillions": "780",
+        "locations": "310",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 64,
+        "name": "Church's Chicken",
+        "slug": "churchs-chicken",
+        "salesMillions": "768",
+        "locations": "898",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 65,
+        "name": "Shake Shack",
+        "slug": "shake-shack",
+        "salesMillions": "766",
+        "locations": "243",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 66,
+        "name": "Freddy's Frozen Custard & Steakburgers",
+        "slug": "freddys-frozen-custard-steakburgers",
+        "salesMillions": "759",
+        "locations": "420",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 67,
+        "name": "First Watch",
+        "slug": "first-watch",
+        "salesMillions": "751",
+        "locations": "435",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 68,
+        "name": "Bob Evans",
+        "slug": "bob-evans",
+        "salesMillions": "750",
+        "locations": "440",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 69,
+        "name": "Carrabba's Italian Grill",
+        "slug": "carrabbas-italian-grill",
+        "salesMillions": "697",
+        "locations": "219",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 70,
+        "name": "Baskin-Robbins",
+        "slug": "baskin-robbins",
+        "salesMillions": "686",
+        "locations": "2317",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 71,
+        "name": "Moe's Southwest Grill",
+        "slug": "moes-southwest-grill",
+        "salesMillions": "662",
+        "locations": "657",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 72,
+        "name": "Cheddar's Scratch Kitchen",
+        "slug": "cheddars-scratch-kitchen",
+        "salesMillions": "647",
+        "locations": "175",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 73,
+        "name": "Ruth's Chris Steak House",
+        "slug": "ruths-chris-steak-house",
+        "salesMillions": "636",
+        "locations": "129",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 74,
+        "name": "Checkers",
+        "slug": "checkers",
+        "salesMillions": "636",
+        "locations": "580",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 75,
+        "name": "White Castle",
+        "slug": "white-castle",
+        "salesMillions": "626",
+        "locations": "353",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 76,
+        "name": "Smoothie King",
+        "slug": "smoothie-king",
+        "salesMillions": "602",
+        "locations": "1053",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 77,
+        "name": "Tim Hortons",
+        "slug": "tim-hortons",
+        "salesMillions": "602",
+        "locations": "637",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 78,
+        "name": "MOD Pizza",
+        "slug": "mod-pizza",
+        "salesMillions": "590",
+        "locations": "506",
+        "segment": "Fast Casual",
+        "category": "Pizza"
+    },
+    {
+        "rank": 79,
+        "name": "Yard House",
+        "slug": "yard-house",
+        "salesMillions": "578",
+        "locations": "81",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 80,
+        "name": "The Habit Burger Grill",
+        "slug": "habit-burger-grill",
+        "salesMillions": "577",
+        "locations": "307",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 81,
+        "name": "Auntie Anne's",
+        "slug": "auntie-annes",
+        "salesMillions": "576",
+        "locations": "1133",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 82,
+        "name": "Captain D's Seafood Kitchen",
+        "slug": "captain-ds-seafood-kitchen",
+        "salesMillions": "568",
+        "locations": "536",
+        "segment": "Quick Service",
+        "category": "Seafood"
+    },
+    {
+        "rank": 83,
+        "name": "Noodles & Company",
+        "slug": "noodles-company",
+        "salesMillions": "566",
+        "locations": "448",
+        "segment": "Fast Casual",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 84,
+        "name": "Bonefish Grill",
+        "slug": "bonefish-grill",
+        "salesMillions": "555",
+        "locations": "185",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 85,
+        "name": "Portillo's",
+        "slug": "portillos",
+        "salesMillions": "535",
+        "locations": "69",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 86,
+        "name": "Jack's Family Restaurants",
+        "slug": "jacks-family-restaurants",
+        "salesMillions": "520",
+        "locations": "210",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 87,
+        "name": "Jason's Deli",
+        "slug": "jasons-deli",
+        "salesMillions": "516",
+        "locations": "247",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 88,
+        "name": "Jamba Juice",
+        "slug": "jamba-juice",
+        "salesMillions": "505",
+        "locations": "757",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 89,
+        "name": "Perkins Restaurant & Bakery",
+        "slug": "perkins-restaurant-bakery",
+        "salesMillions": "496",
+        "locations": "290",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 90,
+        "name": "Charleys Philly Steaks",
+        "slug": "charleys-philly-steaks",
+        "salesMillions": "493",
+        "locations": "589",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 91,
+        "name": "California Pizza Kitchen",
+        "slug": "california-pizza-kitchen",
+        "salesMillions": "490",
+        "locations": "169",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 92,
+        "name": "Hungry Howie's Pizza",
+        "slug": "hungry-howies-pizza",
+        "salesMillions": "478",
+        "locations": "533",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 93,
+        "name": "Miller's Ale House",
+        "slug": "millers-ale-house",
+        "salesMillions": "457",
+        "locations": "97",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 94,
+        "name": "The Capital Grille",
+        "slug": "capital-grille",
+        "salesMillions": "457",
+        "locations": "63",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 95,
+        "name": "Cooper's Hawk Winery & Restaurants",
+        "slug": "coopers-hawk-winery-restaurants",
+        "salesMillions": "447",
+        "locations": "54",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 96,
+        "name": "Dave & Buster's",
+        "slug": "dave-busters",
+        "salesMillions": "437",
+        "locations": "142",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 97,
+        "name": "Round Table Pizza",
+        "slug": "round-table-pizza",
+        "salesMillions": "421",
+        "locations": "416",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 98,
+        "name": "Potbelly Sandwich Shop",
+        "slug": "potbelly-sandwich-shop",
+        "salesMillions": "421",
+        "locations": "443",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 99,
+        "name": "Einstein Bros. Bagels",
+        "slug": "einstein-bros-bagels",
+        "salesMillions": "420",
+        "locations": "690",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 100,
+        "name": "Pollo Tropical",
+        "slug": "pollo-tropical",
+        "salesMillions": "417",
+        "locations": "169",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 101,
+        "name": "Logan's Roadhouse",
+        "slug": "logans-roadhouse",
+        "salesMillions": "417",
+        "locations": "136",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 102,
+        "name": "Cold Stone Creamery",
+        "slug": "cold-stone-creamery",
+        "salesMillions": "413",
+        "locations": "875",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 103,
+        "name": "Boston Market",
+        "slug": "boston-market",
+        "salesMillions": "412",
+        "locations": "341",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 104,
+        "name": "Taco John's",
+        "slug": "taco-johns",
+        "salesMillions": "410",
+        "locations": "373",
+        "segment": "Quick Service",
+        "category": "Mexican"
+    },
+    {
+        "rank": 105,
+        "name": "Mellow Mushroom",
+        "slug": "mellow-mushroom",
+        "salesMillions": "401",
+        "locations": "173",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 106,
+        "name": "Twin Peaks",
+        "slug": "twin-peaks",
+        "salesMillions": "399",
+        "locations": "87",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 107,
+        "name": "Chuy's",
+        "slug": "chuys",
+        "salesMillions": "396",
+        "locations": "96",
+        "segment": "Casual Dining",
+        "category": "Mexican"
+    },
+    {
+        "rank": 108,
+        "name": "Saltgrass Steak House",
+        "slug": "saltgrass-steak-house",
+        "salesMillions": "378",
+        "locations": "90",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 109,
+        "name": "Jet's Pizza",
+        "slug": "jets-pizza",
+        "salesMillions": "371",
+        "locations": "390",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 110,
+        "name": "Fogo de Chao",
+        "slug": "fogo-de-chao",
+        "salesMillions": "369",
+        "locations": "48",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 111,
+        "name": "Maggiano's Little Italy",
+        "slug": "maggianos-little-italy",
+        "salesMillions": "366",
+        "locations": "54",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 112,
+        "name": "O'Charley's",
+        "slug": "ocharleys",
+        "salesMillions": "363",
+        "locations": "156",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 113,
+        "name": "Torchy's Tacos",
+        "slug": "torchys-tacos",
+        "salesMillions": "363",
+        "locations": "99",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 114,
+        "name": "Wienerschnitzel",
+        "slug": "wienerschnitzel",
+        "salesMillions": "360",
+        "locations": "328",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 115,
+        "name": "Nothing Bundt Cakes",
+        "slug": "nothing-bundt-cakes",
+        "salesMillions": "351",
+        "locations": "426",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 116,
+        "name": "Black Bear Diner",
+        "slug": "black-bear-diner",
+        "salesMillions": "350",
+        "locations": "144",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 117,
+        "name": "Blaze Pizza",
+        "slug": "blaze-pizza",
+        "salesMillions": "347",
+        "locations": "313",
+        "segment": "Fast Casual",
+        "category": "Pizza"
+    },
+    {
+        "rank": 118,
+        "name": "Sweetgreen",
+        "slug": "sweetgreen",
+        "salesMillions": "340",
+        "locations": "150",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 119,
+        "name": "Fleming's Prime Steakhouse & Wine Bar",
+        "slug": "flemings-prime-steakhouse-wine-bar",
+        "salesMillions": "333",
+        "locations": "64",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 120,
+        "name": "Long John Silver's",
+        "slug": "long-john-silvers",
+        "salesMillions": "332",
+        "locations": "641",
+        "segment": "Quick Service",
+        "category": "All Other"
+    },
+    {
+        "rank": 121,
+        "name": "Schlotzsky's",
+        "slug": "schlotzskys",
+        "salesMillions": "332",
+        "locations": "323",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 122,
+        "name": "Rally's",
+        "slug": "rallys",
+        "salesMillions": "319",
+        "locations": "315",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 123,
+        "name": "Caribou Coffee",
+        "slug": "caribou-coffee",
+        "salesMillions": "318",
+        "locations": "460",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 124,
+        "name": "Topgolf",
+        "slug": "topgolf",
+        "salesMillions": "316",
+        "locations": "67",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 125,
+        "name": "Dickey's Barbecue Pit",
+        "slug": "dickeys-barbecue-pit",
+        "salesMillions": "316",
+        "locations": "484",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 126,
+        "name": "Chuck E. Cheese",
+        "slug": "chuck-e-cheese",
+        "salesMillions": "315",
+        "locations": "477",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 127,
+        "name": "Krystal Company",
+        "slug": "krystal-company",
+        "salesMillions": "307",
+        "locations": "290",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 128,
+        "name": "Cafe Rio Mexican Grill",
+        "slug": "cafe-rio-mexican-grill",
+        "salesMillions": "304",
+        "locations": "150",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 129,
+        "name": "Famous Dave's",
+        "slug": "famous-daves",
+        "salesMillions": "301",
+        "locations": "115",
+        "segment": "Casual Dining",
+        "category": "All Other"
+    },
+    {
+        "rank": 130,
+        "name": "HoneyBaked Ham Co.",
+        "slug": "honeybaked-ham-co",
+        "salesMillions": "299",
+        "locations": "409",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 131,
+        "name": "Fazoli's",
+        "slug": "fazolis",
+        "salesMillions": "298",
+        "locations": "217",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 132,
+        "name": "Ruby Tuesday",
+        "slug": "ruby-tuesday",
+        "salesMillions": "296",
+        "locations": "206",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 133,
+        "name": "Lazy Dog Restaurant & Bar",
+        "slug": "lazy-dog-restaurant-bar",
+        "salesMillions": "294",
+        "locations": "40",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 134,
+        "name": "Ninety Nine Restaurant & Pub",
+        "slug": "ninety-nine-restaurant-pub",
+        "salesMillions": "291",
+        "locations": "103",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 135,
+        "name": "On The Border Mexican Grill & Cantina",
+        "slug": "border-mexican-grill-cantina",
+        "salesMillions": "287",
+        "locations": "125",
+        "segment": "Casual Dining",
+        "category": "Mexican"
+    },
+    {
+        "rank": 136,
+        "name": "Cicis",
+        "slug": "cicis",
+        "salesMillions": "286",
+        "locations": "299",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 137,
+        "name": "Texas de Brazil Churrascaria",
+        "slug": "texas-de-brazil-churrascaria",
+        "salesMillions": "285",
+        "locations": "51",
+        "segment": "Casual Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 138,
+        "name": "Benihana",
+        "slug": "benihana",
+        "salesMillions": "281",
+        "locations": "72",
+        "segment": "Casual Dining",
+        "category": "Asian"
+    },
+    {
+        "rank": 139,
+        "name": "Pizza Ranch",
+        "slug": "pizza-ranch",
+        "salesMillions": "279",
+        "locations": "213",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 140,
+        "name": "Godfather's Pizza",
+        "slug": "godfathers-pizza",
+        "salesMillions": "274",
+        "locations": "600",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 141,
+        "name": "Braum's Ice Cream & Dairy Stores",
+        "slug": "braums-ice-cream-dairy-stores",
+        "salesMillions": "273",
+        "locations": "290",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 142,
+        "name": "Taco Cabana",
+        "slug": "taco-cabana",
+        "salesMillions": "270",
+        "locations": "148",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 143,
+        "name": "Scooter's Coffee",
+        "slug": "scooters-coffee",
+        "salesMillions": "263",
+        "locations": "410",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 144,
+        "name": "Penn Station East Coast Subs",
+        "slug": "penn-station-east-coast-subs",
+        "salesMillions": "258",
+        "locations": "312",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 145,
+        "name": "Chicken Salad Chick",
+        "slug": "chicken-salad-chick",
+        "salesMillions": "255",
+        "locations": "205",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 146,
+        "name": "Mountain Mike's Pizza",
+        "slug": "mountain-mikes-pizza",
+        "salesMillions": "255",
+        "locations": "246",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 147,
+        "name": "Seasons 52",
+        "slug": "seasons-52",
+        "salesMillions": "254",
+        "locations": "44",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 148,
+        "name": "Walk-On's Sports Bistreaux",
+        "slug": "walk-ons-sports-bistreaux",
+        "salesMillions": "253",
+        "locations": "59",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 149,
+        "name": "A&W All American Food",
+        "slug": "aw-all-american-food",
+        "salesMillions": "252",
+        "locations": "525",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 150,
+        "name": "Smashburger",
+        "slug": "smashburger",
+        "salesMillions": "248",
+        "locations": "245",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 151,
+        "name": "Golden Chick",
+        "slug": "golden-chick",
+        "salesMillions": "248",
+        "locations": "207",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 152,
+        "name": "Firebirds Wood Fired Grill",
+        "slug": "firebirds-wood-fired-grill",
+        "salesMillions": "247",
+        "locations": "54",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 153,
+        "name": "Bahama Breeze Island Grille",
+        "slug": "bahama-breeze-island-grille",
+        "salesMillions": "240",
+        "locations": "43",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 154,
+        "name": "Corner Bakery",
+        "slug": "corner-bakery",
+        "salesMillions": "237",
+        "locations": "161",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 155,
+        "name": "Sarku Japan",
+        "slug": "sarku-japan",
+        "salesMillions": "236",
+        "locations": "203",
+        "segment": "Quick Service",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 156,
+        "name": "Slim Chickens",
+        "slug": "slim-chickens",
+        "salesMillions": "235",
+        "locations": "116",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 157,
+        "name": "Farmer Boys",
+        "slug": "slim-chickens",
+        "salesMillions": "235",
+        "locations": "116",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 158,
+        "name": "Uncle Julio's",
+        "slug": "uncle-julios",
+        "salesMillions": "229",
+        "locations": "37",
+        "segment": "Casual Dining",
+        "category": "Mexican"
+    },
+    {
+        "rank": 159,
+        "name": "Cinnabon",
+        "slug": "cinnabon",
+        "salesMillions": "224",
+        "locations": "939",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 160,
+        "name": "Village Inn",
+        "slug": "village-inn",
+        "salesMillions": "224",
+        "locations": "129",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 161,
+        "name": "Pappadeaux Seafood Kitchen",
+        "slug": "pappadeaux-seafood-kitchen",
+        "salesMillions": "221",
+        "locations": "40",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 162,
+        "name": "Wetzel's Pretzels",
+        "slug": "wetzels-pretzels",
+        "salesMillions": "221",
+        "locations": "350",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 163,
+        "name": "Huddle House",
+        "slug": "huddle-house",
+        "salesMillions": "219",
+        "locations": "305",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 164,
+        "name": "Donatos Pizza",
+        "slug": "donatos-pizza",
+        "salesMillions": "216",
+        "locations": "169",
+        "segment": "Fast Casual",
+        "category": "Pizza"
+    },
+    {
+        "rank": 165,
+        "name": "Fuzzy's Taco Shop",
+        "slug": "fuzzys-taco-shop",
+        "salesMillions": "213",
+        "locations": "137",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 166,
+        "name": "Peet's Coffee",
+        "slug": "peets-coffee",
+        "salesMillions": "212",
+        "locations": "230",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 167,
+        "name": "True Food Kitchen",
+        "slug": "true-food-kitchen",
+        "salesMillions": "210",
+        "locations": "40",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 168,
+        "name": "Newk's Eatery",
+        "slug": "newks-eatery",
+        "salesMillions": "209",
+        "locations": "101",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 169,
+        "name": "Old Chicago Pizza + Taproom",
+        "slug": "old-chicago-pizza-taproom",
+        "salesMillions": "208",
+        "locations": "83",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 170,
+        "name": "Rubio's",
+        "slug": "rubios",
+        "salesMillions": "208",
+        "locations": "157",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 171,
+        "name": "Ocean Prime",
+        "slug": "ocean-prime",
+        "salesMillions": "204",
+        "locations": "17",
+        "segment": "Fine Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 172,
+        "name": "Pei Wei",
+        "slug": "pei-wei",
+        "salesMillions": "204",
+        "locations": "119",
+        "segment": "Fast Casual",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 173,
+        "name": "STK",
+        "slug": "stk",
+        "salesMillions": "200",
+        "locations": "14",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 174,
+        "name": "Cava",
+        "slug": "cava",
+        "salesMillions": "196",
+        "locations": "170",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 175,
+        "name": "Jollibee",
+        "slug": "jollibee",
+        "salesMillions": "193",
+        "locations": "54",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 176,
+        "name": "Pret A Manger",
+        "slug": "pret-manger",
+        "salesMillions": "193",
+        "locations": "81",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 177,
+        "name": "Sbarro",
+        "slug": "sbarro",
+        "salesMillions": "193",
+        "locations": "296",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 178,
+        "name": "Morton's The Steakhouse",
+        "slug": "mortons-steakhouse",
+        "salesMillions": "192",
+        "locations": "55",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 179,
+        "name": "Mastro's Restaurants",
+        "slug": "mastros-restaurants",
+        "salesMillions": "191",
+        "locations": "19",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 180,
+        "name": "Frisch's Big Boy",
+        "slug": "frischs-big-boy",
+        "salesMillions": "190",
+        "locations": "110",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 181,
+        "name": "Lee's Famous Recipe Chicken",
+        "slug": "lees-famous-recipe-chicken",
+        "salesMillions": "190",
+        "locations": "131",
+        "segment": "Quick Service",
+        "category": "Chicken"
+    },
+    {
+        "rank": 182,
+        "name": "Au Bon Pain",
+        "slug": "au-bon-pain",
+        "salesMillions": "188",
+        "locations": "123",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 183,
+        "name": "Pollo Campero",
+        "slug": "pollo-campero",
+        "salesMillions": "187",
+        "locations": "77",
+        "segment": "Fast Casual",
+        "category": "Chicken"
+    },
+    {
+        "rank": 184,
+        "name": "Zoes Kitchen",
+        "slug": "zoes-kitchen",
+        "salesMillions": "187",
+        "locations": "114",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 185,
+        "name": "Ono Hawaiian BBQ",
+        "slug": "ono-hawaiian-bbq",
+        "salesMillions": "186",
+        "locations": "99",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 186,
+        "name": "Smokey Bones",
+        "slug": "smokey-bones",
+        "salesMillions": "186",
+        "locations": "61",
+        "segment": "Casual Dining",
+        "category": "All Other"
+    },
+    {
+        "rank": 187,
+        "name": "Wayback Burgers",
+        "slug": "wayback-burgers",
+        "salesMillions": "185",
+        "locations": "147",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 188,
+        "name": "Biggby Coffee",
+        "slug": "biggby-coffee",
+        "salesMillions": "182",
+        "locations": "265",
+        "segment": "Quick Service",
+        "category": "Coffee Cafe"
+    },
+    {
+        "rank": 189,
+        "name": "Sonny's BBQ",
+        "slug": "sonnys-bbq",
+        "salesMillions": "181",
+        "locations": "92",
+        "segment": "Casual Dining",
+        "category": "All Other"
+    },
+    {
+        "rank": 190,
+        "name": "LaRosa's Pizzeria",
+        "slug": "larosas-pizzeria",
+        "salesMillions": "177",
+        "locations": "66",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 191,
+        "name": "54th Street Restaurant & Drafthouse",
+        "slug": "54th-street-restaurant-drafthouse",
+        "salesMillions": "175",
+        "locations": "31",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 192,
+        "name": "Paris Baguette",
+        "slug": "paris-baguette",
+        "salesMillions": "174",
+        "locations": "96",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 193,
+        "name": "Bill Miller Bar-B-Q",
+        "slug": "bill-miller-bar-b-q",
+        "salesMillions": "174",
+        "locations": "76",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 194,
+        "name": "BonChon",
+        "slug": "bonchon",
+        "salesMillions": "173",
+        "locations": "115",
+        "segment": "Casual Dining",
+        "category": "Asian"
+    },
+    {
+        "rank": 195,
+        "name": "L&L Hawaiian Barbecue",
+        "slug": "ll-hawaiian-barbecue",
+        "salesMillions": "173",
+        "locations": "209",
+        "segment": "Quick Service",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 196,
+        "name": "Giordano's",
+        "slug": "giordanos",
+        "salesMillions": "173",
+        "locations": "70",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 197,
+        "name": "Uno Pizzeria & Grill",
+        "slug": "uno-pizzeria-grill",
+        "salesMillions": "172",
+        "locations": "83",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 198,
+        "name": "NoRTH Italia",
+        "slug": "north-italia",
+        "salesMillions": "172",
+        "locations": "29",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 199,
+        "name": "Costa Vida Fresh Mexican Grill",
+        "slug": "costa-vida-fresh-mexican-grill",
+        "salesMillions": "171",
+        "locations": "91",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 200,
+        "name": "Buca di Beppo",
+        "slug": "buca-di-beppo",
+        "salesMillions": "171",
+        "locations": "70",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 201,
+        "name": "Bubba's 33",
+        "slug": "bubbas-33",
+        "salesMillions": "171",
+        "locations": "36",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 202,
+        "name": "WaBa Grill",
+        "slug": "waba-grill",
+        "salesMillions": "168",
+        "locations": "191",
+        "segment": "Fast Casual",
+        "category": "Asian/Noodle"
+    },
+    {
+        "rank": 203,
+        "name": "BurgerFi",
+        "slug": "burgerfi",
+        "salesMillions": "166",
+        "locations": "118",
+        "segment": "Fast Casual",
+        "category": "Burger"
+    },
+    {
+        "rank": 204,
+        "name": "La Madeleine",
+        "slug": "la-madeleine",
+        "salesMillions": "166",
+        "locations": "88",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 205,
+        "name": "The Original Pancake House",
+        "slug": "original-pancake-house",
+        "salesMillions": "163",
+        "locations": "144",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 206,
+        "name": "Cook-Out Restaurant",
+        "slug": "cook-out-restaurant",
+        "salesMillions": "160",
+        "locations": "308",
+        "segment": "Quick Service",
+        "category": "Burger"
+    },
+    {
+        "rank": 207,
+        "name": "Tijuana Flats",
+        "slug": "tijuana-flats",
+        "salesMillions": "159",
+        "locations": "124",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 208,
+        "name": "Del Frisco's Double Eagle Steak House",
+        "slug": "del-friscos-double-eagle-steak-house",
+        "salesMillions": "158",
+        "locations": "16",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 209,
+        "name": "Great Harvest Bakery Cafe",
+        "slug": "great-harvest-bakery-cafe",
+        "salesMillions": "158",
+        "locations": "176",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 210,
+        "name": "Lupe Tortilla",
+        "slug": "lupe-tortilla",
+        "salesMillions": "158",
+        "locations": "27",
+        "segment": "Casual Dining",
+        "category": "Mexican"
+    },
+    {
+        "rank": 211,
+        "name": "Insomnia Cookies",
+        "slug": "insomnia-cookies",
+        "salesMillions": "158",
+        "locations": "210",
+        "segment": "Quick Service",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 212,
+        "name": "Eddie V's Prime Seafood",
+        "slug": "eddie-vs-prime-seafood",
+        "salesMillions": "157",
+        "locations": "26",
+        "segment": "Fine Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 213,
+        "name": "Beef 'O' Brady's",
+        "slug": "beef-o-bradys",
+        "salesMillions": "153",
+        "locations": "133",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 214,
+        "name": "Bar Louie",
+        "slug": "bar-louie",
+        "salesMillions": "150",
+        "locations": "69",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 215,
+        "name": "Roosters",
+        "slug": "roosters",
+        "salesMillions": "150",
+        "locations": "42",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 216,
+        "name": "Bruegger's Bagels",
+        "slug": "brueggers-bagels",
+        "salesMillions": "147",
+        "locations": "190",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 217,
+        "name": "Taco Bueno",
+        "slug": "taco-bueno",
+        "salesMillions": "144",
+        "locations": "123",
+        "segment": "Fast Casual",
+        "category": "Mexican"
+    },
+    {
+        "rank": 218,
+        "name": "Friendly's",
+        "slug": "friendlys",
+        "salesMillions": "143",
+        "locations": "129",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 219,
+        "name": "Wings and Rings",
+        "slug": "wings-rings",
+        "salesMillions": "142",
+        "locations": "68",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 220,
+        "name": "Gyu-Kaku",
+        "slug": "gyu-kaku",
+        "salesMillions": "141",
+        "locations": "63",
+        "segment": "Casual Dining",
+        "category": "Asian"
+    },
+    {
+        "rank": 221,
+        "name": "Bubba Gump Shrimp Co.",
+        "slug": "bubba-gump-shrimp-co",
+        "salesMillions": "141",
+        "locations": "23",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 222,
+        "name": "Shoney's",
+        "slug": "shoneys",
+        "salesMillions": "141",
+        "locations": "103",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 223,
+        "name": "Which Wich",
+        "slug": "which-wich",
+        "salesMillions": "141",
+        "locations": "270",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 224,
+        "name": "Sizzler",
+        "slug": "sizzler",
+        "salesMillions": "139",
+        "locations": "86",
+        "segment": "Quick Service",
+        "category": "Family Casual"
+    },
+    {
+        "rank": 225,
+        "name": "Another Broken Egg Cafe",
+        "slug": "another-broken-egg-cafe",
+        "salesMillions": "139",
+        "locations": "79",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 226,
+        "name": "Anthony's Coal Fired Pizza",
+        "slug": "anthonys-coal-fired-pizza",
+        "salesMillions": "135",
+        "locations": "61",
+        "segment": "Casual Dining",
+        "category": "Pizza"
+    },
+    {
+        "rank": 227,
+        "name": "Kung Fu Tea",
+        "slug": "kung-fu-tea",
+        "salesMillions": "135",
+        "locations": "278",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 228,
+        "name": "Hard Rock Cafe",
+        "slug": "hard-rock-cafe",
+        "salesMillions": "135",
+        "locations": "35",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 229,
+        "name": "Metro Diner",
+        "slug": "metro-diner",
+        "salesMillions": "134",
+        "locations": "57",
+        "segment": "Midscale",
+        "category": "Family Style"
+    },
+    {
+        "rank": 230,
+        "name": "Duffy's Sports Grill",
+        "slug": "duffys-sports-grill",
+        "salesMillions": "134",
+        "locations": "33",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 231,
+        "name": "Taziki's Mediterranean Cafe",
+        "slug": "tazikis-mediterranean-cafe",
+        "salesMillions": "133",
+        "locations": "94",
+        "segment": "Fast Casual",
+        "category": "All Other"
+    },
+    {
+        "rank": 232,
+        "name": "Pappasito's Cantina",
+        "slug": "pappasitos-cantina",
+        "salesMillions": "133",
+        "locations": "25",
+        "segment": "Casual Dining",
+        "category": "Mexican"
+    },
+    {
+        "rank": 233,
+        "name": "Andy's Frozen Custard",
+        "slug": "andys-frozen-custard",
+        "salesMillions": "132",
+        "locations": "109",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 234,
+        "name": "The Old Spaghetti Factory",
+        "slug": "old-spaghetti-factory",
+        "salesMillions": "132",
+        "locations": "42",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    },
+    {
+        "rank": 235,
+        "name": "Johnny Rockets",
+        "slug": "johnny-rockets",
+        "salesMillions": "132",
+        "locations": "131",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 236,
+        "name": "Runza",
+        "slug": "runza",
+        "salesMillions": "132",
+        "locations": "87",
+        "segment": "Quick Service",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 237,
+        "name": "Great American Cookies",
+        "slug": "great-american-cookies",
+        "salesMillions": "132",
+        "locations": "373",
+        "segment": "Quick Service",
+        "category": "Other Beverage/snack"
+    },
+    {
+        "rank": 238,
+        "name": "The Melting Pot",
+        "slug": "melting-pot",
+        "salesMillions": "131",
+        "locations": "96",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 239,
+        "name": "Legal Sea Foods",
+        "slug": "legal-sea-foods",
+        "salesMillions": "130",
+        "locations": "23",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 240,
+        "name": "Islands Fine Burgers & Drinks",
+        "slug": "islands-fine-burgers-drinks",
+        "salesMillions": "130",
+        "locations": "45",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 241,
+        "name": "Crumbl Cookies",
+        "slug": "crumbl-cookies",
+        "salesMillions": "130",
+        "locations": "314",
+        "segment": "Quick Service",
+        "category": "Snack"
+    },
+    {
+        "rank": 242,
+        "name": "Nobu",
+        "slug": "nobu",
+        "salesMillions": "130",
+        "locations": "19",
+        "segment": "Fine Dining",
+        "category": "Asian"
+    },
+    {
+        "rank": 243,
+        "name": "Mendocino Farms",
+        "slug": "mendocino-farms",
+        "salesMillions": "130",
+        "locations": "42",
+        "segment": "Fast Casual",
+        "category": "Sandwich"
+    },
+    {
+        "rank": 244,
+        "name": "Perry's Steakhouse & Grille",
+        "slug": "perrys-steakhouse-grille",
+        "salesMillions": "129",
+        "locations": "21",
+        "segment": "Fine Dining",
+        "category": "Steak"
+    },
+    {
+        "rank": 245,
+        "name": "Joe's Crab Shack",
+        "slug": "joes-crab-shack",
+        "salesMillions": "128",
+        "locations": "46",
+        "segment": "Casual Dining",
+        "category": "Seafood"
+    },
+    {
+        "rank": 246,
+        "name": "Mimi's Cafe",
+        "slug": "mimis-cafe",
+        "salesMillions": "128",
+        "locations": "48",
+        "segment": "Casual Dining",
+        "category": "Varied Menu"
+    },
+    {
+        "rank": 247,
+        "name": "Menchie's Frozen Yogurt",
+        "slug": "menchies-frozen-yogurt",
+        "salesMillions": "128",
+        "locations": "345",
+        "segment": "Quick Service",
+        "category": "Frozen Desserts"
+    },
+    {
+        "rank": 248,
+        "name": "Ledo Pizza",
+        "slug": "ledo-pizza",
+        "salesMillions": "128",
+        "locations": "109",
+        "segment": "Quick Service",
+        "category": "Pizza"
+    },
+    {
+        "rank": 249,
+        "name": "Glory Days Grill",
+        "slug": "glory-days-grill",
+        "salesMillions": "128",
+        "locations": "39",
+        "segment": "Casual Dining",
+        "category": "Sports Bar"
+    },
+    {
+        "rank": 250,
+        "name": "Brio Italian Grille",
+        "slug": "brio-italian-grille",
+        "salesMillions": "126",
+        "locations": "36",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
+    }
+]
