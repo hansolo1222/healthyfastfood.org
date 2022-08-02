@@ -708,7 +708,7 @@ export default function Restaurant(props) {
                   thematicFilter == "highProtein"
                     ? "text-orange-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md  border flex items-center shrink-0"
+                  "whitespace-nowrap py-2 px-4 rounded-lg  text-sm md:text-base  border flex items-center shrink-0"
                 )}
               >
                   <img
@@ -725,7 +725,7 @@ export default function Restaurant(props) {
                   thematicFilter == "lowCarb"
                     ? "text-red-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md border flex items-center shrink-0"
+                  "whitespace-nowrap py-2 px-4 rounded-lg  text-sm md:text-base border flex items-center shrink-0"
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/leaf.webp`} />
@@ -739,7 +739,7 @@ export default function Restaurant(props) {
                   thematicFilter == "lowSodium"
                   ? "text-red-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md border flex items-center shrink-0"
+                  "whitespace-nowrap py-2 px-4 rounded-lg text-sm md:text-base border flex items-center shrink-0"
                 )}
               >
                 <img
@@ -756,7 +756,7 @@ export default function Restaurant(props) {
                   thematicFilter == "lowCholesterol"
                   ? "text-red-600 bg-stone-100 shadow-inner font-medium "
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg text-md border flex items-center shrink-0"
+                  "whitespace-nowrap py-2 px-4 rounded-lg text-sm md:text-base border flex items-center shrink-0"
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/heart.webp`} />
@@ -770,7 +770,7 @@ export default function Restaurant(props) {
                   thematicFilter == "keto"
                   ? "text-red-600 bg-stone-100 shadow-inner font-medium "
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg text-md flex items-center border shadow-sm"
+                  "whitespace-nowrap py-2 px-4 rounded-lg text-base flex items-center border shadow-sm"
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/avocado.webp`} />
@@ -982,7 +982,7 @@ export default function Restaurant(props) {
                               name="Restaurant"
                             />
                           </div> */}
-                        <div className="ml-2">
+                        <div className="">
                           <SortableTableHeader colKey="name" name="Name"  direction="ascending"/>
                         </div>
                       </div>

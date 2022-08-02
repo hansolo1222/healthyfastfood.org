@@ -70,7 +70,7 @@ const Header = () => {
       {/* <Link href="/api/auth/signin">
         <a
          
-          className="inline-block bg-red-500 py-1 px-4 border border-transparent rounded-md text-md font-medium text-white hover:bg-opacity-75"
+          className="inline-block bg-red-500 py-1 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
         >
           Sign Up
         </a>

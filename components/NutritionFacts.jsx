@@ -7,7 +7,7 @@ function formatAsPercent(num) {
 const NutritionFacts = ({data}) => {
     console.log(data,"this")
   return (
-    <section className="performance-facts bg-stone-50  w-full mr-5 p-6 rounded-lg text-stone-900">
+    <section className="performance-facts border  w-full mr-5 p-6 rounded-lg text-stone-900">
       <header className="performance-facts__header m-0 pb-1">
         <h3 className="performance-facts__title text-3xl leading-none m-0 p-0 font-extrabold">Nutrition Facts</h3>
         <p className="leading-extratight text-sm">{data.name}</p>

@@ -78,19 +78,19 @@ export const useSortableData = (items, config = null) => {
         onClick={() => requestSort(colKey, direction)}
       >
         <div
-          className={`group inline-flex items-center cursor-pointer text-xs uppercase
-        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
+          className={`group inline-flex items-center cursor-pointer text-xs px-1
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-700"} `}
         >
           {name}
           <span
             className={`flex-none rounded ${
-              isActive(colKey) ? "text-stone-900" : "text-stone-300"
+              isActive(colKey) ? "text-stone-900" : "text-stone-500"
             } group-hover:visible group-focus:visible`}
           >
             {getDirectionForCol(colKey) == direction ? (
-              <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronUpIcon className="h-4 w-4" aria-hidden="true" />
             ) : (
-              <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
+              <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
             )}
           </span>
         </div>

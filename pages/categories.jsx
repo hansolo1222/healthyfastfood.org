@@ -80,7 +80,7 @@ export default function Restaurants(props) {
                 {items.map((restaurant) => (
                   <tr className="hover:bg-stone-100" key={restaurant.key}>
                  
-                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-left">
+                    <td className="whitespace-nowrap py-1 text-base text-stone-900 text-left">
                     <div className="flex items-center">
                     <a href={`category/${restaurant.slug}`} className="flex items-center">
                         <div className="relative w-10 h-10">
@@ -103,7 +103,7 @@ export default function Restaurants(props) {
                       </a>
                       </div>
                     </td>
-                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    <td className="whitespace-nowrap py-1 text-base text-stone-900 text-center">
                     </td>
                   </tr>
                 ))}
