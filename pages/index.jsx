@@ -612,7 +612,7 @@ export const MealRow = ({
   let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:bg-stone-50">
-      <td className=" py-1.5 text-md text-stone-900">
+      <td className="pr-1 py-1.5 text-sm sm:text-md text-stone-900">
         <div className="flex items-center">
           <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
@@ -645,11 +645,11 @@ export const MealRow = ({
         {formatParentCategory(category, true, true, true)}
       </td> */}
       {showCustomRow && 
-        <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center bg-green-50">
+        <td className="whitespace-nowrap px-1 py-1 text-sm sm:text-md text-stone-900 text-center bg-green-50">
           {meal[customRowKey]} <span className="text-stone-500 text-sm ">{customRowUnits}</span>
         </td>
       }
-      <td className=" py-1 text-md text-stone-900 text-center">
+      <td className=" py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
       </td>
       <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">

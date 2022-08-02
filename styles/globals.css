@@ -120,3 +120,8 @@ td:last-child {
 .single-cell-row {
   text-align:center!important;
 }
+/*****Sortable header *******/
+
+.sortable-table-header {
+  -webkit-appearance: none;
+}

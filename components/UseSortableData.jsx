@@ -45,8 +45,12 @@ export const useSortableData = (items, config = null) => {
     return sortedItems;
   }, [items, sortConfig]);
 
-  const requestSortPreserveDirection = (key) => {
-    let direction = sortConfig.direction;
+  const requestSortPreserveDirection= (key, value, startingDirection) => {
+    let direction = startingDirection;
+    if (sortConfig.key === key && sortConfig.direction == startingDirection) {
+      direction = oppositeDirection(startingDirection);
+    }
+    console.log({ key, direction });
     setSortConfig({ key, direction });
   };
 
