@@ -652,23 +652,23 @@ export const MealRow = ({
       <td className=" py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.calories} <span className="text-stone-500 text-sm">cal</span>
       </td>
-      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.protein} <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.totalCarbohydrates}{" "}
         <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap py-1 text-sm sm:text-md text-stone-900 text-center">
         {parseFloat(meal.totalFat).toFixed(0)} <span className="text-stone-500 text-sm">g</span>
       </td>
-      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap  py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>
       </td>
-      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap  py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.sodium} <span className="text-stone-500 text-sm">mg</span>
       </td>
-      <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center">
+      <td className="whitespace-nowrap  py-1 text-sm sm:text-md text-stone-900 text-center">
         {meal.sugar} <span className="text-stone-500 text-sm">g</span>
       </td>
      

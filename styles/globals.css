@@ -123,5 +123,5 @@ td:last-child {
 /*****Sortable header *******/
 
 .sortable-table-header {
-  -webkit-appearance: none;
+  -webkit-appearance: none!important;
 }
