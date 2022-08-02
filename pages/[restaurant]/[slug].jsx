@@ -38,13 +38,14 @@ export const getServerSideProps = async (context) => {
   });
 
   const category = mealData.category.name;
-  const mealsInCategory = await prisma.meal.findMany({
-    where: {
-      category: {
-        name: category,
-      },
-    },
-  });
+
+  // const mealsInCategory = await prisma.meal.findMany({
+  //   where: {
+  //     category: {
+  //       name: category,
+  //     },
+  //   },
+  // });
 
   const topRestaurants = await prisma.restaurant.findMany({
     where: {
@@ -66,14 +67,14 @@ export const getServerSideProps = async (context) => {
   return {
     props: {
       meal: JSON.parse(JSON.stringify(mealData)),
-      mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
+      // mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
       topRestaurants: JSON.parse(JSON.stringify(topRestaurants)),
     },
   };
 };
 
 export default function Meal(props) {
-  const { meal, mealsInCategory, topRestaurants } = props;
+  const { meal, topRestaurants } = props;
   let restaurant = meal.restaurant;
 
   let proteinCalories = meal.protein*4
