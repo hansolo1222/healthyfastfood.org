@@ -164,7 +164,7 @@ const Header = () => {
             <>
               <div className="max-w-8xl mx-auto px-3 sm:px-6 md:px-12 bg-white">
                 <div className="relative flex items-center justify-beeen h-16">
-                  <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                  <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                     {/* Mobile menu button*/}
                     <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-stone-400 hover:text-stone-600 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                       <span className="sr-only">Open main menu</span>
@@ -244,7 +244,7 @@ const Header = () => {
                 </div>
               </div>
     
-              <Disclosure.Panel className="sm:hidden">
+              <Disclosure.Panel className="md:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   {navigation.map((item) => (
                     <Disclosure.Button

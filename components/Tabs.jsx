@@ -10,8 +10,8 @@ export const Tabs = ({activeTab, slug}) => {
 
   const tabs = [
     { name: 'Menu Items', value: 'all', href: '/' + slug },
-    { name: 'Healthy Options', value: 'healthy', href: '/' + slug },
-    { name: 'Gluten-Free Options', value: 'healthy', href: '/' + slug },
+    // { name: 'Healthy Options', value: 'healthy', href: '/' + slug },
+    // { name: 'Gluten-Free Options', value: 'healthy', href: '/' + slug },
     { name: 'About this Restaurant', value: 'healthy', href: '/' + slug },
 
   ]

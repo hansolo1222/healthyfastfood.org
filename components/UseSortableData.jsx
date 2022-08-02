@@ -1,85 +1,89 @@
-import React, {useState} from 'react';
-import { ArrowDownIcon, ArrowUpIcon, ChevronDownIcon, ChevronUpIcon, QuestionMarkCircleIcon } from "@heroicons/react/solid";
-
+import React, { useState } from "react";
+import {
+  ArrowDownIcon,
+  ArrowUpIcon,
+  ChevronDownIcon,
+  ChevronUpIcon,
+  QuestionMarkCircleIcon,
+} from "@heroicons/react/solid";
 
 export const useSortableData = (items, config = null) => {
-  const [sortConfig, setSortConfig] = useState({key:'USDProfit',direction:'descending'});
+  const [sortConfig, setSortConfig] = useState({
+    key: "name",
+    direction: "descending",
+  });
   const sortedItems = React.useMemo(() => {
-  let sortedItems = [...items];
-    if (sortConfig !== null) {
-  
-    if (sortConfig.key=="calories" 
-    || sortConfig.key=="protein" 
-    || sortConfig.key == "totalCarbohydrates"
-    || sortConfig.key == "usVolume"
-    || sortConfig.key == "globalVolume"
-    
-    
-    ){
-      
-      sortedItems.sort((a, b) => {
-        if(a[sortConfig.key] === null){
-          
-          return 1;
-        }
-        else if(b[sortConfig.key] === null){
-         
-          return -1;
-        }
-        else if(a === b){
-          return 0;
-        }
-        else if(sortConfig.direction === 'descending') {
-          return a[sortConfig.key] - b[sortConfig.key];
-        }
-        else {
-          return b[sortConfig.key] - a[sortConfig.key];
-        }
+    let sortedItems = [...items];
 
-      })
+    if (sortConfig !== null) {
+      if (sortConfig.key == "name") {
+        sortedItems.sort((a, b) => {
+          if (a[sortConfig.key] < b[sortConfig.key]) {
+            return sortConfig.direction === "ascending" ? 1 : -1;
+          }
+          if (a[sortConfig.key] > b[sortConfig.key]) {
+            return sortConfig.direction === "descending" ? -1 : 1;
+          }
+          return 0;
+        });
+      } else {
+        sortedItems.sort((a, b) => {
+          if (a[sortConfig.key] === null) {
+            return 1;
+          } else if (b[sortConfig.key] === null) {
+            return -1;
+          } else if (a === b) {
+            return 0;
+          } else if (sortConfig.direction === "ascending") {
+            return a[sortConfig.key] - b[sortConfig.key];
+          } else {
+            return b[sortConfig.key] - a[sortConfig.key];
+          }
+        });
+      }
     }
-    else {
-      sortedItems.sort((a, b) => {
-        if (a[sortConfig.key] < b[sortConfig.key]) {
-          return sortConfig.direction === 'ascending' ? 1 : -1;
-        }
-        if (a[sortConfig.key] > b[sortConfig.key]) {
-          return sortConfig.direction === 'ascending' ? -1 : 1;
-        }
-        return 0;
-      });
-    }
-  }
     return sortedItems;
   }, [items, sortConfig]);
 
-  const requestSortPreserveDirection = key => {
+  const requestSortPreserveDirection = (key) => {
     let direction = sortConfig.direction;
     setSortConfig({ key, direction });
-  }
+  };
 
-  const requestSort = key => {
-
-    let direction = 'descending';
-    if (sortConfig.key === key && sortConfig.direction === 'descending') {
-      direction = 'ascending';
+  const requestSort = (key, startingDirection) => {
+    let direction = startingDirection;
+    if (sortConfig.key === key && sortConfig.direction == startingDirection) {
+      direction = oppositeDirection(startingDirection);
     }
+    console.log({ key, direction });
     setSortConfig({ key, direction });
-  }
+  };
 
+  const oppositeDirection = (direction) => {
+    if (direction == "ascending") return "descending";
+    if (direction == "descending") return "ascending";
+  };
 
-  const SortableTableHeader = ({ name, colKey}) => {
+  const SortableTableHeader = ({ name, colKey, direction }) => {
+    // const getDirection = direction ? direction : "ascending"
+
     return (
-      <a className="sortable-table-header" type="button" onClick={() => requestSort(colKey)}>
-        <div className={`group inline-flex items-center cursor-pointer text-xs uppercase
-        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}>
+      <a
+        className="sortable-table-header"
+        type="button"
+        onClick={() => requestSort(colKey, direction)}
+      >
+        <div
+          className={`group inline-flex items-center cursor-pointer text-xs uppercase
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
+        >
           {name}
           <span
             className={`flex-none rounded ${
               isActive(colKey) ? "text-stone-900" : "text-stone-300"
             } group-hover:visible group-focus:visible`}
           >
-            {getDirectionForCol(colKey) == "ascending" ? (
+            {getDirectionForCol(colKey) == direction ? (
               <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
             ) : (
               <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
@@ -90,12 +94,13 @@ export const useSortableData = (items, config = null) => {
     );
   };
 
-
   const SortableTableHeaderInverse = ({ name, colKey }) => {
     return (
       <a type="button" onClick={() => requestSort(colKey)}>
-        <div className={`group inline-flex cursor-pointer text-xs uppercase
-        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}>
+        <div
+          className={`group inline-flex cursor-pointer text-xs uppercase
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
+        >
           {name}
           <span
             className={`flex-none rounded ${
@@ -152,9 +157,16 @@ export const useSortableData = (items, config = null) => {
     return sortConfig.key === colName;
   };
 
-
-  return { items: sortedItems, requestSort,requestSortPreserveDirection, sortConfig, SortableTableHeader, SortableTableHeaderInverse, SortableTableHeaderROI };
-}
+  return {
+    items: sortedItems,
+    requestSort,
+    requestSortPreserveDirection,
+    sortConfig,
+    SortableTableHeader,
+    SortableTableHeaderInverse,
+    SortableTableHeaderROI,
+  };
+};
 
 // const requestSort = key => {
 

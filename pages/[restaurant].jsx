@@ -16,7 +16,7 @@ import prisma from "../lib/prisma";
 import { NextSeo } from "next-seo";
 import { Tabs } from "../components/Tabs";
 import { Slider } from "@mui/material";
-import { classNames } from "../components/utils";
+import { classNames, getCustomNutritionRowInfo } from "../components/utils";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -160,15 +160,18 @@ export default function Restaurant(props) {
 
   let categories = [...new Set(meals.map((item) => item.category.name))];
 
-  let mealData = meals.map((m) => {
-    return {
-      ...m,
-      proteinPerCalorie:
-        m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3),
-    };
-  });
+  // let mealData = meals.map((m) => {
+  //   return {
+  //     ...m,
+  //     calculatedRow: "",
+  //     proteinPerCalorie:
+  //       m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3),
+  //     carbPerCalorie:
+  //       m.calories == 0 ? 0 : (m.protein / m.totalCarbohydrates).toFixed(3),
+  //   };
+  // });
 
-  const [selectedMeals, setSelectedMeals] = useState(null);
+  const [mealData, setMealData] = useState(meals);
 
   const [filters, setFilters] = useState([]);
   const [umbrellaCategories, setUmbrellaCategories] = useState(["food","beverage"])
@@ -179,37 +182,34 @@ export default function Restaurant(props) {
 
   const [thematicFilter, setThematicFilter] = useState();
 
-  const [showHiddenRow, setShowHiddenRow] = useState(false);
+  const [showCustomRow, setShowCustomRow] = useState(false);
 
-  const [allSelected, setAllSelected] = useState(true);
+
+
 
   const handleFilter = (filter) => {
     setFilters(filter);
-
     // filters.includes(filter)
     //   ? setFilters(filters.filter((value) => value !== filter))
     //   : setFilters(filters.concat(filter));
   };
 
   const handleUmbrellaCategories = (e) => {
-
     let filter = e.target.id
-    
      umbrellaCategories.includes(filter)
       ? setUmbrellaCategories(umbrellaCategories.filter((value) => value !== filter))
       : setUmbrellaCategories(umbrellaCategories.concat(filter));
   }
 
   const handleThematicFilter = (event) => {
-    setThematicFilter(event.target.value);
-    if (thematicFilter == "high-protein") {
-      setShowHiddenRow(true);
-      requestSort("proteinPerCalorie");
+    let inputted = event.target.value
+    if (thematicFilter == inputted){
+      setThematicFilter(null)
+      setShowCustomRow(false);
+    } else {
+      setThematicFilter(event.target.value);
+      setShowCustomRow(true);
     }
-    if (thematicFilter == "low-carb"){
-      requestSort("proteinPerCalorie");
-    }
-    
   };
 
   const handleAllergens = (event) => {
@@ -218,16 +218,6 @@ export default function Restaurant(props) {
       ? setAllergens(allergens.filter((value) => value !== allergen))
       : setAllergens(allergens.concat(allergen));
   };
-
-  let {
-    items,
-    requestSort,
-    requestSortPreserveDirection,
-    sortConfig,
-    SortableTableHeader,
-    SortableTableHeaderInverse,
-    SortableTableHeaderROI,
-  } = useSortableData(mealData);
 
   const handleSetMaxCalories = (event) => {
     setMinCalories(0);
@@ -239,9 +229,38 @@ export default function Restaurant(props) {
     setMaxCalories(5000);
   };
 
-  useEffect(() => {}, [minCalories, maxCalories]);
+  useEffect(() => {
 
-  const filteredItems = items
+    setMealData(filteredItems(meals.map((m) => {
+          return ({
+            ...m,
+            [thematicFilter]: calculateCustomNutrition(thematicFilter, m),
+          })
+        }))
+    )
+    console.log(mealData)
+    requestSort(thematicFilter, getCustomNutritionRowInfo(thematicFilter).direction)
+
+  }, [thematicFilter,showCustomRow, umbrellaCategories, maxCalories, minCalories, allergens]);
+
+  const calculateCustomNutrition = (thematicFilter, m) => {
+    if (thematicFilter == "highProtein"){
+    return m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3)
+    } else if (thematicFilter == "lowCarb"){
+      return m.calories == 0 ? 0 : (m.totalCarbohydrates / m.calories).toFixed(3)
+    } else if (thematicFilter == "lowSodium"){
+      return m.calories == 0 ? 0 : (m.sodium / m.calories).toFixed(3)
+    } else if (thematicFilter == "lowCholesterol"){
+      return m.calories == 0 ? 0 : (m.cholesterol / m.calories).toFixed(3)
+    } 
+    // else if (thematicFilter == "lowCarb"){
+    //   return m.calories == 0 ? 0 : (m.totalCarbohydrates / m.calories).toFixed(3)
+    // }
+  }
+
+
+
+  const filteredItems = (items) => items
     .filter(
       (item) => item.calories >= minCalories && item.calories <= maxCalories
     )
@@ -271,48 +290,16 @@ export default function Restaurant(props) {
       }
     });
 
-  const marks = [
-    {
-      value: 0,
-      label: "",
-    },
-    {
-      value: 100,
-      label: "",
-    },
-    {
-      value: 200,
-      label: "200",
-    },
-    {
-      value: 300,
-    },
-    {
-      value: 400,
-      label: "400",
-    },
-    {
-      value: 500,
-    },
-    {
-      value: 600,
-      label: "600",
-    },
-    {
-      value: 700,
-    },
-    {
-      value: 800,
-      label: "800",
-    },
-    {
-      value: 900,
-    },
-    {
-      value: 1000,
-      label: "",
-    },
-  ];
+
+    let {
+      items,
+      requestSort,
+      requestSortPreserveDirection,
+      sortConfig,
+      SortableTableHeader,
+      SortableTableHeaderInverse,
+      SortableTableHeaderROI,
+    } = useSortableData(mealData);
 
   return (
     <div className="">
@@ -356,8 +343,8 @@ export default function Restaurant(props) {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
-        <div className="grid grid-cols-6 gap-6">
-          <aside className="shrink-0 pb-10 col-span-1">
+        <div className="flex">
+          <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-4">
             <div className="mt-8 ">
               <h3 className="text-stone-900 text-sm font-bold pb-2">
                 Calorie Limits
@@ -400,16 +387,6 @@ export default function Restaurant(props) {
                   800 cal & above
                 </button>
               </div>
-
-              {/* <Slider 
-                    defaultValue={600} 
-                    aria-label="Default"  
-                    marks={marks} 
-                    step={10}
-                    valueLabelDisplay="auto" 
-                    min={0}
-                    max={1000}
-                   /> */}
             </div>
 
             <section className="mt-6">
@@ -510,7 +487,7 @@ export default function Restaurant(props) {
               </h3>
 
               <div className="pt-2 ">
-                <div className="inline-block mb-1 mr-1" key="">
+                <div className="inline-block mb-1 mr-1" key="gluten">
                   <input
                     id="gluten"
                     name="allergens"
@@ -521,12 +498,12 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="gluten"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm hover:bg-stone-200 hover:text-stone-700"
                   >
                     Gluten Free
                   </label>
                 </div>
-                <div className="inline-block mb-1 mr-1" key="">
+                <div className="inline-block mb-1 mr-1" key="milk">
                   <input
                     className="button-checkbox"
                     id="milk"
@@ -537,7 +514,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="milk"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm hover:bg-stone-200 hover:text-stone-700"
                   >
                     Dairy Free
                   </label>
@@ -553,7 +530,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="peanuts"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Peanuts
                   </label>
@@ -569,7 +546,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="eggs"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Eggs
                   </label>
@@ -585,7 +562,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="wheat"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm  hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Wheat
                   </label>
@@ -601,7 +578,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="soy"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm  hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Soy
                   </label>
@@ -617,7 +594,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="tree nuts"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm  hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Tree Nuts
                   </label>
@@ -633,7 +610,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="fish"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm  hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Fish
                   </label>
@@ -649,7 +626,7 @@ export default function Restaurant(props) {
                   />
                   <label
                     htmlFor="shellfish"
-                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm font-medium hover:bg-stone-200"
+                    className="special-input cursor-pointer inline-flex whitespace-nowrap items-center px-2 py-0.5 rounded-lg text-sm  hover:bg-stone-200 hover:text-stone-700"
                   >
                     No Shellfish
                   </label>
@@ -689,9 +666,14 @@ export default function Restaurant(props) {
               ))}
             </section>
           </aside>
-          <main className="mt-8 col-span-5">
-            <div className="flex items-center">
-              <div className="relative w-14 h-14 mr-4">
+
+
+          <main className="mt-4 md:mt-8 w-full">
+            <div className="block md:hidden mb-2">
+              <Breadcrumbs pages={pages} className=""/>
+            </div>
+            <div className="flex items-center md:items-center">
+              <div className="relative w-6 h-6 md:w-12 md:h-12 mr-2 md:mr-4">
                 <Image
                   className=" flex-shrink-0 rounded-md mr-2 z-0"
                   src={`/images/logosSmall/${restaurant.slug}.webp`}
@@ -701,11 +683,13 @@ export default function Restaurant(props) {
                 />
               </div>
               <div>
-                <Breadcrumbs pages={pages} />
-                <h1 className="text-3xl font-bold mt-1">
-                  {restaurant.name} Menu{" "}
+                <div className="hidden md:block">
+                <Breadcrumbs pages={pages} className=""/>
+                </div>
+                <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
+                  {restaurant.name} {" "}
                   <span className="text-stone-500 font-normal">
-                    Nutrition Facts & Calories
+                  Menu Nutrition Facts & Calories
                   </span>
                 </h1>
               </div>
@@ -715,53 +699,47 @@ export default function Restaurant(props) {
               <Tabs activeTab="all" />
             </div>
 
-            {/* <p className="text-stone-500 mt-2 mb-2">
-                Nutrition information for all menu tems from {restaurant.name}.
-                Discover which meals are healthiest. Click on meal items for
-                more details.
-              </p> */}
-
-            <section className="flex py-4 space-x-2">
+            <section className="flex py-4 space-x-2 w-full overflow-x-auto">
               <button
-                value="high-protein"
-                key=""
+                value="highProtein"
+                key="highProtein"
                 onClick={handleThematicFilter}
                 className={classNames(
-                  thematicFilter == "high-protein"
+                  thematicFilter == "highProtein"
                     ? "text-orange-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md flex items-center border"
+                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md  border flex items-center shrink-0"
                 )}
               >
-                <img
-                  className="h-6 w-6 mr-2"
-                  src={`/images/icons/muscle.webp`}
-                />
-                High Protein
+                  <img
+                    className="h-6 w-6 mr-2"
+                    src={`/images/icons/muscle.webp`}
+                  />
+                  High Protein
               </button>
               <button
-                value="low-carb"
-                key=""
+                value="lowCarb"
+                key="lowCarb"
                 onClick={handleThematicFilter}
                 className={classNames(
-                  thematicFilter == "low-carb"
+                  thematicFilter == "lowCarb"
                     ? "text-red-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md flex items-center border"
+                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md border flex items-center shrink-0"
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/leaf.webp`} />
                 Low Carb
               </button>
               <button
-                value="low-sodium"
-                key=""
+                value="lowSodium"
+                key="lowSodium"
                 onClick={handleThematicFilter}
                 className={classNames(
-                  thematicFilter == "low-sodium"
+                  thematicFilter == "lowSodium"
                   ? "text-red-600 bg-stone-100 shadow-inner font-medium"
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md flex items-center border"
+                  "whitespace-nowrap py-2 px-4 rounded-lg  text-md border flex items-center shrink-0"
                 )}
               >
                 <img
@@ -771,23 +749,22 @@ export default function Restaurant(props) {
                 Low Sodium
               </button>
               <button
-               value="low-cholesterol"
-                key=""
+               value="lowCholesterol"
+                key="lowCholesterol"
                 onClick={handleThematicFilter}
                 className={classNames(
-                  thematicFilter == "low-cholesterol"
+                  thematicFilter == "lowCholesterol"
                   ? "text-red-600 bg-stone-100 shadow-inner font-medium "
                     : " text-stone-700 hover:text-stone-900 hover:bg-stone-100  shadow-sm",
-                  "whitespace-nowrap py-2 px-4 rounded-lg text-md flex items-center border "
+                  "whitespace-nowrap py-2 px-4 rounded-lg text-md border flex items-center shrink-0"
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/heart.webp`} />
-                {/* <div className="text-xl">❤️</div> */}
                 Low Cholesterol
               </button>
-              <a
+              {/* <a
                 value="keto"
-                key=""
+                key="keto"
                 onClick={handleThematicFilter}
                 className={classNames(
                   thematicFilter == "keto"
@@ -797,12 +774,11 @@ export default function Restaurant(props) {
                 )}
               >
                 <img className="h-6 w-6 mr-2" src={`/images/icons/avocado.webp`} />
-                {/* <div className="text-xl">❤️</div> */}
                 Keto
-              </a>
+              </a> */}
             </section>
 
-            <article className="">
+            <article className="overflow-x-auto w-full">
               {/* <section className="mt-4 mb-0 space-x-1">
                   <div className="inline-block mb-2" key="all">
                     <input
@@ -986,7 +962,7 @@ export default function Restaurant(props) {
                 </>
                </section> */}
 
-              <table className="w-full divide-y divide-stone-300 rounded-lg min-w-full">
+              <table className="w-full divide-y divide-stone-300 rounded-lg">
                 <thead className="rounded-t-lg">
                   <tr>
                     {/* <th
@@ -1007,7 +983,7 @@ export default function Restaurant(props) {
                             />
                           </div> */}
                         <div className="ml-2">
-                          <SortableTableHeader colKey="meal_name" name="Name" />
+                          <SortableTableHeader colKey="name" name="Name"  direction="ascending"/>
                         </div>
                       </div>
                     </th>
@@ -1018,15 +994,17 @@ export default function Restaurant(props) {
                       <SortableTableHeader colKey="category" name="Type" />
                     </th> */}
 
-                    {showHiddenRow && (
+                    {showCustomRow && (
                       <th
                         scope="col"
-                        className="px-1 py-3.5 text-left text-sm font-semibold text-stone-900 bg-green-100"
+                        className="px-3 py-3.5 whitespace-nowrap text-left text-sm font-semibold text-stone-900 bg-green-100"
                       >
-                        <SortableTableHeaderInverse
-                          colKey="proteinPerCalorie"
-                          name="Protein per Calorie"
+                        <SortableTableHeader
+                          colKey="customNutritionRow"
+                          name={getCustomNutritionRowInfo(thematicFilter).title}
+                          direction={getCustomNutritionRowInfo(thematicFilter).direction}
                         />
+                       
                       </th>
                     )}
 
@@ -1034,65 +1012,82 @@ export default function Restaurant(props) {
                       scope="col"
                       className=" py-3.5 text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeader colKey="calories" name="Calories" />
+                      <SortableTableHeader 
+                      colKey="calories" 
+                      name="Calories" 
+                      direction="ascending"/>
                     </th>
                     <th
                       scope="col"
                       className="py-3.5 text-right text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeader colKey="protein" name="Protein" />
+                      <SortableTableHeader 
+                      colKey="protein" 
+                      name="Protein" 
+                      direction="descending"/>
                     </th>
                     <th
                       scope="col"
                       className=" py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
                       <SortableTableHeader
-                        colKey="total_carbohydrates"
+                        colKey="totalCarbohydrates"
                         name="Carbs"
+                        direction="ascending"
                       />
                     </th>
                     <th
                       scope="col"
                       className=" py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeader colKey="total_fat" name="Fat" />
+                      <SortableTableHeader 
+                      colKey="totalFat" 
+                      name="Fat" 
+                      direction="ascending"/>
                     </th>
                     <th
                       scope="col"
                       className="py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeaderInverse
+                      <SortableTableHeader
                         colKey="cholesterol"
                         name="Cholesterol"
+                        direction="ascending"
                       />
                     </th>
                     <th
                       scope="col"
                       className="py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeaderInverse
+                      <SortableTableHeader
                         colKey="sodium"
                         name="Sodium"
+                        direction="ascending"
                       />
                     </th>
                     <th
                       scope="col"
                       className="py-3.5 text-left text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeaderInverse colKey="sugar" name="Sugar" />
+                      <SortableTableHeader 
+                      colKey="sugar" 
+                      name="Sugar" 
+                      direction="ascending"/>
                     </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-stone-200 bg-white w-full">
-                  {filteredItems.length > 0 ? (
-                    filteredItems.map((meal) => (
+                  {items.length > 0 ? (
+                    items.map((meal) => (
                       <MealRow
                         restaurantName={restaurant.name}
                         restaurantSlug={restaurant.slug}
                         showRestaurantData={false}
                         meal={meal}
                         key={meal.mealName}
-                        showHiddenRow={showHiddenRow}
+                        showCustomRow={showCustomRow}
+                        customRowKey={thematicFilter}
+                        customRowUnits={getCustomNutritionRowInfo(thematicFilter).units}
                       />
                     ))
                   ) : (

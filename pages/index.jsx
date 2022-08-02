@@ -605,7 +605,9 @@ export const MealRow = ({
   restaurantSlug,
   showRestaurantData,
   meal,
-  showHiddenRow
+  showCustomRow,
+  customRowKey,
+  customRowUnits
 }) => {
   let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   return (
@@ -624,7 +626,7 @@ export const MealRow = ({
                 />
               </div>
             ) : (
-              <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatCategory(meal.category.name, false, true)}</div>
+              <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div>
             )}
           </a>
 
@@ -642,9 +644,9 @@ export const MealRow = ({
       {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
         {formatParentCategory(category, true, true, true)}
       </td> */}
-      {showHiddenRow && 
+      {showCustomRow && 
         <td className="whitespace-nowrap  py-1 text-md text-stone-900 text-center bg-green-50">
-          {meal.proteinPerCalorie} <span className="text-stone-500 text-sm ">g / cal</span>
+          {meal[customRowKey]} <span className="text-stone-500 text-sm ">{customRowUnits}</span>
         </td>
       }
       <td className=" py-1 text-md text-stone-900 text-center">

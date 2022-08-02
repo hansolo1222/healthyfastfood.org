@@ -80,11 +80,17 @@ console.log(restaurants)
                   >
                     <SortableTableHeader colKey="rank" name="Business Size Rank" />
                   </td>
-                  <td
+                  {/* <td
                     scope="col"
                     className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
                   >
                     <SortableTableHeader colKey="usVolume" name="Brand Popularity" />
+                  </td> */}
+                  <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="locations" name="Number of Locations" />
                   </td>
                   {/* <td
                     scope="col"
@@ -138,8 +144,11 @@ console.log(restaurants)
                     </td>
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.rank}</td>
+                    
+                    {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.usVolume}</td> */}
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-                    {restaurant.usVolume}</td>
+                    {restaurant.locations}</td>
                     {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.globalVolume}</td> */}
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
