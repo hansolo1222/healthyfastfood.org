@@ -436,7 +436,7 @@ export default function Meal(props) {
               </div>
               </>
             ) : (
-              <div className="grid-cols-1 md:grid-cols-3 grid gap-8 mt-8">
+              <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8 mt-8">
               <div className="col-span-1">
                 <NutritionFacts data={meal} />
               </div>
@@ -480,7 +480,7 @@ export default function Meal(props) {
               </div>
             </div>
             :
-            <div className="text-stone-600">We don't have this information yet!</div>}
+            <div className="text-stone-600">We don&apos;t have this information yet!</div>}
           </section>
 
           {/* <section>
@@ -496,7 +496,7 @@ export default function Meal(props) {
             {meal.ingredients !== null ?
             <div dangerouslySetInnerHTML={{__html: meal.ingredients}}></div>
             :
-            <div className="text-stone-600">We don't have this information yet!</div>
+            <div className="text-stone-600">We don&apos;t have this information yet!</div>
             }
           </section>
 
@@ -505,42 +505,42 @@ export default function Meal(props) {
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-6 gap-4 grid-cols-4">
                   <div>
-                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
-                      <IdentificationIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    <div className="icon-wrapper bg-stone-50 rounded-xl p-2 w-8 h-8 flex">
+                      <IdentificationIcon className="h-4 w-4 text-stone-500 m-0"/>
                     </div>
-                    <p className="font-semibold text-sm mb-0">Name</p>
-                    <p className="text-lg">{restaurant.name}</p>
+                    <p className="font-semibold text-sm mt-1 mb-0">Name</p>
+                    <p className="text-lg text-stone-600">{restaurant.name}</p>
                   </div>
                   <div>
-                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
-                      <ClipboardListIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    <div className="icon-wrapper bg-stone-50 rounded-xl p-2 w-8 h-8 flex">
+                      <ClipboardListIcon className="h-4 w-4 text-stone-500 m-0"/>
                     </div>
-                    <p className="font-semibold text-sm mb-0">Rank</p>
-                    <p className="text-lg">{restaurant.rank}</p>
+                    <p className="font-semibold text-sm mt-1 mb-0">US Rank</p>
+                    <p className="text-lg text-stone-600">{restaurant.rank}</p>
                   </div>
                   <div>
-                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
-                      <OfficeBuildingIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    <div className="icon-wrapper bg-stone-50 rounded-xl p-2 w-8 h-8 flex">
+                      <OfficeBuildingIcon className="h-4 w-4 text-stone-500 m-0"/>
                     </div>
-                    <p className="font-semibold text-sm mb-0">Locations</p>
-                    <p className="text-lg">{restaurant.locations }</p>
+                    <p className="font-semibold text-sm mt-1 mb-0">Locations</p>
+                    <p className="text-lg text-stone-600">{restaurant.locations }</p>
                   </div>
                   <div>
-                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
-                      <CollectionIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    <div className="icon-wrapper bg-stone-50 rounded-xl p-2 w-8 h-8 flex">
+                      <CollectionIcon className="h-4 w-4 text-stone-500 m-0"/>
                     </div>
-                    <p className="font-semibold text-sm mb-0">Food Type</p>
-                    <p className="text-lg">{restaurant.restaurantType.name }</p>
+                    <p className="font-semibold text-sm mt-1 mb-0">Food Type</p>
+                    <p className="text-lg text-stone-600">{restaurant.restaurantType.name }</p>
                   </div>
                   <div>
-                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
-                      <UserIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    <div className="icon-wrapper bg-stone-50 rounded-xl p-2 w-8 h-8 flex">
+                      <UserIcon className="h-4 w-4 text-stone-500 m-0"/>
                     </div>
-                    <p className="font-semibold text-sm mb-0">Service Type</p>
-                    <p className="text-lg">{restaurant.segment.name }</p>
+                    <p className="font-semibold text-sm mt-1 mb-0">Service Type</p>
+                    <p className="text-lg text-stone-600">{restaurant.segment.name }</p>
                   </div>
                 </div>
-                {/* <div className="mt-4 text-zinc-700">
+                {/* <div className="mt-4 text-stone-700">
                   <p>{miner.manufacturer.description}</p>
                   <a href={`https://www.minerlist.com/brand/${miner.manufacturer.slug}`} className="text-indigo-500">See all {miner.manufacturer.name} miners</a>
                 </div> */}
