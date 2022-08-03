@@ -11,6 +11,22 @@ function MyApp({ Component, pageProps }) {
       <link rel="shortcut icon" href="/images/favicon.ico" />
     
       </Head>
+
+      <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}, { page_path: window.location.pathname });
+            `,
+          }}
+        />
+{/* 
       <Script id="gtag" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
 <Script id="ga" strategy="lazyOnload">
@@ -22,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         page_path: window.location.pathname,
         });
     `}
-</Script>
+</Script> */}
 
       <Component {...pageProps} />
   </>
