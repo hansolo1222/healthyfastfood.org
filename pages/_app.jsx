@@ -9,8 +9,7 @@ function MyApp({ Component, pageProps }) {
   <>
     <Head>
       <link rel="shortcut icon" href="/images/favicon.ico" />
-      </Head>
-
+      
       <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -25,6 +24,7 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
+        </Head>
       <Component {...pageProps} />
   </>
   )
