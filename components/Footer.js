@@ -110,15 +110,15 @@ import React from "react";
   export default function Footer() {
     return (
       <footer className="bg-stone-100" aria-labelledby="footer-heading">
-        <h2 id="footer-heading" className="sr-only">
+        <div id="footer-heading" className="sr-only">
           Footer
-        </h2>
+        </div>
         <div className="max-w-8xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-12">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Sections</h3>
+                  <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Sections</div>
                   <ul role="list" className="mt-3 space-y-3">
                     {navigation.miners.map((item) => (
                       <li key={item.name}>
@@ -130,7 +130,7 @@ import React from "react";
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Top Restaurants</h3>
+                  <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Top Restaurants</div>
                   <ul role="list" className="mt-3 space-y-3">
                     {navigation.restaurants.map((item) => (
                       <li key={item.name}>
@@ -144,7 +144,7 @@ import React from "react";
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Popular Categories</h3>
+                  <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Popular Categories</div>
                   <ul role="list" className="mt-3 space-y-3">
                     {navigation.categories.map((item) => (
                       <li key={item.name}>
@@ -170,9 +170,9 @@ import React from "react";
               </div>
             </div>
             <div className="mt-8 xl:mt-0">
-              <h3 className="text-sm font-semibold text-stone-600 tracking-wider uppercase">
+              <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">
                 Stay up to date
-              </h3>
+              </div>
               <p className="mt-3 text-base text-stone-500">
                 The latest HealthyFastFood.org news, resources, and coupons, straight to your inbox weekly.
               </p>

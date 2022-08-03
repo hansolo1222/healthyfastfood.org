@@ -13,8 +13,8 @@ import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { NextSeo } from "next-seo";
 import prisma from "../../lib/prisma"
-import { PlusIcon, MinusIcon } from "@heroicons/react/outline";
-
+import { PlusIcon, MinusIcon} from "@heroicons/react/outline";
+import {IdentificationIcon,OfficeBuildingIcon,ClipboardListIcon,UserIcon,CollectionIcon} from "@heroicons/react/outline";
 import { MealTabs } from "../../components/Tabs";
 import { FAQ } from "../../components/FAQ";
 
@@ -31,7 +31,12 @@ export const getServerSideProps = async (context) => {
       },
     },
     include: {
-      restaurant: true,
+      restaurant: {
+        include: {
+          segment: true,
+          restaurantType: true
+        }
+      },
       category: true,
       variants: true,
     },
@@ -107,37 +112,23 @@ export default function Meal(props) {
       question: `What are the macros for the ${restaurant.name} ${meal.name}?`,
       answer: `The ${meal.name} has ${meal.protein}g protein, ${meal.totalCarbohydrates}g carbs and ${meal.totalFat}g fat. That means ${proteinPercent}% of calories come from protein, ${carbPercent}% of calories come from carbs, and ${fatPercent}% of calories come from fat.`,
     },
-    {
-      question: `Is the ${meal.name} healthy?`,
-      answer: `The ${meal.name} has ${meal.protein}g protein, ${meal.totalCarbohydrates}g carbs and ${meal.totalFat}g fat. That means ${proteinPercent}% of calories come from protein, ${carbPercent}% of calories come from carbs, and ${fatPercent}% of calories come from fat.`,
-    },
-    {
-      question: `Which ${restaurant.name} menu item has the most calories?`,
-      answer: ``
-    },
-    {
-      question: `What is the healthiest item at ${restaurant.name}?`,
-      answer: ``
-    },
-    {
-      question: `How many calories should I eat a day to lose weight?`,
-      answer: ``
-    },
+    // {
+    //   question: `Is the ${meal.name} healthy?`,
+    //   answer: `The ${meal.name} has ${meal.protein}g protein, ${meal.totalCarbohydrates}g carbs and ${meal.totalFat}g fat. That means ${proteinPercent}% of calories come from protein, ${carbPercent}% of calories come from carbs, and ${fatPercent}% of calories come from fat.`,
+    // },
+    // {
+    //   question: `Which ${restaurant.name} menu item has the most calories?`,
+    //   answer: ``
+    // },
+    // {
+    //   question: `What is the healthiest item at ${restaurant.name}?`,
+    //   answer: ``
+    // },
+    // {
+    //   question: `How many calories should I eat a day to lose weight?`,
+    //   answer: ``
+    // },
   ]
-
-  // <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Frequently Asked Questions</h2>
-  // <h3 className="text-lg font-bold pb-4">How many calories are the in {meal.name}?</h3>
-  // <p className="pb-4">There are {meal.calories} calories in the {meal.name}.</p>
-  // <h3>What are the macros of the {meal.name}?</h3>
-
-
-  // <h3>How many carbohydrates are in this item?</h3>
-  // <h3>How much protein does this item contain?</h3>
-  // <h3>How much fat is in this item?</h3>
-  // <h3>How many sodium is in this item?</h3>
-  // <h3>How much cholesterol is in this item?</h3>
-  // <h3>How much sugar is in this item?</h3>
-
 
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
@@ -152,7 +143,7 @@ export default function Meal(props) {
     datasets: [
       {
         label: "Macro Breakdown",
-        data: [meal.totalCarbohydrates, meal.protein, meal.totalFat],
+        data: [meal.totalCarbohydrates*4, meal.protein*4, meal.totalFat*9],
         backgroundColor: ["#E38627", "#6A2135", "#C13C37"],
         hoverOffset: 4,
       },
@@ -258,16 +249,16 @@ export default function Meal(props) {
                 </ul> */}
               </div>
           </aside>
-          <main>
-            <section className="mt-8 pb-8">
+          <main className="overflow-x-auto">
+            <section className="mt-0 md:mt-8 pb-8">
               <div className="flex mt-4">
                 {/* <div className="h-48 w-48 bg-slate-50 rounded-lg"> */}
-                <div className="border rounded-xl">
+                <div className="border rounded-xl h-full md:flex justify-center items-center overflow-hidden hidden">
                   <Image
                     src={src}
                     alt={`${meal.name}`}
-                    height='200px' 
-                    width='200px' 
+                    height='120px' 
+                    width='120px' 
                     objectFit="contain"
                     className="border"
                     onError={() => setSrc("/images/categories/" + meal.category.parentCategorySlug + ".webp")}
@@ -277,22 +268,84 @@ export default function Meal(props) {
                     //   }}
                   />
                 </div>
-                <div className="ml-6">
+                <div className="ml-0 md:ml-6">
                    <Breadcrumbs pages={pages} />
 
-                  <h1 className="text-3xl font-bold mt-1">
-                    {meal.name} <span className="text-stone-500 font-normal">Nutrition Facts & Calories</span>
-                  </h1>
-                  <p className="text-stone-500 mt-4">
-                    Use this page to instantly find <b>nutrition information</b> and <b>healthier alternatives</b> to the {restaurant.name}{" "}
-                    {meal.name}.
+                <div className="flex items-center mt-4 md:mt-0">
+                <div className="relative w-8 h-8 md:w-12 md:h-12 mr-2 md:mr-4 block md:hidden">
+                <Image
+                  className=" flex-shrink-0 rounded-md mr-2 z-0"
+                  src={src}
+                  alt={`${meal.name}`}
+                  layout="fill"
+                  objectFit="contain"
+                  onError={() => setSrc("/images/categories/" + meal.category.parentCategorySlug + ".webp")}
 
-                  </p>
+                />
+              </div>
+              <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
+                    {meal.name} <span className="text-stone-500 font-normal">Nutrition Facts</span>
+                  </h1>
+              </div>
+
+                  
+
+
+                  {meal.variants.length == 0 && (
+                    <dl className="max-w-lg mt-4 grid rounded-lg bg-white overflow-hidden border-stone-200  divide-stone-200 grid-cols-2 md:grid-cols-4 gap-2">
+                      <div className=" bg-stone-50 rounded-full py-2">
+                        
+                        <dd className=" flex justify-center items-baseline ">
+                          <div className="flex items-baseline text-xl font-semibold text-orange-600">
+                            {meal.calories}
+                          </div>
+                        </dd>
+                        <dt className="text-sm font-normal text-stone-600 text-center">
+                          Calories
+                        </dt>
+                      </div>
+                      <div className="bg-stone-50 rounded-full py-2 ">
+                        <dd className="flex justify-center items-baseline ">
+                          <div className="flex items-baseline text-xl font-semibold text-black-600">
+                            {meal.protein}g
+                          </div>
+                        </dd>
+                        <dt className="text-sm font-normal text-stone-600 text-center">
+                          Protein
+                        </dt>
+                      </div>
+                      <div className="bg-stone-50 rounded-full py-2">
+                       
+                        <dd className="flex justify-center items-baseline ">
+                          <div className="flex items-baseline text-xl font-semibold text-black-600">
+                            {meal.totalFat}g
+                          </div>
+                        </dd>
+                        <dt className="text-sm font-normal text-stone-600 text-center">
+                          Total Fat
+                        </dt>
+                      </div>
+                      <div className="bg-stone-50 rounded-full py-2">
+                    
+                        <dd className=" flex justify-center items-baseline ">
+                          <div className="flex items-baseline text-xl font-semibold text-black-600">
+                            {meal.totalCarbohydrates}g
+                          </div>
+                        </dd>
+                        <dt className="text-sm font-normal text-stone-600 text-center">
+                          Total Carbs
+                        </dt>
+                      </div>
+                    </dl>
+                  )}
+
+
+
                   <p className="text-stone-500 mt-4 ">
-                    The {restaurant.name} {meal.name} has{" "}
-                    <b>{meal.calories} calories</b>, <b>{meal.protein}g</b> of
-                    protein, <b>{meal.totalCarbohydrates}g</b> of carbohydrates
-                    and <b>{meal.totalFat}g</b> of fat.
+                    The {restaurant.name} {meal.name} contains{" "}
+                    <b>{meal.calories} calories</b>, <b>{meal.protein}g </b>
+                    protein, <b>{meal.totalCarbohydrates}g</b> total carbohydrates
+                    and <b>{meal.totalFat}g</b> total fat.
                   </p>
                   {/* <p className="text-stone-500 mt-4">
                   Jump to:
@@ -315,7 +368,10 @@ export default function Meal(props) {
                 </div>
               </div>
             </section>
-              <MealTabs activeTab="nutrition-information" slug="" />
+            <div>
+                <MealTabs activeTab="nutrition-information" slug="" />
+              </div>
+            
             <section>
             {/* <h2 className="font-bold text-2xl mb-6 pt-8">Nutrition Information</h2> */}
             {meal.variants.length > 0 ? (
@@ -381,62 +437,19 @@ export default function Meal(props) {
               </>
             ) : (
               <div className="grid-cols-1 md:grid-cols-3 grid gap-8 mt-8">
-              <div className="max-w-md col-span-1">
+              <div className="col-span-1">
                 <NutritionFacts data={meal} />
               </div>
-              <div>
-              {meal.variants.length == 0 && (
-                    <dl className="mt-5 grid rounded-lg bg-white overflow-hidden border border-stone-200 divide-y divide-stone-200 grid-cols-2 md:grid-cols-4 md:divide-y-0 md:divide-x">
-                      <div className="px-4 py-5 sm:p-6">
-                        <dt className="text-base font-normal text-stone-900">
-                          Calories
-                        </dt>
-                        <dd className="mt-1 flex justify-between items-baseline md:block lg:flex">
-                          <div className="flex items-baseline text-2xl font-semibold text-green-600">
-                            {meal.calories} kcal
-                          </div>
-                        </dd>
-                      </div>
-                      <div className="px-4 py-5 sm:p-6">
-                        <dt className="text-base font-normal text-stone-900">
-                          Protein
-                        </dt>
-                        <dd className="mt-1 flex justify-between items-baseline md:block lg:flex">
-                          <div className="flex items-baseline text-2xl font-semibold text-green-600">
-                            {meal.protein}g
-                          </div>
-                        </dd>
-                      </div>
-                      <div className="px-4 py-5 sm:p-6">
-                        <dt className="text-base font-normal text-stone-900">
-                          Total Fat
-                        </dt>
-                        <dd className="mt-1 flex justify-between items-baseline md:block lg:flex">
-                          <div className="flex items-baseline text-2xl font-semibold text-green-600">
-                            {meal.totalFat}g
-                          </div>
-                        </dd>
-                      </div>
-                      <div className="px-4 py-5 sm:p-6">
-                        <dt className="text-base font-normal text-stone-900">
-                          Total Carbs
-                        </dt>
-                        <dd className="mt-1 flex justify-between items-baseline md:block lg:flex">
-                          <div className="flex items-baseline text-2xl font-semibold text-green-600">
-                            {meal.totalCarbohydrates}g
-                          </div>
-                        </dd>
-                      </div>
-                    </dl>
-                  )}
-              </div>
+              
               <div className="col-span-1">
                 <div className="border p-5 rounded-lg">
-                  <h3 className="text-xl font-bold mb-4">Macros Breakdown</h3>
+                  <h2 className="text-xl font-bold mb-4">Macros Summary</h2>
+                 
                   <Pie data={data} />
-                  The acceptable macronutrient distribution ranges (AMDR) are
+                 <p className="text-sm text-stone-600 mt-8"> The acceptable macronutrient distribution ranges (AMDR) are
                     45–65% of your daily calories from carbs, 20–35% from fats
                     and 10–35% from protein.
+                    </p>
                 </div>
               </div>
             </div>
@@ -445,9 +458,10 @@ export default function Meal(props) {
 
           <section>
             <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Allergens</h2>
+            {meal.allergensTrue.length > 0 && meal.allergensFalse.length > 0 ?
             <div className="grid-cols-3 grid gap-8 mt-8">
               <div className="bg-stone-50 p-5 rounded-lg">
-              <h3 className="font-bold">This item contains:</h3>
+              <h3 className="font-bold">Contains allergens:</h3>
                 {meal.allergensTrue.map((allergen)=>(
                   <li className="list-none flex items-center" key={allergen}>
                     <PlusIcon className="h-5 w-5 mr-2"/>{allergen}
@@ -456,7 +470,7 @@ export default function Meal(props) {
                 )}
               </div>
               <div className="bg-stone-50 p-5 rounded-lg">
-              <h3 className="font-bold">This item does not contain:</h3>
+              <h3 className="font-bold">Does not contain allergens:</h3>
                 {meal.allergensFalse.map((allergen)=>(
                   <li className="list-none flex items-center" key={allergen}>
                   <MinusIcon className="h-5 w-5 mr-2"/>{allergen}
@@ -465,23 +479,72 @@ export default function Meal(props) {
                 )}
               </div>
             </div>
+            :
+            <div className="text-stone-600">We don't have this information yet!</div>}
           </section>
 
-          <section>
-            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Compare To</h2>
+          {/* <section>
+            <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Healthy Alternatives</h2>
             <p className="text-xl">Find Alternatives to the {meal.name} at {restaurant.name}:</p>
 
             <p className="text-xl">Find Alternatives to the {meal.name} at other restaurants:</p>
 
-          </section>
+          </section> */}
 
           <section>
             <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Ingredients</h2>
+            {meal.ingredients !== null ?
             <div dangerouslySetInnerHTML={{__html: meal.ingredients}}></div>
+            :
+            <div className="text-stone-600">We don't have this information yet!</div>
+            }
           </section>
 
-          <section>
+          <section className="">
             <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">About This Restaurant</h2>
+
+                <div className="grid sm:grid-cols-2 md:grid-cols-6 gap-4 grid-cols-4">
+                  <div>
+                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
+                      <IdentificationIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    </div>
+                    <p className="font-semibold text-sm mb-0">Name</p>
+                    <p className="text-lg">{restaurant.name}</p>
+                  </div>
+                  <div>
+                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
+                      <ClipboardListIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    </div>
+                    <p className="font-semibold text-sm mb-0">Rank</p>
+                    <p className="text-lg">{restaurant.rank}</p>
+                  </div>
+                  <div>
+                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
+                      <OfficeBuildingIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    </div>
+                    <p className="font-semibold text-sm mb-0">Locations</p>
+                    <p className="text-lg">{restaurant.locations }</p>
+                  </div>
+                  <div>
+                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
+                      <CollectionIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    </div>
+                    <p className="font-semibold text-sm mb-0">Food Type</p>
+                    <p className="text-lg">{restaurant.restaurantType.name }</p>
+                  </div>
+                  <div>
+                    <div className="icon-wrapper bg-zinc-50 rounded-xl p-2 w-8 h-8 flex">
+                      <UserIcon className="h-4 w-4 text-zinc-500 m-0"/>
+                    </div>
+                    <p className="font-semibold text-sm mb-0">Service Type</p>
+                    <p className="text-lg">{restaurant.segment.name }</p>
+                  </div>
+                </div>
+                {/* <div className="mt-4 text-zinc-700">
+                  <p>{miner.manufacturer.description}</p>
+                  <a href={`https://www.minerlist.com/brand/${miner.manufacturer.slug}`} className="text-indigo-500">See all {miner.manufacturer.name} miners</a>
+                </div> */}
+
           </section>
 
           <section>
@@ -491,7 +554,8 @@ export default function Meal(props) {
 
 
           </section>
-            <div className="text-sm">
+
+            <div className="text-sm mt-16 text-stone-600">
             Please note that item availability varies by restaurant location.
             <br/><br/>
             Calories and other nutritional information will vary based on modifications made to item. Product availability, prices, offers and discounts may vary from in-restaurant. Before using coupons check if {restaurant.name} printed coupons are valid for online or food-delivery orders.

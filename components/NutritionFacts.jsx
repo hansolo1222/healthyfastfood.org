@@ -9,7 +9,7 @@ const NutritionFacts = ({data}) => {
   return (
     <section className="performance-facts border  w-full mr-5 p-6 rounded-lg text-stone-900">
       <header className="performance-facts__header m-0 pb-1">
-        <h3 className="performance-facts__title text-3xl leading-none m-0 p-0 font-extrabold">Nutrition Facts</h3>
+        <h2 className="performance-facts__title text-3xl leading-none m-0 p-0 font-black">Nutrition Facts</h2>
         <p className="leading-extratight text-sm">{data.name}</p>
       </header>
       <table className="performance-facts__table">
@@ -22,13 +22,18 @@ const NutritionFacts = ({data}) => {
         </thead>
         <tbody>
             <tr>
-              <th colSpan="2">
+              <th colSpan="1">
                 <span className="font-black">Calories </span>
                 {data.calories}
               </th>
-              <td>
-                
+              <td colSpan="1">
+
+              <span className="">Calories from Fat </span>
+                {data.totalFat*9}
+              
               </td>
+                
+             
             </tr>
             <tr className="thick-row">
               <td colSpan="3" className="small-info text-xs">
