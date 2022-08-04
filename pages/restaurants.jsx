@@ -19,7 +19,7 @@ export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
     orderBy: [
       {
-        rank: "asc",
+        rank: "desc",
       },
     ],
     include: {
@@ -49,8 +49,7 @@ export default function Restaurants(props) {
     SortableTableHeaderROI,
   } = useSortableData(restaurants);
 
-console.log(restaurants)
-
+  console.log(items)
   return (
     <div className="">
       <Head>
@@ -64,7 +63,7 @@ console.log(restaurants)
           <h2 className="text-3xl font-bold text-center mb-8 mt-8">
          Most Popular Restaurants
         </h2>
-            <table className="min-w-full divide-y divide-stone-300 rounded-lg">
+            <table className="max-w-3xl mx-auto divide-y divide-stone-300 rounded-lg ">
               <thead className=" rounded-t-lg">
                 <tr>
                 
@@ -72,13 +71,13 @@ console.log(restaurants)
                     scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
                   >
-                  <SortableTableHeader colKey="name" name="Name" />
+                  <SortableTableHeader colKey="slug" name="Name" direction="ascending"/>
                   </td>
                   <td
                     scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-right"
+                    className="px-3 py-0.5 text-sm whitespace-nowrap font-semibold text-greeny-600 text-right"
                   >
-                    <SortableTableHeader colKey="rank" name="Business Size Rank" />
+                    <SortableTableHeader colKey="rank" name="Business Rank" direction="ascending"/>
                   </td>
                   {/* <td
                     scope="col"
@@ -88,9 +87,9 @@ console.log(restaurants)
                   </td> */}
                   <td
                     scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                    className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
                   >
-                    <SortableTableHeader colKey="locations" name="Number of Locations" />
+                    <SortableTableHeader colKey="locations" name="# Locations" direction="descending"/>
                   </td>
                   {/* <td
                     scope="col"
@@ -100,22 +99,21 @@ console.log(restaurants)
                   </td> */}
                   <td
                     scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                    className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
                   >
-                    <SortableTableHeader colKey="restaurantTypeSlug" name="Food Type" />
+                    <SortableTableHeader colKey="restaurantTypeSlug" name="Food Type" direction="ascending"/>
                   </td>
                   <td
                     scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                    className="px-3 py-0.5 text-sm font-semibold  whitespace-nowrap  text-greeny-600 text-center"
                   >
-                    <SortableTableHeader colKey="segmentSlug" name="Service Type" />
+                    <SortableTableHeader colKey="segmentSlug" name="Service Type" direction="ascending"/>
                   </td>
                  
                 </tr>
               </thead>
               <tbody className="divide-y divide-stone-200">
                 {items.map((restaurant, i) => {
-                  console.log(restaurant)
                   return(
                   <tr className="hover:bg-stone-100" key={restaurant.key}>
                  

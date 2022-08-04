@@ -605,37 +605,6 @@
                 "ingredients": "Cream, Cotton Candy Ribbon [Sugar, Corn Oil, Refined Coconut Oil, Soy Lecithin, Soybean Oil, Salt, Beet Juice Concentrate (Color), Natural Flavor], Cotton Candy Flavor Base [Corn Syrup, Water, Sugar, Artificial Flavor, Sodium Citrate, Citric Acid], Nonfat Milk, Sugar, Corn Syrup, Yellow Popping Candy [White Coating (Sugar, Refined Coconut Oil, Nonfat Milk, Milk Fat, Soy Lecithin, Natural Flavors), Crackling Candy (Sugar, Glucose, Maltose, Lactose, Carbon Dioxide), Beta Carotene (Color)], Contains 2% or less of: Whey Powder, Cellulose Gum, Mono and Diglycerides, Guar Gum, Carrageenan, Polysorbate 80, Fruit and Vegetable Juice for Color (Pumpkin, Apple, Beetroot)."
             },
             {
-                "calories": 200,
-                "total_fat": 10,
-                "saturated_fat": 5,
-                "trans_fat": 0,
-                "cholesterol": 25,
-                "sodium": 55,
-                "total_carbohydrates": 25,
-                "dietary_fiber": 0,
-                "sugar": 19,
-                "protein": 2,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": 6,
-                "iron": 0,
-                "variant_name": "Small Scoop",
-                "allergens_true": [
-                    "milk",
-                    "soy"
-                ],
-                "allergens_false": [
-                    "egg",
-                    "fish",
-                    "gluten",
-                    "peanuts",
-                    "shellfish",
-                    "tree nuts",
-                    "wheat"
-                ],
-                "ingredients": "Cream, Cotton Candy Ribbon [Sugar, Corn Oil, Refined Coconut Oil, Soy Lecithin, Soybean Oil, Salt, Beet Juice Concentrate (Color), Natural Flavor], Cotton Candy Flavor Base [Corn Syrup, Water, Sugar, Artificial Flavor, Sodium Citrate, Citric Acid], Nonfat Milk, Sugar, Corn Syrup, Yellow Popping Candy [White Coating (Sugar, Refined Coconut Oil, Nonfat Milk, Milk Fat, Soy Lecithin, Natural Flavors), Crackling Candy (Sugar, Glucose, Maltose, Lactose, Carbon Dioxide), Beta Carotene (Color)], Contains 2% or less of: Whey Powder, Cellulose Gum, Mono and Diglycerides, Guar Gum, Carrageenan, Polysorbate 80, Fruit and Vegetable Juice for Color (Pumpkin, Apple, Beetroot)."
-            },
-            {
                 "calories": 320,
                 "total_fat": 16,
                 "saturated_fat": 8,
@@ -1201,37 +1170,6 @@
         "meal_name": "Green Tea Ice Cream",
         "category": "Ice Cream",
         "variants": [
-            {
-                "calories": 140,
-                "total_fat": 9,
-                "saturated_fat": 5,
-                "trans_fat": 0,
-                "cholesterol": 35,
-                "sodium": 55,
-                "total_carbohydrates": 13,
-                "dietary_fiber": 1,
-                "sugar": 10,
-                "protein": 3,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": 8,
-                "iron": 0,
-                "variant_name": "Small Scoop",
-                "allergens_true": [
-                    "milk"
-                ],
-                "allergens_false": [
-                    "egg",
-                    "fish",
-                    "gluten",
-                    "peanuts",
-                    "shellfish",
-                    "soy",
-                    "tree nuts",
-                    "wheat"
-                ],
-                "ingredients": "Cream, Nonfat Milk, Sugar, Corn Syrup, Whey Powder, Green Tea, Green Tea Leaves, Stabilizer/Emulsifier Blend [Cellulose Gum, Mono and Diglycerides, Guar Gum, Carrageenan, Polysorbate 80], Spirulina Extract and Beta Carotene (Colors)."
-            },
             {
                 "calories": 140,
                 "total_fat": 9,
@@ -3178,37 +3116,6 @@
         "meal_name": "Surprise Party Ice Cream",
         "category": "Ice Cream",
         "variants": [
-            {
-                "calories": 160,
-                "total_fat": 8,
-                "saturated_fat": 5,
-                "trans_fat": 0,
-                "cholesterol": 30,
-                "sodium": 50,
-                "total_carbohydrates": 19,
-                "dietary_fiber": 0,
-                "sugar": 14,
-                "protein": 3,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": 8,
-                "iron": 0,
-                "variant_name": "Small Scoop",
-                "allergens_true": [
-                    "gluten",
-                    "milk",
-                    "wheat"
-                ],
-                "allergens_false": [
-                    "egg",
-                    "fish",
-                    "peanuts",
-                    "shellfish",
-                    "soy",
-                    "tree nuts"
-                ],
-                "ingredients": "Cream, Nonfat Milk, Sugar, Cake Batter Base [Corn Syrup, Wheat Flour, Water, Natural Flavor, Beta Carotene (Color)], Corn Syrup, Whey Powder, Contains 2% or less of: Spirulina Extract and Beta Carotene (Colors), Vegetable Juice for Color (Beetroot, Carrot), Cellulose Gum, Mono and Diglycerides, Guar Gum, Carrageenan, Polysorbate 80, Natural Flavor."
-            },
             {
                 "calories": 160,
                 "total_fat": 8,

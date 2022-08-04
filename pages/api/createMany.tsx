@@ -9,6 +9,9 @@ import fs from "fs";
 import path from "path";
 const fsPromises = fs.promises;
 
+var slugify = require('slugify')
+
+
 export default async (req, res) => {
   try {
 
@@ -27,24 +30,22 @@ export default async (req, res) => {
 
     let files = await getFileNames();
 
-    const getRestaurants = await prisma.restaurant.findMany({
-      where: {
-        meals: {
-          some: {
-            calories: {
-              gt: 0,
-            },
-          },
-        },
-      },
-    });
-
-    let alreadyCompleted = getRestaurants.map((r) => r.slug + ".json");
-    let mealData = []
-
+    // const getRestaurants = await prisma.restaurant.findMany({
+    //   where: {
+    //     meals: {
+    //       some: {
+    //         calories: {
+    //           gt: 0,
+    //         },
+    //       },
+    //     },
+    //   },
+    // });
+    // let alreadyCompleted = getRestaurants.map((r) => r.slug + ".json");
+  
     // .filter((fileName) => !alreadyCompleted.includes(fileName) && fileName != 'starbucks.json')
 
-
+    let mealData = []
     files
     .filter((fileName) => fileName != 'starbucks.json')
     .map((fileName)=>{
@@ -52,7 +53,7 @@ export default async (req, res) => {
       mealData = [...mealData, ...dataSource]
     })
 
-        // duplicates
+        //duplicates
     // let sorted = mealData.map((d)=>(d.restaurant_slug + "-" + d.slug)).sort()
     // const findDuplicates = arry => arry.filter((item, index) => sorted.indexOf(item) !== index)
     // console.log(findDuplicates(sorted), "DUPLICATES!!!!!");
@@ -121,7 +122,9 @@ export default async (req, res) => {
             .map((variant) => {
               return {
                 variantName: variant.variant_name,
+                variantSlug: slugify(variant.variant_name, {lower: true, remove: /[*+~.()'"!:@]/g}),
                 mealCombinedSlug: variant.restaurant_slug + "-" + variant.slug,
+                mealVariantCombinedSlug:  variant.restaurant_slug + "-" + variant.slug + "-" + slugify(variant.variant_name, {lower: true, remove: /[*+~.()'"!:@]/g}),
                 calories:
                   variant.calories !== undefined
                     ? Math.round(variant.calories)
@@ -160,6 +163,22 @@ export default async (req, res) => {
                 allergensFalse: variant.allergens_false,
               };
             });
+
+    // const findDuplicates = arry => arry.filter((item, index) => formattedVariants.indexOf(item) !== index)
+    // console.log(findDuplicates(formattedVariants), "DUPLICATES!!!!!");
+
+    var valueArr = formattedVariants.map(function(item){ return item.mealVariantCombinedSlug });
+    const findDuplicates = arry => arry.filter((item, index) => valueArr.indexOf(item) !== index)
+
+    // var isDuplicate = valueArr.some(function(item, idx){ 
+    //   if (valueArr.indexOf(item) != idx ){
+    //     return item
+    //   }
+      
+    // });
+    console.log(findDuplicates(valueArr));
+  
+
 
           const variants = await prisma.variant.createMany({
             data: formattedVariants,

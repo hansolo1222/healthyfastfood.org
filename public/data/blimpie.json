@@ -393,26 +393,6 @@
                 "ingredients": null
             },
             {
-                "calories": 450,
-                "total_fat": 13,
-                "saturated_fat": 6.0,
-                "trans_fat": 0.0,
-                "cholesterol": 70,
-                "sodium": 1330,
-                "total_carbohydrates": 47,
-                "dietary_fiber": 5,
-                "sugar": 12,
-                "protein": 36,
-                "vitamin_a": 4,
-                "vitamin_c": 4,
-                "calcium": 20,
-                "iron": 15,
-                "variant_name": "6 inch",
-                "allergens_true": [],
-                "allergens_false": [],
-                "ingredients": null
-            },
-            {
                 "calories": 900,
                 "total_fat": 24,
                 "saturated_fat": 11.0,

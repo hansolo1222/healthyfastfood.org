@@ -2374,36 +2374,6 @@
                 "ingredients": null
             },
             {
-                "calories": 286,
-                "total_fat": 0,
-                "saturated_fat": 0,
-                "trans_fat": 0,
-                "cholesterol": 0,
-                "sodium": 84,
-                "total_carbohydrates": 73,
-                "dietary_fiber": 0,
-                "sugar": 73,
-                "protein": 0,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Small",
-                "allergens_true": [],
-                "allergens_false": [
-                    "egg",
-                    "fish",
-                    "gluten",
-                    "milk",
-                    "peanuts",
-                    "shellfish",
-                    "soy",
-                    "tree nuts",
-                    "wheat"
-                ],
-                "ingredients": null
-            },
-            {
                 "calories": 415,
                 "total_fat": 0,
                 "saturated_fat": 0,

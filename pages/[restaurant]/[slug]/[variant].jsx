@@ -1,22 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
 //import styles from '../styles/Home.module.css'
-import Header from "../../components/Header";
-import Layout from "../../components/Layout";
-import NutritionFacts from "../../components/NutritionFacts";
+import Header from "../../../components/Header";
+import Layout from "../../../components/Layout";
+import NutritionFacts from "../../../components/NutritionFacts";
 import { useState } from "react";
 import { useRouter } from "next/router";
-import * as restaurants from "../../public/restaurant_links.json" assert { type: "json" };
-import { Breadcrumbs } from "../../components/Breadcrumbs";
-import { PieChart } from "react-minimal-pie-chart";
+import { Breadcrumbs } from "../../../components/Breadcrumbs";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { NextSeo } from "next-seo";
-import prisma from "../../lib/prisma"
+import prisma from "../../../lib/prisma"
 import { PlusIcon, MinusIcon} from "@heroicons/react/outline";
 import {IdentificationIcon,OfficeBuildingIcon,ClipboardListIcon,UserIcon,CollectionIcon} from "@heroicons/react/outline";
-import { MealTabs } from "../../components/Tabs";
-import { FAQ } from "../../components/FAQ";
+import { MealTabs } from "../../../components/Tabs";
+import { FAQ } from "../../../components/FAQ";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -43,6 +41,12 @@ export const getServerSideProps = async (context) => {
       variants: true,
     },
   });
+
+  const variant = await prisma.variant.findUnique({
+    where: {
+        mealVariantCombinedSlug: context.resolvedUrl.split("/")[1] + "-" + context.resolvedUrl.split("/")[2] + "-" + context.resolvedUrl.split("/")[3]
+    }
+  })
 
   const category = mealData.category.name;
 
@@ -73,16 +77,20 @@ export const getServerSideProps = async (context) => {
   // }
   return {
     props: {
-      meal: JSON.parse(JSON.stringify(mealData)),
+      mealData: JSON.parse(JSON.stringify(mealData)),
       // mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
       topRestaurants: JSON.parse(JSON.stringify(topRestaurants)),
+      variant: JSON.parse(JSON.stringify(variant)),
     },
   };
 };
 
 export default function Meal(props) {
-  const { meal, topRestaurants } = props;
-  let restaurant = meal.restaurant;
+  const { mealData, topRestaurants, variant } = props;
+
+  
+  let restaurant = mealData.restaurant;
+  let meal = {...variant, name: mealData.name, slug: mealData.slug, variants: [], category: mealData.category }
 
   let proteinCalories = meal.protein*4
   let carbCalories = meal.totalCarbohydrates*9
@@ -103,7 +111,6 @@ export default function Meal(props) {
 
   } 
 
-  console.log(macros)
 
   const faqs = [
     {
@@ -136,9 +143,9 @@ export default function Meal(props) {
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
     { name: meal.name, href: `/${restaurant.slug}/${meal.slug}` },
+    { name: variant.variantName, href: `/${restaurant.slug}/${meal.slug}/${variant.variantName}` },
   ];
 
-  console.log(meal.variants.length);
 
   const data = {
     labels: ["Carbohydrates", "Protein", "Fat"],
@@ -428,10 +435,9 @@ export default function Meal(props) {
                         </dd>
                       </div>
                       <div className="flex justify-center">
-                        <a className="bg-red-500 hover:bg-red-700 text-white text-lg font-medium py-2 px-4 rounded mx-auto text-center mt-4"
-                        href={`/${restaurant.slug}/${meal.slug}/${variant.variantSlug}`}>
+                        <button className="bg-red-500 hover:bg-red-700 text-white text-lg font-medium py-2 px-4 rounded mx-auto text-center mt-4">
                           View All Nutrition Facts
-                        </a>
+                        </button>
                       </div>
                     </div>
                   );

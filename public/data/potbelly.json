@@ -13742,37 +13742,6 @@
                     "tree nuts"
                 ],
                 "ingredients": "Roast Beef, Blue Cheese, Provolone Cheese, Bread, Horseradish Mayo"
-            },
-            {
-                "calories": 810,
-                "total_fat": 38,
-                "saturated_fat": 16,
-                "trans_fat": 0,
-                "cholesterol": 115,
-                "sodium": 1820,
-                "total_carbohydrates": 65,
-                "dietary_fiber": 4,
-                "sugar": 5,
-                "protein": 51,
-                "vitamin_a": null,
-                "vitamin_c": null,
-                "calcium": null,
-                "iron": null,
-                "variant_name": "Originals",
-                "allergens_true": [
-                    "egg",
-                    "gluten",
-                    "milk",
-                    "soy",
-                    "wheat"
-                ],
-                "allergens_false": [
-                    "fish",
-                    "peanuts",
-                    "shellfish",
-                    "tree nuts"
-                ],
-                "ingredients": "Roast Beef, Blue Cheese, Provolone Cheese, Bread, Horseradish Mayo"
             }
         ],
         "slug": "steakhouse-beef"

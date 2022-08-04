@@ -11,22 +11,32 @@ export const useSortableData = (items, config = null) => {
   const [sortConfig, setSortConfig] = useState({
     key: "name",
     direction: "descending",
+
   });
+  console.log(sortConfig)
   const sortedItems = React.useMemo(() => {
     let sortedItems = [...items];
 
+
+
     if (sortConfig !== null) {
-      if (sortConfig.key == "name") {
+      if (
+      sortConfig.key == "restaurantTypeSlug" ||
+      sortConfig.key == "segmentSlug" ||
+      sortConfig.key == "slug"
+      ) {
+        console.log(1)
         sortedItems.sort((a, b) => {
-          if (a[sortConfig.key] < b[sortConfig.key]) {
+           if (a[sortConfig.key] < b[sortConfig.key]) {
             return sortConfig.direction === "ascending" ? 1 : -1;
           }
-          if (a[sortConfig.key] > b[sortConfig.key]) {
+          else if (a[sortConfig.key] > b[sortConfig.key]) {
             return sortConfig.direction === "descending" ? -1 : 1;
           }
-          return 0;
+         
         });
       } else {
+        console.log(2)
         sortedItems.sort((a, b) => {
           if (a[sortConfig.key] === null) {
             return 1;

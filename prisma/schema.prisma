@@ -39,6 +39,7 @@ model meal {
   category           category   @relation(fields: [categoryName], references: [name])
   restaurant         restaurant @relation(fields: [restaurantSlug], references: [slug])
   variants           variant[]
+  
 
   @@unique([restaurantSlug, slug])
 }
@@ -69,6 +70,8 @@ model variant {
   ingredients        String?
   mealCombinedSlug   String
   meal               meal     @relation(fields: [mealCombinedSlug], references: [combinedSlug])
+  variantSlug        String
+  mealVariantCombinedSlug String @unique
 }
 
 model restaurant {
