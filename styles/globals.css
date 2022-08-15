@@ -70,7 +70,7 @@ input.button-checkbox:checked + label {
   ; 
   white-space: nowrap;
 }
-td:last-child {
+.performance-facts__table td:last-child {
   text-align: right;
 }
   .blank-cell {

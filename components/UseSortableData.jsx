@@ -88,12 +88,12 @@ export const useSortableData = (items, config = null) => {
       >
         <div
           className={`group inline-flex items-center cursor-pointer text-xs px-1
-        ${isActive(colKey) ? "text-stone-900" : "text-stone-700"} `}
+        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
         >
           {name}
           <span
             className={`flex-none rounded ${
-              isActive(colKey) ? "text-stone-900" : "text-stone-500"
+              isActive(colKey) ? "text-stone-900" : "text-stone-300"
             } group-hover:visible group-focus:visible`}
           >
             {getDirectionForCol(colKey) == direction ? (

@@ -24,7 +24,10 @@ export const getServerSideProps = async (context) => {
     ],
     include: {
       segment: true,
-      restaurantType: true
+      restaurantType: true,
+      _count: {
+        select: { meals: true },
+      },
     }
   });
 
@@ -91,12 +94,12 @@ export default function Restaurants(props) {
                   >
                     <SortableTableHeader colKey="locations" name="# Locations" direction="descending"/>
                   </td>
-                  {/* <td
+                  <td
                     scope="col"
                     className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
                   >
-                    <SortableTableHeader colKey="globalVolume" name="World Popularity" />
-                  </td> */}
+                    <SortableTableHeader colKey="globalVolume" name="Items" />
+                  </td>
                   <td
                     scope="col"
                     className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
@@ -147,6 +150,8 @@ export default function Restaurants(props) {
                     {restaurant.usVolume}</td> */}
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.locations}</td>
+                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant._count.meals !== 0 ? restaurant._count.meals : <span className="text-xs bg-stone-50 text-stone-500 p-1 rounded">No data yet</span>}</td>
                     {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.globalVolume}</td> */}
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
