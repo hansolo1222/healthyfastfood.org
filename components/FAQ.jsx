@@ -1,6 +1,7 @@
 export const FAQ = ({faqs}) => {
     return (
-      <div className="bg-white ">
+      <section>
+      <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">Frequently Asked Questions</h2>
         <div className="mx-auto">
           {/* <div className="lg:grid lg:grid-cols-3 lg:gap-8">
             <div className="">
@@ -25,7 +26,7 @@ export const FAQ = ({faqs}) => {
               </dl>
             </div>
           
-        </div>
       </div>
+      </section>
     )
   }

@@ -23,9 +23,9 @@ export const useSortableData = (items, config = null) => {
       if (
       sortConfig.key == "restaurantTypeSlug" ||
       sortConfig.key == "segmentSlug" ||
-      sortConfig.key == "slug"
+      sortConfig.key == "slug" ||
+      sortConfig.key == "categoryName"
       ) {
-        console.log(1)
         sortedItems.sort((a, b) => {
            if (a[sortConfig.key] < b[sortConfig.key]) {
             return sortConfig.direction === "ascending" ? 1 : -1;
@@ -36,7 +36,6 @@ export const useSortableData = (items, config = null) => {
          
         });
       } else {
-        console.log(2)
         sortedItems.sort((a, b) => {
           if (a[sortConfig.key] === null) {
             return 1;

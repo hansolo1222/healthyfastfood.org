@@ -585,7 +585,10 @@ export const formatParentCategory = (category, includeElement, includeEmoji, inc
     color = "teal";
   }
 
-  let finalString = (includeEmoji ? emoji : "") + (includeEmoji && includeText ? " " : "") + (includeText ? text : "")
+  let finalString = 
+    (includeEmoji ? emoji : "") 
+    + (includeEmoji && includeText ? " " : "") 
+    + (includeText ? text : "")
 
   if (includeElement) {
     return (
@@ -609,7 +612,8 @@ export const MealRow = ({
   customRowKey,
   customRowUnits
 }) => {
-  let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
+  // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
+  let category = meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:bg-stone-50">
       <td className="pr-1 py-1.5 text-sm md:text-base text-stone-900">
@@ -626,9 +630,11 @@ export const MealRow = ({
                 />
               </div>
             ) : (
-              <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div>
+              ""
+             
             )}
           </a>
+              {/* <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div> */}
 
           <a
             href={`/${restaurantSlug}/${meal.slug}`}
@@ -641,35 +647,35 @@ export const MealRow = ({
           </a>
         </div>
       </td>
-      {/* <td className="whitespace-nowrap py-1 text-base text-stone-900 text-center">
+      <td className="whitespace-nowrap py-1 text-base text-stone-900 text-center">
         {formatParentCategory(category, true, true, true)}
-      </td> */}
+      </td>
       {showCustomRow && 
         <td className="whitespace-nowrap px-1 py-1 text-sm md:text-base text-stone-900 text-center bg-green-50">
           {meal[customRowKey]} <span className="text-stone-500 text-sm ">{customRowUnits}</span>
         </td>
       }
-      <td className=" py-1 text-sm md:text-base text-stone-900 text-center">
-        {meal.calories} <span className="text-stone-500 text-sm">cal</span>
+      <td className=" py-1 text-sm md:text-base text-stone-900 text-center font-medium">
+        {meal.calories}<span className="text-stone-500 text-sm"></span>
       </td>
       <td className="whitespace-nowrap py-1 text-sm md:text-base text-stone-900 text-center">
-        {meal.protein} <span className="text-stone-500 text-sm">g</span>
+        {meal.protein}<span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-sm md:text-base text-stone-900 text-center">
         {meal.totalCarbohydrates}{" "}
         <span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-sm md:text-base text-stone-900 text-center">
-        {parseFloat(meal.totalFat).toFixed(0)} <span className="text-stone-500 text-sm">g</span>
+        {parseFloat(meal.totalFat).toFixed(0)}<span className="text-stone-500 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap  py-1 text-sm md:text-base text-stone-900 text-center">
-        {meal.cholesterol} <span className="text-stone-500 text-sm">mg</span>
+        {meal.cholesterol}<span className="text-stone-500 text-sm">mg</span>
       </td>
       <td className="whitespace-nowrap  py-1 text-sm md:text-base text-stone-900 text-center">
-        {meal.sodium} <span className="text-stone-500 text-sm">mg</span>
+        {meal.sodium}<span className="text-stone-500 text-sm">mg</span>
       </td>
       <td className="whitespace-nowrap  py-1 text-sm md:text-base text-stone-900 text-center">
-        {meal.sugar} <span className="text-stone-500 text-sm">g</span>
+        {meal.sugar}<span className="text-stone-500 text-sm">g</span>
       </td>
      
     </tr>

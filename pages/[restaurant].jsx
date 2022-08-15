@@ -17,6 +17,7 @@ import { NextSeo } from "next-seo";
 import { Tabs } from "../components/Tabs";
 import { Slider } from "@mui/material";
 import { classNames, getCustomNutritionRowInfo } from "../components/utils";
+import {AsideFilterByCalories} from "../components/AsideFilterByCalories"
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -43,7 +44,11 @@ export const getServerSideProps = async (context) => {
               parentCategory: true,
             },
           },
-          variants: true,
+          variants: {
+            include: {
+              subvariants: true
+            }
+          }
         },
       },
     },
@@ -78,62 +83,10 @@ if ([
   ].includes(item)){
     return "condiment"
   } else {
-
       return "food";
- 
+
   }
 }
-
-const formatCategoryName = (category) => {
-  if (
-    category == "Burgers & Sandwiches" ||
-    category == "Sandwiches & Burgers"
-  ) {
-    return "🍔 Sandwiches";
-  }
-  if (category == "Beverages") {
-    return "🥤 Beverages";
-  }
-  if (category == "Breakfast") {
-    return "🍳 Breakfast";
-  }
-  if (category == "Seafood") {
-    return "🍤 Seafood";
-  }
-  if (category == "Breads") {
-    return "🍞 Breads";
-  }
-  if (category == "Sauces") {
-    return "🥫 Sauces";
-  }
-
-  if (category == "Chicken Nuggets and Strips") {
-    return "🐔 Chicken";
-  }
-  if (category == "Condiments") {
-    return "🧂 Condiments";
-  }
-  if (category == "Desserts") {
-    return "🍦 Desserts";
-  }
-  if (category == "Happy Meals" || category == "Kids Menu") {
-    return "👶 " + category;
-  }
-  if (category == "McCafe Coffee") {
-    return "☕ Coffee";
-  }
-  if (category == "Menu Hacks") {
-    return "🎁 Limited Edition";
-  }
-  if (category == "Salads") {
-    return "🥗 Salads";
-  }
-  if (category == "Snacks & Sides" || category == "Sides") {
-    return "🥔 Sides";
-  } else {
-    return category;
-  }
-};
 
 export default function Restaurant(props) {
   const router = useRouter();
@@ -146,30 +99,34 @@ export default function Restaurant(props) {
   ];
 
   // format meals with variants
+
   let meals = restaurant.meals.map((meal) => {
     if (meal.variants.length > 0) {
-      let fullName = `${meal.name} (${meal.variants[1].variantName})`;
-      return {
-        ...meal,
-        ...meal.variants[1],
-        name: fullName,
-        variantName: meal.variants[1].variantName,
-      };
+      if (meal.variants[0].subvariants.length > 0) {
+        let fullName = `${meal.name} (${meal.variants[0].variantName}) (${meal.variants[0].subvariants[0].subvariantName})`;
+        return {
+          ...meal,
+          ...meal.variants[0].subvariants[0],
+          name: fullName,
+        }
+      } 
+      else {
+        let fullName = `${meal.name} (${meal.variants[1].variantName})`;
+        return {
+          ...meal,
+          ...meal.variants[1],
+          name: fullName,
+          variantName: meal.variants[1].variantName,
+        };
+      }
     } else return meal;
   });
 
-  let categories = [...new Set(meals.map((item) => item.category.name))];
+  meals = meals.map((meal)=>{
+    return {...meal, categoryName: meal.category.name}
+  })
 
-  // let mealData = meals.map((m) => {
-  //   return {
-  //     ...m,
-  //     calculatedRow: "",
-  //     proteinPerCalorie:
-  //       m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3),
-  //     carbPerCalorie:
-  //       m.calories == 0 ? 0 : (m.protein / m.totalCarbohydrates).toFixed(3),
-  //   };
-  // });
+  let categories = [...new Set(meals.map((item) => item.category.name))];
 
   const [mealData, setMealData] = useState(meals);
 
@@ -181,7 +138,6 @@ export default function Restaurant(props) {
   const [maxCalories, setMaxCalories] = useState(2000);
 
   const [thematicFilter, setThematicFilter] = useState();
-
   const [showCustomRow, setShowCustomRow] = useState(false);
 
 
@@ -345,49 +301,8 @@ export default function Restaurant(props) {
       <Layout>
         <div className="flex">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-4">
-            <div className="mt-8 ">
-              <h3 className="text-stone-900 text-sm font-bold pb-2">
-                Calorie Limits
-              </h3>
-
-              <div className=" text-stone-600 text-sm space-y-1">
-                <button
-                  className="block hover:text-orange-500"
-                  value={100}
-                  onClick={handleSetMaxCalories}
-                >
-                  Up to 100 cal{" "}
-                </button>
-                <button
-                  className="block  hover:text-orange-500"
-                  value={300}
-                  onClick={handleSetMaxCalories}
-                >
-                  Up to 300 cal
-                </button>
-                <button
-                  className="block  hover:text-orange-500"
-                  value={500}
-                  onClick={handleSetMaxCalories}
-                >
-                  Up to 500 cal
-                </button>
-                <button
-                  className="block  hover:text-orange-500"
-                  value={800}
-                  onClick={handleSetMaxCalories}
-                >
-                  Up to 800 cal
-                </button>
-                <button
-                  className="block  hover:text-orange-500"
-                  value={800}
-                  onClick={handleSetMinCalories}
-                >
-                  800 cal & above
-                </button>
-              </div>
-            </div>
+            <AsideFilterByCalories handleSetMaxCalories={handleSetMaxCalories}
+            handleSetMinCalories={handleSetMinCalories}/>
 
             <section className="mt-6">
               <h3 className="text-stone-900 text-sm font-bold pb-2">
@@ -779,13 +694,14 @@ export default function Restaurant(props) {
             </section>
 
             <article className="overflow-x-auto w-full">
-              {/* <section className="mt-4 mb-0 space-x-1">
-                  <div className="inline-block mb-2" key="all">
+              <section className="mt-4 mb-0 space-x-1">
+                  <div className="inline-block mb-2 " key="all">
                     <input
                       id="all"
                       type="checkbox"
                       checked={filters.length == 0}
                       onChange={() => setFilters([])}
+                      className="button-checkbox"
                     />
                     <label
                       htmlFor="all"
@@ -797,12 +713,13 @@ export default function Restaurant(props) {
 
                   {categories.map((category) => {
                     return (
-                      <div className="inline-block  mb-2" key={category}>
+                      <div className="inline-block mb-2 button-checkbox" key={category}>
                         <input
                           id={category}
                           type="checkbox"
                           checked={filters.includes(category)}
                           onChange={() => handleFilter(category)}
+                          className="button-checkbox"
                         />
                         <label
                           htmlFor={category}
@@ -813,8 +730,7 @@ export default function Restaurant(props) {
                       </div>
                     );
                   })}
-                </div>
-              </section> */}
+              </section>
               {/* <section className="mt-4 mb-0 space-x-1">
                   <div className="inline-block text-sm font-medium text-stone-400 pr-2 border-r mr-2">Allergies</div>
                   <div className="inline-block mb-2" key="">
@@ -987,12 +903,12 @@ export default function Restaurant(props) {
                         </div>
                       </div>
                     </th>
-                    {/* <th
+                    <th
                       scope="col"
                       className="py-3.5 text-sm font-semibold text-stone-900"
                     >
-                      <SortableTableHeader colKey="category" name="Type" />
-                    </th> */}
+                      <SortableTableHeader colKey="categoryName" name="Type" direction="ascending"/>
+                    </th>
 
                     {showCustomRow && (
                       <th

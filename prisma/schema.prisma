@@ -47,6 +47,11 @@ model meal {
 model variant {
   id                 String   @id @default(uuid())
   variantName        String
+  mealCombinedSlug   String
+  meal               meal     @relation(fields: [mealCombinedSlug], references: [combinedSlug])
+  variantSlug        String
+  mealVariantCombinedSlug String @unique
+  subvariants        subvariant[]
   calories           Int?
   totalFat           Decimal?
   saturatedFat       Decimal?
@@ -68,10 +73,37 @@ model variant {
   allergensFalse     String[]
   allergensTrue      String[]
   ingredients        String?
-  mealCombinedSlug   String
-  meal               meal     @relation(fields: [mealCombinedSlug], references: [combinedSlug])
-  variantSlug        String
-  mealVariantCombinedSlug String @unique
+}
+
+model subvariant {
+  id               String   @id @default(uuid())
+  subvariantName   String
+  subvariantSlug   String
+  variant          variant  @relation(fields: [mealVariantCombinedSlug], references: [mealVariantCombinedSlug])
+  mealVariantCombinedSlug String
+  fullSlug           String @unique
+
+  calories           Int?
+  totalFat           Decimal?
+  saturatedFat       Decimal?
+  transFat           Decimal?
+  cholesterol        Decimal?
+  sodium             Decimal?
+  totalCarbohydrates Decimal?
+  dietaryFiber       Decimal?
+  sugar              Decimal?
+  protein            Decimal?
+  proteinPerCalorie  Decimal?
+  proteinCarbRatio   Decimal?
+  sodiumPerCalorie   Decimal?
+  sodiumPerProtein   Decimal?
+  vitaminA           Int?
+  vitaminC           Int?
+  calcium            Int?
+  iron               Int?
+  allergensFalse     String[]
+  allergensTrue      String[]
+  ingredients        String?
 }
 
 model restaurant {

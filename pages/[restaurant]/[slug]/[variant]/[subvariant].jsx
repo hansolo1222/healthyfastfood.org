@@ -1,22 +1,22 @@
 import Head from "next/head";
-import Layout from "../../../components/Layout";
+import Layout from "../../../../components/Layout";
 
 import { NextSeo } from "next-seo";
-import prisma from "../../../lib/prisma";
+import prisma from "../../../../lib/prisma";
 
-import { MealTabs } from "../../../components/Tabs";
-import { FAQ } from "../../../components/FAQ";
-import { AsideTopRestaurants } from "../../../components/AsideTopRestaurants";
+import { MealTabs } from "../../../../components/Tabs";
+import { FAQ } from "../../../../components/FAQ";
+import { AsideTopRestaurants } from "../../../../components/AsideTopRestaurants";
 
-import { SectionIntro } from "../../../components/SectionIntro";
+import { SectionIntro } from "../../../../components/SectionIntro";
 
-import { SectionAllergens } from "../../../components/SectionAllergens";
-import { SectionChooseMilk } from "../../../components/SectionChooseMilk";
-import { SectionDisclaimer } from "../../../components/SectionDisclaimer";
-import { SectionIngredients } from "../../../components/SectionIngredients";
-import { SectionNutritionSummary } from "../../../components/SectionNutritionSummary";
-import { SectionRestaurantInfo } from "../../../components/SectionRestaurantInfo";
-import { SectionVariantsList } from "../../../components/SectionVariantsList";
+import { SectionAllergens } from "../../../../components/SectionAllergens";
+import { SectionChooseMilk } from "../../../../components/SectionChooseMilk";
+import { SectionDisclaimer } from "../../../../components/SectionDisclaimer";
+import { SectionIngredients } from "../../../../components/SectionIngredients";
+import { SectionNutritionSummary } from "../../../../components/SectionNutritionSummary";
+import { SectionRestaurantInfo } from "../../../../components/SectionRestaurantInfo";
+import { SectionVariantsList } from "../../../../components/SectionVariantsList";
 
 export const getServerSideProps = async (context) => {
   // const router = useRouter()
@@ -49,10 +49,13 @@ export const getServerSideProps = async (context) => {
   const variant = await prisma.variant.findUnique({
     where: {
         mealVariantCombinedSlug: context.resolvedUrl.split("/")[1] + "-" + context.resolvedUrl.split("/")[2] + "-" + context.resolvedUrl.split("/")[3]
-    },
-    include: {
-      subvariants: true
     }
+    })
+
+  const subvariant = await prisma.subvariant.findUnique({
+    where: {
+        fullSlug: context.resolvedUrl.split("/")[1] + "-" + context.resolvedUrl.split("/")[2] + "-" + context.resolvedUrl.split("/")[3] + "-" +context.resolvedUrl.split("/")[4]
+    },
   })
 
   const category = mealData.category.name;
@@ -88,22 +91,24 @@ export const getServerSideProps = async (context) => {
       // mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
       topRestaurants: JSON.parse(JSON.stringify(topRestaurants)),
       variant: JSON.parse(JSON.stringify(variant)),
+      subvariant: JSON.parse(JSON.stringify(subvariant)),
     },
   };
 };
 
 export default function Meal(props) {
-  const { mealData, topRestaurants, variant } = props;
+  const { mealData, topRestaurants, subvariant, variant } = props;
 
   let restaurant = mealData.restaurant;
   let meal = {
-    ...variant, 
+    ...subvariant, 
     name: mealData.name, 
-    slug: mealData.slug, 
+    slug: mealData.slug,
     variants: [], 
+    subvariants: [],
     category: mealData.category }
 
-    console.log(meal)
+    console.log(variant)
 
   let proteinCalories = meal.protein*4
   let carbCalories = meal.totalCarbohydrates*9
@@ -156,7 +161,9 @@ export default function Meal(props) {
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
     { name: meal.name, href: `/${restaurant.slug}/${meal.slug}` },
-    { name: variant.variantName, href: `/${restaurant.slug}/${meal.slug}/${variant.variantName}` },
+    { name: variant.variantName, href: `/${restaurant.slug}/${meal.slug}/${variant.variantSlug}` },
+    { name: subvariant.subvariantName, href: `/${restaurant.slug}/${meal.slug}/${variant.variantSlug}/${subvariant.subvariantSlug}` },
+
   ];
 
 
@@ -230,25 +237,14 @@ export default function Meal(props) {
           </aside>
           <main className="overflow-x-auto">
           <SectionIntro meal={meal} restaurantName={restaurant.name} restaurantSlug={restaurant.slug} pages={pages}/>
-           
-            {meal.subvariants.length > 0 ? (
-                <SectionVariantsList meal={meal} restaurant={restaurant} />
-                 /* if there are variants */
-              
-            ) : (
-              <>
-              <MealTabs activeTab="nutrition-information" slug="" />
-              <SectionNutritionSummary meal={meal} />
-              <SectionAllergens meal={meal} />
-              <SectionIngredients meal={meal} />
-              <SectionRestaurantInfo restaurant={restaurant} />
-              <FAQ faqs={faqs} />
-              <SectionDisclaimer restaurantName={restaurant.name} />
-              </>
-               /* regular */
-            )}
+            <MealTabs activeTab="nutrition-information" slug="" />
+            <SectionNutritionSummary meal={meal} />
 
-            
+            <SectionAllergens meal={meal} />
+            <SectionIngredients meal={meal} />
+            <SectionRestaurantInfo restaurant={restaurant} />
+            <FAQ faqs={faqs} />
+            <SectionDisclaimer restaurantName={restaurant.name} />
           </main>
         </div>
       </Layout>

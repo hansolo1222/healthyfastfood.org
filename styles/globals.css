@@ -125,3 +125,7 @@ td:last-child {
 .sortable-table-header {
   -webkit-appearance: none!important;
 }
+
+.ml-auto {
+  margin-left: auto;
+}
