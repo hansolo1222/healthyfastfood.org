@@ -2248,5 +2248,13 @@
         "locations": "36",
         "segment": "Casual Dining",
         "category": "Italian/Pizza"
+    },
+    {
+        "name": "Baja Fresh",
+        "slug": "baja-fresh",
+        "salesMillions": "162",
+        "locations": "36",
+        "segment": "Casual Dining",
+        "category": "Italian/Pizza"
     }
 ]

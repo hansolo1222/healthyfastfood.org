@@ -8,23 +8,24 @@ import {
 } from "@heroicons/react/solid";
 
 export const useSortableData = (items, config = null) => {
-  const [sortConfig, setSortConfig] = useState({
-    key: "name",
-    direction: "descending",
 
-  });
-  console.log(sortConfig)
+  const [sortConfig, setSortConfig] = useState(config);
+
+  // {
+  //   key: "name",
+  //   direction: "descending",
+  // }
   const sortedItems = React.useMemo(() => {
     let sortedItems = [...items];
-
-
 
     if (sortConfig !== null) {
       if (
       sortConfig.key == "restaurantTypeSlug" ||
       sortConfig.key == "segmentSlug" ||
       sortConfig.key == "slug" ||
-      sortConfig.key == "categoryName"
+      sortConfig.key == "categoryName" ||
+      sortConfig.key == "name"
+
       ) {
         sortedItems.sort((a, b) => {
            if (a[sortConfig.key] < b[sortConfig.key]) {

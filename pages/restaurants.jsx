@@ -13,7 +13,7 @@ import { MealRow } from ".";
 // import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
-import prisma from "../lib/prisma"
+import prisma from "../lib/prisma";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -28,19 +28,26 @@ export const getServerSideProps = async (context) => {
       _count: {
         select: { meals: true },
       },
-    }
+    },
   });
 
-  
+  const restaurantTypes = await prisma.restaurantType.findMany();
+
   return {
     props: {
-      restaurants: JSON.parse(JSON.stringify(restaurants)),
+      restaurants: JSON.parse(
+        JSON.stringify(
+          restaurants.map((r) => ({ ...r, itemCount: r._count.meals }))
+        )
+      ),
+      restaurantTypes: JSON.parse(JSON.stringify(restaurantTypes)),
     },
   };
 };
 export default function Restaurants(props) {
-  const { restaurants } = props;
+  const { restaurants, restaurantTypes } = props;
 
+  console.log(restaurantTypes, "here");
 
   let {
     items,
@@ -50,9 +57,12 @@ export default function Restaurants(props) {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(restaurants);
+  } = useSortableData(restaurants, {
+    key: "rank",
+    direction: "ascending",
+  });
 
-  console.log(items)
+  console.log(items);
   return (
     <div className="">
       <Head>
@@ -62,10 +72,158 @@ export default function Restaurants(props) {
       </Head>
       <Layout>
         <div className="">
-        
-          <h2 className="text-3xl font-bold text-center mb-8 mt-8">
-         Most Popular Restaurants
-        </h2>
+          <h1 className="text-3xl font-bold text-center mb-8 mt-8">
+            Most Popular Restaurants by Category
+          </h1>
+          {/* <p className="max-w-3xl">These are the most popular </p> */}
+          <div className="grid-cols-3 grid gap-8">
+            {restaurantTypes.map((type) => {
+              return (
+                <div className="col-span-1 border rounded-lg shadow-md">
+                <div className=" mx-4 pb-4 mt-4 border-b h-40">
+                  <h2 className="text-lg font-semibold mb-4">
+                   {type.name} Restaurants
+                  </h2>
+                  <p className="text-stone-500 text-sm">
+                  {type.description}                 
+                  </p>
+                  </div>
+                  <table className=" divide-y divide-stone-300 rounded-lg w-full">
+                    <thead className=" rounded-t-lg">
+                      <tr>
+                        <td
+                          scope="col"
+                          className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
+                        >
+                          <SortableTableHeader
+                            colKey="name"
+                            name="Name"
+                            direction="ascending"
+                          />
+                        </td>
+                        {/* <td
+                    scope="col"
+                    className="px-3 py-0.5 text-sm whitespace-nowrap font-semibold text-greeny-600 text-right"
+                  >
+                    <SortableTableHeader colKey="rank" name="Rank" direction="ascending"/>
+                  </td> */}
+
+                        <td
+                          scope="col"
+                          className="pr-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-right"
+                        >
+                          <SortableTableHeader
+                            colKey="locations"
+                            name="# Locations"
+                            direction="descending"
+                          />
+                        </td>
+                        {/* <td
+                          scope="col"
+                          className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
+                        >
+                          <SortableTableHeader
+                            colKey="itemCount"
+                            name="Items"
+                          />
+                        </td> */}
+                        {/* <td
+                    scope="col"
+                    className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
+                  >
+                    <SortableTableHeader colKey="restaurantTypeSlug" name="Food Type" direction="ascending"/>
+                  </td> */}
+                        {/* <td
+                          scope="col"
+                          className="px-3 py-0.5 text-sm font-semibold  whitespace-nowrap  text-greeny-600 text-center"
+                        >
+                          <SortableTableHeader
+                            colKey="segmentSlug"
+                            name="Service Type"
+                            direction="ascending"
+                          />
+                        </td> */}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stone-200">
+                      {items
+                        .filter((r) => r.restaurantTypeSlug == type.slug)
+                        .slice(0, 10)
+                        .map((restaurant, i) => {
+                          return (
+                            <tr
+                              className="hover:bg-stone-100"
+                              key={restaurant.key}
+                            >
+                              <td className="whitespace-nowrap py-2 pl-4 px-2 text-md text-stone-900 text-left">
+                                <div className="flex items-center">
+                                  <a
+                                    href={`/${restaurant.slug}`}
+                                    className="flex items-center"
+                                  >
+                                    <div className="relative w-7 h-7">
+                                      <Image
+                                        className=" flex-shrink-0 rounded-md mr-2"
+                                        src={`/images/logosSmall/${restaurant.slug}.webp`}
+                                        alt={`${restaurant.name} Logo`}
+                                        layout="fill"
+                                        objectFit="contain"
+                                      />
+                                    </div>
+                                  </a>
+
+                                  <a
+                                    href={`/${restaurant.slug}`}
+                                    className="cursor-pointer block  pl-2 -ml-px hover:text-red-500 "
+                                  >
+                                    {restaurant.name}
+                                  </a>
+                                  {restaurant._count.meals !== 0 ? 
+                                  ""
+                                 : (
+                                  
+                                  <span className="text-xs border text-stone-500 ml-2 px-2 py-0.5 rounded-full">
+                                    NA
+                                  </span>
+                                 )
+                                  }
+                                </div>
+                              </td>
+                              {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.rank}</td> */}
+
+                              <td className="whitespace-nowrap py-1 text-md text-stone-900 text-right pr-4">
+                                {restaurant.locations}
+                              </td>
+                              {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                                {restaurant._count.meals !== 0 ? (
+                                  restaurant._count.meals
+                                ) : (
+                                  <span className="text-xs border text-stone-500 px-2 py-1 rounded-full">
+                                    No data yet
+                                  </span>
+                                )}
+                              </td> */}
+
+                              {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    {restaurant.restaurantType ? restaurant.restaurantType.name : ""}
+                    </td> */}
+                              {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                                {restaurant.segment
+                                  ? restaurant.segment.name
+                                  : ""}
+                              </td> */}
+                            </tr>
+                          );
+                        })}
+                    </tbody>
+                  </table>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* 
             <table className="max-w-3xl mx-auto divide-y divide-stone-300 rounded-lg ">
               <thead className=" rounded-t-lg">
                 <tr>
@@ -74,20 +232,15 @@ export default function Restaurants(props) {
                     scope="col"
                 className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
                   >
-                  <SortableTableHeader colKey="slug" name="Name" direction="ascending"/>
+                  <SortableTableHeader colKey="name" name="Name" direction="ascending"/>
                   </td>
                   <td
                     scope="col"
                     className="px-3 py-0.5 text-sm whitespace-nowrap font-semibold text-greeny-600 text-right"
                   >
-                    <SortableTableHeader colKey="rank" name="Business Rank" direction="ascending"/>
+                    <SortableTableHeader colKey="rank" name="Rank" direction="ascending"/>
                   </td>
-                  {/* <td
-                    scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
-                  >
-                    <SortableTableHeader colKey="usVolume" name="Brand Popularity" />
-                  </td> */}
+                 
                   <td
                     scope="col"
                     className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
@@ -98,7 +251,7 @@ export default function Restaurants(props) {
                     scope="col"
                     className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
                   >
-                    <SortableTableHeader colKey="globalVolume" name="Items" />
+                    <SortableTableHeader colKey="itemCount" name="Items" />
                   </td>
                   <td
                     scope="col"
@@ -116,14 +269,14 @@ export default function Restaurants(props) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-stone-200">
-                {items.map((restaurant, i) => {
+                {items.filter((r)=>r.restaurantTypeSlug == 'Hamburgers').map((restaurant, i) => {
                   return(
                   <tr className="hover:bg-stone-100" key={restaurant.key}>
                  
-                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-left">
+                    <td className="whitespace-nowrap py-2 px-2 text-md text-stone-900 text-left">
                     <div className="flex items-center">
                     <a href={`/${restaurant.slug}`} className="flex items-center">
-                        <div className="relative w-10 h-10">
+                        <div className="relative w-8 h-8">
                             <Image
                               className=" flex-shrink-0 rounded-md mr-2"
                               src={`/images/logosSmall/${restaurant.slug}.webp`}
@@ -137,7 +290,7 @@ export default function Restaurants(props) {
 
                       <a
                         href={`/${restaurant.slug}`}
-                        className="cursor-pointer block  pl-4 -ml-px text-lg text-slate-600 hover:text-slate-900 "
+                        className="cursor-pointer block  pl-2 -ml-px hover:text-red-500 "
                       >
                         {restaurant.name}
                       </a>
@@ -146,14 +299,14 @@ export default function Restaurants(props) {
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.rank}</td>
                     
-                    {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-                    {restaurant.usVolume}</td> */}
+                 
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.locations}</td>
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-                    {restaurant._count.meals !== 0 ? restaurant._count.meals : <span className="text-xs bg-stone-50 text-stone-500 p-1 rounded">No data yet</span>}</td>
-                    {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
-                    {restaurant.globalVolume}</td> */}
+                    {restaurant._count.meals !== 0 
+                    ? restaurant._count.meals 
+                    : <span className="text-xs border text-stone-500 px-2 py-1 rounded-full">No data yet</span>}</td>
+                   
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.restaurantType ? restaurant.restaurantType.name : ""}
                     </td>
@@ -166,7 +319,7 @@ export default function Restaurants(props) {
                 }
                 )}
               </tbody>
-            </table>
+            </table> */}
         </div>
       </Layout>
     </div>

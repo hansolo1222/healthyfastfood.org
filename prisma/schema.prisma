@@ -110,9 +110,15 @@ model restaurant {
   id            Int    @id @default(autoincrement())
   name          String 
   slug          String @unique
+
   rank          Int?
   salesMillions Int?
+
+  originalLocation String?
+  founded       String?
+  headquarters  String?
   locations     Int?
+  areasServed   String[]
 
   segment       segment? @relation(fields: [segmentSlug], references: [slug])
   segmentSlug   String?
@@ -138,6 +144,7 @@ model restaurantType {
   id          String  @default(uuid())
   name        String @unique
   slug        String @unique
+  description String? @default("The")
   restaurants restaurant[]
 } 
 

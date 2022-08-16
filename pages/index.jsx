@@ -10,6 +10,7 @@ const mcdonalds = require("/public/data/mcdonalds.json");
 import prisma from "../lib/prisma";
 import RestaurantCloud from "../components/RestaurantCloud";
 import { useRouter } from "next/router";
+import { TableHeaders, TableMealRow } from "../components/TableMealRow";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -255,7 +256,7 @@ export default function Home(props) {
           </thead>
           <tbody className="divide-y divide-stone-200 bg-white">
             {items.map((meal) => (
-              <MealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
+              <TableMealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
             ))}
           </tbody>
         </table>
@@ -348,7 +349,7 @@ export default function Home(props) {
           </thead>
           <tbody className="divide-y divide-stone-200 bg-white">
             {highestProteinSalads.map((meal) => (
-              <MealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
+              <TableMealRow meal={meal} key={meal.restaurant.name+meal.name} restaurantName={meal.restaurant.name} restaurantSlug={meal.restaurant.slug} showRestaurantData={true}/>
             ))}
           </tbody>
         </table>

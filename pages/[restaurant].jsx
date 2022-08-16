@@ -292,7 +292,10 @@ export default function Restaurant(props) {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(mealData);
+  } = useSortableData(mealData, {
+    key: "name",
+    direction: "ascending",
+  });
 
   return (
     <div className="">
@@ -393,6 +396,7 @@ export default function Restaurant(props) {
               thematicFilter={thematicFilter}
               handleThematicFilter={handleThematicFilter}
             />
+
             <article className="overflow-x-auto w-full">
               {categoriesWithParents.map((cat, i) => {
                 return (

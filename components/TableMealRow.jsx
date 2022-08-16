@@ -1,5 +1,5 @@
 import { getCustomNutritionRowInfo } from "./utils";
-
+import Image from "next/image";
 export const TableMealRow = ({
   restaurantName,
   restaurantSlug,
@@ -86,8 +86,8 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
     <tr>
   <th
   scope="col"
-  className="pl-2 py-3.5 text-sm font-semibold text-greeny-600 text-left"
-  style={{'width':'40%'}}
+  className="pl-2 py-3 text-sm font-semibold text-greeny-600 text-left"
+  style={{'width':'36%'}}
 >
   <div className="flex items-center">
     {/* <div className="ml-8">
@@ -119,8 +119,8 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 {showCustomRow && (
   <th
     scope="col"
-    className="pl-3 py-3.5 whitespace-nowrap text-center text-sm font-semibold text-stone-900 bg-green-100"
-    style={{'width':'15%'}}
+    className="pl-3 py-3 whitespace-nowrap text-center text-sm font-semibold text-stone-900 bg-green-100"
+    style={{'width':'13%'}}
   >
     <SortableTableHeader
       colKey="customNutritionRow"
@@ -134,7 +134,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 
 <th
   scope="col"
-  className=" py-3.5 text-sm font-semibold text-stone-900 text-center"
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center"
 >
   <SortableTableHeader
     colKey="calories"
@@ -144,7 +144,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className="py-3.5 text-sm font-semibold text-stone-900 text-center "
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center "
 >
   <SortableTableHeader
     colKey="protein"
@@ -154,7 +154,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className=" py-3.5 text-sm font-semibold text-stone-900 text-center "
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center "
 >
   <SortableTableHeader
     colKey="totalCarbohydrates"
@@ -164,7 +164,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className=" py-3.5 text-sm font-semibold text-stone-900 text-center "
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center "
 >
   <SortableTableHeader
     colKey="totalFat"
@@ -174,7 +174,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className="py-3.5 text-sm font-semibold text-stone-900 text-center"
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center"
 >
   <SortableTableHeader
     colKey="cholesterol"
@@ -184,7 +184,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className="py-3.5 text-sm font-semibold text-stone-900 text-center"
+  className="px-1 py-3 text-sm font-semibold text-stone-900 text-center"
 >
   <SortableTableHeader
     colKey="sodium"
@@ -194,7 +194,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 </th>
 <th
   scope="col"
-  className="py-3.5 text-center text-sm font-semibold text-stone-900"
+  className="px-1 py-3 text-center text-sm font-semibold text-stone-900"
 >
   <SortableTableHeader
     colKey="sugar"
