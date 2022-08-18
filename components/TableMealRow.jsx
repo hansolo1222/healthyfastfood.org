@@ -13,8 +13,8 @@ export const TableMealRow = ({
   let category = meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:bg-stone-50 hover:shadow-sm">
-      <td className="pr-1 py-1.5 text-sm md:text-base text-stone-900">
-        <div className="flex items-center">
+      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
+        <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
               <div className="relative w-6 h-6">
@@ -35,7 +35,7 @@ export const TableMealRow = ({
 
           <a
             href={`/${restaurantSlug}/${meal.slug}`}
-            className="hover:text-red-500 ml-3"
+            className="hover:text-red-500 md:ml-3"
           >
             {showRestaurantData && (
               <div className="text-xs text-stone-500">{restaurantName}</div>
@@ -86,8 +86,11 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
     <tr>
   <th
   scope="col"
-  className="pl-2 py-3 text-sm font-semibold text-greeny-600 text-left"
-  style={{'width':'36%'}}
+  className="md:pl-2 py-3 text-sm font-semibold text-greeny-600 text-left first-letter:
+  sticky z-20 md:static w-20 left-0 bg-white
+  "
+  style={{'width':'43%'}}
+
 >
   <div className="flex items-center">
     {/* <div className="ml-8">

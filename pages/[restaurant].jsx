@@ -22,8 +22,9 @@ import { AsideFilterByUmbrellaCategories } from "../components/AsideFilterByUmbr
 import { AsideAllergens } from "../components/AsideAllergens";
 import { AsideTopRestaurants } from "../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../components/FilterThematicFilter";
-
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import { TableHeaders, TableMealRow } from "../components/TableMealRow";
+import Select from "react-select";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -59,7 +60,6 @@ export const getServerSideProps = async (context) => {
       },
     },
   });
-
 
   const groupedMeals = await prisma.meal.groupBy({
     by: ["categoryName"],
@@ -134,25 +134,35 @@ export default function Restaurant(props) {
 
   let categories = [...new Set(meals.map((item) => item.category.name))];
 
-  let categoriesWithParents = meals.map((item) => 
-    ({categoryName:item.category.name,
-    parentCategory:item.category.parentCategory.name})
-    ).filter((value, index, self) =>
-    index === self.findIndex((t) => (
-      t.categoryName === value.categoryName && t.parentCategory === value.parentCategory
-    ))
-  )
+  let categoriesWithParents = meals
+    .map((item) => ({
+      categoryName: item.category.name,
+      parentCategory: item.category.parentCategory.name,
+    }))
+    .filter(
+      (value, index, self) =>
+        index ===
+        self.findIndex(
+          (t) =>
+            t.categoryName === value.categoryName &&
+            t.parentCategory === value.parentCategory
+        )
+    );
 
   categoriesWithParents.sort((a, b) => {
-    if (getUmbrellaCategory(a.parentCategory) == getUmbrellaCategory(b.parentCategory)){
+    if (
+      getUmbrellaCategory(a.parentCategory) ==
+      getUmbrellaCategory(b.parentCategory)
+    ) {
       return 0;
-    }
-    else if (getUmbrellaCategory(a.parentCategory) === 'food') {
-      console.log(getUmbrellaCategory(a.parentCategory), getUmbrellaCategory(b.parentCategory))
+    } else if (getUmbrellaCategory(a.parentCategory) === "food") {
+      console.log(
+        getUmbrellaCategory(a.parentCategory),
+        getUmbrellaCategory(b.parentCategory)
+      );
       return -1;
-    } 
-  })
-
+    }
+  });
 
   const [mealData, setMealData] = useState(meals);
 
@@ -165,6 +175,8 @@ export default function Restaurant(props) {
 
   const [minCalories, setMinCalories] = useState(0);
   const [maxCalories, setMaxCalories] = useState(2000);
+
+  console.log(maxCalories, "max cal")
 
   const [thematicFilter, setThematicFilter] = useState();
   const [showCustomRow, setShowCustomRow] = useState(false);
@@ -207,6 +219,7 @@ export default function Restaurant(props) {
     setMinCalories(0);
     setMaxCalories(event.target.value);
   };
+  
 
   const handleSetMinCalories = (event) => {
     setMinCalories(event.target.value);
@@ -296,6 +309,41 @@ export default function Restaurant(props) {
     key: "name",
     direction: "ascending",
   });
+
+
+  //--------------------------- MOBILE FILTERS ---------------------------
+
+  const handleSetMaxCaloriesMobile = (event) => {
+    if (event !== null){
+      setMaxCalories(event.value)
+    } else {
+      setMaxCalories(10000)
+    }
+  };
+
+  const [showCalorieFilter, setShowCalorieFilter] = useState(false)
+  const handleCalorieFilter = () => setCalorieFilter(true)
+
+  const allergenOptions = [
+    { value: 'gluten', label: 'Gluten Free' },
+    { value: 'milk', label: 'Dairy Free' },
+    { value: 'peanuts', label: 'No Peanuts' },
+    { value: 'eggs', label: 'No Eggs' },
+    { value: 'wheat', label: 'No Wheat' },
+    { value: 'soy', label: 'No Soy' },
+    { value: 'tree nuts', label: 'No Tree Nuts' },
+    { value: 'fish', label: 'No Fish' },
+    { value: 'shellfish', label: 'No Shellfish' }
+  ]
+
+  const calorieOptions = [
+    { value: 100, label: 'Under 100cal' },
+    { value: 300, label: 'Under 300cal' },
+    { value: 500, label: 'Under 500cal' },
+    { value: 800, label: 'Under 800cal' },
+  ]
+
+
 
   return (
     <div className="">
@@ -391,63 +439,110 @@ export default function Restaurant(props) {
             <h3 className="font-semibold mt-6 text-stone-700 uppercase">Eating Healthy at McDonald's</h3>
             <p className="max-w-3xl text-stone-700 mb-4">The extensive menu means there are ample choices for nearly every dietary lifestyle. For lighter fare, choose from a grilled chicken pecan salad or a warm roasted vegetable and quinoa salad, chicken tortilla soup, grilled salmon, lemon pepper chicken, and steamed broccoli. Meat-based entrees at Cheddar’s also offer protein-packed nutrition.</p> */}
 
-            
             <FilterThematicFilter
               thematicFilter={thematicFilter}
               handleThematicFilter={handleThematicFilter}
             />
 
-            <article className="overflow-x-auto w-full">
+            <div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
+            <div className="">
+              <h3 className="text-xs font-semibold uppercase pb-2">
+                Filter
+              </h3>
+              <div className="flex space-x-2">
+                {/*  Custom job here, is it worth it?
+                
+                <button
+                onClick={() => setShowCalorieFilter(!showCalorieFilter)}
+                className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
+                  Calories <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
+
+                </button> */}
+                {/* {showCalorieFilter && 
+                <div
+                  className="hidden peer-hover:flex hover:flex border
+                w-[230px]
+                flex-col bg-white drop-shadow-md top-10 absolute z-50 rounded-lg p-3"
+                >
+                  <AsideFilterByCalories
+                    handleSetMaxCalories={handleSetMaxCalories}
+                    handleSetMinCalories={handleSetMinCalories}
+                  />
+                </div>
+                } */}
+                <Select 
+                  options={calorieOptions} 
+                  isClearable={true}
+                  placeholder="By Calories"
+                  onChange={handleSetMaxCaloriesMobile}
+                  />
+                {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
+                  Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
+                </div> */}
+                <Select 
+                  options={allergenOptions} 
+                  isMulti
+                  placeholder="+ Allergies"
+                  onChange={setAllergens}
+                  />
+
+              </div>
+              </div>
+            </div>
+
+            <article className="overflow-x-auto w-full z-10">
               {categoriesWithParents.map((cat, i) => {
                 return (
-                  <div className="border shadow-sm mb-6 rounded-md overflow-hidden">
-                  <div className="py-3 mx-3 font-semibold border-b">{cat.categoryName}</div>
-
-                    <table className="w-full divide-y divide-stone-300 rounded-lg table-fixed ">
-                      <thead className="rounded-t-lg">
-                      {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-                        <TableHeaders
-                          showCustomRow={showCustomRow}
-                          thematicFilter={thematicFilter}
-                          SortableTableHeader={SortableTableHeader}
-                        />
-                      </thead>
-                      <tbody className="divide-y divide-stone-200 bg-white w-full">
-                        {items.length > 0 ? (
-                          items
-                            .filter((i) => i.categoryName == cat.categoryName)
-                            .map((meal) => (
-                              <TableMealRow
-                                restaurantName={restaurant.name}
-                                restaurantSlug={restaurant.slug}
-                                showRestaurantData={false}
-                                meal={meal}
-                                key={meal.mealName}
-                                showCustomRow={showCustomRow}
-                                customRowKey={thematicFilter}
-                                customRowUnits={
-                                  getCustomNutritionRowInfo(thematicFilter)
-                                    .units
-                                }
-                              />
-                            ))
-                        ) : (
-                          <tr className="">
-                            <td
-                              colSpan={8}
-                              className="single-cell-row text-lg text-stone-500 text-center p-10"
-                            >
-                              Sorry! It looks like we don&apos;t have this data
-                              yet.
-                            </td>
-                          </tr>
-                        )}
-                      </tbody>
-                    </table>
+                  <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden">
+                    <div className="py-3 md:mx-3 font-semibold border-b">
+                      {cat.categoryName}
+                    </div>
+                    <div className="overflow-x-auto">
+                      <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
+                        <thead className="rounded-t-lg">
+                          {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
+                          <TableHeaders
+                            showCustomRow={showCustomRow}
+                            thematicFilter={thematicFilter}
+                            SortableTableHeader={SortableTableHeader}
+                          />
+                        </thead>
+                        <tbody className="divide-y divide-stone-200 bg-white w-full">
+                          {items.filter((i) => i.categoryName == cat.categoryName).length > 0 ? (
+                            items
+                              .filter((i) => i.categoryName == cat.categoryName)
+                              .map((meal) => (
+                                <TableMealRow
+                                  restaurantName={restaurant.name}
+                                  restaurantSlug={restaurant.slug}
+                                  showRestaurantData={false}
+                                  meal={meal}
+                                  key={meal.mealName}
+                                  showCustomRow={showCustomRow}
+                                  customRowKey={thematicFilter}
+                                  customRowUnits={
+                                    getCustomNutritionRowInfo(thematicFilter)
+                                      .units
+                                  }
+                                />
+                              ))
+                          ) : (
+                            <tr className="">
+                              <td
+                                colSpan={8}
+                                className="single-cell-row text-md text-stone-500 text-center p-8"
+                              >
+                                No items found!
+                              </td>
+                            </tr>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 );
               })}
-{/* 
+              {/* 
               <table className="w-full divide-y divide-stone-300 rounded-lg">
                 <thead className="rounded-t-lg">
                   <TableHeaders

@@ -216,7 +216,7 @@ monicals-pizza,Monical's Pizza,"Toledo, Illinois",1959,"Bradley, Illinois",,40,M
 mountain-mikes-pizza,Mountain Mike's Pizza,"Newport Beach, California",1978,"Newport Beach, California",,246,,Pizza,Fast Food
 mr-gattis-pizza,Mr. Gatti's Pizza,"Stephenville, Texas",1964,"Fort Worth, Texas",,140,,Pizza,Fast Food
 papa-ginos,Papa Gino's,"Boston, Massachusetts",1961,"Dedham, Massachusetts",,97,,Pizza,Fast Food
-papa-johns-pizza,Papa John's Pizza,"Jeffersonville, Indiana",1984,"Jeffersontown, Kentucky",,3164,Nationwide,Pizza,Fast Food
+papa-johns,Papa John's,"Jeffersonville, Indiana",1984,"Jeffersontown, Kentucky",,3164,Nationwide,Pizza,Fast Food
 papa-murphys-pizza,Papa Murphy's Pizza,"Hillsboro, Oregon",1995,"Vancouver, Washington",,1240,,Pizza,Fast Food
 pieology-pizzeria,Pieology Pizzeria,"Fullerton, California",2011,"Rancho Santa Margarita, California",,140,,Pizza,Fast Food
 pizza-hut,Pizza Hut,"Wichita, Kansas",1958,"Plano, Texas",,6548,Nationwide,Pizza,Fast Food
@@ -278,18 +278,18 @@ tubbys,Tubby's,"St. Clair Shores, Michigan",1968,"Clinton Township, Michigan",,,
 tudors-biscuit-world,Tudor's Biscuit World,"Charleston, West Virginia",1980,"Huntington, West Virginia",,,,Sandwiches,Fast Food
 which-wich,Which Wich?,"Dallas, Texas",2003,"Dallas, Texas",,270,,Sandwiches,Fast Food
 arthur-treachers-fish-chips,Arthur Treacher's Fish & Chips,"Columbus, Ohio",1969,"New York, New York",,1,"Cuyahoga Falls, Ohio",Seafood,Fast Food
-captain-ds,Captain D's,"Nashville, Tennessee",1969,"Nashville, Tennessee",,536,,Seafood,Fast Food
+captain-ds-seafood-kitchen,Captain D's Seafood Kitchen,"Nashville, Tennessee",1969,"Nashville, Tennessee",,536,,Seafood,Fast Food
 long-john-silvers,Long John Silver's,"Lexington, Kentucky",1969,"Louisville, Kentucky",,641,,Seafood,Fast Food
 applebees,Applebee's,"Decatur, Georgia",1980,"Glendale, California",,1578,Nationwide,American,Casual Dining
 bakers-square,Bakers Square,"Nashville, Tennessee",1969,"Des Moines, Iowa",,46,Midwest,American,Casual Dining
 bennigans,Bennigan's,"Atlanta, Georgia",1976,"Dallas, Texas",,29,"East, Midwest",American,Casual Dining
-bjs-restaurant,BJ's Restaurant,"Santa Ana, California",1978,"Huntington Beach, California",,212,Nationwide,American,Casual Dining
+bjs-restaurant-brewhouse,BJ's Restaurant & Brewhouse,"Santa Ana, California",1978,"Huntington Beach, California",,212,Nationwide,American,Casual Dining
 black-bear-diner,Black Bear Diner,"Mount Shasta, California",1995,"Redding, California",,144,West,American,Casual Dining
-bob-evans-restaurant,Bob Evans Restaurant,"Gallipolis, Ohio",1948,"New Albany, Ohio",,440,"Mid-Atlantic, Midwest",American,Casual Dining
+bob-evans,Bob Evans,"Gallipolis, Ohio",1948,"New Albany, Ohio",,440,"Mid-Atlantic, Midwest",American,Casual Dining
 boomarang-diner,Boomarang Diner,"Muskogee, Oklahoma",1998,"Shawnee, Oklahoma",,55,"Oklahoma, Arkansas",American,Casual Dining
 cheddars-scratch-kitchen,Cheddar's Scratch Kitchen,"Arlington, Texas",1979,"Orlando, Florida",,175,,American,Casual Dining
 cheesecake-factory,The Cheesecake Factory,"Beverly Hills, California",1978,"Calabasas, California",,207,Nationwide,American,Casual Dining
-coopers-hawk-winery-restaurant,Cooper's Hawk Winery & Restaurant,"Orland Park, Illinois",2005,"Countryside, Illinois",,54,"Southeast, Midwest",American,Casual Dining
+coopers-hawk-winery-restaurants,Cooper's Hawk Winery & Restaurant,"Orland Park, Illinois",2005,"Countryside, Illinois",,54,"Southeast, Midwest",American,Casual Dining
 friendlys,Friendly's,"Springfield, Massachusetts",1935,"Wilbraham, Massachusetts",,129,East Coast,American,Casual Dining
 golden-corral,Golden Corral,"Fayetteville, North Carolina",1973,"Raleigh, North Carolina",,392,Nationwide,American,Casual Dining
 ground-round,Ground Round,"Freeport, Maine",1969,"Freeport, Maine",,17,,American,Casual Dining
@@ -348,12 +348,12 @@ max-ermas,Max & Erma's,"Columbus, Ohio",1972,"Columbus, Ohio",,51,,Hamburgers,Ca
 red-robin,Red Robin,"Seattle, Washington",1969,"Greenwood Village, Colorado",,531,Nationwide,Hamburgers,Casual Dining
 wahlburgers,Wahlburgers,"Hingham, Massachusetts",2011,,,31,,Hamburgers,Casual Dining
 chevys-fresh-mex,Chevys Fresh Mex,"Alameda, California",1986,"Cypress, California",,38,,Mexican/Tex-Mex,Casual Dining
-chilis,Chili's,"Dallas, Texas",1975,"Dallas, Texas",,1234,Nationwide,Mexican/Tex-Mex,Casual Dining
+chilis-grill-bar,Chili's Grill & Bar,"Dallas, Texas",1975,"Dallas, Texas",,1234,Nationwide,Mexican/Tex-Mex,Casual Dining
 chuys,Chuy's,"Austin, Texas",1982,"Austin, Texas",,96,"South, Midwest",Mexican/Tex-Mex,Casual Dining
 on-the-border-mexican-grill-cantina,On the Border Mexican Grill & Cantina,"Dallas, Texas",1982,,,125,,Mexican/Tex-Mex,Casual Dining
 pappasitos-cantina,Pappasito's Cantina,"Houston, Texas",1976,"Houston, Texas",,25,Texas,Mexican/Tex-Mex,Casual Dining
 uncle-julios,Uncle Julio's,"Dallas, Texas",1986,,,37,,Mexican/Tex-Mex,Casual Dining
-brio-tuscan-grill,Brio Tuscan Grill,"Columbus, Ohio",1992,"Columbus, Ohio",,36,Nationwide,Italian,Casual Dining
+brio-tuscan-grille,Brio Tuscan Grille,"Columbus, Ohio",1992,"Columbus, Ohio",,36,Nationwide,Italian,Casual Dining
 buca-di-beppo,Buca di Beppo,"Minneapolis, Minnesota",1993,"Orlando, Florida",,70,Nationwide,Italian,Casual Dining
 california-pizza-kitchen,California Pizza Kitchen,"Beverly Hills, California",1985,"Los Angeles, California",,169,Nationwide,Italian,Casual Dining
 carinos-italian,Carino's Italian,"Austin, Texas",1968,"Austin, Texas",,55,,Italian,Casual Dining
@@ -375,7 +375,7 @@ uno-pizzeria-grill,Uno Pizzeria & Grill,"Chicago, Illinois",1943,"Boston, Massac
 souper-salad,Souper Salad,"Houston, Texas",1978,"Dallas, Texas",,25,Southwest,Salad,Casual Dining
 maid-rite,Maid-Rite,"Muscatine, Iowa",1926,"Urbandale, Iowa",,32,,Sandwiches,Casual Dining
 bonefish-grill,Bonefish Grill,"St. Petersburg, Florida",2000,"Tampa, Florida",,185,Nationwide,Seafood,Casual Dining
-bubba-gump-shrimp-company,Bubba Gump Shrimp Company,"Monterey, California",1996,"Houston, Texas",,23,Nationwide,Seafood,Casual Dining
+bubba-gump-shrimp-co,Bubba Gump Shrimp Co.,"Monterey, California",1996,"Houston, Texas",,23,Nationwide,Seafood,Casual Dining
 eddie-vs-prime-seafood,Eddie V's Prime Seafood,"Austin, Texas",2000,"Orlando, Florida",,26,"Southwest, Texas, Florida",Seafood,Casual Dining
 joes-crab-shack,Joe's Crab Shack,"Houston, Texas",1991,"Houston, Texas",,46,,Seafood,Casual Dining
 landrys-seafood,Landry's Seafood,"Katy, Texas",1980,"Houston, Texas",,20,,Seafood,Casual Dining
@@ -405,7 +405,7 @@ fogo-de-chao,Fogo de Chão,"Porto Alegre, Brazil",1979,"Plano, Texas",,48,,Steak
 logans-roadhouse,Logan's Roadhouse,"Lexington, Kentucky",1991,"Nashville, Tennessee",,136,,Steakhouse,Casual Dining
 longhorn-steakhouse,LongHorn Steakhouse,"Atlanta, Georgia",1981,"Orlando, Florida",,551,,Steakhouse,Casual Dining
 montana-mikes,Montana Mike's,"Round Rock, Texas",1966,"Round Rock, Texas",,80,,Steakhouse,Casual Dining
-mortons-the-steakhouse,Morton's The Steakhouse,"Chicago, Illinois",1978,"Houston, Texas",,55,Nationwide,Steakhouse,Casual Dining
+mortons-steakhouse,Morton's The Steakhouse,"Chicago, Illinois",1978,"Houston, Texas",,55,Nationwide,Steakhouse,Casual Dining
 outback-steakhouse,Outback Steakhouse,"Tampa, Florida",1988,"Tampa, Florida",,694,Nationwide,Steakhouse,Casual Dining
 ponderosa-bonanza-steakhouses,Ponderosa Bonanza Steakhouses,"Kokomo, Indiana Westport, Connecticut",1963 1965,"Plano, Texas",,75,,Steakhouse,Casual Dining
 ruths-chris-steak-house,Ruth's Chris Steak House,"New Orleans, Louisiana",1965,"Winter Park, Florida",,129,,Steakhouse,Casual Dining

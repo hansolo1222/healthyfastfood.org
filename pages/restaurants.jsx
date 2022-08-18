@@ -76,31 +76,38 @@ export default function Restaurants(props) {
             Most Popular Restaurants by Category
           </h1>
           {/* <p className="max-w-3xl">These are the most popular </p> */}
-          <div className="grid-cols-3 grid gap-8">
+          <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8">
             {restaurantTypes.map((type) => {
               return (
                 <div className="col-span-1 border rounded-lg shadow-md">
                 <div className=" mx-4 pb-4 mt-4 border-b h-40">
-                  <h2 className="text-lg font-semibold mb-4">
-                   {type.name} Restaurants
-                  </h2>
+                  <div className="flex items-center justify-between  mb-4">
+                    <h2 className="text-lg font-semibold">
+                    {type.name} Restaurants
+                    </h2>
+                    <a href={`/restaurants/${type.slug}`}
+                    className="text-red-500 border border-red-500 font-semibold px-2 py-1 text-sm rounded cursor-pointer">
+                      View All
+                    </a>
+                  </div>
                   <p className="text-stone-500 text-sm">
                   {type.description}                 
                   </p>
                   </div>
-                  <table className=" divide-y divide-stone-300 rounded-lg w-full">
+                  <table className=" divide-y divide-stone-300 rounded-lg w-full table-fixed">
                     <thead className=" rounded-t-lg">
                       <tr>
-                        <td
+                        <th
                           scope="col"
                           className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
+                     
                         >
                           <SortableTableHeader
                             colKey="name"
                             name="Name"
                             direction="ascending"
                           />
-                        </td>
+                        </th>
                         {/* <td
                     scope="col"
                     className="px-3 py-0.5 text-sm whitespace-nowrap font-semibold text-greeny-600 text-right"
@@ -108,16 +115,17 @@ export default function Restaurants(props) {
                     <SortableTableHeader colKey="rank" name="Rank" direction="ascending"/>
                   </td> */}
 
-                        <td
+                        <th
                           scope="col"
                           className="pr-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-right"
+                          
                         >
                           <SortableTableHeader
                             colKey="locations"
                             name="# Locations"
                             direction="descending"
                           />
-                        </td>
+                        </th>
                         {/* <td
                           scope="col"
                           className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
@@ -155,7 +163,7 @@ export default function Restaurants(props) {
                               className="hover:bg-stone-100"
                               key={restaurant.key}
                             >
-                              <td className="whitespace-nowrap py-2 pl-4 px-2 text-md text-stone-900 text-left">
+                              <td className="whitespace-nowrap py-2 pl-4  text-md text-stone-900 text-left">
                                 <div className="flex items-center">
                                   <a
                                     href={`/${restaurant.slug}`}

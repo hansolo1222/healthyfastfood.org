@@ -88,7 +88,7 @@ export const useSortableData = (items, config = null) => {
         onClick={() => requestSort(colKey, direction)}
       >
         <div
-          className={`group inline-flex items-center cursor-pointer text-xs px-1
+          className={`group inline-flex items-center cursor-pointer text-xs
         ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
         >
           {name}

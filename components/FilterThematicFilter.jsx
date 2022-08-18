@@ -3,7 +3,9 @@ import { classNames } from "./utils";
 
 export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) => {
   return (
-    <section className="flex py-4 w-full overflow-x-auto">
+    <div className="py-4 w-full overflow-x-auto">
+    <h3 className="text-xs font-semibold uppercase pb-2">Special Sort</h3>
+    <section className="flex">
     <button
       value="highProtein"
       key="highProtein"
@@ -12,11 +14,11 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "highProtein"
           ? "text-orange-600 bg-stone-100 shadow-inner font-medium"
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-4 rounded-l-lg  text-sm md:text-base  border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 rounded-l-lg  text-sm md:text-base  border flex items-center shrink-0"
       )}
     >
         <img
-          className="h-6 w-6 mr-2"
+          className="h-6 w-6 mr-2 hidden md:block"
           src={`/images/icons/muscle.webp`}
         />
         High Protein
@@ -29,10 +31,10 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowCarb"
           ? "text-red-600 bg-stone-100 shadow-inner font-medium"
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-4 text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0"
       )}
     >
-      <img className="h-6 w-6 mr-2" src={`/images/icons/leaf.webp`} />
+      <img className="h-6 w-6 mr-2 hidden md:block" src={`/images/icons/leaf.webp`} />
       Low Carb
     </button>
     <button
@@ -43,11 +45,11 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowSodium"
         ? "text-red-600 bg-stone-100 shadow-inner font-medium"
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-4 text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0"
       )}
     >
       <img
-        className="h-6 w-6 mr-2"
+        className="h-6 w-6 mr-2 hidden md:block"
         src={`/images/icons/sodium.webp`}
       />
       Low Sodium
@@ -60,10 +62,10 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowCholesterol"
         ? "text-red-600 bg-stone-100 shadow-inner font-medium "
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-4 rounded-r-lg text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 rounded-r-lg text-sm md:text-base border flex items-center shrink-0"
       )}
     >
-      <img className="h-6 w-6 mr-2" src={`/images/icons/heart.webp`} />
+      <img className="h-6 w-6 mr-2 hidden md:block" src={`/images/icons/heart.webp`} />
       Low Cholesterol
     </button>
     {/* <a
@@ -81,6 +83,6 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
       Keto
     </a> */}
   </section>
-
+</div>
   );
 };
