@@ -209,7 +209,7 @@ const Header = () => {
                 {/* <div className="hidden sm:block sm:ml-6"> */}
                 <div className="sm:flex space-x-4 items-center ml-6 hidden">
                   {navigation.map((item) => (
-                    <div className="flex">
+                    <div className="flex" key={item.name}>
                       <div className="relative">
                         <Link href={item.href}>
                           <a
@@ -231,7 +231,7 @@ const Header = () => {
                           >
                             {item.secondLevelData.map((subItem) => (
                               subItem.name == '---------' ? 
-                              <span className="border-b mt-2 mb-2"></span>
+                              <span className="border-b mt-2 mb-2" key={subItem.name}></span>
                               : 
                               <a
                                 className="px-4 py-2 hover:bg-stone-50 text-sm"

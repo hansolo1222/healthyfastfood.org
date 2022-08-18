@@ -1,10 +1,11 @@
 import Image from "next/image";
 
 export const AsideTopRestaurants = ({ restaurants }) => {
+  if (restaurants.length >= 20) { restaurants = restaurants.slice(0,20) }
   return (
     <div className="mt-8 bg-stone-50 rounded-xl p-2">
       <h2 className="text-stone-500 text-xs uppercase font-semibold p-2 ">
-        Most Popular
+        You might like
       </h2>
       {restaurants.map((restaurant) => (
         <div className="hover:bg-stone-200 rounded-xl" key={restaurant.slug}>

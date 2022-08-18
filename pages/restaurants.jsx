@@ -79,7 +79,7 @@ export default function Restaurants(props) {
           <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8">
             {restaurantTypes.map((type) => {
               return (
-                <div className="col-span-1 border rounded-lg shadow-md">
+                <div className="col-span-1 border rounded-lg shadow-md" key={type.name}>
                 <div className=" mx-4 pb-4 mt-4 border-b h-40">
                   <div className="flex items-center justify-between  mb-4">
                     <h2 className="text-lg font-semibold">

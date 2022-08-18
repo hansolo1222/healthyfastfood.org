@@ -27,18 +27,6 @@ import { TableHeaders, TableMealRow } from "../components/TableMealRow";
 import Select from "react-select";
 
 export const getServerSideProps = async (context) => {
-  const restaurants = await prisma.restaurant.findMany({
-    where: {
-      rank: {
-        lt: 13,
-      },
-    },
-    orderBy: [
-      {
-        rank: "asc",
-      },
-    ],
-  });
   const restaurant = await prisma.restaurant.findUnique({
     where: {
       slug: String(context.params?.restaurant),
@@ -56,9 +44,27 @@ export const getServerSideProps = async (context) => {
               subvariants: true,
             },
           },
+          
         },
       },
+      restaurantType: true,
     },
+  });
+
+  const restaurantType = restaurant.restaurantType.slug
+
+
+  const restaurants = await prisma.restaurant.findMany({
+    where: {
+      restaurantType: {
+        slug: restaurantType
+      }
+    },
+    orderBy: [
+      {
+        rank: "asc",
+      },
+    ],
   });
 
   const groupedMeals = await prisma.meal.groupBy({
@@ -176,7 +182,6 @@ export default function Restaurant(props) {
   const [minCalories, setMinCalories] = useState(0);
   const [maxCalories, setMaxCalories] = useState(2000);
 
-  console.log(maxCalories, "max cal")
 
   const [thematicFilter, setThematicFilter] = useState();
   const [showCustomRow, setShowCustomRow] = useState(false);
@@ -388,7 +393,7 @@ export default function Restaurant(props) {
       </Head>
       <Layout>
         <div className="flex">
-          <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-4">
+          <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
             <AsideFilterByCalories
               handleSetMaxCalories={handleSetMaxCalories}
               handleSetMinCalories={handleSetMinCalories}
@@ -401,7 +406,7 @@ export default function Restaurant(props) {
               allergens={allergens}
               handleAllergens={handleAllergens}
             />
-            {/* <AsideTopRestaurants retaurants={restaurants} /> */}
+            <AsideTopRestaurants restaurants={restaurants} />
           </aside>
           <main className="mt-4 md:mt-8 w-full">
             <div className="block md:hidden mb-2">
@@ -493,7 +498,7 @@ export default function Restaurant(props) {
             <article className="overflow-x-auto w-full z-10">
               {categoriesWithParents.map((cat, i) => {
                 return (
-                  <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden">
+                  <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" key={cat.categoryName}>
                     <div className="py-3 md:mx-3 font-semibold border-b">
                       {cat.categoryName}
                     </div>
