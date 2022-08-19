@@ -1,5 +1,6 @@
 import { getCustomNutritionRowInfo } from "./utils";
 import Image from "next/image";
+
 export const TableMealRow = ({
   restaurantName,
   restaurantSlug,
@@ -12,7 +13,7 @@ export const TableMealRow = ({
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
   return (
-    <tr className="mealRow cursor-pointer hover:bg-stone-50 hover:shadow-sm">
+    <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
@@ -73,6 +74,85 @@ export const TableMealRow = ({
       </td>
       <td className="whitespace-nowrap  py-1 text-sm md:text-base text-stone-900 text-center">
         {meal.sugar}<span className="text-stone-500 text-sm">g</span>
+      </td>
+     
+    </tr>
+  );
+};
+
+
+
+
+export const MiniTableMealRow = ({
+  restaurantName,
+  restaurantSlug,
+  showRestaurantData,
+  meal,
+  showCustomRow,
+  customRowKey,
+  customRowUnits
+}) => {
+  // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
+  let category = meal.category.name
+  return (
+    <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
+      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
+        <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
+          <a href={`/${restaurantSlug}`} className="flex items-center">
+            {showRestaurantData ? (
+              <div className="relative w-6 h-6 ml-2 mr-3 md:mr-0">
+                <Image
+                  className=" flex-shrink-0 rounded-md mr-2 "
+                  src={`/images/logosSmall/${restaurantSlug}.webp`}
+                  alt={`${restaurantName} Logo`}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            ) : (
+              ""
+             
+            )}
+          </a>
+              {/* <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div> */}
+
+          <a
+            href={`/${restaurantSlug}/${meal.slug}`}
+            className="hover:text-red-500 md:ml-3"
+          >
+            {showRestaurantData && (
+              <div className="text-xs text-stone-500">{restaurantName}</div>
+            )}
+            <span className="">{meal.name}</span>
+          </a>
+        </div>
+      </td>
+      {/* <td className="whitespace-nowrap py-1 text-base text-stone-900 text-center">
+        {formatParentCategory(category, true, true, true)}
+      </td> */}
+      {showCustomRow && 
+        <td className="whitespace-nowrap px-1 py-1 text-sm md:text-base text-stone-900 text-center bg-green-50">
+          {meal[customRowKey]} <span className="text-stone-500 text-sm ">{customRowUnits}</span>
+        </td>
+      }
+      <td className=" py-1 px-2 text-sm md:text-base text-stone-900 text-center font-medium">
+        {meal.calories}
+        <span className="block text-xs">calories</span>
+      </td>
+      <td className="whitespace-nowrap py-1 px-2 text-sm md:text-base text-stone-900 text-center">
+        {meal.protein}<span className="text-stone-500 text-sm">g</span>
+        <span className="block text-xs">protein</span>
+      </td>
+      <td className="whitespace-nowrap py-1 px-2 text-sm md:text-base text-stone-900 text-center">
+        {meal.totalCarbohydrates}
+        <span className="text-stone-500 text-sm">g</span>
+        <span className="block text-xs">carbs</span>
+
+      </td>
+      <td className="whitespace-nowrap py-1 px-2 text-sm md:text-base text-stone-900 text-center">
+        {parseFloat(meal.totalFat).toFixed(0)}<span className="text-stone-500 text-sm">g</span>
+        <span className="block text-xs">fat</span>
+
       </td>
      
     </tr>

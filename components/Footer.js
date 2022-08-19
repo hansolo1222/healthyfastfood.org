@@ -1,11 +1,9 @@
 import React from "react";
 // import { Subscribe } from "./Subscribe";
   const navigation = {
-    miners: [
-      { name: 'Restaurants', href: '/' },
-      { name: 'Food Categories', href: '/gpus' },
-      { name: 'High Protein Meals', href: '/usb-miners' },
-      { name: 'Weight Loss Meals', href: '/helium-miners' },
+    healthyfastfood: [
+      { name: 'Restaurants', href: '/restaurants' },
+      { name: 'Meal Categories', href: '/category' },
     ],
     restaurants: [
       { name: "McDonald's", href: '/mcdonalds' },
@@ -118,9 +116,9 @@ import React from "react";
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">Sections</div>
+                  <div className="text-sm font-semibold text-stone-600 tracking-wider uppercase">HealthyFastFood</div>
                   <ul role="list" className="mt-3 space-y-3">
-                    {navigation.miners.map((item) => (
+                    {navigation.healthyfastfood.map((item) => (
                       <li key={item.name}>
                         <a href={item.href} className="text-base text-stone-500 hover:text-stone-700">
                           {item.name}
