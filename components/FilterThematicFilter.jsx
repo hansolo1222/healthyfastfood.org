@@ -3,7 +3,7 @@ import { classNames } from "./utils";
 
 export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) => {
   return (
-    <div className="py-4 w-full overflow-x-auto">
+    <div className="py-2 md:py-4 w-full overflow-x-auto">
     <h3 className="text-xs font-semibold uppercase pb-2">Special Sort</h3>
     <section className="flex">
     <button

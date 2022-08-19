@@ -427,12 +427,18 @@ export default function Restaurant(props) {
             <h3 className="font-semibold mt-6 text-stone-700 uppercase">Eating Healthy at McDonald's</h3>
             <p className="max-w-3xl text-stone-700 mb-4">The extensive menu means there are ample choices for nearly every dietary lifestyle. For lighter fare, choose from a grilled chicken pecan salad or a warm roasted vegetable and quinoa salad, chicken tortilla soup, grilled salmon, lemon pepper chicken, and steamed broccoli. Meat-based entrees at Cheddar’s also offer protein-packed nutrition.</p> */}
 
+            <div className="hidden md:block">
             <FilterThematicFilter
               thematicFilter={thematicFilter}
               handleThematicFilter={handleThematicFilter}
             />
+            </div>
 
             <div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
+            <FilterThematicFilter
+              thematicFilter={thematicFilter}
+              handleThematicFilter={handleThematicFilter}
+            />
             <div className="">
               <h3 className="text-xs font-semibold uppercase pb-2">
                 Filter
