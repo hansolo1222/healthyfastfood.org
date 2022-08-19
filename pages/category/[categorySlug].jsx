@@ -256,6 +256,25 @@ export default function Category(props) {
     direction: "ascending",
   });
 
+  const allergenOptions = [
+    { value: 'gluten', label: 'Gluten Free' },
+    { value: 'milk', label: 'Dairy Free' },
+    { value: 'peanuts', label: 'No Peanuts' },
+    { value: 'eggs', label: 'No Eggs' },
+    { value: 'wheat', label: 'No Wheat' },
+    { value: 'soy', label: 'No Soy' },
+    { value: 'tree nuts', label: 'No Tree Nuts' },
+    { value: 'fish', label: 'No Fish' },
+    { value: 'shellfish', label: 'No Shellfish' }
+  ]
+
+  const calorieOptions = [
+    { value: 100, label: 'Under 100cal' },
+    { value: 300, label: 'Under 300cal' },
+    { value: 500, label: 'Under 500cal' },
+    { value: 800, label: 'Under 800cal' },
+  ]
+
   return (
     <div className="">
       <NextSeo
