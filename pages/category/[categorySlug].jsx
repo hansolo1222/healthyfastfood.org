@@ -9,7 +9,11 @@ import { Breadcrumbs } from "../../components/Breadcrumbs";
 import prisma from "../../lib/prisma";
 import { NextSeo } from "next-seo";
 import { FoodCategoryTabs } from "../../components/Tabs";
-import { classNames, getCustomNutritionRowInfo, getUmbrellaCategory } from "../../components/utils";
+import {
+  classNames,
+  getCustomNutritionRowInfo,
+  getUmbrellaCategory,
+} from "../../components/utils";
 import { AsideFilterByCalories } from "../../components/AsideFilterByCalories";
 import { AsideFilterByUmbrellaCategories } from "../../components/AsideFilterByUmbrellaCategory";
 import { AsideAllergens } from "../../components/AsideAllergens";
@@ -19,10 +23,9 @@ import { TableHeaders, TableMealRow } from "../../components/TableMealRow";
 import Select from "react-select";
 import { formatParentCategory } from "../../components/TableMealRow";
 export const getServerSideProps = async (context) => {
-  
   const parent = await prisma.parentCategory.findUnique({
     where: {
-      slug: String(context.params?.categorySlug)
+      slug: String(context.params?.categorySlug),
     },
     include: {
       categories: {
@@ -32,22 +35,22 @@ export const getServerSideProps = async (context) => {
               restaurant: true,
               category: {
                 include: {
-                  parentCategory: true
-                }
+                  parentCategory: true,
+                },
               },
               variants: {
                 include: {
-                  subvariants: true
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  })
+                  subvariants: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
 
-  const parentCategories = await prisma.parentCategory.findMany()
+  const parentCategories = await prisma.parentCategory.findMany();
 
   const restaurants = await prisma.restaurant.findMany({
     orderBy: [
@@ -66,20 +69,17 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-
 export default function Category(props) {
   const router = useRouter();
 
-  let {parentCategories, parent, restaurants} = props;
+  let { parentCategories, parent, restaurants } = props;
 
-  console.log(parent.categories)
+  console.log(parent.categories);
 
+  let meals = parent.categories.flatMap((cat) => cat.meals);
 
-  let meals = parent.categories.flatMap((cat)=>(cat.meals))
-  
-
-  let category = parent
-  let data = parent
+  let category = parent;
+  let data = parent;
 
   // let categories = [...new Set(meals.map((item) => item.category.name))];
 
@@ -88,7 +88,7 @@ export default function Category(props) {
     { name: category.name, href: `/category/${category.slug}` },
   ];
 
- //format meals with variants
+  //format meals with variants
 
   meals = meals.map((meal) => {
     if (meal.variants.length > 0) {
@@ -111,11 +111,8 @@ export default function Category(props) {
     } else return meal;
   });
 
-
   const [mealData, setMealData] = useState(meals);
-  console.log(mealData)
-
-
+  console.log(mealData);
 
   const [filters, setFilters] = useState([]);
 
@@ -127,7 +124,6 @@ export default function Category(props) {
 
   const [minCalories, setMinCalories] = useState(0);
   const [maxCalories, setMaxCalories] = useState(2000);
-
 
   const [thematicFilter, setThematicFilter] = useState();
   const [showCustomRow, setShowCustomRow] = useState(false);
@@ -170,7 +166,6 @@ export default function Category(props) {
     setMinCalories(0);
     setMaxCalories(event.target.value);
   };
-  
 
   const handleSetMinCalories = (event) => {
     setMinCalories(event.target.value);
@@ -276,9 +271,7 @@ export default function Category(props) {
         openGraph={{
           url: "https://healthyfastfood.org/" + category.slug,
           type: "website",
-          title:
-            category.name +
-            " | Healthy Fast Food",
+          title: category.name + " | Healthy Fast Food",
           description:
             "Discover nutrition facts, macros, and the healthiest items at " +
             category.name,
@@ -305,8 +298,7 @@ export default function Category(props) {
       <Layout>
         <div className="flex">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
-
-          <AsideFilterByCalories
+            <AsideFilterByCalories
               handleSetMaxCalories={handleSetMaxCalories}
               handleSetMinCalories={handleSetMinCalories}
             />
@@ -319,155 +311,156 @@ export default function Category(props) {
               handleAllergens={handleAllergens}
             />
 
-          <div className="mt-8 bg-stone-50 rounded-xl p-2">
+            <div className="mt-8 bg-stone-50 rounded-xl p-2">
               <h2 className="text-stone-500 text-xs uppercase font-semibold p-2 ">
                 Food Categories
               </h2>
-              {parentCategories.filter((c)=>c.slug!=="uncategorized").map((category) => (
-                <div
-                  className="hover:bg-stone-200 rounded-xl"
-                  key={category.slug}
-                >
-                  <a
-                    href={`/category/${category.slug}`}
-                    className="cursor-pointer w-full flex items-center p-2"
+              {parentCategories
+                .filter((c) => c.slug !== "uncategorized")
+                .map((category) => (
+                  <div
+                    className="hover:bg-stone-200 rounded-xl"
                     key={category.slug}
                   >
-                    {/* <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500"> */}
-                    <div className="relative w-6 h-6">
-                      {/* <Image
+                    <a
+                      href={`/category/${category.slug}`}
+                      className="cursor-pointer w-full flex items-center p-2"
+                      key={category.slug}
+                    >
+                      {/* <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500"> */}
+                      <div className="relative w-6 h-6">
+                        {/* <Image
                         className=" flex-shrink-0 rounded-md"
                         src={`/images/categoriesClipArt/${category.slug}.webp`}
                         alt={`${category.name} Illustration`}
                         layout="fill"
                         objectFit="contain"
                       /> */}
-                      {formatParentCategory(category.slug, false, true, false)}
-                    </div>
-                    <div className="pl-2 text-stone-500 text-sm">
-                      {category.name}
-                    </div>
-                  </a>
-                </div>
-              ))}
+                        {formatParentCategory(
+                          category.slug,
+                          false,
+                          true,
+                          false
+                        )}
+                      </div>
+                      <div className="pl-2 text-stone-500 text-sm">
+                        {category.name}
+                      </div>
+                    </a>
+                  </div>
+                ))}
             </div>
-            
           </aside>
           <main className="mt-4 md:mt-8 w-full">
             <div className="block md:hidden mb-2">
-                <Breadcrumbs pages={pages} className="" />
-              </div>
-              <div className="flex items-center md:items-center">
-                <div className="w-6 h-6 md:w-12 md:h-12 mr-2 md:mr-4 border flex items-center justify-center rounded">
-                  {/* <Image
+              <Breadcrumbs pages={pages} className="" />
+            </div>
+            <div className="flex items-center md:items-center">
+              <div className="w-6 h-6 md:w-12 md:h-12 mr-2 md:mr-4 border flex items-center justify-center rounded">
+                {/* <Image
                     className=" flex-shrink-0 rounded-md mr-2 z-0"
                     src={`/images/logosSmall/${restaurant.slug}.webp`}
                     alt={`${restaurant.name} Logo`}
                     layout="fill"
                     objectFit="contain"
                   /> */}
-                  <div className=" md:text-3xl">
-                  {formatParentCategory(category.slug,false,true,false)}
-                  </div>
-                </div>
-                <div>
-                  <div className="hidden md:block">
-                    <Breadcrumbs pages={pages} className="" />
-                  </div>
-                  <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
-                  All {category.name}{" "}, Ranked by Nutrition
-                    {/* <span className="text-stone-500 font-normal">
-                      Menu Nutrition Facts & Calories
-                    </span> */}
-                  </h1>
+                <div className=" md:text-3xl">
+                  {formatParentCategory(category.slug, false, true, false)}
                 </div>
               </div>
+              <div>
+                <div className="hidden md:block">
+                  <Breadcrumbs pages={pages} className="" />
+                </div>
+                <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
+                  All {category.name} , Ranked by Nutrition
+                  {/* <span className="text-stone-500 font-normal">
+                      Menu Nutrition Facts & Calories
+                    </span> */}
+                </h1>
+              </div>
+            </div>
 
             <div className="mt-4">
               <FoodCategoryTabs activeTab="all" />
             </div>
 
+            <div className="hidden md:block">
             <FilterThematicFilter
               thematicFilter={thematicFilter}
               handleThematicFilter={handleThematicFilter}
             />
+            </div>
 
-<div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
-            <div className="">
-              <h3 className="text-xs font-semibold uppercase pb-2">
-                Filter
-              </h3>
-              <div className="flex space-x-2">  
-                <Select 
-                  options={calorieOptions} 
-                  isClearable={true}
-                  placeholder="By Calories"
-                  onChange={handleSetMaxCaloriesMobile}
+            <div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
+              <FilterThematicFilter
+                thematicFilter={thematicFilter}
+                handleThematicFilter={handleThematicFilter}
+              />
+              <div className="">
+                <h3 className="text-xs font-semibold uppercase pb-2">Filter</h3>
+                <div className="flex space-x-2">
+                  <Select
+                    options={calorieOptions}
+                    isClearable={true}
+                    placeholder="By Calories"
+                    onChange={handleSetMaxCaloriesMobile}
                   />
-                {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
+                  {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
                   Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
                 </div> */}
-                <Select 
-                  options={allergenOptions} 
-                  isMulti
-                  placeholder="+ Allergies"
-                  onChange={setAllergens}
+                  <Select
+                    options={allergenOptions}
+                    isMulti
+                    placeholder="+ Allergies"
+                    onChange={setAllergens}
                   />
-
-              </div>
+                </div>
               </div>
             </div>
 
-
             <article className="">
-            <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" >
-                    
-                    <div className="overflow-x-auto">
-                      <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-                        <thead className="rounded-t-lg">
-                          {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-                          <TableHeaders
+              <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
+                    <thead className="rounded-t-lg">
+                      {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
+                      <TableHeaders
+                        showCustomRow={showCustomRow}
+                        thematicFilter={thematicFilter}
+                        SortableTableHeader={SortableTableHeader}
+                      />
+                    </thead>
+                    <tbody className="divide-y divide-stone-200 bg-white w-full">
+                      {items.length > 0 ? (
+                        items.map((meal) => (
+                          <TableMealRow
+                            restaurantName={meal.restaurant.name}
+                            restaurantSlug={meal.restaurantSlug}
+                            showRestaurantData={true}
+                            meal={meal}
+                            key={meal.mealName}
                             showCustomRow={showCustomRow}
-                            thematicFilter={thematicFilter}
-                            SortableTableHeader={SortableTableHeader}
+                            customRowKey={thematicFilter}
+                            customRowUnits={
+                              getCustomNutritionRowInfo(thematicFilter).units
+                            }
                           />
-                        </thead>
-                        <tbody className="divide-y divide-stone-200 bg-white w-full">
-                          {items.length > 0 ? (
-                            items
-                              .map((meal) => (
-                                <TableMealRow
-                                  restaurantName={meal.restaurant.name}
-                                  restaurantSlug={meal.restaurantSlug}
-                                  showRestaurantData={true}
-                                  meal={meal}
-                                  key={meal.mealName}
-                                  showCustomRow={showCustomRow}
-                                  customRowKey={thematicFilter}
-                                  customRowUnits={
-                                    getCustomNutritionRowInfo(thematicFilter)
-                                      .units
-                                  }
-                                />
-                              ))
-                          ) : (
-                            <tr className="">
-                              <td
-                                colSpan={8}
-                                className="single-cell-row text-md text-stone-500 text-center p-8"
-                              >
-                                No items found!
-                              </td>
-                            </tr>
-                          )}
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-
-
-
-            
+                        ))
+                      ) : (
+                        <tr className="">
+                          <td
+                            colSpan={8}
+                            className="single-cell-row text-md text-stone-500 text-center p-8"
+                          >
+                            No items found!
+                          </td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </article>
           </main>
         </div>
@@ -475,8 +468,3 @@ export default function Category(props) {
     </div>
   );
 }
-
-
-
-
-
