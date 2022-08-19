@@ -79,7 +79,31 @@ const Header = () => {
       { name: "Ice Cream & Frozen Desserts", href: "/restaurants/frozen-desserts"},
     ]
   },
-    { name: "Food Types", href: "/restaurants" },
+    { name: "Meal Categories", 
+    href: "/category",
+    secondLevel: true,
+    secondLevelData: [
+      { name: "All Meal Categories", href: "/category"},
+      { name: "---------", href: ""},
+      { name: "Burgers & Sandwiches", href: "/category/burgers-sandwiches" },
+      { name: "Salads", href: "/category/salads" },
+      { name: "Steaks", href: "/category/steaks" },
+      { name: "Chicken", href: "/category/chicken" },
+      { name: "Burritos", href: "/category/burritos" },
+      { name: "Tacos", href: "/category/tacos" },
+      { name: "Pasta", href: "/category/pastas" },
+      { name: "Pizza", href: "/category/pizzas" },
+      { name: "Soups", href: "/category/soups" },
+      { name: "---------", href: ""},
+      { name: "Ice Cream", href: "/category/ice-cream" },
+      { name: "Shakes", href: "/category/shakes" },
+      { name: "Pastries", href: "/category/pastries" },
+      { name: "Donuts", href: "/category/donuts" },
+      { name: "Coffee", href: "/category/coffee" },
+
+    ]
+  },
+
   ];
 
   //   if (!session) {

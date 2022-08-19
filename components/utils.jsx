@@ -25,3 +25,13 @@ export const getCustomNutritionRowInfo = (thematicFilter) => {
     } 
    return {units: units, title: title, direction: direction}
 }
+
+export const getUmbrellaCategory = (item) => {
+  if (["Beverages", "Coffee", "Alcohol", "Shakes"].includes(item)) {
+    return "beverage";
+  } else if (["Dressings & Sauces", "Toppings"].includes(item)) {
+    return "condiment";
+  } else {
+    return "food";
+  }
+};

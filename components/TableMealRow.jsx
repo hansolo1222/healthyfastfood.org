@@ -17,9 +17,9 @@ export const TableMealRow = ({
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
-              <div className="relative w-6 h-6">
+              <div className="relative w-6 h-6 ml-2">
                 <Image
-                  className=" flex-shrink-0 rounded-md mr-2"
+                  className=" flex-shrink-0 rounded-md mr-2 "
                   src={`/images/logosSmall/${restaurantSlug}.webp`}
                   alt={`${restaurantName} Logo`}
                   layout="fill"

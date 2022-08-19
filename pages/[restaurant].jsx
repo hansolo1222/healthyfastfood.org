@@ -1,28 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
-//import styles from '../styles/Home.module.css'
-import Header from "../components/Header";
 import Layout from "../components/Layout";
 import { useEffect, useState } from "react";
 import { useSortableData } from "../components/UseSortableData";
-import { useFilteredData } from "../components/UseFilteredData";
-//let glob = require( 'glob' ), path = require( 'path' );
-//import recursiveReaddirFiles from 'recursive-readdir-files';
 import Link from "next/link";
-import { formatCategory, formatParentCategory } from ".";
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import prisma from "../lib/prisma";
 import { NextSeo } from "next-seo";
 import { Tabs } from "../components/Tabs";
-import { Slider } from "@mui/material";
-import { classNames, getCustomNutritionRowInfo } from "../components/utils";
+import { classNames, getCustomNutritionRowInfo, getUmbrellaCategory } from "../components/utils";
 import { AsideFilterByCalories } from "../components/AsideFilterByCalories";
 import { AsideFilterByUmbrellaCategories } from "../components/AsideFilterByUmbrellaCategory";
 import { AsideAllergens } from "../components/AsideAllergens";
 import { AsideTopRestaurants } from "../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../components/FilterThematicFilter";
-import { ChevronDownIcon } from "@heroicons/react/solid";
 import { TableHeaders, TableMealRow } from "../components/TableMealRow";
 import Select from "react-select";
 
@@ -91,15 +83,7 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-const getUmbrellaCategory = (item) => {
-  if (["Beverages", "Coffee", "Alcohol", "Shakes"].includes(item)) {
-    return "beverage";
-  } else if (["Dressings & Sauces", "Toppings"].includes(item)) {
-    return "condiment";
-  } else {
-    return "food";
-  }
-};
+
 
 export default function Restaurant(props) {
   const router = useRouter();
@@ -112,7 +96,6 @@ export default function Restaurant(props) {
   ];
 
   // format meals with variants
-
   let meals = restaurant.meals.map((meal) => {
     if (meal.variants.length > 0) {
       if (meal.variants[0].subvariants.length > 0) {
