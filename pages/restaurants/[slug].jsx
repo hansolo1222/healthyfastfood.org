@@ -117,7 +117,7 @@ export default function Restaurants(props) {
                   
                   <td
                     scope="col"
-                    className="px-3 py-0.5 text-sm font-semibold  whitespace-nowrap  text-greeny-600 text-center"
+                    className="px-3 py-0.5 text-sm font-semibold  whitespace-nowrap  text-greeny-600 text-center hidden sm:table-cell"
                   >
                     <SortableTableHeader colKey="segmentSlug" name="Service Type" direction="ascending"/>
                   </td>
@@ -161,7 +161,7 @@ export default function Restaurants(props) {
                     ? restaurant._count.meals 
                     : <span className="text-xs border text-stone-500 px-2 py-1 rounded-full">No data yet</span>}</td>
                 
-                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
+                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center hidden sm:table-cell">
                     {restaurant.segment ? restaurant.segment.name : ""}
                     </td>
                     

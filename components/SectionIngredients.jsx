@@ -1,7 +1,7 @@
 export const SectionIngredients = ({ meal }) => {
   return (
     <section>
-      <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">
+      <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t" id="ingredients">
         Ingredients
       </h2>
       {meal.ingredients !== null ? (

@@ -80,7 +80,7 @@ export default function Restaurants(props) {
             {restaurantTypes.map((type) => {
               return (
                 <div className="col-span-1 border rounded-lg shadow-md" key={type.name}>
-                <div className=" mx-4 pb-4 mt-4 border-b h-40">
+                <div className=" mx-4 pb-4 mt-4 border-b h-auto md:h-40">
                   <div className="flex items-center justify-between  mb-4">
                     <h2 className="text-lg font-semibold">
                     {type.name} Restaurants
@@ -100,7 +100,7 @@ export default function Restaurants(props) {
                         <th
                           scope="col"
                           className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-left"
-                     
+                          style={{width:'80%'}}
                         >
                           <SortableTableHeader
                             colKey="name"
@@ -122,7 +122,7 @@ export default function Restaurants(props) {
                         >
                           <SortableTableHeader
                             colKey="locations"
-                            name="# Locations"
+                            name="#"
                             direction="descending"
                           />
                         </th>
@@ -163,7 +163,7 @@ export default function Restaurants(props) {
                               className="hover:bg-stone-100"
                               key={restaurant.key}
                             >
-                              <td className="whitespace-nowrap py-2 pl-4  text-md text-stone-900 text-left">
+                              <td className=" py-2 pl-4  text-md text-stone-900 text-left">
                                 <div className="flex items-center">
                                   <a
                                     href={`/${restaurant.slug}`}

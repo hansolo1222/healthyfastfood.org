@@ -32,7 +32,7 @@ export const SectionNutritionSummary = ({ meal }) => {
   };
   return (
     <section>
-      <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8 mt-8">
+      <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8 mt-8" id="nutrition-information">
         <div className="col-span-1">
           <NutritionFacts data={meal} />
         </div>

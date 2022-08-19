@@ -392,6 +392,32 @@ export default function Category(props) {
               handleThematicFilter={handleThematicFilter}
             />
 
+<div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
+            <div className="">
+              <h3 className="text-xs font-semibold uppercase pb-2">
+                Filter
+              </h3>
+              <div className="flex space-x-2">  
+                <Select 
+                  options={calorieOptions} 
+                  isClearable={true}
+                  placeholder="By Calories"
+                  onChange={handleSetMaxCaloriesMobile}
+                  />
+                {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
+                  Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
+                </div> */}
+                <Select 
+                  options={allergenOptions} 
+                  isMulti
+                  placeholder="+ Allergies"
+                  onChange={setAllergens}
+                  />
+
+              </div>
+              </div>
+            </div>
+
 
             <article className="">
             <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" >

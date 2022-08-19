@@ -7,7 +7,8 @@ import { ChevronRightIcon, HomeIcon } from '@heroicons/react/solid'
 
 export const Breadcrumbs = ({pages}) => {
   return(
-<nav className="flex" aria-label="Breadcrumb">
+    <div className="overflow-x-auto w-full">
+<nav className="flex " aria-label="Breadcrumb">
         <ol role="list" className="flex items-center space-x-3">
           <li key="all miners">
             <div>
@@ -23,7 +24,7 @@ export const Breadcrumbs = ({pages}) => {
           </li>
           {pages.map((page, index) => (
             <li key={page.name}>
-              <div className="flex items-center">
+              <div className="flex items-center whitespace-nowrap">
                 <ChevronRightIcon className="flex-shrink-0 h-4 w-4 text-stone-400" aria-hidden="true" />
                 <Link
                   href={page.href}
@@ -39,5 +40,6 @@ export const Breadcrumbs = ({pages}) => {
           ))}
         </ol>
       </nav>
+      </div>
   )
 }

@@ -8,7 +8,7 @@ import Head from 'next/head';
 // };
 
 const Layout = (props) => (
-  <div className="bg-white">
+  <div className="bg-white w-full">
     <Head>
       <link rel="shortcut icon" href="/images/favicon.ico" />
     </Head>

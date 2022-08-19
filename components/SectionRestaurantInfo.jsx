@@ -9,7 +9,7 @@ import {
 export const SectionRestaurantInfo = ({ restaurant }) => {
   return (
     <section className="">
-      <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t">
+      <h2 className="font-bold text-2xl mt-8 mb-6 pt-8 border-t" id="restaurant-information">
         About This Restaurant
       </h2>
 

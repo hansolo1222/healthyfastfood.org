@@ -388,7 +388,7 @@ export default function Home(props) {
         <li key={category.slug} className="relative">
           <a href={`/category/${category.slug}`}>
           <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
-            <div className="h-40">
+            <div className="h-28 md:h-40">
             <img src={`/images/categoriesLarge/${category.slug}.jpg`} alt="" className="object-cover pointer-events-none group-hover:opacity-75" />
             </div>
             <button type="button" className="absolute inset-0 focus:outline-none">

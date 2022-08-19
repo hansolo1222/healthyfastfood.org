@@ -479,7 +479,7 @@ export default function Restaurant(props) {
             </div>
 
             <article className="overflow-x-auto w-full z-10">
-              {categoriesWithParents.map((cat, i) => {
+              {categoriesWithParents.filter((cat)=>umbrellaCategories.includes(getUmbrellaCategory(cat.parentCategory))).map((cat, i) => {
                 return (
                   <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" key={cat.categoryName}>
                     <div className="py-3 md:mx-3 font-semibold border-b">

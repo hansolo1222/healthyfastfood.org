@@ -237,7 +237,7 @@ export default function Meal(props) {
           </aside>
           <main className="overflow-x-auto">
           <SectionIntro meal={meal} restaurantName={restaurant.name} restaurantSlug={restaurant.slug} pages={pages}/>
-            <MealTabs activeTab="nutrition-information" slug="" />
+            <MealTabs activeTab="" slug={`/${restaurant.slug}/${meal.slug}/${variant.variantSlug}/${subvariant.subvariantSlug}`} />
             <SectionNutritionSummary meal={meal} />
 
             <SectionAllergens meal={meal} />

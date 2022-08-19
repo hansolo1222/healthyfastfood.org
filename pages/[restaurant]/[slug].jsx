@@ -198,7 +198,7 @@ export default function Meal(props) {
               )
             ) : (
               <>
-              <MealTabs activeTab="nutrition-information" slug="" />
+              <MealTabs activeTab="" slug={`/${restaurant.slug}/${meal.slug}`} />
               <SectionNutritionSummary meal={meal} />
               <SectionAllergens meal={meal} />
               <SectionIngredients meal={meal} />

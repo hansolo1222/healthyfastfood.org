@@ -77,11 +77,11 @@ export const FoodCategoryTabs = ({activeTab, slug}) => {
 export const MealTabs = ({activeTab, slug}) => {
 
   const tabs = [
-    { name: 'Nutrition Information', value: 'nutrition-information', href: '/' + slug },
-    { name: 'Allergens', value: 'allergens', href: '/' + slug },
-    { name: 'Ingredients', value: 'ingredients', href: '/' + slug },
-    { name: 'Restaurant Info', value: 'restaurant', href: '/' + slug },
-    { name: 'FAQ', value: 'faq', href: '/' + slug },
+    { name: 'Nutrition Information', value: 'nutrition-information', href:  slug + '#nutrition-information' },
+    { name: 'Allergens', value: 'allergens', href: slug + "#allergens"},
+    { name: 'Ingredients', value: 'ingredients', href: slug + '#ingredients' },
+    { name: 'Restaurant Info', value: 'restaurant', href: slug + '#restaurant-information'},
+    { name: 'FAQ', value: 'faq', href: slug + '#faq'},
 
   ]
   return (
