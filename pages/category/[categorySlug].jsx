@@ -255,6 +255,17 @@ export default function Category(props) {
     key: "name",
     direction: "ascending",
   });
+  //--------------------------- MOBILE FILTERS ---------------------------
+
+
+  const handleSetMaxCaloriesMobile = (event) => {
+    if (event !== null){
+      setMaxCalories(event.value)
+    } else {
+      setMaxCalories(10000)
+    }
+  };
+
 
   const allergenOptions = [
     { value: 'gluten', label: 'Gluten Free' },
