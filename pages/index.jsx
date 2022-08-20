@@ -16,6 +16,7 @@ import {
   MiniTableMealRow,
 } from "../components/TableMealRow";
 import Link from "next/link";
+import { ShareIcons } from "../components/ShareIcons";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -255,7 +256,7 @@ export default function Home(props) {
       </Head>
       <Layout>
         <RestaurantCloud restaurants={topRestaurants} />
-
+        <div className="mt-8"><ShareIcons size={32}  align="center"/></div>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-4 mt-10">
           Top Lists
         </h2>

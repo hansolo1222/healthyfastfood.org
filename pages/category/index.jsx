@@ -18,6 +18,8 @@ import { FilterThematicFilter } from "../../components/FilterThematicFilter";
 import { TableHeaders, TableMealRow } from "../../components/TableMealRow";
 import Select from "react-select";
 import { formatParentCategory } from "../../components/TableMealRow";
+import { ShareIcons } from "../../components/ShareIcons";
+
 export const getServerSideProps = async (context) => {
   
   // const parent = await prisma.parentCategory.findUnique({
@@ -116,6 +118,8 @@ export default function Category(props) {
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-4">
               Restaurant Meals by Category
             </h1>
+            <div className=""><ShareIcons size={28}  align="center"/></div>
+
             </div>
         <div className="flex">
         

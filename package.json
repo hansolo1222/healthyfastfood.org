@@ -35,6 +35,8 @@
     "react-dom": "18.2.0",
     "react-minimal-pie-chart": "^8.3.0",
     "react-select": "^5.4.0",
+    "react-share": "^4.4.0",
+    "react-social-icons": "^5.14.0",
     "recursive-readdir-files": "^2.3.0",
     "slugify": "^1.6.5"
   },

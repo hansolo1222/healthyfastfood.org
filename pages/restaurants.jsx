@@ -14,7 +14,7 @@ import { MealRow } from ".";
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import prisma from "../lib/prisma";
-
+import { ShareIcons } from "../components/ShareIcons";
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
     orderBy: [
@@ -72,9 +72,13 @@ export default function Restaurants(props) {
       </Head>
       <Layout>
         <div className="">
-          <h1 className="text-3xl font-bold text-center mb-8 mt-8">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-center mb-4 mt-8">
             Most Popular Restaurants by Category
           </h1>
+          <div className=""><ShareIcons size={28}/></div>
+          </div>
+
           {/* <p className="max-w-3xl">These are the most popular </p> */}
           <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-8">
             {restaurantTypes.map((type) => {

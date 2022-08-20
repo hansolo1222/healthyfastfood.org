@@ -17,6 +17,7 @@ import { AsideTopRestaurants } from "../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../components/FilterThematicFilter";
 import { TableHeaders, TableMealRow } from "../components/TableMealRow";
 import Select from "react-select";
+import { ShareIcons } from "../components/ShareIcons";
 
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
@@ -415,8 +416,12 @@ export default function Restaurant(props) {
                     Menu Nutrition Facts & Calories
                   </span>
                 </h1>
+
               </div>
+              
+
             </div>
+            <div className="mt-4"><ShareIcons size={24} align="left"/></div>
 
             <div className="mt-4">
               <Tabs activeTab="all" />

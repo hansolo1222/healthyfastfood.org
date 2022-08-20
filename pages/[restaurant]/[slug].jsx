@@ -18,6 +18,8 @@ import { SectionNutritionSummary } from "../../components/SectionNutritionSummar
 import { SectionRestaurantInfo } from "../../components/SectionRestaurantInfo";
 import { SectionVariantsList } from "../../components/SectionVariantsList";
 
+import { ShareIcons } from "../../components/ShareIcons";
+
 export const getServerSideProps = async (context) => {
   console.log(context.resolvedUrl.split("/"));
 

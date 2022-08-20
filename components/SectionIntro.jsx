@@ -1,7 +1,7 @@
 import { QuickNutritionStats } from "./QuickNutritionStats";
 import { QuickNutritionSummary } from "./QuickNutritionSummary";
 import { Breadcrumbs } from "./Breadcrumbs";
-
+import { ShareIcons } from "./ShareIcons";
 import Image from "next/image";
 import { useState } from "react";
 export const SectionIntro = ({ meal, restaurantName, restaurantSlug, pages }) => {
@@ -58,6 +58,7 @@ export const SectionIntro = ({ meal, restaurantName, restaurantSlug, pages }) =>
                 Nutrition Facts
               </span>
             </h1>
+
           </div>
 
           {meal.variants.length == 0 && meal.subvariants.length==0 && (
