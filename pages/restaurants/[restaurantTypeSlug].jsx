@@ -19,7 +19,7 @@ export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
     where: {
       restaurantType: {
-        slug: String(context.params?.slug),
+        slug: String(context.params?.restaurantTypeSlug),
       }
     },
     orderBy: [
@@ -37,7 +37,7 @@ export const getServerSideProps = async (context) => {
 
   const type = await prisma.restaurantType.findUnique({
     where: {
-      slug: String(context.params?.slug),
+      slug: String(context.params?.restaurantTypeSlug),
     }
   })
 
