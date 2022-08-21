@@ -136,8 +136,8 @@ export const KetoTableMealRow = ({
       <td className=" py-1 text-sm md:text-base text-stone-900 text-center font-medium">
         {meal.calories}<span className="text-stone-500 text-sm"></span>
       </td>
-      <td className="whitespace-nowrap py-1 text-sm md:text-base text-stone-900 text-center bg-blue-50">
-        {meal.netCarbohydrates}<span className="text-stone-500 text-sm">g</span>
+      <td className="whitespace-nowrap py-1 text-sm md:text-base text-blue-600 text-center bg-blue-50">
+        {meal.netCarbohydrates}<span className="text-blue-600 text-sm">g</span>
       </td>
       <td className="whitespace-nowrap py-1 text-sm md:text-base text-stone-900 text-center">
         {meal.totalCarbohydrates}<span className="text-stone-500 text-sm">g</span>

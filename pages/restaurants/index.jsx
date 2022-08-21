@@ -1,20 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
 //import styles from '../styles/Home.module.css'
-import Header from "../components/Header";
-import Layout from "../components/Layout";
+import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 import { useState } from "react";
-import { useSortableData } from "../components/UseSortableData";
-import { useFilteredData } from "../components/UseFilteredData";
+import { useSortableData } from "../../components/UseSortableData";
+import { useFilteredData } from "../../components/UseFilteredData";
 //let glob = require( 'glob' ), path = require( 'path' );
 //import recursiveReaddirFiles from 'recursive-readdir-files';
 import Link from "next/link";
 import { MealRow } from ".";
 // import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
 import { useRouter } from "next/router";
-import { Breadcrumbs } from "../components/Breadcrumbs";
-import prisma from "../lib/prisma";
-import { ShareIcons } from "../components/ShareIcons";
+import { Breadcrumbs } from "../../components/Breadcrumbs";
+import prisma from "../../lib/prisma";
+import { ShareIcons } from "../../components/ShareIcons";
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
     orderBy: [
