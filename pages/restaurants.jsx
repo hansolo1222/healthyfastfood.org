@@ -76,7 +76,7 @@ export default function Restaurants(props) {
           <h1 className="text-3xl font-bold text-center mb-4 mt-8">
             Most Popular Restaurants by Category
           </h1>
-          <div className=""><ShareIcons size={28}/></div>
+          <div className=""><ShareIcons size={28}  align="center"/></div>
           </div>
 
           {/* <p className="max-w-3xl">These are the most popular </p> */}

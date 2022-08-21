@@ -9,9 +9,10 @@ const newLabel = <span className="ml-1 inline-flex items-center px-1 py-0-25 rou
 export const Tabs = ({activeTab, slug}) => {
 
   const tabs = [
-    { name: 'Menu Items', value: 'all', href: '/' + slug },
+    { name: 'All Menu Items', value: 'all', href: slug },
+    { name: 'Keto/Low Carb', value: 'keto', href: slug + '/keto-low-carb' },
+
     // { name: 'For Cutting & Bulking', value: 'healthy', href: '/' + slug },
-    // { name: 'Keto-Friendly', value: 'healthy', href: '/' + slug },
     // { name: 'About this Restaurant', value: 'healthy', href: '/' + slug },
 
   ]

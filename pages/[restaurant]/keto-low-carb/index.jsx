@@ -1,23 +1,28 @@
 import Head from "next/head";
 import Image from "next/image";
-import Layout from "../components/Layout";
+import Layout from "../../../components/Layout";
 import { useEffect, useState } from "react";
-import { useSortableData } from "../components/UseSortableData";
+import { useSortableData } from "../../../components/UseSortableData";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Breadcrumbs } from "../components/Breadcrumbs";
-import prisma from "../lib/prisma";
+import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import prisma from "../../../lib/prisma";
 import { NextSeo } from "next-seo";
-import { Tabs } from "../components/Tabs";
-import { classNames, getCustomNutritionRowInfo, getUmbrellaCategory } from "../components/utils";
-import { AsideFilterByCalories } from "../components/AsideFilterByCalories";
-import { AsideFilterByUmbrellaCategories } from "../components/AsideFilterByUmbrellaCategory";
-import { AsideAllergens } from "../components/AsideAllergens";
-import { AsideTopRestaurants } from "../components/AsideTopRestaurants";
-import { FilterThematicFilter } from "../components/FilterThematicFilter";
-import { TableHeaders, TableMealRow } from "../components/TableMealRow";
+import { Tabs } from "../../../components/Tabs";
+import {
+  classNames,
+  getCustomNutritionRowInfo,
+  getUmbrellaCategory,
+} from "../../../components/utils";
+import { AsideFilterByCalories } from "../../../components/AsideFilterByCalories";
+import { AsideFilterByUmbrellaCategories } from "../../../components/AsideFilterByUmbrellaCategory";
+import { AsideAllergens } from "../../../components/AsideAllergens";
+import { AsideTopRestaurants } from "../../../components/AsideTopRestaurants";
+import { FilterThematicFilter } from "../../../components/FilterThematicFilter";
+import { KetoTableHeaders, KetoTableMealRow } from "../../../components/TableMealRow";
 import Select from "react-select";
-import { ShareIcons } from "../components/ShareIcons";
+import { ShareIcons } from "../../../components/ShareIcons";
+import { Slider } from "@mui/material";
 
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
@@ -37,21 +42,19 @@ export const getServerSideProps = async (context) => {
               subvariants: true,
             },
           },
-          
         },
       },
       restaurantType: true,
     },
   });
 
-  const restaurantType = restaurant.restaurantType.slug
-
+  const restaurantType = restaurant.restaurantType.slug;
 
   const restaurants = await prisma.restaurant.findMany({
     where: {
       restaurantType: {
-        slug: restaurantType
-      }
+        slug: restaurantType,
+      },
     },
     orderBy: [
       {
@@ -84,8 +87,6 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-
-
 export default function Restaurant(props) {
   const router = useRouter();
 
@@ -94,6 +95,7 @@ export default function Restaurant(props) {
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
+    { name: "Keto/Low-Carb", href: `/${restaurant.slug}/keto-low-carb` },
   ];
 
   // format meals with variants
@@ -119,7 +121,7 @@ export default function Restaurant(props) {
   });
 
   meals = meals.map((meal) => {
-    return { ...meal, categoryName: meal.category.name };
+    return { ...meal, categoryName: meal.category.name, netCarbohydrates: meal.totalCarbohydrates - meal.dietaryFiber };
   });
 
   let categories = [...new Set(meals.map((item) => item.category.name))];
@@ -166,9 +168,11 @@ export default function Restaurant(props) {
   const [minCalories, setMinCalories] = useState(0);
   const [maxCalories, setMaxCalories] = useState(2000);
 
-
   const [thematicFilter, setThematicFilter] = useState();
   const [showCustomRow, setShowCustomRow] = useState(false);
+
+  let [netCarbLimit, setNetCarbLimit] = useState(20)
+
 
   const handleFilter = (filter) => {
     setFilters(filter);
@@ -208,7 +212,6 @@ export default function Restaurant(props) {
     setMinCalories(0);
     setMaxCalories(event.target.value);
   };
-  
 
   const handleSetMinCalories = (event) => {
     setMinCalories(event.target.value);
@@ -237,6 +240,7 @@ export default function Restaurant(props) {
     maxCalories,
     minCalories,
     allergens,
+    netCarbLimit
   ]);
 
   const calculateCustomNutrition = (thematicFilter, m) => {
@@ -255,6 +259,7 @@ export default function Restaurant(props) {
 
   const filteredItems = (items) =>
     items
+    .filter((item) => item.netCarbohydrates < netCarbLimit)
       .filter(
         (item) => item.calories >= minCalories && item.calories <= maxCalories
       )
@@ -295,44 +300,69 @@ export default function Restaurant(props) {
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
   } = useSortableData(mealData, {
-    key: "name",
+    key: "netCarbohydrates",
     direction: "ascending",
   });
-
 
   //--------------------------- MOBILE FILTERS ---------------------------
 
   const handleSetMaxCaloriesMobile = (event) => {
-    if (event !== null){
-      setMaxCalories(event.value)
+    if (event !== null) {
+      setMaxCalories(event.value);
     } else {
-      setMaxCalories(10000)
+      setMaxCalories(10000);
     }
   };
 
-  const [showCalorieFilter, setShowCalorieFilter] = useState(false)
-  const handleCalorieFilter = () => setCalorieFilter(true)
+  const handleNetCarbLimitChange = (event) => {
+    setNetCarbLimit(event.target.value)
+  };
+
+  const [showCalorieFilter, setShowCalorieFilter] = useState(false);
+  const handleCalorieFilter = () => setCalorieFilter(true);
 
   const allergenOptions = [
-    { value: 'gluten', label: 'Gluten Free' },
-    { value: 'milk', label: 'Dairy Free' },
-    { value: 'peanuts', label: 'No Peanuts' },
-    { value: 'eggs', label: 'No Eggs' },
-    { value: 'wheat', label: 'No Wheat' },
-    { value: 'soy', label: 'No Soy' },
-    { value: 'tree nuts', label: 'No Tree Nuts' },
-    { value: 'fish', label: 'No Fish' },
-    { value: 'shellfish', label: 'No Shellfish' }
-  ]
+    { value: "gluten", label: "Gluten Free" },
+    { value: "milk", label: "Dairy Free" },
+    { value: "peanuts", label: "No Peanuts" },
+    { value: "eggs", label: "No Eggs" },
+    { value: "wheat", label: "No Wheat" },
+    { value: "soy", label: "No Soy" },
+    { value: "tree nuts", label: "No Tree Nuts" },
+    { value: "fish", label: "No Fish" },
+    { value: "shellfish", label: "No Shellfish" },
+  ];
 
   const calorieOptions = [
-    { value: 100, label: 'Under 100cal' },
-    { value: 300, label: 'Under 300cal' },
-    { value: 500, label: 'Under 500cal' },
-    { value: 800, label: 'Under 800cal' },
-  ]
+    { value: 100, label: "Under 100cal" },
+    { value: 300, label: "Under 300cal" },
+    { value: 500, label: "Under 500cal" },
+    { value: 800, label: "Under 800cal" },
+  ];
 
+const marks = [
 
+  {
+    value: 10,
+    label: '10',
+  },
+  {
+    value: 20,
+    label: '20',
+  },
+  {
+    value: 30,
+    label: '30',
+  },
+  {
+    value: 40,
+    label: '40',
+  },
+  {
+    value: 50,
+    label: '50',
+  },
+]
 
   return (
     <div className="">
@@ -413,43 +443,84 @@ export default function Restaurant(props) {
                 <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
                   {restaurant.name}{" "}
                   <span className="text-stone-500 font-normal">
-                    Menu Nutrition Facts & Calories
+                    Keto and Low-Carb Options
                   </span>
                 </h1>
-
               </div>
-              
-
             </div>
-            <div className="mt-4"><ShareIcons size={24} align="left"/></div>
+           
+            
 
             <div className="mt-4">
-              <Tabs activeTab="all" slug={`/${restaurant.slug}`}/>
+              <Tabs activeTab="keto" slug={`/${restaurant.slug}`} />
             </div>
+
+            <div className="text-stone-600 max-w-2xl mt-4 mb-4">
+            <h2 className="text-xl md:text-2xl pb-4 font-semibold">Staying Ketogenic At {restaurant.name}</h2>
+            <div className="text-sm md:text-base">
+              <p className="pb-4">
+                A strict-ketogenic diet means limiting net carbohydrate intake to 20g or less per day. While your personal carb threshold may be higher, 20g nearly ensures you will be in ketosis. </p>
+                <p className="pb-4">Remember, <b>fiber does not count toward your daily carbohydrate intake
+                </b></p>
+                <p>
+                This is why most people doing a ketogenic diet track Net Carbs, rather than total carbs. To calculate net carbs, use this equation: <b>Net Carbs = Total Carbs - Fiber</b>.
+               
+              </p>
+              {/* <p className="pb-4">A low-carb diet is a carbohydrate intake below 100 grams</p> */}
+              {/* <p className="">The lowest carb burger-sandwich menu item at {restaurant.name} is the <span className="text-red-500 underline">Little Mac</span>, with 16g net carbs.</p> */}
+              </div>
+            </div>
+{/* 
+            <h2 className="text-2xl pb-4 mt-8 font-semibold text-stone-600">Keto and Low-Carb Items</h2> */}
+
 
             {/* <p className=" text-stone-700 mt-4 max-w-3xl">Cheddar’s Scratch Kitchen is a sit-down restaurant chain focused on scratch-made home-style food served in an upscale casual setting. Menu items include appetizers, salads and soups, burgers and sandwiches, pasta, and entrees like steaks, chicken, seafood, and ribs. Beer, wine, and cocktails are also served. The chain prides itself on having double the number of cooks as similar restaurants so that food can be prepared fresh, fast, and made-to-order.</p>
 
             <h3 className="font-semibold mt-6 text-stone-700 uppercase">Eating Healthy at McDonald's</h3>
             <p className="max-w-3xl text-stone-700 mb-4">The extensive menu means there are ample choices for nearly every dietary lifestyle. For lighter fare, choose from a grilled chicken pecan salad or a warm roasted vegetable and quinoa salad, chicken tortilla soup, grilled salmon, lemon pepper chicken, and steamed broccoli. Meat-based entrees at Cheddar’s also offer protein-packed nutrition.</p> */}
-
-            <div className="hidden md:block">
-            <FilterThematicFilter
-              thematicFilter={thematicFilter}
-              handleThematicFilter={handleThematicFilter}
-            />
-            </div>
+<div className="hidden md:block mb-8">
+<div className="max-w-2xl bg-blue-50 text-blue-500 rounded-lg p-4">
+<h3 className="text-lg font-semibold pb-2">Net Carbohydrate Limit</h3>
+ <Slider
+  aria-label="Net carbohydrate limit"
+  defaultValue={20}
+  onChange={handleNetCarbLimitChange}
+  marks={marks}
+  min={0}
+  max={60}
+  valueLabelDisplay="auto" f
+/>
+</div>
+{/* <div className="">
+              <FilterThematicFilter
+                thematicFilter={thematicFilter}
+                handleThematicFilter={handleThematicFilter}
+              />
+            </div> */}
+</div>
+            
 
             <div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
-            <FilterThematicFilter
-              thematicFilter={thematicFilter}
-              handleThematicFilter={handleThematicFilter}
-            />
-            <div className="">
-              <h3 className="text-xs font-semibold uppercase pb-2">
-                Filter
-              </h3>
-              <div className="flex space-x-2">
-                {/*  Custom job here, is it worth it?
+              <div className="pt-2">
+                <h3 className="text-xs font-semibold uppercase text-blue-500 pb-2">Net Carbohydrate Limit</h3>
+                <Slider
+                  aria-label="Net carbohydrate limit"
+                  defaultValue={20}
+                  onChange={handleNetCarbLimitChange}
+                  marks={marks}
+                  min={0}
+                  max={50}
+                  valueLabelDisplay="auto"
+                />
+              </div>
+              {/* <FilterThematicFilter
+                thematicFilter={thematicFilter}
+                handleThematicFilter={handleThematicFilter}
+              /> */}
+              <div className="">
+                <h3 className="text-xs font-semibold uppercase pb-2">Filter</h3>
+                <div className="flex space-x-2">
+                  {/*  Custom job here, is it worth it?
                 
                 <button
                 onClick={() => setShowCalorieFilter(!showCalorieFilter)}
@@ -457,7 +528,7 @@ export default function Restaurant(props) {
                   Calories <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
 
                 </button> */}
-                {/* {showCalorieFilter && 
+                  {/* {showCalorieFilter && 
                 <div
                   className="hidden peer-hover:flex hover:flex border
                 w-[230px]
@@ -469,78 +540,90 @@ export default function Restaurant(props) {
                   />
                 </div>
                 } */}
-                <Select 
-                  options={calorieOptions} 
-                  isClearable={true}
-                  placeholder="By Calories"
-                  onChange={handleSetMaxCaloriesMobile}
+                  <Select
+                    options={calorieOptions}
+                    isClearable={true}
+                    placeholder="By Calories"
+                    onChange={handleSetMaxCaloriesMobile}
                   />
-                {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
+                  {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
                   Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
                 </div> */}
-                <Select 
-                  options={allergenOptions} 
-                  isMulti
-                  placeholder="+ Allergies"
-                  onChange={setAllergens}
+                  <Select
+                    options={allergenOptions}
+                    isMulti
+                    placeholder="+ Allergies"
+                    onChange={setAllergens}
                   />
-
-              </div>
+                </div>
               </div>
             </div>
 
             <article className="overflow-x-auto w-full z-10">
-              {categoriesWithParents.filter((cat)=>umbrellaCategories.includes(getUmbrellaCategory(cat.parentCategory))).map((cat, i) => {
-                return (
-                  <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" key={cat.categoryName}>
-                    <div className="py-3 md:mx-3 font-semibold border-b">
-                      {cat.categoryName}
+              {categoriesWithParents
+                .filter((cat) =>
+                  umbrellaCategories.includes(
+                    getUmbrellaCategory(cat.parentCategory)
+                  )
+                )
+                .map((cat, i) => {
+                  return (
+                    <div
+                      className="md:border shadow-sm mb-6 rounded-md overflow-hidden"
+                      key={cat.categoryName}
+                    >
+                      <div className="py-3 md:mx-3 font-semibold border-b">
+                        {cat.categoryName}
+                      </div>
+                      <div className="overflow-x-auto">
+                        <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
+                          <thead className="rounded-t-lg">
+                            {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
+                            <KetoTableHeaders
+                              showCustomRow={showCustomRow}
+                              thematicFilter={thematicFilter}
+                              SortableTableHeader={SortableTableHeader}
+                            />
+                          </thead>
+                          <tbody className="divide-y divide-stone-200 bg-white w-full">
+                            {items.filter(
+                              (i) => i.categoryName == cat.categoryName
+                            ).length > 0 ? (
+                              items
+                                .filter(
+                                  (i) => i.categoryName == cat.categoryName
+                                )
+                                .map((meal) => (
+                                  <KetoTableMealRow
+                                    restaurantName={restaurant.name}
+                                    restaurantSlug={restaurant.slug}
+                                    showRestaurantData={false}
+                                    meal={meal}
+                                    key={meal.mealName}
+                                    showCustomRow={showCustomRow}
+                                    customRowKey={thematicFilter}
+                                    customRowUnits={
+                                      getCustomNutritionRowInfo(thematicFilter)
+                                        .units
+                                    }
+                                  />
+                                ))
+                            ) : (
+                              <tr className="">
+                                <td
+                                  colSpan={8}
+                                  className="single-cell-row text-md text-stone-500 text-center p-8"
+                                >
+                                  No items found!
+                                </td>
+                              </tr>
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
-                    <div className="overflow-x-auto">
-                      <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-                        <thead className="rounded-t-lg">
-                          {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-                          <TableHeaders
-                            showCustomRow={showCustomRow}
-                            thematicFilter={thematicFilter}
-                            SortableTableHeader={SortableTableHeader}
-                          />
-                        </thead>
-                        <tbody className="divide-y divide-stone-200 bg-white w-full">
-                          {items.filter((i) => i.categoryName == cat.categoryName).length > 0 ? (
-                            items
-                              .filter((i) => i.categoryName == cat.categoryName)
-                              .map((meal) => (
-                                <TableMealRow
-                                  restaurantName={restaurant.name}
-                                  restaurantSlug={restaurant.slug}
-                                  showRestaurantData={false}
-                                  meal={meal}
-                                  key={meal.mealName}
-                                  showCustomRow={showCustomRow}
-                                  customRowKey={thematicFilter}
-                                  customRowUnits={
-                                    getCustomNutritionRowInfo(thematicFilter)
-                                      .units
-                                  }
-                                />
-                              ))
-                          ) : (
-                            <tr className="">
-                              <td
-                                colSpan={8}
-                                className="single-cell-row text-md text-stone-500 text-center p-8"
-                              >
-                                No items found!
-                              </td>
-                            </tr>
-                          )}
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
               {/* 
               <table className="w-full divide-y divide-stone-300 rounded-lg">
                 <thead className="rounded-t-lg">
