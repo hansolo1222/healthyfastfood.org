@@ -82,17 +82,6 @@ async function generate() {
 
   const sitemap2Paths = [...ketoPaths, ...categoryPaths];
 
-  // meals get chunked into sitemaps of 10000 links
-  const chunkSize = 10000;
-
-  let chunkedPaths = [];
-
-  for (let i = 0; i < mealPaths.length; i += chunkSize) {
-    const chunk = mealPaths.slice(i, i + chunkSize);
-    chunkedPaths.push(chunk);
-    numberOfSitemaps++;
-  }
-
   const sitemap1 = `
   <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -138,6 +127,17 @@ async function generate() {
 
   writeFileSync("public/sitemap2.xml", formattedSitemap2);
 
+   // meals get chunked into sitemaps of 10000 links
+   const chunkSize = 10000;
+
+   let chunkedPaths = [];
+ 
+   for (let i = 0; i < mealPaths.length; i += chunkSize) {
+     const chunk = mealPaths.slice(i, i + chunkSize);
+     chunkedPaths.push(chunk);
+     numberOfSitemaps++;
+   }
+
   chunkedPaths.forEach((value, i) => {
     const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
@@ -165,7 +165,7 @@ async function generate() {
   });
 
   const masterSitemap = `
-    <?xml version="1.0" encoding="UTF-8"?>
+  <?xml version="1.0" encoding="UTF-8"?>
     <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <sitemap>
         <loc>https://www.minerlist.com/sitemap1.xml</loc>
