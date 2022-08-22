@@ -16,8 +16,8 @@ export const TableMealRow = ({
     <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
-          <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
+              <a href={`/${restaurantSlug}`} className="flex items-center">
               <div className="relative w-6 h-6 ml-2">
                 <Image
                   className=" flex-shrink-0 rounded-md mr-2 "
@@ -27,11 +27,12 @@ export const TableMealRow = ({
                   objectFit="contain"
                 />
               </div>
+              </a>
             ) : (
               ""
              
             )}
-          </a>
+          
               {/* <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div> */}
 
           <a

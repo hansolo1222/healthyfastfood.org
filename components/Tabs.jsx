@@ -26,7 +26,7 @@ export const Tabs = ({activeTab, slug}) => {
                 href={tab.href}
                 className={classNames(
                   tab.value == activeTab
-                    ? 'text-red-500 bg-red-100'
+                    ? 'text-red-600 bg-red-100'
                     : 'border-transparent text-stone-500 hover:text-stone-700 hover:bg-stone-100',
                   'whitespace-nowrap py-2 px-3 rounded-lg font-medium text-sm flex items-center'
                 )}
@@ -57,7 +57,7 @@ export const FoodCategoryTabs = ({activeTab, slug}) => {
                 href={tab.href}
                 className={classNames(
                   tab.value == activeTab
-                    ? 'text-red-500 bg-red-100'
+                    ? 'text-red-600 bg-red-100'
                     : 'border-transparent text-stone-500 hover:text-stone-700 hover:bg-stone-100',
                   'whitespace-nowrap py-2 px-3 rounded-lg font-medium text-sm flex items-center'
                 )}
@@ -95,7 +95,7 @@ export const MealTabs = ({activeTab, slug}) => {
                 href={tab.href}
                 className={classNames(
                   tab.value == activeTab
-                    ? 'text-red-500 bg-red-100'
+                    ? 'text-red-600 bg-red-100'
                     : 'border-transparent text-stone-500 hover:text-stone-700 hover:bg-stone-100',
                   'whitespace-nowrap py-2 px-3 rounded-lg font-medium text-sm flex items-center'
                 )}

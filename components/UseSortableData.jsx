@@ -82,7 +82,7 @@ export const useSortableData = (items, config = null) => {
     // const getDirection = direction ? direction : "ascending"
 
     return (
-      <a
+      <button
         className="sortable-table-header"
         type="button"
         onClick={() => requestSort(colKey, direction)}
@@ -104,7 +104,7 @@ export const useSortableData = (items, config = null) => {
             )}
           </span>
         </div>
-      </a>
+      </button>
     );
   };
 

@@ -16,7 +16,7 @@ export const Breadcrumbs = ({pages}) => {
                   href="/"
                   
                 >
-                <div className="text-sm font-medium text-stone-400 hover:text-stone-700 cursor-pointer">
+                <div className="text-sm font-medium text-stone-500 hover:text-stone-700 cursor-pointer">
                  <HomeIcon className="w-4 h-4"/>
                  </div>
                 </Link>
@@ -25,13 +25,13 @@ export const Breadcrumbs = ({pages}) => {
           {pages.map((page, index) => (
             <li key={page.name}>
               <div className="flex items-center whitespace-nowrap">
-                <ChevronRightIcon className="flex-shrink-0 h-4 w-4 text-stone-400" aria-hidden="true" />
+                <ChevronRightIcon className="flex-shrink-0 h-4 w-4 text-stone-500" aria-hidden="true" />
                 <Link
                   href={page.href}
                   
                   aria-current={page.current ? 'page' : undefined}
                 >
-                <div className="ml-3 text-sm font-medium text-stone-400 hover:text-stone-700 cursor-pointer">
+                <div className="ml-3 text-sm font-medium text-stone-500 hover:text-stone-700 cursor-pointer">
                   {page.name}
                   </div>
                 </Link>

@@ -3,13 +3,12 @@ import Image from "next/image";
 import Layout from "../../components/Layout";
 import { useEffect, useState } from "react";
 import { useSortableData } from "../../components/UseSortableData";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 import prisma from "../../lib/prisma";
 import { NextSeo } from "next-seo";
 import { Tabs } from "../../components/Tabs";
-import { classNames, getCustomNutritionRowInfo, getUmbrellaCategory } from "../../components/utils";
+import { getCustomNutritionRowInfo, getUmbrellaCategory } from "../../components/utils";
 import { AsideFilterByCalories } from "../../components/AsideFilterByCalories";
 import { AsideFilterByUmbrellaCategories } from "../../components/AsideFilterByUmbrellaCategory";
 import { AsideAllergens } from "../../components/AsideAllergens";
@@ -60,14 +59,14 @@ export const getServerSideProps = async (context) => {
     ],
   });
 
-  const groupedMeals = await prisma.meal.groupBy({
-    by: ["categoryName"],
-    where: {
-      restaurant: {
-        slug: String(context.params?.restaurant),
-      },
-    },
-  });
+  // const groupedMeals = await prisma.meal.groupBy({
+  //   by: ["categoryName"],
+  //   where: {
+  //     restaurant: {
+  //       slug: String(context.params?.restaurant),
+  //     },
+  //   },
+  // });
 
   if (!restaurant) {
     return {
@@ -79,7 +78,7 @@ export const getServerSideProps = async (context) => {
     props: {
       restaurant: JSON.parse(JSON.stringify(restaurant)),
       restaurants: JSON.parse(JSON.stringify(restaurants)),
-      groupedMeals: JSON.parse(JSON.stringify(groupedMeals)),
+      // groupedMeals: JSON.parse(JSON.stringify(groupedMeals)),
     },
   };
 };
@@ -89,7 +88,7 @@ export const getServerSideProps = async (context) => {
 export default function Restaurant(props) {
   const router = useRouter();
 
-  const { restaurant, restaurants, groupedMeals } = props;
+  const { restaurant, restaurants } = props;
 
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },

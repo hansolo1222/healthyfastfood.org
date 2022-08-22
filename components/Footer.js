@@ -81,7 +81,7 @@ import { Subscribe } from "./Subscribe";
   
   export default function Footer() {
     return (
-      <footer className="bg-stone-100" aria-labelledby="footer-heading">
+      <footer className="bg-stone-50" aria-labelledby="footer-heading">
         <div id="footer-heading" className="sr-only">
           Footer
         </div>
