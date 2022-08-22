@@ -17,6 +17,7 @@ import { FilterThematicFilter } from "../../components/FilterThematicFilter";
 import { TableHeaders, TableMealRow } from "../../components/TableMealRow";
 import Select from "react-select";
 import { ShareIcons } from "../../components/ShareIcons";
+import { InputLabel } from "@mui/material";
 
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
@@ -470,20 +471,24 @@ export default function Restaurant(props) {
                   />
                 </div>
                 } */}
+                <InputLabel htmlFor={'mobile-calorie-filter'}/>
                 <Select 
                   options={calorieOptions} 
                   isClearable={true}
                   placeholder="By Calories"
                   onChange={handleSetMaxCaloriesMobile}
+                  inputProps={{id: 'mobile-calorie-filter'}}
                   />
                 {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
                   Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
                 </div> */}
+                <InputLabel htmlFor={'mobile-allergies-filter'}/>
                 <Select 
                   options={allergenOptions} 
                   isMulti
                   placeholder="+ Allergies"
                   onChange={setAllergens}
+                  inputProps={{id: 'mobile-allergies-filter'}}
                   />
 
               </div>

@@ -43,7 +43,7 @@ import { Subscribe } from "./Subscribe";
     social: [
       {
         name: 'Facebook',
-        href: '',
+        href: 'https://facebook.com/healthyfastfood',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path

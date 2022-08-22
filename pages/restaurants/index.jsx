@@ -60,7 +60,6 @@ export default function Restaurants(props) {
     direction: "ascending",
   });
 
-  console.log(items);
   return (
     <div className="">
       <Head>
