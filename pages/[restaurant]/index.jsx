@@ -446,9 +446,9 @@ export default function Restaurant(props) {
               handleThematicFilter={handleThematicFilter}
             />
             <div className="">
-              <h3 className="text-xs font-semibold uppercase pb-2">
+              <p className="text-xs font-semibold uppercase pb-2">
                 Filter
-              </h3>
+              </p>
               <div className="flex space-x-2">
                 {/*  Custom job here, is it worth it?
                 
@@ -494,9 +494,9 @@ export default function Restaurant(props) {
               {categoriesWithParents.filter((cat)=>umbrellaCategories.includes(getUmbrellaCategory(cat.parentCategory))).map((cat, i) => {
                 return (
                   <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden" key={cat.categoryName}>
-                    <div className="py-3 md:mx-3 font-semibold border-b">
+                    <h2 className="py-3 md:mx-3 font-semibold border-b">
                       {cat.categoryName}
-                    </div>
+                    </h2>
                     <div className="overflow-x-auto">
                       <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
                         <thead className="rounded-t-lg">

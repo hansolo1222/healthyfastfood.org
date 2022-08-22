@@ -161,7 +161,7 @@ import { Subscribe } from "./Subscribe";
                 </a>
               ))}
             </div>
-            <p className="mt-8 text-base text-stone-400 md:mt-0 md:order-1">
+            <p className="mt-8 text-base text-stone-500 md:mt-0 md:order-1">
               &copy; 2022 HealthyFastFood. All rights reserved.
             </p>
           </div>
