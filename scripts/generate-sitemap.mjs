@@ -67,7 +67,7 @@ async function generate() {
   );
 
   const ketoPaths = restaurants.map(
-    (restaurant) => `${BASE_URL}/${restaurant.slug}/keto-low-carb`
+    (restaurant) => `${BASE_URL}/${restaurant.slug}/keto`
   );
 
   const categoryPaths = categories.map(

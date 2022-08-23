@@ -95,7 +95,7 @@ export default function Restaurant(props) {
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
-    { name: "Keto/Low-Carb", href: `/${restaurant.slug}/keto-low-carb` },
+    { name: "Keto Items", href: `/${restaurant.slug}/keto` },
   ];
 
   // format meals with variants
@@ -441,10 +441,11 @@ const marks = [
                   <Breadcrumbs pages={pages} className="" />
                 </div>
                 <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
-                  {restaurant.name}{" "}
-                  <span className="text-stone-500 font-normal">
-                    Keto and Low-Carb Options
-                  </span>
+                  
+                 
+                  Keto-Friendly Options at
+                  
+                  {" "}{restaurant.name}
                 </h1>
               </div>
             </div>

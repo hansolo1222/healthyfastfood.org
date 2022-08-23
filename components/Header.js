@@ -103,7 +103,7 @@ const Header = () => {
 
     ]
   },
-  { name: "Keto / Low-Carb", 
+  { name: "Keto", 
   href: "/keto",
   secondLevel: false,
 }

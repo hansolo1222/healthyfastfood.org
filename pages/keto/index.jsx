@@ -170,7 +170,7 @@ export default function Restaurants(props) {
                               <td className=" py-2 pl-4  text-md text-stone-900 text-left" >
                                 <div className="flex items-center">
                                   <a
-                                    href={`/${restaurant.slug}/keto-low-carb`}
+                                    href={`/${restaurant.slug}/keto`}
                                     className="flex items-center"
                                   >
                                     <div className="relative w-7 h-7">
@@ -185,7 +185,7 @@ export default function Restaurants(props) {
                                   </a>
 
                                   <a
-                                    href={`/${restaurant.slug}/keto-low-carb`}
+                                    href={`/${restaurant.slug}/keto`}
                                     className="cursor-pointer block  pl-2 -ml-px hover:text-red-500 "
                                   >
                                     {restaurant.name}

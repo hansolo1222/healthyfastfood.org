@@ -10,7 +10,13 @@ export const Tabs = ({activeTab, slug}) => {
 
   const tabs = [
     { name: 'All Menu Items', value: 'all', href: slug },
-    { name: 'Keto/Low Carb', value: 'keto', href: slug + '/keto-low-carb' },
+    { name: 'Keto Menu', value: 'keto', href: slug + '/keto' },
+    // { name: 'Low-Carb Menu', value: 'low-carb', href: slug + '/low-carb' },
+    // { name: 'Gluten-Free Menu', value: 'gluten-free', href: slug + '/gluten-free' },
+
+    // { name: 'Vegetarian Options', value: 'vegetarian', href: slug + '/vegetarian' },
+    // { name: 'Vegan Options', value: 'vegan', href: slug + '/vegan' },
+
 
     // { name: 'For Cutting & Bulking', value: 'healthy', href: '/' + slug },
     // { name: 'About this Restaurant', value: 'healthy', href: '/' + slug },
