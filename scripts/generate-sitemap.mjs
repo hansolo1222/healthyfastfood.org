@@ -102,7 +102,7 @@ async function generate() {
     parser: "html",
   });
 
-  writeFileSync("public/sitemap1.xml", formattedSitemap1);
+  writeFileSync("public/restaurants-sitemap.xml", formattedSitemap1);
 
   
   const sitemap2 = `
@@ -125,7 +125,7 @@ async function generate() {
     parser: "html",
   });
 
-  writeFileSync("public/sitemap2.xml", formattedSitemap2);
+  writeFileSync("public/priority-sitemap.xml", formattedSitemap2);
 
    // meals get chunked into sitemaps of 10000 links
    const chunkSize = 10000;
@@ -177,7 +177,7 @@ async function generate() {
         .map((chunk, index) => {
           return `
             <sitemap>
-                <loc>https://www.minerlist.com/sitemap${`${
+                <loc>https://www.minerlist.com/meals-sitemap-${`${
                   index + 3
                 }`}.xml</loc>
             </sitemap>

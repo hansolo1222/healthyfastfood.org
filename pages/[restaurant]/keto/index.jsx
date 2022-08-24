@@ -23,6 +23,7 @@ import { KetoTableHeaders, KetoTableMealRow } from "../../../components/TableMea
 import Select from "react-select";
 import { ShareIcons } from "../../../components/ShareIcons";
 import { Slider } from "@mui/material";
+import ReactMarkdown from "react-markdown";
 
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
@@ -95,7 +96,7 @@ export default function Restaurant(props) {
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
-    { name: "Keto Items", href: `/${restaurant.slug}/keto` },
+    { name: "Keto Menu", href: `/${restaurant.slug}/keto` },
   ];
 
   // format meals with variants
@@ -130,6 +131,8 @@ export default function Restaurant(props) {
     .map((item) => ({
       categoryName: item.category.name,
       parentCategory: item.category.parentCategory.name,
+      parentCategorySlug: item.category.parentCategory.slug,
+
     }))
     .filter(
       (value, index, self) =>
@@ -140,6 +143,8 @@ export default function Restaurant(props) {
             t.parentCategory === value.parentCategory
         )
     );
+
+    let parentCategories = categoriesWithParents.map((category)=>category.parentCategorySlug)
 
   categoriesWithParents.sort((a, b) => {
     if (
@@ -364,27 +369,28 @@ const marks = [
   },
 ]
 
+console.log(categories.map((cat)=>(cat)))
+
   return (
     <div className="">
       <NextSeo
-        title={`${restaurant.name} Nutrition Facts and Calories | HealthyFastFood`}
-        description={`Discover nutrition facts, macros, and the healthiest items at ${restaurant.name}`}
-        canonical={`https://healthyfastfood.org/${restaurant.slug}`}
+        title={`Everything Keto at ${restaurant.name} in 2022 - HealthyFastFood`}
+        description={`${restaurant.name} has many options if you're trying to stick to a ketogenic diet.`}
+        canonical={`https://healthyfastfood.org/${restaurant.slug}/keto`}
         additionalMetaTags={[
           {
             property: "keywords",
-            content: `${restaurant.slug},nutrition,facts,`,
+            content: `${restaurant.slug},nutrition,facts,keto,ketogenic,low carb,diet`,
           },
         ]}
         openGraph={{
-          url: "https://healthyfastfood.org/" + restaurant.slug,
+          url: "https://healthyfastfood.org/" + restaurant.slug + "/keto",
           type: "website",
           title:
-            restaurant.name +
-            " Menu Nutrition Facts and Calories | Healthy Fast Food",
+            "Everything Keto at " + restaurant.name +
+            " in 2022 - HealthyFastFood",
           description:
-            "Discover nutrition facts, macros, and the healthiest items at " +
-            restaurant.name,
+            restaurant.name + " has a ton of options if you're trying to stick to a keto diet",
           images: [
             {
               url: `/images/restaurant_logos/${restaurant.slug}.webp`,
@@ -401,8 +407,6 @@ const marks = [
         }}
       />
       <Head>
-        <title>{restaurant.name} Nutrition | Healthy Fast Food</title>
-        <meta name="description" content="" />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
@@ -443,9 +447,7 @@ const marks = [
                 <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
                   
                  
-                  Keto-Friendly Options at
-                  
-                  {" "}{restaurant.name}
+                  Everything Keto at{" "}{restaurant.name}
                 </h1>
               </div>
             </div>
@@ -456,29 +458,28 @@ const marks = [
               <Tabs activeTab="keto" slug={`/${restaurant.slug}`} />
             </div>
 
-            <div className="text-stone-600 max-w-2xl mt-4 mb-4">
-            <h2 className="text-xl md:text-2xl pb-4 font-semibold">Staying Ketogenic At {restaurant.name}</h2>
-            <div className="text-sm md:text-base">
-              <p className="pb-4">
-                A strict-ketogenic diet means limiting net carbohydrate intake to 20g or less per day. While your personal carb threshold may be higher, 20g nearly ensures you will be in ketosis. </p>
-                <p className="pb-4">Remember, <b>fiber does not count toward your daily carbohydrate intake
-                </b></p>
-                <p>
-                This is why most people doing a ketogenic diet track Net Carbs, rather than total carbs. To calculate net carbs, use this equation: <b>Net Carbs = Total Carbs - Fiber</b>.
-               
-              </p>
-              {/* <p className="pb-4">A low-carb diet is a carbohydrate intake below 100 grams</p> */}
-              {/* <p className="">The lowest carb burger-sandwich menu item at {restaurant.name} is the <span className="text-red-500 underline">Little Mac</span>, with 16g net carbs.</p> */}
-              </div>
+            <div className=" mt-4 mb-4">
+
+            <ReactMarkdown className="article-container max-w-2xl">
+
+          {
+`## Staying Ketogenic At ${restaurant.name}
+
+Eating out on a ketogenic diet can be tough! That’s why we’ve crunched official data from ${restaurant.name} and created a tool that shows keto-friendly items in every category:
+
+${categories.map((cat)=>(`[${cat}](${"slug"})` + ' '  ))}
+
+Keep in mind we’re using **20g net carbs as the maximum for keto-friendly options**. This exact number will vary depending on your body and dietary requirements so you can customize it below:
+
+`
+}
+
+
+            </ReactMarkdown>
+            
+          
             </div>
-{/* 
-            <h2 className="text-2xl pb-4 mt-8 font-semibold text-stone-600">Keto and Low-Carb Items</h2> */}
 
-
-            {/* <p className=" text-stone-700 mt-4 max-w-3xl">Cheddar’s Scratch Kitchen is a sit-down restaurant chain focused on scratch-made home-style food served in an upscale casual setting. Menu items include appetizers, salads and soups, burgers and sandwiches, pasta, and entrees like steaks, chicken, seafood, and ribs. Beer, wine, and cocktails are also served. The chain prides itself on having double the number of cooks as similar restaurants so that food can be prepared fresh, fast, and made-to-order.</p>
-
-            <h3 className="font-semibold mt-6 text-stone-700 uppercase">Eating Healthy at McDonald's</h3>
-            <p className="max-w-3xl text-stone-700 mb-4">The extensive menu means there are ample choices for nearly every dietary lifestyle. For lighter fare, choose from a grilled chicken pecan salad or a warm roasted vegetable and quinoa salad, chicken tortilla soup, grilled salmon, lemon pepper chicken, and steamed broccoli. Meat-based entrees at Cheddar’s also offer protein-packed nutrition.</p> */}
 <div className="hidden md:block mb-8">
 <div className="max-w-2xl bg-blue-50 text-blue-500 rounded-lg p-4">
 <h3 className="text-lg font-semibold pb-2">Net Carbohydrate Limit</h3>
@@ -625,44 +626,65 @@ const marks = [
                     </div>
                   );
                 })}
-              {/* 
-              <table className="w-full divide-y divide-stone-300 rounded-lg">
-                <thead className="rounded-t-lg">
-                  <TableHeaders
-                    showCustomRow={showCustomRow}
-                    thematicFilter={thematicFilter}
-                    SortableTableHeader={SortableTableHeader}
-                  />
-                </thead>
-                <tbody className="divide-y divide-stone-200 bg-white w-full">
-                  {items.length > 0 ? (
-                    items.map((meal) => (
-                      <TableMealRow
-                        restaurantName={restaurant.name}
-                        restaurantSlug={restaurant.slug}
-                        showRestaurantData={false}
-                        meal={meal}
-                        key={meal.mealName}
-                        showCustomRow={showCustomRow}
-                        customRowKey={thematicFilter}
-                        customRowUnits={
-                          getCustomNutritionRowInfo(thematicFilter).units
-                        }
-                      />
-                    ))
-                  ) : (
-                    <tr className="">
-                      <td
-                        colSpan={8}
-                        className="single-cell-row text-lg text-stone-500 text-center p-10"
-                      >
-                        Sorry! It looks like we don&apos;t have this data yet.
-                      </td>
-                    </tr>
-                  )}
-                </tbody>
-              </table> */}
+              
             </article>
+            <ReactMarkdown className="article-container max-w-2xl">
+            {
+
+
+`
+## The basics of ordering Keto at ${restaurant.name}
+
+${parentCategories.includes(`burgers-sandwiches`) ? "- Your best bet is to get a bunless and sauceless burger, then just ask for yellow mustard, mayo or ranch on the side." : ""}
+
+## How to use this tool
+Keto doesn’t necessarily mean zero carbs.  A keto diet typically limits  total carb intake to less than 50 grams per day—’strict’ keto can be as low as 20 grams a day. [[Source](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/ketogenic-diet/#:~:text=The%20ketogenic%20diet%20typically%20reduces,and%2010%2D20%25%20protein.)]
+
+People doing a keto diet typically use net carbs for their carbohydrate limit. Net carbs equal total carbs minus fiber, because the carbs in fiber are not digested and don’t cause the blood sugar increase that knocks you out of netosis. <sup>[[Source]()]
+
+We’ve made a tool that lets you filter ${restaurant.name} menu items by net carbs. By default, this tool will show menu items under 20g of net carbs. Everybody has a different ketosis threshold, but most people will need to get under 50g net carbs to reach ketosis. The general advice is to start with 50g, and go lower if your body is not reaching ketosis.
+
+If you’re trying to eat a low-carb diet rather than a keto diet, we recommend you check out the [Low-carb menu items at ${restaurant.name}]("low-carb"). This will have different results from keto, but is much less than the amount of carbs in the standard Western diet.
+
+If you have a gluten allergen, you can take a look at [Gluten-Free Options at ${restaurant.name}]("gluten-free").
+
+## What Restaurants are Keto Friendly?
+
+If you’re new to keto, you might be struggling with adjusting to your new way of eating. If you’re used to eating out, this makes it even harder when you’re scared something might have more carbs than you expect. 
+
+Luckily in the past 10 years, keto has gone from a niche diet to claiming a position as a popular mainstream diet. More and more restaurants are beginning to cater to those following a keto diet. Here are some our recommendations:
+
+### Chipotle
+
+One of the most popular fast-casual restaurants, Chipotle offers a variety of keto-friendly options. For your entrée, you can choose from a chicken, steak, or carnitas burrito bowl with lettuce, cheese, sour cream, and guacamole. Just be sure to skip the rice and beans.
+
+### Chick-fil-A
+
+Chick-fil-A is another great option for those following a keto diet. For your main entrée, you can choose from a grilled chicken sandwich (without the bun of course), grilled nuggets, or a Cobb salad. And don’t forget to add a side of avocado ranch dressing – it’s delicious!
+
+### Panera Bread
+
+Panera Bread is a great place to go for a quick and healthy meal. For your main entrée, you can choose from a variety of salads, including the popular Greek salad and the chicken Caesar salad. Just be sure to ask for no croutons and skip the bread.
+
+### P.F. Chang’s
+
+P.F. Chang’s is a great option if you’re looking for something a little more filling. For your main entrée, you can choose from a variety of chicken, steak, and shrimp dishes. Just be sure to ask for no rice.
+
+### Red Robin
+
+Red Robin is a great place to go if you’re looking for a burger. For your main entrée, you can choose from a variety of burgers, including the popular “Gourmet Cheeseburger” and the “Strawberry Limeade Burger.” Just be sure to skip the bun and fries.
+
+### Texas Roadhouse
+
+Texas Roadhouse is the classic place to go when you’re craving a steak. For your main entrée, you can choose from a variety of steak, chicken, and shrimp dishes. As long as you don’t get rice you are eating very keto-friendly!
+
+These are just a few of the many keto-friendly restaurants that are out there. Next time you’re feeling hungry, you can rest assured that you’ll be able to find a delicious and keto-friendly meal.
+
+On our [Every Keto Option At Every Fast Food Chain Index](/keto), we have keto options at restaurant!
+`
+}
+
+            </ReactMarkdown>
           </main>
         </div>
       </Layout>
