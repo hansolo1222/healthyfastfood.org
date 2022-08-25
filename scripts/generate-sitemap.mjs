@@ -159,7 +159,7 @@ async function generate() {
       parser: "html",
     });
 
-    let index = i + 3;
+    let index = i + 1;
     // eslint-disable-next-line no-sync
     writeFileSync("public/sitemap" + index + ".xml", formatted);
   });
@@ -178,7 +178,7 @@ async function generate() {
           return `
             <sitemap>
                 <loc>https://www.minerlist.com/meals-sitemap-${`${
-                  index + 3
+                  index + 1
                 }`}.xml</loc>
             </sitemap>
           `;
