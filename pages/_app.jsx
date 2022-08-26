@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       <link rel="shortcut icon" href="/images/favicon.ico" />
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
      crossOrigin="anonymous"></script>
-      {/* 
+      
       <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -44,9 +44,9 @@ function MyApp({ Component, pageProps }) {
               gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', { page_path: window.location.pathname });
             `,
           }}
-        /> */}
+        />
         </Head>
-        <Script
+        {/* <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
@@ -63,7 +63,7 @@ function MyApp({ Component, pageProps }) {
             });
           `,
         }}
-      />
+      /> */}
       <Component {...pageProps} />
   </>
   )
