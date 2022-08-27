@@ -1,28 +1,61 @@
 import Image from "next/image";
 import { classNames } from "./utils";
 
-export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) => {
+
+
+
+export const FilterThematicFilter = ({thematicFilter, handleThematicFilter }) => {
+  const filters = [
+  {
+    name: "highProtein",
+    image: 'muscle.webp',
+    label: "Protein per Cal"
+  },
+  {
+    name: "proteinCarbRatio",
+    image: 'leaf.webp',
+    label: "Protein:Carb Ratio"
+  },
+  {
+    name: "lowCarb",
+    image: 'leaf.webp',
+    label: "Carbs per Cal"
+  },
+  {
+    name: "lowSodium",
+    image: 'sodium.webp',
+    label: "Sodium per Cal"
+  },
+  {
+    name: "lowCholesterol",
+    image: 'heart.webp',
+    label: "Cholesterol per Cal"
+  },
+]
+
   return (
-    <div className="py-2 md:py-4 w-full overflow-x-auto">
-    <p className="text-xs font-semibold uppercase pb-2">Special Sort</p>
-    <section className="flex">
-    <button
-      value="highProtein"
-      key="highProtein"
+    <div className="py-2 md:py-4 w-full overflow-x-auto flex h-12 md:h-auto ">
+    <section className="flex space-x-2">
+    {filters.map((f, index)=>{
+      return (<button
+      value={f.name}
+      key={f.name}
       onClick={handleThematicFilter}
       className={classNames(
-        thematicFilter == "highProtein"
-          ? "text-orange-600 bg-stone-100 shadow-inner font-medium"
-          : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-3 rounded-l-lg  text-sm md:text-base  border flex items-center shrink-0"
+        thematicFilter == f.name
+          ? " bg-white text-green-600 border-green-500"
+          : " bg-stone-100 text-stone-600 hover:text-stone-900 hover:bg-stone-100 border-transparent",
+        "border rounded-full whitespace-nowrap py-1 md:py-2 px-3 md:px-3  text-sm md:text-base  flex items-center shrink-0 "
       )}
     >
         <img
           className="h-6 w-6 mr-2 hidden md:block"
-          src={`/images/icons/muscle.webp`}
+          src={`/images/icons/${f.image}`}
         />
-        High Protein
-    </button>
+        {f.label}
+    </button>)
+    })}
+{/*    
     <button
       value="lowCarb"
       key="lowCarb"
@@ -31,11 +64,11 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowCarb"
           ? "text-red-600 bg-stone-100 shadow-inner font-medium"
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0 -ml-1px"
       )}
     >
       <img className="h-6 w-6 mr-2 hidden md:block" src={`/images/icons/leaf.webp`} />
-      Low Carb
+      Carbs Per Cal
     </button>
     <button
       value="lowSodium"
@@ -45,14 +78,14 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowSodium"
         ? "text-red-600 bg-stone-100 shadow-inner font-medium"
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 text-sm md:text-base border flex items-center shrink-0 -ml-1px"
       )}
     >
       <img
         className="h-6 w-6 mr-2 hidden md:block"
         src={`/images/icons/sodium.webp`}
       />
-      Low Sodium
+      Sodium Per Cal
     </button>
     <button
      value="lowCholesterol"
@@ -62,12 +95,12 @@ export const FilterThematicFilter = ({ thematicFilter, handleThematicFilter }) =
         thematicFilter == "lowCholesterol"
         ? "text-red-600 bg-stone-100 shadow-inner font-medium "
           : " text-stone-700 hover:text-stone-900 hover:bg-stone-100 ",
-        "whitespace-nowrap py-2 px-3 rounded-r-lg text-sm md:text-base border flex items-center shrink-0"
+        "whitespace-nowrap py-2 px-3 rounded-r-lg text-sm md:text-base border flex items-center shrink-0 -ml-1px"
       )}
     >
       <img className="h-6 w-6 mr-2 hidden md:block" src={`/images/icons/heart.webp`} />
-      Low Cholesterol
-    </button>
+      Cholesterol Per Cal
+    </button> */}
     {/* <a
       value="keto"
       key="keto"

@@ -39,10 +39,31 @@ model meal {
   category           category   @relation(fields: [categoryName], references: [name])
   restaurant         restaurant @relation(fields: [restaurantSlug], references: [slug])
   variants           variant[]
-  
+
+  menu               menu?     @relation(fields: [menuRestaurantAndCountry], references: [restaurantAndCountry])
+  menuRestaurantAndCountry String?
 
   @@unique([restaurantSlug, slug])
 }
+
+model menu {
+  id             String  @id @default(uuid())
+  meals          meal[]
+  restaurant     restaurant @relation(fields: [restaurantSlug], references: [slug])
+  restaurantSlug String
+  country        country  @relation(fields: [countryCode], references: [code])
+  countryCode    String
+  restaurantAndCountry String @unique
+  @@unique([restaurantSlug, countryCode])
+}
+
+model country {
+  id           String   @id @default(uuid())
+  code         String   @unique
+  name         String
+  menus        menu[]
+}
+
 
 model variant {
   id                 String   @id @default(uuid())
@@ -130,11 +151,13 @@ model restaurant {
   globalVolume  Int?
   difficulty    Int?
 
-  meals meal[]
+  meals        meal[]
+  menus        menu[]
 }
 
+
 model segment {
-  id          String  @default(uuid())
+  id          String  @id @default(uuid())
   name        String @unique
   slug        String @unique
   restaurants restaurant[]

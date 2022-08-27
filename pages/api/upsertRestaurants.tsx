@@ -117,94 +117,96 @@ let typeData = [
 
 export default async (req, res) => {
   try {
-    const updateTypes = await prisma.$transaction(
-      typeData.map((data)=>{
-        return prisma.restaurantType.upsert({
-          where: {
-            name: data.name
-          },
-          update: {
-            description: data.description
-          },
-          create: {
-            name: data.name,
-            slug: data.name,
-            description: data.description
-          }
-        })
-      })
-
-    );
-
-    // const upsertMeals = await prisma.$transaction(
-    //   restaurantDataWikipedia.map((rest) => {
-    //     return prisma.restaurant.upsert({
+    // const updateTypes = await prisma.$transaction(
+    //   typeData.map((data)=>{
+    //     return prisma.restaurantType.upsert({
     //       where: {
-    //         slug: rest.slug,
+    //         name: data.name
     //       },
     //       update: {
-    //         locations: rest["Locations"] ? parseInt(rest["Locations"]) : null,
-    //         originalLocation: rest.originalLocation,
-    //         founded: rest.founded.toString(),
-    //         headquarters: rest.headquarters,
-    //         areasServed: rest.areasServed.split(","),
-    //         segment: {
-    //           connectOrCreate: {
-    //             where: {
-    //               slug: rest.service,
-    //             },
-    //             create: {
-    //               name: rest.service,
-    //               slug: rest.service,
-    //             },
-    //           },
-    //         },
-    //         restaurantType: {
-    //           connectOrCreate: {
-    //             where: {
-    //               slug: rest.type,
-    //             },
-    //             create: {
-    //               name: rest.type,
-    //               slug: rest.type,
-    //             },
-    //           },
-    //         },
+    //         description: data.description
     //       },
     //       create: {
-    //         slug: rest.slug,
-    //         name: rest.name,
-    //         locations: rest["Locations"] ? parseInt(rest["Locations"]) : null,
-    //         originalLocation: rest.originalLocation,
-    //         founded: rest.founded.toString(),
-    //         headquarters: rest.headquarters,
-    //         areasServed: rest.areasServed.split(","),
-    //         segment: {
-    //           connectOrCreate: {
-    //             where: {
-    //               slug: rest.service,
-    //             },
-    //             create: {
-    //               name: rest.service,
-    //               slug: rest.service,
-    //             },
-    //           },
-    //         },
-    //         restaurantType: {
-    //           connectOrCreate: {
-    //             where: {
-    //               slug: rest.type,
-    //             },
-    //             create: {
-    //               name: rest.type,
-    //               slug: rest.type,
-    //             },
-    //           },
-    //         },
-    //       },
-    //     });
+    //         name: data.name,
+    //         slug: data.name,
+    //         description: data.description
+    //       }
+    //     })
     //   })
+
     // );
+
+    const upsertRestaurants = await prisma.$transaction(
+      restaurantDataWikipedia.map((rest) => {
+        return prisma.restaurant.upsert({
+          where: {
+            slug: rest.slug,
+          },
+          update: {
+            slug: rest.slug,
+            name: rest.name,
+            locations: rest["Locations"] ? parseInt(rest["Locations"]) : null,
+            originalLocation: rest.originalLocation,
+            founded: rest.founded.toString(),
+            headquarters: rest.headquarters,
+            areasServed: rest.areasServed.split(","),
+            segment: {
+              connectOrCreate: {
+                where: {
+                  slug: rest.service,
+                },
+                create: {
+                  name: rest.service,
+                  slug: rest.service,
+                },
+              },
+            },
+            restaurantType: {
+              connectOrCreate: {
+                where: {
+                  slug: rest.type,
+                },
+                create: {
+                  name: rest.type,
+                  slug: rest.type,
+                },
+              },
+            },
+          },
+          create: {
+            slug: rest.slug,
+            name: rest.name,
+            locations: rest["Locations"] ? parseInt(rest["Locations"]) : null,
+            originalLocation: rest.originalLocation,
+            founded: rest.founded.toString(),
+            headquarters: rest.headquarters,
+            areasServed: rest.areasServed.split(","),
+            segment: {
+              connectOrCreate: {
+                where: {
+                  slug: rest.service,
+                },
+                create: {
+                  name: rest.service,
+                  slug: rest.service,
+                },
+              },
+            },
+            restaurantType: {
+              connectOrCreate: {
+                where: {
+                  slug: rest.type,
+                },
+                create: {
+                  name: rest.type,
+                  slug: rest.type,
+                },
+              },
+            },
+          },
+        });
+      })
+    );
 
     // const upsertMeals = await prisma.$transaction(
     //   restaurantData.map((rest)=>{
@@ -283,7 +285,7 @@ export default async (req, res) => {
 
     // let formatted = getRestaurants.map((r)=>r.slug.replaceAll('-',' '))
 
-    res.send(JSON.stringify(updateTypes, null, 2));
+    res.send(JSON.stringify(upsertRestaurants, null, 2));
   } catch (error) {
     console.log(error);
   }

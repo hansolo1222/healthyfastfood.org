@@ -2604,8 +2604,8 @@
     "service": "Fast Food"
   },
   {
-    "slug": "papa-johns-pizza",
-    "name": "Papa John's Pizza",
+    "slug": "papa-johns",
+    "name": "Papa John's",
     "originalLocation": "Jeffersonville, Indiana",
     "founded": 1984,
     "headquarters": "Jeffersontown, Kentucky",
@@ -3348,8 +3348,8 @@
     "service": "Fast Food"
   },
   {
-    "slug": "captain-ds",
-    "name": "Captain D's",
+    "slug": "captain-ds-seafood-kitchen",
+    "name": "Captain D's Seafood Kitchen",
     "originalLocation": "Nashville, Tennessee",
     "founded": 1969,
     "headquarters": "Nashville, Tennessee",
@@ -3408,8 +3408,8 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "bjs-restaurant",
-    "name": "BJ's Restaurant",
+    "slug": "bjs-restaurant-brewhouse",
+    "name": "BJ's Restaurant & Brewhouse",
     "originalLocation": "Santa Ana, California",
     "founded": 1978,
     "headquarters": "Huntington Beach, California",
@@ -3432,8 +3432,8 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "bob-evans-restaurant",
-    "name": "Bob Evans Restaurant",
+    "slug": "bob-evans",
+    "name": "Bob Evans",
     "originalLocation": "Gallipolis, Ohio",
     "founded": 1948,
     "headquarters": "New Albany, Ohio",
@@ -3480,7 +3480,7 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "coopers-hawk-winery-restaurant",
+    "slug": "coopers-hawk-winery-restaurants",
     "name": "Cooper's Hawk Winery & Restaurant",
     "originalLocation": "Orland Park, Illinois",
     "founded": 2005,
@@ -4188,8 +4188,8 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "chilis",
-    "name": "Chili's",
+    "slug": "chilis-grill-bar",
+    "name": "Chili's Grill & Bar",
     "originalLocation": "Dallas, Texas",
     "founded": 1975,
     "headquarters": "Dallas, Texas",
@@ -4248,8 +4248,8 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "brio-tuscan-grill",
-    "name": "Brio Tuscan Grill",
+    "slug": "brio-tuscan-grille",
+    "name": "Brio Tuscan Grille",
     "originalLocation": "Columbus, Ohio",
     "founded": 1992,
     "headquarters": "Columbus, Ohio",
@@ -4512,8 +4512,8 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "bubba-gump-shrimp-company",
-    "name": "Bubba Gump Shrimp Company",
+    "slug": "bubba-gump-shrimp-co",
+    "name": "Bubba Gump Shrimp Co.",
     "originalLocation": "Monterey, California",
     "founded": 1996,
     "headquarters": "Houston, Texas",
@@ -4872,7 +4872,7 @@
     "service": "Casual Dining"
   },
   {
-    "slug": "mortons-the-steakhouse",
+    "slug": "mortons-steakhouse",
     "name": "Morton's The Steakhouse",
     "originalLocation": "Chicago, Illinois",
     "founded": 1978,

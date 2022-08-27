@@ -207,10 +207,10 @@ const Header = () => {
       {({ open }) => (
         <>
           <div className="max-w-8xl mx-auto px-3 sm:px-5 md:px-7 bg-white">
-            <div className="relative flex items-center justify-beeen h-16">
+            <div className="relative flex items-center justify-beeen h-12 md:h-16">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-stone-400 hover:text-stone-600 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-1 rounded-lg text-stone-400 hover:text-stone-600 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -220,16 +220,16 @@ const Header = () => {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center mr-4">
-                  {/* <img
-                        className="block lg:hidden h-10 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                <div className="flex-shrink-0 flex items-center ">
+                  <img
+                        className="block md:hidden h-8 w-auto"
+                        src="/images/mark.svg"
                         alt="Workflow"
-                      /> */}
+                      />
                   <Link href="/">
                     <img
-                      className="block h-12 w-auto cursor-pointer "
-                      src="/logo.svg"
+                      className="hidden md:block h-12 w-auto cursor-pointer mr-4"
+                      src="/images/logo.svg"
                       alt="HealthyFastFood.org"
                     />
                   </Link>
@@ -259,7 +259,7 @@ const Header = () => {
                           >
                             {item.secondLevelData.map((subItem) => (
                               subItem.name == '---------' ? 
-                              <span className="border-b mt-2 mb-2" key={subItem.name}></span>
+                              <span className="border-b mt-2 mb-2"></span>
                               : 
                               <a
                                 className="px-4 py-2 hover:bg-stone-50 text-sm"

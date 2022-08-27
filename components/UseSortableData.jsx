@@ -60,7 +60,6 @@ export const useSortableData = (items, config = null) => {
     if (sortConfig.key === key && sortConfig.direction == startingDirection) {
       direction = oppositeDirection(startingDirection);
     }
-    console.log({ key, direction });
     setSortConfig({ key, direction });
   };
 
@@ -69,7 +68,6 @@ export const useSortableData = (items, config = null) => {
     if (sortConfig.key === key && sortConfig.direction == startingDirection) {
       direction = oppositeDirection(startingDirection);
     }
-    console.log({ key, direction });
     setSortConfig({ key, direction });
   };
 
