@@ -542,7 +542,7 @@ export default function Restaurant(props) {
               />
             </div>
 
-            <section className={`md:hidden sticky top-0 bg-white z-40 `}>
+            <section className={`md:hidden sticky top-0 bg-white z-40 border-b border-stone-300`}>
               <div className="mobile-padding">
                 <div className={`${!showCalorieFilter && "border-b"} pt-2 pb-2 flex justify-between h-auto`}>
                   <div className="flex items-center space-x-4 ">
@@ -599,7 +599,7 @@ export default function Restaurant(props) {
                 )}
               </div>
         
-        <Transition appear show={isOpen} as={Fragment}>
+        {/* <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="absolute z-20 left-0 bottom-0 w-full" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
@@ -652,7 +652,7 @@ export default function Restaurant(props) {
             </div>
           </div>
         </Dialog>
-      </Transition>
+      </Transition> */}
       {/* before:bg-black/20 before: mobile-filter-popup */}
       <Transition appear show={showCalorieFilter} as={Fragment}>
             <Transition.Child
