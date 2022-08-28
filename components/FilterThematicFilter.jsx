@@ -13,12 +13,12 @@ export const FilterThematicFilter = ({thematicFilter, handleThematicFilter }) =>
   },
   {
     name: "proteinCarbRatio",
-    image: 'leaf.webp',
+    image: 'ratio.webp',
     label: "Protein:Carb Ratio"
   },
   {
     name: "lowCarb",
-    image: 'leaf.webp',
+    image: 'bread.webp',
     label: "Carbs per Cal"
   },
   {
@@ -31,10 +31,15 @@ export const FilterThematicFilter = ({thematicFilter, handleThematicFilter }) =>
     image: 'heart.webp',
     label: "Cholesterol per Cal"
   },
+  {
+    name: "fiber",
+    image: 'leaf.webp',
+    label: "Fiber"
+  },
 ]
 
   return (
-    <div className="py-2 md:py-4 w-full overflow-x-auto flex h-12 md:h-auto ">
+    <div className="py-2 md:py-0 w-full overflow-x-auto flex h-12 md:h-auto ">
     <section className="flex space-x-2">
     {filters.map((f, index)=>{
       return (<button

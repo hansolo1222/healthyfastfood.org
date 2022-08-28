@@ -474,7 +474,6 @@ Keep in mind we’re using **20g net carbs as the maximum for keto-friendly opti
 `
 }
 
-
             </ReactMarkdown>
             
           

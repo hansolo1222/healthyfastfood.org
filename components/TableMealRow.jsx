@@ -286,7 +286,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 {showCustomRow && (
   <th
     scope="col"
-    className="pl-3 py-3 whitespace-nowrap text-center text-sm font-semibold text-stone-900 bg-green-100"
+    className="pl-3 py-3 whitespace-nowrap text-center text-sm font-semibold text-green-700 bg-green-100"
     style={{'width':'13%'}}
   >
     <SortableTableHeader

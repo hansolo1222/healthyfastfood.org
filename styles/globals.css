@@ -185,7 +185,7 @@ input.button-checkbox:checked + label {
   }
 
   .article-container p {
-      @apply mb-4 leading-7
+      @apply mb-4 leading-6 md:leading-6 text-sm md:text-base text-stone-500
   }
 
   .article-container h1 {
@@ -232,3 +232,19 @@ input.button-checkbox:checked + label {
 .-ml-1px {
   margin-left: -1px;
 }
+table {
+  position: relative;
+}
+th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* 
+thead tr th { 
+  position: sticky!important; 
+  top: 0;
+  background: white;
+} */

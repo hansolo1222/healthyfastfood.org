@@ -203,7 +203,7 @@ const Header = () => {
   //   }
 
   return (
-    <Disclosure as="nav" className="bg-white border-b">
+    <Disclosure as="nav" className="bg-white border-b sticky top-0 md:relative">
       {({ open }) => (
         <>
           <div className="max-w-8xl mx-auto px-3 sm:px-5 md:px-7 bg-white">
@@ -224,13 +224,13 @@ const Header = () => {
                   <img
                         className="block md:hidden h-8 w-auto"
                         src="/images/mark.svg"
-                        alt="Workflow"
+                        alt="HealthyFastFood Mark"
                       />
                   <Link href="/">
                     <img
-                      className="hidden md:block h-12 w-auto cursor-pointer mr-4"
+                      className="hidden md:block h-10 w-auto cursor-pointer mr-4"
                       src="/images/logo.svg"
-                      alt="HealthyFastFood.org"
+                      alt="HealthyFastFood Logo"
                     />
                   </Link>
                 </div>
@@ -243,7 +243,7 @@ const Header = () => {
                           <a
                             className={classNames(
                               "hover:text-red-600 mr-4",
-                              "py-1 rounded-md text-sm font-medium",
+                              "py-1 rounded-md text-base font-medium",
                               item.secondLevel ? 'peer' : '',
                             )}
                             aria-current={"page"}
@@ -262,7 +262,7 @@ const Header = () => {
                               <span className="border-b mt-2 mb-2"></span>
                               : 
                               <a
-                                className="px-4 py-2 hover:bg-stone-50 text-sm"
+                                className="px-4 py-2 hover:bg-stone-50 text-md"
                                 href={subItem.href}
                               >
                                 {subItem.name}

@@ -8,10 +8,10 @@ export default function Example() {
               <div className="relative">
                 <div className="sm:text-center">
                   <h2 className="text-3xl font-bold  tracking-tight sm:text-4xl">
-                  The Healthy & Fast Newsletter
+                  The Healthy Fast Newsletter
                   </h2>
                   <p className="mt-6 mx-auto max-w-2xl text-lg text-stone-600">
-                  You&apos;ll be the first to know about new features, restaurants, and articles. You&apos;ll only get content aimed at making you healthiest version of yourself. No spam, we promise.
+                  You&apos;ll be the first to know about new features, new restaurant data, and articles. You&apos;ll only get content that will help you become the healthiest version of yourself.
                   </p>
                 </div>
                 <form action="#" className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">

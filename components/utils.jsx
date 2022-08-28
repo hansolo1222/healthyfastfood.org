@@ -22,7 +22,17 @@ export const getCustomNutritionRowInfo = (thematicFilter) => {
     units = "mg / cal",
     title = "Cholesterol per Cal"
     direction = "ascending"
-    } 
+    } else if (thematicFilter == "proteinCarbRatio"){
+      units = ": 1",
+      title = "Protein:Carb Ratio"
+      direction = "descending"
+      } 
+      else if (thematicFilter == "fiber"){
+        units = "g",
+        title = "Dietary Fiber"
+        direction = "descending"
+        } 
+
    return {units: units, title: title, direction: direction}
 }
 

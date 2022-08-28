@@ -22,17 +22,17 @@ export const Tabs = ({activeTab, slug}) => {
   ]
   return (
      
-        <div className="mobile-padding border-b border-t py-2 md:py-3 border-stone-200 bg-white overflow-x-auto">
-          <nav className=" flex space-x-2 md:space-x-3" aria-label="Tabs">
+        <div className="mobile-padding border-b py-0 md:py-4 border-stone-200 bg-white overflow-x-auto">
+          <nav className=" flex space-x-3 md:space-x-6" aria-label="Tabs">
             {tabs.map((tab) => (
               <a
                 key={tab.name}
                 href={tab.href}
                 className={classNames(
                   tab.value == activeTab
-                    ? 'text-red-600 bg-red-100'
-                    : 'border-transparent text-stone-500 hover:text-stone-700 hover:bg-stone-100',
-                  'whitespace-nowrap py-1.5 md:py-2 px-3 rounded-lg font-medium text-sm flex items-center'
+                    ? '  border-stone-900 text-stone-900 '
+                    : 'border-transparent text-stone-500 hover:text-stone-700 hover:bg-stone-100 rounded-lg',
+                  'border-b-4 whitespace-nowrap py-3 md:py-2 px-2  font-medium text-sm md:text-base flex items-center'
                 )}
                
               >

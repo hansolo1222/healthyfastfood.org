@@ -25,7 +25,11 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 import EmailSignup from "../../components/EmailSignup";
 import { Dialog, Transition, Fragment } from "@headlessui/react";
 import { classNames } from "../../components/utils";
-import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from "@heroicons/react/solid";
+import {
+  ArrowNarrowLeftIcon,
+  ArrowNarrowRightIcon,
+} from "@heroicons/react/solid";
+import ReactMarkdown from "react-markdown";
 
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
@@ -131,6 +135,7 @@ export default function Restaurant(props) {
   let categoriesWithParents = meals
     .map((item) => ({
       categoryName: item.category.name,
+      categorySlug: item.category.slug,
       parentCategory: item.category.parentCategory.name,
     }))
     .filter(
@@ -143,6 +148,8 @@ export default function Restaurant(props) {
         )
     );
 
+  console.log(categoriesWithParents);
+
   categoriesWithParents.sort((a, b) => {
     if (
       getUmbrellaCategory(a.parentCategory) ==
@@ -150,7 +157,6 @@ export default function Restaurant(props) {
     ) {
       return 0;
     } else if (getUmbrellaCategory(a.parentCategory) === "food") {
-      
       return -1;
     }
   });
@@ -250,6 +256,13 @@ export default function Restaurant(props) {
     } else if (thematicFilter == "lowCholesterol") {
       return m.calories == 0 ? 0 : (m.cholesterol / m.calories).toFixed(3);
     }
+    else if (thematicFilter == "proteinCarbRatio") {
+      return m.calories == 0 ? 0 : (m.protein / m.totalCarbohydrates).toFixed(2);
+    }
+    else if (thematicFilter == "fiber") {
+      console.log(m.fiber)
+      return m.calories == 0 ? 0 : m.dietaryFiber;
+    }
   };
 
   const filteredItems = (items) =>
@@ -308,83 +321,82 @@ export default function Restaurant(props) {
     }
   };
 
-  let [isOpen, setIsOpen] = useState(true)
-
+  let [isOpen, setIsOpen] = useState(true);
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
+    setIsOpen(true);
   }
 
   const [showCalorieFilter, setShowCalorieFilter] = useState(false);
-  const [caloriePreset, setCaloriePreset] = useState({name: null});
-  const [mobileMinCalories, setMobileMinCalories ] = useState(null)
-  const [mobileMaxCalories, setMobileMaxCalories ] = useState(null)
-  const [caloriesMessage, setCaloriesMessage] = useState('')
+  const [caloriePreset, setCaloriePreset] = useState({ name: null });
+  const [mobileMinCalories, setMobileMinCalories] = useState(null);
+  const [mobileMaxCalories, setMobileMaxCalories] = useState(null);
+  const [caloriesMessage, setCaloriesMessage] = useState("");
 
   const handleCaloriePreset = (event, min, max) => {
-    setCaloriePreset({name: event.target.value, min: min, max: max})
-  }
+    setCaloriePreset({ name: event.target.value, min: min, max: max });
+  };
 
   const handleMinCalorieInput = (event) => {
-    setCaloriePreset({name: null})
-    setMobileMinCalories(event.target.value)
-  }
+    setCaloriePreset({ name: null });
+    setMobileMinCalories(event.target.value);
+  };
 
   const handleMaxCalorieInput = (event) => {
-    setCaloriePreset({name: null})
-    setMobileMaxCalories(event.target.value)
-  }
+    setCaloriePreset({ name: null });
+    setMobileMaxCalories(event.target.value);
+  };
 
   const handleResetCalorieFilter = () => {
-    setCaloriePreset({name: null})
-    setMobileMinCalories(null)
-    setMobileMaxCalories(null)
-    setMinCalories(0)
-    setMaxCalories(5000)
-    closeCalorieFilter()
-  }
+    setCaloriePreset({ name: null });
+    setMobileMinCalories(null);
+    setMobileMaxCalories(null);
+    setMinCalories(0);
+    setMaxCalories(5000);
+    closeCalorieFilter();
+  };
 
   const openCalorieFilter = () => {
-    document.body.style.overflow = "hidden"
-    setShowCalorieFilter(true)
-  }
+    document.body.style.overflow = "hidden";
+    setShowCalorieFilter(true);
+  };
 
   const closeCalorieFilter = () => {
-    document.body.style.overflow = "auto"
-    setShowCalorieFilter(false)
-  }
+    document.body.style.overflow = "auto";
+    setShowCalorieFilter(false);
+  };
 
   const handleMobileCalorieFilterSubmit = (event) => {
     event.preventDefault();
-    if (caloriePreset.name == null && mobileMinCalories == null && mobileMaxCalories == null){
-      setCaloriesMessage("Please specify a calorie limit")
+    if (
+      caloriePreset.name == null &&
+      mobileMinCalories == null &&
+      mobileMaxCalories == null
+    ) {
+      setCaloriesMessage("Please specify a calorie limit");
     } else {
-      if (mobileMinCalories > mobileMaxCalories){
-        const tempMin = mobileMaxCalories
-        const tempMax = mobileMinCalories
-        setMobileMinCalories(tempMin)
-        setMobileMinCalories(tempMax)
+      if (mobileMinCalories > mobileMaxCalories) {
+        const tempMin = mobileMaxCalories;
+        const tempMax = mobileMinCalories;
+        setMobileMinCalories(tempMin);
+        setMobileMinCalories(tempMax);
       }
-      if (caloriePreset.name !== null){
-        setMinCalories(caloriePreset.min)
-        setMaxCalories(caloriePreset.max)
-        
+      if (caloriePreset.name !== null) {
+        setMinCalories(caloriePreset.min);
+        setMaxCalories(caloriePreset.max);
       } else {
-      mobileMaxCalories !== null && setMaxCalories(mobileMaxCalories)
-      mobileMinCalories !== null && setMinCalories(mobileMinCalories)
+        mobileMaxCalories !== null && setMaxCalories(mobileMaxCalories);
+        mobileMinCalories !== null && setMinCalories(mobileMinCalories);
       }
-      closeCalorieFilter()
+      closeCalorieFilter();
     }
-  }
+  };
 
-
-  const handleMobileCalorieFilterApply = () => {
-
-  }
+  const handleMobileCalorieFilterApply = () => {};
 
   const allergenOptions = [
     { value: "gluten", label: "Gluten Free" },
@@ -503,9 +515,9 @@ export default function Restaurant(props) {
                 <Breadcrumbs pages={pages} className="" />
               </div>
               <div className="flex items-start md:items-center">
-                <div className="relative w-12 h-12 md:w-14 md:h-14 mr-2 md:mr-4 mt-2 md:mt-0">
+                <div className="relative w-12 h-12 md:w-14 md:h-14 mr-2 md:mr-4 mt-2 md:mt-0 flex-shrink-0">
                   <Image
-                    className=" flex-shrink-0 rounded-md mr-2 z-0"
+                    className=" flex-shrink-0 rounded-xl mr-2 z-0"
                     src={`/images/logosSmall/${restaurant.slug}.webp`}
                     alt={`${restaurant.name} Logo`}
                     layout="fill"
@@ -513,19 +525,36 @@ export default function Restaurant(props) {
                   />
                 </div>
                 <div className="w-full">
+                <div className="md:flex justify-between items-center">
+
+                  <>
+                  <div>
                   <div className="hidden md:block">
                     <Breadcrumbs pages={pages} className="" />
                   </div>
-                  <div className="md:flex justify-between items-center">
                     <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-2 md:mt-1 leading-snug">
                       {restaurant.name}{" "}
                       <span className="text-stone-500 font-normal block md:inline">
                         Menu Nutrition Facts & Calories
                       </span>
                     </h1>
-                    <div className="hidden md:block">
-                      <ShareIcons size={24} align="left" />
                     </div>
+                    <div className="flex space-x-2">
+                    <button
+                          type="submit"
+                          className="mt-2 md:mt-0 bg-stone-100 hover:bg-stone-200 text-base py-2 px-3 font-medium rounded-lg text-stone-900 "
+                        >
+                          Share
+                        </button>
+                    <button
+                          type="submit"
+                          className="mt-2 md:mt-0 bg-red-500 hover:bg-red-600 text-base py-2 px-3 font-medium rounded-lg text-white "
+                        >
+                          Export to PDF
+                        </button>
+                      </div>
+                      {/* <ShareIcons size={24} align="left" /> */}
+                    </>
                   </div>
                 </div>
               </div>
@@ -534,25 +563,74 @@ export default function Restaurant(props) {
             <div className="">
               <Tabs activeTab="all" slug={`/${restaurant.slug}`} />
             </div>
+            <section className="w-full bg-white mobile-padding ">
+            <section className="pt-8">
+            <p className="text-stone-900 md:text-base text-sm font-medium">Updated August 1, 2022</p>
 
-            <div className="hidden md:block ">
+              <ReactMarkdown className="article-container max-w-2xl   ">
+                {`Looking for full nutrition facts & calorie information for the ${
+                  restaurant.name
+                } Menu? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${
+                  restaurant.name
+                } menu, so you can sort through and filter results based on your dietary needs.
+
+
+`}
+
+
+
+              </ReactMarkdown>
+              </section>
+              <section className="pb-4 pt-4">
+              <h2 className="font-semibold text-base md:text-lg mb-2">All Categories</h2>
+              <div className="flex flex-wrap">
+              {categoriesWithParents
+                  .map((cat) => {
+                    return <a href={`/${restaurant.slug}#${cat.categorySlug}`}
+                      className="border py-1 px-3 rounded-full text-blue-600 mr-1 mb-1 md:mr-2 md:mb-2 text-sm"
+                    >{cat.categoryName}</a>;
+                  })}
+              </div>   
+              </section>
+            </section>
+
+            <div className="hidden md:block pt-2 md:pt-4 ">
+            <h2 className="font-semibold text-lg ">Show</h2>
+            </div>
+            <div className="hidden md:block z-30 pt-2 top-0 sticky bg-white pb-2 border-b">
               <FilterThematicFilter
                 thematicFilter={thematicFilter}
                 handleThematicFilter={handleThematicFilter}
               />
             </div>
+            
 
-            <section className={`md:hidden sticky top-0 bg-white z-40 border-b border-stone-300`}>
+            <section
+              className={`md:hidden sticky top-0 bg-white z-40 border-b border-stone-300`}
+            >
               <div className="mobile-padding">
-                <div className={`${!showCalorieFilter && "border-b"} pt-2 pb-2 flex justify-between h-auto`}>
+                <div
+                  className={`${
+                    !showCalorieFilter && "border-b"
+                  } pt-2 pb-2 flex justify-between h-auto`}
+                >
                   <div className="flex items-center space-x-4 ">
                     <button
                       onClick={openCalorieFilter}
-                      className={`text-sm  peer py-1 flex items-center ${showCalorieFilter || caloriePreset.name || mobileMaxCalories || mobileMinCalories ? "text-red-600" : "text-stone-700"} `}
+                      className={`text-sm  peer py-1 flex items-center ${
+                        showCalorieFilter ||
+                        caloriePreset.name ||
+                        mobileMaxCalories ||
+                        mobileMinCalories
+                          ? "text-red-600"
+                          : "text-stone-700"
+                      } `}
                     >
                       Calories{" "}
                       <ChevronDownIcon
-                        className={` ml-1 h-3 w-3  ${showCalorieFilter ? "text-red-500" : "text-stone-500" } `}
+                        className={` ml-1 h-3 w-3  ${
+                          showCalorieFilter ? "text-red-500" : "text-stone-500"
+                        } `}
                         aria-hidden="true"
                       />
                     </button>
@@ -590,173 +668,106 @@ export default function Restaurant(props) {
                 ) : (
                   <div className="flex justify-between py-2 border-b h-12 z-20">
                     <div className="text-lg">Calories</div>
-                    <button 
-                    onClick={handleResetCalorieFilter}
-                    className="text-blue-600 uppercase font-semibold">
+                    <button
+                      onClick={handleResetCalorieFilter}
+                      className="text-blue-600 uppercase font-semibold"
+                    >
                       Reset
                     </button>
                   </div>
                 )}
               </div>
-        
-        {/* <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="absolute z-20 left-0 bottom-0 w-full" onClose={closeModal}>
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-100"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <div className="fixed inset-0 bg-black bg-opacity-20" />
-          </Transition.Child>
 
-          <div className="">
-            <div className="absolute top-0">
-              <Transition.Child
-                as={Fragment}
-                enter="ease-out duration-100"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-100"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
-                <Dialog.Panel className="w-full transform overflow-hidden rounded-2xl bg-white p-6 text-left shadow-lg transition-all">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
+            
+              {/* before:bg-black/20 before: mobile-filter-popup */}
+              <Transition appear show={showCalorieFilter} as={Fragment}>
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-100"
+                  enterFrom="opacity-0 scale-95"
+                  enterTo="opacity-100 scale-100"
+                  leave="ease-in duration-100"
+                  leaveFrom="opacity-100 scale-100"
+                  leaveTo="opacity-0 scale-95"
+                >
+                  <div
+                    className={`absolute left-0 bottom-0 w-full h-0 before:bg-black/20 before: mobile-filter-popup ${
+                      showCalorieFilter ? "active block " : "hidden"
+                    }`}
                   >
-                    Payment successful
-                  </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
-                    </p>
-                  </div>
+                    
 
-                  <div className="mt-4">
-                    <button
-                      type="button"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                      onClick={closeModal}
-                    >
-                      Got it, thanks!
-                    </button>
-                  </div>
-                </Dialog.Panel>
-              </Transition.Child>
-            </div>
-          </div>
-        </Dialog>
-      </Transition> */}
-      {/* before:bg-black/20 before: mobile-filter-popup */}
-      <Transition appear show={showCalorieFilter} as={Fragment}>
-            <Transition.Child
-                as={Fragment}
-                enter="ease-out duration-100"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-100"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
-              <div
-                className={`absolute left-0 bottom-0 w-full h-0 before:bg-black/20 before: mobile-filter-popup ${
-                  showCalorieFilter ? "active block " : "hidden"
-                }`}
-              >
-                {/* <div className="fixed inset-0 bg-black bg-opacity-20" 
-                  onClick={console.log("al")}
-                /> */}
-               
-                <div className="bg-white rounded-b-2xl z-50 absolute top-0 w-full mobile-padding pb-4">
-                  <div className="inline-flex flex-wrap pt-4">
-                    {calorieFilters.map((f, index) => {
-                      return (
+                    <div className="bg-white rounded-b-2xl z-50 absolute top-0 w-full mobile-padding pb-4">
+                      <div className="inline-flex flex-wrap pt-4">
+                        {calorieFilters.map((f, index) => {
+                          return (
+                            <button
+                              value={f.name}
+                              key={f.name}
+                              onClick={(e) =>
+                                handleCaloriePreset(e, f.min, f.max)
+                              }
+                              className={classNames(
+                                caloriePreset.name == f.name
+                                  ? " bg-white text-orange-600 border-orange-600"
+                                  : " bg-stone-100 text-stone-600 hover:bg-stone-100 border-transparent",
+                                "border rounded-full whitespace-nowrap py-1 md:py-2 px-3 md:px-3  text-sm md:text-base  flex items-center shrink-0 mb-3 mr-3"
+                              )}
+                            >
+                              {f.label}
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      <form onSubmit={handleMobileCalorieFilterSubmit}>
+                        <div className="flex justify-between my-4">
+                          <input
+                            id="min-cal"
+                            onChange={handleMinCalorieInput}
+                            name="min-calories"
+                            type="number"
+                            className="appearance-none min-w-0 w-full bg-white border rounded-md py-2 px-4 text-base text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-white focus:border-white focus:placeholder-stone-400"
+                            placeholder="Min calories"
+                          />
+                          <div className="mx-4 mt-2">—</div>
+                          <input
+                            id="max-cal"
+                            onChange={handleMaxCalorieInput}
+                            name="max-calories"
+                            type="number"
+                            className="appearance-none min-w-0 w-full bg-white border rounded-md py-2 px-4 text-base text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-white focus:border-white focus:placeholder-stone-400"
+                            placeholder="Max calories"
+                          />
+                        </div>
+                        {caloriesMessage ? (
+                          <div className="mb-2 text-sm text-red-500">
+                            {caloriesMessage}
+                          </div>
+                        ) : (
+                          ``
+                        )}
                         <button
-                          value={f.name}
-                          key={f.name}
-                          
-                          onClick={(e)=>handleCaloriePreset(e,f.min,f.max)}
-                          className={classNames(
-                            caloriePreset.name == f.name
-                              ? " bg-white text-orange-600 border-orange-600"
-                              : " bg-stone-100 text-stone-600 hover:bg-stone-100 border-transparent",
-                            "border rounded-full whitespace-nowrap py-1 md:py-2 px-3 md:px-3  text-sm md:text-base  flex items-center shrink-0 mb-3 mr-3"
-                          )}
+                          type="submit"
+                          className="w-full bg-red-500 text-lg py-2 font-medium rounded-full text-white uppercase"
                         >
-                          {f.label}
+                          Apply Filter
                         </button>
-                      );
-                    })}
-                  </div>
-
-                  <form onSubmit={handleMobileCalorieFilterSubmit}>
-                    <div className="flex justify-between my-4">
-                    <input
-                      id="min-cal"
-                      onChange={handleMinCalorieInput}
-                      name="min-calories"
-                      type="number"
-                      className="appearance-none min-w-0 w-full bg-white border rounded-md py-2 px-4 text-base text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-white focus:border-white focus:placeholder-stone-400"
-                      placeholder="Min calories"
-                    />
-                    <div className="mx-4 mt-2">—</div>
-                    <input
-                      id="max-cal"
-                      onChange={handleMaxCalorieInput}
-                      name="max-calories"
-                      type="number"
-                      className="appearance-none min-w-0 w-full bg-white border rounded-md py-2 px-4 text-base text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-white focus:border-white focus:placeholder-stone-400"
-                      placeholder="Max calories"
-                    />
+                      </form>
                     </div>
-                   {caloriesMessage
-                      ? <div className="mb-2 text-sm text-red-500">{caloriesMessage}</div> 
-                      : ``}
-                  <button type="submit" className="w-full bg-red-500 text-lg py-2 font-medium rounded-full text-white uppercase">
-                    Apply Filter
-                  </button>
-                  </form>
+
+                    <div
+                      className="absolute top-0 left-0 w-full h-screen"
+                      onClick={closeCalorieFilter}
+                    />
                   </div>
-                 
-                  <div className="absolute top-0 left-0 w-full h-screen"
-                  onClick={closeCalorieFilter}
-                  />
-
-              </div>
-              </Transition.Child>
+                </Transition.Child>
               </Transition>
-
             </section>
 
-            {/* <Dialog open={showCalorieFilter} onClose={() => setShowCalorieFilter(false)}>
-              <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
+          
 
-                <Dialog.Panel className="w-full h-64 max-w-sm rounded bg-white">
-                  wefwef hello!
-                </Dialog.Panel>
-               
-              </Dialog> */}
-
-            {/* {showCalorieFilter && (
-                <div
-                  className="hidden peer-hover:flex hover:flex border
-                w-[230px]
-                flex-col bg-white drop-shadow-md top-10 absolute z-50 rounded-lg p-3"
-                >
-                  <AsideFilterByCalories
-                    handleSetMaxCalories={handleSetMaxCalories}
-                    handleSetMinCalories={handleSetMinCalories}
-                  />
-                </div>
-              )} */}
-
-            <article className="overflow-x-auto w-full z-10 mt-3">
+            <article className="overflow-x-auto w-full z-10 mt-4">
               {categoriesWithParents
                 .filter((cat) =>
                   umbrellaCategories.includes(
@@ -765,16 +776,18 @@ export default function Restaurant(props) {
                 )
                 .map((cat, i) => {
                   return (
-                    <div
-                      className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding bg-white"
-                      key={cat.categoryName}
-                    >
-                      <h2 className="py-3 md:mx-3 text-base md:text-lg font-semibold border-b">
+                    <div className="bg-white">
+                    <h2 className="pb-2 pt-2 md:pt-4 mobile-padding text-base md:text-lg font-semibold border-b md:border-b-0" id={cat.categorySlug}>
                         {cat.categoryName}
                       </h2>
+                    <div
+                      className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding "
+                      key={cat.categoryName}
+                    >
+                      
                       <div className="overflow-x-auto">
                         <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-                          <thead className="rounded-t-lg">
+                          <thead className="rounded-t-lg sticky top-0">
                             {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
                             <TableHeaders
                               showCustomRow={showCustomRow}
@@ -818,6 +831,7 @@ export default function Restaurant(props) {
                           </tbody>
                         </table>
                       </div>
+                    </div>
                     </div>
                   );
                 })}
