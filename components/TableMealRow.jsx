@@ -14,7 +14,7 @@ export const TableMealRow = ({
   let category = meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
-      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
+      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
             {showRestaurantData ? (
               <a href={`/${restaurantSlug}`} className="flex items-center">
@@ -95,7 +95,7 @@ export const KetoTableMealRow = ({
   let category = meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
-      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
+      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
@@ -180,7 +180,7 @@ export const MiniTableMealRow = ({
   let category = meal.category.name
   return (
     <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
-      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-20 md:static left-0 bg-white md:bg-transparent">
+      <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
             {showRestaurantData ? (
@@ -251,7 +251,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
   <th
   scope="col"
   className="md:pl-2 py-3 text-sm font-semibold text-greeny-600 text-left first-letter:
-  sticky z-20 md:static w-20 left-0 bg-white
+  sticky z-10 md:static w-20 left-0 bg-white
   "
   style={{'width':'43%'}}
 
@@ -381,7 +381,7 @@ export const KetoTableHeaders = ({showCustomRow, thematicFilter, SortableTableHe
   <th
   scope="col"
   className="md:pl-2 py-3 text-sm font-semibold text-greeny-600 text-left first-letter:
-  sticky z-20 md:static w-20 left-0 bg-white
+  sticky z-10 md:static w-20 left-0 bg-white
   "
   style={{'width':'35%'}}
 

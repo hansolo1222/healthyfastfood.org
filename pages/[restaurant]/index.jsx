@@ -23,9 +23,10 @@ import { ShareIcons } from "../../components/ShareIcons";
 import { InputLabel } from "@mui/material";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 import EmailSignup from "../../components/EmailSignup";
-import { Dialog } from "@headlessui/react";
+import { Dialog, Transition, Fragment } from "@headlessui/react";
 import { classNames } from "../../components/utils";
 import { ArrowNarrowLeftIcon, ArrowNarrowRightIcon } from "@heroicons/react/solid";
+
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
     where: {
@@ -307,11 +308,21 @@ export default function Restaurant(props) {
     }
   };
 
+  let [isOpen, setIsOpen] = useState(true)
+
+
+  function closeModal() {
+    setIsOpen(false)
+  }
+
+  function openModal() {
+    setIsOpen(true)
+  }
+
   const [showCalorieFilter, setShowCalorieFilter] = useState(false);
   const [caloriePreset, setCaloriePreset] = useState({name: null});
   const [mobileMinCalories, setMobileMinCalories ] = useState(null)
   const [mobileMaxCalories, setMobileMaxCalories ] = useState(null)
-
   const [caloriesMessage, setCaloriesMessage] = useState('')
 
   const handleCaloriePreset = (event, min, max) => {
@@ -334,8 +345,17 @@ export default function Restaurant(props) {
     setMobileMaxCalories(null)
     setMinCalories(0)
     setMaxCalories(5000)
-    setShowCalorieFilter(false)
+    closeCalorieFilter()
+  }
 
+  const openCalorieFilter = () => {
+    document.body.style.overflow = "hidden"
+    setShowCalorieFilter(true)
+  }
+
+  const closeCalorieFilter = () => {
+    document.body.style.overflow = "auto"
+    setShowCalorieFilter(false)
   }
 
   const handleMobileCalorieFilterSubmit = (event) => {
@@ -357,7 +377,7 @@ export default function Restaurant(props) {
       mobileMaxCalories !== null && setMaxCalories(mobileMaxCalories)
       mobileMinCalories !== null && setMinCalories(mobileMinCalories)
       }
-      setShowCalorieFilter(false)
+      closeCalorieFilter()
     }
   }
 
@@ -527,7 +547,7 @@ export default function Restaurant(props) {
                 <div className={`${!showCalorieFilter && "border-b"} pt-2 pb-2 flex justify-between h-auto`}>
                   <div className="flex items-center space-x-4 ">
                     <button
-                      onClick={() => setShowCalorieFilter(!showCalorieFilter)}
+                      onClick={openCalorieFilter}
                       className={`text-sm  peer py-1 flex items-center ${showCalorieFilter || caloriePreset.name || mobileMaxCalories || mobileMinCalories ? "text-red-600" : "text-stone-700"} `}
                     >
                       Calories{" "}
@@ -550,7 +570,8 @@ export default function Restaurant(props) {
                   </div>
 
                   <button
-                    onClick={() => setShowCalorieFilter(!showCalorieFilter)}
+                    // onClick={() => setShowCalorieFilter(!showCalorieFilter)}
+                    onClick={openModal}
                     className="text-sm text-stone-700 peer py-1 flex items-center"
                   >
                     Filters{" "}
@@ -567,7 +588,7 @@ export default function Restaurant(props) {
                     handleThematicFilter={handleThematicFilter}
                   />
                 ) : (
-                  <div className="flex justify-between py-2 border-b h-12">
+                  <div className="flex justify-between py-2 border-b h-12 z-20">
                     <div className="text-lg">Calories</div>
                     <button 
                     onClick={handleResetCalorieFilter}
@@ -577,11 +598,81 @@ export default function Restaurant(props) {
                   </div>
                 )}
               </div>
+        
+        <Transition appear show={isOpen} as={Fragment}>
+        <Dialog as="div" className="absolute z-20 left-0 bottom-0 w-full" onClose={closeModal}>
+          <Transition.Child
+            as={Fragment}
+            enter="ease-out duration-100"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="ease-in duration-100"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="fixed inset-0 bg-black bg-opacity-20" />
+          </Transition.Child>
+
+          <div className="">
+            <div className="absolute top-0">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-100"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-100"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
+                <Dialog.Panel className="w-full transform overflow-hidden rounded-2xl bg-white p-6 text-left shadow-lg transition-all">
+                  <Dialog.Title
+                    as="h3"
+                    className="text-lg font-medium leading-6 text-gray-900"
+                  >
+                    Payment successful
+                  </Dialog.Title>
+                  <div className="mt-2">
+                    <p className="text-sm text-gray-500">
+                      Your payment has been successfully submitted. We’ve sent
+                      you an email with all of the details of your order.
+                    </p>
+                  </div>
+
+                  <div className="mt-4">
+                    <button
+                      type="button"
+                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      onClick={closeModal}
+                    >
+                      Got it, thanks!
+                    </button>
+                  </div>
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </div>
+        </Dialog>
+      </Transition>
+      {/* before:bg-black/20 before: mobile-filter-popup */}
+      <Transition appear show={showCalorieFilter} as={Fragment}>
+            <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-100"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-100"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
               <div
                 className={`absolute left-0 bottom-0 w-full h-0 before:bg-black/20 before: mobile-filter-popup ${
                   showCalorieFilter ? "active block " : "hidden"
                 }`}
               >
+                {/* <div className="fixed inset-0 bg-black bg-opacity-20" 
+                  onClick={console.log("al")}
+                /> */}
+               
                 <div className="bg-white rounded-b-2xl z-50 absolute top-0 w-full mobile-padding pb-4">
                   <div className="inline-flex flex-wrap pt-4">
                     {calorieFilters.map((f, index) => {
@@ -632,7 +723,15 @@ export default function Restaurant(props) {
                   </button>
                   </form>
                   </div>
+                 
+                  <div className="absolute top-0 left-0 w-full h-screen"
+                  onClick={closeCalorieFilter}
+                  />
+
               </div>
+              </Transition.Child>
+              </Transition>
+
             </section>
 
             {/* <Dialog open={showCalorieFilter} onClose={() => setShowCalorieFilter(false)}>
