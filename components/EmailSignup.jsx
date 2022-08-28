@@ -11,7 +11,7 @@ export default function Example() {
                   The Healthy & Fast Newsletter
                   </h2>
                   <p className="mt-6 mx-auto max-w-2xl text-lg text-stone-600">
-                  You&apos;ll be the first to know about new features, restaurants, and articles. You'll only get content aimed at making you healthiest version of yourself. No spam, we promise.
+                  You&apos;ll be the first to know about new features, restaurants, and articles. You&apos;ll only get content aimed at making you healthiest version of yourself. No spam, we promise.
                   </p>
                 </div>
                 <form action="#" className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
