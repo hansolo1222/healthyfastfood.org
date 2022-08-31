@@ -68,9 +68,9 @@ export default function Restaurants(props) {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
-        <div className="">
+        <div className="mobile-padding">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-center mb-4 mt-8">
+          <h1 className="text-xl md:text-3xl font-bold text-center mb-4 mt-8">
             Most Popular Restaurants by Category
           </h1>
           <div className=""><ShareIcons size={28}  align="center"/></div>
@@ -192,7 +192,7 @@ export default function Restaurants(props) {
                                  : (
                                   
                                   <span className="text-xs border text-stone-500 ml-2 px-2 py-0.5 rounded-full">
-                                    NA
+                                    No Data
                                   </span>
                                  )
                                   }
