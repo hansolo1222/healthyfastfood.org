@@ -20,7 +20,7 @@ export const FAQ = ({faqs}) => {
                 {faqs.map((faq, index) => (
                   <div key={faq.question}>
                     <dt id={index} className="text-xl leading-6 font-medium text-stone-900">{faq.question}</dt>
-                    <dd className="mt-4 text-base text-stone-600" dangerouslySetInnerHTML={{ __html: faq.answer.replace('"','')}}></dd>
+                    <dd className="mt-4 text-sm md:text-base text-stone-600" dangerouslySetInnerHTML={{ __html: faq.answer.replace('"','')}}></dd>
                   </div>
                 ))}
               </dl>

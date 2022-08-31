@@ -255,6 +255,7 @@ export default function Home(props) {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
+      <div className="mobile-padding">
         <RestaurantCloud restaurants={topRestaurants} />
         <div className="mt-8"><ShareIcons size={32}  align="center"/></div>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-4 mt-10">
@@ -410,6 +411,7 @@ export default function Home(props) {
        </Link>
       </div>
 </section>
+</div>
       </Layout>
     </div>
   );

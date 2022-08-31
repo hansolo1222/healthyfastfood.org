@@ -6,7 +6,7 @@ export const RestaurantSectionCategories = ({
 }) => {
   return (
     <section className="w-full bg-white mobile-padding ">
-    <section className="pb-4 pt-4">
+    <section className="pt-2 pb-2 md:pb-4 md:pt-4">
       <h2 className="font-semibold text-base md:text-lg mb-2">
         All Categories
       </h2>

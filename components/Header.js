@@ -221,11 +221,13 @@ const Header = () => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center ">
+                <Link href="/">
                   <img
                         className="block md:hidden h-8 w-auto"
                         src="/images/mark.svg"
                         alt="HealthyFastFood Mark"
                       />
+                      </Link>
                   <Link href="/">
                     <img
                       className="hidden md:block h-10 w-auto cursor-pointer mr-4"

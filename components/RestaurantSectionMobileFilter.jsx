@@ -67,7 +67,7 @@ export const RestaurantSectionMobileFilter = ({
               onClick={
                 !showCalorieFilter ? openCalorieFilter : closeCalorieFilter
               }
-              className={`text-sm  peer py-1 flex items-center ${
+              className={`text-base font-semibold  peer py-1 flex items-center ${
                 showCalorieFilter ||
                 caloriePreset.name ||
                 displayMaxCalories ||
