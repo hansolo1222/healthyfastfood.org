@@ -30,6 +30,13 @@ import ReactMarkdown from "react-markdown";
 import { FAQ } from "../../components/FAQ";
 import _ from 'lodash';
 
+import dynamic from 'next/dynamic'
+import { Suspense } from 'react'
+
+const DynamicMeals = dynamic(() => import('../../components/RestaurantSectionMeals'), {
+  suspense: true,
+})
+
 export const getServerSideProps = async (context) => {
   const restaurant = await prisma.restaurant.findUnique({
     where: {
@@ -119,6 +126,11 @@ export default function Restaurant(props) {
   const [displayMaxCalories, setDisplayMaxCalories] = useState(null);
   const [caloriePreset, setCaloriePreset] = useState({ name: null });
   const [caloriesMessage, setCaloriesMessage] = useState("");
+
+  const closeCalorieFilter = () => {
+    document.body.style.overflow = "auto";
+    setShowCalorieFilter(false);
+  };
 
   // Mobile only
   const [showCalorieFilter, setShowCalorieFilter] = useState(false);
@@ -372,8 +384,9 @@ export default function Restaurant(props) {
               setThematicFilter={setThematicFilter}
               setShowCustomRow={setShowCustomRow}
             />
-
-            <RestaurantSectionMeals
+ <Suspense fallback={`Loading...`}>
+      
+            <DynamicMeals
               restaurant={restaurant}
               categoriesWithParents={categoriesWithParents}
               showCustomRow={showCustomRow}
@@ -384,6 +397,8 @@ export default function Restaurant(props) {
               items={items}
               variant="normal"
             />
+           
+    </Suspense>
             <FAQ faqs={faqs}/>
           </article>
         </main>

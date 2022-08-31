@@ -92,7 +92,7 @@ export const RestaurantSectionMealsNew = (
 
 
 
-export const RestaurantSectionMeals = (
+const RestaurantSectionMeals = (
   {
     restaurant,
     categoriesWithParents,
@@ -202,3 +202,5 @@ export const RestaurantSectionMeals = (
   </section>
   );
 };
+
+export default RestaurantSectionMeals
