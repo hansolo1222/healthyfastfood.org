@@ -11,10 +11,11 @@ export const Tabs = ({activeTab, slug}) => {
   const tabs = [
     { name: 'All Menu Items', mobileName: 'All Items', value: 'all', href: slug },
     { name: 'Keto Menu', mobileName: 'Keto', value: 'keto', href: slug + '/keto' },
+    { name: 'Low-Carb Menu', mobileName: 'Low-Carb', value: 'low-carb', href: slug + '/low-carb' },
+
     // { name: 'Gluten-Free Menu', mobileName: 'Gluten-Free', value: 'gluten-free', href: slug + '/gluten-free' },
     // { name: 'Vegetarian Options', mobileName: 'Vegetarian', value: 'vegetarian', href: slug + '/vegetarian' },
 
-    // { name: 'Low-Carb Menu', value: 'low-carb', href: slug + '/low-carb' },
     // { name: 'Gluten-Free Menu', value: 'gluten-free', href: slug + '/gluten-free' },
     // { name: 'Vegetarian Options', value: 'vegetarian', href: slug + '/vegetarian' },
     // { name: 'Vegan Options', value: 'vegan', href: slug + '/vegan' },

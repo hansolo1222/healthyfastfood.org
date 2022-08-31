@@ -95,7 +95,7 @@ export default function RestaurantKetoMenu(props) {
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
     { name: restaurant.name, href: `/${restaurant.slug}` },
-    { name: "Keto Menu", href: `/${restaurant.slug}/keto` },
+    { name: "Low-Carb Menu", href: `/${restaurant.slug}/low-carb` },
   ];
 
   // format meals with variants
@@ -114,7 +114,7 @@ export default function RestaurantKetoMenu(props) {
     };
   });
 
-  let [netCarbLimit, setNetCarbLimit] = useState(20);
+  let [netCarbLimit, setNetCarbLimit] = useState(40);
 
   const handleNetCarbLimitChange = (event) => {
     setNetCarbLimit(event.target.value);
@@ -189,13 +189,10 @@ export default function RestaurantKetoMenu(props) {
 
   const faqs = [
     {
-      question: `How do I know how many carbs to eat on a ketogenic diet?`,
+      question: `Should I do a Low Carb Diet or a Keto Diet?`,
       answer: ` 
-        This is a common question; the answer will vary from person to person. Some people can eat 50g net carbs and maintain ketosis. Other people can't go over 25 without breaking ketosis (however this is more rare).
+        A keto diet is much more restrictive than a low-carb one, which will greatly restrict your options when eating at ${restaurants.name}. Keto is harder to transition into, however you may also notice side-effects when switching to a low-carb diet. If your goal is to build muscle, then going low-carb could be the better option, because glucose is required for muscle repair.
 
-        The point of keeping net carbs lower (say around 25g) is to get you into ketosis faster and help you adapt faster.
-
-        Keep in mind that higher activity levels mean you can go higher without breaking ketosis. This is because highly active people will have higher muscle insulin sensitivity, which will help take up glucose from the blood instead of it interrupting ketosis.
     `,
     },
     
@@ -203,16 +200,17 @@ export default function RestaurantKetoMenu(props) {
 
   //---------------------------- STRUCTURED DATA ----------------------------
 
+
   const addJsonLdMenu = () => {
     return {
       __html: `
   {
     "@context": "http://schema.org",
     "@type": "Menu",
-    "url": "https://healthyfastfood.org/${restaurant.name}/keto",
-    "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.name}/keto",
+    "url": "https://healthyfastfood.org/${restaurant.name}/low-carb",
+    "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.name}/low-carb",
     "inLanguage":"English",
-    "description":"Everything Keto at ${restaurant.name}: The Complete ${restaurant.name} Keto-friendly Menu",
+    "description":"The Low-Carb Menu at ${restaurant.name}",
     "hasMenuSection": [
     ${categoriesWithParents.map(
       (cat) =>
@@ -246,6 +244,7 @@ export default function RestaurantKetoMenu(props) {
   `,
     };
   };
+  
 
   const marks = [
     {
@@ -268,30 +267,66 @@ export default function RestaurantKetoMenu(props) {
       value: 50,
       label: "50",
     },
+    {
+      value: 60,
+      label: "60",
+    },
+    {
+      value: 70,
+      label: "70",
+    },
+    {
+      value: 80,
+      label: "80",
+    },
+    {
+      value: 90,
+      label: "90",
+    },
+    {
+      value: 100,
+      label: "100",
+    },
+    {
+      value: 110,
+      label: "110",
+    },
+    {
+      value: 120,
+      label: "120",
+    },
+    {
+      value: 130,
+      label: "130",
+    },
+    {
+      value: 140,
+      label: "140",
+    },
   ];
 
   return (
     <>
-          <NextSeo
-        title={`Everything Keto at ${restaurant.name} in 2022 - HealthyFastFood`}
-        description={`${restaurant.name} has many options if you're trying to stick to a ketogenic diet.`}
-        canonical={`https://healthyfastfood.org/${restaurant.slug}/keto`}
+      <NextSeo
+        title={`All Low-Carb Options at ${restaurant.name} in 2022 - HealthyFastFood`}
+        description={`It's hard to eat low-carb when you're eating out. That's why we've analyzed the data and created this interactive list of low-carb options at ${restaurant.name}`}
+        canonical={`https://healthyfastfood.org/${restaurant.slug}/low-carb`}
         additionalMetaTags={[
           {
             property: "keywords",
-            content: `${restaurant.slug},nutrition,facts,keto,ketogenic,low carb,diet`,
+            content: `${restaurant.slug},nutrition,facts,keto,ketogenic,low carb,diet,carbohydrates,weight loss`,
           },
         ]}
         openGraph={{
-          url: "https://healthyfastfood.org/" + restaurant.slug + "/keto",
+          url: "https://healthyfastfood.org/" + restaurant.slug + "/low-carb",
           type: "website",
           title:
-            "Everything Keto at " +
+            "All Low-Carb Options at " +
             restaurant.name +
             " in 2022 - HealthyFastFood",
           description:
             restaurant.name +
-            " has a ton of options if you're trying to stick to a keto diet",
+            " has a ton of options if you're trying to stick to a low-carb diet. We've made an interactive list of all of them.",
           images: [
             {
               url: `/images/restaurant_logos/${restaurant.slug}.webp`,
@@ -307,7 +342,6 @@ export default function RestaurantKetoMenu(props) {
           cardType: "summary_large_image",
         }}
       />
-     
       <Head>
         <script
           type="application/ld+json"
@@ -343,17 +377,18 @@ export default function RestaurantKetoMenu(props) {
             <RestaurantSectionHeader
               pages={pages}
               restaurant={restaurant}
-              titleBlack={`Everything Keto at ${restaurant.name}`}
+              titleBlack={`All Low-Carb Options at ${restaurant.name}`}
               titleGray={``}
             />
-            <Tabs activeTab="keto" slug={`/${restaurant.slug}`} />
+            <Tabs activeTab="low-carb" slug={`/${restaurant.slug}`} />
             <RestaurantSectionTextBlock>
               <ReactMarkdown className="article-container max-w-2xl   ">
-{`Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options. This tool is interactive so you can change what counts 'keto-friendly' depending on your personal dietary requirements.
+{`
+Eating out on a low-carb diet is always tricky. That’s why we’ve crunched the official data and put together this list of ${restaurant.name} low-carb options. 
 
-As a default we're using **20g net carbohydrates** as the maximum for keto-friendly options. People eating on a ketogenic diet will track a food's net carbs, which is equal to total carbs minus fiber [[explanation]()].
+**What counts at low-carb?** There's no strict definition; some people use 50g net carbs as their daily maximum, others use 100g net carbs. Compare this to the average American/western diet of 175-250g net carbs per day. This allows for a lot more foods than [keto](/${restaurant.slug}/keto).
 
-For foods with slightly more carbs you might be interested in [low-carb options at ${restaurant.name}](/${restaurant.slug}/low-carb).
+As a default we're using **35g net carbohydrates** as the maximum for a low-carb meal. You can adjust this according to your dietary needs
 `}
               </ReactMarkdown>
             </RestaurantSectionTextBlock>
@@ -385,7 +420,7 @@ For foods with slightly more carbs you might be interested in [low-carb options 
               setShowCustomRow={setShowCustomRow}
 
               netCarbLimit={netCarbLimit}
-              netCarbMax={50}
+              netCarbMax={150}
               handleNetCarbLimitChange={handleNetCarbLimitChange}
               marks={marks}
             />
@@ -401,7 +436,7 @@ For foods with slightly more carbs you might be interested in [low-carb options 
                   onChange={handleNetCarbLimitChange}
                   marks={marks}
                   min={0}
-                  max={60}
+                  max={150}
                   valueLabelDisplay="auto"
                   f
                 />
@@ -429,51 +464,18 @@ For foods with slightly more carbs you might be interested in [low-carb options 
             <RestaurantSectionTextBlock>
             <ReactMarkdown className="article-container max-w-2xl">
               {`
-## The basics of ordering Keto at ${restaurant.name}
+## The basics of ordering Low-Carb at ${restaurant.name}
 
 
 
 ## How to use this tool
-Keto doesn’t necessarily mean zero carbs.  A keto diet typically limits net carb intake to less than 50 grams per day—stricter versions of keto can be as low as 20 grams of net carbs a day. [[Source](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/ketogenic-diet/#:~:text=The%20ketogenic%20diet%20typically%20reduces,and%2010%2D20%25%20protein.)]
 
-What are net carbs and why do people doing keto count them instead of total carbs? **Net carbs equal total carbs minus fiber**, because the carbs in fiber are not digested and don’t cause the blood sugar increase that knocks you out of ketosis. [[Source](https://dtc.ucsf.edu/living-with-diabetes/diet-and-nutrition/understanding-carbohydrates/counting-carbohydrates/learning-to-read-labels/understanding-fiber/)]
+This tool allows you to filter through ${restaurant.name} options by net carbs. Net carbs equal **total carbs minus fiber** and are used by people tracking carbohydrates in their diets. Net carbs is used instead of total carbs, because the carbs in fiber are not digested and don't cause the insulin reponse of regular carbs [[Source](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/ketogenic-diet/#:~:text=The%20ketogenic%20diet%20typically%20reduces,and%2010%2D20%25%20protein.)].
 
-We’ve made a tool that lets you filter ${restaurant.name} menu items by net carbs. By default, this tool will show menu items under 20g of net carbs. Everybody has a different ketosis threshold, but most people will need to get under **50g net carbs** to reach ketosis. General advice for people starting with this diet is to start with 50g, and go lower if your body is not reaching ketosis.
+## Why a Low-Carb Diet?
 
-If you’re trying to eat a low-carb diet rather than a keto diet, we recommend you check out the list of [low-carb menu items at ${restaurant.name
-}](/low-carb). How many carbs is low-carb? This depends on your weight, but is typically defined as less than 130g of carbohydrates per day [[Source](https://www.ncbi.nlm.nih.gov/books/NBK537084/)].
+There is a lot of scientific evidence that a low-carb diet may help people lose weight more quickly than a low-fat diet [[Source](https://www.hsph.harvard.edu/nutritionsource/carbohydrates/low-carbohydrate-diets/)]. Low carb diets also result in lower risk of heart disease and lower risk of type 2 diabetes, as well as lower blood pressure.
 
-## What Restaurants are Keto Friendly?
-
-If you’re new to keto, you might be struggling with adjusting to this new way of eating. After all, it's not just a diet change, but an entire lifestyle change for many. If you’re used to eating out, not only do you have to explain to people what you're doing, but suddenly your options seem very limited!
-
-Luckily in the few years alone, keto has gone from a niche diet a mainstream one, with a proven track record of helping people with both weight loss, as well as blood sugar control for type 2 diabetes [[Source](https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089)]. 
-
-More and more restaurants are beginning to introduce low carb options to cater to those following a keto diet. Here are some our recommendations:
-
-### [Chipotle](https://healthyfastfood.org/chipotle)
-
-One of the most popular fast-casual restaurants, Chipotle offers a variety of keto-friendly options. For your entrée, you can choose from a chicken, steak, or carnitas burrito bowl with lettuce, cheese, sour cream, and guacamole. Just be sure to skip the rice and beans.
-
-### [Chick-fil-A](https://healthyfastfood.org/chick-fil-a)
-
-Chick-fil-A is another great option for those following a keto diet. For your main entrée, you can choose from a grilled chicken sandwich (without the bun of course), grilled nuggets, or a Cobb salad. And don’t forget to add a side of avocado ranch dressing – it’s delicious!
-
-### [Panera Bread](https://healthyfastfood.org/panera-bread)
-
-Panera Bread is a great place to go for a quick and healthy meal. For your main entrée, you can choose from a variety of salads, including the popular Greek salad and the chicken Caesar salad. Just be sure to ask for no croutons and skip the bread.
-
-### [P.F. Chang’s](https://healthyfastfood.org/pf-changs)
-
-P.F. Chang’s is a great option if you’re looking for something a little more filling. For your main entrée, you can choose from a variety of chicken, steak, and shrimp dishes. Just be sure to ask for no rice.
-
-### [Texas Roadhouse](https://healthyfastfood.org/texas-roadhouse)
-
-Texas Roadhouse is *the* classic place to go when you’re craving a steak. For your main entrée, you can choose from a variety of steak, chicken, and shrimp dishes. As long as you don’t get rice you are eating very keto-friendly!
-
-These are just a few of the many keto-friendly restaurants that are out there. Next time you’re feeling hungry, you can rest assured that you’ll be able to find a delicious and keto-friendly meal.
-
-On our [Every Keto Option At Every Fast Food Chain Index](/keto), we have keto options at restaurant. Good luck, and happy ketosis!
 `}
             </ReactMarkdown>
             </RestaurantSectionTextBlock>

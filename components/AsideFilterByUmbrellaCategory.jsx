@@ -1,7 +1,17 @@
 
-export const AsideFilterByUmbrellaCategories = ({ umbrellaCategories, handleUmbrellaCategories }) => {
-  return (
-    
+
+
+export const AsideFilterByUmbrellaCategories = ({ umbrellaCategories, setUmbrellaCategories }) => {
+  const handleUmbrellaCategories = (e) => {
+    let filter = e.target.id;
+    umbrellaCategories.includes(filter)
+      ? setUmbrellaCategories(
+          umbrellaCategories.filter((value) => value !== filter)
+        )
+      : setUmbrellaCategories(umbrellaCategories.concat(filter));
+  };
+  
+  return ( 
     <section className="mt-6">
               <h3 className="text-stone-900 text-sm font-bold pb-2">
                 Type
@@ -26,15 +36,15 @@ export const AsideFilterByUmbrellaCategories = ({ umbrellaCategories, handleUmbr
                <div className="flex items-center mb-1" >
                <input
                   className="w-4 h-4 text-orange-600 bg-gray-100 rounded border-gray-300 cursor-pointer"
-                  id="beverage"
-                  value="beverage"
+                  id="beverages"
+                  value="beverages"
                   name="umbrellaCategories"
                   type="checkbox"
-                  checked={umbrellaCategories.includes("beverage")}
+                  checked={umbrellaCategories.includes("beverages")}
                   onChange={(e) => handleUmbrellaCategories(e)}
                 />
                  <label
-                    htmlFor="beverage"
+                    htmlFor="beverages"
                     className="special-input cursor-pointer inline-flex whitespace-nowrap items-center pl-2 text-sm"
                   >
                     Beverage
@@ -43,14 +53,15 @@ export const AsideFilterByUmbrellaCategories = ({ umbrellaCategories, handleUmbr
                <div className="flex items-center mb-1 " >
                <input
                   className="w-4 h-4 text-orange-600 bg-gray-100 rounded border-gray-300 cursor-pointer"
-                  id="condiment"
+                  id="condiments"
+                  value="condiments"
                   name="umbrellaCategories"
                   type="checkbox"
-                  checked={umbrellaCategories.includes("condiment")}
+                  checked={umbrellaCategories.includes("condiments")}
                   onChange={(e) => handleUmbrellaCategories(e)}
                 />
                  <label
-                    htmlFor="condiment"
+                    htmlFor="condiments"
                     className="special-input cursor-pointer inline-flex whitespace-nowrap items-center pl-2 text-sm"
                   >
                     Condiments & Dressings

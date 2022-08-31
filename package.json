@@ -26,6 +26,7 @@
     "heroicons": "^1.0.6",
     "isomorphic-unfetch": "^3.1.0",
     "list-files": "^1.1.4",
+    "lodash": "^4.17.21",
     "next": "12.2.2",
     "next-seo": "^5.5.0",
     "prettier": "^2.7.1",

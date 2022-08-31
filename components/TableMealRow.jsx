@@ -13,7 +13,7 @@ export const TableMealRow = ({
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
   return (
-    <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
+    <tr className="mealRow cursor-pointer hover:bg-white md:hover:bg-stone-50 text-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
             {showRestaurantData ? (
@@ -50,7 +50,7 @@ export const TableMealRow = ({
         {formatParentCategory(category, true, true, true)}
       </td> */}
       {showCustomRow && 
-        <td className="whitespace-nowrap px-1 py-1 text-sm md:text-base text-stone-900 text-center bg-green-50">
+        <td className="whitespace-nowrap px-1 py-1 text-stone-900 text-center bg-green-50">
           {meal[customRowKey]} <span className="text-stone-500 text-sm ">{customRowUnits}</span>
         </td>
       }
@@ -377,11 +377,11 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
 
 export const KetoTableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader}) => {
   return(
-    <tr>
+    <tr className="bg-white">
   <th
   scope="col"
   className="md:pl-2 py-3 text-sm font-semibold text-greeny-600 text-left first-letter:
-  sticky z-10 md:static w-20 left-0 bg-white
+  sticky z-10 md:static w-20 left-0 
   "
   style={{'width':'35%'}}
 

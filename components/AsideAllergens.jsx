@@ -1,5 +1,5 @@
 
-export const AsideAllergens = ({ allergens, handleAllergens }) => {
+export const AsideAllergens = ({ allergens, setAllergens, handleAllergens }) => {
   return (
     <section className="mt-6">
               <h3 className="text-stone-900 text-sm font-bold">
@@ -14,7 +14,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     className="button-checkbox"
                     type="checkbox"
                     checked={allergens.includes("gluten")}
-                    onChange={(e) => handleAllergens(e)}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="gluten"
@@ -30,7 +30,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("milk")}
-                    onChange={(e) => handleAllergens(e)}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="milk"
@@ -46,7 +46,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("peanuts")}
-                    onChange={(e) => handleAllergens(e)}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="peanuts"
@@ -62,7 +62,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("eggs")}
-                    onChange={(e) => handleAllergens(e)}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="eggs"
@@ -78,7 +78,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("wheat")}
-                    onChange={(e) => handleAllergens(e)}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="wheat"
@@ -94,7 +94,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("soy")}
-                    onChange={handleAllergens}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="soy"
@@ -110,7 +110,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("tree nuts")}
-                    onChange={handleAllergens}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="tree nuts"
@@ -126,7 +126,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("fish")}
-                    onChange={handleAllergens}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="fish"
@@ -142,7 +142,7 @@ export const AsideAllergens = ({ allergens, handleAllergens }) => {
                     name="allergens"
                     type="checkbox"
                     checked={allergens.includes("shellfish")}
-                    onChange={handleAllergens}
+                    onChange={(e) => handleAllergens(e,allergens,setAllergens)}
                   />
                   <label
                     htmlFor="shellfish"

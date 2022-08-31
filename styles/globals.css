@@ -24,6 +24,18 @@ input[type="checkbox"] {
   background:rgb(234 88 12);    
 }
 
+/* No arrows on number inputs Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 input.button-checkbox {
   display: none;
 }
@@ -185,7 +197,7 @@ input.button-checkbox:checked + label {
   }
 
   .article-container p {
-      @apply mb-4 leading-6 md:leading-6 text-sm md:text-base text-stone-500
+      @apply mb-4 leading-6 md:leading-6 text-sm md:text-base text-stone-700
   }
 
   .article-container h1 {

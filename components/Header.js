@@ -203,7 +203,7 @@ const Header = () => {
   //   }
 
   return (
-    <Disclosure as="nav" className="bg-white border-b sticky top-0 md:relative">
+    <Disclosure as="nav" className="bg-white border-b relative">
       {({ open }) => (
         <>
           <div className="max-w-8xl mx-auto px-3 sm:px-5 md:px-7 bg-white">

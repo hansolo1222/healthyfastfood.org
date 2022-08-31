@@ -1,10 +1,8 @@
 import Image from "next/image";
-import { classNames } from "./utils";
+import { classNames, handleThematicFilter } from "./utils";
 
 
-
-
-export const FilterThematicFilter = ({thematicFilter, handleThematicFilter }) => {
+export const FilterThematicFilter = ({thematicFilter, setThematicFilter, setShowCustomRow }) => {
   const filters = [
   {
     name: "highProtein",
@@ -37,6 +35,17 @@ export const FilterThematicFilter = ({thematicFilter, handleThematicFilter }) =>
     label: "Fiber"
   },
 ]
+
+const handleThematicFilter = (event) => {
+  let inputted = event.target.value;
+  if (thematicFilter == inputted) {
+    setThematicFilter(null);
+    setShowCustomRow(false);
+  } else {
+    setThematicFilter(event.target.value);
+    setShowCustomRow(true);
+  }
+};
 
   return (
     <div className="py-2 md:py-0 w-full overflow-x-auto flex h-12 md:h-auto ">
