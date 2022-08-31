@@ -28,10 +28,14 @@ export const RestaurantSectionMobileFilter = ({
   netCarbMax,
   handleNetCarbLimitChange,
   marks,
+
+  scrollRef
 }) => {
   const openCalorieFilter = () => {
     document.body.style.overflow = "hidden";
     setShowCalorieFilter(true);
+    scrollRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+
   };
 
   const closeCalorieFilter = () => {
@@ -49,10 +53,10 @@ export const RestaurantSectionMobileFilter = ({
   };
 
   return (
-    <section
+    <section 
       className={`md:hidden sticky top-0 bg-white z-40 border-b border-stone-300`}
     >
-      <div className="mobile-padding">
+      <div className="mobile-padding" >
         <div
           className={`${
             !showCalorieFilter && "border-b"
@@ -93,7 +97,7 @@ export const RestaurantSectionMobileFilter = ({
                     </button> */}
           </div>
 
-          <button
+          {/* <button
             // onClick={() => setShowCalorieFilter(!showCalorieFilter)}
             onClick={() => setShowCalorieFilter(!showCalorieFilter)}
             className="text-sm text-stone-700 peer py-1 flex items-center"
@@ -103,7 +107,7 @@ export const RestaurantSectionMobileFilter = ({
               className=" ml-1 h-3 w-3 text-stone-500 "
               aria-hidden="true"
             />
-          </button>
+          </button> */}
         </div>
 
         {!showCalorieFilter ? (
@@ -156,6 +160,7 @@ export const RestaurantSectionMobileFilter = ({
         setCaloriesMessage={setCaloriesMessage}
         caloriePreset={caloriePreset}
         setCaloriePreset={setCaloriePreset}
+
       />
     </section>
   );

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useSortableData } from "../../components/UseSortableData";
 import prisma from "../../lib/prisma";
 import { NextSeo } from "next-seo";
@@ -32,6 +32,7 @@ import _ from 'lodash';
 
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
+
 
 const DynamicMeals = dynamic(() => import('../../components/RestaurantSectionMeals'), {
   suspense: true,
@@ -134,6 +135,9 @@ export default function Restaurant(props) {
 
   // Mobile only
   const [showCalorieFilter, setShowCalorieFilter] = useState(false);
+
+  const scrollRef = useRef(null);
+
 
   //-------------------- FILTER & RELOAD ----------------------
 
@@ -362,6 +366,7 @@ export default function Restaurant(props) {
               categories={categoriesWithParents}
               restaurant={restaurant}
             />
+            <div ref={scrollRef}/>
             <RestaurantSectionDesktopThematicSort
               thematicFilter={thematicFilter}
               setThematicFilter={setThematicFilter}
@@ -383,6 +388,8 @@ export default function Restaurant(props) {
               thematicFilter={thematicFilter}
               setThematicFilter={setThematicFilter}
               setShowCustomRow={setShowCustomRow}
+
+              scrollRef = {scrollRef}
             />
  <Suspense fallback={`Loading...`}>
       

@@ -176,6 +176,7 @@ export const MobileSectionCalorieFilter = ({
   setCaloriesMessage,
   caloriePreset,
   setCaloriePreset
+  
 }) => {
 
 

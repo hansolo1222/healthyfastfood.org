@@ -14,14 +14,16 @@ import {
   getCustomNutritionRowInfo,
   getUmbrellaCategory,
 } from "../../components/utils";
-import { AsideFilterByCalories } from "../../components/AsideFilterByCalories";
+import { AsideCalorieFilter } from "../../components/AsideFilterByCalories";
 import { AsideFilterByUmbrellaCategories } from "../../components/AsideFilterByUmbrellaCategory";
 import { AsideAllergens } from "../../components/AsideAllergens";
 import { AsideTopRestaurants } from "../../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../../components/FilterThematicFilter";
-import { TableHeaders, TableMealRow } from "../../components/TableMealRow";
+import { TableHeaders, TableMealRow, formatParentCategory } from "../../components/TableMealRow";
 import Select from "react-select";
-import { formatParentCategory } from "../../components/TableMealRow";
+
+console
+
 export const getServerSideProps = async (context) => {
   const parent = await prisma.parentCategory.findUnique({
     where: {
@@ -326,12 +328,12 @@ export default function Category(props) {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Layout>
-        <div className="flex">
+        <div className="flex mobile-padding">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
-            <AsideFilterByCalories
+            {/* <AsideFilterByCalories
               handleSetMaxCalories={handleSetMaxCalories}
               handleSetMinCalories={handleSetMinCalories}
-            />
+            /> */}
             <AsideFilterByUmbrellaCategories
               umbrellaCategories={umbrellaCategories}
               handleUmbrellaCategories={handleUmbrellaCategories}
@@ -341,7 +343,7 @@ export default function Category(props) {
               handleAllergens={handleAllergens}
             />
 
-            <div className="mt-8 bg-stone-50 rounded-xl p-2">
+            <div className="mt-8 bg-stone-50 rounded-xl p-2 ">
               <h2 className="text-stone-500 text-xs uppercase font-semibold p-2 ">
                 Food Categories
               </h2>
