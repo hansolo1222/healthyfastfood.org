@@ -26,7 +26,7 @@ export const RestaurantSectionMealsNew = (
     <section className="overflow-x-auto w-full z-10 mt-4">
     {groupedItems.map((category) => {
         return (
-          <div className="bg-white">
+          <div className="bg-white" key={category.categoryName}>
             <h2
               className="pb-2 pt-2 md:pt-4 mobile-padding text-base md:text-lg font-semibold border-b md:border-b-0"
               id={category.categoryName}
@@ -114,7 +114,7 @@ export const RestaurantSectionMeals = (
        )
       .map((cat, i) => {
         return (
-          <div className="bg-white">
+          <div className="bg-white" key={cat.categoryName}>
             <h2
               className="pb-2 pt-2 md:pt-4 mobile-padding text-base md:text-lg font-semibold border-b md:border-b-0"
               id={cat.categorySlug}
@@ -188,7 +188,7 @@ export const RestaurantSectionMeals = (
                           colSpan={8}
                           className="single-cell-row text-md text-stone-500 text-left md:text-center py-3 md:py-8 w-screen"
                         >
-                          There are no items for this category or we don't have the data yet! <a className="text-red-500" href="">Let us know</a>
+                          There are no items for this category or we don&apos;t have the data yet! <a className="text-red-500" href="">Let us know</a>
                         </td>
                       </tr>
                     )}

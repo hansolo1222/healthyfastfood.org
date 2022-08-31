@@ -14,6 +14,7 @@ export const RestaurantSectionCategories = ({
         {categories.map((cat) => {
           return (
             <a
+              key={cat.categorySlug}
               href={`/${restaurant.slug}#${cat.categorySlug}`}
               className="border py-1 px-3 rounded-full text-blue-600 mr-1 mb-1 md:mr-2 md:mb-2 text-sm"
             >
