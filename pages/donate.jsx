@@ -87,7 +87,7 @@ You can use Ko-Fi to help with continued development of HealthyFastFood.org!
             <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
               <div className="rounded-md shadow">
                 <a
-                  href="/restaurants"
+                  href="https://ko-fi.com/healthyfastfood"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
                 >
                   Donate with Ko-Fi
