@@ -47,6 +47,8 @@ export const getServerSideProps = async (context) => {
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes } = props;
 
+  console.log(restaurantTypes.map((e)=>({"name":e.name})))
+
   let {
     items,
     requestSort,

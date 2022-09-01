@@ -70,6 +70,10 @@ async function generate() {
     (restaurant) => `${BASE_URL}/${restaurant.slug}/keto`
   );
 
+  const lowCarbPaths = restaurants.map(
+    (restaurant) => `${BASE_URL}/${restaurant.slug}/low-carb`
+  );
+
   const categoryPaths = categories.map(
     (category) => `${BASE_URL}/category/${category.slug}`
   );
@@ -80,7 +84,7 @@ async function generate() {
 
   const sitemap1Paths = [...staticPaths, ...restaurantPaths];
 
-  const sitemap2Paths = [...ketoPaths, ...categoryPaths];
+  const sitemap2Paths = [...categoryPaths, ...ketoPaths, ...lowCarbPaths];
 
   const sitemap1 = `
   <?xml version="1.0" encoding="UTF-8"?>

@@ -2,6 +2,10 @@ import React from "react";
 import { Subscribe } from "./Subscribe";
   const navigation = {
     healthyfastfood: [
+      { name: 'About', href: '/about' },
+      { name: 'Donate', href: '/donate' },
+      { name: 'Terms of Service', href: '/terms-of-service' },
+      { name: 'Privacy Policy', href: '/privacy-policy' },
       { name: 'Restaurants', href: '/restaurants' },
       { name: 'Meal Categories', href: '/category' },
     ],
