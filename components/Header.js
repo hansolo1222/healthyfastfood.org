@@ -303,7 +303,32 @@ const Header = () => {
                 >
                   {item.name}
                 </Disclosure.Button>
+                
               ))}
+              <Disclosure.Button
+                  key="About"
+                  as="a"
+                  href="/about"
+                  className={classNames(
+                    "text-stone-900 hover:bg-stone-100 ",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={"page"}
+                >
+                  About
+                </Disclosure.Button>
+              <Disclosure.Button
+                  key="Donate"
+                  as="a"
+                  href="/donate"
+                  className={classNames(
+                    "text-stone-900 hover:bg-stone-100 ",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={"page"}
+                >
+                  Donate
+                </Disclosure.Button>
             </div>
           </Disclosure.Panel>
         </>
