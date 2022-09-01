@@ -132,7 +132,7 @@ async function generate() {
   writeFileSync("public/priority-sitemap.xml", formattedSitemap2);
 
    // meals get chunked into sitemaps of 10000 links
-   const chunkSize = 10000;
+   const chunkSize = 8000;
 
    let chunkedPaths = [];
  
@@ -165,23 +165,23 @@ async function generate() {
 
     let index = i + 1;
     // eslint-disable-next-line no-sync
-    writeFileSync("public/sitemap" + index + ".xml", formatted);
+    writeFileSync("public/meal-sitemap-" + index + ".xml", formatted);
   });
 
   const masterSitemap = `
   <?xml version="1.0" encoding="UTF-8"?>
     <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <sitemap>
-        <loc>https://www.minerlist.com/sitemap1.xml</loc>
+        <loc>https://www.minerlist.com/restaurant-sitemap.xml</loc>
       </sitemap>
       <sitemap>
-        <loc>https://www.minerlist.com/sitemap2.xml</loc>
+        <loc>https://www.minerlist.com/priority-sitemap.xml</loc>
       </sitemap>
       ${chunkedPaths
         .map((chunk, index) => {
           return `
             <sitemap>
-                <loc>https://www.minerlist.com/meals-sitemap-${`${
+                <loc>https://www.minerlist.com/meal-sitemap-${`${
                   index + 1
                 }`}.xml</loc>
             </sitemap>

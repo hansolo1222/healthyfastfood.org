@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://healthyfastfood.org/about</loc>
+  </url>
+
+  <url>
+    <loc>https://healthyfastfood.org/donate</loc>
+  </url>
+
+  <url>
     <loc>https://healthyfastfood.org</loc>
+  </url>
+
+  <url>
+    <loc>https://healthyfastfood.org/privacy-policy</loc>
+  </url>
+
+  <url>
+    <loc>https://healthyfastfood.org/terms-of-service</loc>
   </url>
 
   <url>
@@ -98,10 +114,6 @@
 
   <url>
     <loc>https://healthyfastfood.org/bennigans</loc>
-  </url>
-
-  <url>
-    <loc>https://healthyfastfood.org/bjs-restaurant</loc>
   </url>
 
   <url>
@@ -389,6 +401,10 @@
   </url>
 
   <url>
+    <loc>https://healthyfastfood.org/stk</loc>
+  </url>
+
+  <url>
     <loc>https://healthyfastfood.org/cava</loc>
   </url>
 
@@ -438,10 +454,6 @@
 
   <url>
     <loc>https://healthyfastfood.org/miami-grill</loc>
-  </url>
-
-  <url>
-    <loc>https://healthyfastfood.org/stk</loc>
   </url>
 
   <url>
@@ -718,10 +730,6 @@
 
   <url>
     <loc>https://healthyfastfood.org/honey-dew-donuts</loc>
-  </url>
-
-  <url>
-    <loc>https://healthyfastfood.org/big-boy</loc>
   </url>
 
   <url>
@@ -1145,11 +1153,11 @@
   </url>
 
   <url>
-    <loc>https://healthyfastfood.org/greenred-burrito</loc>
+    <loc>https://healthyfastfood.org/el-taco-tote</loc>
   </url>
 
   <url>
-    <loc>https://healthyfastfood.org/el-taco-tote</loc>
+    <loc>https://healthyfastfood.org/green-burrito</loc>
   </url>
 
   <url>
@@ -1561,6 +1569,10 @@
   </url>
 
   <url>
+    <loc>https://healthyfastfood.org/big-boy-restaurants</loc>
+  </url>
+
+  <url>
     <loc>https://healthyfastfood.org/cook-out</loc>
   </url>
 
@@ -1598,10 +1610,6 @@
 
   <url>
     <loc>https://healthyfastfood.org/great-wraps</loc>
-  </url>
-
-  <url>
-    <loc>https://healthyfastfood.org/frischs-big-boy</loc>
   </url>
 
   <url>
