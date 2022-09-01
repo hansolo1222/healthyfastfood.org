@@ -102,8 +102,33 @@ export default function Meal(props) {
       meal.protein * 4 + meal.totalCarbohydrates * 10 + meal.totalFat * 4,
   };
 
-  console.log(macros);
+  const addJsonLdMenu = () => {
+    return {
+      __html: `
+    {
+      "@context": "http://schema.org",
+            "@type":"MenuItem",
+            "name":"${meal.name}",
+            "nutrition": {
+              "@type":"NutritionInformation",
+              "calories":"${meal.calories}",
+              "fatContent":"${meal.totalFat}",
+              "saturatedFatContent":"${meal.saturatedFat}",
+              "transFatContent":"${meal.transFat}",
+              "proteinContent":"${meal.protein}",
+              "carbohydrateContent":"${meal.totalCarbohydrates}",
+              "sodiumContent":"${meal.sodium}",
+              "sugarContent":"${meal.sugar}",
+              "fiberContent":"${meal.dietaryFiber}"
 
+
+            }
+            }
+            
+
+    `,
+    };
+  };
   const faqs = [
     {
       question: `How many calories are in the ${restaurant.name} ${meal.name}?`,
@@ -179,8 +204,11 @@ export default function Meal(props) {
           cardType: "summary_large_image",
         }}
       />
-      <Head>
-        <link rel="icon" href="/images/favicon.ico" />
+       <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addJsonLdMenu()}
+        />
       </Head>
       <Layout>
         <div className="flex">
