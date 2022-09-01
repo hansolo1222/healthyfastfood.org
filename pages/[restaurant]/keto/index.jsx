@@ -24,7 +24,7 @@ import { RestaurantSectionCategories } from "../../../components/RestaurantSecti
 import { RestaurantSectionDesktopThematicSort } from "../../../components/RestaurantSectionDesktopThematicSort";
 import { RestaurantSectionMobileFilter } from "../../../components/RestaurantSectionMobileFilter";
 import { RestaurantSectionTextBlock } from "../../../components/RestaurantSectionTextBlock";
-import { RestaurantSectionMeals } from "../../../components/RestaurantSectionMeals";
+import  RestaurantSectionMeals  from "../../../components/RestaurantSectionMeals";
 import EmailSignup from "../../../components/EmailSignup";
 import ReactMarkdown from "react-markdown";
 import { FAQ } from "../../../components/FAQ";
@@ -351,7 +351,7 @@ export default function RestaurantKetoMenu(props) {
               <ReactMarkdown className="article-container max-w-2xl   ">
 {`Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options. This tool is interactive so you can change what counts 'keto-friendly' depending on your personal dietary requirements.
 
-As a default we're using **20g net carbohydrates** as the maximum for keto-friendly options. People eating on a ketogenic diet will track a food's net carbs, which is equal to total carbs minus fiber [[explanation]()].
+As a default we're using **20g net carbohydrates** as the maximum for keto-friendly options. People eating on a ketogenic diet will track a food's net carbs, which is equal to total carbs minus fiber.
 
 For foods with slightly more carbs you might be interested in [low-carb options at ${restaurant.name}](/${restaurant.slug}/low-carb).
 `}
@@ -434,6 +434,7 @@ For foods with slightly more carbs you might be interested in [low-carb options 
 
 
 ## How to use this tool
+
 Keto doesn’t necessarily mean zero carbs.  A keto diet typically limits net carb intake to less than 50 grams per day—stricter versions of keto can be as low as 20 grams of net carbs a day. [[Source](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/ketogenic-diet/#:~:text=The%20ketogenic%20diet%20typically%20reduces,and%2010%2D20%25%20protein.)]
 
 What are net carbs and why do people doing keto count them instead of total carbs? **Net carbs equal total carbs minus fiber**, because the carbs in fiber are not digested and don’t cause the blood sugar increase that knocks you out of ketosis. [[Source](https://dtc.ucsf.edu/living-with-diabetes/diet-and-nutrition/understanding-carbohydrates/counting-carbohydrates/learning-to-read-labels/understanding-fiber/)]

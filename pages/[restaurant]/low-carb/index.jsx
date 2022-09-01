@@ -24,7 +24,7 @@ import { RestaurantSectionCategories } from "../../../components/RestaurantSecti
 import { RestaurantSectionDesktopThematicSort } from "../../../components/RestaurantSectionDesktopThematicSort";
 import { RestaurantSectionMobileFilter } from "../../../components/RestaurantSectionMobileFilter";
 import { RestaurantSectionTextBlock } from "../../../components/RestaurantSectionTextBlock";
-import { RestaurantSectionMeals } from "../../../components/RestaurantSectionMeals";
+import RestaurantSectionMeals from "../../../components/RestaurantSectionMeals";
 import EmailSignup from "../../../components/EmailSignup";
 import ReactMarkdown from "react-markdown";
 import { FAQ } from "../../../components/FAQ";
