@@ -1,7 +1,7 @@
 export const SectionDisclaimer = ({restaurantName}) => {
   return (
     <section>
-      <div className="text-sm mt-16 text-stone-600">
+      {/* <div className="text-sm mt-16 text-stone-600">
         Please note that item availability varies by restaurant location.
         <br />
         <br />
@@ -18,7 +18,7 @@ export const SectionDisclaimer = ({restaurantName}) => {
         <br />
         Warning: High Sodium intake can increase blood pressure and risk of
         heart disease and stroke.
-      </div>
+      </div> */}
     </section>
   );
 };
