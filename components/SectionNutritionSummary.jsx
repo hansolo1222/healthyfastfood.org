@@ -50,6 +50,19 @@ export const SectionNutritionSummary = ({ meal }) => {
             </p>
           </div>
         </div>
+      {meal.calories > 0 &&
+        <div className="col-span-1">
+          <div className="border p-5 rounded-lg">
+          <h3 className="pb-4 font-semibold">How much exercise would it take to burn off the {meal.name}?</h3>
+
+          <p>For someone weighing 150 pounds, it would take {(meal.calories * 60 / 700).toFixed(0)} minutes to burn off the {meal.name} by running.</p>
+          <br/>
+          <p>It would take {(meal.calories * 30 / 252).toFixed(0)} minutes to burn if off by bicycling.</p>
+          <br/>
+          <p>It would take {(meal.calories * 30 / 216).toFixed(0)} minutes to burn if off by weightlifting.</p>
+          </div>
+        </div>
+      }
       </div>
     </section>
   );
