@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
   <>
     <Head>
       <link rel="shortcut icon" href="/images/favicon.ico" />
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
+      <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
      crossOrigin="anonymous"></script>
       
       <script
