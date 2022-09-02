@@ -16,7 +16,6 @@ import { AsideAllergens } from "../../components/AsideAllergens";
 import { AsideTopRestaurants } from "../../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../../components/FilterThematicFilter";
 import { TableHeaders, TableMealRow } from "../../components/TableMealRow";
-import Select from "react-select";
 import { formatParentCategory } from "../../components/TableMealRow";
 import { ShareIcons } from "../../components/ShareIcons";
 

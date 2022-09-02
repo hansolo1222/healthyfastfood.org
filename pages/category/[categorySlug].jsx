@@ -20,9 +20,7 @@ import { AsideAllergens } from "../../components/AsideAllergens";
 import { AsideTopRestaurants } from "../../components/AsideTopRestaurants";
 import { FilterThematicFilter } from "../../components/FilterThematicFilter";
 import { TableHeaders, TableMealRow, formatParentCategory } from "../../components/TableMealRow";
-import Select from "react-select";
 
-console
 
 export const getServerSideProps = async (context) => {
   const parent = await prisma.parentCategory.findUnique({
@@ -432,21 +430,19 @@ export default function Category(props) {
               <div className="">
                 <h3 className="text-xs font-semibold uppercase pb-2">Filter</h3>
                 <div className="flex space-x-2">
-                  <Select
+                  {/* <Select
                     options={calorieOptions}
                     isClearable={true}
                     placeholder="By Calories"
                     onChange={handleSetMaxCaloriesMobile}
                   />
-                  {/* <div className="text-sm text-stone-700 peer border py-1 px-2 rounded-full flex items-center">
-                  Allergens <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
-                </div> */}
+                  
                   <Select
                     options={allergenOptions}
                     isMulti
                     placeholder="+ Allergies"
                     onChange={setAllergens}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
