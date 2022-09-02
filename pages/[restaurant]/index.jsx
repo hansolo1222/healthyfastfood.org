@@ -38,7 +38,13 @@ const DynamicMeals = dynamic(() => import('../../components/RestaurantSectionMea
   suspense: true,
 })
 
-export const getServerSideProps = async (context) => {
+export const getStaticProps = async (context) => {
+
+  // res.setHeader(
+  //   'Cache-Control',
+  //   'public, s-maxage=10, stale-while-revalidate=59'
+  // )
+
   const restaurant = await prisma.restaurant.findUnique({
     where: {
       slug: String(context.params?.restaurant),
@@ -90,6 +96,18 @@ export const getServerSideProps = async (context) => {
     },
   };
 };
+
+export async function getStaticPaths() {
+  const restaurants = await prisma.restaurant.findMany()
+
+  // Get the paths we want to pre-render based on posts
+  const paths = restaurants.map(rest => ({
+      params: {restaurant: rest.slug},
+  }));
+
+  // We'll pre-render only these paths at build time.
+  return {paths, fallback: false}
+}
 
 export default function Restaurant(props) {
   const { restaurant, restaurants, restaurantType } = props;
