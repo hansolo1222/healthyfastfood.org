@@ -19,9 +19,9 @@ import { SectionRestaurantInfo } from "../../components/SectionRestaurantInfo";
 import { SectionVariantsList } from "../../components/SectionVariantsList";
 
 import { ShareIcons } from "../../components/ShareIcons";
+import { AsideRelatedMeals, AsideRelatedMealsOtherRestaurants } from "../../components/AsideRelatedMeals";
 
 export const getServerSideProps = async (context) => {
-  console.log(context.resolvedUrl.split("/"));
 
   const mealData = await prisma.meal.findUnique({
     where: {
@@ -37,7 +37,11 @@ export const getServerSideProps = async (context) => {
           restaurantType: true,
         },
       },
-      category: true,
+      category: {
+        include: {
+          parentCategory: true,
+        }
+      },
       variants: {
         include: {
           subvariants: true,
@@ -46,20 +50,41 @@ export const getServerSideProps = async (context) => {
     },
   });
 
-  //const category = mealData.category.name;
+  // get 10 meals in this restaurant in this category
 
-  // const mealsInCategory = await prisma.meal.findMany({
-  //   where: {
-  //     category: {
-  //       name: category,
-  //     },
-  //   },
-  // });
-
-  const topRestaurants = await prisma.restaurant.findMany({
+  const relatedMeals = await prisma.meal.findMany({
+    take: 10,
     where: {
-      rank: {
-        lt: 13,
+      restaurant: {
+        slug: mealData.restaurant.slug,
+      },
+      category: {
+        name: mealData.category.name
+      }
+    }
+  })
+
+  const relatedMealsOtherRestaurants = await prisma.meal.findMany({
+    take: 8,
+    where: {
+      category: {
+        parentCategorySlug: mealData.category.parentCategorySlug
+      }
+    },
+    include: {
+      restaurant: true,
+    }
+  })
+
+  // get 10 restaurants in this restaurantType
+  
+  const restaurantType = mealData.restaurant.restaurantType.slug;
+
+  const restaurants = await prisma.restaurant.findMany({
+    take: 8,
+    where: {
+      restaurantType: {
+        slug: restaurantType,
       },
     },
     orderBy: [
@@ -68,23 +93,23 @@ export const getServerSideProps = async (context) => {
       },
     ],
   });
-  // if (mealData == undefined) {
-  //   return {
-  //     notFound: true,
-  //   };
-  // }
+
   return {
     props: {
       meal: JSON.parse(JSON.stringify(mealData)),
+      relatedMeals: JSON.parse(JSON.stringify(relatedMeals)),
+      relatedMealsOtherRestaurants:  JSON.parse(JSON.stringify(relatedMealsOtherRestaurants)),
       // mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
-      topRestaurants: JSON.parse(JSON.stringify(topRestaurants)),
+      restaurantsInCategory: JSON.parse(JSON.stringify(restaurants)),
     },
   };
 };
 
 export default function Meal(props) {
-  const { meal, topRestaurants } = props;
+  const { meal, relatedMeals, relatedMealsOtherRestaurants, restaurantsInCategory } = props;
+
   let restaurant = meal.restaurant;
+  let parentCategory = meal.category.parentCategorySlug;
 
   let proteinCalories = meal.protein * 4;
   let carbCalories = meal.totalCarbohydrates * 9;
@@ -102,7 +127,7 @@ export default function Meal(props) {
       meal.protein * 4 + meal.totalCarbohydrates * 10 + meal.totalFat * 4,
   };
 
-  const addJsonLdMenu = () => {
+  const addJsonLdNutrition = () => {
     return {
       __html: `
     {
@@ -122,8 +147,9 @@ export default function Meal(props) {
               "fiberContent":"${meal.dietaryFiber}"
 
 
+            
             }
-            }
+          }
             
 
     `,
@@ -207,13 +233,15 @@ export default function Meal(props) {
        <Head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addJsonLdMenu()}
+          dangerouslySetInnerHTML={addJsonLdNutrition()}
         />
       </Head>
       <Layout>
-        <div className="flex">
+        <div className="flex mobile-padding">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 mr-8">
-            <AsideTopRestaurants restaurants={topRestaurants} />
+            <AsideRelatedMeals meals={relatedMeals} restaurant={restaurant} parentCategory={parentCategory}/>
+            <AsideRelatedMealsOtherRestaurants meals={relatedMealsOtherRestaurants} />
+            <AsideTopRestaurants restaurants={restaurantsInCategory} />
           </aside>
           <main className="overflow-x-auto">
             <SectionIntro meal={meal} restaurantName={restaurant.name} restaurantSlug={restaurant.slug} pages={pages}/>
@@ -241,6 +269,11 @@ export default function Meal(props) {
 
            
           </main>
+        </div>
+        <div className="block sm:flex md:hidden mobile-padding">
+          <AsideRelatedMeals meals={relatedMeals} restaurant={restaurant} parentCategory={parentCategory}/>
+            <AsideRelatedMealsOtherRestaurants meals={relatedMealsOtherRestaurants} />
+            <AsideTopRestaurants restaurants={restaurantsInCategory} />
         </div>
       </Layout>
     </div>

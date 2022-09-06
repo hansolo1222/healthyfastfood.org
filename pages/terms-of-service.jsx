@@ -6,12 +6,13 @@ import { RestaurantSectionTextBlock } from "../components/RestaurantSectionTextB
 import ReactMarkdown from "react-markdown";
 
 
-export default function Privacy() {
+export default function TOS() {
   return (
     <div className="">
       <NextSeo
-        title={`Terms of Service| Healthy Fast Food`}
-        description={`Healthy Fast Food is the definite source on restaurant nutrition to get the body you want.`}
+        title={`Terms of Service | Healthy Fast Food`}
+        description={`Please read this Terms of Service carefully before using the website. The following terms and conditions govern all use of HealthyFastFood.org and apply to all visitors and users. By accessing our website, you agree to be bound by all these terms and conditions. If you do not comply with this agreement, then you may not be allowed to access the website or use any services.
+`}
         canonical={`https://healthyfastfood.org/about/`}
         additionalMetaTags={[
           {
@@ -25,7 +26,7 @@ export default function Privacy() {
           title:
             "Terms of Service | Healthy Fast Food",
           description:
-            "Healthy Fast Food is the definite source on the healthiest items to order at restaurants",
+            "Please read this Terms of Service carefully before using the website. The following terms and conditions govern all use of HealthyFastFood.org and apply to all visitors and users. By accessing our website, you agree to be bound by all these terms and conditions. If you do not comply with this agreement, then you may not be allowed to access the website or use any services.",
           images: [
             {
               url: `/images/restaurant_logos/mcdonalds.webp`,
@@ -48,10 +49,9 @@ export default function Privacy() {
     <div className="overflow-hidden  py-16">
       <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:max-w-none">
-          <h2 className="text-lg font-semibold text-red-600">🍔</h2>
-          <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl">
-            Privacy Policy
-          </p>
+          <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl">
+            Terms of Service
+          </h1>
         </div>
         <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
           <p className="text-lg text-stone-500">
@@ -75,19 +75,25 @@ export default function Privacy() {
 </div> */}
   <ReactMarkdown>
 {`
-### How can I contribute new content to the site? 
+Please read this Terms of Service carefully before using the website. The following terms and conditions govern all use of HealthyFastFood.org and apply to all visitors and users. By accessing our website, you agree to be bound by all these terms and conditions. If you do not comply with this agreement, then you may not be allowed to access the website or use any services.
 
-Please email me at [yubin@healthyfastfood.org](mailto:yubin@healthyfastfood.org).
+## Privacy Policy
+At HealthyFastFood.org, we are committed to respecting and protecting your privacy. Please read our [Privacy Policy](/privacy-policy) before accessing the website; it will inform you about how we collect, use and disclose the information.
 
-HealthyFastFood currently only has data on the US and Canada. If you are from another country and would like to contribute restaurant and meal data from your home country, let me know!
+## Proprietary Rights
+HealthyFastFood.org and all its aspects, including but not limited to all the content and data, the design and the layout, are owned by our company. Using the Website does not grant you ownership of any property rights. The information on the Website is only for personal use and non-commercial purposes. Any individual or organization shall not be allowed to copy or republish the content elsewhere.
 
-### What is your favorite healthy fast food?
+## Information on the Website
+We put a lot of emphasis on the accuracy of the content on HealthyFastFood.org, but we cannot guarantee that the services are all available or there is no incorrect information on the Website because restaurant locations and menu items might change at any time. Your use of the Website means you accept such inaccuracy or incompleteness. We will not be responsible for any harms that may result from accessing or using the information on the Website.
 
-The [Chick-Fil-A Grilled Chicken Sandwich](/chick-fil-a/grilled-chicken-sandwich). Fresh tomato and lettuce and tender chicken. Mmm.
-- 320 cal
-- 32g protein
-- 44g carbs
-- 22g total fat
+## Linked Sites
+We do not own or control or monitor any third-party websites and links on HealthyFastFood.org, and we take no responsibility for any false or incorrect information on those sites. Users who enter the sites should be careful and will do it at one's own risk. We strongly suggest you read their terms of service and privacy policies before Further accessing their websites.
+
+## Changes
+HealthyFastFood.org reserves the right to modify or replace these Terms of Service without further notice. It is your responsibility to check it. Your continued use of or access to the Website acknowledges you agree to be bound by the latest terms.
+
+## Contact Information
+If you would like to request additional information regarding the Terms of Service, please contact us at support@healthyfastfood.org.
 `}         
 </ReactMarkdown>
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function RestaurantCloud({restaurants}) {
   return (
     <div className="bg-white">
-    <h2 className="text-xl md:text-3xl font-bold text-center mt-6 md:mt-12">Find the Healthiest Options at all Restaurant Chains</h2>
+   
       <div className="max-w-7xl mx-auto py-6 md:py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-5" >
           {restaurants.map((restaurant)=>(
@@ -74,7 +74,7 @@ export default function RestaurantCloud({restaurants}) {
       </div>
       <div className="flex justify-center">
       <Link href="/restaurants" >
-          <div className="bg-red-500 cursor-pointer hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded-lg mx-auto">
+          <div className="bg-red-500 shadow-xl cursor-pointer hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded-lg mx-auto">
         See All Restaurants
         </div>
       </Link>

@@ -12,6 +12,8 @@ export const TableMealRow = ({
 }) => {
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
+
+  console.log(showRestaurantData)
   return (
     <tr className="mealRow cursor-pointer hover:bg-white md:hover:bg-stone-50 text-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">

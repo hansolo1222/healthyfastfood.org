@@ -1,28 +1,68 @@
+// import Head from "next/head";
+// import Image from "next/image";
+// import Layout from "../../components/Layout";
+// import { useEffect, useState } from "react";
+// import { useSortableData } from "../../components/UseSortableData";
+// import Link from "next/link";
+// import { useRouter } from "next/router";
+// import { Breadcrumbs } from "../../components/Breadcrumbs";
+// import prisma from "../../lib/prisma";
+// import { NextSeo } from "next-seo";
+// import { FoodCategoryTabs } from "../../components/Tabs";
+// import {
+//   classNames,
+//   getCustomNutritionRowInfo,
+//   getUmbrellaCategory,
+// } from "../../components/utils";
+// import { AsideCalorieFilter } from "../../components/AsideFilterByCalories";
+// import { AsideFilterByUmbrellaCategories } from "../../components/AsideFilterByUmbrellaCategory";
+// import { AsideAllergens } from "../../components/AsideAllergens";
+// import { AsideTopRestaurants } from "../../components/AsideTopRestaurants";
+// import { FilterThematicFilter } from "../../components/FilterThematicFilter";
+// import { TableHeaders, TableMealRow, formatParentCategory } from "../../components/TableMealRow";
+
 import Head from "next/head";
-import Image from "next/image";
 import Layout from "../../components/Layout";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useSortableData } from "../../components/UseSortableData";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { Breadcrumbs } from "../../components/Breadcrumbs";
 import prisma from "../../lib/prisma";
 import { NextSeo } from "next-seo";
-import { FoodCategoryTabs } from "../../components/Tabs";
+import { Tabs } from "../../components/Tabs";
 import {
-  classNames,
+  calculateCustomNutrition,
   getCustomNutritionRowInfo,
   getUmbrellaCategory,
+  handleAllergens,
+  filterItems,
+  formatMealsWithVariants,
+  getCategoriesWithParentsFromMeals,
+  sortCategories,
 } from "../../components/utils";
 import { AsideCalorieFilter } from "../../components/AsideFilterByCalories";
 import { AsideFilterByUmbrellaCategories } from "../../components/AsideFilterByUmbrellaCategory";
 import { AsideAllergens } from "../../components/AsideAllergens";
 import { AsideTopRestaurants } from "../../components/AsideTopRestaurants";
-import { FilterThematicFilter } from "../../components/FilterThematicFilter";
-import { TableHeaders, TableMealRow, formatParentCategory } from "../../components/TableMealRow";
+import { RestaurantSectionHeader } from "../../components/RestaurantSectionHeader";
+import { RestaurantSectionCategories } from "../../components/RestaurantSectionCategories";
+import { RestaurantSectionDesktopThematicSort } from "../../components/RestaurantSectionDesktopThematicSort";
+import { RestaurantSectionMobileFilter } from "../../components/RestaurantSectionMobileFilter";
+import { RestaurantSectionTextBlock } from "../../components/RestaurantSectionTextBlock";
+import { RestaurantSectionMeals } from "../../components/RestaurantSectionMeals";
+import EmailSignup from "../../components/EmailSignup";
+import ReactMarkdown from "react-markdown";
+import { FAQ } from "../../components/FAQ";
+import _ from "lodash";
+
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
 
 
-export const getServerSideProps = async (context) => {
+const DynamicMeals = dynamic(() => import('../../components/RestaurantSectionMeals'), {
+  suspense: true,
+})
+
+
+export const getStaticProps = async (context) => {
   const parent = await prisma.parentCategory.findUnique({
     where: {
       slug: String(context.params?.categorySlug),
@@ -62,125 +102,96 @@ export const getServerSideProps = async (context) => {
 
   return {
     props: {
-      parent: JSON.parse(JSON.stringify(parent)),
+      category: JSON.parse(JSON.stringify(parent)),
       parentCategories: JSON.parse(JSON.stringify(parentCategories)),
       restaurants: JSON.parse(JSON.stringify(restaurants)),
     },
   };
 };
 
+export async function getStaticPaths() {
+  const parentCategories = await prisma.parentCategory.findMany();
+
+  // Get the paths we want to pre-render based on posts
+  const paths = parentCategories.map((category) => ({
+    params: { categorySlug: category.slug },
+  }));
+
+  // We'll pre-render only these paths at build time.
+  return { paths, fallback: false };
+}
+
+
+
+
 export default function Category(props) {
-  const router = useRouter();
+  let { category, parentCategories, restaurants } = props;
 
-  let { parentCategories, parent, restaurants } = props;
+  let restaurant={name:"e",}
 
-  console.log(parent.categories);
-
-  let meals = parent.categories.flatMap((cat) => cat.meals);
-
-  let category = parent;
-  let data = parent;
+  let meals = formatMealsWithVariants(
+    category.categories.flatMap((cat) => cat.meals)
+  );
 
   // let categories = [...new Set(meals.map((item) => item.category.name))];
 
   const pages = [
-    { name: "Categories", href: `/categories` },
+    { name: "Categories", href: `/category` },
     { name: category.name, href: `/category/${category.slug}` },
   ];
 
-  //format meals with variants
+  const categoriesWithParents = sortCategories(
+    getCategoriesWithParentsFromMeals(meals)
+  );
 
-  meals = meals.map((meal) => {
-    if (meal.variants.length > 0) {
-      if (meal.variants[0].subvariants.length > 0) {
-        let fullName = `${meal.name} (${meal.variants[0].variantName}) (${meal.variants[0].subvariants[0].subvariantName})`;
-        return {
-          ...meal,
-          ...meal.variants[0].subvariants[0],
-          name: fullName,
-        };
-      } else {
-        let fullName = `${meal.name} (${meal.variants[1].variantName})`;
-        return {
-          ...meal,
-          ...meal.variants[1],
-          name: fullName,
-          variantName: meal.variants[1].variantName,
-        };
-      }
-    } else return meal;
-  });
-
+  //--------------------------- MEALS & FILTERS ---------------------------
   const [mealData, setMealData] = useState(meals);
-  console.log(mealData);
-
-  const [filters, setFilters] = useState([]);
-
   const [umbrellaCategories, setUmbrellaCategories] = useState([
     "food",
-    "beverage",
+    "beverages",
+    "condiments",
   ]);
   const [allergens, setAllergens] = useState([]);
-
-  const [minCalories, setMinCalories] = useState(0);
-  const [maxCalories, setMaxCalories] = useState(2000);
-
   const [thematicFilter, setThematicFilter] = useState();
   const [showCustomRow, setShowCustomRow] = useState(false);
 
-  const handleFilter = (filter) => {
-    setFilters(filter);
-    // filters.includes(filter)
-    //   ? setFilters(filters.filter((value) => value !== filter))
-    //   : setFilters(filters.concat(filter));
+  //--------------------------- CALORIE FILTERS ---------------------------
+
+  // These are live: all data will be filtered by these values
+  const [minCalories, setMinCalories] = useState(0);
+  const [maxCalories, setMaxCalories] = useState(10000);
+
+  // These are for displaying in the input fields
+  const [displayMinCalories, setDisplayMinCalories] = useState(null);
+  const [displayMaxCalories, setDisplayMaxCalories] = useState(null);
+  const [caloriePreset, setCaloriePreset] = useState({ name: null });
+  const [caloriesMessage, setCaloriesMessage] = useState("");
+
+  const closeCalorieFilter = () => {
+    document.body.style.overflow = "auto";
+    setShowCalorieFilter(false);
   };
 
-  const handleUmbrellaCategories = (e) => {
-    let filter = e.target.id;
-    umbrellaCategories.includes(filter)
-      ? setUmbrellaCategories(
-          umbrellaCategories.filter((value) => value !== filter)
-        )
-      : setUmbrellaCategories(umbrellaCategories.concat(filter));
-  };
+  // Mobile only
+  const [showCalorieFilter, setShowCalorieFilter] = useState(false);
 
-  const handleThematicFilter = (event) => {
-    let inputted = event.target.value;
-    if (thematicFilter == inputted) {
-      setThematicFilter(null);
-      setShowCustomRow(false);
-    } else {
-      setThematicFilter(event.target.value);
-      setShowCustomRow(true);
-    }
-  };
+  const scrollRef = useRef(null);
 
-  const handleAllergens = (event) => {
-    let allergen = event.target.id;
-    allergens.includes(allergen)
-      ? setAllergens(allergens.filter((value) => value !== allergen))
-      : setAllergens(allergens.concat(allergen));
-  };
-
-  const handleSetMaxCalories = (event) => {
-    setMinCalories(0);
-    setMaxCalories(event.target.value);
-  };
-
-  const handleSetMinCalories = (event) => {
-    setMinCalories(event.target.value);
-    setMaxCalories(5000);
-  };
+  //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
     setMealData(
-      filteredItems(
+      filterItems(
         meals.map((m) => {
           return {
             ...m,
             [thematicFilter]: calculateCustomNutrition(thematicFilter, m),
           };
-        })
+        }),
+        umbrellaCategories,
+        allergens,
+        minCalories,
+        maxCalories
       )
     );
     requestSort(
@@ -196,98 +207,58 @@ export default function Category(props) {
     allergens,
   ]);
 
-  const calculateCustomNutrition = (thematicFilter, m) => {
-    if (thematicFilter == "highProtein") {
-      return m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3);
-    } else if (thematicFilter == "lowCarb") {
-      return m.calories == 0
-        ? 0
-        : (m.totalCarbohydrates / m.calories).toFixed(3);
-    } else if (thematicFilter == "lowSodium") {
-      return m.calories == 0 ? 0 : (m.sodium / m.calories).toFixed(3);
-    } else if (thematicFilter == "lowCholesterol") {
-      return m.calories == 0 ? 0 : (m.cholesterol / m.calories).toFixed(3);
-    }
-  };
+  // console.log(_.groupBy(filteredItems, item => item.categoryName))
 
-  const filteredItems = (items) =>
-    items
-      .filter(
-        (item) => item.calories >= minCalories && item.calories <= maxCalories
-      )
-      .filter((item) => {
-        if (filters.length == 0) {
-          return true;
-        } else {
-          return categories
-            .map((c) => {
-              return filters.includes(c) && item.category.name === c;
-            })
-            .includes(true);
-        }
-      })
-      .filter((item) => {
-        return umbrellaCategories.includes(
-          getUmbrellaCategory(item.category.parentCategory.name)
-        );
-      })
-      .filter((item) => {
-        if (allergens.length == 0) {
-          return true;
-        } else {
-          return !allergens
-            .map((allergen) => {
-              return item.allergensFalse.includes(allergen);
-            })
-            .includes(false);
-        }
-      });
+  //--------------------------- SORT ---------------------------
 
-  let {
-    items,
-    requestSort,
-    requestSortPreserveDirection,
-    sortConfig,
-    SortableTableHeader,
-    SortableTableHeaderInverse,
-    SortableTableHeaderROI,
-  } = useSortableData(mealData, {
+  let { items, requestSort, SortableTableHeader } = useSortableData(mealData, {
     key: "name",
     direction: "ascending",
   });
-  //--------------------------- MOBILE FILTERS ---------------------------
 
+  // console.log(_.chain(items).groupBy("categoryName").value())
 
-  const handleSetMaxCaloriesMobile = (event) => {
-    if (event !== null){
-      setMaxCalories(event.value)
-    } else {
-      setMaxCalories(10000)
-    }
-  };
+  let groupedItems = _.chain(items)
+    .groupBy("categoryName")
+    // `key` is group's name, `value` is the array of objects that belongs to it
+    .map((value, key) => ({ categoryName: key, meals: value }))
+    .value();
 
+  let lowestCalories = groupedItems.map((category) => ({
+    categoryName: category.categoryName,
+    meal: category.meals.reduce((prev, curr) =>
+      prev.calories < curr.calories ? prev : curr
+    ),
+  }));
 
-  const allergenOptions = [
-    { value: 'gluten', label: 'Gluten Free' },
-    { value: 'milk', label: 'Dairy Free' },
-    { value: 'peanuts', label: 'No Peanuts' },
-    { value: 'eggs', label: 'No Eggs' },
-    { value: 'wheat', label: 'No Wheat' },
-    { value: 'soy', label: 'No Soy' },
-    { value: 'tree nuts', label: 'No Tree Nuts' },
-    { value: 'fish', label: 'No Fish' },
-    { value: 'shellfish', label: 'No Shellfish' }
-  ]
+  let highestCalories = groupedItems.map((category) => ({
+    categoryName: category.categoryName,
+    meal: category.meals.reduce((prev, curr) =>
+      prev.calories > curr.calories ? prev : curr
+    ),
+  }));
 
-  const calorieOptions = [
-    { value: 100, label: 'Under 100cal' },
-    { value: 300, label: 'Under 300cal' },
-    { value: 500, label: 'Under 500cal' },
-    { value: 800, label: 'Under 800cal' },
-  ]
+  let highestProtein = groupedItems.map((category) => ({
+    categoryName: category.categoryName,
+    meal: category.meals.reduce((prev, curr) =>
+      prev.protein > curr.protein ? prev : curr
+    ),
+  }));
+
+  console.log(lowestCalories);
+  // .sort(function(a,b){
+  //   if (a.meals[0].category.parentCategorySlug == 'burgers-sandwiches'){
+  //     return -1
+  //   }
+
+  //       const textA = a.categoryName;
+  //       const textB = b.categoryName;
+  //       return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+  //     })
+  // Here I have to implement my own sort. Idea is if it falls under Burgers & Sandwiches (parentCategory) it should go first
 
   return (
-    <div className="">
+    <>
       <NextSeo
         title={`Nutrition Facts and Calories | Healthy Fast Food`}
         description={`Discover nutrition facts, macros, and the healthiest items at ${category.name}`}
@@ -320,179 +291,95 @@ export default function Category(props) {
           cardType: "summary_large_image",
         }}
       />
-      <Head>
-        <title>{category.name} Nutrition | Healthy Fast Food</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
+      <Head></Head>
       <Layout>
-        <div className="flex mobile-padding">
+        <main className="flex bg-stone-100 md:bg-white">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
-            {/* <AsideFilterByCalories
-              handleSetMaxCalories={handleSetMaxCalories}
-              handleSetMinCalories={handleSetMinCalories}
-            /> */}
+            <AsideCalorieFilter
+              setMinCalories={setMinCalories}
+              setMaxCalories={setMaxCalories}
+              caloriesMessage={caloriesMessage}
+              setCaloriesMessage={setCaloriesMessage}
+              setCaloriePreset={setCaloriePreset}
+              displayMinCalories={displayMinCalories}
+              displayMaxCalories={displayMaxCalories}
+              setDisplayMinCalories={setDisplayMinCalories}
+              setDisplayMaxCalories={setDisplayMaxCalories}
+            />
             <AsideFilterByUmbrellaCategories
               umbrellaCategories={umbrellaCategories}
-              handleUmbrellaCategories={handleUmbrellaCategories}
+              setUmbrellaCategories={setUmbrellaCategories}
             />
             <AsideAllergens
               allergens={allergens}
+              setAllergens={setAllergens}
               handleAllergens={handleAllergens}
             />
-
-            <div className="mt-8 bg-stone-50 rounded-xl p-2 ">
-              <h2 className="text-stone-500 text-xs uppercase font-semibold p-2 ">
-                Food Categories
-              </h2>
-              {parentCategories
-                .filter((c) => c.slug !== "uncategorized")
-                .map((category) => (
-                  <div
-                    className="hover:bg-stone-200 rounded-xl"
-                    key={category.slug}
-                  >
-                    <a
-                      href={`/category/${category.slug}`}
-                      className="cursor-pointer w-full flex items-center p-2"
-                      key={category.slug}
-                    >
-                      {/* <li key={restaurant.slug} className="list-decimal flex items-center py-1 px-3 rounded-lg hover:bg-stone-100 hover:text-red-500"> */}
-                      <div className="relative w-6 h-6">
-                        {/* <Image
-                        className=" flex-shrink-0 rounded-md"
-                        src={`/images/categoriesClipArt/${category.slug}.webp`}
-                        alt={`${category.name} Illustration`}
-                        layout="fill"
-                        objectFit="contain"
-                      /> */}
-                        {formatParentCategory(
-                          category.slug,
-                          false,
-                          true,
-                          false
-                        )}
-                      </div>
-                      <div className="pl-2 text-stone-500 text-sm">
-                        {category.name}
-                      </div>
-                    </a>
-                  </div>
-                ))}
-            </div>
+            <AsideTopRestaurants restaurants={restaurants} />
           </aside>
-          <main className="mt-4 md:mt-8 w-full">
-            <div className="block md:hidden mb-2">
-              <Breadcrumbs pages={pages} className="" />
-            </div>
-            <div className="flex items-center md:items-center">
-              <div className="w-6 h-6 md:w-12 md:h-12 mr-2 md:mr-4 border flex items-center justify-center rounded">
-                {/* <Image
-                    className=" flex-shrink-0 rounded-md mr-2 z-0"
-                    src={`/images/logosSmall/${restaurant.slug}.webp`}
-                    alt={`${restaurant.name} Logo`}
-                    layout="fill"
-                    objectFit="contain"
-                  /> */}
-                <div className=" md:text-3xl">
-                  {formatParentCategory(category.slug, false, true, false)}
-                </div>
-              </div>
-              <div>
-                <div className="hidden md:block">
-                  <Breadcrumbs pages={pages} className="" />
-                </div>
-                <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-1">
-                  All {category.name} , Ranked by Nutrition
-                  {/* <span className="text-stone-500 font-normal">
-                      Menu Nutrition Facts & Calories
-                    </span> */}
-                </h1>
-              </div>
-            </div>
-
-            <div className="mt-4">
-              <FoodCategoryTabs activeTab="all" />
-            </div>
-
-            <div className="hidden md:block">
-            <FilterThematicFilter
-              thematicFilter={thematicFilter}
-              handleThematicFilter={handleThematicFilter}
+          <article className="w-full">
+            <RestaurantSectionHeader
+              pages={pages}
+              entity={category}
+              titleBlack={`Ranking ${category.name} at Restaurants by Nutrition`}
+              titleGray={``}
+              emoji
             />
-            </div>
-
-            <div className="md:hidden sticky top-0 bg-white z-40 pb-2 border-b">
-              <FilterThematicFilter
+            {/* <Tabs activeTab="all" slug={`/${restaurant.slug}`} /> */}
+            {/* <RestaurantSectionTextBlock>
+              <ReactMarkdown className="article-container max-w-2xl   ">
+                {`Looking for ${restaurant.name} ßnutrition facts or ${restaurant.name} calorie info? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${restaurant.name} menu, so you can sort through and filter results based on your dietary needs.
+`}
+              </ReactMarkdown>
+            </RestaurantSectionTextBlock> */}
+            {/* <RestaurantSectionCategories
+              categories={categoriesWithParents}
+              restaurant={restaurant}
+            /> */}
+            <div ref={scrollRef} />
+            <RestaurantSectionDesktopThematicSort
+              thematicFilter={thematicFilter}
+              setThematicFilter={setThematicFilter}
+              setShowCustomRow={setShowCustomRow}
+            />
+            <RestaurantSectionMobileFilter
+              showCalorieFilter={showCalorieFilter}
+              setShowCalorieFilter={setShowCalorieFilter}
+              setMinCalories={setMinCalories}
+              setMaxCalories={setMaxCalories}
+              displayMinCalories={displayMinCalories}
+              displayMaxCalories={displayMaxCalories}
+              setDisplayMinCalories={setDisplayMinCalories}
+              setDisplayMaxCalories={setDisplayMaxCalories}
+              caloriesMessage={caloriesMessage}
+              setCaloriesMessage={setCaloriesMessage}
+              caloriePreset={caloriePreset}
+              setCaloriePreset={setCaloriePreset}
+              thematicFilter={thematicFilter}
+              setThematicFilter={setThematicFilter}
+              setShowCustomRow={setShowCustomRow}
+              scrollRef={scrollRef}
+            />
+            <Suspense fallback={`Loading...`}>
+              <DynamicMeals
+                restaurant={restaurant}
+                categoriesWithParents={categoriesWithParents}
+                showCustomRow={showCustomRow}
                 thematicFilter={thematicFilter}
-                handleThematicFilter={handleThematicFilter}
+                SortableTableHeader={SortableTableHeader}
+                umbrellaCategories={umbrellaCategories}
+                getUmbrellaCategory={getUmbrellaCategory}
+                items={items}
+                variant="normal"
+                showRestaurantData={true}
+                group={false}
               />
-              <div className="">
-                <h3 className="text-xs font-semibold uppercase pb-2">Filter</h3>
-                <div className="flex space-x-2">
-                  {/* <Select
-                    options={calorieOptions}
-                    isClearable={true}
-                    placeholder="By Calories"
-                    onChange={handleSetMaxCaloriesMobile}
-                  />
-                  
-                  <Select
-                    options={allergenOptions}
-                    isMulti
-                    placeholder="+ Allergies"
-                    onChange={setAllergens}
-                  /> */}
-                </div>
-              </div>
-            </div>
-
-            <article className="">
-              <div className="md:border shadow-sm mb-6 rounded-md overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-                    <thead className="rounded-t-lg">
-                      {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-                      <TableHeaders
-                        showCustomRow={showCustomRow}
-                        thematicFilter={thematicFilter}
-                        SortableTableHeader={SortableTableHeader}
-                      />
-                    </thead>
-                    <tbody className="divide-y divide-stone-200 bg-white w-full">
-                      {items.length > 0 ? (
-                        items.map((meal) => (
-                          <TableMealRow
-                            restaurantName={meal.restaurant.name}
-                            restaurantSlug={meal.restaurantSlug}
-                            showRestaurantData={true}
-                            meal={meal}
-                            key={meal.mealName}
-                            showCustomRow={showCustomRow}
-                            customRowKey={thematicFilter}
-                            customRowUnits={
-                              getCustomNutritionRowInfo(thematicFilter).units
-                            }
-                          />
-                        ))
-                      ) : (
-                        <tr className="">
-                          <td
-                            colSpan={8}
-                            className="single-cell-row text-md text-stone-500 text-center p-8"
-                          >
-                            No items found!
-                          </td>
-                        </tr>
-                      )}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </article>
-          </main>
-        </div>
+            </Suspense>
+            {/* <FAQ faqs={faqs} /> */}
+          </article>
+        </main>
+        <EmailSignup />
       </Layout>
-    </div>
+    </>
   );
 }

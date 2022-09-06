@@ -55,7 +55,7 @@ export default function About() {
         </div>
         <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
           <p className="text-lg text-stone-500">
-          Hi! I’m Yubin, the creator of HealthyFastFood.org.
+          Hi! I’m Kev, the creator of HealthyFastFood.org.
           <br/><br/>
           I created HealthyFastFood because I needed it. 
           </p>
@@ -69,19 +69,15 @@ export default function About() {
 
 I knew something had to change.
 
-I started keeping a list of healthiest options at the places I normally went to on Google Sheets. I included the nutrition information, because I was trying to eat meals with higher protein and lower carbs. These were meals that made me feel energized and full. My coworkers called it “The List”. After adhering to this list almost religiously for a few months, I got back to my original weight, and felt much more energized in work and daily life.
+I started keeping a list of healthiest options at the places I normally went to on Google Sheets. I included the nutrition information, because I was trying to eat meals with higher protein and lower carbs. These were meals that made me feel energized and full. My coworkers called it “The List”. After adhering to this list almost religiously for a few months, I realized I was feeling much more energized, and shedding pounds every week 
 
 At one point I thought, instead of writing meals down by hand, I wanted an automatic way of knowing what the healthiest options at every restaurant was. And HealthyFastFood.org was born! Today, HealthyFastFood has nutrition information for over 300 restaurants (rapidly growing) and 10,000 meals. 
 
 ## FAQ
 
-### How can I help financially support HealthyFastFood?
-
-You can [buy me a coffee with Ko-Fi](https://ko-fi.com/healthyfastfood) to contribute to continual development of HealthyFastFood!
-
 ### I’ve got a feature request or a partnership opportunity. How can I get in touch with you?
 
-You can email me at [yubin@healthyfastfood.org](mailto:yubin@healthyfastfood.org)
+You can email me at [kev@healthyfastfood.org](mailto:kev@healthyfastfood.org)
 
 The [HealthyFastFood Kampsite](https://healthyfastfood.kampsite.co/) is the best way to submit feature requests as they help me prioritize what features to add.
 `}         
@@ -99,7 +95,7 @@ The [HealthyFastFood Kampsite](https://healthyfastfood.kampsite.co/) is the best
 {`
 ### How can I contribute new content to the site? 
 
-Please email me at [yubin@healthyfastfood.org](mailto:yubin@healthyfastfood.org).
+Please email me at [kev@healthyfastfood.org](mailto:kev@healthyfastfood.org).
 
 HealthyFastFood currently only has data on the US and Canada. If you are from another country and would like to contribute restaurant and meal data from your home country, let me know!
 

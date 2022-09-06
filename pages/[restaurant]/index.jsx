@@ -369,7 +369,7 @@ export default function Restaurant(props) {
           <article className="w-full">
             <RestaurantSectionHeader
               pages={pages}
-              restaurant={restaurant}
+              entity={restaurant}
               titleBlack={restaurant.name}
               titleGray={` Nutrition Facts and Calories`}
             />
@@ -421,6 +421,7 @@ export default function Restaurant(props) {
               getUmbrellaCategory={getUmbrellaCategory}
               items={items}
               variant="normal"
+              group={true}
             />
            
     </Suspense>
