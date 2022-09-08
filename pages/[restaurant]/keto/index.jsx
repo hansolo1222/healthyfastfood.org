@@ -105,6 +105,10 @@ export default function RestaurantKetoMenu(props) {
     getCategoriesWithParentsFromMeals(meals)
   );
 
+  const parentCategories = categoriesWithParents.map((category)=>(category.parentCategory))
+
+  console.log(parentCategories)
+
   //----------------------------- KETO ONLY -----------------------------
   meals = meals.map((meal) => {
     return {
@@ -191,11 +195,14 @@ export default function RestaurantKetoMenu(props) {
     {
       question: `How do I know how many carbs to eat on a ketogenic diet?`,
       answer: ` 
-        This is a common question; the answer will vary from person to person. Some people can eat 50g net carbs and maintain ketosis. Other people can't go over 25 without breaking ketosis (however this is more rare).
-
+        <p>This is a common question; the answer will vary from person to person. Some people can eat 50g net carbs and maintain ketosis. Other people can't go over 25 without breaking ketosis (however this is more rare).
+        </p>
+        <p>
         The point of keeping net carbs lower (say around 25g) is to get you into ketosis faster and help you adapt faster.
-
+        </p>
+        <p>
         Keep in mind that higher activity levels mean you can go higher without breaking ketosis. This is because highly active people will have higher muscle insulin sensitivity, which will help take up glucose from the blood instead of it interrupting ketosis.
+        </p>
     `,
     },
     
@@ -212,7 +219,7 @@ export default function RestaurantKetoMenu(props) {
     "url": "https://healthyfastfood.org/${restaurant.name}/keto",
     "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.name}/keto",
     "inLanguage":"English",
-    "description":"Everything Keto at ${restaurant.name}: The Complete ${restaurant.name} Keto-friendly Menu",
+    "description":"Eating out when you're doing keto can be tough! That's why we've crunched the data from ${restaurant.name} and have created this list of all Keto friendly meals from ${restaurant.name}.",
     "hasMenuSection": [
     ${categoriesWithParents.map(
       (cat) =>
@@ -274,7 +281,7 @@ export default function RestaurantKetoMenu(props) {
     <>
           <NextSeo
         title={`Everything Keto at ${restaurant.name} in 2022 - HealthyFastFood`}
-        description={`${restaurant.name} has many options if you're trying to stick to a ketogenic diet.`}
+        description={`Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options.`}
         canonical={`https://healthyfastfood.org/${restaurant.slug}/keto`}
         additionalMetaTags={[
           {
@@ -291,7 +298,7 @@ export default function RestaurantKetoMenu(props) {
             " in 2022 - HealthyFastFood",
           description:
             restaurant.name +
-            " has a ton of options if you're trying to stick to a keto diet",
+            "Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options.",
           images: [
             {
               url: `/images/restaurant_logos/${restaurant.slug}.webp`,
@@ -342,16 +349,16 @@ export default function RestaurantKetoMenu(props) {
           <article className="w-full">
             <RestaurantSectionHeader
               pages={pages}
-              restaurant={restaurant}
+              entity={restaurant}
               titleBlack={`Everything Keto at ${restaurant.name}`}
               titleGray={``}
             />
             <Tabs activeTab="keto" slug={`/${restaurant.slug}`} />
             <RestaurantSectionTextBlock>
-              <ReactMarkdown className="article-container max-w-2xl   ">
-{`Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options. This tool is interactive so you can change what counts 'keto-friendly' depending on your personal dietary requirements.
+              <ReactMarkdown className="prose prose-stone max-w-2xl   ">
+{`Eating out on a ketogenic diet can be tough! That’s why we’ve crunched the official data and put together this list of ${restaurant.name} keto options. This tool is interactive so you can change what counts 'keto-friendly' depending on your own dietary requirements.
 
-As a default we're using **20g net carbohydrates** as the maximum for keto-friendly options. People eating on a ketogenic diet will track a food's net carbs, which is equal to total carbs minus fiber.
+As a default we're using **20g net carbohydrates** as the maximum for keto-friendly options. When you are tracking your diet for keto, you'll want to keep track of your net carbohydrate intake, which equals total carbohydrates minus fiber.
 
 For foods with slightly more carbs you might be interested in [low-carb options at ${restaurant.name}](/${restaurant.slug}/low-carb).
 `}
@@ -418,22 +425,36 @@ For foods with slightly more carbs you might be interested in [low-carb options 
               getUmbrellaCategory={getUmbrellaCategory}
               items={items}
               variant="keto"
+              group={true}
             />
           
-
-            {/* ${
-  parentCategories.includes(`burgers-sandwiches`)
-    ? "- Your best bet is to get a bunless and sauceless burger, then just ask for yellow mustard, mayo or ranch on the side."
-    : ""
-} */}
             <RestaurantSectionTextBlock>
-            <ReactMarkdown className="article-container max-w-2xl">
+            <div className="prose prose-stone">
+            <ReactMarkdown className=" max-w-2xl">
               {`
 ## The basics of ordering Keto at ${restaurant.name}
 
+${parentCategories.includes(`Burgers & Sandwiches`)
+    ? "- Your best bet is to get a **bunless and sauceless burger**, then just ask for yellow mustard, mayo or ranch on the side. "
+    : ""
+}
+${parentCategories.includes(`Dressings & Sauces`)
+    ? "- **Ketchup** has a lot of sugar, so while it may not knock you out of ketosis, it is typically not recommended on a keto diet."
+    : ""
+}
+${parentCategories.includes(`Beverages`)
+    ? "- **Water, coffee and tea** are safe beverages for keto. You'll want to avoid soda completely. Diet sodas like Diet Coke, Coke Zero, and Diet Pepsi are all sugar free and keto-friendly. However, the artificial sweeteners in these drinks are known to increase sugar cravings, so we would not recommend them [[Source](https://www.nutritionletter.tufts.edu/healthy-eating/the-artificial-sweetener-sucralose-may-increase-food-cravings/)]."
+    : ""}
+${parentCategories.includes(`Salads`)
+    ?  "- The highest source of **carbs in salads** comes from croutons and dressing. Most dressings have a shocking amount of carbs."
+:""}
+
+   
 
 
-## How to use this tool
+
+
+## What Counts as Keto?
 
 Keto doesn’t necessarily mean zero carbs.  A keto diet typically limits net carb intake to less than 50 grams per day—stricter versions of keto can be as low as 20 grams of net carbs a day. [[Source](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/ketogenic-diet/#:~:text=The%20ketogenic%20diet%20typically%20reduces,and%2010%2D20%25%20protein.)]
 
@@ -446,11 +467,11 @@ If you’re trying to eat a low-carb diet rather than a keto diet, we recommend 
 
 ## What Restaurants are Keto Friendly?
 
-If you’re new to keto, you might be struggling with adjusting to this new way of eating. After all, it's not just a diet change, but an entire lifestyle change for many. If you’re used to eating out, not only do you have to explain to people what you're doing, but suddenly your options seem very limited!
+If you’re new to keto, you might be struggling with adjusting to this new way of eating. After all, it's not just a diet change, but an entire lifestyle change. Not only are your options more limited than ever, but sometimes you have to [explain what you're doing] to the people you're dining with!
 
-Luckily in the few years alone, keto has gone from a niche diet a mainstream one, with a proven track record of helping people with both weight loss, as well as blood sugar control for type 2 diabetes [[Source](https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089)]. 
+Luckily in the few years alone, keto has gone from a niche diet a mainstream one. The spotlight has only grown on keto-friendly meals, with its proven track record of helping people with weight loss, as well as blood sugar control for type 2 diabetes [[Source](https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089)]. 
 
-More and more restaurants are beginning to introduce low carb options to cater to those following a keto diet. Here are some our recommendations:
+More and more restaurants are beginning to introduce low carb options to cater to those following a keto diet. Here are some our recommendations if you're looking for keto-friendly options at ${restaurant.restaurantType.name} restaurants.
 
 ### [Chipotle](https://healthyfastfood.org/chipotle)
 
@@ -477,8 +498,9 @@ These are just a few of the many keto-friendly restaurants that are out there. N
 On our [Every Keto Option At Every Fast Food Chain Index](/keto), we have keto options at restaurant. Good luck, and happy ketosis!
 `}
             </ReactMarkdown>
-            </RestaurantSectionTextBlock>
             <FAQ faqs={faqs} />
+            </div>
+            </RestaurantSectionTextBlock>
           </article>
         </main>
         <EmailSignup />

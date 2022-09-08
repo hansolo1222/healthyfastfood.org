@@ -8,9 +8,9 @@ export const RestaurantSectionTextBlock = (
 ) => {
   return (
     <section className="pt-8 bg-white mobile-padding pb-4">
-      <p className="text-stone-900 md:text-base text-sm font-medium">
+      {/* <p className="text-stone-900 md:text-base text-sm font-medium">
         Updated August 1, 2022
-      </p>
+      </p> */}
       {props.children}
     </section>
   );

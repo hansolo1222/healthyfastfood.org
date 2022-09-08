@@ -15,12 +15,12 @@ export const FAQ = ({faqs}) => {
                 </ul>
               </div>
             </div> */}
-            <div className="mt-12 lg:mt-0 faq">
-              <dl className="space-y-10">
+            <div className="faq">
+              <dl className="">
                 {faqs.map((faq, index) => (
                   <div key={faq.question}>
-                    <dt id={index} className="text-xl leading-6 font-medium text-stone-900">{faq.question}</dt>
-                    <dd className="mt-4 text-sm md:text-base text-stone-600" dangerouslySetInnerHTML={{ __html: faq.answer.replace('"','')}}></dd>
+                    <h3 id={index} className="">{faq.question}</h3>
+                    <div className="" dangerouslySetInnerHTML={{ __html: faq.answer.replace('"','')}}></div>
                   </div>
                 ))}
               </dl>

@@ -376,7 +376,7 @@ export default function RestaurantKetoMenu(props) {
           <article className="w-full">
             <RestaurantSectionHeader
               pages={pages}
-              restaurant={restaurant}
+              entity={restaurant}
               titleBlack={`All Low-Carb Options at ${restaurant.name}`}
               titleGray={``}
             />
@@ -453,6 +453,7 @@ As a default we're using **35g net carbohydrates** as the maximum for a low-carb
               getUmbrellaCategory={getUmbrellaCategory}
               items={items}
               variant="keto"
+              group={true}
             />
           
 
