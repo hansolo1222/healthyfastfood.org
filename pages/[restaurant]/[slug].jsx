@@ -34,7 +34,7 @@ export const getServerSideProps = async (context) => {
       restaurant: {
         include: {
           segment: true,
-          restaurantType: true,
+          restaurantTypes: true,
         },
       },
       category: {
@@ -51,6 +51,10 @@ export const getServerSideProps = async (context) => {
   });
 
   // get 10 meals in this restaurant in this category
+
+  console.log(mealData)
+
+  const restaurant = mealData.restaurant
 
   const relatedMeals = await prisma.meal.findMany({
     take: 10,
@@ -78,21 +82,31 @@ export const getServerSideProps = async (context) => {
 
   // get 10 restaurants in this restaurantType
   
-  const restaurantType = mealData.restaurant.restaurantType.slug;
+  const restaurantType = mealData.restaurant.restaurantTypes[0].slug;
 
-  const restaurants = await prisma.restaurant.findMany({
-    take: 8,
+  const type = await prisma.restaurantType.findUnique({
+    
     where: {
-      restaurantType: {
-        slug: restaurantType,
-      },
+      slug: restaurantType
     },
-    orderBy: [
-      {
-        rank: "asc",
-      },
-    ],
-  });
+    include: {
+      restaurants: true
+    }
+  })
+
+  // const restaurants = await prisma.restaurant.findMany({
+  //   take: 8,
+  //   where: {
+  //     restaurantType: {
+  //       slug: restaurantType,
+  //     },
+  //   },
+  //   orderBy: [
+  //     {
+  //       rank: "asc",
+  //     },
+  //   ],
+  // });
 
   return {
     props: {
@@ -100,7 +114,7 @@ export const getServerSideProps = async (context) => {
       relatedMeals: JSON.parse(JSON.stringify(relatedMeals)),
       relatedMealsOtherRestaurants:  JSON.parse(JSON.stringify(relatedMealsOtherRestaurants)),
       // mealsInCategory: JSON.parse(JSON.stringify(mealsInCategory)),
-      restaurantsInCategory: JSON.parse(JSON.stringify(restaurants)),
+      restaurantsInCategory: JSON.parse(JSON.stringify(type.restaurants)),
     },
   };
 };
@@ -270,7 +284,7 @@ export default function Meal(props) {
            
           </main>
         </div>
-        <div className="block sm:flex md:hidden mobile-padding">
+        <div className="block sm:flex md:hidden mobile-padding ">
           <AsideRelatedMeals meals={relatedMeals} restaurant={restaurant} parentCategory={parentCategory}/>
             <AsideRelatedMealsOtherRestaurants meals={relatedMealsOtherRestaurants} />
             <AsideTopRestaurants restaurants={restaurantsInCategory} />

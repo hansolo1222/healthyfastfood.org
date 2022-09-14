@@ -6,6 +6,8 @@ const nextConfig = {
     locales: ["en-US", "de", "uk", "fr", "it", "es", "ca", "au"],
     defaultLocale: "en-US",
   },
+  experimental: { esmExternals: true },
+
 }
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({

@@ -1,0 +1,1793 @@
+[
+ {
+   "slug": "mcdonalds",
+   "name": "McDonald's",
+   "rank": 1,
+   "salesMillions": 45961,
+   "locations": 13438,
+   "type": "Hamburgers",
+   "revenuePerStore": 3.42
+ },
+ {
+   "slug": "starbucks",
+   "name": "Starbucks",
+   "rank": 2,
+   "salesMillions": 24556,
+   "locations": 15450,
+   "type": "Beverages",
+   "revenuePerStore": 1.59
+ },
+ {
+   "slug": "chick-fil-a",
+   "name": "Chick-fil-A",
+   "rank": 3,
+   "salesMillions": 16674,
+   "locations": 2704,
+   "type": "Chicken",
+   "revenuePerStore": 6.17
+ },
+ {
+   "slug": "taco-bell",
+   "name": "Taco Bell",
+   "rank": 4,
+   "salesMillions": 12615,
+   "locations": 7002,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.8
+ },
+ {
+   "slug": "wendys",
+   "name": "Wendy's",
+   "rank": 5,
+   "salesMillions": 11111,
+   "locations": 5938,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.87
+ },
+ {
+   "slug": "dunkin-donuts",
+   "name": "Dunkin' Donuts",
+   "rank": 6,
+   "salesMillions": 10416,
+   "locations": 9244,
+   "type": "Beverages",
+   "revenuePerStore": 1.13
+ },
+ {
+   "slug": "burger-king",
+   "name": "Burger King",
+   "rank": 7,
+   "salesMillions": 10033,
+   "locations": 7105,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.41
+ },
+ {
+   "slug": "subway",
+   "name": "Subway",
+   "rank": 8,
+   "salesMillions": 9397,
+   "locations": 21147,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.44
+ },
+ {
+   "slug": "dominos-pizza",
+   "name": "Domino's",
+   "rank": 9,
+   "salesMillions": 8641,
+   "locations": 6560,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.32
+ },
+ {
+   "slug": "chipotle-mexican-grill",
+   "name": "Chipotle Mexican Grill",
+   "rank": 10,
+   "salesMillions": 7457,
+   "locations": 2926,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 2.55
+ },
+ {
+   "slug": "sonic-drive-in",
+   "name": "Sonic Drive-In",
+   "rank": 11,
+   "salesMillions": 5835,
+   "locations": 3552,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.64
+ },
+ {
+   "slug": "panera-bread",
+   "name": "Panera Bread",
+   "rank": 12,
+   "salesMillions": 5725,
+   "locations": 2121,
+   "type": "Sandwiches",
+   "revenuePerStore": 2.7
+ },
+ {
+   "slug": "pizza-hut",
+   "name": "Pizza Hut",
+   "rank": 13,
+   "salesMillions": 5509,
+   "locations": 6548,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.84
+ },
+ {
+   "slug": "kfc",
+   "name": "KFC",
+   "rank": 14,
+   "salesMillions": 5079,
+   "locations": 3953,
+   "type": "Chicken",
+   "revenuePerStore": 1.28
+ },
+ {
+   "slug": "popeyes",
+   "name": "Popeyes",
+   "rank": 15,
+   "salesMillions": 4775,
+   "locations": 2754,
+   "type": "Chicken",
+   "revenuePerStore": 1.73
+ },
+ {
+   "slug": "panda-express",
+   "name": "Panda Express",
+   "rank": 16,
+   "salesMillions": 4578,
+   "locations": 2316,
+   "type": "Asian",
+   "revenuePerStore": 1.98
+ },
+ {
+   "slug": "dairy-queen",
+   "name": "Dairy Queen",
+   "rank": 17,
+   "salesMillions": 4494,
+   "locations": 4339,
+   "type": "Frozen Desserts",
+   "revenuePerStore": 1.04
+ },
+ {
+   "slug": "arbys",
+   "name": "Arby's",
+   "rank": 18,
+   "salesMillions": 4462,
+   "locations": 3409,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.31
+ },
+ {
+   "slug": "little-caesars",
+   "name": "Little Caesars",
+   "rank": 19,
+   "salesMillions": 4234,
+   "locations": 4181,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.01
+ },
+ {
+   "slug": "olive-garden",
+   "name": "Olive Garden",
+   "rank": 20,
+   "salesMillions": 4182,
+   "locations": 876,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 4.77
+ },
+ {
+   "slug": "applebees",
+   "name": "Applebee's",
+   "rank": 21,
+   "salesMillions": 4168,
+   "locations": 1578,
+   "type": "American",
+   "revenuePerStore": 2.64
+ },
+ {
+   "slug": "jack-in-the-box",
+   "name": "Jack in the Box",
+   "rank": 22,
+   "salesMillions": 4155,
+   "locations": 2218,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.87
+ },
+ {
+   "slug": "buffalo-wild-wings",
+   "name": "Buffalo Wild Wings",
+   "rank": 23,
+   "salesMillions": 3718,
+   "locations": 1212,
+   "type": "Chicken",
+   "revenuePerStore": 3.07
+ },
+ {
+   "slug": "texas-roadhouse",
+   "name": "Texas Roadhouse",
+   "rank": 24,
+   "salesMillions": 3717,
+   "locations": 596,
+   "type": "Steakhouse",
+   "revenuePerStore": 6.24
+ },
+ {
+   "slug": "papa-johns",
+   "name": "Papa John's",
+   "rank": 25,
+   "salesMillions": 3593,
+   "locations": 3164,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.14
+ },
+ {
+   "slug": "chilis-grill-bar",
+   "name": "Chili's Grill & Bar",
+   "rank": 26,
+   "salesMillions": 3576,
+   "locations": 1234,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 2.9
+ },
+ {
+   "slug": "whataburger",
+   "name": "Whataburger",
+   "rank": 27,
+   "salesMillions": 3090,
+   "locations": 873,
+   "type": "Hamburgers",
+   "revenuePerStore": 3.54
+ },
+ {
+   "slug": "ihop",
+   "name": "IHOP",
+   "rank": 28,
+   "salesMillions": 2997,
+   "locations": 1657,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 1.81
+ },
+ {
+   "slug": "outback-steakhouse",
+   "name": "Outback Steakhouse",
+   "rank": 29,
+   "salesMillions": 2621,
+   "locations": 694,
+   "type": "Steakhouse",
+   "revenuePerStore": 3.78
+ },
+ {
+   "slug": "culvers",
+   "name": "Culver's",
+   "rank": 30,
+   "salesMillions": 2489,
+   "locations": 836,
+   "type": "Hamburgers",
+   "revenuePerStore": 2.98
+ },
+ {
+   "slug": "dennys",
+   "name": "Denny's",
+   "rank": 31,
+   "salesMillions": 2462,
+   "locations": 1487,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 1.66
+ },
+ {
+   "slug": "cracker-barrel",
+   "name": "Cracker Barrel",
+   "rank": 32,
+   "salesMillions": 2418,
+   "locations": 664,
+   "type": "American",
+   "revenuePerStore": 3.64
+ },
+ {
+   "slug": "raising-canes-chicken-fingers",
+   "name": "Raising Cane's Chicken Fingers",
+   "rank": 33,
+   "salesMillions": 2377,
+   "locations": 567,
+   "type": "Chicken",
+   "revenuePerStore": 4.19
+ },
+ {
+   "slug": "red-lobster",
+   "name": "Red Lobster",
+   "rank": 34,
+   "salesMillions": 2303,
+   "locations": 670,
+   "type": "Seafood",
+   "revenuePerStore": 3.44
+ },
+ {
+   "slug": "jimmy-johns",
+   "name": "Jimmy John's",
+   "rank": 35,
+   "salesMillions": 2301,
+   "locations": 2657,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.87
+ },
+ {
+   "slug": "cheesecake-factory",
+   "name": "The Cheesecake Factory",
+   "rank": 36,
+   "salesMillions": 2293,
+   "locations": 207,
+   "type": "American",
+   "revenuePerStore": 11.08
+ },
+ {
+   "slug": "zaxbys",
+   "name": "Zaxby's",
+   "rank": 37,
+   "salesMillions": 2234,
+   "locations": 910,
+   "type": "Chicken",
+   "revenuePerStore": 2.45
+ },
+ {
+   "slug": "longhorn-steakhouse",
+   "name": "LongHorn Steakhouse",
+   "rank": 38,
+   "salesMillions": 2209,
+   "locations": 551,
+   "type": "Steakhouse",
+   "revenuePerStore": 4.01
+ },
+ {
+   "slug": "jersey-mikes-subs",
+   "name": "Jersey Mike's Subs",
+   "rank": 39,
+   "salesMillions": 2203,
+   "locations": 2100,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.05
+ },
+ {
+   "slug": "wingstop",
+   "name": "Wingstop",
+   "rank": 40,
+   "salesMillions": 2165,
+   "locations": 1534,
+   "type": "Chicken",
+   "revenuePerStore": 1.41
+ },
+ {
+   "slug": "five-guys",
+   "name": "Five Guys",
+   "rank": 41,
+   "salesMillions": 2093,
+   "locations": 1390,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.51
+ },
+ {
+   "slug": "hardees",
+   "name": "Hardee's",
+   "rank": 42,
+   "salesMillions": 2074,
+   "locations": 1712,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.21
+ },
+ {
+   "slug": "in-n-out-burger",
+   "name": "In-N-Out Burger",
+   "rank": 43,
+   "salesMillions": 1651,
+   "locations": 373,
+   "type": "Hamburgers",
+   "revenuePerStore": 4.43
+ },
+ {
+   "slug": "carls-jr",
+   "name": "Carl's Jr.",
+   "rank": 44,
+   "salesMillions": 1530,
+   "locations": 1054,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.45
+ },
+ {
+   "slug": "bojangles",
+   "name": "Bojangles",
+   "rank": 45,
+   "salesMillions": 1485,
+   "locations": 773,
+   "type": "Chicken",
+   "revenuePerStore": 1.92
+ },
+ {
+   "slug": "red-robin",
+   "name": "Red Robin",
+   "rank": 46,
+   "salesMillions": 1403,
+   "locations": 531,
+   "type": "Hamburgers",
+   "revenuePerStore": 2.64
+ },
+ {
+   "slug": "waffle-house",
+   "name": "Waffle House",
+   "rank": 47,
+   "salesMillions": 1279,
+   "locations": 1950,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.66
+ },
+ {
+   "slug": "golden-corral",
+   "name": "Golden Corral",
+   "rank": 48,
+   "salesMillions": 1169,
+   "locations": 392,
+   "type": "American",
+   "revenuePerStore": 2.98
+ },
+ {
+   "slug": "bjs-restaurant-brewhouse",
+   "name": "BJ's Restaurant & Brewhouse",
+   "rank": 49,
+   "salesMillions": 1087,
+   "locations": 212,
+   "type": "American",
+   "revenuePerStore": 5.13
+ },
+ {
+   "slug": "firehouse-subs",
+   "name": "Firehouse Subs",
+   "rank": 50,
+   "salesMillions": 1044,
+   "locations": 1164,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.9
+ },
+ {
+   "slug": "el-pollo-loco",
+   "name": "El Pollo Loco",
+   "rank": 51,
+   "salesMillions": 973,
+   "locations": 480,
+   "type": "Chicken",
+   "revenuePerStore": 2.03
+ },
+ {
+   "slug": "tropical-smoothie-cafe",
+   "name": "Tropical Smoothie Cafe",
+   "rank": 52,
+   "salesMillions": 948,
+   "locations": 1047,
+   "type": "Beverages",
+   "revenuePerStore": 0.91
+ },
+ {
+   "slug": "pf-changs",
+   "name": "P.F. Chang's",
+   "rank": 53,
+   "salesMillions": 922,
+   "locations": 209,
+   "type": "Asian",
+   "revenuePerStore": 4.41
+ },
+ {
+   "slug": "del-taco",
+   "name": "Del Taco",
+   "rank": 54,
+   "salesMillions": 918,
+   "locations": 603,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.52
+ },
+ {
+   "slug": "dutch-bros-coffee",
+   "name": "Dutch Bros. Coffee",
+   "rank": 55,
+   "salesMillions": 914,
+   "locations": 538,
+   "type": "Beverages",
+   "revenuePerStore": 1.7
+ },
+ {
+   "slug": "marcos-pizza",
+   "name": "Marco's Pizza",
+   "rank": 56,
+   "salesMillions": 899,
+   "locations": 1002,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.9
+ },
+ {
+   "slug": "qdoba-mexican-eats",
+   "name": "Qdoba Mexican Eats",
+   "rank": 57,
+   "salesMillions": 878,
+   "locations": 739,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.19
+ },
+ {
+   "slug": "mcalisters-deli",
+   "name": "McAlister's Deli",
+   "rank": 58,
+   "salesMillions": 870,
+   "locations": 506,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.72
+ },
+ {
+   "slug": "hooters",
+   "name": "Hooters",
+   "rank": 59,
+   "salesMillions": 835,
+   "locations": 303,
+   "type": "Chicken",
+   "revenuePerStore": 2.76
+ },
+ {
+   "slug": "steak-n-shake",
+   "name": "Steak 'n Shake",
+   "rank": 60,
+   "salesMillions": 830,
+   "locations": 497,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.67
+ },
+ {
+   "slug": "krispy-kreme",
+   "name": "Krispy Kreme",
+   "rank": 61,
+   "salesMillions": 818,
+   "locations": 373,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 2.19
+ },
+ {
+   "slug": "papa-murphys-pizza",
+   "name": "Papa Murphy's Pizza",
+   "rank": 62,
+   "salesMillions": 809,
+   "locations": 1240,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.65
+ },
+ {
+   "slug": "tgi-fridays",
+   "name": "TGI Fridays",
+   "rank": 63,
+   "salesMillions": 780,
+   "locations": 310,
+   "type": "American",
+   "revenuePerStore": 2.52
+ },
+ {
+   "slug": "churchs-chicken",
+   "name": "Church's Chicken",
+   "rank": 64,
+   "salesMillions": 768,
+   "locations": 898,
+   "type": "Chicken",
+   "revenuePerStore": 0.86
+ },
+ {
+   "slug": "shake-shack",
+   "name": "Shake Shack",
+   "rank": 65,
+   "salesMillions": 766,
+   "locations": 243,
+   "type": "Hamburgers",
+   "revenuePerStore": 3.15
+ },
+ {
+   "slug": "freddys-frozen-custard-steakburgers",
+   "name": "Freddy's Frozen Custard & Steakburgers",
+   "rank": 66,
+   "salesMillions": 759,
+   "locations": 420,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.81
+ },
+ {
+   "slug": "first-watch",
+   "name": "First Watch",
+   "rank": 67,
+   "salesMillions": 751,
+   "locations": 435,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 1.73
+ },
+ {
+   "slug": "bob-evans",
+   "name": "Bob Evans",
+   "rank": 68,
+   "salesMillions": 750,
+   "locations": 440,
+   "type": "American",
+   "revenuePerStore": 1.7
+ },
+ {
+   "slug": "carrabbas-italian-grill",
+   "name": "Carrabba's Italian Grill",
+   "rank": 69,
+   "salesMillions": 697,
+   "locations": 219,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 3.18
+ },
+ {
+   "slug": "baskin-robbins",
+   "name": "Baskin-Robbins",
+   "rank": 70,
+   "salesMillions": 686,
+   "locations": 2317,
+   "type": "Frozen Desserts",
+   "revenuePerStore": 0.3
+ },
+ {
+   "slug": "moes-southwest-grill",
+   "name": "Moe's Southwest Grill",
+   "rank": 71,
+   "salesMillions": 662,
+   "locations": 657,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.01
+ },
+ {
+   "slug": "cheddars-scratch-kitchen",
+   "name": "Cheddar's Scratch Kitchen",
+   "rank": 72,
+   "salesMillions": 647,
+   "locations": 175,
+   "type": "American",
+   "revenuePerStore": 3.7
+ },
+ {
+   "slug": "checkers",
+   "name": "Checkers ",
+   "rank": 74,
+   "salesMillions": 636,
+   "locations": 580,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.1
+ },
+ {
+   "slug": "ruths-chris-steak-house",
+   "name": "Ruth's Chris Steak House",
+   "rank": 73,
+   "salesMillions": 636,
+   "locations": 129,
+   "type": "Steakhouse",
+   "revenuePerStore": 4.93
+ },
+ {
+   "slug": "white-castle",
+   "name": "White Castle",
+   "rank": 75,
+   "salesMillions": 626,
+   "locations": 353,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.77
+ },
+ {
+   "slug": "smoothie-king",
+   "name": "Smoothie King",
+   "rank": 76,
+   "salesMillions": 602,
+   "locations": 1053,
+   "type": "Beverages",
+   "revenuePerStore": 0.57
+ },
+ {
+   "slug": "tim-hortons",
+   "name": "Tim Hortons",
+   "rank": 77,
+   "salesMillions": 602,
+   "locations": 637,
+   "type": "Beverages",
+   "revenuePerStore": 0.95
+ },
+ {
+   "slug": "mod-pizza",
+   "name": "MOD Pizza",
+   "rank": 78,
+   "salesMillions": 590,
+   "locations": 506,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.17
+ },
+ {
+   "slug": "yard-house",
+   "name": "Yard House",
+   "rank": 79,
+   "salesMillions": 578,
+   "locations": 81,
+   "type": "American",
+   "revenuePerStore": 7.14
+ },
+ {
+   "slug": "habit-burger-grill",
+   "name": "The Habit Burger Grill",
+   "rank": 80,
+   "salesMillions": 577,
+   "locations": 307,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.88
+ },
+ {
+   "slug": "auntie-annes",
+   "name": "Auntie Anne's",
+   "rank": 81,
+   "salesMillions": 576,
+   "locations": 1133,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.51
+ },
+ {
+   "slug": "captain-ds-seafood-kitchen",
+   "name": "Captain D's Seafood Kitchen",
+   "rank": 82,
+   "salesMillions": 568,
+   "locations": 536,
+   "type": "Seafood",
+   "revenuePerStore": 1.06
+ },
+ {
+   "slug": "noodles-company",
+   "name": "Noodles & Company",
+   "rank": 83,
+   "salesMillions": 566,
+   "locations": 448,
+   "type": "Asian",
+   "revenuePerStore": 1.26
+ },
+ {
+   "slug": "bonefish-grill",
+   "name": "Bonefish Grill",
+   "rank": 84,
+   "salesMillions": 555,
+   "locations": 185,
+   "type": "Seafood",
+   "revenuePerStore": 3
+ },
+ {
+   "slug": "portillos",
+   "name": "Portillo's",
+   "rank": 85,
+   "salesMillions": 535,
+   "locations": 69,
+   "type": "Sandwiches",
+   "revenuePerStore": 7.75
+ },
+ {
+   "slug": "jacks-family-restaurants",
+   "name": "Jack's Family Restaurants",
+   "rank": 86,
+   "salesMillions": 520,
+   "locations": 210,
+   "type": "Hamburgers",
+   "revenuePerStore": 2.48
+ },
+ {
+   "slug": "jasons-deli",
+   "name": "Jason's Deli",
+   "rank": 87,
+   "salesMillions": 516,
+   "locations": 247,
+   "type": "Sandwiches",
+   "revenuePerStore": 2.09
+ },
+ {
+   "slug": "jamba-juice",
+   "name": "Jamba Juice",
+   "rank": 88,
+   "salesMillions": 505,
+   "locations": 757,
+   "type": "Beverages",
+   "revenuePerStore": 0.67
+ },
+ {
+   "slug": "perkins-restaurant-bakery",
+   "name": "Perkins Restaurant & Bakery",
+   "rank": 89,
+   "salesMillions": 496,
+   "locations": 290,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 1.71
+ },
+ {
+   "slug": "charleys-philly-steaks",
+   "name": "Charleys Philly Steaks",
+   "rank": 90,
+   "salesMillions": 493,
+   "locations": 589,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.84
+ },
+ {
+   "slug": "california-pizza-kitchen",
+   "name": "California Pizza Kitchen",
+   "rank": 91,
+   "salesMillions": 490,
+   "locations": 169,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.9
+ },
+ {
+   "slug": "hungry-howies-pizza",
+   "name": "Hungry Howie's Pizza",
+   "rank": 92,
+   "salesMillions": 478,
+   "locations": 533,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.9
+ },
+ {
+   "slug": "capital-grille",
+   "name": "The Capital Grille",
+   "rank": 94,
+   "salesMillions": 457,
+   "locations": 63,
+   "type": "Steakhouse",
+   "revenuePerStore": 7.25
+ },
+ {
+   "slug": "millers-ale-house",
+   "name": "Miller's Ale House",
+   "rank": 93,
+   "salesMillions": 457,
+   "locations": 97,
+   "type": "American",
+   "revenuePerStore": 4.71
+ },
+ {
+   "slug": "coopers-hawk-winery-restaurants",
+   "name": "Cooper's Hawk Winery & Restaurant",
+   "rank": 95,
+   "salesMillions": 447,
+   "locations": 54,
+   "type": "American",
+   "revenuePerStore": 8.28
+ },
+ {
+   "slug": "dave-busters",
+   "name": "Dave & Busters",
+   "rank": 96,
+   "salesMillions": 437,
+   "locations": 142,
+   "type": "American",
+   "revenuePerStore": 3.08
+ },
+ {
+   "slug": "potbelly-sandwich-shop",
+   "name": "Potbelly Sandwich Shop",
+   "rank": 98,
+   "salesMillions": 421,
+   "locations": 443,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.95
+ },
+ {
+   "slug": "round-table-pizza",
+   "name": "Round Table Pizza",
+   "rank": 97,
+   "salesMillions": 421,
+   "locations": 416,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.01
+ },
+ {
+   "slug": "einstein-bros-bagels",
+   "name": "Einstein Bros. Bagels",
+   "rank": 99,
+   "salesMillions": 420,
+   "locations": 690,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.61
+ },
+ {
+   "slug": "logans-roadhouse",
+   "name": "Logan's Roadhouse",
+   "rank": 101,
+   "salesMillions": 417,
+   "locations": 136,
+   "type": "Steakhouse",
+   "revenuePerStore": 3.07
+ },
+ {
+   "slug": "pollo-tropical",
+   "name": "Pollo Tropical",
+   "rank": 100,
+   "salesMillions": 417,
+   "locations": 169,
+   "type": "Chicken",
+   "revenuePerStore": 2.47
+ },
+ {
+   "slug": "cold-stone-creamery",
+   "name": "Cold Stone Creamery",
+   "rank": 102,
+   "salesMillions": 413,
+   "locations": 875,
+   "type": "Frozen Desserts",
+   "revenuePerStore": 0.47
+ },
+ {
+   "slug": "boston-market",
+   "name": "Boston Market",
+   "rank": 103,
+   "salesMillions": 412,
+   "locations": 341,
+   "type": "Chicken",
+   "revenuePerStore": 1.21
+ },
+ {
+   "slug": "taco-johns",
+   "name": "Taco John's",
+   "rank": 104,
+   "salesMillions": 410,
+   "locations": 373,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.1
+ },
+ {
+   "slug": "mellow-mushroom",
+   "name": "Mellow Mushroom",
+   "rank": 105,
+   "salesMillions": 401,
+   "locations": 173,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.32
+ },
+ {
+   "slug": "twin-peaks",
+   "name": "Twin Peaks",
+   "rank": 106,
+   "salesMillions": 399,
+   "locations": 87,
+   "type": "American",
+   "revenuePerStore": 4.59
+ },
+ {
+   "slug": "chuys",
+   "name": "Chuy's",
+   "rank": 107,
+   "salesMillions": 396,
+   "locations": 96,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 4.13
+ },
+ {
+   "slug": "saltgrass-steak-house",
+   "name": "Saltgrass Steak House",
+   "rank": 108,
+   "salesMillions": 378,
+   "locations": 96,
+   "type": "Steakhouse",
+   "revenuePerStore": 3.94
+ },
+ {
+   "slug": "jets-pizza",
+   "name": "Jet's Pizza",
+   "rank": 109,
+   "salesMillions": 371,
+   "locations": 390,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.95
+ },
+ {
+   "slug": "fogo-de-chao",
+   "name": "Fogo de Chão",
+   "rank": 110,
+   "salesMillions": 369,
+   "locations": 48,
+   "type": "Steakhouse",
+   "revenuePerStore": 7.69
+ },
+ {
+   "slug": "maggianos-little-italy",
+   "name": "Maggiano's Little Italy",
+   "rank": 111,
+   "salesMillions": 366,
+   "locations": 54,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 6.78
+ },
+ {
+   "slug": "ocharleys",
+   "name": "O'Charley's",
+   "rank": 112,
+   "salesMillions": 363,
+   "locations": 156,
+   "type": "American",
+   "revenuePerStore": 2.33
+ },
+ {
+   "slug": "torchys-tacos",
+   "name": "Torchy's Tacos",
+   "rank": 113,
+   "salesMillions": 363,
+   "locations": 99,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 3.67
+ },
+ {
+   "slug": "wienerschnitzel",
+   "name": "Wienerschnitzel",
+   "rank": 114,
+   "salesMillions": 360,
+   "locations": 328,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.1
+ },
+ {
+   "slug": "nothing-bundt-cakes",
+   "name": "Nothing Bundt Cakes",
+   "rank": 115,
+   "salesMillions": 351,
+   "locations": 426,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.82
+ },
+ {
+   "slug": "black-bear-diner",
+   "name": "Black Bear Diner",
+   "rank": 116,
+   "salesMillions": 350,
+   "locations": 144,
+   "type": "American",
+   "revenuePerStore": 2.43
+ },
+ {
+   "slug": "blaze-pizza",
+   "name": "Blaze Pizza",
+   "rank": 117,
+   "salesMillions": 347,
+   "locations": 313,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.11
+ },
+ {
+   "slug": "sweetgreen",
+   "name": "Sweetgreen",
+   "rank": 118,
+   "salesMillions": 340,
+   "locations": 150,
+   "type": "Salad",
+   "revenuePerStore": 2.27
+ },
+ {
+   "slug": "flemings-prime-steakhouse-wine-bar",
+   "name": "Fleming's Prime Steakhouse & Wine Bar",
+   "rank": 119,
+   "salesMillions": 333,
+   "locations": 64,
+   "type": "Steakhouse",
+   "revenuePerStore": 5.2
+ },
+ {
+   "slug": "long-john-silvers",
+   "name": "Long John Silver's",
+   "rank": 120,
+   "salesMillions": 332,
+   "locations": 641,
+   "type": "Seafood",
+   "revenuePerStore": 0.52
+ },
+ {
+   "slug": "schlotzskys",
+   "name": "Schlotzsky's",
+   "rank": 121,
+   "salesMillions": 332,
+   "locations": 323,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.03
+ },
+ {
+   "slug": "rallys",
+   "name": "Rally's",
+   "rank": 122,
+   "salesMillions": 319,
+   "locations": 315,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.01
+ },
+ {
+   "slug": "caribou-coffee",
+   "name": "Caribou Coffee",
+   "rank": 123,
+   "salesMillions": 318,
+   "locations": 460,
+   "type": "Beverages",
+   "revenuePerStore": 0.69
+ },
+ {
+   "slug": "dickeys-barbecue-pit",
+   "name": "Dickey's Barbecue Pit",
+   "rank": 125,
+   "salesMillions": 316,
+   "locations": 484,
+   "type": "American",
+   "revenuePerStore": 0.65
+ },
+ {
+   "slug": "topgolf",
+   "name": "Topgolf",
+   "rank": 124,
+   "salesMillions": 316,
+   "locations": 67,
+   "type": "American",
+   "revenuePerStore": 4.72
+ },
+ {
+   "slug": "chuck-e-cheese",
+   "name": "Chuck E. Cheese",
+   "rank": 126,
+   "salesMillions": 315,
+   "locations": 477,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.66
+ },
+ {
+   "slug": "krystal-company",
+   "name": "Krystal Company",
+   "rank": 127,
+   "salesMillions": 307,
+   "locations": 290,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.06
+ },
+ {
+   "slug": "cafe-rio-mexican-grill",
+   "name": "Cafe Rio Mexican Grill",
+   "rank": 128,
+   "salesMillions": 304,
+   "locations": 150,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 2.03
+ },
+ {
+   "slug": "famous-daves",
+   "name": "Famous Dave's",
+   "rank": 129,
+   "salesMillions": 301,
+   "locations": 115,
+   "type": "American",
+   "revenuePerStore": 2.62
+ },
+ {
+   "slug": "honeybaked-ham-co",
+   "name": "HoneyBaked Ham Co.",
+   "rank": 130,
+   "salesMillions": 299,
+   "locations": 409,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.73
+ },
+ {
+   "slug": "fazolis",
+   "name": "Fazoli's",
+   "rank": 131,
+   "salesMillions": 298,
+   "locations": 217,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.37
+ },
+ {
+   "slug": "ruby-tuesday",
+   "name": "Ruby Tuesday",
+   "rank": 132,
+   "salesMillions": 296,
+   "locations": 206,
+   "type": "American",
+   "revenuePerStore": 1.44
+ },
+ {
+   "slug": "lazy-dog-restaurant-bar",
+   "name": "Lazy Dog Restaurant & Bar",
+   "rank": 133,
+   "salesMillions": 294,
+   "locations": 40,
+   "type": "American",
+   "revenuePerStore": 7.35
+ },
+ {
+   "slug": "ninety-nine-restaurant-pub",
+   "name": "Ninety Nine Restaurant & Pub",
+   "rank": 134,
+   "salesMillions": 291,
+   "locations": 103,
+   "type": "American",
+   "revenuePerStore": 2.83
+ },
+ {
+   "slug": "on-the-border-mexican-grill-cantina",
+   "name": "On the Border Mexican Grill & Cantina",
+   "rank": 135,
+   "salesMillions": 287,
+   "locations": 125,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 2.3
+ },
+ {
+   "slug": "cicis",
+   "name": "Cicis",
+   "rank": 136,
+   "salesMillions": 286,
+   "locations": 299,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.96
+ },
+ {
+   "slug": "texas-de-brazil-churrascaria",
+   "name": "Texas de Brazil Churrascaria",
+   "rank": 137,
+   "salesMillions": 285,
+   "locations": 51,
+   "type": "Steakhouse",
+   "revenuePerStore": 5.59
+ },
+ {
+   "slug": "benihana",
+   "name": "Benihana",
+   "rank": 138,
+   "salesMillions": 281,
+   "locations": 72,
+   "type": "Asian",
+   "revenuePerStore": 3.9
+ },
+ {
+   "slug": "pizza-ranch",
+   "name": "Pizza Ranch",
+   "rank": 139,
+   "salesMillions": 279,
+   "locations": 213,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.31
+ },
+ {
+   "slug": "godfathers-pizza",
+   "name": "Godfather's Pizza",
+   "rank": 140,
+   "salesMillions": 274,
+   "locations": 600,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.46
+ },
+ {
+   "slug": "braums-ice-cream-dairy-stores",
+   "name": "Braum's Ice Cream & Dairy Stores",
+   "rank": 141,
+   "salesMillions": 273,
+   "locations": 290,
+   "type": "Frozen Desserts",
+   "revenuePerStore": 0.94
+ },
+ {
+   "slug": "taco-cabana",
+   "name": "Taco Cabana",
+   "rank": 142,
+   "salesMillions": 270,
+   "locations": 148,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.82
+ },
+ {
+   "slug": "scooters-coffee",
+   "name": "Scooter's Coffee",
+   "rank": 143,
+   "salesMillions": 263,
+   "locations": 410,
+   "type": "Beverages",
+   "revenuePerStore": 0.64
+ },
+ {
+   "slug": "penn-station-east-coast-subs",
+   "name": "Penn Station East Coast Subs",
+   "rank": 144,
+   "salesMillions": 258,
+   "locations": 312,
+   "type": "Sandwiches",
+   "revenuePerStore": 0.83
+ },
+ {
+   "slug": "chicken-salad-chick",
+   "name": "Chicken Salad Chick",
+   "rank": 145,
+   "salesMillions": 255,
+   "locations": 205,
+   "type": "Chicken",
+   "revenuePerStore": 1.24
+ },
+ {
+   "slug": "mountain-mikes-pizza",
+   "name": "Mountain Mike's Pizza",
+   "rank": 146,
+   "salesMillions": 255,
+   "locations": 246,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.04
+ },
+ {
+   "slug": "seasons-52",
+   "name": "Seasons 52",
+   "rank": 147,
+   "salesMillions": 254,
+   "locations": 44,
+   "type": "American",
+   "revenuePerStore": 5.77
+ },
+ {
+   "slug": "walk-ons-sports-bistreaux",
+   "name": "Walk-On's Sports Bistreaux",
+   "rank": 148,
+   "salesMillions": 253,
+   "locations": 59,
+   "type": "American",
+   "revenuePerStore": 4.29
+ },
+ {
+   "slug": "aw-all-american-food",
+   "name": "A&W All American Food",
+   "rank": 149,
+   "salesMillions": 252,
+   "locations": 525,
+   "type": "Hamburgers",
+   "revenuePerStore": 0.48
+ },
+ {
+   "slug": "golden-chick",
+   "name": "Golden Chick",
+   "rank": 151,
+   "salesMillions": 248,
+   "locations": 207,
+   "type": "Chicken",
+   "revenuePerStore": 1.2
+ },
+ {
+   "slug": "smashburger",
+   "name": "Smashburger",
+   "rank": 150,
+   "salesMillions": 248,
+   "locations": 245,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.01
+ },
+ {
+   "slug": "firebirds-wood-fired-grill",
+   "name": "Firebirds Wood Fired Grill",
+   "rank": 152,
+   "salesMillions": 247,
+   "locations": 54,
+   "type": "American",
+   "revenuePerStore": 4.57
+ },
+ {
+   "slug": "bahama-breeze-island-grille",
+   "name": "Bahama Breeze Island Grille",
+   "rank": 153,
+   "salesMillions": 240,
+   "locations": 43,
+   "type": "Seafood",
+   "revenuePerStore": 5.58
+ },
+ {
+   "slug": "corner-bakery",
+   "name": "Corner Bakery",
+   "rank": 154,
+   "salesMillions": 237,
+   "locations": 161,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.47
+ },
+ {
+   "slug": "sarku-japan",
+   "name": "Sarku Japan",
+   "rank": 155,
+   "salesMillions": 236,
+   "locations": 203,
+   "type": "Asian",
+   "revenuePerStore": 1.16
+ },
+ {
+   "slug": "farmer-boys",
+   "name": "Farmer Boys",
+   "rank": 157,
+   "salesMillions": 235,
+   "locations": 99,
+   "type": "Hamburgers",
+   "revenuePerStore": 2.37
+ },
+ {
+   "slug": "uncle-julios",
+   "name": "Uncle Julio's",
+   "rank": 158,
+   "salesMillions": 229,
+   "locations": 37,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 6.19
+ },
+ {
+   "slug": "cinnabon",
+   "name": "Cinnabon",
+   "rank": 159,
+   "salesMillions": 224,
+   "locations": 939,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.24
+ },
+ {
+   "slug": "village-inn",
+   "name": "Village Inn",
+   "rank": 160,
+   "salesMillions": 224,
+   "locations": 129,
+   "type": "American",
+   "revenuePerStore": 1.74
+ },
+ {
+   "slug": "pappadeaux-seafood-kitchen",
+   "name": "Pappadeaux Seafood Kitchen",
+   "rank": 161,
+   "salesMillions": 221,
+   "locations": 40,
+   "type": "Seafood",
+   "revenuePerStore": 5.53
+ },
+ {
+   "slug": "wetzels-pretzels",
+   "name": "Wetzel's Pretzels",
+   "rank": 162,
+   "salesMillions": 221,
+   "locations": 350,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 0.63
+ },
+ {
+   "slug": "huddle-house",
+   "name": "Huddle House",
+   "rank": 163,
+   "salesMillions": 219,
+   "locations": 305,
+   "type": "American",
+   "revenuePerStore": 0.72
+ },
+ {
+   "slug": "donatos-pizza",
+   "name": "Donatos Pizza",
+   "rank": 164,
+   "salesMillions": 216,
+   "locations": 169,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 1.28
+ },
+ {
+   "slug": "fuzzys-taco-shop",
+   "name": "Fuzzy's Taco Shop",
+   "rank": 165,
+   "salesMillions": 213,
+   "locations": 137,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.55
+ },
+ {
+   "slug": "peets-coffee",
+   "name": "Peet's Coffee",
+   "rank": 166,
+   "salesMillions": 212,
+   "locations": 230,
+   "type": "Beverages",
+   "revenuePerStore": 0.92
+ },
+ {
+   "slug": "true-food-kitchen",
+   "name": "True Food Kitchen",
+   "rank": 167,
+   "salesMillions": 210,
+   "locations": 40,
+   "type": "American",
+   "revenuePerStore": 5.25
+ },
+ {
+   "slug": "newks-eatery",
+   "name": "Newk's Eatery",
+   "rank": 168,
+   "salesMillions": 209,
+   "locations": 101,
+   "type": "Sandwiches",
+   "revenuePerStore": 2.07
+ },
+ {
+   "slug": "old-chicago-pizza-taproom",
+   "name": "Old Chicago Pizza & Taproom",
+   "rank": 169,
+   "salesMillions": 208,
+   "locations": 83,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.51
+ },
+ {
+   "slug": "rubios-coastal-grill",
+   "name": "Rubio's Coastal Grill",
+   "rank": 170,
+   "salesMillions": 208,
+   "locations": 157,
+   "type": "Mexican/Tex-Mex",
+   "revenuePerStore": 1.32
+ },
+ {
+   "slug": "ocean-prime",
+   "name": "Ocean Prime",
+   "rank": 171,
+   "salesMillions": 204,
+   "locations": 17,
+   "type": "Seafood",
+   "revenuePerStore": 12
+ },
+ {
+   "slug": "pei-wei",
+   "name": "Pei Wei",
+   "rank": 172,
+   "salesMillions": 204,
+   "locations": 119,
+   "type": "Asian",
+   "revenuePerStore": 1.71
+ },
+ {
+   "slug": "stk-steakhouse",
+   "name": "STK Steakhouse",
+   "rank": 173,
+   "salesMillions": 200,
+   "locations": 14,
+   "type": "Steakhouse",
+   "revenuePerStore": 14.29
+ },
+ {
+   "slug": "cava",
+   "name": "Cava",
+   "rank": 174,
+   "salesMillions": 196,
+   "locations": 170,
+   "type": "Salad",
+   "revenuePerStore": 1.15
+ },
+ {
+   "slug": "jollibee",
+   "name": "Jollibee",
+   "rank": 175,
+   "salesMillions": 193,
+   "locations": 54,
+   "type": "Hamburgers",
+   "revenuePerStore": 3.57
+ },
+ {
+   "slug": "pret-manger",
+   "name": "Pret a Manger",
+   "rank": 176,
+   "salesMillions": 193,
+   "locations": 81,
+   "type": "Sandwiches",
+   "revenuePerStore": 2.38
+ },
+ {
+   "slug": "sbarro",
+   "name": "Sbarro",
+   "rank": 177,
+   "salesMillions": 193,
+   "locations": 296,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 0.65
+ },
+ {
+   "slug": "mortons-steakhouse",
+   "name": "Morton's The Steakhouse",
+   "rank": 178,
+   "salesMillions": 192,
+   "locations": 55,
+   "type": "Steakhouse",
+   "revenuePerStore": 3.49
+ },
+ {
+   "slug": "mastros-restaurants",
+   "name": "Mastros Restaurants",
+   "rank": 179,
+   "salesMillions": 191,
+   "locations": 19,
+   "type": "Steakhouse",
+   "revenuePerStore": 10.05
+ },
+ {
+   "slug": "big-boy-restaurants",
+   "name": "Frisch's Big Boy",
+   "rank": 180,
+   "salesMillions": 190,
+   "locations": 110,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.73
+ },
+ {
+   "slug": "lees-famous-recipe-chicken",
+   "name": "Lee's Famous Recipe Chicken",
+   "rank": 181,
+   "salesMillions": 190,
+   "locations": 131,
+   "type": "Chicken",
+   "revenuePerStore": 1.45
+ },
+ {
+   "slug": "au-bon-pain",
+   "name": "Au Bon Pain",
+   "rank": 182,
+   "salesMillions": 188,
+   "locations": 121,
+   "type": "Breakfast/Baked Goods",
+   "revenuePerStore": 1.55
+ },
+ {
+   "slug": "pollo-campero",
+   "name": "Pollo Campero",
+   "rank": 183,
+   "salesMillions": 187,
+   "locations": 77,
+   "type": "Chicken",
+   "revenuePerStore": 2.43
+ },
+ {
+   "slug": "zoes-kitchen",
+   "name": "Zoë's Kitchen",
+   "rank": 184,
+   "salesMillions": 187,
+   "locations": 114,
+   "type": "Salad",
+   "revenuePerStore": 1.64
+ },
+ {
+   "slug": "ono-hawaiian-bbq",
+   "name": "Ono Hawaiian BBQ",
+   "rank": 185,
+   "salesMillions": 186,
+   "locations": 99,
+   "type": "Asian",
+   "revenuePerStore": 1.88
+ },
+ {
+   "slug": "smokey-bones",
+   "name": "Smokey Bones",
+   "rank": 186,
+   "salesMillions": 186,
+   "locations": 61,
+   "type": "American",
+   "revenuePerStore": 3.05
+ },
+ {
+   "slug": "wayback-burgers",
+   "name": "Wayback Burgers",
+   "rank": 187,
+   "salesMillions": 185,
+   "locations": 147,
+   "type": "Hamburgers",
+   "revenuePerStore": 1.26
+ },
+ {
+   "slug": "biggby-coffee",
+   "name": "Biggby Coffee",
+   "rank": 188,
+   "salesMillions": 182,
+   "locations": 265,
+   "type": "Beverages",
+   "revenuePerStore": 0.69
+ },
+ {
+   "slug": "sonnys-bbq",
+   "name": "Sonny's BBQ",
+   "rank": 189,
+   "salesMillions": 181,
+   "locations": 92,
+   "type": "American",
+   "revenuePerStore": 1.97
+ },
+ {
+   "slug": "larosas-pizzeria",
+   "name": "LaRosa's Pizzeria",
+   "rank": 190,
+   "salesMillions": 177,
+   "locations": 66,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.68
+ },
+ {
+   "slug": "54th-street-restaurant-drafthouse",
+   "name": "54 Street Restaurant & Drafthouse",
+   "rank": 191,
+   "salesMillions": 175,
+   "locations": 31,
+   "type": "American",
+   "revenuePerStore": 5.65
+ },
+ {
+   "slug": "bill-miller-bar-b-q",
+   "name": "Bill Miller Bar-B-Q",
+   "rank": 193,
+   "salesMillions": 174,
+   "locations": 76,
+   "type": "American",
+   "revenuePerStore": 2.29
+ },
+ {
+   "slug": "paris-baguette",
+   "name": "Paris Baguette",
+   "rank": 192,
+   "salesMillions": 174,
+   "locations": 96,
+   "type": "Sandwiches",
+   "revenuePerStore": 1.81
+ },
+ {
+   "slug": "bonchon",
+   "name": "BonChon",
+   "rank": 194,
+   "salesMillions": 173,
+   "locations": 115,
+   "type": "Chicken",
+   "revenuePerStore": 1.5
+ },
+ {
+   "slug": "giordanos",
+   "name": "Giordano's",
+   "rank": 196,
+   "salesMillions": 173,
+   "locations": 73,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.37
+ },
+ {
+   "slug": "ll-hawaiian-barbecue",
+   "name": "L&L Hawaiian Barbecue",
+   "rank": 195,
+   "salesMillions": 173,
+   "locations": 209,
+   "type": "Asian",
+   "revenuePerStore": 0.83
+ },
+ {
+   "slug": "north-italia",
+   "name": "North Italia",
+   "rank": 198,
+   "salesMillions": 172,
+   "locations": 29,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 5.93
+ },
+ {
+   "slug": "uno-pizzeria-grill",
+   "name": "Uno Pizzeria & Grill",
+   "rank": 197,
+   "salesMillions": 172,
+   "locations": 83,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.07
+ },
+ {
+   "slug": "bubbas-33",
+   "name": "Bubbas 33",
+   "rank": 201,
+   "salesMillions": 171,
+   "locations": 36,
+   "type": "American",
+   "revenuePerStore": 4.75
+ },
+ {
+   "slug": "buca-di-beppo",
+   "name": "Buca di Beppo",
+   "rank": 200,
+   "salesMillions": 171,
+   "locations": 70,
+   "type": "Pizza/Italian",
+   "revenuePerStore": 2.44
+ }
+]

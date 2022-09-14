@@ -24,30 +24,42 @@ export default async (req, res) => {
   // ))
         
 
-    // const getRestaurants = await prisma.restaurant.findMany({
-    //   orderBy: [
-    //     {
-    //       slug: "asc",
-    //     },
-    //   ],
-    // });
-
-    // let formatted = getRestaurants.map((r)=>r.slug)
-
-    const restaurants = await prisma.restaurant.findMany({
+    const getRestaurants = await prisma.restaurant.findMany({
       orderBy: [
         {
-          rank: "desc",
+          slug: "asc",
         },
       ],
       include: {
-        segment: true,
+        restaurantTypes: true,
         _count: {
           select: { meals: true },
         },
-      },
-    })
-    let formatted = restaurants.map((r)=>({slug: r.slug, count: r._count.meals}))
+      }
+    });
+
+    let formatted = getRestaurants.map(
+      (r)=>(
+        {...r,
+          restaurantTypes:r.restaurantTypes.map((type)=>(type.name)).join(", "),
+          count: r._count.meals
+        
+        }))
+
+    // const restaurants = await prisma.restaurant.findMany({
+    //   orderBy: [
+    //     {
+    //       rank: "desc",
+    //     },
+    //   ],
+    //   include: {
+    //     segment: true,
+    //     _count: {
+    //       select: { meals: true },
+    //     },
+    //   },
+    // })
+    // let formatted = restaurants.map((r)=>({slug: r.slug, count: r._count.meals}))
 
 
     res.send(JSON.stringify(formatted, null, 2));

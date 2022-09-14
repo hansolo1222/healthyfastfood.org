@@ -41,7 +41,7 @@ export const SectionRestaurantInfo = ({ restaurant }) => {
           </div>
           <p className="font-semibold text-sm mt-1 mb-0">Food Type</p>
           <p className="text-lg text-stone-600">
-            {restaurant.restaurantType.name}
+            {restaurant.restaurantTypes.map((type)=>type.name).join(", ")}
           </p>
         </div>
         <div>

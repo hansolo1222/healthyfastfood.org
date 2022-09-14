@@ -128,28 +128,34 @@ model subvariant {
 }
 
 model restaurant {
-  id            Int    @id @default(autoincrement())
-  name          String 
-  slug          String @unique
+  id                 Int    @id @default(autoincrement())
+  name               String 
+  slug               String @unique
 
-  rank          Int?
-  salesMillions Int?
+  keyword            String?
+  usVolume           Int? 
+  globalVolume       Int?
+  difficulty         Int?
+  trafficPotential   Int?
+  website            String?
 
-  originalLocation String?
-  founded       String?
-  headquarters  String?
-  locations     Int?
-  areasServed   String[]
+  rank               Int?
+  salesMillions      Int?
+
+  originalLocation  String?
+  originalCountry   String?
+  founded           String?
+  headquarters      String?
+  locations         Int?
+  areasServed       String[]
 
   segment       segment? @relation(fields: [segmentSlug], references: [slug])
   segmentSlug   String?
 
-  restaurantType  restaurantType? @relation(fields: [restaurantTypeSlug], references: [slug])
+  // restaurantType  restaurantType? @relation(fields: [restaurantTypeSlug], references: [slug])
   restaurantTypeSlug   String?
 
-  usVolume      Int? 
-  globalVolume  Int?
-  difficulty    Int?
+  restaurantTypes restaurantType[]
 
   meals        meal[]
   menus        menu[]
@@ -164,15 +170,15 @@ model segment {
 }
 
 model restaurantType {
-  id          String  @default(uuid())
+  id          String @id @default(uuid())
   name        String @unique
   slug        String @unique
-  description String? @default("The")
+  description String? @default("")
   restaurants restaurant[]
 } 
 
 model category {
-  id                  String  @default(uuid())
+  id                  String  @id @default(uuid())
   name                String  @unique
   slug                String?
   meals               meal[]

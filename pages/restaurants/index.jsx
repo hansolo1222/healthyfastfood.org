@@ -1,20 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-//import styles from '../styles/Home.module.css'
-import Header from "../../components/Header";
 import Layout from "../../components/Layout";
-import { useState } from "react";
 import { useSortableData } from "../../components/UseSortableData";
-import { useFilteredData } from "../../components/UseFilteredData";
-//let glob = require( 'glob' ), path = require( 'path' );
-//import recursiveReaddirFiles from 'recursive-readdir-files';
-import Link from "next/link";
-import { MealRow } from ".";
-// import * as restaurants from '../public/restaurant_links.json' assert {type: "json"};
-import { useRouter } from "next/router";
-import { Breadcrumbs } from "../../components/Breadcrumbs";
 import prisma from "../../lib/prisma";
 import { ShareIcons } from "../../components/ShareIcons";
+
+
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
     orderBy: [
@@ -24,7 +15,7 @@ export const getServerSideProps = async (context) => {
     ],
     include: {
       segment: true,
-      restaurantType: true,
+      restaurantTypes: true,
       _count: {
         select: { meals: true },
       },
@@ -47,8 +38,10 @@ export const getServerSideProps = async (context) => {
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes } = props;
 
-  console.log(restaurantTypes.map((e)=>({"name":e.name})))
+  const formattedRestaurants = restaurants.map((r)=>({...r,restaurantTypesNames:r.restaurantTypes.map((type)=>type.name)}))
 
+
+  // console.log(restaurantTypes.map((e)=>({"name":e.name})))
   let {
     items,
     requestSort,
@@ -57,10 +50,13 @@ export default function Restaurants(props) {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(restaurants, {
+  } = useSortableData(formattedRestaurants, {
     key: "rank",
     direction: "ascending",
   });
+
+
+  console.log(items)
 
   return (
     <div className="">
@@ -111,12 +107,7 @@ export default function Restaurants(props) {
                             direction="ascending"
                           />
                         </th>
-                        {/* <td
-                    scope="col"
-                    className="px-3 py-0.5 text-sm whitespace-nowrap font-semibold text-greeny-600 text-right"
-                  >
-                    <SortableTableHeader colKey="rank" name="Rank" direction="ascending"/>
-                  </td> */}
+                
 
                         <th
                           scope="col"
@@ -129,37 +120,13 @@ export default function Restaurants(props) {
                             direction="descending"
                           />
                         </th>
-                        {/* <td
-                          scope="col"
-                          className="px-3 py-0.5 text-sm font-semibold text-greeny-600 text-center"
-                        >
-                          <SortableTableHeader
-                            colKey="itemCount"
-                            name="Items"
-                          />
-                        </td> */}
-                        {/* <td
-                    scope="col"
-                    className="px-3 py-2.5 text-sm font-semibold  whitespace-nowrap text-greeny-600 text-center"
-                  >
-                    <SortableTableHeader colKey="restaurantTypeSlug" name="Food Type" direction="ascending"/>
-                  </td> */}
-                        {/* <td
-                          scope="col"
-                          className="px-3 py-0.5 text-sm font-semibold  whitespace-nowrap  text-greeny-600 text-center"
-                        >
-                          <SortableTableHeader
-                            colKey="segmentSlug"
-                            name="Service Type"
-                            direction="ascending"
-                          />
-                        </td> */}
+                        
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-stone-200">
                       {items
-                        .filter((r) => r.restaurantTypeSlug == type.slug)
-                        .slice(0, 10)
+                        .filter((r) => r.restaurantTypesNames.includes(type.name))
+                        .slice(0, 5)
                         .map((restaurant, i) => {
                           return (
                             <tr

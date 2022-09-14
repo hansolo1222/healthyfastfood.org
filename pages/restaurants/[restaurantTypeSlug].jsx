@@ -16,28 +16,31 @@ import { Breadcrumbs } from "../../components/Breadcrumbs";
 import prisma from "../../lib/prisma";
 
 export const getServerSideProps = async (context) => {
-  const restaurants = await prisma.restaurant.findMany({
-    where: {
-      restaurantType: {
-        slug: String(context.params?.restaurantTypeSlug),
-      }
-    },
-    orderBy: [
-      {
-        rank: "desc",
-      },
-    ],
-    include: {
-      segment: true,
-      _count: {
-        select: { meals: true },
-      },
-    },
-  });
+  // const restaurants = await prisma.restaurant.findMany({
+  //   where: {
+  //     restaurantType: {
+  //       slug: String(context.params?.restaurantTypeSlug),
+  //     }
+  //   },
+  //   orderBy: [
+  //     {
+  //       rank: "desc",
+  //     },
+  //   ],
+  //   include: {
+  //     segment: true,
+  //     _count: {
+  //       select: { meals: true },
+  //     },
+  //   },
+  // });
 
   const type = await prisma.restaurantType.findUnique({
     where: {
       slug: String(context.params?.restaurantTypeSlug),
+    },
+    include: {
+      restaurants: true
     }
   })
 
@@ -45,11 +48,11 @@ export const getServerSideProps = async (context) => {
 
   return {
     props: {
-      restaurants: JSON.parse(
-        JSON.stringify(
-          restaurants.map((r) => ({ ...r, itemCount: r._count.meals }))
-        )
-      ),
+      // restaurants: JSON.parse(
+      //   JSON.stringify(
+      //     restaurants.map((r) => ({ ...r, itemCount: r._count.meals }))
+      //   )
+      // ),
       restaurantTypes: JSON.parse(JSON.stringify(restaurantTypes)),
       type: JSON.parse(JSON.stringify(type)),
     },
@@ -57,6 +60,8 @@ export const getServerSideProps = async (context) => {
 };
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes, type } = props;
+
+  console.log(type)
 
   console.log(restaurants, "here");
 
@@ -68,7 +73,7 @@ export default function Restaurants(props) {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(restaurants, {
+  } = useSortableData(type.restaurants, {
     key: "rank",
     direction: "ascending",
   });
@@ -156,11 +161,11 @@ export default function Restaurants(props) {
                  
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center">
                     {restaurant.locations}</td>
-                    <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center hidden md:table-cell">
+                    {/* <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center hidden md:table-cell">
                     {restaurant._count.meals !== 0 
                     ? restaurant._count.meals 
                     : <span className="text-xs border text-stone-500 px-2 py-1 rounded-full">No data yet</span>}</td>
-                
+                 */}
                     <td className="whitespace-nowrap py-1 text-md text-stone-900 text-center hidden sm:table-cell">
                     {restaurant.segment ? restaurant.segment.name : ""}
                     </td>
