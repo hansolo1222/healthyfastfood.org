@@ -396,31 +396,30 @@ And that's the most popular boba in every state, by search volume!
   );
 }
 
-## Methodology:
+// ## Methodology:
 
-This graph shows the most popular Bubble Tea brand by state, as measured by Google search volume.
+// This graph shows the most popular Bubble Tea brand by state, as measured by Google search volume.
 
-Google Trends and Google Keyword Planner are used to determine relative search volume. Adobe Illustrator used for the Image above, and Chart.js is used for interactive visualization
+// Google Trends and Google Keyword Planner are used to determine relative search volume. Adobe Illustrator used for the Image above, and Chart.js is used for interactive visualization
 
-// ## Limitations
+// // ## Limitations
 
-// This chart runs into the same limitations as other cholorpleth charts.
+// // This chart runs into the same limitations as other cholorpleth charts.
 
-// If misterpreted, it can greatly exagerate the popularity of small brands, and brands who have established themselves in states without many bubble tea shops.
+// // If misterpreted, it can greatly exagerate the popularity of small brands, and brands who have established themselves in states without many bubble tea shops.
 
-// For example, Chatime, Gong Cha and Sharetea are nationwide brands that all rank for #2 most popular in many states, however only win the title for one state each. At first glance this makes it appear as if they have the same presence as smaller, state-level brands like Milk Run, which is only widely known in Arizona.
+// // For example, Chatime, Gong Cha and Sharetea are nationwide brands that all rank for #2 most popular in many states, however only win the title for one state each. At first glance this makes it appear as if they have the same presence as smaller, state-level brands like Milk Run, which is only widely known in Arizona.
 
 
-Sharetea: California, Kentucky, Oregon
-Brew Tea Bar: Nevada
-Milk Run: Arizona
-Ding Tea: Utah
-Boise Boba: Idaho
-Chatime: North Dakota
-Tasteas: South Dakota
-Teapioca Lounge: Oklahoma
-Fruitealicious: Arkansas
-Gong Cha: Massachusetts
-Happy House Tea: Alaska
-
-Dobrá Tea: Maine, Vermont
+// Sharetea: California, Kentucky, Oregon
+// Brew Tea Bar: Nevada
+// Milk Run: Arizona
+// Ding Tea: Utah
+// Boise Boba: Idaho
+// Chatime: North Dakota
+// Tasteas: South Dakota
+// Teapioca Lounge: Oklahoma
+// Fruitealicious: Arkansas
+// Gong Cha: Massachusetts
+// Happy House Tea: Alaska
+// Dobrá Tea: Maine, Vermont
