@@ -56,7 +56,7 @@ export const getServerSideProps = async (context) => {
           },
         },
       },
-      restaurantType: true,
+      restaurantTypes: true,
     },
   });
   if (!restaurant) {
@@ -65,25 +65,34 @@ export const getServerSideProps = async (context) => {
     };
   }
 
-  const restaurantType = restaurant.restaurantType.slug;
+  const restaurantType = restaurant.restaurantTypes[0].slug;
 
-  const restaurants = await prisma.restaurant.findMany({
+  const type = await prisma.restaurantType.findUnique({
     where: {
-      restaurantType: {
-        slug: restaurantType,
-      },
+      slug: restaurantType
     },
-    orderBy: [
-      {
-        rank: "asc",
-      },
-    ],
-  });
+    include: {
+      restaurants: true
+    }
+  })
+
+  // const restaurants = await prisma.restaurant.findMany({
+  //   where: {
+  //     restaurantType: {
+  //       slug: restaurantType,
+  //     },
+  //   },
+  //   orderBy: [
+  //     {
+  //       rank: "asc",
+  //     },
+  //   ],
+  // });
 
   return {
     props: {
       restaurant: JSON.parse(JSON.stringify(restaurant)),
-      restaurants: JSON.parse(JSON.stringify(restaurants)),
+      restaurants: JSON.parse(JSON.stringify(type.restaurants)),
       restaurantType: JSON.parse(JSON.stringify(restaurantType)),
     },
   };

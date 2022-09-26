@@ -24,7 +24,7 @@ export const getServerSideProps = async (context) => {
     ],
     include: {
       segment: true,
-      restaurantType: true,
+      restaurantTypes: true,
       _count: {
         select: { meals: true },
       },
@@ -47,7 +47,7 @@ export const getServerSideProps = async (context) => {
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes } = props;
 
-  console.log(restaurantTypes, "here");
+  const formattedRestaurants = restaurants.map((r)=>({...r,restaurantTypesNames:r.restaurantTypes.map((type)=>type.name)}))
 
   let {
     items,
@@ -57,12 +57,11 @@ export default function Restaurants(props) {
     SortableTableHeader,
     SortableTableHeaderInverse,
     SortableTableHeaderROI,
-  } = useSortableData(restaurants, {
+  } = useSortableData(formattedRestaurants, {
     key: "rank",
     direction: "ascending",
   });
 
-  console.log(items);
   return (
     <div className="">
       <Head>
@@ -159,7 +158,7 @@ export default function Restaurants(props) {
                     </thead>
                     <tbody className="divide-y divide-stone-200">
                       {items
-                        .filter((r) => r.restaurantTypeSlug == type.slug)
+                        .filter((r) => r.restaurantTypesNames.includes(type.name))
                         .slice(0, 10)
                         .map((restaurant, i) => {
                           return (

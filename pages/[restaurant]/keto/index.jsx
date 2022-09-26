@@ -56,7 +56,7 @@ export const getServerSideProps = async (context) => {
           },
         },
       },
-      restaurantType: true,
+      restaurantTypes: true,
     },
   });
   if (!restaurant) {
@@ -65,25 +65,34 @@ export const getServerSideProps = async (context) => {
     };
   }
 
-  const restaurantType = restaurant.restaurantType.slug;
+  const restaurantType = restaurant.restaurantTypes[0].slug;
 
-  const restaurants = await prisma.restaurant.findMany({
+  const type = await prisma.restaurantType.findUnique({
     where: {
-      restaurantType: {
-        slug: restaurantType,
-      },
+      slug: restaurantType
     },
-    orderBy: [
-      {
-        rank: "asc",
-      },
-    ],
-  });
+    include: {
+      restaurants: true
+    }
+  })
+
+  // const restaurants = await prisma.restaurant.findMany({
+  //   where: {
+  //     restaurantType: {
+  //       slug: restaurantType,
+  //     },
+  //   },
+  //   orderBy: [
+  //     {
+  //       rank: "asc",
+  //     },
+  //   ],
+  // });
 
   return {
     props: {
       restaurant: JSON.parse(JSON.stringify(restaurant)),
-      restaurants: JSON.parse(JSON.stringify(restaurants)),
+      restaurants: JSON.parse(JSON.stringify(type.restaurants)),
       restaurantType: JSON.parse(JSON.stringify(restaurantType)),
     },
   };
@@ -471,7 +480,7 @@ If you’re new to keto, you might be struggling with adjusting to this new way 
 
 Luckily in the few years alone, keto has gone from a niche diet a mainstream one. The spotlight has only grown on keto-friendly meals, with its proven track record of helping people with weight loss, as well as blood sugar control for type 2 diabetes [[Source](https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089)]. 
 
-More and more restaurants are beginning to introduce low carb options to cater to those following a keto diet. Here are some our recommendations if you're looking for keto-friendly options at ${restaurant.restaurantType.name} restaurants.
+More and more restaurants are beginning to introduce low carb options to cater to those following a keto diet. Here are some our recommendations if you're looking for keto-friendly options at ${restaurant.restaurantTypes[0].name} restaurants.
 
 ### [Chipotle](https://healthyfastfood.org/chipotle)
 

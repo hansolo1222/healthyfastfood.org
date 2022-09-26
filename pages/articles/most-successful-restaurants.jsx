@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 const restaurants = require("/public/restaurantData/tope.json");
 import _ from "lodash";
-var randomHexColor = require("random-hex-color");
 import ReactMarkdown from "react-markdown";
 import {
   Chart as ChartJS,
@@ -15,36 +14,38 @@ import {
 import { Scatter, Bubble } from "react-chartjs-2";
 import { faker } from "@faker-js/faker";
 import Layout from "../../components/Layout";
+// import mcdonalds from '/images/logosSmall/mcdonalds.webp'; // Tell webpack this JS file uses this image
+
+import Image from 'next/image'
 
 console.log(restaurants);
 
 const colorMap = {
-  Hamburgers: "#dc2626 ",
-  "Pizza/Italian": "#FD971F ",
-  Beverages: "#fca5a5  ",
-  Chicken: "#facc15 ",
-  Sandwiches: "#a16207 ",
-  "Mexican/Tex-Mex": "#a5b4fc  ",
+  Hamburgers: "#dc2626",
+  "Pizza/Italian": "#FD971F",
+  Beverages: "#a5b4fc",
+  Chicken: "#facc15",
+  Sandwiches: "#ECC7B3",
+  "Mexican/Tex-Mex": "#059669",
   Asian: "#d946ef ",
-  "Frozen Desserts": "#059669  ",
-  Salad: "#1c1917 ",
+  "Frozen Desserts": "#d1d5db",
+  Salad: "#84cc16",
   American: "#3b82f6 ",
-  Steakhouse: "#6d28d9 ",
-  "Breakfast/Baked Goods": "#d1d5db",
+  Steakhouse: "#a16207 ",
+  "Breakfast/Baked Goods": "#1c1917",
   "Baked Goods": "#FFF500",
-  Seafood: "#84cc16 ",
+  Seafood: "#fca5a5",
 };
 const grouped = _.groupBy(
   restaurants.map((r) => ({
     ...r,
     x: r.locations,
-    y: r.salesMillions,
-    r: Math.sqrt(r.revenuePerStore / Math.PI) * 8,
+    y: r.revenuePerStore,
+    r: Math.sqrt(r.salesMillions / Math.PI)/2.5,
   })),
   (restaurant) => restaurant.type
 );
 
-console.log(grouped);
 ChartJS.register(
   LinearScale,
   PointElement,
@@ -55,7 +56,6 @@ ChartJS.register(
 );
 
 const footer = (tooltipItems) => {
-  console.log(tooltipItems)
   let sum = 0;
 
   tooltipItems.forEach(function(tooltipItem) {
@@ -64,8 +64,8 @@ const footer = (tooltipItems) => {
 
   const labelText = 
 `Locations: ${tooltipItems[0].raw.x} 
-Revenue: $${tooltipItems[0].raw.y} million
-Sales per Location: $${tooltipItems[0].raw.revenuePerStore.toFixed(2)} mil`
+Revenue Per Store: $${tooltipItems[0].raw.revenuePerStore.toFixed(2)} mil
+Total Revenue: $${tooltipItems[0].raw.salesMillions} mil`
   return labelText;
 };
 
@@ -89,11 +89,9 @@ export const options = {
         size: 14,
         color: "#000"
       },
-     
       footerFont: {
         weight: 400,
         color: "#000"
-
       },
       borderWidth: 1,
       borderColor: "#111",
@@ -101,17 +99,8 @@ export const options = {
       footerColor: "#000",
       backgroundColor: '#FFF',
       padding: 10
-//       bodyFontColor: '#000000',
-//       backgroundColor: '#FFF',
-// footerFontColor: '#000000',
-
-//       // titleFontSize: 16,
-//       titleFontColor: '#0066ff',
-      
-//       // bodyFontSize: 14,
     }
   },
-
   animations: {
     tension: {
       duration: 1000,
@@ -124,10 +113,10 @@ export const options = {
   scales: {
     y: {
       beginAtZero: true,
-      type: "logarithmic",
+      
       title: {
         display: true,
-        text: "2021 Sales (Millions)",
+        text: "2021 Revenue Per Store (Millions)",
         font: {
           size: 20,
         },
@@ -153,25 +142,28 @@ export const options = {
   },
 };
 
-// 4168	1578
-// 2418	664
-// 2293	207
-// 1169	392
-// 1087	212
-// 835	303
-
-const fullData = {
-  burger: [
-    { x: 4168, y: 1578, z: 1 },
-    { x: 2418, y: 664, z: 2 },
-    { x: 2293, y: 207 },
-  ],
-  pizza: [{ x: 418, y: 158, z: 1 }],
-};
 
 const datasets = [];
 
+// const img = new Image();
+// img.src = 'https://i.stack.imgur.com/gXQrT.png';
+
+const image = <img src='/images/logosSmall/mcdonalds.webp'/>
+// const chartPoint = new Image()
+// chartPoint.src = myIcon
+
+const pointStyles = [image, 'triangle', 'circle'];
+
+const plugins = {
+  afterUpdate: chart => {
+    chart.getDatasetMeta(0).data.forEach((d, i) => d._model.pointStyle = pointStyles[0]);
+  }
+}
+
+
 Object.keys(grouped).forEach((key) => {
+  // const image = new Image()
+  // image.src = '/images/logosSmall/mcdonalds.webp'
   datasets.push({
     label: key,
     data: grouped[key],
@@ -183,24 +175,6 @@ Object.keys(grouped).forEach((key) => {
 
 export const data = {
   datasets: datasets,
-
-  // [
-  //   {
-  //     label: 'Burger',
-  //     data: grouped["Hamburgers"],
-  //     backgroundColor: '#CF2A37',
-  //     borderWidth: 0,
-  //     pointRadius: 4,
-  //   },
-  //   {
-  //     label: 'Pizza',
-  //     data: fullData.pizza,
-  //     pointBackgroundColor: '#FF9100',
-  //     backgroundColor: '#FF9100',
-  //     borderWidth: 0,
-  //     pointRadius: 4,
-  //   },
-  // ],
 };
 
 export default function App() {
@@ -214,14 +188,14 @@ export default function App() {
 
 SEPTEMBER 13, 2022
 
-See how the most successful restaurants compare in terms of sales revenue (data for 2021) and number of locations. The size of the dot represents revenue per store in millions. More [details on the biggest restaurant chains in the US](#evaluate) »
+See how the most successful restaurants compare in terms of revenue per store (data for 2021) and number of locations. The size of the dot represents total 2021 revenue. More [details on the biggest restaurant chains in the US »](#evaluate)
 
 `}
         </ReactMarkdown>
       </div>
       <div style={{height: '600px'}}>
 
-      <Bubble options={options} data={data} />
+      <Bubble plugins={plugins} options={options} data={data} />
 </div>
       <div className="mx-auto max-w-prose prose my-10">
         <h2 id="evaluate">How do you evaluate success?</h2>
@@ -236,7 +210,7 @@ What about total **number of locations**? Location count can give a rough estima
 
 In this report we **compare a restaurant sales revenue from 2021 to its location count** (US only, revenue and locations outside the US have been excluded) to paint a multidimensional portrait of restaurant success. Both axes are plotted using a logarithmic scale to give a clearer picture of this winner-takes-all space.
 
-The general trend is obvious: the more locations a restaurant has, the more revenue it generates.
+The general trend becomes apparent: the more locations a restaurant has, the less revenue per store. We can observe different business models.
 
 More interesting is that we've used dot size to indicate "Revenue per Store". This gives us insight into the restaurants and restaurant types that earn the most per location.
 
