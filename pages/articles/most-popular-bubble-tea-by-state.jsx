@@ -199,13 +199,13 @@ SEPTEMBER 19, 2022
 
 Bubble tea has been a popular drink in Asian countries since the 80s, but has only exploded in popularity in the USA in the past 10 years. Its recent popularity is driven by [Gen Z's embrace of the drink](https://www.teaandcoffee.net/blog/29617/boba-tea-re-emerges-and-surges-in-popularity-thanks-to-gen-z/).
 
-To find out which brands are the most popular, we compared internet search volume for 50+ notable bubble tea brands. While **Kung Fu Tea**, a chain established in 2010 in Queens, NY dominates, winning 36/50 states, we discovered that smaller local shops had outsized brand recognition in their home states.
+To find out which brands are the most popular, we compared internet search volume for 50+ notable bubble tea brands. While **Kung Fu Tea**, a chain established in 2010 in Queens, NY dominates, winning 34/50 states, we discovered that smaller local shops had outsized brand recognition in their home states.
 
 ![The Most Popular Bubble Tea in every US State by HealthyFastFood.org](/images/articles/most-popular-bubble-tea-by-state/bubble-tea-state.png)
 
 ## Kung Fu Tea Dominates in the US
 
-- **Winner in: 36/50 states**
+- **Winner in: 34/50 states**
 - Founded: 2010, Queens, NY
 
 Kung Fu Tea was America's largest bubble tea brand with over 350+ locations across the U.S.
@@ -366,13 +366,23 @@ Popular Drinks: The Classic, Thai Treat
 
 ![Happy House Tea location and drinks](/images/articles/most-popular-bubble-tea-by-state/happy-house.jpg)
 
+
+## Dobrá Tea
+
+- **Winner of: Maine, Vermont**
+- Founded: 1993, Prague, Czech Republic
+
+Despite being known for its tea more than its bubble tea, Dobrá Tea takes the crown in 2 states. 
+
+Dobrá’s tearoom concept started as an underground movement in Prague during the Communism era when people would share their smuggled tea varieties with others. The idea survived for decades, and in 1993, the first Dobrá tearoom officially opened in Prague. Today, there are 30 Dobrá tea rooms in Europe and 8 in the US.
+
+Customer favorites include green tea and black tea with boba.
+
+Popular Drinks:
+
+![Dobra tea location and drinks](/images/articles/most-popular-bubble-tea-by-state/dobra-tea.jpeg)
+
 And that's the most popular boba in every state, by search volume!
-
-
-
-
-
-
 
 
 
@@ -386,11 +396,11 @@ And that's the most popular boba in every state, by search volume!
   );
 }
 
-// ## Methodology:
+## Methodology:
 
-// This graph shows the most popular Bubble Tea brand by state, as measured by Google search volume.
+This graph shows the most popular Bubble Tea brand by state, as measured by Google search volume.
 
-// Google Trends and Google Keyword Planner are used to determine relative search volume. Adobe Illustrator used for the Image above, and Chart.js is used for interactive visualization
+Google Trends and Google Keyword Planner are used to determine relative search volume. Adobe Illustrator used for the Image above, and Chart.js is used for interactive visualization
 
 // ## Limitations
 
@@ -401,17 +411,16 @@ And that's the most popular boba in every state, by search volume!
 // For example, Chatime, Gong Cha and Sharetea are nationwide brands that all rank for #2 most popular in many states, however only win the title for one state each. At first glance this makes it appear as if they have the same presence as smaller, state-level brands like Milk Run, which is only widely known in Arizona.
 
 
-// Sharetea: California, Kentucky, Oregon
-// Brew Tea Bar: Nevada
-// Milk Run: Arizona
-// Ding Tea: Utah
-// Boise Boba: Idaho
-// Chatime: North Dakota
-// Tasteas: South Dakota
-// Teapioca Lounge: Oklahoma
-// Fruitealicious: Arkansas
-// Gong Cha: Massachusetts
-// Happy House Tea: Alaska
+Sharetea: California, Kentucky, Oregon
+Brew Tea Bar: Nevada
+Milk Run: Arizona
+Ding Tea: Utah
+Boise Boba: Idaho
+Chatime: North Dakota
+Tasteas: South Dakota
+Teapioca Lounge: Oklahoma
+Fruitealicious: Arkansas
+Gong Cha: Massachusetts
+Happy House Tea: Alaska
 
-// mOO mOo tea: Hawaii 
-// Dobra Tea: Maine, Vermont
+Dobrá Tea: Maine, Vermont
