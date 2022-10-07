@@ -34,7 +34,7 @@ export const getServerSideProps = async (context) => {
       restaurant: {
         include: {
           segment: true,
-          restaurantType: true
+          restaurantTypes: true
         }
       },
       category: true,
