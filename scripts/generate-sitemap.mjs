@@ -168,20 +168,20 @@ async function generate() {
     writeFileSync("public/meal-sitemap-" + index + ".xml", formatted);
   });
 
-  const masterSitemap = `
-  <?xml version="1.0" encoding="UTF-8"?>
+  const masterSitemap = 
+`<?xml version="1.0" encoding="UTF-8"?>
     <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <sitemap>
-        <loc>https://www.minerlist.com/restaurant-sitemap.xml</loc>
+        <loc>https://healthyfastfood.org/restaurant-sitemap.xml</loc>
       </sitemap>
       <sitemap>
-        <loc>https://www.minerlist.com/priority-sitemap.xml</loc>
+        <loc>https://healthyfastfood.org/priority-sitemap.xml</loc>
       </sitemap>
       ${chunkedPaths
         .map((chunk, index) => {
           return `
             <sitemap>
-                <loc>https://www.minerlist.com/meal-sitemap-${`${
+                <loc>https://healthyfastfood.org/meal-sitemap-${`${
                   index + 1
                 }`}.xml</loc>
             </sitemap>
