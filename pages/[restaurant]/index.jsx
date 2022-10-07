@@ -284,7 +284,7 @@ export default function Restaurant(props) {
                 (meal) =>
                   `{
             "@type":"MenuItem",
-            "name":"${meal.name}",
+            "name":"${meal.name.replace(/"/g, '\\"')}",
             "nutrition": {
               "@type":"NutritionInformation",
               "calories":"${meal.calories}",

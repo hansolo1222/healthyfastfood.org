@@ -21,8 +21,6 @@ import { SectionVariantsList } from "../../../../components/SectionVariantsList"
 export const getServerSideProps = async (context) => {
   // const router = useRouter()
 
-  console.log(context.resolvedUrl.split("/"))
-
   const mealData = await prisma.meal.findUnique({
     where: {
       restaurantSlug_slug: {
@@ -108,7 +106,6 @@ export default function Meal(props) {
     subvariants: [],
     category: mealData.category }
 
-    console.log(variant)
 
   let proteinCalories = meal.protein*4
   let carbCalories = meal.totalCarbohydrates*9
@@ -196,7 +193,7 @@ export default function Meal(props) {
     <NextSeo
         title={`${meal.name}: Nutrition Facts and Calories | ${restaurant.name}`}
         description={`${restaurant.name} ${meal.name} Nutrition facts, calories, protein, fat and carbs. Discover nutrition facts, macros, and the healthiest items.`}
-        canonical={`https://healthyfastfood.org/${restaurant.slug}/${meal.slug}`}
+        canonical={`https://healthyfastfood.org/${restaurant.slug}/${meal.slug}/${variant.variantSlug}/${subvariant.subvariantSlug}`}
         additionalMetaTags={[
           {
             property: "keywords",
