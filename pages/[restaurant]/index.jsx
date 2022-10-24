@@ -267,8 +267,8 @@ export default function Restaurant(props) {
     {
       "@context": "http://schema.org",
       "@type": "Menu",
-      "url": "https://healthyfastfood.org/${restaurant.name}",
-      "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.name}",
+      "url": "https://healthyfastfood.org/${restaurant.slug}",
+      "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.slug}",
       "inLanguage":"English",
       "description":"Full Menu for ${restaurant.name}",
       "hasMenuSection": [
