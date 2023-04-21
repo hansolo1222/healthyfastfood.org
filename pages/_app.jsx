@@ -28,10 +28,10 @@ function MyApp({ Component, pageProps }) {
   <>
     <Head>
       <link rel="shortcut icon" href="/images/favicon.ico" />
-      <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
-     crossOrigin="anonymous"></script>
+      {/* <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
+     crossOrigin="anonymous"></script> */}
       
-      <script
+      {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
@@ -44,26 +44,11 @@ function MyApp({ Component, pageProps }) {
               gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', { page_path: window.location.pathname });
             `,
           }}
-        />
+        /> */}
+        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+
         </Head>
-        {/* <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      /> */}
+
       <Component {...pageProps} />
   </>
   )

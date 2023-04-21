@@ -1,12 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
 body {
+
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: #1c1917;
 }
@@ -159,6 +160,10 @@ input.button-checkbox:checked + label {
   background: rgba(0,0,0,.5);
 }
 @layer components {
+
+  /* body {
+    @apply font-Plus-Jakarta-Sans;
+  } */
 
   .mobile-padding {
     @apply px-3 md:px-0;

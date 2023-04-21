@@ -169,6 +169,14 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
+    ezstandalone.define(119);
+    if (!ezstandalone.enabled) {
+      ezstandalone.enable();
+      ezstandalone.display();
+    }
+    else {
+      ezstandalone.refresh();
+    }
     setMealData(
       filterItems(
         meals.map((m) => {
@@ -348,6 +356,7 @@ export default function Restaurant(props) {
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLdMenu()}
         />
+  
       </Head>
 
       <Layout>
@@ -436,6 +445,7 @@ export default function Restaurant(props) {
     </Suspense>
             <FAQ faqs={faqs}/>
           </article>
+          <div id="ezoic-pub-ad-placeholder-119"> </div>
         </main>
         <EmailSignup />
       </Layout>
