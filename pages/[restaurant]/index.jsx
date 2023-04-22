@@ -373,6 +373,9 @@ export default function Restaurant(props) {
               setDisplayMinCalories={setDisplayMinCalories}
               setDisplayMaxCalories={setDisplayMaxCalories}
             />
+            {/* <!-- Ezoic - sidebar_left_top - sidebar --> */}
+<div id="ezoic-pub-ad-placeholder-103"> </div>
+{/* <!-- End Ezoic - sidebar_left_top - sidebar --> */}
             <AsideFilterByUmbrellaCategories
               umbrellaCategories={umbrellaCategories}
               setUmbrellaCategories={setUmbrellaCategories}
@@ -382,9 +385,18 @@ export default function Restaurant(props) {
               setAllergens={setAllergens}
               handleAllergens={handleAllergens}
             />
+            {/* <!-- Ezoic - sidebar_left_middle - sidebar_middle --> */}
+<div id="ezoic-pub-ad-placeholder-104"> </div>
+{/* <!-- End Ezoic - sidebar_left_middle - sidebar_middle --> */}
             <AsideTopRestaurants restaurants={restaurants} />
           </aside>
+          {/* <!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 --> */}
+<div id="ezoic-pub-ad-placeholder-105"> </div>
+{/* <!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 --> */}
           <article className="w-full">
+          {/* <!-- Ezoic - top_of_page - top_of_page --> */}
+          <div id="ezoic-pub-ad-placeholder-102"> </div>
+          {/* <!-- End Ezoic - top_of_page - top_of_page --> */}
             <RestaurantSectionHeader
               pages={pages}
               entity={restaurant}
@@ -398,6 +410,9 @@ export default function Restaurant(props) {
 `}
               </ReactMarkdown>
             </RestaurantSectionTextBlock>
+            {/* <!-- Ezoic - under_page_title - under_page_title --> */}
+              <div id="ezoic-pub-ad-placeholder-106"> </div>
+              {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
             <RestaurantSectionCategories
               categories={categoriesWithParents}
               restaurant={restaurant}
@@ -428,7 +443,9 @@ export default function Restaurant(props) {
               scrollRef = {scrollRef}
             />
  <Suspense fallback={`Loading...`}>
-      
+ {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
+<div id="ezoic-pub-ad-placeholder-107"> </div>
+{/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
             <DynamicMeals
               restaurant={restaurant}
               categoriesWithParents={categoriesWithParents}
