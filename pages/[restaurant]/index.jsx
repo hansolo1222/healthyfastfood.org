@@ -169,7 +169,7 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    ezstandalone.define(119,102, 103, 104, 105, 106, 107);
+    ezstandalone.define(102, 104, 105, 106, 107);
     if (!ezstandalone.enabled) {
       ezstandalone.enable();
       ezstandalone.display();
@@ -462,9 +462,10 @@ export default function Restaurant(props) {
     </Suspense>
             <FAQ faqs={faqs}/>
           </article>
-          <div id="ezoic-pub-ad-placeholder-119"> </div>
         </main>
         <EmailSignup />
+        <div id="ezoic-pub-ad-placeholder-119"> </div>
+
       </Layout>
     </>
   );
