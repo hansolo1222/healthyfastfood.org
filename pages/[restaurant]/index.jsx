@@ -169,7 +169,7 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    ezstandalone.define(119);
+    ezstandalone.define(119,102, 103, 104, 105, 106, 107);
     if (!ezstandalone.enabled) {
       ezstandalone.enable();
       ezstandalone.display();
@@ -356,7 +356,7 @@ export default function Restaurant(props) {
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLdMenu()}
         />
-  
+  <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
       </Head>
 
       <Layout>
