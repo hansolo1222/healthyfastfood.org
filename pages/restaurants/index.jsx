@@ -36,16 +36,7 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-useEffect(() => {
-  ezstandalone.define(106);
-  if (!ezstandalone.enabled) {
-    ezstandalone.enable();
-    ezstandalone.display();
-  }
-  else {
-    ezstandalone.refresh();
-  }
-})
+
 
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes } = props;
@@ -68,7 +59,16 @@ export default function Restaurants(props) {
   });
 
 
-  console.log(items)
+  useEffect(() => {
+    ezstandalone.define(106);
+    if (!ezstandalone.enabled) {
+      ezstandalone.enable();
+      ezstandalone.display();
+    }
+    else {
+      ezstandalone.refresh();
+    }
+  })
 
   return (
     <div className="">
