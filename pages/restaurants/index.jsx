@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import { useSortableData } from "../../components/UseSortableData";
 import prisma from "../../lib/prisma";
 import { ShareIcons } from "../../components/ShareIcons";
-
+import { useEffect } from "react";
 
 export const getServerSideProps = async (context) => {
   const restaurants = await prisma.restaurant.findMany({
@@ -35,6 +35,18 @@ export const getServerSideProps = async (context) => {
     },
   };
 };
+
+useEffect(() => {
+  ezstandalone.define(106);
+  if (!ezstandalone.enabled) {
+    ezstandalone.enable();
+    ezstandalone.display();
+  }
+  else {
+    ezstandalone.refresh();
+  }
+})
+
 export default function Restaurants(props) {
   const { restaurants, restaurantTypes } = props;
 
@@ -68,6 +80,9 @@ export default function Restaurants(props) {
       <Layout>
         <div className="mobile-padding">
         <div className="mb-8">
+         {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
+         <div id="ezoic-pub-ad-placeholder-106"> </div>
+              {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
           <h1 className="text-xl md:text-3xl font-bold text-center mb-4 mt-8">
             Most Popular Restaurants by Category
           </h1>

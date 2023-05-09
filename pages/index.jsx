@@ -326,9 +326,7 @@ export default function Home(props) {
       />
       <Layout>
         <div className="mobile-padding">
-              {/* <!-- Ezoic - under_page_title - under_page_title --> */}
-                  
-                  
+              {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
                   <div id="ezoic-pub-ad-placeholder-106"> </div>
               {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
           <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
@@ -461,9 +459,9 @@ export default function Home(props) {
             </div>
           </section>
           <section className="max-w-7xl mx-auto">
-          <!-- Ezoic - under_second_paragraph - under_second_paragraph -->
+          {/* <!-- Ezoic - under_second_paragraph - under_second_paragraph --> */}
 <div id="ezoic-pub-ad-placeholder-108"> </div>
-<!-- End Ezoic - under_second_paragraph - under_second_paragraph -->
+{/* <!-- End Ezoic - under_second_paragraph - under_second_paragraph --> */}
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 mt-10">
               Food Categories
             </h2>
