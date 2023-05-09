@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSortableData } from "../components/UseSortableData";
 import prisma from "../lib/prisma";
 import RestaurantCloud from "../components/RestaurantCloud";
@@ -272,6 +272,17 @@ export default function Home(props) {
     SortableTableHeaderROI,
   } = useSortableData(mealData);
 
+  useEffect(() => {
+    ezstandalone.define(106, 107, 108);
+    if (!ezstandalone.enabled) {
+      ezstandalone.enable();
+      ezstandalone.display();
+    }
+    else {
+      ezstandalone.refresh();
+    }
+  })
+
   return (
     <>
       <Head>
@@ -279,6 +290,7 @@ export default function Home(props) {
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLdWebpage()}
         />
+        <script src="https://the.gatekeeperconsent.com/cmp.min.js" async data-cfasync="false"></script>
       </Head>
       <NextSeo
         title={`Find the Healthiest Options at Every Restaurant | HealthyFastFood`}
@@ -314,6 +326,11 @@ export default function Home(props) {
       />
       <Layout>
         <div className="mobile-padding">
+              {/* <!-- Ezoic - under_page_title - under_page_title --> */}
+                  
+                  
+                  <div id="ezoic-pub-ad-placeholder-106"> </div>
+              {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
           <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
             Eat out healthier, today.
           </h1>
@@ -323,6 +340,9 @@ export default function Home(props) {
             specific diets.
           </p>
           <RestaurantCloud restaurants={topRestaurants} />
+           {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
+<div id="ezoic-pub-ad-placeholder-107"> </div>
+{/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
           {/* <div className="mt-8"><ShareIcons size={32}  align="center"/></div> */}
           <section className="md:my-16 my-8">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">
@@ -441,6 +461,9 @@ export default function Home(props) {
             </div>
           </section>
           <section className="max-w-7xl mx-auto">
+          <!-- Ezoic - under_second_paragraph - under_second_paragraph -->
+<div id="ezoic-pub-ad-placeholder-108"> </div>
+<!-- End Ezoic - under_second_paragraph - under_second_paragraph -->
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 mt-10">
               Food Categories
             </h2>
