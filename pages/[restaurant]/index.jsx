@@ -356,7 +356,7 @@ export default function Restaurant(props) {
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLdMenu()}
         />
-  <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+  <script src="https://the.gatekeeperconsent.com/cmp.min.js" async data-cfasync="false"></script>
       </Head>
 
       <Layout>
