@@ -176,7 +176,7 @@ export default async (req, res) => {
     //   }
       
     // });
-    console.log(findDuplicates(valueArr));
+    // console.log(findDuplicates(valueArr));
   
 
 
@@ -188,6 +188,6 @@ export default async (req, res) => {
 
     res.send(JSON.stringify(formattedVariants, null, 2));
   } catch (error) {
-    console.log(error);
+     console.log(error);
   }
 };

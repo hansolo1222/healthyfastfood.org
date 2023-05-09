@@ -1,5 +1,4 @@
 export const SectionVariantsList = ({ meal, restaurant }) => {
-  console.log(meal);
   if (meal.subvariants.length > 0) {
     return (
       <section>

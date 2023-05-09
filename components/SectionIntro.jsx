@@ -5,7 +5,6 @@ import { ShareIcons } from "./ShareIcons";
 import Image from "next/image";
 import { useState } from "react";
 export const SectionIntro = ({ meal, restaurantName, restaurantSlug, pages }) => {
-  console.log(meal)
   if (!meal.subvariants){
     meal.subvariants=[]
   }

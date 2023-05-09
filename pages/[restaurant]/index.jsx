@@ -169,7 +169,7 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    ezstandalone.define(102, 104, 105, 106, 107);
+    ezstandalone.define(102, 104, 106, 107);
     if (!ezstandalone.enabled) {
       ezstandalone.enable();
       ezstandalone.display();
@@ -231,7 +231,7 @@ export default function Restaurant(props) {
     let highestProtein = groupedItems.map((category)=>({categoryName: category.categoryName, meal: category.meals.reduce((prev, curr) => prev.protein > curr.protein ? prev : curr
      )}))
 
-    console.log(lowestCalories)
+    // console.log(lowestCalories)
       // .sort(function(a,b){
       //   if (a.meals[0].category.parentCategorySlug == 'burgers-sandwiches'){
       //     return -1

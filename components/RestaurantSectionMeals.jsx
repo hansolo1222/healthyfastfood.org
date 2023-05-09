@@ -154,7 +154,6 @@ const RestaurantSectionMeals = (
   }) => {
 
   if (!group) {
-    console.log("not grouped")
     return (<div
     className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding "
   >
@@ -216,9 +215,6 @@ const RestaurantSectionMeals = (
   </div>
     )
   }
-
-
-  console.log("grouped")
 
   return (
     <section className="overflow-x-auto w-full z-10 mt-4">

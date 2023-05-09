@@ -116,7 +116,7 @@ export default function RestaurantKetoMenu(props) {
 
   const parentCategories = categoriesWithParents.map((category)=>(category.parentCategory))
 
-  console.log(parentCategories)
+  // console.log(parentCategories)
 
   //----------------------------- KETO ONLY -----------------------------
   meals = meals.map((meal) => {
