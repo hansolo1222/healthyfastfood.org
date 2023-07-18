@@ -169,7 +169,7 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    ezstandalone.define(102, 104, 106, 107);
+    ezstandalone.define(107);
     if (!ezstandalone.enabled) {
       ezstandalone.enable();
       ezstandalone.display();
@@ -386,16 +386,16 @@ export default function Restaurant(props) {
               handleAllergens={handleAllergens}
             />
             {/* <!-- Ezoic - sidebar_left_middle - sidebar_middle --> */}
-<div id="ezoic-pub-ad-placeholder-104"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-104"> </div> */}
 {/* <!-- End Ezoic - sidebar_left_middle - sidebar_middle --> */}
             <AsideTopRestaurants restaurants={restaurants} />
           </aside>
           {/* <!-- Ezoic - sidebar_floating_1 - sidebar_floating_1 --> */}
-<div id="ezoic-pub-ad-placeholder-105"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-105"> </div> */}
 {/* <!-- End Ezoic - sidebar_floating_1 - sidebar_floating_1 --> */}
           <article className="w-full">
           {/* <!-- Ezoic - top_of_page - top_of_page --> */}
-          <div id="ezoic-pub-ad-placeholder-102"> </div>
+          {/* <div id="ezoic-pub-ad-placeholder-102"> </div> */}
           {/* <!-- End Ezoic - top_of_page - top_of_page --> */}
             <RestaurantSectionHeader
               pages={pages}
@@ -411,7 +411,7 @@ export default function Restaurant(props) {
               </ReactMarkdown>
             </RestaurantSectionTextBlock>
             {/* <!-- Ezoic - under_page_title - under_page_title --> */}
-              <div id="ezoic-pub-ad-placeholder-106"> </div>
+              {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
               {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
             <RestaurantSectionCategories
               categories={categoriesWithParents}
