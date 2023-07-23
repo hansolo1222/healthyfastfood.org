@@ -374,7 +374,7 @@ export default function Restaurant(props) {
               setDisplayMaxCalories={setDisplayMaxCalories}
             />
             {/* <!-- Ezoic - sidebar_left_top - sidebar --> */}
-<div id="ezoic-pub-ad-placeholder-103"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-103"> </div> */}
 {/* <!-- End Ezoic - sidebar_left_top - sidebar --> */}
             <AsideFilterByUmbrellaCategories
               umbrellaCategories={umbrellaCategories}
@@ -406,7 +406,7 @@ export default function Restaurant(props) {
             <Tabs activeTab="all" slug={`/${restaurant.slug}`} />
             <RestaurantSectionTextBlock>
               <ReactMarkdown className="article-container max-w-2xl   ">
-                {`Looking for ${restaurant.name} nutrition facts or ${restaurant.name} calorie info? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${restaurant.name} menu, so you can sort through and filter results based on your dietary needs.
+                {`Looking for ${restaurant.name} nutrition facts or ${restaurant.name} calorie info? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${restaurant.name} menu, so you can sort through and filter results based on your dietary needs. You can also get super-specific and show things like Protein-Carb ratio.
 `}
               </ReactMarkdown>
             </RestaurantSectionTextBlock>
@@ -444,7 +444,7 @@ export default function Restaurant(props) {
             />
  <Suspense fallback={`Loading...`}>
  {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
-<div id="ezoic-pub-ad-placeholder-107"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-107"> </div> */}
 {/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
             <DynamicMeals
               restaurant={restaurant}
@@ -464,7 +464,7 @@ export default function Restaurant(props) {
           </article>
         </main>
         <EmailSignup />
-        <div id="ezoic-pub-ad-placeholder-119"> </div>
+        {/* <div id="ezoic-pub-ad-placeholder-119"> </div> */}
 
       </Layout>
     </>
