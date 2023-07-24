@@ -169,14 +169,14 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    ezstandalone.define(107);
-    if (!ezstandalone.enabled) {
-      ezstandalone.enable();
-      ezstandalone.display();
-    }
-    else {
-      ezstandalone.refresh();
-    }
+    // ezstandalone.define(107);
+    // if (!ezstandalone.enabled) {
+    //   ezstandalone.enable();
+    //   ezstandalone.display();
+    // }
+    // else {
+    //   ezstandalone.refresh();
+    // }
     setMealData(
       filterItems(
         meals.map((m) => {

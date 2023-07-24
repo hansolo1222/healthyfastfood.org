@@ -272,16 +272,16 @@ export default function Home(props) {
     SortableTableHeaderROI,
   } = useSortableData(mealData);
 
-  useEffect(() => {
-    ezstandalone.define(106, 107, 108);
-    if (!ezstandalone.enabled) {
-      ezstandalone.enable();
-      ezstandalone.display();
-    }
-    else {
-      ezstandalone.refresh();
-    }
-  })
+  // useEffect(() => {
+  //   ezstandalone.define(106, 107, 108);
+  //   if (!ezstandalone.enabled) {
+  //     ezstandalone.enable();
+  //     ezstandalone.display();
+  //   }
+  //   else {
+  //     ezstandalone.refresh();
+  //   }
+  // })
 
   return (
     <>
@@ -327,7 +327,7 @@ export default function Home(props) {
       <Layout>
         <div className="mobile-padding">
               {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
-                  <div id="ezoic-pub-ad-placeholder-106"> </div>
+                  {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
               {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
           <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
             Eat out healthier, today.
@@ -339,7 +339,7 @@ export default function Home(props) {
           </p>
           <RestaurantCloud restaurants={topRestaurants} />
            {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
-<div id="ezoic-pub-ad-placeholder-107"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-107"> </div> */}
 {/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
           {/* <div className="mt-8"><ShareIcons size={32}  align="center"/></div> */}
           <section className="md:my-16 my-8">
@@ -460,7 +460,7 @@ export default function Home(props) {
           </section>
           <section className="max-w-7xl mx-auto">
           {/* <!-- Ezoic - under_second_paragraph - under_second_paragraph --> */}
-<div id="ezoic-pub-ad-placeholder-108"> </div>
+{/* <div id="ezoic-pub-ad-placeholder-108"> </div> */}
 {/* <!-- End Ezoic - under_second_paragraph - under_second_paragraph --> */}
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 mt-10">
               Food Categories

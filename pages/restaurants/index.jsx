@@ -59,16 +59,6 @@ export default function Restaurants(props) {
   });
 
 
-  useEffect(() => {
-    ezstandalone.define(106);
-    if (!ezstandalone.enabled) {
-      ezstandalone.enable();
-      ezstandalone.display();
-    }
-    else {
-      ezstandalone.refresh();
-    }
-  })
 
   return (
     <div className="">
@@ -81,7 +71,7 @@ export default function Restaurants(props) {
         <div className="mobile-padding">
         <div className="mb-8">
          {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
-         <div id="ezoic-pub-ad-placeholder-106"> </div>
+         {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
               {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
           <h1 className="text-xl md:text-3xl font-bold text-center mb-4 mt-8">
             Most Popular Restaurants by Category

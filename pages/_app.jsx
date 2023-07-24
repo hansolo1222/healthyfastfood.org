@@ -45,7 +45,6 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         /> */}
-        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
 
         </Head>
 
