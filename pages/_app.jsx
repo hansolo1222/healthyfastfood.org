@@ -24,10 +24,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
   <>
-    <Head>
-      <link rel="shortcut icon" href="/images/favicon.ico" />
-      {/* <!-- Google Tag Manager --> */}
-      <Script
+   <Script
   strategy="afterInteractive"
   id="your-id"
   dangerouslySetInnerHTML={{
@@ -40,6 +37,10 @@ function MyApp({ Component, pageProps }) {
   `,
   }}
 />
+    <Head>
+      <link rel="shortcut icon" href="/images/favicon.ico" />
+      {/* <!-- Google Tag Manager --> */}
+     
 {/* <!-- End Google Tag Manager --> */}
         </Head>
 

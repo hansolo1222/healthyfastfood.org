@@ -235,7 +235,7 @@ const Header = () => {
         <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
           <circle cx={1} cy={1} r={1} />
         </svg>
-        Try the no-ads experience now
+        Try the ad free experience now
       </p>
       <a
         href="https://mealrank.org"
