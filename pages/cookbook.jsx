@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import { NextSeo } from "next-seo";
 import { RestaurantSectionTextBlock } from "../components/RestaurantSectionTextBlock";
 import ReactMarkdown from "react-markdown";
-
+import { Subscribe } from "../components/Subscribe";
 
 export default function About() {
   return (
@@ -22,8 +22,7 @@ export default function About() {
         openGraph={{
           url: "https://healthyfastfood.org/cookbook",
           type: "website",
-          title:
-            "Donate | Healthy Fast Food",
+          title: "Donate | Healthy Fast Food",
           description:
             "Healthy Fast Food is the definite source on the healthiest items to order at restaurants",
           images: [
@@ -41,53 +40,43 @@ export default function About() {
           cardType: "summary_large_image",
         }}
       />
-      <Head>
-      </Head>
+      <Head></Head>
       <Layout>
- 
-    <div className="overflow-hidden  py-16">
-      <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-prose text-base lg:max-w-none">
-          {/* <h2 className="text-lg font-semibold text-red-600">🍔</h2> */}
-          <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl">
-          Cookbook
-          </h1>
-        </div>
-        <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
-          {/* <p className="text-lg text-stone-500">
-          Support the development of HealthyFastFood.org
-          </p> */}
-        </div>
-        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
-          <div className="relative z-10">
-            <div className="prose prose-stone mx-auto  lg:max-w-none">
+        <div className="overflow-hidden  py-16">
+          <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-prose text-base lg:max-w-none">
+              {/* <h2 className="text-lg font-semibold text-red-600">🍔</h2> */}
+              <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl">
+                HealthyFastFood Cookbook
+              </h1>
+            </div>
+            <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
+            </div>
+            <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
+            <img
+                      className="object-cover "
+                      src="/images/bigmac.JPG"
+                      alt=""
+                    /> 
+              <div className="relative z-10">
+                <div className="prose prose-stone mx-auto  lg:max-w-none">
+                  <ReactMarkdown>
+                    {`
+*Want to know:* 
+- How to prepare HEALTHY ALTERNATIVES to your favorite fast food items like the Big Mac at home?
+- Recipes based on crowdpleasers 
+- Recipes for diets like keto & vegetarian
 
-              <ReactMarkdown>
-{`
-`}         
-</ReactMarkdown>
+The HealthyFastFood cookbook will be released soon!
 
-{/* <div className="rounded-md shadow">
-  <a
-    href="/restaurants"
-    className="flex w-full items-center underline-none justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
-  >
-    Submit feature/content update request
-  </a>
-</div> */}
-  <ReactMarkdown>
-{`
-
-The HealthyFastFood cookbook will be released soon.
+**Notify me when it's ready:**
 `}
-</ReactMarkdown>
-
-             </div>
-            <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
-              <div className="rounded-md shadow">
-               
-              </div>
-              {/* <div className="rounded-md shadow">
+                  </ReactMarkdown>
+                  <Subscribe />
+                </div>
+                <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
+                  <div className="rounded-md shadow"></div>
+                  {/* <div className="rounded-md shadow">
                 <a
                   href="https://ko-fi.com/healthyfastfood"
                   className="flex w-full items-center justify-center rounded-md border bg-white px-5 py-3 text-base font-medium text-stone-900 hover:bg-stone-50"
@@ -95,9 +84,9 @@ The HealthyFastFood cookbook will be released soon.
                   Buy me a Coffee (Ko-Fi)
                 </a>
               </div> */}
-            </div>
-          </div>
-          {/* <div className="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
+                </div>
+              </div>
+              {/* <div className="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
             
             <blockquote className="relative rounded-lg bg-white shadow-lg">
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
@@ -137,15 +126,13 @@ The HealthyFastFood cookbook will be released soon.
               </cite>
             </blockquote>
           </div> */}
+            </div>
+           
+          </div>
+
+        
         </div>
-      </div>
-    </div>
       </Layout>
     </div>
   );
 }
-
-
-
-
-

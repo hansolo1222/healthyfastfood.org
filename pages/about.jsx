@@ -5,27 +5,25 @@ import { NextSeo } from "next-seo";
 import { RestaurantSectionTextBlock } from "../components/RestaurantSectionTextBlock";
 import ReactMarkdown from "react-markdown";
 
-
 export default function About() {
   return (
     <div className="">
       <NextSeo
-        title={`About | Healthy Fast Food`}
-        description={`Healthy Fast Food is the definite source on restaurant nutrition to get the body you want.`}
+        title={`About | Mealrank`}
+        description={`Mealrank is the definite source on restaurant nutrition.`}
         canonical={`https://healthyfastfood.org/about/`}
         additionalMetaTags={[
           {
             property: "keywords",
-            content: `healthy fast food,about,weight loss,body,lose weight,nutrition,facts,`,
+            content: `mealrank`,
           },
         ]}
         openGraph={{
-          url: "https://healthyfastfood.org/about-healthy-fast-food",
+          url: "https://healthyfastfood.org/about",
           type: "website",
-          title:
-            "About | Healthy Fast Food",
+          title: "About | Mealrank",
           description:
-            "Healthy Fast Food is the definite source on the healthiest items to order at restaurants",
+            "Mealrank is the definite source on the healthiest items to order at restaurants",
           images: [
             {
               url: `/images/restaurant_logos/mcdonalds.webp`,
@@ -41,143 +39,165 @@ export default function About() {
           cardType: "summary_large_image",
         }}
       />
-      <Head>
-      </Head>
+      <Head></Head>
       <Layout>
- 
-    <div className="overflow-hidden  py-16">
-      <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-prose text-base lg:max-w-none">
-          <h2 className="text-lg font-semibold text-red-600"></h2>
-          <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl">
-          🍔 About HealthyFastFood.org
-          </h1>
-        </div>
-        <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
-          <p className="text-lg text-stone-500">
-          Hi! I’m Kev, the creator of HealthyFastFood.org.
-          <br/><br/>
-          I created HealthyFastFood because I needed it. 
-          </p>
-        </div>
-        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
-          <div className="relative z-10">
-            <div className="prose prose-stone mx-auto  lg:max-w-none">
+        <div className="overflow-hidden  py-16">
+          <div className="mx-auto space-y-8 px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto  text-base lg:max-w-none">
+              <h2 className="text-lg font-semibold text-red-600"></h2>
+              <h1 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-stone-900 sm:text-4xl text-center">
+                About Healthyfastfood.org
+              </h1>
+            </div>
 
-              <ReactMarkdown>
-{`A few years ago I was working a stressful job in downtown Boston and my diet was horrendous. When lunch time came I’d grab the quickest thing which was some sort of fast food.
+            <div className="relative z-10">
+              <div className="prose prose-stone max-w-prose mx-auto  ">
+                <ReactMarkdown>
+                  {`
+Hi I'm Kev, the creator of Healthyfastfood.org.
 
-I knew something had to change.
+We're a website that collects, organizes, and presents nutrition data from official sources, so that people can make informed decisions when they eat out.
 
-I started keeping a list of healthiest options at the places I normally went to on Google Sheets. I included the nutrition information, because I was trying to eat meals with higher protein and lower carbs. These were meals that made me feel energized and full. My coworkers called it “The List”. After adhering to this list almost religiously for a few months, I realized I was feeling much more energized, and shedding pounds every week 
+Our mission is to be the standard reference for restaurant nutrition data on the web. 
 
-At one point I thought, instead of writing meals down by hand, I wanted an automatic way of knowing what the healthiest options at every restaurant was. And HealthyFastFood.org was born! Today, HealthyFastFood has nutrition information for over 300 restaurants (rapidly growing) and 10,000 meals. 
+We advocate preparing your own food, as this is the own way you will know the precise macro and micronutrient content of your meals. However, many people have busy lifestyles and careers, and preparing every single meal is unrealistic.
 
-## FAQ
+Healthyfastfood.org was created with these people in mind. 
 
-### I’ve got a feature request or a partnership opportunity. How can I get in touch with you?
+In fact, it came out of my own experiences. I was a busy working in Manhattan and was trying to eat healthy, but I didn't have the time to prepare every single meal. I was frustrated, because all I wanted was a healthy meal, and I didn't know what do get besides Sweetgreen. I wanted to create a resource that would help people like me make informed decisions when they eat out.
 
-You can email me at [kev@healthyfastfood.org](mailto:kev@healthyfastfood.org)
+## Where is the data sourced from?
 
-The [HealthyFastFood Kampsite](https://healthyfastfood.kampsite.co/) is the best way to submit feature requests as they help me prioritize what features to add.
-`}         
-</ReactMarkdown>
+Nutrition information on Healthyfastfood.org is sourced from official restaurant nutrition guides. 
 
-{/* <div className="rounded-md shadow">
-  <a
-    href="/restaurants"
-    className="flex w-full items-center underline-none justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
-  >
-    Submit feature/content update request
-  </a>
-</div> */}
-  <ReactMarkdown>
-{`
-### How can I contribute new content to the site? 
+If you believe information is incorrect or needs to be updated please email us at [support@healthyfastfood.org](mailto:support@healthyfastfood.org).
 
-Please email me at [kev@healthyfastfood.org](mailto:kev@healthyfastfood.org).
+We make every effort to ensure the quality and accuracy of the data we report.
 
-HealthyFastFood currently only has data on the US and Canada. If you are from another country and would like to contribute restaurant and meal data from your home country, let me know!
+## Who works on Healthyfastfood.org?
 
-### What is your favorite healthy fast food?
-
-The [Chick-Fil-A Grilled Chicken Sandwich](/chick-fil-a/grilled-chicken-sandwich). Fresh tomato and lettuce and tender chicken. Mmm.
-- 320 cal
-- 32g protein
-- 44g carbs
-- 22g total fat
-`}         
-</ReactMarkdown>
-
-             </div>
-            {/* <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
-              <div className="rounded-md shadow">
-                <a
-                  href="/restaurants"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
-                >
-                  See Restaurants
-                </a>
+`}
+                </ReactMarkdown>
               </div>
-              <div className="ml-4 rounded-md shadow">
-                <a
-                  href="/categories"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-stone-50"
-                >
-                  See Food Categories
-                </a>
-              </div>
-            </div> */}
-          </div>
-          {/* <div className="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
-            
-            <blockquote className="relative rounded-lg bg-white shadow-lg">
-              <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-                <img
-                  src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-stone-800-and-indigo-600-text.svg"
-                  alt="Workcation"
-                  className="h-8"
-                />
-                <div className="relative mt-8 text-lg font-medium text-stone-700">
-                  <svg
-                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-stone-200"
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    aria-hidden="true"
-                  >
-                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                  </svg>
-                  <p className="relative">
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                    Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin
-                    massa, lectus.
-                  </p>
+
+              <div>
+                <div className="grid max-w-6xl grid-cols-2 sm:px-20 mx-auto mt-12 text-center  sm:grid-cols-1 md:mt-20 gap-x-8 md:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-20">
+                  <div>
+                    <img
+                      className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter"
+                      src="/images/headshots/kev-headshot.png"
+                      alt=""
+                    />
+
+                    <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">
+                      Kev Ma
+                    </p>
+                    <a
+                      className="mt-2 cursor-pointer"
+                      href="https://www.linkedin.com/in/kevma8807/"
+                    >
+                      <svg
+                        className="w-6 h-6 mx-auto text-blue-500 fill-current "
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                      </svg>
+                    </a>
+                    <p className="mt-2 text-base font-normal text-gray-600 font-pj">
+                      Designer
+                    </p>
+                    <p className="text-left text-gray-500 text-sm mt-2">
+                      Kev is a web developer living in California. He is responsible for designing and maintaining Healthyfastfood.org. He has a Bachelor's Degree
+                      in Informatics from Cornell University. He believes that many diseases can be prevented through proper nutrition and is passionate about empowering people with tools to organize and understand the foods they eat.
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter"
+                      src="/images/headshots/khun-headshot.JPG"
+                      alt=""
+                    />
+                    <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">
+                      Khun Min Aung
+                    </p>
+                    <a
+                      className="mt-2 cursor-pointer"
+                      href="https://www.linkedin.com/in/khunminaung/"
+                    >
+                      <svg
+                        className="w-6 h-6 mx-auto text-blue-500 fill-current "
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                      </svg>
+                    </a>
+                    <p className="mt-2 text-base font-normal text-gray-600 font-pj">
+                      Researcher
+                    </p>
+                    <p className="text-left text-gray-500 text-sm mt-2">
+                      Brandon Aung studied Medicine at the University of Medicine in Yangon and Finance at the University of Technology Sydney.
+                      He currently works in a corporate development & strategy role and is passionate about using data to improve health outcomes.
+                      
+                    </p>
+                  </div>
+
+                  {/* <div>
+                    <img
+                      className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 grayscale filter"
+                      src="/images/headshots/sophie-headshot.jpeg"
+                      alt=""
+                    />
+                    <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">
+                      Sophie Kjeldahl
+                    </p>
+                    <a
+                      className="mt-2 cursor-pointer"
+                      href="https://www.linkedin.com/in/sophiekjeldahlnutritionist/"
+                    >
+                      <svg
+                        className="w-6 h-6 mx-auto text-blue-500 fill-current "
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                      </svg>
+                    </a>
+                    <p className="mt-2 text-base font-normal text-gray-600 font-pj">
+                      Nutritionist (MSc DipION)
+                    </p>
+                    <p className="text-left text-gray-500 text-sm mt-2">
+                      Sophie Kjeldahl BSc (Hons) MSc DipION is a qualified
+                      nutritionist also trained in nutritional therapy. After
+                      her undergraduate degree in Biology, she studied a Masters
+                      degree in Nutrition at University of Copenhagen, Denmark.
+                    </p>
+                  </div> */}
+
+                  <div></div>
                 </div>
               </div>
-              <cite className="relative flex items-center rounded-b-lg bg-indigo-600 py-5 px-6 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10">
-                <span className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
-                  <img
-                    className="h-12 w-12 rounded-full bg-indigo-300 sm:h-20 sm:w-20"
-                    src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80"
-                    alt=""
-                  />
-                </span>
-                <span className="relative ml-4 font-semibold leading-6 text-indigo-300 sm:ml-24 sm:pl-1">
-                  <span className="font-semibold text-white sm:inline">Judith Black</span>{' '}
-                  <span className="sm:inline">CEO at Workcation</span>
-                </span>
-              </cite>
-            </blockquote>
-          </div> */}
+
+              <div className="relative z-10 mt-10">
+                <div className="prose prose-stone max-w-prose mx-auto  ">
+                  <ReactMarkdown>
+                    {`
+## Who uses this site?
+Healthyfastfood.org is intended for both the general public and health professionals.
+
+DISCLAIMNER:
+The information on Healthyfastfood.org is not intended to replace the consultation of a nutritionist or other certified health provider, but it is intended to inform readers so they can have a more constructive conversation with their health professionals.
+
+There are many contradictions and controversies in the field of nutrition, this website is intended to inform the reader so that he/she can make the best decision for their health.
+`}
+                  </ReactMarkdown>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
       </Layout>
     </div>
   );
 }
-
-
-
-
-
