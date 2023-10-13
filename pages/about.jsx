@@ -54,9 +54,9 @@ export default function About() {
               <div className="prose prose-stone max-w-prose mx-auto  ">
                 <ReactMarkdown>
                   {`
-Hi I'm Kev, the creator of Healthyfastfood.org.
+Hi I&apos;m Kev, the creator of Healthyfastfood.org.
 
-We're a website that collects, organizes, and presents nutrition data from official sources, so that people can make informed decisions when they eat out.
+We&apos;re a website that collects, organizes, and presents nutrition data from official sources, so that people can make informed decisions when they eat out.
 
 Our mission is to be the standard reference for restaurant nutrition data on the web. 
 
@@ -64,7 +64,7 @@ We advocate preparing your own food, as this is the own way you will know the pr
 
 Healthyfastfood.org was created with these people in mind. 
 
-In fact, it came out of my own experiences. I was a busy working in Manhattan and was trying to eat healthy, but I didn't have the time to prepare every single meal. I was frustrated, because all I wanted was a healthy meal, and I didn't know what do get besides Sweetgreen. I wanted to create a resource that would help people like me make informed decisions when they eat out.
+In fact, it came out of my own experiences. I was a busy working in Manhattan and was trying to eat healthy, but I didn&apos;t have the time to prepare every single meal. I was frustrated, because all I wanted was a healthy meal, and I didn&apos;t know what do get besides Sweetgreen. I wanted to create a resource that would help people like me make informed decisions when they eat out.
 
 ## Where is the data sourced from?
 
