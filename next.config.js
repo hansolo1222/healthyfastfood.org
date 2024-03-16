@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: false,
   i18n: {
     locales: ["en-US", "de", "uk", "fr", "it", "es", "ca", "au"],
     defaultLocale: "en-US",
