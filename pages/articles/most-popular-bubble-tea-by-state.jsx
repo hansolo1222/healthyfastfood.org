@@ -2,17 +2,17 @@ import React, { PureComponent } from "react";
 const restaurants = require("/public/restaurantData/tope.json");
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
-import {
-  Chart as ChartJS,
-  LinearScale,
-  CategoryScale,
+// import {
+//   Chart as ChartJS,
+//   LinearScale,
+//   CategoryScale,
   
-  PointElement,
-  LineElement,
-  Tooltip,
-  Legend,
-  LogarithmicScale,
-} from "chart.js";
+//   PointElement,
+//   LineElement,
+//   Tooltip,
+//   Legend,
+//   LogarithmicScale,
+// } from "chart.js";
 import { Scatter, Bubble } from "react-chartjs-2";
 import { faker } from "@faker-js/faker";
 import Layout from "../../components/Layout";
@@ -45,144 +45,144 @@ const grouped = _.groupBy(
   (restaurant) => restaurant.type
 );
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Tooltip,
-  Legend,
-  LogarithmicScale,
-  ChartGeo.ChoroplethController,
-  ChartGeo.ProjectionScale,
-  ChartGeo.ColorScale,
-  ChartGeo.GeoFeature
-);
+// ChartJS.register(
+//   CategoryScale,
+//   LinearScale,
+//   PointElement,
+//   LineElement,
+//   Tooltip,
+//   Legend,
+//   LogarithmicScale,
+//   ChartGeo.ChoroplethController,
+//   ChartGeo.ProjectionScale,
+//   ChartGeo.ColorScale,
+//   ChartGeo.GeoFeature
+// );
 
-const footer = (tooltipItems) => {
-  let sum = 0;
+// const footer = (tooltipItems) => {
+//   let sum = 0;
 
-  tooltipItems.forEach(function(tooltipItem) {
-    tooltipItem.parsed.y;
-  });
+//   tooltipItems.forEach(function(tooltipItem) {
+//     tooltipItem.parsed.y;
+//   });
 
-  const labelText = 
-`Locations: ${tooltipItems[0].raw.x} 
-Revenue: $${tooltipItems[0].raw.y} million
-Sales per Location: $${tooltipItems[0].raw.revenuePerStore.toFixed(2)} mil`
-  return labelText;
-};
+//   const labelText = 
+// `Locations: ${tooltipItems[0].raw.x} 
+// Revenue: $${tooltipItems[0].raw.y} million
+// Sales per Location: $${tooltipItems[0].raw.revenuePerStore.toFixed(2)} mil`
+//   return labelText;
+// };
 
-export const options = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    title: {
-      display: true,
-      text: "Sales and Locations",
-    },
-    tooltip: {
-      callbacks: {
-        label: function(tooltipItem, data) {
-          return tooltipItem.raw.name;
-        },
-        footer: footer,
-      },
-      bodyFont: {
-        weight: 700,
-        size: 14,
-        color: "#000"
-      },
-      footerFont: {
-        weight: 400,
-        color: "#000"
-      },
-      borderWidth: 1,
-      borderColor: "#111",
-      bodyColor: "#000",
-      footerColor: "#000",
-      backgroundColor: '#FFF',
-      padding: 10
-    }
-  },
-  animations: {
-    tension: {
-      duration: 1000,
-      easing: "linear",
-      from: 1,
-      to: 0,
-      loop: true,
-    },
-  },
-  scales: {
-    y: {
-      beginAtZero: true,
-      type: "logarithmic",
-      title: {
-        display: true,
-        text: "2021 Revenue Per Store (Millions)",
-        font: {
-          size: 20,
-        },
-      },
-      grid: {
-        color: "#eee",
-      },
-    },
-    x: {
-      beginAtZero: true,
-      type: "logarithmic",
-      title: {
-        display: true,
-        text: "Number of Locations",
-        font: {
-          size: 20,
-        },
-      },
-      grid: {
-        color: "#eee",
-      },
-    },
-  },
-};
+// export const options = {
+//   responsive: true,
+//   maintainAspectRatio: false,
+//   plugins: {
+//     title: {
+//       display: true,
+//       text: "Sales and Locations",
+//     },
+//     tooltip: {
+//       callbacks: {
+//         label: function(tooltipItem, data) {
+//           return tooltipItem.raw.name;
+//         },
+//         footer: footer,
+//       },
+//       bodyFont: {
+//         weight: 700,
+//         size: 14,
+//         color: "#000"
+//       },
+//       footerFont: {
+//         weight: 400,
+//         color: "#000"
+//       },
+//       borderWidth: 1,
+//       borderColor: "#111",
+//       bodyColor: "#000",
+//       footerColor: "#000",
+//       backgroundColor: '#FFF',
+//       padding: 10
+//     }
+//   },
+//   animations: {
+//     tension: {
+//       duration: 1000,
+//       easing: "linear",
+//       from: 1,
+//       to: 0,
+//       loop: true,
+//     },
+//   },
+//   scales: {
+//     y: {
+//       beginAtZero: true,
+//       type: "logarithmic",
+//       title: {
+//         display: true,
+//         text: "2021 Revenue Per Store (Millions)",
+//         font: {
+//           size: 20,
+//         },
+//       },
+//       grid: {
+//         color: "#eee",
+//       },
+//     },
+//     x: {
+//       beginAtZero: true,
+//       type: "logarithmic",
+//       title: {
+//         display: true,
+//         text: "Number of Locations",
+//         font: {
+//           size: 20,
+//         },
+//       },
+//       grid: {
+//         color: "#eee",
+//       },
+//     },
+//   },
+// };
 
 
-const datasets = [];
+// const datasets = [];
 
-Object.keys(grouped).forEach((key) => {
-  // const image = new Image()
-  // image.src = '/images/logosSmall/mcdonalds.webp'
-  datasets.push({
-    label: key,
-    data: grouped[key],
-    backgroundColor: colorMap[key],
-    // pointStyle: ['', '', '', '', image ],
-    borderWidth: 0,
-    pointRadius: 4,
-  });
-});
+// Object.keys(grouped).forEach((key) => {
+//   // const image = new Image()
+//   // image.src = '/images/logosSmall/mcdonalds.webp'
+//   datasets.push({
+//     label: key,
+//     data: grouped[key],
+//     backgroundColor: colorMap[key],
+//     // pointStyle: ['', '', '', '', image ],
+//     borderWidth: 0,
+//     pointRadius: 4,
+//   });
+// });
 
-export const data = {
-  datasets: datasets,
+// export const data = {
+//   datasets: datasets,
 
-  // [
-  //   {
-  //     label: 'Burger',
-  //     data: grouped["Hamburgers"],
-  //     backgroundColor: '#CF2A37',
-  //     borderWidth: 0,
-  //     pointRadius: 4,
-  //   },
-  //   {
-  //     label: 'Pizza',
-  //     data: fullData.pizza,
-  //     pointBackgroundColor: '#FF9100',
-  //     backgroundColor: '#FF9100',
-  //     borderWidth: 0,
-  //     pointRadius: 4,
-  //   },
-  // ],
-};
+//   // [
+//   //   {
+//   //     label: 'Burger',
+//   //     data: grouped["Hamburgers"],
+//   //     backgroundColor: '#CF2A37',
+//   //     borderWidth: 0,
+//   //     pointRadius: 4,
+//   //   },
+//   //   {
+//   //     label: 'Pizza',
+//   //     data: fullData.pizza,
+//   //     pointBackgroundColor: '#FF9100',
+//   //     backgroundColor: '#FF9100',
+//   //     borderWidth: 0,
+//   //     pointRadius: 4,
+//   //   },
+//   // ],
+// };
 
 export default function App() {
 
