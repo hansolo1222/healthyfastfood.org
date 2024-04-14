@@ -283,233 +283,231 @@ export default function Home(props) {
   //   }
   // })
 
-  return (
-    <>
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={addJsonLdWebpage()}
-        />
-        <script src="https://the.gatekeeperconsent.com/cmp.min.js" async data-cfasync="false"></script>
-      </Head>
-      <NextSeo
-        title={`Find the Healthiest Options at Every Restaurant | HealthyFastFood`}
-        description={`Detailed nutrition facts, allergens & diet-specific menus for all popular restaurants. Look for keto, vegetarian and vegan options at every chain.`}
-        canonical={`https://healthyfastfood.org/`}
-        additionalMetaTags={[
-          {
-            property: "keywords",
-            content: `healthy fast food, nutrition, facts, restaurants`,
-          },
-        ]}
-        openGraph={{
-          url: "https://healthyfastfood.org/",
-          type: "website",
-          title:
-            "Find the Healthiest Options at Every Restaurant | HealthyFastFood",
-          description:
-            "Detailed nutrition facts, allergens & diet-specific menus for all popular restaurants. Look for keto, vegetarian and vegan options at every chain.",
-          images: [
-            {
-              url: `/images/social_card.jpg`,
-              width: 1038,
-              height: 678,
-              alt: "HealthyFastFood is the most comprehensive Restaurant Nutrition website, and shown are the popular restaurant brands it features",
-            },
-          ],
-        }}
-        twitter={{
-          handle: "@healthyfastfood",
-          site: "https://healthyfastfood.org",
-          cardType: "summary_large_image",
-        }}
+  return <>
+    <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addJsonLdWebpage()}
       />
-      <Layout>
-        <div className="mobile-padding">
-              {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
-                  {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
-              {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
-            Make the healthy choice, always.
-          </h1>
-          <p className="text-lg my-4 text-center text-stone-500 max-w-xl mx-auto">
-            Sort through a powerful database of 20,000+ foods and 300+
-            restaurants by your nutritional requirements, allergens, and
-            specific diets.
-          </p>
-          <RestaurantCloud restaurants={topRestaurants} />
-           {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
+      <script src="https://the.gatekeeperconsent.com/cmp.min.js" async data-cfasync="false"></script>
+    </Head>
+    <NextSeo
+      title={`Find the Healthiest Options at Every Restaurant | HealthyFastFood`}
+      description={`Detailed nutrition facts, allergens & diet-specific menus for all popular restaurants. Look for keto, vegetarian and vegan options at every chain.`}
+      canonical={`https://healthyfastfood.org/`}
+      additionalMetaTags={[
+        {
+          property: "keywords",
+          content: `healthy fast food, nutrition, facts, restaurants`,
+        },
+      ]}
+      openGraph={{
+        url: "https://healthyfastfood.org/",
+        type: "website",
+        title:
+          "Find the Healthiest Options at Every Restaurant | HealthyFastFood",
+        description:
+          "Detailed nutrition facts, allergens & diet-specific menus for all popular restaurants. Look for keto, vegetarian and vegan options at every chain.",
+        images: [
+          {
+            url: `/images/social_card.jpg`,
+            width: 1038,
+            height: 678,
+            alt: "HealthyFastFood is the most comprehensive Restaurant Nutrition website, and shown are the popular restaurant brands it features",
+          },
+        ],
+      }}
+      twitter={{
+        handle: "@healthyfastfood",
+        site: "https://healthyfastfood.org",
+        cardType: "summary_large_image",
+      }}
+    />
+    <Layout>
+      <div className="mobile-padding">
+            {/* <!-- Ezoic - under_page_title - under_page_title --> */}    
+                {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
+            {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
+        <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
+          Make the healthy choice, always.
+        </h1>
+        <p className="text-lg my-4 text-center text-stone-500 max-w-xl mx-auto">
+          Sort through a powerful database of 20,000+ foods and 300+
+          restaurants by your nutritional requirements, allergens, and
+          specific diets.
+        </p>
+        <RestaurantCloud restaurants={topRestaurants} />
+         {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
 {/* <div id="ezoic-pub-ad-placeholder-107"> </div> */}
 {/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
-          {/* <div className="mt-8"><ShareIcons size={32}  align="center"/></div> */}
-          <section className="md:my-16 my-8">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">
-              Compare everything
-            </h2>
-            <div
-              role="list"
-              className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-8 sm:gap-x-6 xl:gap-x-8"
-            >
-              <div className="border rounded-lg shadow-md">
-                <div className="text-center mt-8 mb-8 px-4">
-                  <h3 className="text-xl font-bold">
-                    Top 10 Highest Protein Burgers & Sandwiches ≤ 600 cal
-                  </h3>
-                  <p className="text-sm text-stone-500 mb-8">
-                    (Top 50 restaurant chains only)
-                  </p>
-                </div>
-                <table className="min-w-full divide-y divide-stone-300 rounded-lg overflow-hidden">
-                  <thead className="rounded-t-lg">
-                    <tr></tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white">
-                    {items.map((meal) => (
-                      <MiniTableMealRow
-                        meal={meal}
-                        key={meal.restaurant.name + meal.name}
-                        restaurantName={meal.restaurant.name}
-                        restaurantSlug={meal.restaurant.slug}
-                        showRestaurantData={true}
-                      />
-                    ))}
-                  </tbody>
-                </table>
+        {/* <div className="mt-8"><ShareIcons size={32}  align="center"/></div> */}
+        <section className="md:my-16 my-8">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">
+            Compare everything
+          </h2>
+          <div
+            role="list"
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-8 sm:gap-x-6 xl:gap-x-8"
+          >
+            <div className="border rounded-lg shadow-md">
+              <div className="text-center mt-8 mb-8 px-4">
+                <h3 className="text-xl font-bold">
+                  Top 10 Highest Protein Burgers & Sandwiches ≤ 600 cal
+                </h3>
+                <p className="text-sm text-stone-500 mb-8">
+                  (Top 50 restaurant chains only)
+                </p>
               </div>
-
-              <div className="border rounded-lg shadow-md">
-                <div className="text-center mt-8 mb-8 px-4">
-                  <h3 className="text-xl font-bold text-center ">
-                    Top 10 Highest Protein Salads ≤ 500 cal
-                  </h3>
-                  <p className="text-sm text-stone-500 ">
-                    (Top 50 restaurant chains only)
-                  </p>
-                </div>
-
-                <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
-                  <thead className="rounded-t-lg">
-                    <tr></tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white">
-                    {highestProteinSalads.map((meal) => (
-                      <MiniTableMealRow
-                        meal={meal}
-                        key={meal.restaurant.name + meal.name}
-                        restaurantName={meal.restaurant.name}
-                        restaurantSlug={meal.restaurant.slug}
-                        showRestaurantData={true}
-                      />
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              <div className="border rounded-lg shadow-md">
-                <div className="text-center mt-8 mb-8 px-4">
-                  <h3 className="text-xl font-bold text-center">
-                    Top 10 Highest Protein Pizzas ≤ 600 cal
-                  </h3>
-                  <p className="text-sm text-stone-500 ">
-                    (Top 50 restaurant chains only)
-                  </p>
-                </div>
-                <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
-                  <thead className="rounded-t-lg">
-                    <tr></tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white">
-                    {highestProteinPizza.map((meal) => (
-                      <MiniTableMealRow
-                        meal={meal}
-                        key={meal.restaurant.name + meal.name}
-                        restaurantName={meal.restaurant.name}
-                        restaurantSlug={meal.restaurant.slug}
-                        showRestaurantData={true}
-                      />
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              <div className="border rounded-lg shadow-md">
-                <div className="text-center mt-8 mb-8 px-4">
-                  <h3 className="text-xl font-bold text-center">
-                    Top 10 Highest Protein Burritos ≤ 600 cal
-                  </h3>
-                  <p className="text-sm text-stone-500">
-                    (Top 50 restaurant chains only)
-                  </p>
-                </div>
-                <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
-                  <thead className="rounded-t-lg">
-                    <tr></tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white">
-                    {highestProteinBurritos.map((meal) => (
-                      <MiniTableMealRow
-                        meal={meal}
-                        key={meal.restaurant.name + meal.name}
-                        restaurantName={meal.restaurant.name}
-                        restaurantSlug={meal.restaurant.slug}
-                        showRestaurantData={true}
-                      />
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <table className="min-w-full divide-y divide-stone-300 rounded-lg overflow-hidden">
+                <thead className="rounded-t-lg">
+                  <tr></tr>
+                </thead>
+                <tbody className="divide-y divide-stone-200 bg-white">
+                  {items.map((meal) => (
+                    <MiniTableMealRow
+                      meal={meal}
+                      key={meal.restaurant.name + meal.name}
+                      restaurantName={meal.restaurant.name}
+                      restaurantSlug={meal.restaurant.slug}
+                      showRestaurantData={true}
+                    />
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </section>
-          <section className="max-w-7xl mx-auto">
-          {/* <!-- Ezoic - under_second_paragraph - under_second_paragraph --> */}
+
+            <div className="border rounded-lg shadow-md">
+              <div className="text-center mt-8 mb-8 px-4">
+                <h3 className="text-xl font-bold text-center ">
+                  Top 10 Highest Protein Salads ≤ 500 cal
+                </h3>
+                <p className="text-sm text-stone-500 ">
+                  (Top 50 restaurant chains only)
+                </p>
+              </div>
+
+              <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
+                <thead className="rounded-t-lg">
+                  <tr></tr>
+                </thead>
+                <tbody className="divide-y divide-stone-200 bg-white">
+                  {highestProteinSalads.map((meal) => (
+                    <MiniTableMealRow
+                      meal={meal}
+                      key={meal.restaurant.name + meal.name}
+                      restaurantName={meal.restaurant.name}
+                      restaurantSlug={meal.restaurant.slug}
+                      showRestaurantData={true}
+                    />
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="border rounded-lg shadow-md">
+              <div className="text-center mt-8 mb-8 px-4">
+                <h3 className="text-xl font-bold text-center">
+                  Top 10 Highest Protein Pizzas ≤ 600 cal
+                </h3>
+                <p className="text-sm text-stone-500 ">
+                  (Top 50 restaurant chains only)
+                </p>
+              </div>
+              <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
+                <thead className="rounded-t-lg">
+                  <tr></tr>
+                </thead>
+                <tbody className="divide-y divide-stone-200 bg-white">
+                  {highestProteinPizza.map((meal) => (
+                    <MiniTableMealRow
+                      meal={meal}
+                      key={meal.restaurant.name + meal.name}
+                      restaurantName={meal.restaurant.name}
+                      restaurantSlug={meal.restaurant.slug}
+                      showRestaurantData={true}
+                    />
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="border rounded-lg shadow-md">
+              <div className="text-center mt-8 mb-8 px-4">
+                <h3 className="text-xl font-bold text-center">
+                  Top 10 Highest Protein Burritos ≤ 600 cal
+                </h3>
+                <p className="text-sm text-stone-500">
+                  (Top 50 restaurant chains only)
+                </p>
+              </div>
+              <table className="min-w-full divide-y divide-stone-300 rounded-lg  overflow-hidden">
+                <thead className="rounded-t-lg">
+                  <tr></tr>
+                </thead>
+                <tbody className="divide-y divide-stone-200 bg-white">
+                  {highestProteinBurritos.map((meal) => (
+                    <MiniTableMealRow
+                      meal={meal}
+                      key={meal.restaurant.name + meal.name}
+                      restaurantName={meal.restaurant.name}
+                      restaurantSlug={meal.restaurant.slug}
+                      showRestaurantData={true}
+                    />
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section className="max-w-7xl mx-auto">
+        {/* <!-- Ezoic - under_second_paragraph - under_second_paragraph --> */}
 {/* <div id="ezoic-pub-ad-placeholder-108"> </div> */}
 {/* <!-- End Ezoic - under_second_paragraph - under_second_paragraph --> */}
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 mt-10">
-              Food Categories
-            </h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 mt-10">
+            Food Categories
+          </h2>
 
-            <ul
-              role="list"
-              className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
-            >
-              {parentCategories
-                .filter((c) => c.name !== "Uncategorized")
-                .map((category) => (
-                  <li key={category.slug} className="relative">
-                    <a href={`/category/${category.slug}`}>
-                      <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
-                        <div className="h-28 md:h-40">
-                          <img
-                            src={`/images/categoriesLarge/${category.slug}.jpg`}
-                            alt=""
-                            className="object-cover pointer-events-none group-hover:opacity-75"
-                          />
-                        </div>
-                        <button
-                          type="button"
-                          className="absolute inset-0 focus:outline-none"
-                        >
-                          <span className="sr-only">{category.name}</span>
-                        </button>
+          <ul
+            role="list"
+            className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+          >
+            {parentCategories
+              .filter((c) => c.name !== "Uncategorized")
+              .map((category) => (
+                <li key={category.slug} className="relative">
+                  <a href={`/category/${category.slug}`}>
+                    <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+                      <div className="h-28 md:h-40">
+                        <img
+                          src={`/images/categoriesLarge/${category.slug}.jpg`}
+                          alt=""
+                          className="object-cover pointer-events-none group-hover:opacity-75"
+                        />
                       </div>
-                    </a>
-                    <p className="mt-2 block text-lg font-medium text-gray-900 truncate pointer-events-none">
-                      {category.name}
-                    </p>
-                    {/* <p className="block text-sm font-medium text-gray-500 pointer-events-none">{file.size}</p> */}
-                  </li>
-                ))}
-            </ul>
-            <div className="flex items-center justify-center mt-8">
-              <Link href="/category">
-                <div className="bg-red-500 cursor-pointer hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded-lg mx-auto">
-                  See all Categories
-                </div>
-              </Link>
-            </div>
-          </section>
-        </div>
-      </Layout>
-    </>
-  );
+                      <button
+                        type="button"
+                        className="absolute inset-0 focus:outline-none"
+                      >
+                        <span className="sr-only">{category.name}</span>
+                      </button>
+                    </div>
+                  </a>
+                  <p className="mt-2 block text-lg font-medium text-gray-900 truncate pointer-events-none">
+                    {category.name}
+                  </p>
+                  {/* <p className="block text-sm font-medium text-gray-500 pointer-events-none">{file.size}</p> */}
+                </li>
+              ))}
+          </ul>
+          <div className="flex items-center justify-center mt-8">
+            <Link href="/category" legacyBehavior>
+              <div className="bg-red-500 cursor-pointer hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded-lg mx-auto">
+                See all Categories
+              </div>
+            </Link>
+          </div>
+        </section>
+      </div>
+    </Layout>
+  </>;
 }
 
 export const formatCategory = (category, asElement, emojiOnly) => {

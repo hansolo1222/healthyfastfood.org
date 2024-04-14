@@ -7,7 +7,7 @@ export default function RestaurantCloud({restaurants}) {
       <div className="max-w-7xl mx-auto py-6 md:py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-5" >
           {restaurants.map((restaurant)=>(
-            <Link href={`/${restaurant.slug}`} key={restaurant.slug}>
+            <Link href={`/${restaurant.slug}`} key={restaurant.slug} legacyBehavior>
             <div className="hover:bg-stone-100 rounded-xl py-4">
               <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1 cursor-pointer">
                 <img className="h-12 md:h-16 w-auto" src={`/images/logos_large/${restaurant.slug}.webp`} alt={`${restaurant.name} Logo`} />
@@ -73,12 +73,12 @@ export default function RestaurantCloud({restaurants}) {
         </div>
       </div>
       <div className="flex justify-center">
-      <Link href="/restaurants" >
+      <Link href="/restaurants" legacyBehavior>
           <div className="bg-red-500 shadow-xl cursor-pointer hover:bg-red-700 text-white text-xl font-medium py-4 px-5 rounded-lg mx-auto">
         See All Restaurants
         </div>
       </Link>
     </div>
     </div>
-  )
+  );
 }
