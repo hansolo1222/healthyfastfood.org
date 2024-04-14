@@ -318,13 +318,14 @@ const Header = () => {
                              w-[230px]
                              flex-col bg-white drop-shadow-md absolute z-50 rounded-lg py-2"
                             >
-                              {item.secondLevelData.map((subItem) =>
+                              {item.secondLevelData.map((subItem, index) =>
                                 subItem.name == "---------" ? (
-                                  <span className="border-b mt-2 mb-2"></span>
+                                  <span key={index} className="border-b mt-2 mb-2"></span>
                                 ) : (
                                   <a
                                     className="px-4 py-2 hover:bg-stone-50 text-md"
                                     href={subItem.href}
+                                    key={index}
                                   >
                                     {subItem.name}
                                   </a>
