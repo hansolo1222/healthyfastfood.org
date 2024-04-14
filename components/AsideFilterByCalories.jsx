@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Transition, Fragment } from "@headlessui/react";
+import { Transition } from "@headlessui/react";
 import { classNames } from "./utils";
 
 const calorieFilters = [
@@ -237,9 +237,9 @@ const handleMobileCalorieFilterSubmit = (event) => {
 
 
   return (
-    <Transition appear show={showCalorieFilter} as={Fragment}>
+    <Transition appear show={showCalorieFilter} >
       <Transition.Child
-        as={Fragment}
+        
         enter="ease-out duration-100"
         enterFrom="opacity-0 scale-95"
         enterTo="opacity-100 scale-100"
