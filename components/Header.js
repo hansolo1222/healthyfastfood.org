@@ -320,12 +320,11 @@ const Header = () => {
                             >
                               {item.secondLevelData.map((subItem) =>
                                 subItem.name == "---------" ? (
-                                  <span className="border-b mt-2 mb-2" key={subItem.name}></span>
+                                  <span className="border-b mt-2 mb-2"></span>
                                 ) : (
                                   <a
                                     className="px-4 py-2 hover:bg-stone-50 text-md"
                                     href={subItem.href}
-                                    key={subItem.name}
                                   >
                                     {subItem.name}
                                   </a>

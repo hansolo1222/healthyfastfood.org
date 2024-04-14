@@ -105,7 +105,7 @@ We make every effort to ensure the quality and accuracy of the data we report.
                       </svg>
                     </a>
                     <p className="mt-2 text-base font-normal text-gray-600 font-pj">
-                      Developer
+                      Designer
                     </p>
                     <p className="text-left text-gray-500 text-sm mt-2">
                       Kev is a web developer living in California. He is responsible for designing and maintaining Healthyfastfood.org. He has a Bachelor's Degree
@@ -137,7 +137,7 @@ We make every effort to ensure the quality and accuracy of the data we report.
                       Researcher
                     </p>
                     <p className="text-left text-gray-500 text-sm mt-2">
-                      Khun Min Aung studied medicine at the University of Medicine in Yangon and finance at the University of Technology Sydney.
+                      Brandon Aung studied Medicine at the University of Medicine in Yangon and Finance at the University of Technology Sydney.
                       He currently works in a corporate development & strategy role and is passionate about using data to improve health outcomes.
                       
                     </p>
