@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-const restaurants = require("/public/restaurantData/tope.json");
+// const restaurants = require("/public/restaurantData/tope.json");
 import _ from "lodash";
 import ReactMarkdown from "react-markdown";
 // import {
@@ -35,15 +35,15 @@ const colorMap = {
   "Baked Goods": "#FFF500",
   Seafood: "#84cc16 ",
 };
-const grouped = _.groupBy(
-  restaurants.map((r) => ({
-    ...r,
-    x: r.locations,
-    y: r.revenuePerStore,
-    r: Math.sqrt(r.salesMillions / Math.PI)/2,
-  })),
-  (restaurant) => restaurant.type
-);
+// const grouped = _.groupBy(
+//   restaurants.map((r) => ({
+//     ...r,
+//     x: r.locations,
+//     y: r.revenuePerStore,
+//     r: Math.sqrt(r.salesMillions / Math.PI)/2,
+//   })),
+//   (restaurant) => restaurant.type
+// );
 
 // ChartJS.register(
 //   CategoryScale,
