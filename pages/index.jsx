@@ -333,8 +333,7 @@ export default function Home(props) {
         </h1>
         <p className="text-lg my-4 text-center text-stone-500 max-w-xl mx-auto">
           Sort through a powerful database of 20,000+ foods and 300+
-          restaurants by your nutritional requirements, allergens, and
-          specific diets.
+          restaurants by your nutritional requirements, allergens, or dietary restrictions.
         </p>
         <RestaurantCloud restaurants={topRestaurants} />
          {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
