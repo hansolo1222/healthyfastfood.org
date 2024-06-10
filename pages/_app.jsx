@@ -12,6 +12,8 @@ function MyApp({ Component, pageProps }) {
     
     <Head>
       <link rel="shortcut icon" href="/images/favicon.ico" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"
+     crossorigin="anonymous"></script>
     </Head>
     <Component {...pageProps} />
     <GoogleAnalytics gaId="G-PSTY3EB8KQ" />
