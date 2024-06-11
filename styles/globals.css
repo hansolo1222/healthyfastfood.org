@@ -73,4 +73,8 @@
   body {
     @apply bg-background text-foreground;
   }
+  .mobile-padding {
+    @apply px-3;
+  }
 }
+
