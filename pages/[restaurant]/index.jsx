@@ -405,10 +405,10 @@ export default function Restaurant(props) {
             />
             <Tabs activeTab="all" slug={`/${restaurant.slug}`} />
             <RestaurantSectionTextBlock>
-              <ReactMarkdown className="article-container max-w-2xl   ">
+              {/* <ReactMarkdown className="article-container max-w-2xl   ">
                 {`Looking for ${restaurant.name} nutrition facts or ${restaurant.name} calorie info? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${restaurant.name} menu, so you can sort through and filter results based on your dietary needs. You can also get super-specific and show things like Protein-Carb ratio.
 `}
-              </ReactMarkdown>
+              </ReactMarkdown> */}
             </RestaurantSectionTextBlock>
             {/* <!-- Ezoic - under_page_title - under_page_title --> */}
               {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
