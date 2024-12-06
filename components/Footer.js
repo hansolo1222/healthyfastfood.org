@@ -8,6 +8,8 @@ import { Subscribe } from "./Subscribe";
       { name: 'Privacy Policy', href: '/privacy-policy' },
       { name: 'Restaurants', href: '/restaurants' },
       { name: 'Meal Categories', href: '/category' },
+      { name: 'AI Anime Generator', href: 'https://betterwaifu.com/create' },
+
     ],
     restaurants: [
       { name: "McDonald's", href: '/mcdonalds' },
@@ -43,7 +45,6 @@ import { Subscribe } from "./Subscribe";
       { name: 'Privacy', href: '/privacy' },
       { name: 'Terms', href: '/terms' },
       { name: 'About', href: '/about' },
-      { name: 'AI Anime Generator', href: 'https://betterwaifu.com/create' },
     ],
     social: [
       {
@@ -167,7 +168,7 @@ import { Subscribe } from "./Subscribe";
               ))}
             </div>
             <p className="mt-8 text-base text-stone-500 md:mt-0 md:order-1">
-              &copy; 2023 HealthyFastFood.org. All rights reserved.
+              &copy; 2024 HealthyFastFood.org. All rights reserved.
             </p>
           </div>
         </div>
