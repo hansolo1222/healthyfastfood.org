@@ -43,6 +43,7 @@ import { Subscribe } from "./Subscribe";
       { name: 'Privacy', href: '/privacy' },
       { name: 'Terms', href: '/terms' },
       { name: 'About', href: '/about' },
+      { name: 'AI Anime Generator', href: 'https://betterwaifu.com/create' },
     ],
     social: [
       {

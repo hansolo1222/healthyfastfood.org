@@ -1,6 +1,11 @@
 import { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { Analytics } from "@vercel/analytics/react"
+import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import { plusJakartaSans } from '../lib/fonts';
 
 export const metadata: Metadata = {
     title: 'HealthyFastFood.org',
@@ -16,12 +21,15 @@ export default function RootLayout({
   }) {
     
     return (
-      <html lang="en">
-        <body>{children}</body>
-        <GoogleAnalytics gaId="G-PSTY3EB8KQ" />
-        <Analytics />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"/>
-
+      <html lang="en" className=" ">
+        <body  className={plusJakartaSans.className}>
+          <Header />
+          <div className="layout md:px-6 lg:px-7 pb-20   ">{children}</div>
+          <Footer />
+          <GoogleAnalytics gaId="G-PSTY3EB8KQ" />
+          <Analytics />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4191723359468026"/>
+        </body>
       </html>
     )
   }

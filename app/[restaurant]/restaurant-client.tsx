@@ -1,8 +1,9 @@
-import Head from "next/head";
-import Layout from "../../components/Layout";
+'use client'
+
+ import Layout from "../../components/Layout";
 import { useEffect, useState, useRef } from "react";
 import { useSortableData } from "../../components/UseSortableData";
-import prisma from "../../lib/prisma";
+
 import { NextSeo } from "next-seo";
 import { Tabs } from "../../components/Tabs";
 import {
@@ -25,6 +26,7 @@ import { RestaurantSectionDesktopThematicSort } from "../../components/Restauran
 import { RestaurantSectionMobileFilter } from "../../components/RestaurantSectionMobileFilter";
 import { RestaurantSectionTextBlock } from "../../components/RestaurantSectionTextBlock";
 import { RestaurantSectionMeals } from "../../components/RestaurantSectionMeals";
+
 import EmailSignup from "../../components/EmailSignup";
 import ReactMarkdown from "react-markdown";
 import { FAQ } from "../../components/FAQ";
@@ -32,95 +34,24 @@ import _ from "lodash";
 
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
-
-const DynamicMeals = dynamic(
-  () => import("../../components/RestaurantSectionMeals"),
-  {
-    suspense: true,
+ 
+interface RestaurantProps {
+    restaurant: any; // Replace 'any' with your proper type
+    restaurants: any[];
+    restaurantType: string;
   }
-);
+  
 
-export const getStaticProps = async (context) => {
-  // res.setHeader(
-  //   'Cache-Control',
-  //   'public, s-maxage=10, stale-while-revalidate=59'
-  // )
 
-  const restaurant = await prisma.restaurant.findUnique({
-    where: {
-      slug: String(context.params?.restaurant),
-    },
-    include: {
-      meals: {
-        include: {
-          category: {
-            include: {
-              parentCategory: true,
-            },
-          },
-          variants: {
-            include: {
-              subvariants: true,
-            },
-          },
-        },
-      },
-      restaurantTypes: true,
-    },
-  });
-  if (!restaurant) {
-    return {
-      notFound: true,
-    };
-  }
+export default function RestaurantClient({ 
+    restaurant, 
+    restaurants, 
+    restaurantType 
+  }: RestaurantProps) {
 
-  const restaurantType = restaurant.restaurantTypes[0].slug;
-
-  const type = await prisma.restaurantType.findUnique({
-    where: {
-      slug: restaurantType,
-    },
-    include: {
-      restaurants: true,
-    },
-  });
-
-  // const restaurants = await prisma.restaurant.findMany({
-  //   where: {
-  //     restaurantType: {
-  //       slug: restaurantType,
-  //     },
-  //   },
-  //   orderBy: [
-  //     {
-  //       rank: "asc",
-  //     },
-  //   ],
-  // });
-
-  return {
-    props: {
-      restaurant: JSON.parse(JSON.stringify(restaurant)),
-      restaurants: JSON.parse(JSON.stringify(type.restaurants)),
-      restaurantType: JSON.parse(JSON.stringify(restaurantType)),
-    },
-  };
-};
-
-export async function getStaticPaths() {
-  const restaurants = await prisma.restaurant.findMany();
-
-  // Get the paths we want to pre-render based on posts
-  const paths = restaurants.map((rest) => ({
-    params: { restaurant: rest.slug },
-  }));
-
-  // We'll pre-render only these paths at build time.
-  return { paths, fallback: false };
-}
-
-export default function Restaurant(props) {
-  const { restaurant, restaurants, restaurantType } = props;
+    // const DynamicMeals = dynamic(() => import('../../components/RestaurantSectionMeals'), {
+    //     suspense: true,
+    //   });
 
   const pages = [
     { name: "All Restaurants", href: `/restaurants` },
@@ -169,20 +100,13 @@ export default function Restaurant(props) {
   //-------------------- FILTER & RELOAD ----------------------
 
   useEffect(() => {
-    // ezstandalone.define(107);
-    // if (!ezstandalone.enabled) {
-    //   ezstandalone.enable();
-    //   ezstandalone.display();
-    // }
-    // else {
-    //   ezstandalone.refresh();
-    // }
+ 
     setMealData(
       filterItems(
         meals.map((m) => {
           return {
             ...m,
-            [thematicFilter]: calculateCustomNutrition(thematicFilter, m),
+            ...(thematicFilter ? { [thematicFilter]: calculateCustomNutrition(thematicFilter, m) } : {}),
           };
         }),
         umbrellaCategories,
@@ -211,8 +135,7 @@ export default function Restaurant(props) {
   let { items, requestSort, SortableTableHeader } = useSortableData(mealData, {
     key: "name",
     direction: "ascending",
-  });
-
+  } as any); // Temporary fix with type assertion
   // console.log(_.chain(items).groupBy("categoryName").value())
 
   let groupedItems = _.chain(items)
@@ -296,50 +219,6 @@ export default function Restaurant(props) {
 
   //---------------------------- STRUCTURED DATA ----------------------------
 
-  const addJsonLdMenu = () => {
-    return {
-      __html: `
-    {
-      "@context": "http://schema.org",
-      "@type": "Menu",
-      "url": "https://healthyfastfood.org/${restaurant.slug}",
-      "mainEntityOfPage": "https://healthyfastfood.org/${restaurant.slug}",
-      "inLanguage":"English",
-      "description":"Full Menu for ${restaurant.name}",
-      "hasMenuSection": [
-        ${categoriesWithParents.map(
-          (cat) =>
-            `{
-          "@type": "MenuSection",
-          "name":"${cat.categoryName}",
-          "hasMenuItem": [
-            ${meals
-              .filter((meal) => meal.categoryName == cat.categoryName)
-              .map(
-                (meal) =>
-                  `{
-            "@type":"MenuItem",
-            "name":"${meal.name.replace(/"/g, '\\"')}",
-            "nutrition": {
-              "@type":"NutritionInformation",
-              "calories":"${meal.calories}",
-              "fatContent":"${meal.totalFat}",
-              "proteinContent":"${meal.protein}",
-              "carbohydrateContent":"${meal.totalCarbohydrates}"
-            }
-            }
-            `
-              )}
-       ]
-        }
-        `
-        )}
-      ]
-    }
-    `,
-    };
-  };
-
   return (
     <>
       <NextSeo
@@ -378,20 +257,9 @@ export default function Restaurant(props) {
         }}
       />
 
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={addJsonLdMenu()}
-        />
-        <script
-          src="https://the.gatekeeperconsent.com/cmp.min.js"
-          async
-          data-cfasync="false"
-        ></script>
-      </Head>
-
-      <Layout>
-        <main className="flex bg-stone-100 md:bg-white">
+ 
+      
+        <main className="flex  ">
           <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
             <AsideCalorieFilter
               setMinCalories={setMinCalories}
@@ -403,10 +271,9 @@ export default function Restaurant(props) {
               displayMaxCalories={displayMaxCalories}
               setDisplayMinCalories={setDisplayMinCalories}
               setDisplayMaxCalories={setDisplayMaxCalories}
+              caloriePreset={caloriePreset} 
             />
-            {/* <!-- Ezoic - sidebar_left_top - sidebar --> */}
-            {/* <div id="ezoic-pub-ad-placeholder-103"> </div> */}
-            {/* <!-- End Ezoic - sidebar_left_top - sidebar --> */}
+         
             <AsideFilterByUmbrellaCategories
               umbrellaCategories={umbrellaCategories}
               setUmbrellaCategories={setUmbrellaCategories}
@@ -427,17 +294,13 @@ export default function Restaurant(props) {
               entity={restaurant}
               titleBlack={restaurant.name}
               titleGray={` Nutrition Facts and Calories`}
+              emoji={restaurant.emoji || '🍽️'} 
             />
             <Tabs activeTab="all" slug={`/${restaurant.slug}`} />
             <RestaurantSectionTextBlock>
-              {/* <ReactMarkdown className="article-container max-w-2xl   ">
-                {`Looking for ${restaurant.name} nutrition facts or ${restaurant.name} calorie info? We've crunched the data on protein, carbs, fat, and other macronutrients for every item on the ${restaurant.name} menu, so you can sort through and filter results based on your dietary needs. You can also get super-specific and show things like Protein-Carb ratio.
-`}
-              </ReactMarkdown> */}
+              
             </RestaurantSectionTextBlock>
-            {/* <!-- Ezoic - under_page_title - under_page_title --> */}
-            {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
-            {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
+       
             <RestaurantSectionCategories
               categories={categoriesWithParents}
               restaurant={restaurant}
@@ -465,12 +328,13 @@ export default function Restaurant(props) {
               setThematicFilter={setThematicFilter}
               setShowCustomRow={setShowCustomRow}
               scrollRef={scrollRef}
+              netCarbLimit={0}               // Add these
+              netCarbMax={100}              // four
+              handleNetCarbLimitChange={() => {}}  // new
+              marks={{}}                     // props
             />
-            <Suspense fallback={`Loading...`}>
-              {/* <!-- Ezoic - under_first_paragraph - under_first_paragraph --> */}
-              {/* <div id="ezoic-pub-ad-placeholder-107"> </div> */}
-              {/* <!-- End Ezoic - under_first_paragraph - under_first_paragraph --> */}
-              <DynamicMeals
+           
+              <RestaurantSectionMeals
                 restaurant={restaurant}
                 categoriesWithParents={categoriesWithParents}
                 showCustomRow={showCustomRow}
@@ -481,14 +345,15 @@ export default function Restaurant(props) {
                 items={items}
                 variant="normal"
                 group={true}
+                showRestaurantData={true} 
               />
-            </Suspense>
-            <FAQ faqs={faqs} />
+         
+            {/* <FAQ faqs={faqs} /> */}
           </article>
         </main>
         <EmailSignup />
         {/* <div id="ezoic-pub-ad-placeholder-119"> </div> */}
-      </Layout>
+       
     </>
   );
 }

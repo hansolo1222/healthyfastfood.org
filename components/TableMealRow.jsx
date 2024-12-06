@@ -15,11 +15,11 @@ export const TableMealRow = ({
 
   console.log(showRestaurantData)
   return (
-    <tr className="mealRow cursor-pointer hover:bg-white md:hover:bg-stone-50 text-sm">
+    <tr className="mealRow   hover:bg-white   text-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
             {showRestaurantData ? (
-              <a href={`/${restaurantSlug}`} className="flex items-center">
+              <div className="flex items-center">
               <div className="relative w-6 h-6 ml-2 mr-3 md:mr-0">
                 <Image
                   className=" flex-shrink-0 rounded-md "
@@ -29,7 +29,7 @@ export const TableMealRow = ({
                   objectFit="contain"
                 />
               </div>
-              </a>
+              </div>
             ) : (
               ""
              
@@ -37,15 +37,15 @@ export const TableMealRow = ({
           
               {/* <div className="text-lg border rounded-md h-7 w-7 flex items-center justify-center">{formatParentCategory(meal.category.parentCategorySlug, false, true, false)}</div> */}
 
-          <a
-            href={`/${restaurantSlug}/${meal.slug}`}
-            className="hover:text-red-500 md:ml-3"
+          <div
+             
+            className="  md:ml-3"
           >
             {showRestaurantData && (
               <div className="text-xs text-stone-500">{restaurantName}</div>
             )}
             <span className="">{meal.name}</span>
-          </a>
+          </div>
         </div>
       </td>
       {/* <td className="whitespace-nowrap py-1 text-base text-stone-900 text-center">
@@ -96,7 +96,7 @@ export const KetoTableMealRow = ({
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
   return (
-    <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
+    <tr className="mealRow   hover:shadow-none hover:bg-white   md:hover:shadow-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
@@ -181,7 +181,7 @@ export const MiniTableMealRow = ({
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
   return (
-    <tr className="mealRow cursor-pointer hover:shadow-none hover:bg-white md:hover:bg-stone-50 md:hover:shadow-sm">
+    <tr className="mealRow   hover:shadow-none hover:bg-white   md:hover:shadow-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
           <a href={`/${restaurantSlug}`} className="flex items-center">
@@ -253,7 +253,7 @@ export const TableHeaders = ({showCustomRow, thematicFilter, SortableTableHeader
   <th
   scope="col"
   className="md:pl-2 py-3 text-sm font-semibold text-greeny-600 text-left first-letter:
-  sticky z-10 md:static w-20 left-0 bg-white
+  sticky z-10 md:static w-20 left-0  
   "
   style={{'width':'43%'}}
 

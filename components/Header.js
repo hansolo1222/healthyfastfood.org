@@ -1,6 +1,7 @@
+"use client"
 import React from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from 'next/navigation'
 import Image from "next/image";
 //import { signOut, useSession } from "next-auth/react";
 import { useRef } from "react";
@@ -261,10 +262,10 @@ const Header = () => {
       </div>
     </div> */}
 
-    <Disclosure as="nav" className="bg-white border-b relative">
+    <Disclosure as="nav" className=" border-b relative">
       {({ open }) => (
         <>
-          <div className="max-w-8xl mx-auto px-3 sm:px-5 md:px-7 bg-white">
+          <div className="max-w-8xl mx-auto px-3 sm:px-5 md:px-7 ">
             <div className="relative flex items-center justify-beeen h-12 md:h-16">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}

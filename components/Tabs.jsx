@@ -23,7 +23,7 @@ export const Tabs = ({activeTab, slug}) => {
   ]
   return (
      
-        <div className="mobile-padding border-b py-0 md:py-4 border-stone-200 bg-white overflow-x-auto">
+        <div className="mobile-padding border-b py-0 md:py-4 border-stone-200  overflow-x-auto">
           <nav className=" flex space-x-3 md:space-x-6" aria-label="Tabs">
             {tabs.map((tab) => (
               <a

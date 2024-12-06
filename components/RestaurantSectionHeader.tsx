@@ -2,10 +2,10 @@ import Image from "next/image";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { formatParentCategory } from "./TableMealRow";
 export const RestaurantSectionHeader = ({pages, entity, titleBlack, titleGray, emoji }) => {
-  return (<section className="pt-3 md:pt-8 bg-white pb-3.5 md:pb-4 mobile-padding">
+  return (<section className="mt-2 md:mt-8 pt-3 md:pt-10  pb-3.5 md:pb-4 mobile-padding">
               {/* Breadcrumbs for mobile */}
               <div className="block md:hidden">
-                <Breadcrumbs pages={pages} className="" />
+                <Breadcrumbs pages={pages}   />
               </div>
               <div className="flex items-start md:items-center">
               { !emoji ? 
@@ -14,8 +14,8 @@ export const RestaurantSectionHeader = ({pages, entity, titleBlack, titleGray, e
                     className=" flex-shrink-0 rounded-xl mr-2 z-0"
                     src={`/images/logosSmall/${entity.slug}.webp`}
                     alt={`${entity.name} Logo`}
-                    layout="fill"
-                    objectFit="contain"
+                    fill={true}  
+                    style={{ objectFit: "contain" }}
                   />
                 </div>
                 : 
@@ -29,11 +29,11 @@ export const RestaurantSectionHeader = ({pages, entity, titleBlack, titleGray, e
                   <>
                   <div>
                   <div className="hidden md:block">
-                    <Breadcrumbs pages={pages} className="" />
+                    <Breadcrumbs pages={pages}   />
                   </div>
                     <h1 className="text-lg md:text-xl lg:text-3xl font-bold mt-2 md:mt-1 leading-snug">
                       {titleBlack}
-                      <span className="text-stone-500 font-normal block md:inline">
+                      <span className="text-stone-500 font-normal block sm:inline">
                         {titleGray}
                       </span>
                     </h1>

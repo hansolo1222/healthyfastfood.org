@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+  },
     "target": "es5",
     "lib": [
       "dom",
@@ -17,7 +20,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
@@ -25,7 +34,8 @@
     "**/*.tsx",
     "pages/_app.jsx",
     "lib/prisma.js",
-    "lib/supabase.js"
+    "lib/supabase.js",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -329,7 +329,7 @@ export default function Home(props) {
                 {/* <div id="ezoic-pub-ad-placeholder-106"> </div> */}
             {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
         <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mt-6 md:mt-12">
-          Eat healthier, today.
+          Find the Healthiest Options at Every Restaurant
         </h1>
         <p className="text-lg my-4 text-center text-stone-500 max-w-xl mx-auto">
           Sort through a powerful database of 20,000+ foods and 300+

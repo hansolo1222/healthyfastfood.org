@@ -1,144 +1,9 @@
 
 import { TableMealRow,TableHeaders, KetoTableHeaders, KetoTableMealRow } from "./TableMealRow";
 import { getCustomNutritionRowInfo } from "./utils";
-// .filter((cat) =>
-// umbrellaCategories.includes(
-//   getUmbrellaCategory(cat.parentCategory)
-// )
-// )
 
 
-
-
-// export const RestaurantSectionMealsNew = (
-//   {
-//     restaurant,
-//     categoriesWithParents,
-//     showCustomRow,
-//     thematicFilter,
-//     SortableTableHeader,
-//     umbrellaCategories,
-//     getUmbrellaCategory,
-//     items,
-//     groupedItems,
-//     showRestaurantData,
-//     group
-//   }) => {
-
-//    if (!group) {
-//     return (
-//       <section className="overflow-x-auto w-full z-10 mt-4">
-//             <div
-//               className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding "
-             
-//             >
-//               <div className="overflow-x-auto">
-//                 <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-//                   <thead className="rounded-t-lg sticky top-0">
-//                     {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-//                     <TableHeaders
-//                       showCustomRow={showCustomRow}
-//                       thematicFilter={thematicFilter}
-//                       SortableTableHeader={SortableTableHeader}
-//                     />
-//                   </thead>
-//                   <tbody className="divide-y divide-stone-200 bg-white w-full">
-//                     {items
-//                         .map((meal) => (
-//                           <TableMealRow
-//                             restaurantName={restaurant.name}
-//                             restaurantSlug={restaurant.slug}
-//                             showRestaurantData={showRestaurantData}
-//                             meal={meal}
-//                             key={meal.mealName}
-//                             showCustomRow={showCustomRow}
-//                             customRowKey={thematicFilter}
-//                             customRowUnits={
-//                               getCustomNutritionRowInfo(
-//                                 thematicFilter
-//                               ).units
-//                             }
-//                           />
-//                         ))
-//                     }
-//                   </tbody>
-//                 </table>
-//               </div>
-//         </div>
-//       </section>
-//     )
-//    }
-//   return (
-//     <section className="overflow-x-auto w-full z-10 mt-4">
-//     {groupedItems.map((category) => {
-//         return (
-//           <div className="bg-white" key={category.categoryName}>
-//             <h2
-//               className="pb-2 pt-2 md:pt-4 mobile-padding text-base md:text-lg font-semibold border-b md:border-b-0"
-//               id={category.categoryName}
-//             >
-//               {category.categoryName}
-//             </h2>
-//             <div
-//               className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding "
-//               key={category.categoryName}
-//             >
-//               <div className="overflow-x-auto">
-//                 <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
-//                   <thead className="rounded-t-lg sticky top-0">
-//                     {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
-//                     <TableHeaders
-//                       showCustomRow={showCustomRow}
-//                       thematicFilter={thematicFilter}
-//                       SortableTableHeader={SortableTableHeader}
-//                     />
-//                   </thead>
-//                   <tbody className="divide-y divide-stone-200 bg-white w-full">
-//                     {category.meals
-//                         .map((meal) => (
-//                           <TableMealRow
-//                             restaurantName={restaurant.name}
-//                             restaurantSlug={restaurant.slug}
-//                             showRestaurantData={showRestaurantData}
-//                             meal={meal}
-//                             key={meal.mealName}
-//                             showCustomRow={showCustomRow}
-//                             customRowKey={thematicFilter}
-//                             customRowUnits={
-//                               getCustomNutritionRowInfo(
-//                                 thematicFilter
-//                               ).units
-//                             }
-//                           />
-//                         ))
-//                     }
-//                   </tbody>
-//                 </table>
-//               </div>
-//             </div>
-//           </div>
-//         );
-//       })}
-   
-//   </section>
-//   );
-// };
-
-// ) : (
-//   <tr className="">
-//     <td
-//       colSpan={8}
-//       className="single-cell-row text-md text-stone-500 text-center p-8"
-//     >
-//       No items found!
-//     </td>
-//   </tr>
-// )}
-
-
-
-
-const RestaurantSectionMeals = (
+export const RestaurantSectionMeals = (
   {
     restaurant,
     categoriesWithParents,
@@ -172,7 +37,7 @@ const RestaurantSectionMeals = (
             SortableTableHeader={SortableTableHeader}
           /> }
         </thead>
-        <tbody className="divide-y divide-stone-200 bg-white w-full">
+        <tbody className="divide-y divide-stone-200  w-full">
           {items
               .map((meal) => {
                 
@@ -226,7 +91,7 @@ const RestaurantSectionMeals = (
        )
       .map((cat, i) => {
         return (
-          <div className="bg-white" key={cat.categoryName}>
+          <div className="" key={cat.categoryName}>
             <h2
               className="pb-2 pt-2 md:pt-4 mobile-padding text-base md:text-lg font-semibold border-b md:border-b-0"
               id={cat.categorySlug}
@@ -252,7 +117,7 @@ const RestaurantSectionMeals = (
                       SortableTableHeader={SortableTableHeader}
                     /> }
                   </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white w-full">
+                  <tbody className="divide-y divide-stone-200 w-full">
                     {items.filter(
                       (i) => i.categoryName == cat.categoryName
                     ).length > 0 ? (
