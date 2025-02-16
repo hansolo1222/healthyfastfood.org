@@ -12,8 +12,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   })
 
   return {
-    title: `Keto Menu at ${restaurant?.name} - Low Carb Options Guide`,
+    title: `Keto Menu at ${restaurant?.name} - Ketogenic Diet 2025 Guide`,
     description: `Find all keto-friendly options at ${restaurant?.name}. Filter by net carbs, protein content, and allergens to find the perfect keto meal.`,
+    openGraph: {
+      title: `Keto Menu at ${restaurant?.name} - Ketogenic Diet 2025 Guide`,
+      description: `Find all keto-friendly options at ${restaurant?.name}. Filter by net carbs, protein content, and allergens to find the perfect keto meal.`,
+    },
   }
 }
 

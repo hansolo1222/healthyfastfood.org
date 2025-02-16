@@ -60,7 +60,7 @@
     "react-minimal-pie-chart": "^8.3.0",
     "react-share": "^4.4.0",
     "react-social-icons": "^5.14.0",
-    "recharts": "^2.15.0",
+    "recharts": "^2.15.1",
     "recursive-readdir-files": "^2.3.0",
     "slugify": "^1.6.5",
     "supabase": "^2.12.1",

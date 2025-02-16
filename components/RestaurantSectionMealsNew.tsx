@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/table";
 import { calculateCustomNutrition, getCustomNutritionRowInfo } from "./utils";
 import Image from "next/image";
+import { MealDetailsDialog } from "./MealDetailsDialog";
 
 interface MealTableProps {
   categoryName: string | null;
@@ -34,6 +35,8 @@ function MealTable({
   showRestaurantData,
   largeDisplay = false,
 }: MealTableProps) {
+  const [selectedMeal, setSelectedMeal] = useState<any>(null);
+
   const itemsWithCustomNutrition = items.map((item) => {
     const customValue = calculateCustomNutrition(thematicFilter, item);
 
@@ -137,7 +140,11 @@ function MealTable({
         </TableHeader>
         <TableBody>
           {sortedItems.map((meal) => (
-            <TableRow key={meal.id || meal.name}>
+            <TableRow 
+              key={meal.id || meal.name}
+              className="cursor-pointer hover:bg-gray-50"
+              onClick={() => setSelectedMeal(meal)}
+            >
               <TableCell className={`${showRestaurantData ? "pl-4" : "pl-8"}`}>
                 <div className="flex items-center ">
                   {showRestaurantData && (
@@ -158,19 +165,21 @@ function MealTable({
                       </div>
                     )}
                     {showRestaurantData ? (
-                      <a
-                        href={`/${meal.restaurant.slug}/${meal.slug}`}
-                        className="hover:text-stone-600 font-medium"
-                      >
-                        {meal.name}
-                      </a>
+                       <span>{meal.name}</span>
+                      // <a
+                      //   href={`/${meal.restaurant.slug}/${meal.slug}`}
+                      //   className="hover:text-stone-600 font-medium"
+                      // >
+                      //   {meal.name}
+                      // </a>
                     ) : (
-                      <a
-                        href={`/${restaurant.slug}/${meal.slug}`}
-                        className="hover:text-stone-600 font-medium"
-                      >
-                        {meal.name}
-                      </a>
+                      <span>{meal.name}</span>
+                      // <a
+                      //   href={`/${restaurant.slug}/${meal.slug}`}
+                      //   className="hover:text-stone-600 font-medium"
+                      // >
+                      //   {meal.name}
+                      // </a>
                     )}
                   </div>
                 </div>
@@ -212,6 +221,15 @@ function MealTable({
           ))}
         </TableBody>
       </Table>
+      {selectedMeal && (
+        <MealDetailsDialog
+          meal={selectedMeal}
+          isOpen={!!selectedMeal}
+          onClose={() => setSelectedMeal(null)}
+          showRestaurantData={showRestaurantData}
+          restaurant={restaurant}
+        />
+      )}
     </div>
   );
 }

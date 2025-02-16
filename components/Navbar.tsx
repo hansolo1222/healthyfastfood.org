@@ -57,7 +57,35 @@ const Navbar = () => {
 
   const navigation = [
     {
-      name: "Restaurants",
+      name: "Popular",
+      href: "/restaurants",
+      secondLevel: true,
+      secondLevelData: [
+        { name: "All Restaurants", href: "/restaurants" },
+        { name: "---------", href: "" },
+        { name: "McDonald's", href: "/mcdonalds" },
+        { name: "Sandwich Restaurants", href: "/restaurants/sandwiches" },
+        { name: "Coffee & Beverage", href: "/restaurants/beverages" },
+        { name: "Chicken Restaurants", href: "/restaurants/chicken" },
+        { name: "Pizza Places", href: "/restaurants/pizza" },
+        { name: "Steakhouses", href: "/restaurants/steakhouse" },
+        { name: "Barbeque Restaurants", href: "/restaurants/barbeque" },
+        { name: "---------", href: "" },
+        { name: "Asian Restaurants", href: "/restaurants/asian" },
+        { name: "Italian Restaurants", href: "/restaurants/italian" },
+        { name: "Mexican Restaurants", href: "/restaurants/mexican-tex-mex" },
+        { name: "American Restaurants", href: "/restaurants/american" },
+        { name: "---------", href: "" },
+        { name: "Breakfast Places", href: "/restaurants/breakfast" },
+        { name: "Baked Goods", href: "/restaurants/baked-goods" },
+        {
+          name: "Ice Cream & Frozen Desserts",
+          href: "/restaurants/frozen-desserts",
+        },
+      ],
+    },
+    {
+      name: "Restaurant Types",
       href: "/restaurants",
       secondLevel: true,
       secondLevelData: [
@@ -136,14 +164,14 @@ const Navbar = () => {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center ">
-                    <Link href="/" legacyBehavior>
+                    <Link href="/" >
                       <img
                         className="block md:hidden h-8 w-auto"
                         src="/images/mark.svg"
                         alt="HealthyFastFood Mark"
                       />
                     </Link>
-                    <Link href="/" legacyBehavior>
+                    <Link href="/" >
                       <img
                         className="hidden md:block h-6 w-auto cursor-pointer mr-4"
                         src="/images/logo.svg"
@@ -218,30 +246,7 @@ const Navbar = () => {
                     {item.name}
                   </Disclosure.Button>
                 ))}
-                <Disclosure.Button
-                  key="About"
-                  as="a"
-                  href="/about"
-                  className={classNames(
-                    "text-stone-900 hover:bg-stone-100 ",
-                    "block px-3 py-2 rounded-md text-base font-medium"
-                  )}
-                  aria-current={"page"}
-                >
-                  About
-                </Disclosure.Button>
-                <Disclosure.Button
-                  key="Donate"
-                  as="a"
-                  href="/donate"
-                  className={classNames(
-                    "text-stone-900 hover:bg-stone-100 ",
-                    "block px-3 py-2 rounded-md text-base font-medium"
-                  )}
-                  aria-current={"page"}
-                >
-                  Donate
-                </Disclosure.Button>
+               
               </div>
             </Disclosure.Panel>
           </>

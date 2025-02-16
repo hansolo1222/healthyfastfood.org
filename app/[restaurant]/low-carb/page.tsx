@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `Low-Carb Options at ${restaurant.name} - Complete Menu Guide`,
+    title: `Low-Carb Options at ${restaurant.name} - Complete 2025 Guide`,
     description: `Complete guide to eating low-carb at ${restaurant.name}. Find all menu items sorted by net carbs, calories, and more.`,
     openGraph: {
-      title: `Low-Carb Options at ${restaurant.name} - Complete Menu Guide`,
+      title: `Low-Carb Options at ${restaurant.name} - Complete 2025 Guide`,
       description: `Complete guide to eating low-carb at ${restaurant.name}. Find all menu items sorted by net carbs, calories, and more.`,
     },
   };
