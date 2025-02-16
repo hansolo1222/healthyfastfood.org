@@ -93,3 +93,6 @@
   }
 }
 
+body {
+  @apply bg-stone-50
+}

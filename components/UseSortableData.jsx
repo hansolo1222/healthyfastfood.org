@@ -7,7 +7,10 @@ import {
   QuestionMarkCircleIcon,
 } from "@heroicons/react/solid";
 
-export const useSortableData = (items, config = null) => {
+export const useSortableData = (items, config = {
+  key: "name",
+  direction: "ascending"
+}) => {
 
   const [sortConfig, setSortConfig] = useState(config);
 
@@ -76,9 +79,7 @@ export const useSortableData = (items, config = null) => {
     if (direction == "descending") return "ascending";
   };
 
-  const SortableTableHeader = ({ name, colKey, direction }) => {
-    // const getDirection = direction ? direction : "ascending"
-
+  const SortableTableHeader = ({ name, colKey, direction, largeDisplay = false }) => {
     return (
       <button
         className="sortable-table-header"
@@ -86,8 +87,9 @@ export const useSortableData = (items, config = null) => {
         onClick={() => requestSort(colKey, direction)}
       >
         <div
-          className={`group inline-flex items-center cursor-pointer text-xs
-        ${isActive(colKey) ? "text-stone-900" : "text-stone-500"} `}
+          className={`group inline-flex items-center cursor-pointer 
+            ${largeDisplay ? 'text-sm ' : 'text-xs'}
+            ${isActive(colKey) ? "text-stone-900" : "text-stone-500"}`}
         >
           {name}
           <span
@@ -96,9 +98,9 @@ export const useSortableData = (items, config = null) => {
             } group-hover:visible group-focus:visible`}
           >
             {getDirectionForCol(colKey) == direction ? (
-              <ChevronUpIcon className="h-4 w-4" aria-hidden="true" />
+              <ChevronUpIcon className={`${largeDisplay ? 'h-5 w-5' : 'h-4 w-4'}`} aria-hidden="true" />
             ) : (
-              <ChevronDownIcon className="h-4 w-4" aria-hidden="true" />
+              <ChevronDownIcon className={`${largeDisplay ? 'h-5 w-5' : 'h-4 w-4'}`} aria-hidden="true" />
             )}
           </span>
         </div>

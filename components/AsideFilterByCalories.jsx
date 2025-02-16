@@ -1,161 +1,64 @@
-import Image from "next/image";
 import { Transition } from "@headlessui/react";
-import { classNames } from "./utils";
 
-const calorieFilters = [
-  {
-    min: 0,
-    max: 200,
-    name: "0-200",
-    label: "0-200 calories",
-  },
-  {
-    min: 200,
-    max: 400,
-    name: "200-400",
-    label: "200-400 calories",
-  },
-  {
-    min: 400,
-    max: 600,
-    name: "400-600",
-    label: "400-600 calories",
-  },
-  {
-    min: 600,
-    max: 800,
-    name: "600-800",
-    label: "600-800 calories",
-  },
-  {
-    min: 800,
-    max: 10000,
-    name: "800+",
-    label: "800+ calories",
-  },
+const CALORIE_PRESETS = [
+  { name: '0-200', label: '0-200 calories', min: 0, max: 200 },
+  { name: '200-400', label: '200-400 calories', min: 200, max: 400 },
+  { name: '400-600', label: '400-600 calories', min: 400, max: 600 },
+  { name: '600-800', label: '600-800 calories', min: 600, max: 800 },
+  { name: '800+', label: '800+ calories', min: 800, max: 10000 },
 ];
 
-export const AsideCalorieFilter = ({
-  setMinCalories,
-  setMaxCalories,
-  
-  caloriesMessage,
-  setCaloriesMessage,
-  caloriePreset,
-  setCaloriePreset,
+export const AsideCalorieFilter = ({ min, max, activePreset, onChange }) => {
+  // Handle input changes
+  const handleInputChange = (newMin, newMax) => {
+    onChange(
+      newMin === '' ? null : Number(newMin),
+      newMax === '' ? null : Number(newMax),
+      null // Clear preset when manually entering values
+    );
+  };
 
-  displayMinCalories,
-  displayMaxCalories,
-  setDisplayMinCalories,
-  setDisplayMaxCalories
-  
-}) => {
-
-//input handlers for desktop and mobile, they both clear the Presets if any
-const handleMinCalorieInput = (event) => {
-  setCaloriePreset({ name: null });
-  setDisplayMinCalories(event.target.valueAsNumber);
-};
-
-const handleMaxCalorieInput = (event) => {
-  setCaloriePreset({ name: null });
-  setDisplayMaxCalories(event.target.valueAsNumber);
-};
-
-// On desktop, selecting a preset actually runs the filters. It also fills the inputs
-const handleCaloriePreset = (event, min, max) => {
-  setCaloriePreset({ name: event.target.value, min: min, max: max });
-  setMinCalories(min);
-  setMaxCalories(max);
-  setDisplayMinCalories(min);
-  setDisplayMaxCalories(max);
-};
-
-// CTA filter
-  const handleCalorieFilterSubmit = (event) => {
-    event.preventDefault();
-    if (displayMinCalories == null && displayMaxCalories == null) {
-      setCaloriesMessage("Please specify a calorie limit");
-    } else {
-      setCaloriesMessage("");
-      setCaloriePreset({ name: null });
-      if (
-        displayMinCalories &&
-        displayMaxCalories &&
-        displayMinCalories > displayMaxCalories
-      ) {
-        const tempMin = displayMaxCalories;
-        const tempMax = displayMinCalories;
-        setDisplayMinCalories(tempMin);
-        setDisplayMaxCalories(tempMax);
-        setMinCalories(tempMin);
-        setMaxCalories(tempMax);
-      } else {
-        // console.log(displayMinCalories,displayMaxCalories)
-        isNaN(displayMinCalories) && setMinCalories(0);
-        isNaN(displayMaxCalories) && setMaxCalories(10000);
-  
-        !isNaN(displayMinCalories) && setMinCalories(displayMinCalories);
-        !isNaN(displayMaxCalories) && setMaxCalories(displayMaxCalories);
-      }
-    }
+  // Handle preset clicks
+  const handlePresetClick = (preset) => {
+    onChange(preset.min, preset.max, preset.name);
   };
 
   return (
-    <section className="mt-8 ">
-      <h3 className="text-stone-900 text-sm font-bold pb-2">Calorie Limits</h3>
-
-      <div className=" text-stone-600 text-sm space-y-1">
-
-      {calorieFilters.map((f, index) => {
-                return (
-                  <button
-                    value={f.name}
-                    key={f.name}
-                    onClick={(e) => handleCaloriePreset(e, f.min, f.max)}
-                    className="hover:text-orange-500"
-                  >
-                    {f.label}
-                  </button>
-                );
-              })}
-
-      </div>
-      <form onSubmit={handleCalorieFilterSubmit}>
-        <div className="flex justify-start my-4 gap-1">
-          <input
-            id="min-cal"
-            value={displayMinCalories}
-            onChange={handleMinCalorieInput}
-            name="min-calories"
-            type="number"
-            className="appearance-none min-w-0 bg-white border w-32 rounded-sm py-1 px-2 text-sm text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-500 focus:ring-white focus:border-white focus:placeholder-stone-400"
-            placeholder="Min"
-          />
-          <input
-            id="max-cal"
-            value={displayMaxCalories!== 10000 ? displayMaxCalories : ""}
-            onChange={handleMaxCalorieInput}
-            name="max-calories"
-            type="number"
-            className="appearance-none min-w-0 bg-white border w-32 rounded-sm py-1 px-2 text-sm text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-500 focus:ring-white focus:border-white focus:placeholder-stone-400"
-            placeholder="Max"
-          />
+    <section className="mt-8">
+      <h3 className="text-stone-900 text-sm font-bold pb-2">Calories</h3>
+      
+      {/* Preset buttons */}
+      <div className="text-stone-600 text-sm  ">
+        {CALORIE_PRESETS.map((preset) => (
           <button
-            type="submit"
-            className="w-20 shadow-sm border text-sm font-medium rounded-lg text-stone-900 "
+            key={preset.name}
+            onClick={() => handlePresetClick(preset)}
+            className={`  px-3 rounded-full hover:text-pink-500 block ${
+              activePreset === preset.name ? "text-pink-500 bg-stone-200" : "hover:bg-stone-100"
+            }`}
           >
-            Go
+            {preset.label}
           </button>
-        </div>
-        {caloriesMessage ? (
-                <div className="mb-2 text-sm text-red-500">
-                  {caloriesMessage}
-                </div>
-              ) : (
-                ``
-              )}
-      </form>
+        ))}
+      </div>
+
+      {/* Manual input fields */}
+      <div className="flex justify-start my-4 gap-1">
+        <input
+          type="number"
+          value={min ?? ''}
+          onChange={(e) => handleInputChange(e.target.value, max)}
+          placeholder="Min"
+          className="appearance-none min-w-0 bg-white border w-32 rounded-sm py-1 px-2 text-sm text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-500 focus:ring-white focus:border-white focus:placeholder-stone-400"
+        />
+        <input
+          type="number"
+          value={max ?? ''}
+          onChange={(e) => handleInputChange(min, e.target.value)}
+          placeholder="Max"
+          className="appearance-none min-w-0 bg-white border w-32 rounded-sm py-1 px-2 text-sm text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-500 focus:ring-white focus:border-white focus:placeholder-stone-400"
+        />
+      </div>
     </section>
   );
 };
@@ -175,71 +78,65 @@ export const MobileSectionCalorieFilter = ({
   caloriesMessage,
   setCaloriesMessage,
   caloriePreset,
-  setCaloriePreset
-  
+  setCaloriePreset,
 }) => {
+  //input handlers for desktop and mobile, they both clear the Presets if any
+  const handleMinCalorieInput = (event) => {
+    setCaloriePreset({ name: null });
+    setDisplayMinCalories(event.target.valueAsNumber);
+  };
 
+  const handleMaxCalorieInput = (event) => {
+    setCaloriePreset({ name: null });
+    setDisplayMaxCalories(event.target.valueAsNumber);
+  };
 
+  // On mobile, select preset
+  const handleMobileCaloriePreset = (event, min, max) => {
+    setDisplayMinCalories(min);
+    setDisplayMaxCalories(max);
+    setCaloriePreset({ name: event.target.value, min: min, max: max });
+  };
 
-//input handlers for desktop and mobile, they both clear the Presets if any
-const handleMinCalorieInput = (event) => {
-  setCaloriePreset({ name: null });
-  setDisplayMinCalories(event.target.valueAsNumber);
-};
-
-const handleMaxCalorieInput = (event) => {
-  setCaloriePreset({ name: null });
-  setDisplayMaxCalories(event.target.valueAsNumber);
-};
-
-// On mobile, select preset
-const handleMobileCaloriePreset = (event, min, max) => {
-  setDisplayMinCalories(min);
-  setDisplayMaxCalories(max);
-  setCaloriePreset({ name: event.target.value, min: min, max: max });
-};
-
-// Mobile CTA filter
-const handleMobileCalorieFilterSubmit = (event) => {
-  event.preventDefault();
-  if (
-    caloriePreset.name == null &&
-    displayMinCalories == null &&
-    displayMaxCalories == null
-  ) {
-    setCaloriesMessage("Please specify a calorie limit");
-  } else {
-    setCaloriesMessage("");
+  // Mobile CTA filter
+  const handleMobileCalorieFilterSubmit = (event) => {
+    event.preventDefault();
     if (
-      displayMinCalories &&
-      displayMaxCalories &&
-      displayMinCalories > displayMaxCalories
+      caloriePreset.name == null &&
+      displayMinCalories == null &&
+      displayMaxCalories == null
     ) {
-      const tempMin = displayMaxCalories;
-      const tempMax = displayMinCalories;
-      setDisplayMinCalories(tempMin);
-      setDisplayMaxCalories(tempMax);
-    }
-    if (caloriePreset.name !== null) {
-      setMinCalories(caloriePreset.min);
-      setMaxCalories(caloriePreset.max);
+      setCaloriesMessage("Please specify a calorie limit");
     } else {
-      // console.log("fired", displayMinCalories, displayMaxCalories)
+      setCaloriesMessage("");
+      if (
+        displayMinCalories &&
+        displayMaxCalories &&
+        displayMinCalories > displayMaxCalories
+      ) {
+        const tempMin = displayMaxCalories;
+        const tempMax = displayMinCalories;
+        setDisplayMinCalories(tempMin);
+        setDisplayMaxCalories(tempMax);
+      }
+      if (caloriePreset.name !== null) {
+        setMinCalories(caloriePreset.min);
+        setMaxCalories(caloriePreset.max);
+      } else {
+        // console.log("fired", displayMinCalories, displayMaxCalories)
 
-      isNaN(displayMinCalories) && setMinCalories(0);
-      isNaN(displayMaxCalories) && setMaxCalories(10000);
-      !isNaN(displayMinCalories) && setMinCalories(displayMinCalories);
-      !isNaN(displayMaxCalories) && setMaxCalories(displayMaxCalories);
+        isNaN(displayMinCalories) && setMinCalories(0);
+        isNaN(displayMaxCalories) && setMaxCalories(10000);
+        !isNaN(displayMinCalories) && setMinCalories(displayMinCalories);
+        !isNaN(displayMaxCalories) && setMaxCalories(displayMaxCalories);
+      }
+      closeCalorieFilter();
     }
-    closeCalorieFilter();
-  }
-};
-
+  };
 
   return (
-    <Transition appear show={showCalorieFilter} >
+    <Transition appear show={showCalorieFilter}>
       <Transition.Child
-        
         enter="ease-out duration-100"
         enterFrom="opacity-0 scale-95"
         enterTo="opacity-100 scale-100"

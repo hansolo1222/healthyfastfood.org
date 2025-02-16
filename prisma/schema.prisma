@@ -32,6 +32,15 @@ model meal {
   iron               Int?
   published          Boolean    @default(true)
   categoryName       String
+  allergen_milk     Boolean?  @default(false)
+  allergen_eggs      Boolean?  @default(false)
+  allergen_fish      Boolean?  @default(false)
+  allergen_shellfish Boolean?  @default(false)
+  allergen_tree_nuts Boolean?  @default(false)
+  allergen_peanuts   Boolean?  @default(false)
+  allergen_wheat     Boolean?  @default(false)
+  allergen_soy       Boolean?  @default(false)
+  allergen_gluten    Boolean?  @default(false)
   allergensFalse     String[]
   allergensTrue      String[]
   ingredients        String?
@@ -180,7 +189,7 @@ model restaurantType {
 model category {
   id                  String  @id @default(uuid())
   name                String  @unique
-  slug                String?
+  slug                String  @unique
   meals               meal[]
   parentCategory      parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
   parentCategorySlug  String?

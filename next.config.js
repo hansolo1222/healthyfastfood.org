@@ -4,6 +4,7 @@ module.exports = {
   swcMinify: true,
   images: {
     unoptimized: true,   
+    domains: ['your-domain.com'],
   },
   i18n: {
     locales: ["en-US", "de", "uk", "fr", "it", "es", "ca", "au"],

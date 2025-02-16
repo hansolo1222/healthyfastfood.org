@@ -2,32 +2,36 @@ export function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export const getCustomNutritionRowInfo = (thematicFilter) => {
+export const getCustomNutritionRowInfo = (filter) => {
   let units
   let title
   let direction
-  if (thematicFilter == "highProtein"){
+  if (filter == "highProtein"){
     units = "g / cal"
     title = "Protein per Calorie"
-    direction = "descending"
-    } else if (thematicFilter == "lowCarb"){
+    direction = "descending"}
+    else if (filter == "percentFromProtein"){
+      units = "%"
+      title = "% of calories from protein"
+      direction = "descending"
+    } else if (filter == "lowCarb"){
     units = "g / cal"
     title = "Carbs per Calorie"
     direction = "ascending"
-    } else if (thematicFilter == "lowSodium"){
+    } else if (filter == "lowSodium"){
     units = "mg / cal"
     title = "Sodium per Calorie"
     direction = "ascending"
-    } else if (thematicFilter == "lowCholesterol"){
+    } else if (filter == "lowCholesterol"){
     units = "mg / cal",
     title = "Cholesterol per Cal"
     direction = "ascending"
-    } else if (thematicFilter == "proteinCarbRatio"){
+    } else if (filter == "proteinCarbRatio"){
       units = ": 1",
       title = "Protein:Carb Ratio"
       direction = "descending"
       } 
-      else if (thematicFilter == "fiber"){
+      else if (filter == "fiber"){
         units = "g",
         title = "Dietary Fiber"
         direction = "descending"
@@ -85,6 +89,10 @@ export const formatMealsWithVariants = (meals) => meals.map((meal) => {
 export const calculateCustomNutrition = (thematicFilter, m) => {
   if (thematicFilter == "highProtein") {
     return m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3);
+  }
+    else if (thematicFilter == "percentProtein") {
+      return m.calories == 0 ? 0 : ((m.protein * 4 / m.calories) * 100).toFixed(1);
+    
   } else if (thematicFilter == "lowCarb") {
     return m.calories == 0
       ? 0
@@ -123,31 +131,35 @@ export const calculateCustomNutrition = (thematicFilter, m) => {
   // })
 
 
-  export const filterItems = (items, umbrellaCategories, allergens, minCalories, maxCalories, addOns) =>
-    {
-    if (addOns){items = items.filter((item)=> item.netCarbohydrates < addOns.limit)}
-    return (items
-      .filter(
-        (item) => item.calories >= minCalories && item.calories <= maxCalories
-      )
-      .filter((item) => {
-        return umbrellaCategories.includes(
-          getUmbrellaCategory(item.category.parentCategory.name)
-        );
-      })
-      .filter((item) => {
-        if (allergens.length == 0) {
-          return true;
-        } else {
-          return !allergens
-            .map((allergen) => {
-              return item.allergensFalse.includes(allergen);
-            })
-            .includes(false);
-        }
-      })
+export const filterItems = (items, umbrellaCategories, allergens, minCalories, maxCalories, addOns) => {
+  if (addOns) {
+    items = items.filter((item) => item.netCarbohydrates < addOns.limit)
+  }
+  
+  return items
+    .filter(
+      (item) => item.calories >= minCalories && item.calories <= maxCalories
     )
-    };
+    .filter((item) => {
+      return umbrellaCategories.includes(
+        getUmbrellaCategory(item.category.parentCategory.name)
+      );
+    })
+    .filter((item) => {
+      // If no allergens selected, show all items
+      if (allergens.length === 0) {
+        return true;
+      }
+      
+      // Check if item contains any of the selected allergens
+      return allergens.every(allergen => {
+        console.log(allergens)
+        // If the allergen field is true, the item contains the allergen
+        // If it's null or false, the item doesn't contain the allergen
+        return item[allergen] !== true;
+      });
+    });
+};
 
 
 export const getCategoriesFromMeals = (meals) => {

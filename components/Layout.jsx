@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Navbar.tsx";
 import Footer from "./Footer";
 import Head from 'next/head';
 

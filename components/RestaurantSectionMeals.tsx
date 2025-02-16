@@ -20,9 +20,9 @@ export const RestaurantSectionMeals = (
 
   if (!group) {
     return (<div
-    className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding "
+    className="md:border shadow-sm mb-3 md:mb-6 md:rounded-md overflow-hidden mobile-padding bg-white"
   >
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto bg-white">
       <table className="divide-y divide-stone-300 rounded-lg w-full  md:table-fixed ">
         <thead className="rounded-t-lg sticky top-0">
           {/* <tr className="bg-stone-800 text-white w-full pl-2">{group.categoryName}</tr> */}
@@ -82,7 +82,7 @@ export const RestaurantSectionMeals = (
   }
 
   return (
-    <section className="overflow-x-auto w-full z-10 mt-4">
+    <section className="overflow-x-auto w-full z-10 mt-4 bg-white">
     {categoriesWithParents
        .filter((cat) =>
        umbrellaCategories.includes(

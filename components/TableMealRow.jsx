@@ -13,8 +13,7 @@ export const TableMealRow = ({
   // let category = meal.category.parentCategorySlug != "uncategorized" ? meal.category.parentCategorySlug : meal.category.name
   let category = meal.category.name
 
-  console.log(showRestaurantData)
-  return (
+   return (
     <tr className="mealRow   hover:bg-white   text-sm">
       <td className="md:pr-1 py-1.5 text-sm md:text-base text-stone-900 sticky z-10 md:static left-0 bg-white md:bg-transparent">
         <div className="flex items-center w-36 md:w-auto pr-2 md:pr-0">
