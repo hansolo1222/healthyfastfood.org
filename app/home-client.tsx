@@ -51,7 +51,7 @@ export default function HomeClient({
       <section className="pt-6 pb-12 bg-stone-50">
         <div className="container mx-auto px-4">
           <p className="text-center text-stone-600 mb-8">Featuring nutrition data from:</p>
-          <RestaurantCloud restaurants={restaurants.slice(0, 50)} />
+          <RestaurantCloud restaurants={restaurants.slice(0, 45)} />
         </div>
       </section>
 
