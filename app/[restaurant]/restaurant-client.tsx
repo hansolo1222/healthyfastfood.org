@@ -32,6 +32,7 @@ import EmailSignup from "../../components/EmailSignup";
 
 import _ from "lodash";
 import { MobileFilterContainer } from "../../components/MobileFilters/MobileFilterContainer";
+import { AsideMenuType } from "../../components/AsideMenuType";
 // import { MobileFilterContainer } from "@/components/MobileFilters/MobileFilterContainer"
 MobileFilterContainer
 interface RestaurantProps {
@@ -174,6 +175,10 @@ export default function RestaurantClient({
       />
       <main className="flex  ">
         <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
+          <AsideMenuType 
+            restaurantSlug={restaurant.slug}
+            activeMenu="full"
+          />
           <AsideCalorieFilter
             min={filters.calories.min}
             max={filters.calories.max}
@@ -189,7 +194,7 @@ export default function RestaurantClient({
           <AsideAllergens
             allergens={filters.allergens}
             setAllergens={setFilters}
-           />
+          />
           <AsideFilterByParentCategory
             selectedTypes={filters.parentCategories}
             onChange={(types) => {

@@ -5,9 +5,9 @@ import { classNames, handleThematicFilter } from "./utils";
 export const FilterThematicFilter = ({thematicFilter, setThematicFilter, setShowCustomRow }) => {
   const filters = [
   {
-    name: "highProtein",
+    name: "percentFromProtein",
     image: 'muscle.webp',
-    label: "Protein per Cal"
+    label: "Protein as % of calories"
   },
   {
     name: "proteinCarbRatio",

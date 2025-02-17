@@ -11,55 +11,30 @@ module.exports = {
     defaultLocale: "en-US",
   },
   experimental: { esmExternals: true },
-  async redirects() {
-    return [
-      {
-        source: '/:restaurant/keto-low-carb',
-        destination: '/:restaurant/keto',
-        permanent: true,
-      },
-      {
-        source: '/:restaurant/"low-carb"',
-        destination: '/:restaurant/low-carb',
-        permanent: true,
-      },
-      {
-        source: '/:restaurant/"gluten-free"',
-        destination: '/:restaurant/low-carb',
-        permanent: true,
-      },
-      {
-        source: '/salsaritas',
-        destination: '/salsaritas-fresh-mexican-grill',
-        permanent: true,
-      },
-      {
-        source: "/Casey's",
-        destination: '/caseys',
-        permanent: true,
-      },
-      {
-        source: "/sandellas-flatbread-café",
-        destination: '/sandellas-flatbread-cafe',
-        permanent: true,
-      },
-      {
-        source: "/chipotle",
-        destination: '/chipotle-mexican-grill',
-        permanent: true,
-      },
-      {
-        source: "/perkins",
-        destination: '/perkins-restaurant-bakery',
-        permanent: true,
-      },
-      {
-        source: "/outback",
-        destination: '/outback-steakhouse',
-        permanent: true,
-      },
-    ]
-  }
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/salsaritas',
+  //       destination: '/salsaritas-fresh-mexican-grill',
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/Casey's",
+  //       destination: '/caseys',
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/sandellas-flatbread-café",
+  //       destination: '/sandellas-flatbread-cafe',
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: "/perkins",
+  //       destination: '/perkins-restaurant-bakery',
+  //       permanent: true,
+  //     },
+  //   ]
+  // }
 }
 
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({

@@ -28,6 +28,7 @@ import { Slider } from "@mui/material"
 import ReactMarkdown from "react-markdown"
 import { FilterState } from "../restaurant-client"
 import { MobileFilterContainer } from "../../../components/MobileFilters/MobileFilterContainer"
+import { AsideMenuType } from "../../components/AsideMenuType"
 
 interface KetoClientProps {
   restaurant: any
@@ -125,6 +126,10 @@ export default function KetoClient({
         setActivePreset={setActivePreset}
       />
       <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
+        <AsideMenuType 
+          restaurantSlug={restaurant.slug}
+          activeMenu="keto"
+        />
         <AsideCalorieFilter
           min={filters.calories.min}
           max={filters.calories.max}

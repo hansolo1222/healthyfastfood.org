@@ -30,6 +30,7 @@ import { RestaurantSectionTabs } from "../../../components/RestaurantSectionTabs
 import { Slider } from "@mui/material";
 import ReactMarkdown from "react-markdown";
 import { FilterState } from "../restaurant-client";
+import { AsideMenuType } from "../../components/AsideMenuType";
 
 interface LowCarbClientProps {
   restaurant: any; // Replace with proper type
@@ -122,6 +123,10 @@ export default function LowCarbClient({
   return (
     <main className="flex">
       <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
+        <AsideMenuType 
+          restaurantSlug={restaurant.slug}
+          activeMenu="low-carb"
+        />
         <AsideCalorieFilter
           min={filters.calories.min}
           max={filters.calories.max}

@@ -5,9 +5,9 @@ import { Calculator, DivideCircle, Square, SquareCode, SquareKanban } from "luci
 
 const THEMATIC_FILTERS = [
   {
-    name: "highProtein",
+    name: "percentFromProtein",
     emoji: "💪",
-    label: "Protein per Cal"
+    label: "Protein as % of calories"
   },
   {
     name: "proteinCarbRatio",
