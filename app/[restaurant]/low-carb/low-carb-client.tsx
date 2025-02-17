@@ -30,7 +30,7 @@ import { RestaurantSectionTabs } from "../../../components/RestaurantSectionTabs
 import { Slider } from "@mui/material";
 import ReactMarkdown from "react-markdown";
 import { FilterState } from "../restaurant-client";
-import { AsideMenuType } from "../../components/AsideMenuType";
+import { AsideMenuType } from "../../../components/AsideMenuType";
 
 interface LowCarbClientProps {
   restaurant: any; // Replace with proper type

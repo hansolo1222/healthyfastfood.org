@@ -28,7 +28,7 @@ import { Slider } from "@mui/material"
 import ReactMarkdown from "react-markdown"
 import { FilterState } from "../restaurant-client"
 import { MobileFilterContainer } from "../../../components/MobileFilters/MobileFilterContainer"
-import { AsideMenuType } from "../../components/AsideMenuType"
+import { AsideMenuType } from "../../../components/AsideMenuType"
 
 interface KetoClientProps {
   restaurant: any
