@@ -284,7 +284,7 @@ export default function RestaurantClient({
               items={filteredItems}
               showRestaurantData={false}
               isGrouped={isGrouped}
-              yAxis={filters.thematicFilter || "protein"} // Default to protein if no filter selected
+              yAxis={filters.thematicFilter || "percentFromProtein"} // Default to protein if no filter selected
               
             />
           )}

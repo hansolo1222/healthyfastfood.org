@@ -4,36 +4,53 @@ import { Button } from "@/components/ui/button"
 import { Calculator, DivideCircle, Square, SquareCode, SquareKanban } from "lucide-react"
 
 const THEMATIC_FILTERS = [
-  {
-    name: "percentFromProtein",
-    emoji: "💪",
-    label: "Protein as % of calories"
-  },
-  {
-    name: "proteinCarbRatio",
-    emoji: "⚖️",
-    label: "Protein:Carb Ratio"
-  },
-  {
-    name: "lowCarb",
-    emoji: "🍞",
-    label: "Carbs per Cal"
-  },
-  {
-    name: "lowSodium",
-    emoji: "🧂",
-    label: "Sodium per Cal"
-  },
-  {
-    name: "lowCholesterol",
-    emoji: "❤️",
-    label: "Cholesterol per Cal"
-  },
-  {
-    name: "fiber",
-    emoji: "🌱",
-    label: "Fiber"
-  }
+  // Row 1
+  [
+    {
+      name: "highProtein",
+      emoji: "💪",
+      label: "Protein per Cal"
+    },
+    {
+      name: "percentFromProtein",
+      emoji: "💪",
+      label: "% cal from protein"
+    },
+    {
+      name: "proteinCarbRatio",
+      emoji: "⚖️",
+      label: "Protein:Carb Ratio"
+    },
+   
+  ],
+  // Row 2
+  [
+    {
+      name: "lowCarb",
+      emoji: "🍞",
+      label: "Carbs per Cal"
+    },
+    {
+      name: "percentFromCarbs",
+      emoji: "🍞",
+      label: "% cal from carbs"
+    },
+    {
+      name: "lowSodium",
+      emoji: "🧂",
+      label: "Sodium per Cal"
+    },
+    {
+      name: "lowCholesterol",
+      emoji: "❤️",
+      label: "Cholesterol per Cal"
+    },
+    {
+      name: "fiber",
+      emoji: "🌱",
+      label: "Fiber"
+    }
+  ]
 ] as const
 
 interface Props {
@@ -65,21 +82,26 @@ export function RestaurantSectionDesktopThematicSort({
 
   return (
     <section className="mt-2 mb-4 p-2 bg-background border rounded-lg">
-      <div className="hidden md:block sticky top-0 z-30  ">
-      <div className="text-xs uppercase tracking-wider font-black text-stone-500 flex items-center gap-0.5 pb-1"><DivideCircle className="pb-0.5" size={14} /> <i>Calculate</i>  </div>
-        <div className="flex flex-wrap gap-2 items-center">
-          
-          {THEMATIC_FILTERS.map((filter) => (
-            <Button
-              key={filter.name}
-              variant={thematicFilter === filter.name ? "default" : "outline"}
-              size="sm"
-              onClick={() => handleThematicFilter(filter.name)}
-              className="gap-2"
-            >
-              <span>{filter.emoji}</span>
-              <span>{filter.label}</span>
-            </Button>
+      <div className="hidden md:block sticky top-0 z-30">
+        <div className="text-xs uppercase tracking-wider font-black text-stone-500 flex items-center gap-0.5 pb-1">
+          <DivideCircle className="pb-0.5" size={14} /> <i>Calculate</i>
+        </div>
+        <div className="space-y-2">
+          {THEMATIC_FILTERS.map((row, rowIndex) => (
+            <div key={rowIndex} className="flex flex-wrap gap-2 items-center">
+              {row.map((filter) => (
+                <Button
+                  key={filter.name}
+                  variant={thematicFilter === filter.name ? "default" : "outline"}
+                  size="sm"
+                  onClick={() => handleThematicFilter(filter.name)}
+                  className="gap-2"
+                >
+                  <span>{filter.emoji}</span>
+                  <span>{filter.label}</span>
+                </Button>
+              ))}
+            </div>
           ))}
         </div>
       </div>

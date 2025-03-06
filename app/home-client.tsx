@@ -16,11 +16,11 @@ export default function HomeClient({
       {/* Hero Section */}
       <section className="relative py-20  ">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col gap-6 md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Find the Healthiest Options at Every Restaurant
-                <span className="text-stone-500 block mt-2">Compare nutrition facts across chains</span>
+                Find the healthiest options at every restaurant
+                {/* <span className="text-stone-500 block mt-2">Compare nutrition facts across chains</span> */}
               </h1>
               <p className="text-xl text-stone-600 mb-8">
                 Stop guessing. Get detailed nutrition facts, allergen info, and personalized recommendations for 100+ restaurant chains.

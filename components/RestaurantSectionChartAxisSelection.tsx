@@ -9,7 +9,7 @@ export interface YAxisOption {
   emoji?: string
 }
 
-const X_AXIS_OPTIONS = [
+export const X_AXIS_OPTIONS = [
   { name: "calories", label: "Calories" },
   { name: "protein", label: "Protein (g)" },
   { name: "totalCarbohydrates", label: "Carbs (g)" },
@@ -20,15 +20,7 @@ const X_AXIS_OPTIONS = [
 ] as const
 
 export const Y_AXIS_OPTIONS:any = [
-  // Standard column data
-  { name: "calories", label: "Calories" },
-  { name: "protein", label: "Protein (g)" },
-  { name: "totalCarbohydrates", label: "Carbs (g)" },
-  { name: "totalFat", label: "Fat (g)" },
-  { name: "cholesterol", label: "Cholesterol (mg)" },
-  { name: "sodium", label: "Sodium (mg)" },
-  { name: "sugar", label: "Sugar (g)" },
-  
+ 
   // Calculated metrics
   {
     name: "highProtein",
@@ -38,7 +30,7 @@ export const Y_AXIS_OPTIONS:any = [
   {
     name: "percentProtein",
     emoji: "💪",
-    label: "% of calories from protein"
+    label: "% cal from protein"
   },
   {
     name: "proteinCarbRatio",
@@ -137,7 +129,7 @@ export function RestaurantSectionChartAxisSelection({
                   className="gap-2"
                 >
 
-                  {option.emoji  && <span>{ option.emoji}</span> }
+                    <span>{ option.emoji}</span> 
                   <span>{option.label}</span>
                 </Button>
               ))}

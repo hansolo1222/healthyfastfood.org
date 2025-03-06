@@ -2,7 +2,7 @@
 
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList } from 'recharts'
 import { useState, useEffect } from 'react'
-import { RestaurantSectionChartAxisSelection } from './RestaurantSectionChartAxisSelection'
+import { RestaurantSectionChartAxisSelection, X_AXIS_OPTIONS } from './RestaurantSectionChartAxisSelection'
 import { RestaurantSectionChartControls } from './RestaurantSectionChartControls'
 import { calculateCustomNutrition, getCustomNutritionRowInfo } from './utils'
 import { Y_AXIS_OPTIONS } from './RestaurantSectionChartAxisSelection'
@@ -74,9 +74,9 @@ function CategoryChart({
   console.log(showLabels, "show labels")
 
   return (
-    <div className="h-[1100px] w-full bg-white p-4 rounded-lg">
+    <div className="h-[600px] w-full bg-white p-4 rounded-lg">
       <h3 className="text-base font-medium mb-4">{categoryName || "All Items"}</h3>
-      <ResponsiveContainer width="100%" height={1000}>
+      <ResponsiveContainer width="100%" height={500}>
         <ScatterChart
           margin={{ top: 20, right: 20, bottom: 40, left: 40 }}
         >
@@ -103,11 +103,21 @@ function CategoryChart({
             content={({ active, payload }) => {
               if (active && payload && payload.length) {
                 const data = payload[0].payload;
+                const xAxisValue = data[xAxis];
+                const yAxisValue = data.customValue;
+                
+                // Get the display info for the Y axis
+                const yAxisInfo = getCustomNutritionRowInfo(yAxis);
+                
                 return (
                   <div className="bg-white p-2 border rounded-lg shadow-lg">
                     <p className="font-medium">{data.name}</p>
-                    <p>Calories: {data.calories}</p>
-                    <p>Protein: {data.protein}g</p>
+                    {/* Always show calories as reference */}
+                     
+                    {/* Show selected X and Y axis values */}
+                    <p>{X_AXIS_OPTIONS.find(opt => opt.name === xAxis)?.label}: {xAxisValue}{getUnitForAxis(xAxis)}</p>
+                    <p>{yAxisInfo.title}: {yAxisValue}{yAxisInfo.units}</p>
+                    
                     {showRestaurantData && (
                       <>
                         <p className="text-stone-500">Category: {data.category}</p>
@@ -241,7 +251,7 @@ export function RestaurantSectionChart({
         onToggleLabels={() => setShowLabels(prev => !prev)}
       />
       {isGrouped ? (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
           {categoriesWithParents
             .filter((cat) => umbrellaCategories.includes(getUmbrellaCategory(cat.parentCategory)))
             .map((category) => {
@@ -278,4 +288,21 @@ export function RestaurantSectionChart({
       )}
     </section>
   )
+}
+
+function getUnitForAxis(axis: string): string {
+  switch (axis) {
+    case 'protein':
+    case 'totalCarbohydrates':
+    case 'totalFat':
+    case 'fiber':
+      return 'g';
+    case 'sodium':
+    case 'cholesterol':
+      return 'mg';
+    case 'calories':
+      return '';
+    default:
+      return '';
+  }
 }
