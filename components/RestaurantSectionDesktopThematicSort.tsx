@@ -36,6 +36,16 @@ const THEMATIC_FILTERS = [
       label: "% cal from carbs"
     },
     {
+      name: "fatPerCal",
+      emoji: "🥑",
+      label: "Fat per Cal"
+    },
+    {
+      name: "percentFromFat",
+      emoji: "🥑",
+      label: "% cal from fat"
+    },
+    {
       name: "lowSodium",
       emoji: "🧂",
       label: "Sodium per Cal"

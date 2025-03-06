@@ -52,6 +52,18 @@ export const getCustomNutritionRowInfo = (type) => {
         units: "g",
         direction: "descending"
       };
+    case "fatPerCal":
+      return {
+        title: "Fat/Cal",
+        units: "g/cal",
+        direction: "ascending"
+      };
+    case "percentFromFat":
+      return {
+        title: "% from Fat",
+        units: "%",
+        direction: "ascending"
+      };
     default:
       return {
         title: type,
@@ -139,6 +151,14 @@ export const calculateCustomNutrition = (type, meal) => {
     
     case "fiber":
       return meal.dietaryFiber;
+    
+    case "fatPerCal":
+      return meal.calories == 0 ? 0 : (meal.totalFat / meal.calories).toFixed(3);
+    
+    case "percentFromFat":
+      const fatCals = meal.totalFat * 9; // Fat has 9 calories per gram
+      // Always show one decimal place, even if it's .0
+      return meal.calories > 0 ? (((fatCals / meal.calories) * 100).toFixed(1)) : "0.0";
 
     default:
       return null;

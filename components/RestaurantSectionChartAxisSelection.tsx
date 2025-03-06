@@ -19,8 +19,7 @@ export const X_AXIS_OPTIONS = [
   { name: "sugar", label: "Sugar (g)" }
 ] as const
 
-export const Y_AXIS_OPTIONS:any = [
- 
+export const Y_AXIS_OPTIONS: any = [
   // Calculated metrics
   {
     name: "highProtein",
@@ -28,7 +27,7 @@ export const Y_AXIS_OPTIONS:any = [
     label: "Protein per Cal"
   },
   {
-    name: "percentProtein",
+    name: "percentFromProtein",
     emoji: "💪",
     label: "% cal from protein"
   },
@@ -41,6 +40,21 @@ export const Y_AXIS_OPTIONS:any = [
     name: "lowCarb",
     emoji: "🍞",
     label: "Carbs per Cal"
+  },
+  {
+    name: "percentFromCarbs",
+    emoji: "🍞",
+    label: "% cal from carbs"
+  },
+  {
+    name: "fatPerCal",
+    emoji: "🥑",
+    label: "Fat per Cal"
+  },
+  {
+    name: "percentFromFat",
+    emoji: "🥑",
+    label: "% cal from fat"
   },
   {
     name: "lowSodium",
@@ -103,7 +117,7 @@ export function RestaurantSectionChartAxisSelection({
           </div>
           <div className=" ">
             {/* Standard Metrics */}
-            <div className="flex flex-wrap gap-2 items-center">
+            {/* <div className="flex flex-wrap gap-2 items-center">
               {Y_AXIS_OPTIONS.slice(0, 7).map((option) => (
                 <Button
                   key={option.name}
@@ -114,13 +128,13 @@ export function RestaurantSectionChartAxisSelection({
                   {option.label}
                 </Button>
               ))}
-            </div>
+            </div> */}
 
             {/* Divider */}
  
             {/* Calculated Metrics */}
             <div className="flex flex-wrap gap-2 items-center pt-2">
-              {Y_AXIS_OPTIONS.slice(7).map((option) => (
+              {Y_AXIS_OPTIONS.map((option) => (
                 <Button
                   key={option.name}
                   variant={yAxis === option.name ? "default" : "outline"}
@@ -128,8 +142,7 @@ export function RestaurantSectionChartAxisSelection({
                   onClick={() => onYAxisChange(option.name)}
                   className="gap-2"
                 >
-
-                    <span>{ option.emoji}</span> 
+                  {option.emoji && <span>{option.emoji}</span>}
                   <span>{option.label}</span>
                 </Button>
               ))}
