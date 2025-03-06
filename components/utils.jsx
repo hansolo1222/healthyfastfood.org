@@ -1,45 +1,65 @@
-
 export function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export const getCustomNutritionRowInfo = (filter) => {
-  let units
-  let title
-  let direction
-  if (filter == "highProtein"){
-    units = "g / cal"
-    title = "Protein per Calorie"
-    direction = "descending"}
-    else if (filter == "percentFromProtein"){
-      units = "%"
-      title = "% of calories from protein"
-      direction = "descending"
-    } else if (filter == "lowCarb"){
-    units = "g / cal"
-    title = "Carbs per Calorie"
-    direction = "ascending"
-    } else if (filter == "lowSodium"){
-    units = "mg / cal"
-    title = "Sodium per Calorie"
-    direction = "ascending"
-    } else if (filter == "lowCholesterol"){
-    units = "mg / cal",
-    title = "Cholesterol per Cal"
-    direction = "ascending"
-    } else if (filter == "proteinCarbRatio"){
-      units = ": 1",
-      title = "Protein:Carb Ratio"
-      direction = "descending"
-      } 
-      else if (filter == "fiber"){
-        units = "g",
-        title = "Dietary Fiber"
-        direction = "descending"
-        } 
-
-   return {units: units, title: title, direction: direction}
-}
+export const getCustomNutritionRowInfo = (type) => {
+  switch (type) {
+    case "highProtein":
+      return {
+        title: "Protein/Cal",
+        units: "g/cal",
+        direction: "descending"
+      };
+    case "percentFromProtein":
+      return {
+        title: "% from Protein",
+        units: "%",
+        direction: "descending"
+      };
+    case "percentFromCarbs":
+      return {
+        title: "% from Carbs",
+        units: "%",
+        direction: "ascending"
+      };
+    case "lowCarb":
+      return {
+        title: "Carbs/Cal",
+        units: "g/cal",
+        direction: "ascending"
+      };
+    case "lowSodium":
+      return {
+        title: "Sodium/Cal",
+        units: "mg/cal",
+        direction: "ascending"
+      };
+    case "lowCholesterol":
+      return {
+        title: "Cholesterol/Cal",
+        units: "mg/cal",
+        direction: "ascending"
+      };
+    case "proteinCarbRatio":
+      return {
+        title: "Protein:Carb",
+        units: ":1",
+        direction: "descending"
+      };
+    case "fiber":
+      return {
+        title: "Fiber",
+        units: "g",
+        direction: "descending"
+      };
+    default:
+      return {
+        title: type,
+        units: "",
+        direction: "ascending"
+      };
+  }
+};
 
 export const getUmbrellaCategory = (item) => {
   if (["Beverages", "Coffee", "Alcohol", "Shakes"].includes(item)) {
@@ -87,50 +107,43 @@ export const formatMealsWithVariants = (meals) => meals.map((meal) => {
   } else return meal;
 });
 
-export const calculateCustomNutrition = (thematicFilter, m) => {
-  if (thematicFilter == "highProtein") {
-    return m.calories == 0 ? 0 : (m.protein / m.calories).toFixed(3);
-  }
-    else if (thematicFilter == "percentProtein") {
-      return m.calories == 0 ? 0 : ((m.protein * 4 / m.calories) * 100).toFixed(1);
+export const calculateCustomNutrition = (type, meal) => {
+  if (!type) return null;
+
+  switch (type) {
+    case "highProtein":
+      return meal.calories == 0 ? 0 : (meal.protein / meal.calories).toFixed(3);
     
-  } else if (thematicFilter == "lowCarb") {
-    return m.calories == 0
-      ? 0
-      : (m.totalCarbohydrates / m.calories).toFixed(3);
-  } else if (thematicFilter == "lowSodium") {
-    return m.calories == 0 ? 0 : (m.sodium / m.calories).toFixed(3);
-  } else if (thematicFilter == "lowCholesterol") {
-    return m.calories == 0 ? 0 : (m.cholesterol / m.calories).toFixed(3);
-  } else if (thematicFilter == "proteinCarbRatio") {
-    return m.calories == 0
-      ? 0
-      : (m.protein / m.totalCarbohydrates).toFixed(2);
-  } else if (thematicFilter == "fiber") {
-    return m.calories == 0 ? 0 : m.dietaryFiber;
+    case "percentFromProtein":
+      const proteinCals = meal.protein * 4;
+      const totalCals = meal.calories;
+      // Always show one decimal place, even if it's .0
+      return totalCals > 0 ? (((proteinCals / totalCals) * 100).toFixed(1)) : "0.0";
+    
+    case "percentFromCarbs":
+      const carbCals = meal.totalCarbohydrates * 4;
+      // Always show one decimal place, even if it's .0
+      return meal.calories > 0 ? (((carbCals / meal.calories) * 100).toFixed(1)) : "0.0";
+    
+    case "lowCarb":
+      return meal.calories == 0 ? 0 : (meal.totalCarbohydrates / meal.calories).toFixed(3);
+    
+    case "lowSodium":
+      return meal.calories == 0 ? 0 : (meal.sodium / meal.calories).toFixed(3);
+    
+    case "lowCholesterol":
+      return meal.calories == 0 ? 0 : (meal.cholesterol / meal.calories).toFixed(3);
+    
+    case "proteinCarbRatio":
+      return meal.totalCarbohydrates == 0 ? 0 : (meal.protein / meal.totalCarbohydrates).toFixed(2);
+    
+    case "fiber":
+      return meal.dietaryFiber;
+
+    default:
+      return null;
   }
 };
-
-  // // Don't use this right now: this is filter for category
-  // export const handleFilter = (filter) => {
-  //   setFilters(filter);
-  //   // filters.includes(filter)
-  //   //   ? setFilters(filters.filter((value) => value !== filter))
-  //   //   : setFilters(filters.concat(filter));
-  // };
-
-  // .filter((item) => {
-  //   if (filters.length == 0) {
-  //     return true;
-  //   } else {
-  //     return categories
-  //       .map((c) => {
-  //         return filters.includes(c) && item.category.name === c;
-  //       })
-  //       .includes(true);
-  //   }
-  // })
-
 
 export const filterItems = (items, umbrellaCategories, allergens, minCalories, maxCalories, addOns) => {
   if (addOns) {
@@ -161,7 +174,6 @@ export const filterItems = (items, umbrellaCategories, allergens, minCalories, m
       });
     });
 };
-
 
 export const getCategoriesFromMeals = (meals) => {
   return [...new Set(meals.map((item) => item.category.name))];
