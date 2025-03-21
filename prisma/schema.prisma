@@ -8,199 +8,185 @@ datasource db {
 }
 
 model meal {
-  id                 String     @id @default(uuid())
-  name               String
-  slug               String
-  restaurantSlug     String
-  calories           Int?
-  totalFat           Decimal?
-  saturatedFat       Decimal?
-  transFat           Decimal?
-  cholesterol        Decimal?
-  sodium             Decimal?
-  totalCarbohydrates Decimal?
-  dietaryFiber       Decimal?
-  sugar              Decimal?
-  protein            Decimal?
-  proteinPerCalorie  Decimal?
-  proteinCarbRatio   Decimal?
-  sodiumPerCalorie   Decimal?
-  sodiumPerProtein   Decimal?
-  vitaminA           Int?
-  vitaminC           Int?
-  calcium            Int?
-  iron               Int?
-  published          Boolean    @default(true)
-  categoryName       String
-  allergen_milk     Boolean?  @default(false)
-  allergen_eggs      Boolean?  @default(false)
-  allergen_fish      Boolean?  @default(false)
-  allergen_shellfish Boolean?  @default(false)
-  allergen_tree_nuts Boolean?  @default(false)
-  allergen_peanuts   Boolean?  @default(false)
-  allergen_wheat     Boolean?  @default(false)
-  allergen_soy       Boolean?  @default(false)
-  allergen_gluten    Boolean?  @default(false)
-  allergensFalse     String[]
-  allergensTrue      String[]
-  ingredients        String?
-  combinedSlug       String     @unique
-  category           category   @relation(fields: [categoryName], references: [name])
-  restaurant         restaurant @relation(fields: [restaurantSlug], references: [slug])
-  variants           variant[]
-
-  menu               menu?     @relation(fields: [menuRestaurantAndCountry], references: [restaurantAndCountry])
+  id                       String     @id @default(uuid())
+  name                     String
+  slug                     String
+  restaurantSlug           String
+  calories                 Int?
+  sodium                   Decimal?
+  sugar                    Decimal?
+  protein                  Decimal?
+  vitaminA                 Int?
+  vitaminC                 Int?
+  calcium                  Int?
+  iron                     Int?
+  published                Boolean    @default(true)
+  categoryName             String
+  allergensFalse           String[]
+  allergensTrue            String[]
+  ingredients              String?
+  combinedSlug             String     @unique
+  totalFat                 Decimal?
+  saturatedFat             Decimal?
+  transFat                 Decimal?
+  cholesterol              Decimal?
+  totalCarbohydrates       Decimal?
+  dietaryFiber             Decimal?
+  proteinCarbRatio         Decimal?
+  proteinPerCalorie        Decimal?
+  sodiumPerCalorie         Decimal?
+  sodiumPerProtein         Decimal?
   menuRestaurantAndCountry String?
+  allergen_eggs            Boolean?   @default(false)
+  allergen_fish            Boolean?   @default(false)
+  allergen_gluten          Boolean?   @default(false)
+  allergen_peanuts         Boolean?   @default(false)
+  allergen_shellfish       Boolean?   @default(false)
+  allergen_soy             Boolean?   @default(false)
+  allergen_tree_nuts       Boolean?   @default(false)
+  allergen_wheat           Boolean?   @default(false)
+  allergen_milk            Boolean?   @default(false)
+  category                 category   @relation(fields: [categoryName], references: [name])
+  menu                     menu?      @relation(fields: [menuRestaurantAndCountry], references: [restaurantAndCountry])
+  restaurant               restaurant @relation(fields: [restaurantSlug], references: [slug])
+  variants                 variant[]
 
   @@unique([restaurantSlug, slug])
 }
 
 model menu {
-  id             String  @id @default(uuid())
-  meals          meal[]
-  restaurant     restaurant @relation(fields: [restaurantSlug], references: [slug])
-  restaurantSlug String
-  country        country  @relation(fields: [countryCode], references: [code])
-  countryCode    String
-  restaurantAndCountry String @unique
+  id                   String     @id @default(uuid())
+  restaurantSlug       String
+  countryCode          String
+  restaurantAndCountry String     @unique
+  meals                meal[]
+  country              country    @relation(fields: [countryCode], references: [code])
+  restaurant           restaurant @relation(fields: [restaurantSlug], references: [slug])
+
   @@unique([restaurantSlug, countryCode])
 }
 
 model country {
-  id           String   @id @default(uuid())
-  code         String   @unique
-  name         String
-  menus        menu[]
+  id    String @id @default(uuid())
+  code  String @unique
+  name  String
+  menus menu[]
 }
 
-
 model variant {
-  id                 String   @id @default(uuid())
-  variantName        String
-  mealCombinedSlug   String
-  meal               meal     @relation(fields: [mealCombinedSlug], references: [combinedSlug])
-  variantSlug        String
-  mealVariantCombinedSlug String @unique
-  subvariants        subvariant[]
-  calories           Int?
-  totalFat           Decimal?
-  saturatedFat       Decimal?
-  transFat           Decimal?
-  cholesterol        Decimal?
-  sodium             Decimal?
-  totalCarbohydrates Decimal?
-  dietaryFiber       Decimal?
-  sugar              Decimal?
-  protein            Decimal?
-  proteinPerCalorie  Decimal?
-  proteinCarbRatio   Decimal?
-  sodiumPerCalorie   Decimal?
-  sodiumPerProtein   Decimal?
-  vitaminA           Int?
-  vitaminC           Int?
-  calcium            Int?
-  iron               Int?
-  allergensFalse     String[]
-  allergensTrue      String[]
-  ingredients        String?
+  id                      String       @id @default(uuid())
+  variantName             String
+  calories                Int?
+  sodium                  Decimal?
+  protein                 Decimal?
+  vitaminA                Int?
+  vitaminC                Int?
+  calcium                 Int?
+  iron                    Int?
+  allergensFalse          String[]
+  allergensTrue           String[]
+  ingredients             String?
+  mealCombinedSlug        String
+  totalFat                Decimal?
+  saturatedFat            Decimal?
+  transFat                Decimal?
+  cholesterol             Decimal?
+  totalCarbohydrates      Decimal?
+  dietaryFiber            Decimal?
+  sugar                   Decimal?
+  proteinCarbRatio        Decimal?
+  proteinPerCalorie       Decimal?
+  sodiumPerCalorie        Decimal?
+  sodiumPerProtein        Decimal?
+  mealVariantCombinedSlug String       @unique
+  variantSlug             String
+  subvariants             subvariant[]
+  meal                    meal         @relation(fields: [mealCombinedSlug], references: [combinedSlug])
 }
 
 model subvariant {
-  id               String   @id @default(uuid())
-  subvariantName   String
-  subvariantSlug   String
-  variant          variant  @relation(fields: [mealVariantCombinedSlug], references: [mealVariantCombinedSlug])
+  id                      String   @id @default(uuid())
+  subvariantName          String
+  subvariantSlug          String
   mealVariantCombinedSlug String
-  fullSlug           String @unique
-
-  calories           Int?
-  totalFat           Decimal?
-  saturatedFat       Decimal?
-  transFat           Decimal?
-  cholesterol        Decimal?
-  sodium             Decimal?
-  totalCarbohydrates Decimal?
-  dietaryFiber       Decimal?
-  sugar              Decimal?
-  protein            Decimal?
-  proteinPerCalorie  Decimal?
-  proteinCarbRatio   Decimal?
-  sodiumPerCalorie   Decimal?
-  sodiumPerProtein   Decimal?
-  vitaminA           Int?
-  vitaminC           Int?
-  calcium            Int?
-  iron               Int?
-  allergensFalse     String[]
-  allergensTrue      String[]
-  ingredients        String?
+  fullSlug                String   @unique
+  calories                Int?
+  totalFat                Decimal?
+  saturatedFat            Decimal?
+  transFat                Decimal?
+  cholesterol             Decimal?
+  sodium                  Decimal?
+  totalCarbohydrates      Decimal?
+  dietaryFiber            Decimal?
+  sugar                   Decimal?
+  protein                 Decimal?
+  proteinPerCalorie       Decimal?
+  proteinCarbRatio        Decimal?
+  sodiumPerCalorie        Decimal?
+  sodiumPerProtein        Decimal?
+  vitaminA                Int?
+  vitaminC                Int?
+  calcium                 Int?
+  iron                    Int?
+  allergensFalse          String[]
+  allergensTrue           String[]
+  ingredients             String?
+  variant                 variant  @relation(fields: [mealVariantCombinedSlug], references: [mealVariantCombinedSlug])
 }
 
 model restaurant {
-  id                 Int    @id @default(autoincrement())
-  name               String 
-  slug               String @unique
-
-  keyword            String?
-  usVolume           Int? 
-  globalVolume       Int?
+  id                 Int              @id @default(autoincrement())
+  name               String
+  slug               String           @unique
+  rank               Int?
   difficulty         Int?
+  globalVolume       Int?
+  usVolume           Int?
+  locations          Int?
+  salesMillions      Int?
+  segmentSlug        String?
+  areasServed        String[]
+  founded            String?
+  headquarters       String?
+  originalLocation   String?
+  keyword            String?
+  originalCountry    String?
   trafficPotential   Int?
   website            String?
-
-  rank               Int?
-  salesMillions      Int?
-
-  originalLocation  String?
-  originalCountry   String?
-  founded           String?
-  headquarters      String?
-  locations         Int?
-  areasServed       String[]
-
-  segment       segment? @relation(fields: [segmentSlug], references: [slug])
-  segmentSlug   String?
-
-  // restaurantType  restaurantType? @relation(fields: [restaurantTypeSlug], references: [slug])
-  restaurantTypeSlug   String?
-
-  restaurantTypes restaurantType[]
-
-  meals        meal[]
-  menus        menu[]
+  restaurantTypeSlug String?
+  meals              meal[]
+  menus              menu[]
+  segment            segment?         @relation(fields: [segmentSlug], references: [slug])
+  restaurantTypes    restaurantType[] @relation("restaurantTorestaurantType")
 }
 
-
 model segment {
-  id          String  @id @default(uuid())
-  name        String @unique
-  slug        String @unique
+  id          String       @id @default(uuid())
+  name        String       @unique
+  slug        String       @unique
   restaurants restaurant[]
 }
 
 model restaurantType {
-  id          String @id @default(uuid())
-  name        String @unique
-  slug        String @unique
-  description String? @default("")
-  restaurants restaurant[]
-} 
-
-model category {
-  id                  String  @id @default(uuid())
-  name                String  @unique
-  slug                String  @unique
-  meals               meal[]
-  parentCategory      parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
-  parentCategorySlug  String?
-  // parentCategory2     parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
-  // parentCategorySlug  String?
+  id          String       @id @default(uuid())
+  name        String       @unique
+  slug        String       @unique
+  description String?      @default("")
+  restaurants restaurant[] @relation("restaurantTorestaurantType")
 }
 
+model category {
+  id                 String          @id @default(uuid())
+  name               String          @unique
+  slug               String          @unique
+  parentCategorySlug String?
+  parentCategory     parentCategory? @relation(fields: [parentCategorySlug], references: [slug])
+  meals              meal[]
+}
 
 model parentCategory {
-  id    String  @default(uuid())
-  name  String  @unique
-  slug  String @unique
-  categories category[] 
+  id         String     @default(uuid())
+  name       String     @unique
+  slug       String     @unique
+  categories category[]
 }
