@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/_app.jsx",
-    "lib/prisma.js",
+    "lib/prisma.ts",
     "lib/supabase.js",
     ".next/types/**/*.ts"
   ],
