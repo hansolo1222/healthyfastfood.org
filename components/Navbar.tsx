@@ -71,11 +71,11 @@ export default function Navbar() {
 
   return (
     <header className={cn(
-      "sticky top-0 z-50 w-full transition-all duration-200",
-      isScrolled ? "bg-white/95 backdrop-blur shadow-sm" : "bg-white"
+      " z-50 w-full transition-all duration-200",
+      isScrolled ? " backdrop-blur shadow-sm" : " "
     )}>
-      <nav className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+      <nav className=" px-2 md:px-8">
+        <div className="flex md:h-14 h-12 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center space-x-2">
@@ -84,8 +84,8 @@ export default function Navbar() {
                 alt="HealthyFastFood"
                 className="h-8 w-8"
               />
-              <span className="hidden md:block font-semibold text-lg">
-                HealthyFastFood
+              <span className="hidden md:block font-semibold text-md">
+                healthyfastfood.org
               </span>
             </Link>
 
@@ -94,8 +94,8 @@ export default function Navbar() {
               <NavigationMenuList>
                 {/* Restaurants Dropdown */}
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger>Restaurants</NavigationMenuTrigger>
-                  <NavigationMenuContent>
+                  <NavigationMenuTrigger className="bg-transparent">Restaurants</NavigationMenuTrigger>
+                  <NavigationMenuContent className="z-[120]">
                     <div className="grid gap-3 p-6 w-[600px] grid-cols-2">
                       <div>
                         <h3 className="font-semibold mb-3 text-sm text-gray-500">Popular Chains</h3>

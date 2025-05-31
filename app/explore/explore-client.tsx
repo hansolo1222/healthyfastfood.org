@@ -40,12 +40,67 @@ import { CalorieFilterMobile } from "../../components/CalorieFilterMobile";
 import { AllergenFilterMobile } from "../../components/AllergenFilterMobile";
 import { cn } from "@/lib/utils";
 
+// Type definitions based on Prisma schema
+interface Restaurant {
+  id: number;
+  name: string;
+  slug: string;
+  _count?: {
+    meals: number;
+  };
+}
+
+interface Category {
+  id: string;
+  name: string;
+  slug: string;
+  _count?: {
+    meals: number;
+  };
+}
+
+interface Meal {
+  id: string;
+  name: string;
+  slug: string;
+  restaurantSlug: string;
+  calories: number | null;
+  protein: number | null;
+  totalCarbohydrates: number | null;
+  totalFat: number | null;
+  sodium: number | null;
+  sugar: number | null;
+  dietaryFiber: number | null;
+  cholesterol: number | null;
+  proteinPerCalorie?: number | null;
+  proteinCarbRatio?: number | null;
+  categoryName: string;
+  restaurant: Restaurant;
+  [key: string]: any; // For allergen fields and other dynamic properties
+}
+
+interface Stats {
+  totalMeals: number;
+  avgCalories: number;
+  avgProtein: number;
+}
+
 interface ExploreClientProps {
-  meals: any[];
-  restaurants: any[];
-  categories: any[];
-  stats: any;
+  meals: Meal[];
+  restaurants: Restaurant[];
+  categories: Category[];
+  stats: Stats;
   initialQuery: string;
+}
+
+interface CalorieRange {
+  min: number | null;
+  max: number | null;
+}
+
+interface ProteinRange {
+  min: number | null;
+  max: number | null;
 }
 
 export default function ExploreClient({
@@ -65,8 +120,8 @@ export default function ExploreClient({
   // Filter states
   const [selectedRestaurants, setSelectedRestaurants] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [calorieRange, setCalorieRange] = useState({ min: null, max: null });
-  const [proteinRange, setProteinRange] = useState({ min: null, max: null });
+  const [calorieRange, setCalorieRange] = useState<CalorieRange>({ min: null, max: null });
+  const [proteinRange, setProteinRange] = useState<ProteinRange>({ min: null, max: null });
   const [allergens, setAllergens] = useState<string[]>([]);
   const [activePreset, setActivePreset] = useState<string | null>(null);
   
@@ -94,7 +149,7 @@ export default function ExploreClient({
         setActiveQuickFilters(['high-protein']);
       }
     }
-  }, [searchParams]);
+  }, [searchParams, activeQuickFilters]);
 
   // Format meals
   const formattedMeals = useMemo(
@@ -131,8 +186,9 @@ export default function ExploreClient({
     // Calorie filter
     if (calorieRange.min !== null || calorieRange.max !== null) {
       filtered = filtered.filter(meal => {
-        if (calorieRange.min !== null && meal.calories < calorieRange.min) return false;
-        if (calorieRange.max !== null && meal.calories > calorieRange.max) return false;
+        const calories = meal.calories ?? 0;
+        if (calorieRange.min !== null && calories < calorieRange.min) return false;
+        if (calorieRange.max !== null && calories > calorieRange.max) return false;
         return true;
       });
     }
@@ -140,8 +196,9 @@ export default function ExploreClient({
     // Protein filter
     if (proteinRange.min !== null || proteinRange.max !== null) {
       filtered = filtered.filter(meal => {
-        if (proteinRange.min !== null && meal.protein < proteinRange.min) return false;
-        if (proteinRange.max !== null && meal.protein > proteinRange.max) return false;
+        const protein = meal.protein ?? 0;
+        if (proteinRange.min !== null && protein < proteinRange.min) return false;
+        if (proteinRange.max !== null && protein > proteinRange.max) return false;
         return true;
       });
     }
@@ -155,14 +212,14 @@ export default function ExploreClient({
 
     // Quick filters
     if (activeQuickFilters.includes('high-protein')) {
-      filtered = filtered.filter(meal => meal.protein >= 30);
+      filtered = filtered.filter(meal => (meal.protein ?? 0) >= 30);
     }
     if (activeQuickFilters.includes('low-calorie')) {
-      filtered = filtered.filter(meal => meal.calories <= 400);
+      filtered = filtered.filter(meal => (meal.calories ?? 0) <= 400);
     }
     if (activeQuickFilters.includes('keto')) {
       filtered = filtered.filter(meal => 
-        meal.totalCarbohydrates <= 10 && meal.totalFat >= 15
+        (meal.totalCarbohydrates ?? 0) <= 10 && (meal.totalFat ?? 0) >= 15
       );
     }
     if (activeQuickFilters.includes('vegetarian')) {
@@ -186,7 +243,7 @@ export default function ExploreClient({
   ]);
 
   // Sort configuration
-  let { items, requestSort, SortableTableHeader, sortConfig } = useSortableData(filteredMeals, {
+  const { items, requestSort, SortableTableHeader, sortConfig } = useSortableData(filteredMeals, {
     key: sortBy,
     direction: sortBy === 'name' ? 'ascending' : 'descending'
   });
@@ -332,7 +389,7 @@ export default function ExploreClient({
                       className="rounded text-blue-600"
                     />
                     <span className="text-sm">{restaurant.name}</span>
-                    <span className="text-xs text-gray-500">({restaurant._count.meals})</span>
+                    <span className="text-xs text-gray-500">({restaurant._count?.meals ?? 0})</span>
                   </label>
                 ))}
               </div>
@@ -360,7 +417,7 @@ export default function ExploreClient({
                       className="rounded text-blue-600"
                     />
                     <span className="text-sm">{category.name}</span>
-                    <span className="text-xs text-gray-500">({category._count.meals})</span>
+                    <span className="text-xs text-gray-500">({category._count?.meals ?? 0})</span>
                   </label>
                 ))}
               </div>
@@ -377,7 +434,7 @@ export default function ExploreClient({
                   <Input
                     type="number"
                     placeholder="Min"
-                    value={calorieRange.min || ''}
+                    value={calorieRange.min ?? ''}
                     onChange={(e) => setCalorieRange({
                       ...calorieRange,
                       min: e.target.value ? Number(e.target.value) : null
@@ -388,7 +445,7 @@ export default function ExploreClient({
                   <Input
                     type="number"
                     placeholder="Max"
-                    value={calorieRange.max || ''}
+                    value={calorieRange.max ?? ''}
                     onChange={(e) => setCalorieRange({
                       ...calorieRange,
                       max: e.target.value ? Number(e.target.value) : null
@@ -405,7 +462,7 @@ export default function ExploreClient({
                   <Input
                     type="number"
                     placeholder="Min"
-                    value={proteinRange.min || ''}
+                    value={proteinRange.min ?? ''}
                     onChange={(e) => setProteinRange({
                       ...proteinRange,
                       min: e.target.value ? Number(e.target.value) : null
@@ -416,7 +473,7 @@ export default function ExploreClient({
                   <Input
                     type="number"
                     placeholder="Max"
-                    value={proteinRange.max || ''}
+                    value={proteinRange.max ?? ''}
                     onChange={(e) => setProteinRange({
                       ...proteinRange,
                       max: e.target.value ? Number(e.target.value) : null
@@ -439,7 +496,7 @@ export default function ExploreClient({
               activePreset={activePreset}
               onChange={(min, max, presetName) => {
                 setCalorieRange({ min, max });
-                setActivePreset(presetName);
+                setActivePreset(presetName || null);
               }}
             />
             
@@ -447,9 +504,16 @@ export default function ExploreClient({
               allergens={allergens}
               setAllergens={(value) => {
                 if (typeof value === 'function') {
-                  setAllergens(value(allergens));
-                } else {
+                  setAllergens(value({ 
+                    parentCategories: [], 
+                    allergens, 
+                    thematicFilter: undefined, 
+                    calories: { min: null, max: null } 
+                  }).allergens);
+                } else if (value && 'allergens' in value) {
                   setAllergens(value.allergens);
+                } else {
+                  setAllergens([]);
                 }
               }}
             />
@@ -502,7 +566,7 @@ export default function ExploreClient({
             showRestaurantData={true}
             isGrouped={false}
             requestSort={requestSort}
-            sortConfig={sortConfig}
+            sortConfig={sortConfig || null}
           />
 
           {/* Load More Button */}

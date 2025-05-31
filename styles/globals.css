@@ -189,3 +189,8 @@ body {
 .slide-in-from-top-2 {
   animation-name: slide-in-from-top;
 }
+
+/* Very light blue for sorted columns */
+.bg-blue-25 {
+  background-color: rgb(239 246 255);
+}

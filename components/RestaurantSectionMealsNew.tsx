@@ -233,7 +233,7 @@ function MealTable({
     <div className="bg-white">
       {/* Category Header - ESPN Style */}
       {categoryName && (
-        <div className="bg-gray-900 text-white px-1 py-1.5 text-xs  font-semibold uppercase tracking-wider">
+        <div className="bg-gray-900 text-white px-2 py-1.5 text-xs  font-semibold uppercase tracking-wider">
           {categoryName}
         </div>
       )}
@@ -431,7 +431,7 @@ export function RestaurantSectionMealsNew({
         .filter((group) => group.items.length > 0)
     : [{ categoryName: null, items: sortedItems }];
 
-  // Column configuration (same as before)
+  // Column configuration with explicit backgrounds
   const columns = [
     { 
       key: 'name', 
@@ -610,140 +610,161 @@ export function RestaurantSectionMealsNew({
   return (
     <section className="mt-2 md:mt-6">
       <div className="border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white">
-        {/* Single scrollable container for all tables */}
+        {/* Single scrollable container for ALL tables */}
         <div 
           ref={scrollContainerRef}
           className="overflow-x-auto scrollbar-thin"
         >
           <div className="inline-block min-w-full">
-            {/* Fixed header that doesn't scroll vertically */}
-            <div className="sticky top-0 z-30 bg-white">
-              <div className="flex bg-gray-100 border-b border-gray-200">
-                {columns.map((col) => (
-                  <div
-                    key={col.key}
-                    className={cn(
-                      col.className,
-                      col.headerClass,
-                      "flex items-center justify-center pt-1.5 pb-1 px-1 cursor-pointer hover:bg-gray-200 transition-colors",
-                      "text-xs md:text-sm font-semibold uppercase tracking-wider",
-                      col.sticky && "sticky left-0 z-20 bg-gray-100 shadow-[2px_0_4px_-2px_rgba(0,0,0,0.1)]",
-                      sortConfig?.key === col.sortKey && "!bg-blue-100 hover:!bg-blue-200"
-                    )}
-                    onClick={() => {
-                      if (col.sortKey && requestSort) {
-                        requestSort(col.sortKey, col.defaultDirection);
-                      }
-                    }}
-                  >
-                    <span className={cn("truncate flex items-center", col.align === 'left' && "w-full")}>
-                      <span className="hidden md:inline">{col.label}</span>
-                      <span className="md:hidden">{col.mobileLabel}</span>
-                      {col.sortKey && <SortArrow sortKey={col.sortKey} defaultDirection={col.defaultDirection} />}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* All data rows */}
             {groupedItems.map((group, groupIndex) => (
-              <div key={group.categoryName || 'all'}>
-                {/* Category Header */}
+              <div key={group.categoryName || 'all'} className={cn(
+                groupIndex > 0 && " "
+              )}>
+                {/* Category Header - Sticky to left */}
                 {group.categoryName && (
-                  <div className="flex">
-                    <div className="bg-gray-900 text-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wider sticky left-0 z-10 shadow-[2px_0_4px_-2px_rgba(0,0,0,0.1)]">
-                      {group.categoryName}
+                  <div className="flex  h-[36px] md:h-[48px] ">
+                    {/* Sticky part */}
+                    <div className="    px-2 sticky left-0 z-25    border-b  border-gray-200  ">
+                      <div className=" pt-3 md:pt-5 md:py-2 w-full  ">
+                        <h3 className="text-sm md:text-base font-semibold   flex items-center gap-2">
+                           
+                          {group.categoryName}
+                          {/* <span className="text-xs font-normal text-gray-500 ml-2">
+                            ({group.items.length})
+                          </span> */}
+                        </h3>
+                      </div>
                     </div>
-                    <div className="bg-gray-900 flex-1" />
+                    {/* Non-sticky filler to maintain full width */}
+                    <div className="flex-1 bg-gradient-to-r  border-b   border-gray-200">
+                      <div className="py-2.5 md:py-3">&nbsp;</div>
+                    </div>
                   </div>
                 )}
 
+                {/* Headers for this section */}
+                <div className="flex bg-gray-50 border-b border-gray-200">
+                  {columns.map((col) => (
+                    <div
+                      key={col.key}
+                      className={cn(
+                        col.className,
+                        col.headerClass,
+                        "flex items-center justify-center py-1.5 px-2 cursor-pointer hover:bg-gray-100 transition-colors",
+                        "text-[10px] md:text-xs font-semibold uppercase tracking-wider text-gray-600",
+                        col.sticky && "sticky left-0 z-20 bg-gray-50 shadow-[2px_0_4px_-2px_rgba(0,0,0,0.1)]",
+                        sortConfig?.key === col.sortKey && "!bg-blue-50 hover:!bg-blue-100 !text-blue-700"
+                      )}
+                      onClick={() => {
+                        if (col.sortKey && requestSort) {
+                          requestSort(col.sortKey, col.defaultDirection);
+                        }
+                      }}
+                    >
+                      <span className={cn("truncate flex items-center", col.align === 'left' && "w-full")}>
+                        <span className="hidden md:inline">{col.label}</span>
+                        <span className="md:hidden">{col.mobileLabel}</span>
+                        {col.sortKey && <SortArrow sortKey={col.sortKey} defaultDirection={col.defaultDirection} />}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
                 {/* Data rows for this category */}
                 {group.items.map((meal, rowIndex) => {
-                  const actualRowIndex = groupedItems
-                    .slice(0, groupIndex)
-                    .reduce((sum, g) => sum + g.items.length, 0) + rowIndex;
-                  const rowBgColor = actualRowIndex % 2 === 0 ? "bg-white" : "bg-gray-50/50";
+                  const isEvenRow = rowIndex % 2 === 0;
 
-                return (
+                  return (
                     <div
                       key={meal.id || `${meal.name}-${rowIndex}`}
                       className={cn(
-                        "flex hover:bg-gray-50 cursor-pointer transition-colors",
-                        rowBgColor,
-                        rowIndex === group.items.length - 1 && groupIndex < groupedItems.length - 1 && "border-b-2 border-gray-200"
+                        "flex hover:bg-gray-100 cursor-pointer transition-colors",
+                        isEvenRow ? "bg-white" : "bg-gray-50",
+                        "border-b border-gray-100"
                       )}
                       onClick={() => setSelectedMeal(meal)}
                     >
-                      {columns.map((col) => (
-                        <div
-                          key={`${meal.id}-${col.key}`}
-                          className={cn(
-                            col.className,
-                            col.cellClass,
-                            "flex items-center py-2 px-1 text-xs md:text-sm border-b border-gray-100",
-                            col.sticky && cn(
-                              "sticky left-0 z-10 shadow-[2px_0_4px_-2px_rgba(0,0,0,0.1)]",
-                              rowBgColor
-                            ),
-                            col.align === 'center' && "justify-center",
-                            col.align === 'left' && "justify-start",
-                            sortConfig?.key === col.sortKey && "!bg-blue-50"
-                          )}
-                        >
-                          {col.key === 'name' ? (
-                            <div className="flex items-center w-full min-w-0">
-                              {showRestaurantData && (
-                                <div className="relative w-4 h-4 md:w-5 md:h-5 mr-1.5 flex-shrink-0">
-                                  <Image
-                                    className="rounded"
-                                    src={`/images/logosSmall/${meal.restaurant.slug}.webp`}
-                                    alt={`${meal.restaurant.name} Logo`}
-                                    layout="fill"
-                                    objectFit="contain"
-                                  />
-                                </div>
-                              )}
-                              <div className="min-w-0 flex-1 overflow-hidden">
+                      {columns.map((col) => {
+                        // Set solid background for sticky columns
+                        const stickyBgClass = col.sticky 
+                          ? (isEvenRow ? "!bg-white" : "!bg-gray-50")
+                          : "";
+                        
+                        // Add blue tint for sorted columns
+                        const sortedBgClass = sortConfig?.key === col.sortKey
+                          ? (col.sticky 
+                              ? (isEvenRow ? "!bg-blue-50" : "!bg-blue-100/70")
+                              : "!bg-blue-50/50"
+                            )
+                          : "";
+
+                return (
+                          <div
+                            key={`${meal.id}-${col.key}`}
+                            className={cn(
+                              col.className,
+                              col.cellClass,
+                              "flex items-center py-2 px-2 text-xs md:text-sm",
+                              col.sticky && "sticky left-0 z-10 shadow-[2px_0_4px_-2px_rgba(0,0,0,0.1)]",
+                              col.align === 'center' && "justify-center",
+                              col.align === 'left' && "justify-start",
+                              stickyBgClass,
+                              sortedBgClass
+                            )}
+                          >
+                            {col.key === 'name' ? (
+                              <div className="flex items-center w-full min-w-0">
                                 {showRestaurantData && (
-                                  <div className="text-[10px] md:text-xs text-gray-500 truncate">
-                                    {meal.restaurant.name}
+                                  <div className="relative w-4 h-4 md:w-5 md:h-5 mr-1.5 flex-shrink-0">
+                                    <Image
+                                      className="rounded"
+                                      src={`/images/logosSmall/${meal.restaurant.slug}.webp`}
+                                      alt={`${meal.restaurant.name} Logo`}
+                                      layout="fill"
+                                      objectFit="contain"
+                                    />
                                   </div>
                                 )}
-                                <div className="font-medium truncate pr-2" title={meal.name}>
-                                  {meal.name}
+                                <div className="min-w-0 flex-1 overflow-hidden">
+                                  {showRestaurantData && (
+                                    <div className="text-[10px] md:text-xs text-gray-500 truncate">
+                                      {meal.restaurant.name}
+                                    </div>
+                                  )}
+                                  <div className="font-medium truncate pr-2" title={meal.name}>
+                                    {meal.name}
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          ) : (
-                            <span className={cn(
-                              "tabular-nums",
-                              col.key === 'custom' && "font-semibold text-green-600"
-                            )}>
-                              {(() => {
-                                const value = getValue(meal, col.key);
-                                if (value === null || value === undefined) return '-';
-                                
-                                if (col.decimals) {
-                                  return parseFloat(value).toFixed(col.decimals);
-                                }
-                                return value;
-                              })()}
-                              {col.unit && getValue(meal, col.key) && (
-                                <span className="text-[10px] md:text-xs text-gray-400 ml-0.5">
-                                  {col.unit}
-                                </span>
-                              )}
-                              {col.key === 'custom' && getValue(meal, col.key) && (
-                                <span className="text-[10px] md:text-xs text-gray-400 ml-0.5">
-                                  {getCustomNutritionRowInfo(thematicFilter)?.units}
-                                </span>
-                              )}
-                            </span>
-                          )}
-                        </div>
-                      ))}
+                            ) : (
+                              <span className={cn(
+                                "tabular-nums",
+                                col.key === 'custom' && "font-semibold text-green-600"
+                              )}>
+                                {(() => {
+                                  const value = getValue(meal, col.key);
+                                  if (value === null || value === undefined) return '-';
+                                  
+                                  if (col.decimals) {
+                                    return parseFloat(value).toFixed(col.decimals);
+                                  }
+                                  return value;
+                                })()}
+                                {col.unit && getValue(meal, col.key) && (
+                                  <span className="text-[10px] md:text-xs text-gray-400 ml-0.5">
+                                    {col.unit}
+                                  </span>
+                                )}
+                                {col.key === 'custom' && getValue(meal, col.key) && (
+                                  <span className="text-[10px] md:text-xs text-gray-400 ml-0.5">
+                                    {getCustomNutritionRowInfo(thematicFilter)?.units}
+                                  </span>
+                                )}
+                              </span>
+                            )}
+                          </div>
+                        );
+                      })}
                   </div>
                 );
               })}
