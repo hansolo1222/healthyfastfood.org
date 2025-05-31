@@ -213,110 +213,119 @@ export default function RestaurantClient({
             description={restaurant.description}
           />
 
-          {/* <section className="mb-4 p-4 bg-gray-50 rounded-lg">
-            <h2 className="sr-only">Restaurant Summary</h2>
-            <p className="text-sm text-gray-600">
-              Browse {filteredItems.length} menu items from {restaurant.name} with complete 
-              nutrition information including calories, carbs, fat, protein and more. 
-              Filter by dietary preferences and allergens.
-            </p>
-          </section> */}
-
-          <DietMenuTabs restaurantSlug={restaurant.slug} />
-
-          <div ref={scrollRef} />
-
-          {/* Desktop Filters */}
-          <div className="hidden md:block">
-            <RestaurantSectionCategories
-              categories={categoriesWithParents}
-              restaurant={restaurant}
-              onCategoryChange={setSelectedCategories}
-              isGrouped={isGrouped}
-              setIsGrouped={setIsGrouped}
-            />
-          </div>
-
-          {/* Mobile Filters */}
-          <div className="md:hidden px-2">
-            <div className="flex flex-wrap gap-2">
-              <RestaurantCategoriesMobile
-                categories={categoriesWithParents}
-                restaurant={restaurant}
-                onCategoryChange={setSelectedCategories}
-                isGrouped={isGrouped}
-                setIsGrouped={setIsGrouped}
-              />
-              
-              <CalorieFilterMobile
-                min={filters.calories.min}
-                max={filters.calories.max}
-                activePreset={activePreset}
-                onChange={(min, max, presetName) => {
-                  setFilters((prev) => ({
-                    ...prev,
-                    calories: { min, max },
-                  }));
-                  setActivePreset(presetName);
-                }}
-              />
-              
-              <AllergenFilterMobile
-                allergens={filters.allergens}
-                setAllergens={setFilters}
-              />
+          {filteredItems.length === 0 ? (
+            <div className="mt-8 p-8 bg-gray-50 rounded-lg text-center">
+              <p className="text-gray-600 text-lg">
+                No menu items are currently available for {restaurant.name}.
+              </p>
+              <p className="text-gray-500 mt-2">
+                Please check back later for nutrition information.
+              </p>
             </div>
-          </div>
+          ) : (
+            <>
+              <DietMenuTabs restaurantSlug={restaurant.slug} />
 
-          {/* Commented out for now */}
-          {/* <RestaurantSectionDesktopThematicSort
-            thematicFilter={filters.thematicFilter}
-            setThematicFilter={setFilters}
-            setShowCustomRow={setShowCustomRow}
-          /> */}
+              <div ref={scrollRef} />
 
-          <div aria-label="Menu items nutrition table">
-            <RestaurantSectionMealsNew
-              restaurant={restaurant}
-              categoriesWithParents={categoriesWithParents}
-              showCustomRow={filters.thematicFilter !== undefined}
-              thematicFilter={filters.thematicFilter}
-              SortableTableHeader={SortableTableHeader}
-              umbrellaCategories={filters.parentCategories}
-              getUmbrellaCategory={getUmbrellaCategory}
-              items={filteredItems}
-              variant="normal"
-              group={isGrouped}
-              showRestaurantData={false}
-              isGrouped={isGrouped}
-              requestSort={requestSort}
-              sortConfig={sortConfig}
-            />
-          </div>
+              {/* Desktop Filters */}
+              <div className="hidden md:block">
+                <RestaurantSectionCategories
+                  categories={categoriesWithParents}
+                  restaurant={restaurant}
+                  onCategoryChange={setSelectedCategories}
+                  isGrouped={isGrouped}
+                  setIsGrouped={setIsGrouped}
+                />
+              </div>
 
-          <section className="mt-8 p-6 bg-white rounded-lg" itemScope itemType="https://schema.org/FAQPage">
-            <h2 className="text-xl font-semibold mb-4">
-              Frequently Asked Questions about {restaurant.name} Nutrition
-            </h2>
-            <div className="space-y-4">
-              <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-                <h3 itemProp="name" className="font-medium">
-                  What is the lowest calorie item at {restaurant.name}?
-                </h3>
-                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-                  <p itemProp="text" className="text-gray-600 mt-1">
-                    {(() => {
-                      const lowestCalItem = filteredItems.reduce((min, item) => 
-                        item.calories < min.calories ? item : min
-                      );
-                      return `The ${lowestCalItem.name} with only ${lowestCalItem.calories} calories.`;
-                    })()}
-                  </p>
+              {/* Mobile Filters */}
+              <div className="md:hidden px-2">
+                <div className="flex flex-wrap gap-2">
+                  <RestaurantCategoriesMobile
+                    categories={categoriesWithParents}
+                    restaurant={restaurant}
+                    onCategoryChange={setSelectedCategories}
+                    isGrouped={isGrouped}
+                    setIsGrouped={setIsGrouped}
+                  />
+                  
+                  <CalorieFilterMobile
+                    min={filters.calories.min}
+                    max={filters.calories.max}
+                    activePreset={activePreset}
+                    onChange={(min, max, presetName) => {
+                      setFilters((prev) => ({
+                        ...prev,
+                        calories: { min, max },
+                      }));
+                      setActivePreset(presetName);
+                    }}
+                  />
+                  
+                  <AllergenFilterMobile
+                    allergens={filters.allergens}
+                    setAllergens={setFilters}
+                  />
                 </div>
               </div>
-              {/* Add more FAQs */}
-            </div>
-          </section>
+
+              {/* Commented out for now */}
+              {/* <RestaurantSectionDesktopThematicSort
+                thematicFilter={filters.thematicFilter}
+                setThematicFilter={setFilters}
+                setShowCustomRow={setShowCustomRow}
+              /> */}
+
+              <div aria-label="Menu items nutrition table">
+                <RestaurantSectionMealsNew
+                  restaurant={restaurant}
+                  categoriesWithParents={categoriesWithParents}
+                  showCustomRow={filters.thematicFilter !== undefined}
+                  thematicFilter={filters.thematicFilter}
+                  SortableTableHeader={SortableTableHeader}
+                  umbrellaCategories={filters.parentCategories}
+                  getUmbrellaCategory={getUmbrellaCategory}
+                  items={filteredItems}
+                  variant="normal"
+                  group={isGrouped}
+                  showRestaurantData={false}
+                  isGrouped={isGrouped}
+                  requestSort={requestSort}
+                  sortConfig={sortConfig}
+                />
+              </div>
+
+              <section className="mt-8 p-6 bg-white rounded-lg" itemScope itemType="https://schema.org/FAQPage">
+                <h2 className="text-xl font-semibold mb-4">
+                  Frequently Asked Questions about {restaurant.name} Nutrition
+                </h2>
+                <div className="space-y-4">
+                  {filteredItems.length > 0 ? (
+                    <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                      <h3 itemProp="name" className="font-medium">
+                        What is the lowest calorie item at {restaurant.name}?
+                      </h3>
+                      <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                        <p itemProp="text" className="text-gray-600 mt-1">
+                          {(() => {
+                            const lowestCalItem = filteredItems.reduce((min, item) => 
+                              item.calories < min.calories ? item : min
+                            );
+                            return `The ${lowestCalItem.name} with only ${lowestCalItem.calories} calories.`;
+                          })()}
+                        </p>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="text-gray-600">
+                      <p>No menu items are currently available for {restaurant.name}.</p>
+                    </div>
+                  )}
+                </div>
+              </section>
+            </>
+          )}
         </article>
       </main>
     </>
