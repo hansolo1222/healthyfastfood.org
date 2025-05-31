@@ -52,7 +52,7 @@ export function RestaurantSectionCategories({
 
         <div className="flex items-start gap-2">
 
-        <RadioGroup
+        {/* <RadioGroup
             defaultValue={isGrouped ? "grouped" : "ungrouped"}
             onValueChange={(value) => setIsGrouped(value === "grouped")}
             className="flex bg-stone-100 rounded gap-0"
@@ -92,8 +92,8 @@ export function RestaurantSectionCategories({
                 </label>
               </Button>
             </div>
-          </RadioGroup>
-        <div className="flex flex-wrap gap-2 border-l pl-2">
+          </RadioGroup> */}
+        <div className="flex flex-wrap gap-2 ">
           <Button
             variant={"outline"}
             size="sm"

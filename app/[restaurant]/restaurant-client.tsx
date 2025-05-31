@@ -32,7 +32,10 @@ import EmailSignup from "../../components/EmailSignup";
 
 import _ from "lodash";
 import { MobileFilterContainer } from "../../components/MobileFilters/MobileFilterContainer";
-import { AsideMenuType } from "../../components/AsideMenuType";
+import { DietMenuTabs } from "../../components/DietMenuTabs";
+import { RestaurantCategoriesMobile } from "../../components/RestaurantCategoriesMobile";
+import { CalorieFilterMobile } from "../../components/CalorieFilterMobile";
+import { AllergenFilterMobile } from "../../components/AllergenFilterMobile";
 // import { MobileFilterContainer } from "@/components/MobileFilters/MobileFilterContainer"
 MobileFilterContainer
 interface RestaurantProps {
@@ -148,7 +151,7 @@ export default function RestaurantClient({
 
   //--------------------------- SORT ---------------------------
 
-  let { items, requestSort, SortableTableHeader } = useSortableData(filteredMeals, {
+  let { items, requestSort, SortableTableHeader, sortConfig } = useSortableData(filteredMeals, {
     key: "name",
     direction: "ascending"
   });
@@ -163,22 +166,15 @@ export default function RestaurantClient({
 
   const [isGrouped, setIsGrouped] = useState(true);
 
-  const [view, setView] = useState<"list" | "chart">("list");
-
   return (
     <>
-      <MobileFilterContainer 
+      {/* <MobileFilterContainer 
         filters={filters}
         setFilters={setFilters}
         activePreset={activePreset}
-        setActivePreset={setActivePreset}
-      />
-      <main className="flex  ">
+        setActivePreset={setActivePreset}   /> */}
+      <main className="flex" itemScope itemType="https://schema.org/Restaurant">
         <aside className="hidden lg:block shrink-0 pb-10 w-56 pr-8">
-          <AsideMenuType 
-            restaurantSlug={restaurant.slug}
-            activeMenu="full"
-          />
           <AsideCalorieFilter
             min={filters.calories.min}
             max={filters.calories.max}
@@ -204,95 +200,125 @@ export default function RestaurantClient({
               }));
             }}
           />
-
-          {/* <AsideTopRestaurants restaurants={restaurants} /> */}
         </aside>
 
-        <article className="w-full ">
+        <article className="w-full" itemProp="menu" itemScope itemType="https://schema.org/Menu">
           <RestaurantSectionHeader
             pages={pages}
             entity={restaurant}
             titleBlack={restaurant.name}
             titleGray={` Nutrition Facts and Calories`}
             emoji={null}
+            totalItems={filteredItems.length}
+            description={restaurant.description}
           />
-          {/* <Tabs activeTab="all" slug={`/${restaurant.slug}`} /> */}
+
+          {/* <section className="mb-4 p-4 bg-gray-50 rounded-lg">
+            <h2 className="sr-only">Restaurant Summary</h2>
+            <p className="text-sm text-gray-600">
+              Browse {filteredItems.length} menu items from {restaurant.name} with complete 
+              nutrition information including calories, carbs, fat, protein and more. 
+              Filter by dietary preferences and allergens.
+            </p>
+          </section> */}
+
+          <DietMenuTabs restaurantSlug={restaurant.slug} />
 
           <div ref={scrollRef} />
 
-          {/* <RestaurantSectionMobileFilter
-            showCalorieFilter={showCalorieFilter}
-            setShowCalorieFilter={setShowCalorieFilter}
-            setMinCalories={(min) => updateFilter("calories", { ...filters.calories, min })}
-            setMaxCalories={(max) => updateFilter("calories", { ...filters.calories, max })}
-            displayMinCalories={filters.calories.min === 0 ? null : filters.calories.min}
-            displayMaxCalories={filters.calories.max === 10000 ? null : filters.calories.max}
-            setDisplayMinCalories={setDisplayMinCalories}
-            setDisplayMaxCalories={setDisplayMaxCalories}
-            caloriesMessage={caloriesMessage}
-            setCaloriesMessage={setCaloriesMessage}
-            caloriePreset={caloriePreset}
-            setCaloriePreset={setCaloriePreset}
+          {/* Desktop Filters */}
+          <div className="hidden md:block">
+            <RestaurantSectionCategories
+              categories={categoriesWithParents}
+              restaurant={restaurant}
+              onCategoryChange={setSelectedCategories}
+              isGrouped={isGrouped}
+              setIsGrouped={setIsGrouped}
+            />
+          </div>
+
+          {/* Mobile Filters */}
+          <div className="md:hidden px-2">
+            <div className="flex flex-wrap gap-2">
+              <RestaurantCategoriesMobile
+                categories={categoriesWithParents}
+                restaurant={restaurant}
+                onCategoryChange={setSelectedCategories}
+                isGrouped={isGrouped}
+                setIsGrouped={setIsGrouped}
+              />
+              
+              <CalorieFilterMobile
+                min={filters.calories.min}
+                max={filters.calories.max}
+                activePreset={activePreset}
+                onChange={(min, max, presetName) => {
+                  setFilters((prev) => ({
+                    ...prev,
+                    calories: { min, max },
+                  }));
+                  setActivePreset(presetName);
+                }}
+              />
+              
+              <AllergenFilterMobile
+                allergens={filters.allergens}
+                setAllergens={setFilters}
+              />
+            </div>
+          </div>
+
+          {/* Commented out for now */}
+          {/* <RestaurantSectionDesktopThematicSort
             thematicFilter={filters.thematicFilter}
             setThematicFilter={setFilters}
             setShowCustomRow={setShowCustomRow}
-            scrollRef={scrollRef}
-            netCarbLimit={0} // Add these
-            netCarbMax={100} // four
-            handleNetCarbLimitChange={() => {}} // new
-            marks={{}} // props
           /> */}
 
-          <RestaurantSectionCategories
-            categories={categoriesWithParents}
-            restaurant={restaurant}
-            onCategoryChange={setSelectedCategories}
-            isGrouped={isGrouped}
-            setIsGrouped={setIsGrouped}
-          />
-          <RestaurantSectionTabs view={view} onChange={setView} />
-
-          {view === "list" ? (
-            <>
-              <RestaurantSectionDesktopThematicSort
-                thematicFilter={filters.thematicFilter}
-                setThematicFilter={setFilters}
-                setShowCustomRow={setShowCustomRow}
-              />
-              <RestaurantSectionMealsNew
-                restaurant={restaurant}
-                categoriesWithParents={categoriesWithParents}
-                showCustomRow={filters.thematicFilter !== undefined}
-                thematicFilter={filters.thematicFilter}
-                SortableTableHeader={SortableTableHeader}
-                umbrellaCategories={filters.parentCategories}
-                getUmbrellaCategory={getUmbrellaCategory}
-                items={filteredItems}
-                variant="normal"
-                group={isGrouped}
-                showRestaurantData={false}
-                isGrouped={isGrouped}
-              />
-            </>
-          ) : (
-            <RestaurantSectionChart
-              setThematicFilter={setFilters}
+          <div aria-label="Menu items nutrition table">
+            <RestaurantSectionMealsNew
               restaurant={restaurant}
               categoriesWithParents={categoriesWithParents}
+              showCustomRow={filters.thematicFilter !== undefined}
+              thematicFilter={filters.thematicFilter}
+              SortableTableHeader={SortableTableHeader}
               umbrellaCategories={filters.parentCategories}
               getUmbrellaCategory={getUmbrellaCategory}
               items={filteredItems}
+              variant="normal"
+              group={isGrouped}
               showRestaurantData={false}
               isGrouped={isGrouped}
-              yAxis={filters.thematicFilter || "percentFromProtein"} // Default to protein if no filter selected
-              
+              requestSort={requestSort}
+              sortConfig={sortConfig}
             />
-          )}
+          </div>
 
-          {/* <FAQ faqs={faqs} /> */}
+          <section className="mt-8 p-6 bg-white rounded-lg" itemScope itemType="https://schema.org/FAQPage">
+            <h2 className="text-xl font-semibold mb-4">
+              Frequently Asked Questions about {restaurant.name} Nutrition
+            </h2>
+            <div className="space-y-4">
+              <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 itemProp="name" className="font-medium">
+                  What is the lowest calorie item at {restaurant.name}?
+                </h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p itemProp="text" className="text-gray-600 mt-1">
+                    {(() => {
+                      const lowestCalItem = filteredItems.reduce((min, item) => 
+                        item.calories < min.calories ? item : min
+                      );
+                      return `The ${lowestCalItem.name} with only ${lowestCalItem.calories} calories.`;
+                    })()}
+                  </p>
+                </div>
+              </div>
+              {/* Add more FAQs */}
+            </div>
+          </section>
         </article>
       </main>
-      {/* <EmailSignup /> */}
     </>
   );
 }

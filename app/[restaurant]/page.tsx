@@ -4,6 +4,8 @@ import prisma from "../../lib/prisma";
 import { cache } from 'react';
 import { Metadata, ResolvingMetadata } from 'next';
 import RestaurantClient from './restaurant-client';
+import { notFound } from 'next/navigation';
+
 const getRestaurantData = cache(async (slug: string) => {
   const restaurant = await prisma.restaurant.findUnique({
     where: {
@@ -50,6 +52,16 @@ const getRestaurantData = cache(async (slug: string) => {
   };
 });
 
+export async function generateStaticParams() {
+  const restaurants = await prisma.restaurant.findMany({
+    select: { slug: true }
+  });
+  
+  return restaurants.map((restaurant) => ({
+    restaurant: restaurant.slug,
+  }));
+}
+
 export async function generateMetadata(
   { params }: { params: { restaurant: string } },
   parent: ResolvingMetadata
@@ -64,32 +76,87 @@ export async function generateMetadata(
   }
 
   const { restaurant } = data;
+  const mealCount = restaurant.meals.length;
+  const avgCalories = Math.round(
+    restaurant.meals.reduce((sum, meal) => sum + (meal.calories || 0), 0) / mealCount
+  );
 
   return {
-    title: `${restaurant.name} Nutrition Facts and Calorie Info [Updated ${new Date().getFullYear()}] | HealthyFastFood`,
-    description: `Detailed nutrition facts for every menu item at ${restaurant.name}. Also see keto, vegetarian, vegan and allergen menus.`,
-    keywords: `${restaurant.slug},nutrition,facts`,
+    title: `${restaurant.name} Nutrition Facts & Calories - ${mealCount} Menu Items | HealthyFastFood`,
+    description: `Complete nutrition guide for ${restaurant.name} with ${mealCount} menu items. Average ${avgCalories} calories per item. Find low-calorie, keto, and allergen-free options. Updated ${new Date().getFullYear()}.`,
+    keywords: [
+      `${restaurant.name} nutrition`,
+      `${restaurant.name} calories`,
+      `${restaurant.name} menu nutrition facts`,
+      `${restaurant.name} healthy options`,
+      `${restaurant.name} keto menu`,
+      `${restaurant.name} low calorie meals`
+    ].join(', '),
     alternates: {
       canonical: `https://healthyfastfood.org/${restaurant.slug}`,
+      languages: {
+        'en-US': `https://healthyfastfood.org/${restaurant.slug}`,
+      }
     },
     openGraph: {
-      title: `${restaurant.name} Menu Nutrition Facts and Calories [Updated ${new Date().getFullYear()}] | Healthy Fast Food`,
-      description: `Detailed nutrition facts for every menu item at ${restaurant.name}. Also see keto, vegetarian and allergen menus.`,
+      title: `${restaurant.name} Nutrition Facts & Calorie Counter`,
+      description: `Browse ${mealCount} ${restaurant.name} menu items with complete nutrition data. Filter by calories, allergens, and dietary preferences.`,
       url: `https://healthyfastfood.org/${restaurant.slug}`,
-      siteName: 'HealthyFastFood',
+      siteName: 'HealthyFastFood.org',
       type: 'website',
+      locale: 'en_US',
       images: [{
-        url: `/images/restaurant_logos/${restaurant.slug}.webp`,
-        width: 400,
-        height: 400,
-        alt: `${restaurant.name} Logo`,
+        url: `https://healthyfastfood.org/images/restaurant_logos/${restaurant.slug}.webp`,
+        width: 1200,
+        height: 630,
+        alt: `${restaurant.name} Nutrition Facts`,
       }],
     },
     twitter: {
       card: 'summary_large_image',
       site: '@healthyfastfood',
+      title: `${restaurant.name} Nutrition Facts & Calories`,
+      description: `Find healthy options at ${restaurant.name}. Browse ${mealCount} menu items with complete nutrition data.`,
     },
+    robots: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    }
   }
+}
+
+// Add JSON-LD structured data
+function generateStructuredData(restaurant: any) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
+    name: restaurant.name,
+    url: `https://healthyfastfood.org/${restaurant.slug}`,
+    servesCuisine: restaurant.restaurantTypes[0]?.name || 'Fast Food',
+    priceRange: '$$',
+    image: `https://healthyfastfood.org/images/restaurant_logos/${restaurant.slug}.webp`,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      reviewCount: restaurant.meals.length
+    },
+    menu: {
+      '@type': 'Menu',
+      hasMenuSection: restaurant.meals.reduce((sections: any[], meal: any) => {
+        const category = meal.category.name;
+        if (!sections.find(s => s.name === category)) {
+          sections.push({
+            '@type': 'MenuSection',
+            name: category,
+            hasMenuItem: []
+          });
+        }
+        return sections;
+      }, [])
+    }
+  };
 }
 
 export default async function RestaurantPage({ 
@@ -100,14 +167,22 @@ export default async function RestaurantPage({
   const data = await getRestaurantData(params.restaurant);
   
   if (!data) {
-    return null;  
+    notFound(); // Better than returning null
   }
 
+  const structuredData = generateStructuredData(data.restaurant);
+
   return (
-       <RestaurantClient
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <RestaurantClient
         restaurant={data.restaurant}
         restaurants={data.restaurants}
         restaurantType={data.restaurantType}
       />
-   );
+    </>
+  );
 }

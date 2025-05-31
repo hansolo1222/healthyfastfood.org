@@ -1,40 +1,104 @@
 import { Metadata } from 'next'
 import prisma from "../lib/prisma"
 import HomeClient from './home-client'
-import { createClient } from '../utils/supabase/server'
-import { cookies } from 'next/headers'
 
 export const metadata: Metadata = {
-  title: 'HealthyFastFood - Compare Fast Food Nutrition Facts Across Restaurants',
-  description: 'Find the healthiest options at every major restaurant chain. Compare nutrition facts, filter by diet type, and discover high-protein, low-carb alternatives.',
+  title: 'HealthyFastFood - Find Healthy Options at Every Restaurant',
+  description: 'Compare nutrition facts across 100+ restaurant chains. Filter by calories, protein, carbs, and allergens. Find keto, low-carb, and high-protein meals instantly.',
+  keywords: 'fast food nutrition, healthy fast food, restaurant calories, protein meals, keto fast food',
+  openGraph: {
+    title: 'HealthyFastFood - Smart Fast Food Choices',
+    description: 'The most comprehensive nutrition database for restaurant meals',
+    images: ['/og-image.jpg'],
+  }
 }
 
+export const revalidate = 3600 // Revalidate every hour
+
 export default async function HomePage() {
-  const cookieStore = cookies()
-  const supabase = createClient(cookieStore)
+  // Parallel data fetching for better performance
+  const [
+    restaurants,
+    categories,
+    stats,
+    popularHealthyMeals,
+    recentSearches
+  ] = await Promise.all([
+    // Top restaurants - ONLY those with meals
+    prisma.restaurant.findMany({
+      where: {
+        meals: {
+          some: {} // Only restaurants that have at least one meal
+        }
+      },
+      orderBy: [{ locations: 'desc' }],
+      take: 12,
+      include: {
+        _count: { select: { meals: true } }
+      }
+    }),
 
-  // const { data: { user } } = await supabase.auth.getUser()
+    // Categories with meal counts
+    prisma.category.findMany({
+      include: {
+        _count: { select: { meals: true } },
+        parentCategory: true
+      },
+      take: 8,
+      orderBy: { meals: { _count: 'desc' } }
+    }),
 
-  // Get existing data for HomeClient
-  const restaurants = await prisma.restaurant.findMany({
-    orderBy: [{ rank: 'asc' }],
-  })
+    // Platform statistics
+    Promise.all([
+      prisma.meal.count(),
+      prisma.restaurant.count(),
+      prisma.meal.findMany({
+        where: { calories: { lt: 500 } },
+        select: { id: true }
+      }).then(meals => meals.length),
+      prisma.meal.findMany({
+        where: { protein: { gte: 30 } },
+        select: { id: true }
+      }).then(meals => meals.length)
+    ]).then(([totalMeals, totalRestaurants, lowCalMeals, highProteinMeals]) => ({
+      totalMeals,
+      totalRestaurants,
+      lowCalorieMeals: lowCalMeals,
+      highProteinMeals
+    })),
 
-  const parentCategories = await prisma.parentCategory.findMany()
+    // Popular healthy options
+    prisma.meal.findMany({
+      where: {
+        AND: [
+          { calories: { lte: 600 } },
+          { protein: { gte: 25 } }
+        ]
+      },
+      take: 6,
+      orderBy: [
+        { proteinPerCalorie: 'desc' }
+      ],
+      include: {
+        restaurant: true,
+        category: true
+      }
+    }),
 
-  const topProteinMeals = await prisma.meal.findMany({
-    take: 10,
-    orderBy: {
-      protein: 'desc'
-    }
-  })
-
-  await prisma.$disconnect()
+    // Mock recent searches (in real app, track actual searches)
+    Promise.resolve([
+      "McDonald's salads",
+      "Subway low carb",
+      "Chipotle keto bowl",
+      "Wendy's high protein"
+    ])
+  ])
 
   return <HomeClient 
     restaurants={restaurants}
-    parentCategories={parentCategories}
-    topProteinMeals={topProteinMeals}
-    // user={user}
+    categories={categories}
+    stats={stats}
+    popularHealthyMeals={popularHealthyMeals}
+    recentSearches={recentSearches}
   />
 } 
